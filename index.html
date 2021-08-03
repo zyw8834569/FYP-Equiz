@@ -1,245 +1,633 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="images/NTUfav.ico"/>
-<title>EE6306 E-learning Course</title>
-<!-- Bootstrap -->
-<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/infobox.css"/>
-<style type="text/css">
-</style>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="images/NTUfav.ico" />
+  <title>EE6306 E-learning Course</title>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap-4.4.1.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="css/infobox.css" />
+  <style type="text/css"></style>
 </head>
+
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <img src="images/NTU-logo-small.jpg" alt="" width="100" height="35" class="img-thumbnail"/><a class="navbar-brand" href="#">&nbsp; E-learning&nbsp;</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active"> <a class="nav-link home-adj" href="#">Home <span class="sr-only">(current)</span></a> </li>
-      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> IC Fundamentals </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a> </div>
-      </li>
-      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> CC Performance Estimation </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a> </div>
-      </li>
-      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> BiCMOSDigital Circuits </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a></div>
-      </li>
-      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a></div>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search for course" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-<section>
-  <div class="jumbotron text-center mt-2">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <img src="images/NTU-logo-small.jpg" alt="" width="100" height="35" class="img-thumbnail" /><a class="navbar-brand"
+      href="#">&nbsp; E-learning&nbsp;</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link home-adj" href="/index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Digital Integrated Circuit Theory&nbsp; </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="Chapter2.html">Circuit Characterization & Estimation</a>
+            <a class="dropdown-item" href="Chapter4.html">Nonideal I-V Effects & CMOS Logic</a>
+            <a class="dropdown-item" href="Chapter1.html">Integrated Circuit Fundamentals</a>
+            <a class="dropdown-item" href="Chapter3.html">BICMOS Digital circuits</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            CMOS Logic Circuits
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/Chapter6.html">Sequential CMOS Circuits & Low Power CMOS</a>
+            <a class="dropdown-item" href="/Chapter5.html">Statc & Dynamic CMOS Logic Circuits</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Digital Circuit Design
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/Chapter8.html">Sub-System Design & Design Methodology</a>
+            <a class="dropdown-item" href="/Chapter7.html">CMOS Design</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search for course" aria-label="Search" />
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          Search
+        </button>
+      </form>
+    </div>
+  </nav>
+  <section>
+    <div class="jumbotron text-center mt-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1>This web is design for E-learning</h1>
+            <p>
+              In this web site,it will contain severial chapiter to
+              learn&nbsp; &nbsp;
+            </p>
+            <p>
+              <a class="btn btn-primary btn-lg" href="Chapter1.html" role="button">Go to the Video&nbsp; &nbsp;»</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <h1>This web is design for E-learning</h1>
-          <p>In this web site,it will contain severial chapiter to learn&nbsp; &nbsp;</p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Go to the Video&nbsp; &nbsp;»</a></p>
+        <div class="col-12 text-center">
+          <h1>EE6306-Digital Intergrated Circuit Design</h1>
+          <p>
+            This course contains Review of Integrated Circuit Fundamentals,
+            Circuit Characterization and Performance Estimation and
+            BiCMOSDigital Circuits
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-md-4 col-12">
+          <ul class="list-unstyled">
+            <li class="media">
+              <img src="images/book-reader-solid.svg" alt="E-quiz" width="35" height="35" class="mr-3" />
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">
+                  Review of Integrated Circuit Fundamentals
+                </h5>
+                Characteristics of Digital Integrated Circuits,COMS
+                Logic,Other Competing Technologies,Layout Design Rules&nbsp;
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-12">
+          <ul class="list-unstyled">
+            <li class="media">
+              <img src="images/quidditch-solid.svg" alt="E-quiz" width="35" height="35" class="mr-3" />
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">
+                  Circuit Characterization and Performance Estimation
+                </h5>
+                Parastic Loading Estimation
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-12">
+          <ul class="list-unstyled">
+            <li class="media">
+              <img src="images/book-medical-solid.svg" alt="E-quiz" width="35" height="35" class="mr-3" />
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">BiCMOS Digital Circuits</h5>
+                Introduction to BICOMS Technology
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>E-learning video&nbsp;</h2>
+          <p>Showing some chapeter</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-12 text-center">
+          <div id="imageinfo-chaper1">
+            <div id="u303-popper-content--41-chapter1" aria-labelledby="u303-popper-trigger--40"
+              class="popper--popper-content--2KQmm udlite-popper-open course-details-quick-view-box--popover-wrapper--3jFIa"
+              style="left: -130px; top: 40px">
+              <div class="popover--popover--padding--3kLcw popover--popover--t3rNO">
+                <div class="popover--inner--373-v">
+                  <div>
+                    <a class="udlite-heading-lg course-details-quick-view-box--title--1vjpJ" href="./tower.jpg"
+                      data-purpose="quick-view-box-title"><strong>E-learning Courses</strong></a>
+                    <div class="course-details-quick-view-box--badge-container--1Qfpa">
+                      <span class="udlite-text-xs course-details-quick-view-box--updated--2bmvS">Course
+                        information</span>
+                    </div>
+                    <div class="udlite-text-sm course-details-quick-view-box--objectives--3WCDQ">
+                      <ul class="unstyled-list udlite-block-list">
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="popover--arrow--2k1aW popover--arrow--top--1kmD8" style="top: 100%; left: 180.75px"></div>
+              </div>
+            </div>
+            <a href="Chapter1.html"><img src="images/chapter_image/chapter1.JPG" alt="" width="350" height="252"
+                class="img-fluid textpic1" /></a>
+          </div>
+          <h4>Integrated Circuit Fundamentals</h4>
+          <h6>EE6306 - Chapeter 1</h6>
+        </div>
+        <div class="col-md-6 col-12 text-center">
+          <div id="imageinfo-chaper2">
+            <div id="u303-popper-content--41-chapter2" aria-labelledby="u303-popper-trigger--40"
+              class="popper--popper-content--2KQmm udlite-popper-open course-details-quick-view-box--popover-wrapper--3jFIa"
+              style="left: auto; top: 40px; right: -136px;">
+              <div class="popover--popover--padding--3kLcw popover--popover--t3rNO">
+                <div class="popover--inner--373-v">
+                  <div>
+                    <a class="udlite-heading-lg course-details-quick-view-box--title--1vjpJ" href="./tower.jpg"
+                      data-purpose="quick-view-box-title"><strong>E-learning Courses</strong></a>
+                    <div class="course-details-quick-view-box--badge-container--1Qfpa">
+                      <span class="udlite-text-xs course-details-quick-view-box--updated--2bmvS">Course
+                        information</span>
+                    </div>
+                    <div class="udlite-text-sm course-details-quick-view-box--objectives--3WCDQ">
+                      <ul class="unstyled-list udlite-block-list">
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="popover--arrow--2k1aW popover--arrow--top--1kmD8" style="top: 100%; left: 30.75px"></div>
+              </div>
+            </div>
+            <a href="Chapter2.html"><img src="images/chapter_image/chapter2.JPG" alt="" width="350" height="252"
+                class="img-fluid" /></a>
+          </div>
+          <h4>Circuit Characterization &amp; Estimation</h4>
+          <h6>EE6306 - Chapeter 2</h6>
+        </div>
+        <div class="col-md-6 col-12 text-center">
+          <div id="imageinfo-chaper3">
+            <div id="u303-popper-content--41-chapter3" aria-labelledby="u303-popper-trigger--40"
+              class="popper--popper-content--2KQmm udlite-popper-open course-details-quick-view-box--popover-wrapper--3jFIa"
+              style="left: -130px; top: 40px; right: auto;">
+              <div class="popover--popover--padding--3kLcw popover--popover--t3rNO">
+                <div class="popover--inner--373-v">
+                  <div>
+                    <a class="udlite-heading-lg course-details-quick-view-box--title--1vjpJ" href="./tower.jpg"
+                      data-purpose="quick-view-box-title"><strong>3E-learning Courses</strong></a>
+                    <div class="course-details-quick-view-box--badge-container--1Qfpa">
+                      <span class="udlite-text-xs course-details-quick-view-box--updated--2bmvS">Course
+                        information</span>
+                    </div>
+                    <div class="udlite-text-sm course-details-quick-view-box--objectives--3WCDQ">
+                      <ul class="unstyled-list udlite-block-list">
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="popover--arrow--2k1aW popover--arrow--top--1kmD8" style="top: 100%; left: 180.75px"></div>
+              </div>
+            </div>
+            <a href="Chapter3.html"><img src="images/chapter_image/chapter3.JPG" alt="" width="350" height="252"
+                class="img-fluid textpic1" /></a>
+          </div>
+          <h4>BICMOS Digital circuits</h4>
+          <h6>EE6306- Chapeter 3</h6>
+        </div>
+        <div class="col-md-6 col-12 text-center">
+          <div id="imageinfo-chaper4">
+            <div id="u303-popper-content--41-chapter4" aria-labelledby="u303-popper-trigger--40"
+              class="popper--popper-content--2KQmm udlite-popper-open course-details-quick-view-box--popover-wrapper--3jFIa"
+              style="left: auto; top: 40px; right: -136px;">
+              <div class="popover--popover--padding--3kLcw popover--popover--t3rNO">
+                <div class="popover--inner--373-v">
+                  <div>
+                    <a class="udlite-heading-lg course-details-quick-view-box--title--1vjpJ" href="./tower.jpg"
+                      data-purpose="quick-view-box-title"><strong>E-learning Courses</strong></a>
+                    <div class="course-details-quick-view-box--badge-container--1Qfpa">
+                      <span class="udlite-text-xs course-details-quick-view-box--updated--2bmvS">Course
+                        information</span>
+                    </div>
+                    <div class="udlite-text-sm course-details-quick-view-box--objectives--3WCDQ">
+                      <ul class="unstyled-list udlite-block-list">
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="popover--arrow--2k1aW popover--arrow--top--1kmD8" style="top: 100%; left: 30.75px"></div>
+              </div>
+            </div>
+            <a href="Chapter4.html"><img src="images/chapter_image/chapter4.JPG" alt="" width="350" height="252"
+                class="img-fluid" /></a>
+          </div>
+          <h4>Nonideal I-V Effects &amp; CMOS Logic</h4>
+          <h6>EE6306- Chapeter 4</h6>
+        </div>
+        <div class="col-md-6 col-12 text-center">
+          <div id="imageinfo-chaper5">
+            <div id="u303-popper-content--41-chapter5" aria-labelledby="u303-popper-trigger--40"
+              class="popper--popper-content--2KQmm udlite-popper-open course-details-quick-view-box--popover-wrapper--3jFIa"
+              style="left: -130px; top: 40px">
+              <div class="popover--popover--padding--3kLcw popover--popover--t3rNO">
+                <div class="popover--inner--373-v">
+                  <div>
+                    <a class="udlite-heading-lg course-details-quick-view-box--title--1vjpJ" href="./tower.jpg"
+                      data-purpose="quick-view-box-title"><strong>E-learning Courses</strong></a>
+                    <div class="course-details-quick-view-box--badge-container--1Qfpa">
+                      <span class="udlite-text-xs course-details-quick-view-box--updated--2bmvS">Course
+                        information</span>
+                    </div>
+                    <div class="udlite-text-sm course-details-quick-view-box--objectives--3WCDQ">
+                      <ul class="unstyled-list udlite-block-list">
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="popover--arrow--2k1aW popover--arrow--top--1kmD8" style="top: 100%; left: 180.75px"></div>
+              </div>
+            </div>
+            <a href="Chapter5.html"><img src="images/chapter_image/chapter5.JPG" alt="" width="350" height="252"
+                class="img-fluid textpic1" /></a>
+          </div>
+          <h4>Statc &amp; Dynamic CMOS Logic Circuits&nbsp;&nbsp;</h4>
+          <h6>EE6306- Chapeter 5</h6>
+        </div>
+        <div class="col-md-6 col-12 text-center">
+          <div id="imageinfo-chaper6">
+            <div id="u303-popper-content--41-chapter6" aria-labelledby="u303-popper-trigger--40"
+              class="popper--popper-content--2KQmm udlite-popper-open course-details-quick-view-box--popover-wrapper--3jFIa"
+              style="left: auto; top: 40px; right: -136px;">
+              <div class="popover--popover--padding--3kLcw popover--popover--t3rNO">
+                <div class="popover--inner--373-v">
+                  <div>
+                    <a class="udlite-heading-lg course-details-quick-view-box--title--1vjpJ" href="./tower.jpg"
+                      data-purpose="quick-view-box-title"><strong>E-learning Courses</strong></a>
+                    <div class="course-details-quick-view-box--badge-container--1Qfpa">
+                      <span class="udlite-text-xs course-details-quick-view-box--updated--2bmvS">Course
+                        information</span>
+                    </div>
+                    <div class="udlite-text-sm course-details-quick-view-box--objectives--3WCDQ">
+                      <ul class="unstyled-list udlite-block-list">
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="popover--arrow--2k1aW popover--arrow--top--1kmD8" style="top: 100%; left: 30.75px"></div>
+              </div>
+            </div>
+            <a href="Chapter6.html"><img src="images/chapter_image/chapter6.JPG" alt="" width="350" height="252"
+                class="img-fluid" /></a>
+          </div>
+          <h4>Sequential CMOS Circuits &amp; Low Power CMOS&nbsp;</h4>
+          <h6>EE6306- Chapeter 6</h6>
+        </div>
+        <div class="col-md-6 col-12 text-center">
+          <div id="imageinfo-chaper7">
+            <div id="u303-popper-content--41-chapter7" aria-labelledby="u303-popper-trigger--40"
+              class="popper--popper-content--2KQmm udlite-popper-open course-details-quick-view-box--popover-wrapper--3jFIa"
+              style="left: -130px; top: 40px">
+              <div class="popover--popover--padding--3kLcw popover--popover--t3rNO">
+                <div class="popover--inner--373-v">
+                  <div>
+                    <a class="udlite-heading-lg course-details-quick-view-box--title--1vjpJ" href="./tower.jpg"
+                      data-purpose="quick-view-box-title"><strong>E-learning Courses</strong></a>
+                    <div class="course-details-quick-view-box--badge-container--1Qfpa">
+                      <span class="udlite-text-xs course-details-quick-view-box--updated--2bmvS">Course
+                        information</span>
+                    </div>
+                    <div class="udlite-text-sm course-details-quick-view-box--objectives--3WCDQ">
+                      <ul class="unstyled-list udlite-block-list">
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="popover--arrow--2k1aW popover--arrow--top--1kmD8" style="top: 100%; left: 180.75px"></div>
+              </div>
+            </div>
+            <a href="Chapter7.html"><img src="images/chapter_image/chapter7.JPG" alt="" width="350" height="252"
+                class="img-fluid textpic1" /></a>
+          </div>
+          <h4>CMOS Design</h4>
+          <h6>EE6306- Chapeter 7</h6>
+        </div>
+        <div class="col-md-6 col-12 text-center">
+          <div id="imageinfo-chaper8">
+            <div id="u303-popper-content--41-chapter8" aria-labelledby="u303-popper-trigger--40"
+              class="popper--popper-content--2KQmm udlite-popper-open course-details-quick-view-box--popover-wrapper--3jFIa"
+              style="left: auto; top: 40px; right: -136px;">
+              <div class="popover--popover--padding--3kLcw popover--popover--t3rNO">
+                <div class="popover--inner--373-v">
+                  <div>
+                    <a class="udlite-heading-lg course-details-quick-view-box--title--1vjpJ" href="./tower.jpg"
+                      data-purpose="quick-view-box-title"><strong>E-learning Courses</strong></a>
+                    <div class="course-details-quick-view-box--badge-container--1Qfpa">
+                      <span class="udlite-text-xs course-details-quick-view-box--updated--2bmvS">Course
+                        information</span>
+                    </div>
+                    <div class="udlite-text-sm course-details-quick-view-box--objectives--3WCDQ">
+                      <ul class="unstyled-list udlite-block-list">
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div data-purpose="quick-view-box-objective"
+                            class="udlite-block-list-item-neutral udlite-text-sm">
+                            <div class="udlite-block-list-item-content">
+                              Machine Learning with Python
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="popover--arrow--2k1aW popover--arrow--top--1kmD8" style="top: 100%; left: 30.75px"></div>
+              </div>
+            </div>
+            <a href="Chapter8.html"><img src="images/chapter_image/chapter8.JPG" alt="" width="350" height="252"
+                class="img-fluid" /></a>
+          </div>
+          <h4>Sub-System Design &amp; Design Methodology&nbsp;</h4>
+          <h6>EE6306- Chapeter 8</h6>
+        </div>
+      </div>
+      <hr />
+    </div>
+  </section>
+  <hr />
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1>Pending for design</h1>
+          <p>waiting for design</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr />
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-12 col-xl-6">
+          <h3 class="text-center">
+            Assoc Prof Gwee Bah Hwee &amp; Zhang Yiwen
+          </h3>
+          <p>
+            Associate Professor, School of Electrical &amp; Electronic
+            Engineering Assistant Chair (Outreach), School of Electrical and
+            Electronic Engineering (EEE) &amp; Student comes from EEE&nbsp;
+          </p>
+        </div>
+        <div class="col-md-4 col-12 col-xl-6 offset-xl-0">
+          <h3 class="text-center">GET IN TOUCH</h3>
+          <address class="text-center">
+            <strong>NTU</strong><br />
+            Nanyang university,<br />
+            HP:xxxxxxxxx
+          </address>
         </div>
       </div>
     </div>
   </div>
-</section>
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h1>EE6306-Digital Intergrated Circuit Design</h1>
-        <p>This course contains Review of Integrated Circuit Fundamentals, Circuit Characterization and Performance Estimation and BiCMOSDigital Circuits</p>
-      </div>
-    </div>
-  </div>
-</section>
-<section>
-  <div class="container mt-2">
-    <div class="row">
-      <div class="col-md-4 col-12">
-        <ul class="list-unstyled">
-          <li class="media"> <img src="images/book-reader-solid.svg" alt="E-quiz" width="35" height="35" class="mr-3">
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">Review of Integrated Circuit Fundamentals</h5>
-              Characteristics of Digital Integrated Circuits,COMS Logic,Other Competing Technologies,Layout Design Rules&nbsp; </div>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-4 col-12">
-        <ul class="list-unstyled">
-          <li class="media"> <img src="images/quidditch-solid.svg" alt="E-quiz" width="35" height="35" class="mr-3">
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">Circuit Characterization and Performance Estimation</h5>
-              Parastic Loading Estimation </div>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-4 col-12">
-        <ul class="list-unstyled">
-          <li class="media"> <img src="images/book-medical-solid.svg" alt="E-quiz" width="35" height="35" class="mr-3">
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">BiCMOSDigital Circuits</h5>
-              Introduction to BICOMS Technology </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2>E-learning video&nbsp;</h2>
-        <p>Showing some chapeter</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 col-12 text-center">
-        <div id="imageinfo">
-          <div
-  id="u303-popper-content--41"
-  aria-labelledby="u303-popper-trigger--40"
-  class="popper--popper-content--2KQmm udlite-popper-open course-details-quick-view-box--popover-wrapper--3jFIa"
-  style="left: -130px; top: -5px"
->
-            <div class="popover--popover--padding--3kLcw popover--popover--t3rNO">
-              <div class="popover--inner--373-v">
-                <div> <a
-          class="udlite-heading-lg course-details-quick-view-box--title--1vjpJ"
-          href="./tower.jpg"
-          data-purpose="quick-view-box-title"
-          ><strong>E-learning Courses</strong></a
-        >
-                  <div class="course-details-quick-view-box--badge-container--1Qfpa"> <span
-            class="udlite-text-xs course-details-quick-view-box--updated--2bmvS"
-            >Course information</span
-          > </div>
-<div
-          class="udlite-text-sm course-details-quick-view-box--objectives--3WCDQ"
-        >
-                    <ul class="unstyled-list udlite-block-list">
-                      <li>
-                        <div
-                data-purpose="quick-view-box-objective"
-                class="udlite-block-list-item-neutral udlite-text-sm"
-              >
-                          <div class="udlite-block-list-item-content"> Machine Learning with Python </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div
-                data-purpose="quick-view-box-objective"
-                class="udlite-block-list-item-neutral udlite-text-sm"
-              >
-                          <div class="udlite-block-list-item-content"> Machine Learning with Python </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div
-                data-purpose="quick-view-box-objective"
-                class="udlite-block-list-item-neutral udlite-text-sm"
-              >
-                          <div class="udlite-block-list-item-content"> Machine Learning with Python </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div
-      class="popover--arrow--2k1aW popover--arrow--top--1kmD8"
-      style="top: 100%; left: 180.75px"
-    ></div>
-            </div>
-          </div>
-          <img src="images/chapter_image/Characteristics of Digital Integrated Circuits.png" alt="" width="350" height="180" class="img-fluid textpic1"></div>
-        <h4>Review of Integrated Circuit Fundamentals</h4>
-        <h6>EE6306 - Chapeter 1</h6>
-      </div>
-      <div class="col-md-6 col-12 text-center"> <img src="images/chapter_image/MOS Transistor Theory_chapter2.png" alt="" width="350" height="190" class="img-fluid">
-        <h4>MOS Transistor Theory</h4>
-        <h6>EE6306 - Chapeter 2</h6>
-      </div>
-      <div class="col-md-6 col-12 text-center mt-md-0 mt-2"> <img src="images/chapter_image/CMOS Design.png" alt="" width="350" height="166" class="img-fluid textpic1">
-        <h4>CMOS Design</h4>
-        <h6>EE6306- Chapeter 3</h6>
-      </div>
-      <div class="col-md-6 col-12 text-center mt-md-0 mt-2"> <img src="images/chapter_image/CMOS Logic.png" alt="" width="262" height="166" class="img-fluid">
-        <h4>CMOS Logic</h4>
-        <h6>EE6306- Chapeter 4</h6>
-      </div>
-      <div class="col-md-6 col-12 text-center mt-md-0 mt-2"> <img src="images/chapter_image/CMOS Process Enhancement.png" alt="" width="350" height="204" class="img-fluid textpic1">
-        <h4>CMOS Process Enhancement</h4>
-        <h6>EE6306- Chapeter 5</h6>
-      </div>
-      <div class="col-md-6 col-12 text-center mt-md-0 mt-2"> <img src="images/chapter_image/Nonideal l-V Effects.png" alt="" width="350" height="188" class="img-fluid">
-        <h4>Nonideal l-V Effects</h4>
-        <h6>EE6306- Chapeter 6</h6>
-      </div>
-      <div class="col-md-6 col-12 text-center mt-md-0 mt-2"> <img src="images/chapter_image/Sequential CMOS Circuits Low Power.png" alt="" width="350" height="193" class="img-fluid textpic1">
-        <h4>Sequential CMOS Circuits Low Power</h4>
-        <h6>EE6306- Chapeter 7</h6>
-      </div>
-      <div class="col-md-6 col-12 text-center mt-md-0 mt-2"> <img src="images/chapter_image/Static and Dynamic CMOS Logic Circuits.png" alt="" width="350" height="173" class="img-fluid">
-        <h4>Static and Dynamic CMOS Logic Circuits</h4>
-        <h6>EE6306- Chapeter 8</h6>
-      </div>
-    </div>
-<hr>
-</div>
-</section>
-<hr>
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h1>Pending for design</h1>
-        <p>waiting for design</p>
-      </div>
-    </div>
-  </div>
-</section>
-<hr>
-<div class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 col-12 col-xl-6">
-        <h3 class="text-center">Assoc Prof Gwee Bah Hwee &amp; Zhang Yiwen</h3>
-        <p>Associate Professor, School of Electrical &amp; Electronic Engineering Assistant Chair (Outreach), School of Electrical and Electronic Engineering (EEE) &amp; Student comes from EEE&nbsp;</p>
-      </div>
-      <div class="col-md-4 col-12 col-xl-6 offset-xl-0">
-        <h3 class="text-center">GET IN TOUCH</h3>
-        <address class="text-center">
-        <strong>NTU</strong><br>
-        Nanyang university,<br>
-        HP:xxxxxxxxx
-        </address>
-      </div>
-    </div>
-  </div>
-</div>
-<hr>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="js/jquery-3.4.1.min.js"></script> 
-<!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/popper.min.js"></script> 
-<script src="js/bootstrap-4.4.1.js"></script> 
-<script type="text/javascript" src="js/infobox.js"></script>
+  <hr />
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
+  <script type="text/javascript" src="js/infobox.js"></script>
 </body>
+
 </html>

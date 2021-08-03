@@ -1,0 +1,122 @@
+
+body{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-image: url(../assets/images/snowflake.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  
+}
+
+.container {
+  max-width: 800px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0;
+  height: 90vh;
+}
+.box{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: #000;
+  box-shadow: 0 30px 30px rgba(0, 0,0,.5);
+  margin:15px ;
+  cursor: pointer;
+}
+.box .imgBx
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100%;
+}
+.box .imgBx img
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+
+}
+.box:hover .imgBx img
+{
+  opacity: 0;
+}
+.box .content
+{
+  position: absolute;
+  bottom:20px;
+  left: 10%;
+  width: 80%;
+  height: 60px;
+  background: #ffffff;
+  transition: 0.5s;
+  overflow: hidden;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.box:hover .content
+{
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left:0;
+}
+.box .content h3
+{
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+  font-size: 1.5em;
+  text-align: center;
+}
+.box .content li
+{
+  margin:0 5px 0 0;
+  padding: 0;
+  opacity: 0;
+  line-height: 1.1em;
+  transition: 0.5s;
+  text-align: justify;
+  font-size: 1.15rem;
+
+}
+.box:hover .content li
+{
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+.box .content .btn
+{
+  border: 1px solid #3498db;
+  background: none;
+  padding:10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+  color: #3498db;
+  transition:0.8s;
+  position:relative;
+  overflow: hidden;
+  justify-self: center;
+  align-self: center;
+  left: auto;
+  right: auto;
+  bottom: 0;
+}
+.box .content .btn:hover
+{
+  color: #fff;
+}

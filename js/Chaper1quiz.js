@@ -204,8 +204,8 @@ function clearStatusClass(element) {
 //Google authentication and Google sheet append
 
 // Client ID and API key from the Developer Console
-var CLIENT_ID = '347108569823-16ajosbbbj1n8bc1vkj5lp429vehm1sg.apps.googleusercontent.com';
-var API_KEY = 'AIzaSyAGHFzpIY_RnTixA82GMXAw3SMMaD_Jh_Q';
+var CLIENT_ID = '32914721003-o0u60qvlt15n253ol0e6mhscgoj96dfv.apps.googleusercontent.com';
+var API_KEY = 'AIzaSyC5vSz12FHK-hY_xWGYW4TUnFYkdZO75jk';
 
 // Array of API discovery doc URLs for APIs used by the quickstart
 var DISCOVERY_DOCS = ["https://sheets.googleapis.com/$discovery/rest?version=v4"];

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMOS QUIZLET</title>
+    <link href="../css/quiz.css" rel="stylesheet">
+    <!--font family-->
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=ZCOOL+XiaoWei&display=swap"
+        rel="stylesheet">
+    <script defer src="../js/Chaper1quiz.js"></script>
+    <script async defer src="https://apis.google.com/js/api.js"></script>
+
+</head>
+
+<body>
+    <div class="modal" id="modal">
+
+        <div class="modal-content">
+            <div class="modal-title">
+                <h2>Please enter your details for assessment purposes </h2>
+            </div>
+            <div class="modal-name">
+                <label for="name">Name :</label>
+                <input id="name" type="text" name="name" placeholder="Enter your Name">
+            </div>
+            <div class="modal-matriculation">
+                <label for="matriculation">Matriculation No :</label>
+                <input id="matriculation" type="text" name="matriculation" placeholder="Enter your Matriculation No">
+            </div>
+            <button id="submit">Submit</button>
+        </div>
+    </div>
+    <div class="container">
+        <div id="question-ctn" class="hide">
+            <div id="heading">Question</div>
+            <div id="answer-btn" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 4</button>
+            </div>
+            <div id="explanation" class="hide">Explanation</div>
+        </div>
+        <div class="controls-button">
+            <button id="start" class="start btn">Start</button>
+            <button id="next" class="next btn hide">Next</button>
+            <a href="../LatchesAndFlip.html"><button id="proceed" onclick="submitResult()"
+                    class="proceed btn hide">Proceed</button></a>
+        </div>
+    </div>
+
+</body>
+
+</html>

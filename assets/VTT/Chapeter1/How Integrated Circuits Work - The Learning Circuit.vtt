@@ -1,0 +1,854 @@
+WEBVTT
+
+1
+00:00:00.260 --> 00:00:02.669
+the following program is brought to you
+
+2
+00:00:02.669 --> 00:00:05.370
+by element14 the electronics community
+
+3
+00:00:05.370 --> 00:00:06.629
+where you can connect and collaborate
+
+4
+00:00:06.629 --> 00:00:08.790
+with top engineers from around the world
+
+5
+00:00:08.790 --> 00:00:12.620
+join now at element14.com slash presents
+
+6
+00:00:12.620 --> 00:00:14.880
+hi and welcome back to the learning
+
+7
+00:00:14.880 --> 00:00:16.770
+circuit today we're going to learn about
+
+8
+00:00:16.770 --> 00:00:23.910
+integrated circuits or ICS so far in
+
+9
+00:00:23.910 --> 00:00:25.590
+this series I focused on discrete
+
+10
+00:00:25.590 --> 00:00:27.449
+components electronic devices
+
+11
+00:00:27.449 --> 00:00:29.760
+constructed as a single unit such as
+
+12
+00:00:29.760 --> 00:00:32.340
+transistors resistors capacitors and
+
+13
+00:00:32.340 --> 00:00:34.950
+diodes but I've wanted to make things a
+
+14
+00:00:34.950 --> 00:00:36.930
+little more interesting dive a little
+
+15
+00:00:36.930 --> 00:00:39.120
+deeper and to do that we need to get
+
+16
+00:00:39.120 --> 00:00:41.309
+into integrated circuits while the
+
+17
+00:00:41.309 --> 00:00:43.110
+screen components have a single simple
+
+18
+00:00:43.110 --> 00:00:45.510
+function ICS take those components and
+
+19
+00:00:45.510 --> 00:00:48.090
+integrate them into circuits on a single
+
+20
+00:00:48.090 --> 00:00:51.239
+chip hence integrated circuit if you've
+
+21
+00:00:51.239 --> 00:00:53.010
+ever opened up a piece of electronics
+
+22
+00:00:53.010 --> 00:00:54.899
+and checked out the PCB you've probably
+
+23
+00:00:54.899 --> 00:00:56.550
+seen these little black squares or
+
+24
+00:00:56.550 --> 00:00:59.219
+rectangles those are integrated circuits
+
+25
+00:00:59.219 --> 00:01:02.730
+ICS let's start with looking at one very
+
+26
+00:01:02.730 --> 00:01:06.840
+common I see a 741 op amp here's the
+
+27
+00:01:06.840 --> 00:01:08.549
+schematic diagram found in the chips
+
+28
+00:01:08.549 --> 00:01:10.560
+datasheet hopefully by now you'll
+
+29
+00:01:10.560 --> 00:01:12.630
+recognize all these symbols being 22
+
+30
+00:01:12.630 --> 00:01:15.000
+transistors 12 resistors and one
+
+31
+00:01:15.000 --> 00:01:17.670
+capacitor now rather than the circuit
+
+32
+00:01:17.670 --> 00:01:19.170
+being made of discrete components
+
+33
+00:01:19.170 --> 00:01:22.170
+soldered onto a PCB the entire circuit
+
+34
+00:01:22.170 --> 00:01:23.640
+is printed onto a single piece of
+
+35
+00:01:23.640 --> 00:01:26.310
+silicon all those transistors resistors
+
+36
+00:01:26.310 --> 00:01:28.770
+and capacitors are in there made of tiny
+
+37
+00:01:28.770 --> 00:01:31.470
+n-type and p-type structures connected
+
+38
+00:01:31.470 --> 00:01:33.710
+on the surface by aluminum plating now
+
+39
+00:01:33.710 --> 00:01:36.720
+ICS are already pretty small but the
+
+40
+00:01:36.720 --> 00:01:38.369
+actual functional part of the chip
+
+41
+00:01:38.369 --> 00:01:41.790
+inside is even smaller the silicon chips
+
+42
+00:01:41.790 --> 00:01:44.250
+inside the casing are so small that they
+
+43
+00:01:44.250 --> 00:01:45.899
+have tiny wires running through the
+
+44
+00:01:45.899 --> 00:01:48.149
+casing that connected this tiny chip to
+
+45
+00:01:48.149 --> 00:01:50.430
+the external pins and terminals let's
+
+46
+00:01:50.430 --> 00:01:51.810
+take a look at what those external
+
+47
+00:01:51.810 --> 00:01:54.299
+casings look like some simple ICS that
+
+48
+00:01:54.299 --> 00:01:56.219
+don't require many pins make use of
+
+49
+00:01:56.219 --> 00:01:57.930
+packages designed for discrete
+
+50
+00:01:57.930 --> 00:01:59.790
+components like those of transistors
+
+51
+00:01:59.790 --> 00:02:01.979
+like these voltage regulators that
+
+52
+00:02:01.979 --> 00:02:04.049
+utilize the same packaging as MOSFETs
+
+53
+00:02:04.049 --> 00:02:07.079
+others like these single inline packages
+
+54
+00:02:07.079 --> 00:02:09.899
+have more pins but along only one side
+
+55
+00:02:09.899 --> 00:02:12.150
+through-hole chips with contacts don't
+
+56
+00:02:12.150 --> 00:02:13.590
+to opposite sides
+
+57
+00:02:13.590 --> 00:02:17.010
+our dual inline packages or dips dips
+
+58
+00:02:17.010 --> 00:02:19.379
+often use sockets so they may easily be
+
+59
+00:02:19.379 --> 00:02:21.930
+replaced if damaged small outline
+
+60
+00:02:21.930 --> 00:02:24.000
+packages include varieties of surface
+
+61
+00:02:24.000 --> 00:02:27.750
+mount chips such as SOI CS T stops and s
+
+62
+00:02:27.750 --> 00:02:31.560
+o J's for more complex ICS that require
+
+63
+00:02:31.560 --> 00:02:34.769
+more input/output or IO chip carriers
+
+64
+00:02:34.769 --> 00:02:37.739
+have J shaped pins or metal pads on all
+
+65
+00:02:37.739 --> 00:02:40.379
+four sides of the package and still some
+
+66
+00:02:40.379 --> 00:02:42.150
+integrated circuits require so many
+
+67
+00:02:42.150 --> 00:02:44.250
+connections that they use grid arrays
+
+68
+00:02:44.250 --> 00:02:47.040
+pins for through-hole and falls for
+
+69
+00:02:47.040 --> 00:02:49.319
+surface mount now to figure out the pin
+
+70
+00:02:49.319 --> 00:02:51.209
+numbering in all these chips you can
+
+71
+00:02:51.209 --> 00:02:53.910
+often find a notch or dot on one of the
+
+72
+00:02:53.910 --> 00:02:57.599
+edges or corners pin one will be at or
+
+73
+00:02:57.599 --> 00:02:59.910
+to the left of the dot or notch and
+
+74
+00:02:59.910 --> 00:03:02.579
+continuing down the left side around the
+
+75
+00:03:02.579 --> 00:03:04.489
+chip and in counter clockwise fashion
+
+76
+00:03:04.489 --> 00:03:07.379
+the pin out on four sided chips may be
+
+77
+00:03:07.379 --> 00:03:09.510
+less straightforward the dot on these
+
+78
+00:03:09.510 --> 00:03:11.940
+can be in one of the corners or in the
+
+79
+00:03:11.940 --> 00:03:14.610
+middle of one side so that the one side
+
+80
+00:03:14.610 --> 00:03:16.349
+is split having pins at both the
+
+81
+00:03:16.349 --> 00:03:18.120
+beginning and end of the numbering
+
+82
+00:03:18.120 --> 00:03:20.340
+scheme integrated circuits can be broken
+
+83
+00:03:20.340 --> 00:03:23.670
+down into three basic categories digital
+
+84
+00:03:23.670 --> 00:03:26.630
+analog or a combination of the two
+
+85
+00:03:26.630 --> 00:03:29.269
+[Music]
+
+86
+00:03:29.269 --> 00:03:33.799
+analog or linear ICS respond to produce
+
+87
+00:03:33.799 --> 00:03:36.720
+and/or amplify signals of varying
+
+88
+00:03:36.720 --> 00:03:38.790
+degrees of voltage two of the most
+
+89
+00:03:38.790 --> 00:03:41.849
+common types of analog ICS are op amps
+
+90
+00:03:41.849 --> 00:03:45.349
+and voltage regulators
+
+91
+00:03:46.450 --> 00:03:49.460
+operational amplifiers or op amps offer
+
+92
+00:03:49.460 --> 00:03:51.770
+a high gain over a wide range of
+
+93
+00:03:51.770 --> 00:03:53.840
+frequencies while the chips have eight
+
+94
+00:03:53.840 --> 00:03:56.150
+pins the schematic symbol only shows
+
+95
+00:03:56.150 --> 00:03:58.820
+five leads the remaining three pins that
+
+96
+00:03:58.820 --> 00:04:00.170
+are not typically represented by the
+
+97
+00:04:00.170 --> 00:04:02.750
+symbol are specialized and used for fine
+
+98
+00:04:02.750 --> 00:04:04.940
+tuning keep an eye out for that symbol
+
+99
+00:04:04.940 --> 00:04:07.250
+as op amps are often incorporated into
+
+100
+00:04:07.250 --> 00:04:13.910
+other ICS voltage regulators regulate
+
+101
+00:04:13.910 --> 00:04:16.339
+voltage by automatically adjusting the
+
+102
+00:04:16.339 --> 00:04:18.230
+amount of current flowing through a load
+
+103
+00:04:18.230 --> 00:04:20.329
+in order to maintain a constant output
+
+104
+00:04:20.329 --> 00:04:23.180
+voltage they typically have an input
+
+105
+00:04:23.180 --> 00:04:25.790
+voltage range and can have either a
+
+106
+00:04:25.790 --> 00:04:28.430
+single fixed output voltage or an
+
+107
+00:04:28.430 --> 00:04:31.470
+adjustable output voltage range
+
+108
+00:04:31.470 --> 00:04:33.719
+[Music]
+
+109
+00:04:33.719 --> 00:04:36.299
+analog circuits are quite useful but if
+
+110
+00:04:36.299 --> 00:04:38.099
+we want to be able to process or store
+
+111
+00:04:38.099 --> 00:04:41.219
+data we need digital electronics digital
+
+112
+00:04:41.219 --> 00:04:43.469
+circuits operate using only two states
+
+113
+00:04:43.469 --> 00:04:47.489
+high and low often represented by 1 & 0
+
+114
+00:04:47.489 --> 00:04:51.299
+respectively digital ICS include logic
+
+115
+00:04:51.299 --> 00:04:53.849
+gates flip-flops shift registers
+
+116
+00:04:53.849 --> 00:05:00.779
+counters memories and processors much of
+
+117
+00:05:00.779 --> 00:05:02.969
+electronics revolves around logic if
+
+118
+00:05:02.969 --> 00:05:05.009
+this is happening then this should
+
+119
+00:05:05.009 --> 00:05:07.259
+happen this is where logic gates come in
+
+120
+00:05:07.259 --> 00:05:09.479
+a logic gate uses the conditions of its
+
+121
+00:05:09.479 --> 00:05:11.729
+input or inputs to determine the state
+
+122
+00:05:11.729 --> 00:05:14.159
+of its output they include not gates
+
+123
+00:05:14.159 --> 00:05:18.979
+also called inverters and NAND or nor
+
+124
+00:05:18.979 --> 00:05:22.769
+xor and X nor in the same category there
+
+125
+00:05:22.769 --> 00:05:25.169
+are also flip-flops and latches with
+
+126
+00:05:25.169 --> 00:05:26.999
+each logic gate only requiring a few
+
+127
+00:05:26.999 --> 00:05:28.860
+pins rather than being packaged
+
+128
+00:05:28.860 --> 00:05:30.659
+individually they are often bundled
+
+129
+00:05:30.659 --> 00:05:32.969
+together with multiple gates in a single
+
+130
+00:05:32.969 --> 00:05:35.189
+chip when looking at logic circuits
+
+131
+00:05:35.189 --> 00:05:36.869
+you'll likely come across a few
+
+132
+00:05:36.869 --> 00:05:38.729
+abbreviations that would be helpful to
+
+133
+00:05:38.729 --> 00:05:43.639
+know TTL transistor transistor logic ECL
+
+134
+00:05:43.639 --> 00:05:48.649
+emitter coupled logic CMOS complementary
+
+135
+00:05:48.649 --> 00:05:50.909
+metal-oxide-semiconductor x' using
+
+136
+00:05:50.909 --> 00:05:53.039
+MOSFETs while these can be made with
+
+137
+00:05:53.039 --> 00:05:54.839
+discrete components they can often be
+
+138
+00:05:54.839 --> 00:06:00.809
+found as an IC next in digital ICS are
+
+139
+00:06:00.809 --> 00:06:03.269
+memory chips the two main types being
+
+140
+00:06:03.269 --> 00:06:06.689
+random access memory RAM and read-only
+
+141
+00:06:06.689 --> 00:06:07.379
+memory
+
+142
+00:06:07.379 --> 00:06:10.649
+ROM Ram is the type of memory like in
+
+143
+00:06:10.649 --> 00:06:12.329
+your computer that can be read and
+
+144
+00:06:12.329 --> 00:06:15.659
+written over and over again ROM cannot
+
+145
+00:06:15.659 --> 00:06:17.519
+be written over and is typically
+
+146
+00:06:17.519 --> 00:06:19.769
+programmed at the factory though you may
+
+147
+00:06:19.769 --> 00:06:22.259
+hear of EEPROM erasable programmable
+
+148
+00:06:22.259 --> 00:06:24.509
+read-only memory that can be
+
+149
+00:06:24.509 --> 00:06:26.879
+reprogrammed by an individual these
+
+150
+00:06:26.879 --> 00:06:28.800
+chips have a transparent window that
+
+151
+00:06:28.800 --> 00:06:30.269
+allows for the UV light exposure
+
+152
+00:06:30.269 --> 00:06:32.610
+required to be able to rewrite the chip
+
+153
+00:06:32.610 --> 00:06:34.649
+however they have mostly been replaced
+
+154
+00:06:34.649 --> 00:06:37.289
+by EEE proms which can be programmed and
+
+155
+00:06:37.289 --> 00:06:39.960
+erased in circuit
+
+156
+00:06:39.960 --> 00:06:42.120
+[Music]
+
+157
+00:06:42.120 --> 00:06:44.200
+some integrated circuits are
+
+158
+00:06:44.200 --> 00:06:46.660
+mixed-signal incorporating both analog
+
+159
+00:06:46.660 --> 00:06:49.150
+and digital signals let's start by
+
+160
+00:06:49.150 --> 00:06:52.210
+talking about converters an analog to
+
+161
+00:06:52.210 --> 00:06:55.060
+digital converter or ADC receives an
+
+162
+00:06:55.060 --> 00:06:58.090
+analog input signal and outputs a 4-bit
+
+163
+00:06:58.090 --> 00:07:00.250
+binary number that is proportional to
+
+164
+00:07:00.250 --> 00:07:03.220
+the analog voltage it measured a digital
+
+165
+00:07:03.220 --> 00:07:05.830
+to analog converter or DAC takes a
+
+166
+00:07:05.830 --> 00:07:07.660
+binary number and converts it to an
+
+167
+00:07:07.660 --> 00:07:10.090
+analog voltage that is proportional to
+
+168
+00:07:10.090 --> 00:07:16.270
+the binary number but the most exciting
+
+169
+00:07:16.270 --> 00:07:20.380
+mixed-signal ICS RMC use not the Marvel
+
+170
+00:07:20.380 --> 00:07:23.200
+Cinematic Universe but microcontrollers
+
+171
+00:07:23.200 --> 00:07:25.270
+a microcontroller is essentially a
+
+172
+00:07:25.270 --> 00:07:27.780
+computer on a chip it has a simple
+
+173
+00:07:27.780 --> 00:07:30.340
+microprocessor flash memory for holding
+
+174
+00:07:30.340 --> 00:07:32.770
+its single program RAM for holding
+
+175
+00:07:32.770 --> 00:07:35.050
+temporary data and lots of general
+
+176
+00:07:35.050 --> 00:07:38.770
+purpose input/output known as GPIO MCS
+
+177
+00:07:38.770 --> 00:07:40.750
+are considered mixed signal because many
+
+178
+00:07:40.750 --> 00:07:44.050
+include an ADC or a DAC on chip they are
+
+179
+00:07:44.050 --> 00:07:46.120
+commonly found as the brains of larger
+
+180
+00:07:46.120 --> 00:07:48.310
+boards which are also confusingly
+
+181
+00:07:48.310 --> 00:07:51.250
+referred to as microcontrollers such as
+
+182
+00:07:51.250 --> 00:07:54.630
+Arduino zorb eaglebones
+
+183
+00:07:56.189 --> 00:07:58.750
+the last I see I want to talk about is
+
+184
+00:07:58.750 --> 00:08:00.759
+one that's incredibly useful it's
+
+185
+00:08:00.759 --> 00:08:04.000
+inexpensive and quite robust but it
+
+186
+00:08:04.000 --> 00:08:05.889
+falls in a bit of a fuzzy area when
+
+187
+00:08:05.889 --> 00:08:08.289
+being defined as analog or digital the
+
+188
+00:08:08.289 --> 00:08:10.960
+555 timer this little 8 pin chip
+
+189
+00:08:10.960 --> 00:08:13.569
+contains two comparators a flip-flop and
+
+190
+00:08:13.569 --> 00:08:16.389
+inverter two transistors and a voltage
+
+191
+00:08:16.389 --> 00:08:18.250
+divider it can be used as an oscillator
+
+192
+00:08:18.250 --> 00:08:21.310
+for use in LED flashers logic clocks
+
+193
+00:08:21.310 --> 00:08:24.639
+tone generators pulse generators simple
+
+194
+00:08:24.639 --> 00:08:26.919
+ADCs and more it can function as a
+
+195
+00:08:26.919 --> 00:08:29.139
+one-shot pulse generator for use in
+
+196
+00:08:29.139 --> 00:08:31.569
+timers touch switches capacitance
+
+197
+00:08:31.569 --> 00:08:34.419
+measurement and PWM it can also function
+
+198
+00:08:34.419 --> 00:08:36.240
+as what is called a Schmitt trigger
+
+199
+00:08:36.240 --> 00:08:39.578
+functioning as a flip-flop 5 v 5s can
+
+200
+00:08:39.578 --> 00:08:43.360
+also be found in pairs in the 14 pin 556
+
+201
+00:08:43.360 --> 00:08:47.350
+IC chips or for to a chip in the 16 pin
+
+202
+00:08:47.350 --> 00:08:50.709
+5 v 8 in future episodes I'll be diving
+
+203
+00:08:50.709 --> 00:08:52.600
+a little deeper into some of the ICS I
+
+204
+00:08:52.600 --> 00:08:54.700
+mentioned today including voltage
+
+205
+00:08:54.700 --> 00:08:56.980
+regulators op amps and five-five-five
+
+206
+00:08:56.980 --> 00:08:59.620
+timers but what other ICS do you want to
+
+207
+00:08:59.620 --> 00:09:01.720
+learn about or is there a project you've
+
+208
+00:09:01.720 --> 00:09:03.459
+been dying to see that includes one of
+
+209
+00:09:03.459 --> 00:09:05.860
+the ICS I mentioned today tell me about
+
+210
+00:09:05.860 --> 00:09:08.560
+your ideas on the element14 community on
+
+211
+00:09:08.560 --> 00:09:11.440
+element14.com /the learning circuit
+
+212
+00:09:11.440 --> 00:09:14.310
+happy learning
+
+213
+00:09:15.540 --> 00:09:19.620
+[Music]
+

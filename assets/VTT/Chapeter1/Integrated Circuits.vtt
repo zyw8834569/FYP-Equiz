@@ -1,0 +1,474 @@
+WEBVTT
+
+1
+00:00:03.290 --> 00:00:07.470
+integrated circuits in this module you
+
+2
+00:00:07.470 --> 00:00:08.820
+will learn about the types and
+
+3
+00:00:08.820 --> 00:00:12.570
+construction of ICS earlier the size of
+
+4
+00:00:12.570 --> 00:00:15.680
+computers used to be very big however
+
+5
+00:00:15.680 --> 00:00:19.470
+nowadays laptop computers and palmtop
+
+6
+00:00:19.470 --> 00:00:23.519
+computers are available wondering what
+
+7
+00:00:23.519 --> 00:00:26.460
+made the miniatures a ssin of electronic
+
+8
+00:00:26.460 --> 00:00:27.660
+gadgets possible
+
+9
+00:00:27.660 --> 00:00:31.859
+the answer is AI seats IC stands for
+
+10
+00:00:31.859 --> 00:00:34.800
+integrated circuits integrated circuits
+
+11
+00:00:34.800 --> 00:00:38.340
+IC have a big role to play in the
+
+12
+00:00:38.340 --> 00:00:40.739
+miniatures a ssin of electronic gadgets
+
+13
+00:00:40.739 --> 00:00:43.379
+earlier the electronic circuits were
+
+14
+00:00:43.379 --> 00:00:46.110
+prepared using transistors diodes and
+
+15
+00:00:46.110 --> 00:00:49.140
+resistors by joining those using
+
+16
+00:00:49.140 --> 00:00:53.129
+conducting wires because of this these
+
+17
+00:00:53.129 --> 00:00:55.680
+circuits were huge and bulky further
+
+18
+00:00:55.680 --> 00:00:59.340
+these circuits were not reliable so an
+
+19
+00:00:59.340 --> 00:01:02.160
+attempt was made to fabricate an entire
+
+20
+00:01:02.160 --> 00:01:04.769
+circuit consisting of many components
+
+21
+00:01:04.769 --> 00:01:07.979
+such as diodes resistors inductors
+
+22
+00:01:07.979 --> 00:01:11.820
+capacitors on a small single block of a
+
+23
+00:01:11.820 --> 00:01:14.490
+semiconductor connected with the help of
+
+24
+00:01:14.490 --> 00:01:17.250
+metal strips this gave rise to the
+
+25
+00:01:17.250 --> 00:01:21.780
+concept of integrated circuits IC I C's
+
+26
+00:01:21.780 --> 00:01:23.909
+are found in almost all gadgets like
+
+27
+00:01:23.909 --> 00:01:26.670
+cars televisions CD players and cell
+
+28
+00:01:26.670 --> 00:01:30.240
+phones the size of an IC is about one
+
+29
+00:01:30.240 --> 00:01:33.479
+millimeter by one millimeter being so
+
+30
+00:01:33.479 --> 00:01:36.530
+small in size ICS have made the
+
+31
+00:01:36.530 --> 00:01:38.610
+miniaturization of electronic gadgets
+
+32
+00:01:38.610 --> 00:01:41.549
+possible ICS can be grouped into
+
+33
+00:01:41.549 --> 00:01:44.250
+categories depending on the nature of
+
+34
+00:01:44.250 --> 00:01:47.670
+input signals they are a linear or
+
+35
+00:01:47.670 --> 00:01:53.009
+analog ICS and B digital ICS in linear
+
+36
+00:01:53.009 --> 00:01:56.219
+ICS the input signals are analog signals
+
+37
+00:01:56.219 --> 00:01:58.340
+which change smoothly and continuously
+
+38
+00:01:58.340 --> 00:02:02.009
+over a range of values between a maximum
+
+39
+00:02:02.009 --> 00:02:02.880
+and a minimum
+
+40
+00:02:02.880 --> 00:02:05.520
+in this case the output is almost
+
+41
+00:02:05.520 --> 00:02:08.429
+directly proportional to the input that
+
+42
+00:02:08.429 --> 00:02:12.230
+is it varies linearly with the input
+
+43
+00:02:12.230 --> 00:02:15.480
+operational amplifier is an example of
+
+44
+00:02:15.480 --> 00:02:19.290
+linear IC in digital ICS the input
+
+45
+00:02:19.290 --> 00:02:21.540
+signals are digital signals that have
+
+46
+00:02:21.540 --> 00:02:24.629
+only two values they contain circuits
+
+47
+00:02:24.629 --> 00:02:27.180
+such as logic gates based on the number
+
+48
+00:02:27.180 --> 00:02:30.599
+of logic gates present in it Digital ICS
+
+49
+00:02:30.599 --> 00:02:35.300
+can be further classified as SSI MSI LSI
+
+50
+00:02:35.300 --> 00:02:43.950
+and VLSI SSI small-scale integration has
+
+51
+00:02:43.950 --> 00:02:47.310
+less than 10 logic gates per square
+
+52
+00:02:47.310 --> 00:02:51.629
+millimeter MSI medium scale integration
+
+53
+00:02:51.629 --> 00:02:54.510
+chips have less than hundred logic gates
+
+54
+00:02:54.510 --> 00:02:56.580
+per square millimeter
+
+55
+00:02:56.580 --> 00:03:00.620
+LSI large-scale integration chips have
+
+56
+00:03:00.620 --> 00:03:04.590
+100 to 1000 logic gates per square
+
+57
+00:03:04.590 --> 00:03:07.920
+millimeter VLSI very large-scale
+
+58
+00:03:07.920 --> 00:03:11.879
+integration chips have more than 1,000
+
+59
+00:03:11.879 --> 00:03:14.909
+logic gates per square millimeter let us
+
+60
+00:03:14.909 --> 00:03:17.190
+now have a look at the steps followed in
+
+61
+00:03:17.190 --> 00:03:21.150
+the manufacturing of ICS firstly a wafer
+
+62
+00:03:21.150 --> 00:03:24.470
+of n-type semiconductor is taken and
+
+63
+00:03:24.470 --> 00:03:27.480
+photolithography technique is used in
+
+64
+00:03:27.480 --> 00:03:30.239
+this technique firstly a layer of
+
+65
+00:03:30.239 --> 00:03:34.290
+silicon dioxide insulator is coated over
+
+66
+00:03:34.290 --> 00:03:37.470
+it then a thin layer of photoresist and
+
+67
+00:03:37.470 --> 00:03:40.849
+material is placed over silicon dioxide
+
+68
+00:03:40.849 --> 00:03:44.030
+after this masking is done and
+
+69
+00:03:44.030 --> 00:03:47.459
+ultraviolet light is made incident on it
+
+70
+00:03:47.459 --> 00:03:50.159
+whenever the light is incident over the
+
+71
+00:03:50.159 --> 00:03:53.159
+photo resistive portion it becomes hard
+
+72
+00:03:53.159 --> 00:03:55.470
+and no chemical reaction can take place
+
+73
+00:03:55.470 --> 00:03:59.099
+over it next silicon dioxide is removed
+
+74
+00:03:59.099 --> 00:04:01.819
+with the help of the etching process
+
+75
+00:04:01.819 --> 00:04:05.280
+lastly the required impurities are added
+
+76
+00:04:05.280 --> 00:04:07.379
+the process is repeated to obtain
+
+77
+00:04:07.379 --> 00:04:10.110
+different geometries require to complete
+
+78
+00:04:10.110 --> 00:04:13.409
+a chip circuit design the internal
+
+79
+00:04:13.409 --> 00:04:15.360
+connection between the components is
+
+80
+00:04:15.360 --> 00:04:17.339
+made by passing alum
+
+81
+00:04:17.339 --> 00:04:20.010
+vaper the chip is enclosed in a
+
+82
+00:04:20.010 --> 00:04:23.760
+protective plastic case finally with the
+
+83
+00:04:23.760 --> 00:04:26.190
+help of thin aluminium leads the
+
+84
+00:04:26.190 --> 00:04:29.070
+connectors are taken out and this is how
+
+85
+00:04:29.070 --> 00:04:32.430
+the standard package IC is manufactured
+
+86
+00:04:32.430 --> 00:04:35.669
+this type of IC in which the entire
+
+87
+00:04:35.669 --> 00:04:37.979
+circuit is formed on a single silicon
+
+88
+00:04:37.979 --> 00:04:42.210
+crystal is called monolithic IC these
+
+89
+00:04:42.210 --> 00:04:45.690
+are the most widely used isyes large
+
+90
+00:04:45.690 --> 00:04:48.240
+number of monolithic IC is embedded on a
+
+91
+00:04:48.240 --> 00:04:52.130
+ceramic substrate is known as hybrid IC
+
+92
+00:04:52.130 --> 00:04:56.190
+let's recap icees integrated circuits
+
+93
+00:04:56.190 --> 00:04:58.889
+have made the miniaturization of
+
+94
+00:04:58.889 --> 00:05:01.620
+electronic gadgets possible ICS are
+
+95
+00:05:01.620 --> 00:05:03.870
+found in almost all gadgets like cars
+
+96
+00:05:03.870 --> 00:05:06.380
+televisions CD players and cell phones
+
+97
+00:05:06.380 --> 00:05:08.720
+ICS can be grouped into two categories
+
+98
+00:05:08.720 --> 00:05:11.250
+depending on the nature of input signals
+
+99
+00:05:11.250 --> 00:05:16.139
+a linear or analog I C's B digital ICS
+
+100
+00:05:16.139 --> 00:05:19.650
+in linear I sees the input signals are
+
+101
+00:05:19.650 --> 00:05:22.410
+analog signals which change smoothly and
+
+102
+00:05:22.410 --> 00:05:24.930
+continuously over a range of values
+
+103
+00:05:24.930 --> 00:05:27.210
+between a maximum and a minimum in
+
+104
+00:05:27.210 --> 00:05:30.360
+digital ICS the signals are digital
+
+105
+00:05:30.360 --> 00:05:33.660
+signals that have only two values they
+
+106
+00:05:33.660 --> 00:05:35.700
+contain circuits such as logic gates
+
+107
+00:05:35.700 --> 00:05:38.010
+based on the number of logic gates
+
+108
+00:05:38.010 --> 00:05:41.039
+present in it Digital ICS can be further
+
+109
+00:05:41.039 --> 00:05:46.680
+classified as SSI MSI LSI and VLSI to
+
+110
+00:05:46.680 --> 00:05:49.010
+manufacture I sees a wafer of
+
+111
+00:05:49.010 --> 00:05:51.419
+semiconductor is taken and the
+
+112
+00:05:51.419 --> 00:05:54.570
+photolithography technique is used this
+
+113
+00:05:54.570 --> 00:05:57.060
+type of IC in which the entire circuit
+
+114
+00:05:57.060 --> 00:05:59.280
+is formed on a single silicon crystal is
+
+115
+00:05:59.280 --> 00:06:02.700
+called monolithic IC large number of
+
+116
+00:06:02.700 --> 00:06:05.190
+monolithic IC is embedded on a ceramic
+
+117
+00:06:05.190 --> 00:06:09.390
+substrate is known as hybrid IC
+
+118
+00:06:09.390 --> 00:06:12.180
+[Music]
+

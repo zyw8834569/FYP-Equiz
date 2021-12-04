@@ -1,0 +1,358 @@
+WEBVTT
+
+1
+00:00:00.149 --> 00:00:02.760
+if you ever opened up an electronic
+
+2
+00:00:02.760 --> 00:00:05.730
+device you have seen not one but more
+
+3
+00:00:05.730 --> 00:00:08.490
+than one I see which is in my case a
+
+4
+00:00:08.490 --> 00:00:10.679
+microcontroller I see from a DVD player
+
+5
+00:00:10.679 --> 00:00:14.400
+or you can say a PWM I see on a power
+
+6
+00:00:14.400 --> 00:00:17.400
+supply even if I say like this that
+
+7
+00:00:17.400 --> 00:00:20.039
+electronics is incomplete without an IC
+
+8
+00:00:20.039 --> 00:00:23.519
+then it is correct because IC is like
+
+9
+00:00:23.519 --> 00:00:26.730
+the backbone in electronic circuits so
+
+10
+00:00:26.730 --> 00:00:28.800
+in this episode we are going to study
+
+11
+00:00:28.800 --> 00:00:31.980
+about ICS we will discuss about what is
+
+12
+00:00:31.980 --> 00:00:35.210
+an IC how it works and where to use them
+
+13
+00:00:35.210 --> 00:00:38.129
+so without wasting any more time let's
+
+14
+00:00:38.129 --> 00:00:55.199
+get started the full form of IC is most
+
+15
+00:00:55.199 --> 00:00:57.780
+of you probably know is integrated
+
+16
+00:00:57.780 --> 00:01:00.989
+circuit so to make one of this IC you
+
+17
+00:01:00.989 --> 00:01:02.219
+will need thousands of electronic
+
+18
+00:01:02.219 --> 00:01:07.290
+components like resistor capacitor diode
+
+19
+00:01:07.290 --> 00:01:10.380
+and transistors they are directly formed
+
+20
+00:01:10.380 --> 00:01:12.750
+onto a sheet of silicon so they get a
+
+21
+00:01:12.750 --> 00:01:16.290
+shape of an IC now if we talk about
+
+22
+00:01:16.290 --> 00:01:18.750
+their types they are divided into two
+
+23
+00:01:18.750 --> 00:01:21.390
+groups the first one is a square I see
+
+24
+00:01:21.390 --> 00:01:25.799
+like this atmega328 one Arduino Nano you
+
+25
+00:01:25.799 --> 00:01:27.930
+can see that it has spins on all the
+
+26
+00:01:27.930 --> 00:01:30.840
+four sides which is in some ICS contain
+
+27
+00:01:30.840 --> 00:01:33.299
+it depends and in some i sees it
+
+28
+00:01:33.299 --> 00:01:35.970
+contains hundred pins even these pins
+
+29
+00:01:35.970 --> 00:01:38.670
+reach more than 500
+
+30
+00:01:38.670 --> 00:01:41.340
+the second type of IC is a square I see
+
+31
+00:01:41.340 --> 00:01:44.250
+like this grandfather of all Isis any
+
+32
+00:01:44.250 --> 00:01:46.830
+triple five timer you see it has spins
+
+33
+00:01:46.830 --> 00:01:49.560
+on only two sides that's why it is
+
+34
+00:01:49.560 --> 00:01:53.010
+called rectangular I see so have a look
+
+35
+00:01:53.010 --> 00:01:55.200
+at this if I would ask you how many
+
+36
+00:01:55.200 --> 00:01:57.750
+electronic components like resistor
+
+37
+00:01:57.750 --> 00:02:02.460
+capacitor diode and transistors are they
+
+38
+00:02:02.460 --> 00:02:05.190
+in this IC then it would impossible for
+
+39
+00:02:05.190 --> 00:02:07.800
+you to guess the amount so if we take a
+
+40
+00:02:07.800 --> 00:02:10.110
+look at the internal schematic of any
+
+41
+00:02:10.110 --> 00:02:12.630
+triple five timer you can see there are
+
+42
+00:02:12.630 --> 00:02:16.410
+a total of 23 transistors 15 resistors
+
+43
+00:02:16.410 --> 00:02:18.930
+and a couple of diodes you see how the
+
+44
+00:02:18.930 --> 00:02:21.360
+managed to fix all these 23 transistors
+
+45
+00:02:21.360 --> 00:02:24.200
+and 15 resistors in this small IC
+
+46
+00:02:24.200 --> 00:02:26.190
+although if you are thinking you can
+
+47
+00:02:26.190 --> 00:02:28.350
+break this IC and see all those
+
+48
+00:02:28.350 --> 00:02:31.050
+components they are formed onto a sheet
+
+49
+00:02:31.050 --> 00:02:33.989
+of silicon in such a way that we cannot
+
+50
+00:02:33.989 --> 00:02:37.769
+see with our naked eye now the question
+
+51
+00:02:37.769 --> 00:02:40.290
+is what is the fun of making these ICS
+
+52
+00:02:40.290 --> 00:02:41.700
+if we can make one
+
+53
+00:02:41.700 --> 00:02:44.640
+by using schematic diagram so if I would
+
+54
+00:02:44.640 --> 00:02:46.829
+follow the schematic diagram and make
+
+55
+00:02:46.829 --> 00:02:49.200
+the whole circuit by using same amount
+
+56
+00:02:49.200 --> 00:02:52.110
+of resistors and transistors then it
+
+57
+00:02:52.110 --> 00:02:54.360
+would take the entire breadboard to make
+
+58
+00:02:54.360 --> 00:02:57.000
+the whole circuit that's why I do two
+
+59
+00:02:57.000 --> 00:02:59.310
+advancement in technology they pack this
+
+60
+00:02:59.310 --> 00:03:02.549
+rather big circuit in a very small IC so
+
+61
+00:03:02.549 --> 00:03:04.769
+we can use the circuit in a very less
+
+62
+00:03:04.769 --> 00:03:08.820
+space at last let me clear one thing
+
+63
+00:03:08.820 --> 00:03:11.549
+from my mind in these isis there exist
+
+64
+00:03:11.549 --> 00:03:14.930
+opponents like transistors resistors
+
+65
+00:03:14.930 --> 00:03:21.269
+capacitors diodes Fe T's and MOSFETs etc
+
+66
+00:03:21.269 --> 00:03:23.640
+but there does not contain coils and
+
+67
+00:03:23.640 --> 00:03:27.030
+transformers take a look at any IC you
+
+68
+00:03:27.030 --> 00:03:29.340
+can see resistor capacitors but you
+
+69
+00:03:29.340 --> 00:03:32.310
+cannot see coil and transformers the
+
+70
+00:03:32.310 --> 00:03:34.380
+reason for that is due to their large
+
+71
+00:03:34.380 --> 00:03:37.470
+size making them small in size is very
+
+72
+00:03:37.470 --> 00:03:39.299
+expensive as compared with other
+
+73
+00:03:39.299 --> 00:03:42.390
+components like resistors capacitors so
+
+74
+00:03:42.390 --> 00:03:44.670
+designers avoid to use them in ICS
+
+75
+00:03:44.670 --> 00:03:46.769
+that's why we have to use those
+
+76
+00:03:46.769 --> 00:03:50.140
+components externally in our circus
+
+77
+00:03:50.140 --> 00:03:52.540
+so finally friends let's end this topic
+
+78
+00:03:52.540 --> 00:03:54.580
+here I hope you enjoyed watching this
+
+79
+00:03:54.580 --> 00:03:57.280
+video if so don't forget to subscribe to
+
+80
+00:03:57.280 --> 00:03:59.050
+this channel so we can further discuss
+
+81
+00:03:59.050 --> 00:04:01.720
+about all these components in detail
+
+82
+00:04:01.720 --> 00:04:03.850
+apparently this video is not that
+
+83
+00:04:03.850 --> 00:04:06.820
+special but it is useful for all those
+
+84
+00:04:06.820 --> 00:04:08.650
+friends who are new into electronics
+
+85
+00:04:08.650 --> 00:04:11.530
+once again don't forget to like share
+
+86
+00:04:11.530 --> 00:04:15.460
+and subscribe stay safe and I'll see you
+
+87
+00:04:15.460 --> 00:04:17.880
+next time
+
+88
+00:04:24.650 --> 00:04:42.880
+[Music]
+
+89
+00:04:42.880 --> 00:04:44.940
+you
+

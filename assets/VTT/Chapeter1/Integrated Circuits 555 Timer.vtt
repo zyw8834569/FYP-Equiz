@@ -1,0 +1,2622 @@
+WEBVTT
+
+1
+00:00:00.030 --> 00:00:01.740
+what is going on everyone my name is
+
+2
+00:00:01.740 --> 00:00:02.760
+Kota moore and welcome back to
+
+3
+00:00:02.760 --> 00:00:05.130
+electronics episode 24 in this episode
+
+4
+00:00:05.130 --> 00:00:07.109
+we will be covering integrated circuits
+
+5
+00:00:07.109 --> 00:00:09.360
+and specifically the 555 timer
+
+6
+00:00:09.360 --> 00:00:11.639
+integrated circuit today and I'm very
+
+7
+00:00:11.639 --> 00:00:13.500
+very very excited to be making this
+
+8
+00:00:13.500 --> 00:00:15.360
+episode because today we are finished
+
+9
+00:00:15.360 --> 00:00:17.070
+with all the boring stuff that we just
+
+10
+00:00:17.070 --> 00:00:19.109
+learned in the previous tutorials we are
+
+11
+00:00:19.109 --> 00:00:20.850
+taking our very first steps into the
+
+12
+00:00:20.850 --> 00:00:21.869
+things that we're going to need to
+
+13
+00:00:21.869 --> 00:00:24.420
+really really know in making an 8-bit
+
+14
+00:00:24.420 --> 00:00:25.949
+computer this is going to be really
+
+15
+00:00:25.949 --> 00:00:28.830
+exciting so let's get to it now in IC is
+
+16
+00:00:28.830 --> 00:00:31.619
+short for an integrated circuit and it
+
+17
+00:00:31.619 --> 00:00:33.239
+is a circuit that is packaged on or
+
+18
+00:00:33.239 --> 00:00:35.219
+essentially placed within a very very
+
+19
+00:00:35.219 --> 00:00:37.469
+small piece of semiconductive material
+
+20
+00:00:37.469 --> 00:00:39.690
+or more basically it is a circuit that
+
+21
+00:00:39.690 --> 00:00:41.370
+is made to be very very small
+
+22
+00:00:41.370 --> 00:00:43.620
+now most I sees that you're going to see
+
+23
+00:00:43.620 --> 00:00:45.960
+look either like this or this here now
+
+24
+00:00:45.960 --> 00:00:48.000
+this first I see that you can see here
+
+25
+00:00:48.000 --> 00:00:50.430
+is an integrated circuit that has zip
+
+26
+00:00:50.430 --> 00:00:54.480
+packaging or dual inline package ngey IP
+
+27
+00:00:54.480 --> 00:00:57.149
+basically it has pins as you can see
+
+28
+00:00:57.149 --> 00:00:59.039
+here that can be easily accessed and
+
+29
+00:00:59.039 --> 00:01:01.050
+placed into a breadboard for example and
+
+30
+00:01:01.050 --> 00:01:03.359
+the other common type of IC packaging is
+
+31
+00:01:03.359 --> 00:01:05.700
+called surface mount packaging and that
+
+32
+00:01:05.700 --> 00:01:07.470
+is what you can see right here now these
+
+33
+00:01:07.470 --> 00:01:10.200
+are both the exact same IC just there in
+
+34
+00:01:10.200 --> 00:01:12.000
+different packaging and surface mount
+
+35
+00:01:12.000 --> 00:01:14.100
+packages like this chip right here are
+
+36
+00:01:14.100 --> 00:01:15.840
+usually used more at the production
+
+37
+00:01:15.840 --> 00:01:18.119
+level for mass-produced circuits rather
+
+38
+00:01:18.119 --> 00:01:20.070
+than prototyping because the pins are so
+
+39
+00:01:20.070 --> 00:01:22.740
+much smaller now because of this any IC
+
+40
+00:01:22.740 --> 00:01:24.360
+that you purchase for the most part will
+
+41
+00:01:24.360 --> 00:01:26.670
+likely want to be a dual inline package
+
+42
+00:01:26.670 --> 00:01:28.979
+IC or it should look something like this
+
+43
+00:01:28.979 --> 00:01:30.869
+with the longer pins that you're able to
+
+44
+00:01:30.869 --> 00:01:32.790
+easily access input into a breadboard
+
+45
+00:01:32.790 --> 00:01:35.189
+now ICS have many different functions of
+
+46
+00:01:35.189 --> 00:01:36.840
+course they all do something completely
+
+47
+00:01:36.840 --> 00:01:38.460
+different it will be discussing many of
+
+48
+00:01:38.460 --> 00:01:39.869
+them as we go on with this tutorial
+
+49
+00:01:39.869 --> 00:01:40.200
+series
+
+50
+00:01:40.200 --> 00:01:42.450
+but one of the most popular ICS that you
+
+51
+00:01:42.450 --> 00:01:44.130
+should first learn about in electronics
+
+52
+00:01:44.130 --> 00:01:48.630
+is probably going to be the 5 5 5 timer
+
+53
+00:01:48.630 --> 00:01:51.930
+IC or the triple 5 timer and this IC has
+
+54
+00:01:51.930 --> 00:01:54.000
+been used for many many years and it has
+
+55
+00:01:54.000 --> 00:01:55.710
+many different uses but today we will be
+
+56
+00:01:55.710 --> 00:01:57.149
+using it to create an oscillating
+
+57
+00:01:57.149 --> 00:01:58.590
+circuit like we did in the previous
+
+58
+00:01:58.590 --> 00:02:00.570
+video however it'll be much more
+
+59
+00:02:00.570 --> 00:02:02.280
+controllable accurate and stable
+
+60
+00:02:02.280 --> 00:02:03.930
+compared to the circuit that we built
+
+61
+00:02:03.930 --> 00:02:06.390
+last time now the triple 5 timer IC
+
+62
+00:02:06.390 --> 00:02:08.280
+which I have right here as well as the
+
+63
+00:02:08.280 --> 00:02:10.378
+previous two ICS that you just saw has
+
+64
+00:02:10.378 --> 00:02:13.110
+eight pins in this example you can see
+
+65
+00:02:13.110 --> 00:02:13.890
+four of them on
+
+66
+00:02:13.890 --> 00:02:15.900
+front here and there are also for them
+
+67
+00:02:15.900 --> 00:02:18.330
+on the other side of this now whenever
+
+68
+00:02:18.330 --> 00:02:20.550
+you are working with an IC the pins are
+
+69
+00:02:20.550 --> 00:02:22.020
+numbered and they are numbered
+
+70
+00:02:22.020 --> 00:02:24.120
+counterclockwise starting at the upper
+
+71
+00:02:24.120 --> 00:02:26.790
+left pin and you can tell what pin is
+
+72
+00:02:26.790 --> 00:02:29.160
+the upper left because every IC will
+
+73
+00:02:29.160 --> 00:02:31.320
+usually have a small little indentation
+
+74
+00:02:31.320 --> 00:02:32.670
+like this one does right here at the
+
+75
+00:02:32.670 --> 00:02:34.860
+upper left so we know that this is pin
+
+76
+00:02:34.860 --> 00:02:36.720
+number one or if that's not the case
+
+77
+00:02:36.720 --> 00:02:38.820
+it'll have a little indentation on the
+
+78
+00:02:38.820 --> 00:02:40.620
+top part right here which you can kind
+
+79
+00:02:40.620 --> 00:02:42.510
+of see right there and that indicates
+
+80
+00:02:42.510 --> 00:02:44.640
+the top of the chip so that we know this
+
+81
+00:02:44.640 --> 00:02:46.320
+pin should be number one as well and
+
+82
+00:02:46.320 --> 00:02:48.209
+this IC just happens to have both of
+
+83
+00:02:48.209 --> 00:02:50.250
+those they both example and the little
+
+84
+00:02:50.250 --> 00:02:52.530
+dot here but some ICS may only have one
+
+85
+00:02:52.530 --> 00:02:54.090
+of those they all look a little bit
+
+86
+00:02:54.090 --> 00:02:56.459
+different and like I said the pins on an
+
+87
+00:02:56.459 --> 00:02:59.280
+IC are numbered counterclockwise so in
+
+88
+00:02:59.280 --> 00:03:01.769
+the case of a five five five timer pin
+
+89
+00:03:01.769 --> 00:03:03.660
+one is connected to ground or
+
+90
+00:03:03.660 --> 00:03:05.070
+essentially the negative terminal of
+
+91
+00:03:05.070 --> 00:03:08.070
+your battery and pin eight is called VCC
+
+92
+00:03:08.070 --> 00:03:09.660
+here or essentially where you're going
+
+93
+00:03:09.660 --> 00:03:11.250
+to connect the positive terminal of your
+
+94
+00:03:11.250 --> 00:03:13.709
+battery to now in the case of most other
+
+95
+00:03:13.709 --> 00:03:17.220
+ICS the bottom-left pin will usually be
+
+96
+00:03:17.220 --> 00:03:18.930
+your ground pin while the upper right
+
+97
+00:03:18.930 --> 00:03:21.360
+pin will usually be your VCC or your
+
+98
+00:03:21.360 --> 00:03:23.370
+positive terminal pin but of course all
+
+99
+00:03:23.370 --> 00:03:25.680
+ICS are different so it's very important
+
+100
+00:03:25.680 --> 00:03:27.450
+to have the data sheet for the IC that
+
+101
+00:03:27.450 --> 00:03:29.010
+you are working with in front you to
+
+102
+00:03:29.010 --> 00:03:30.360
+know what all the pins mean and what
+
+103
+00:03:30.360 --> 00:03:31.829
+they should be connected to for example
+
+104
+00:03:31.829 --> 00:03:33.900
+if you accidentally connect VCC and
+
+105
+00:03:33.900 --> 00:03:36.150
+ground backwards you could badly damage
+
+106
+00:03:36.150 --> 00:03:38.970
+the IC chip so I know the names of each
+
+107
+00:03:38.970 --> 00:03:40.829
+one of these pins just because I looked
+
+108
+00:03:40.829 --> 00:03:43.410
+at the data sheet for the 555 timer now
+
+109
+00:03:43.410 --> 00:03:45.180
+I'm going to begin by drawing out the
+
+110
+00:03:45.180 --> 00:03:46.769
+circuit building it and I'm seeing it
+
+111
+00:03:46.769 --> 00:03:48.630
+work and then I will go through a very
+
+112
+00:03:48.630 --> 00:03:50.700
+detailed explanation of how everything
+
+113
+00:03:50.700 --> 00:03:52.799
+works in the triple v timer now we are
+
+114
+00:03:52.799 --> 00:03:54.720
+going to use the triple v timer today
+
+115
+00:03:54.720 --> 00:03:58.079
+and what is called a stable mode and the
+
+116
+00:03:58.079 --> 00:04:00.750
+triple v timer can go in three modes you
+
+117
+00:04:00.750 --> 00:04:04.560
+have a stable monostable and then i'm
+
+118
+00:04:04.560 --> 00:04:05.790
+going to write the other one down here
+
+119
+00:04:05.790 --> 00:04:09.690
+there's also by stable mode as well so
+
+120
+00:04:09.690 --> 00:04:11.190
+we are going to be making a circuit that
+
+121
+00:04:11.190 --> 00:04:13.799
+runs the triple v timer in a stable mode
+
+122
+00:04:13.799 --> 00:04:15.660
+meaning that the output pin will be a
+
+123
+00:04:15.660 --> 00:04:18.089
+constant cycle so essentially from the
+
+124
+00:04:18.089 --> 00:04:19.769
+output pin here that is where our
+
+125
+00:04:19.769 --> 00:04:21.450
+oscillation is going to be it's going to
+
+126
+00:04:21.450 --> 00:04:23.400
+be off for a few seconds it'll turn on
+
+127
+00:04:23.400 --> 00:04:25.860
+for a few seconds off again on again off
+
+128
+00:04:25.860 --> 00:04:26.910
+again on again
+
+129
+00:04:26.910 --> 00:04:28.830
+in the square wave pattern and of course
+
+130
+00:04:28.830 --> 00:04:30.390
+it's going to do that automatically just
+
+131
+00:04:30.390 --> 00:04:31.830
+like the circuit we built in the last
+
+132
+00:04:31.830 --> 00:04:34.020
+video now it can also be run in what is
+
+133
+00:04:34.020 --> 00:04:36.090
+called mono stable mode where some sort
+
+134
+00:04:36.090 --> 00:04:37.680
+of trigger like a button press will
+
+135
+00:04:37.680 --> 00:04:39.510
+cause the output to go on and then off
+
+136
+00:04:39.510 --> 00:04:41.220
+for a set amount of time and there is
+
+137
+00:04:41.220 --> 00:04:43.050
+also by stable mode but we won't be
+
+138
+00:04:43.050 --> 00:04:45.120
+talking about monostable or by a stable
+
+139
+00:04:45.120 --> 00:04:46.950
+mode at this moment we are just going to
+
+140
+00:04:46.950 --> 00:04:49.080
+make a circuit that closely resembles
+
+141
+00:04:49.080 --> 00:04:50.520
+the circuit that we had in the last
+
+142
+00:04:50.520 --> 00:04:52.260
+video but of course is going to be much
+
+143
+00:04:52.260 --> 00:04:54.300
+better and more accurate and stable so
+
+144
+00:04:54.300 --> 00:04:56.430
+let me begin by drawing the schematic
+
+145
+00:04:56.430 --> 00:04:57.990
+diagram here first we're going to start
+
+146
+00:04:57.990 --> 00:04:59.880
+out with our battery this is of course
+
+147
+00:04:59.880 --> 00:05:01.710
+the positive terminal of the battery and
+
+148
+00:05:01.710 --> 00:05:04.740
+that will be hooked up to VCC and from
+
+149
+00:05:04.740 --> 00:05:06.510
+the positive terminal of the battery we
+
+150
+00:05:06.510 --> 00:05:09.150
+will have a resistor here and I'll give
+
+151
+00:05:09.150 --> 00:05:11.070
+you the values of these resistors in
+
+152
+00:05:11.070 --> 00:05:12.870
+just a few moments and that resistor
+
+153
+00:05:12.870 --> 00:05:14.790
+will be connected to pin number seven or
+
+154
+00:05:14.790 --> 00:05:17.130
+the discharge pin of the IC and from
+
+155
+00:05:17.130 --> 00:05:19.410
+there after that resistor we will have
+
+156
+00:05:19.410 --> 00:05:22.320
+another resistor hooked up here and this
+
+157
+00:05:22.320 --> 00:05:24.270
+resistor will be connected to that's the
+
+158
+00:05:24.270 --> 00:05:26.250
+rush hold pin pin number six of the five
+
+159
+00:05:26.250 --> 00:05:28.080
+five five timer and I should actually
+
+160
+00:05:28.080 --> 00:05:30.930
+probably label this IC that way we know
+
+161
+00:05:30.930 --> 00:05:31.500
+what it is
+
+162
+00:05:31.500 --> 00:05:34.470
+the five five five timer and from here
+
+163
+00:05:34.470 --> 00:05:38.520
+we will actually have this go to the
+
+164
+00:05:38.520 --> 00:05:41.610
+trigger pin pin number two of the IC and
+
+165
+00:05:41.610 --> 00:05:45.330
+we will also have it go to a capacitor
+
+166
+00:05:45.330 --> 00:05:47.700
+right here and that capacitor the other
+
+167
+00:05:47.700 --> 00:05:49.230
+side will just be connected to ground
+
+168
+00:05:49.230 --> 00:05:51.300
+I'm just going to write GND that way I
+
+169
+00:05:51.300 --> 00:05:52.680
+don't have to make a connection all the
+
+170
+00:05:52.680 --> 00:05:54.120
+way up to the negative terminal of the
+
+171
+00:05:54.120 --> 00:05:56.070
+battery great now the control voltage
+
+172
+00:05:56.070 --> 00:05:58.980
+pin number five is just going to have a
+
+173
+00:05:58.980 --> 00:06:01.560
+capacitor on it and that capacitor will
+
+174
+00:06:01.560 --> 00:06:04.110
+be connected to ground as well the reset
+
+175
+00:06:04.110 --> 00:06:05.730
+pin pin number four is going to be
+
+176
+00:06:05.730 --> 00:06:07.350
+connected directly to the positive
+
+177
+00:06:07.350 --> 00:06:09.960
+terminal of the battery or VCC again
+
+178
+00:06:09.960 --> 00:06:11.550
+instead of making a wire connection up
+
+179
+00:06:11.550 --> 00:06:13.980
+there I'm just going to write VCC so
+
+180
+00:06:13.980 --> 00:06:15.840
+that we know where it goes ground will
+
+181
+00:06:15.840 --> 00:06:17.100
+of course be connected to the negative
+
+182
+00:06:17.100 --> 00:06:19.050
+terminal of the battery here and then we
+
+183
+00:06:19.050 --> 00:06:20.850
+will have our output pin which actually
+
+184
+00:06:20.850 --> 00:06:23.250
+has our oscillating signal and we'll
+
+185
+00:06:23.250 --> 00:06:25.650
+connect that to a different circuit like
+
+186
+00:06:25.650 --> 00:06:27.180
+a blinking light or something so
+
+187
+00:06:27.180 --> 00:06:29.580
+actually let's have this output pin jump
+
+188
+00:06:29.580 --> 00:06:31.590
+over this wire and we can just lead this
+
+189
+00:06:31.590 --> 00:06:34.440
+on up to I don't know say a resistor
+
+190
+00:06:34.440 --> 00:06:36.840
+here and that resistor will just lead to
+
+191
+00:06:36.840 --> 00:06:39.150
+an LED so that we can get a blinking
+
+192
+00:06:39.150 --> 00:06:41.129
+light and the LED will be
+
+193
+00:06:41.129 --> 00:06:43.080
+connected to the negative terminal of
+
+194
+00:06:43.080 --> 00:06:44.759
+the battery so I know this is a really
+
+195
+00:06:44.759 --> 00:06:46.679
+messy schematic symbol but this is what
+
+196
+00:06:46.679 --> 00:06:48.809
+we want to build on our breadboard now
+
+197
+00:06:48.809 --> 00:06:50.939
+this capacitor right here connected to
+
+198
+00:06:50.939 --> 00:06:53.610
+control voltage I make that a zero point
+
+199
+00:06:53.610 --> 00:06:56.759
+one nano farad capacitor really this can
+
+200
+00:06:56.759 --> 00:06:59.189
+be any value capacitor but you probably
+
+201
+00:06:59.189 --> 00:07:01.469
+just want a very small value so don't
+
+202
+00:07:01.469 --> 00:07:03.179
+worry too much about the actual value of
+
+203
+00:07:03.179 --> 00:07:05.309
+this one now for this other capacitor
+
+204
+00:07:05.309 --> 00:07:06.659
+here as you can see I drew an
+
+205
+00:07:06.659 --> 00:07:08.519
+electrolytic symbol here because I want
+
+206
+00:07:08.519 --> 00:07:10.379
+a slightly larger value you can use a
+
+207
+00:07:10.379 --> 00:07:12.509
+value such as a 100 micro farad
+
+208
+00:07:12.509 --> 00:07:14.429
+capacitor in my case I'm going to be
+
+209
+00:07:14.429 --> 00:07:18.769
+using a 470 micro farad capacitor and
+
+210
+00:07:18.769 --> 00:07:21.330
+essentially the larger the capacitance
+
+211
+00:07:21.330 --> 00:07:23.039
+value right here the lower your
+
+212
+00:07:23.039 --> 00:07:24.599
+frequency is going to be or essentially
+
+213
+00:07:24.599 --> 00:07:26.789
+your light is going to blink slower with
+
+214
+00:07:26.789 --> 00:07:28.559
+the larger the capacitance that you have
+
+215
+00:07:28.559 --> 00:07:30.300
+so you can experiment around and try
+
+216
+00:07:30.300 --> 00:07:32.039
+different values for this capacitor here
+
+217
+00:07:32.039 --> 00:07:33.659
+if you would like and then the two
+
+218
+00:07:33.659 --> 00:07:35.779
+resistors will actually will make them
+
+219
+00:07:35.779 --> 00:07:39.659
+4.7 K ohm resistors so this one will
+
+220
+00:07:39.659 --> 00:07:42.749
+also be a 4.7 K ohm resistor as well
+
+221
+00:07:42.749 --> 00:07:45.149
+again you don't have to use exact values
+
+222
+00:07:45.149 --> 00:07:46.559
+it can be a bit different of course and
+
+223
+00:07:46.559 --> 00:07:48.240
+I should probably mention that I will be
+
+224
+00:07:48.240 --> 00:07:50.309
+using a nine volt power source which
+
+225
+00:07:50.309 --> 00:07:52.649
+means that your resistor over here will
+
+226
+00:07:52.649 --> 00:07:54.599
+have to be of a large enough value that
+
+227
+00:07:54.599 --> 00:07:56.309
+where your LED won't burn out so in my
+
+228
+00:07:56.309 --> 00:07:57.779
+case I'm just going to approximate I'm
+
+229
+00:07:57.779 --> 00:08:00.749
+just going to use a 1 kilo ohm resistor
+
+230
+00:08:00.749 --> 00:08:02.399
+here because I'm just assuming that
+
+231
+00:08:02.399 --> 00:08:04.050
+that's not going to make my LED burn out
+
+232
+00:08:04.050 --> 00:08:05.550
+or anything it should resist enough
+
+233
+00:08:05.550 --> 00:08:07.499
+electricity for that all to work so
+
+234
+00:08:07.499 --> 00:08:08.789
+there we go that is what we will be
+
+235
+00:08:08.789 --> 00:08:10.499
+using to make our circuit let's build it
+
+236
+00:08:10.499 --> 00:08:12.360
+run it and then we will go into full-on
+
+237
+00:08:12.360 --> 00:08:14.550
+in-depth explanation about it so I'm not
+
+238
+00:08:14.550 --> 00:08:15.990
+going to go through and build the entire
+
+239
+00:08:15.990 --> 00:08:17.610
+circuit on camera you should be able to
+
+240
+00:08:17.610 --> 00:08:19.199
+see most of the connections here all I
+
+241
+00:08:19.199 --> 00:08:21.240
+have to do is add two more resistors in
+
+242
+00:08:21.240 --> 00:08:22.919
+this circuit will be completed along
+
+243
+00:08:22.919 --> 00:08:25.019
+with our schematic that we made as you
+
+244
+00:08:25.019 --> 00:08:27.329
+can see I have my 470 micro farad
+
+245
+00:08:27.329 --> 00:08:29.339
+capacitor my point 1 nano farad
+
+246
+00:08:29.339 --> 00:08:31.110
+capacitor like I said this one isn't
+
+247
+00:08:31.110 --> 00:08:33.179
+required but you probably want to have
+
+248
+00:08:33.179 --> 00:08:35.370
+it it's good practice to do so I have my
+
+249
+00:08:35.370 --> 00:08:37.589
+triple 5 timer chip and if i zoom into
+
+250
+00:08:37.589 --> 00:08:39.688
+it a bit more here you should be able to
+
+251
+00:08:39.688 --> 00:08:41.669
+slightly see on the top here there's a
+
+252
+00:08:41.669 --> 00:08:43.589
+little indent and I'm sorry that it's
+
+253
+00:08:43.589 --> 00:08:45.240
+hard to see on the camera but that is
+
+254
+00:08:45.240 --> 00:08:46.889
+how I know it's the top of the chip and
+
+255
+00:08:46.889 --> 00:08:49.559
+that this pin is the upper-left pin or
+
+256
+00:08:49.559 --> 00:08:51.420
+pin number one so it's important that
+
+257
+00:08:51.420 --> 00:08:52.889
+you make sure that your triple 5 timer
+
+258
+00:08:52.889 --> 00:08:54.690
+chip is oriented the proper
+
+259
+00:08:54.690 --> 00:08:55.950
+direction and the same goes for
+
+260
+00:08:55.950 --> 00:08:57.630
+everything like the LED make sure that
+
+261
+00:08:57.630 --> 00:08:59.490
+sucked up correctly I have my resistor
+
+262
+00:08:59.490 --> 00:08:59.850
+here
+
+263
+00:08:59.850 --> 00:09:01.530
+everything should be hooked up properly
+
+264
+00:09:01.530 --> 00:09:03.000
+let me just go ahead and I'm going to
+
+265
+00:09:03.000 --> 00:09:05.610
+take my two four point seven kilo ohm
+
+266
+00:09:05.610 --> 00:09:07.560
+resistors one is going to go from pin
+
+267
+00:09:07.560 --> 00:09:09.720
+eight to pin seven and you want to make
+
+268
+00:09:09.720 --> 00:09:10.920
+sure that you don't have any weird
+
+269
+00:09:10.920 --> 00:09:12.360
+connections touching each other
+
+270
+00:09:12.360 --> 00:09:14.160
+accidentally and the next is going to go
+
+271
+00:09:14.160 --> 00:09:16.890
+from pin seven to pin number six so let
+
+272
+00:09:16.890 --> 00:09:19.080
+me put that in right now as well so my
+
+273
+00:09:19.080 --> 00:09:20.550
+circuit looks very very message
+
+274
+00:09:20.550 --> 00:09:22.440
+especially up here that's probably why
+
+275
+00:09:22.440 --> 00:09:23.880
+you're going to want to spread out all
+
+276
+00:09:23.880 --> 00:09:25.620
+your connections a bit more so who has
+
+277
+00:09:25.620 --> 00:09:27.000
+time for that I certainly don't
+
+278
+00:09:27.000 --> 00:09:28.950
+so let's actually hook up the power and
+
+279
+00:09:28.950 --> 00:09:30.990
+get this thing running so once I connect
+
+280
+00:09:30.990 --> 00:09:33.810
+to the 9-volt battery the LED instantly
+
+281
+00:09:33.810 --> 00:09:35.790
+turns on and then after a couple of
+
+282
+00:09:35.790 --> 00:09:38.130
+seconds it should turn off breath and
+
+283
+00:09:38.130 --> 00:09:39.840
+it'll turn back on as you can see and
+
+284
+00:09:39.840 --> 00:09:41.300
+it's going to continue to blink and
+
+285
+00:09:41.300 --> 00:09:43.740
+later on in this video I show you how to
+
+286
+00:09:43.740 --> 00:09:45.870
+calculate the frequency of how this
+
+287
+00:09:45.870 --> 00:09:47.640
+light is turning on and off but anyways
+
+288
+00:09:47.640 --> 00:09:49.680
+this is the circuit in action so let's
+
+289
+00:09:49.680 --> 00:09:51.330
+go into an explanation of all of this
+
+290
+00:09:51.330 --> 00:09:53.340
+now this is probably going to be the
+
+291
+00:09:53.340 --> 00:09:54.960
+biggest explanation that I have ever
+
+292
+00:09:54.960 --> 00:09:57.240
+done this far in this series there is a
+
+293
+00:09:57.240 --> 00:09:59.370
+lot of stuff that I have to explain here
+
+294
+00:09:59.370 --> 00:10:00.810
+and there's also a lot of things within
+
+295
+00:10:00.810 --> 00:10:02.520
+the triple five timer that we haven't
+
+296
+00:10:02.520 --> 00:10:04.110
+talked about yet that I also have to
+
+297
+00:10:04.110 --> 00:10:05.910
+explain now it can be a really tricky
+
+298
+00:10:05.910 --> 00:10:07.920
+thing to understand so if you get really
+
+299
+00:10:07.920 --> 00:10:09.810
+really confused don't worry about it
+
+300
+00:10:09.810 --> 00:10:11.670
+follow along with the series maybe come
+
+301
+00:10:11.670 --> 00:10:13.830
+back to this video it can be quite tough
+
+302
+00:10:13.830 --> 00:10:15.420
+to understand and I'm going to try my
+
+303
+00:10:15.420 --> 00:10:17.400
+best to explain it the best I possibly
+
+304
+00:10:17.400 --> 00:10:19.440
+can now there's a thing within the
+
+305
+00:10:19.440 --> 00:10:21.210
+triple five timer called a flip-flop
+
+306
+00:10:21.210 --> 00:10:23.790
+I've drawn it so that it looks kind of
+
+307
+00:10:23.790 --> 00:10:25.440
+like a switch but it's really not a
+
+308
+00:10:25.440 --> 00:10:27.420
+physical switch in the triple five timer
+
+309
+00:10:27.420 --> 00:10:29.430
+but I just drew it that way because it's
+
+310
+00:10:29.430 --> 00:10:31.860
+easier to show how it functions so there
+
+311
+00:10:31.860 --> 00:10:33.690
+isn't an actual physical switch within
+
+312
+00:10:33.690 --> 00:10:35.910
+here second of all we see that there are
+
+313
+00:10:35.910 --> 00:10:38.310
+these two little triangle things in here
+
+314
+00:10:38.310 --> 00:10:41.060
+and those two triangle things are called
+
+315
+00:10:41.060 --> 00:10:44.190
+comparators right here we have not
+
+316
+00:10:44.190 --> 00:10:46.620
+talked about comparators yet so let's do
+
+317
+00:10:46.620 --> 00:10:49.290
+a brief little introduction into what
+
+318
+00:10:49.290 --> 00:10:50.760
+the comparators are going to be doing
+
+319
+00:10:50.760 --> 00:10:53.339
+within the triple five timer so we have
+
+320
+00:10:53.339 --> 00:10:55.890
+two inputs the top is called the V plus
+
+321
+00:10:55.890 --> 00:10:58.290
+input the bottom is called the V minus
+
+322
+00:10:58.290 --> 00:11:00.420
+input and then coming out of a tip of
+
+323
+00:11:00.420 --> 00:11:03.240
+the triangle we have the output signal
+
+324
+00:11:03.240 --> 00:11:05.280
+and actually before I continue on with
+
+325
+00:11:05.280 --> 00:11:07.470
+this explanation I have to explain two
+
+326
+00:11:07.470 --> 00:11:08.570
+words that I'm going to be used
+
+327
+00:11:08.570 --> 00:11:10.370
+throughout the remainder of this series
+
+328
+00:11:10.370 --> 00:11:13.220
+I'm going to be using the words hi and
+
+329
+00:11:13.220 --> 00:11:15.980
+I'm also going to be using the word lo
+
+330
+00:11:15.980 --> 00:11:19.280
+quite a bit whenever I say hi it means
+
+331
+00:11:19.280 --> 00:11:21.980
+that there is voltage we are connected
+
+332
+00:11:21.980 --> 00:11:23.930
+to the positive rail it's sending out
+
+333
+00:11:23.930 --> 00:11:25.850
+voltage on this wire or this is
+
+334
+00:11:25.850 --> 00:11:27.920
+essentially equivalent to the number one
+
+335
+00:11:27.920 --> 00:11:30.710
+meaning we do have voltage whenever I
+
+336
+00:11:30.710 --> 00:11:33.680
+use the word lo I mean we don't have any
+
+337
+00:11:33.680 --> 00:11:35.390
+voltage or we're connected to ground
+
+338
+00:11:35.390 --> 00:11:38.000
+zero volts in fact and this is also
+
+339
+00:11:38.000 --> 00:11:39.920
+equivalent to the number zero you'll see
+
+340
+00:11:39.920 --> 00:11:42.470
+that a lot so hi we are sending out
+
+341
+00:11:42.470 --> 00:11:44.450
+voltage on whatever wire we're talking
+
+342
+00:11:44.450 --> 00:11:46.850
+about low means we are not sending out
+
+343
+00:11:46.850 --> 00:11:48.440
+voltage instead we are connected to
+
+344
+00:11:48.440 --> 00:11:50.600
+ground on that wire those are two very
+
+345
+00:11:50.600 --> 00:11:52.040
+important words that we're going to be
+
+346
+00:11:52.040 --> 00:11:53.660
+using throughout the remainder of this
+
+347
+00:11:53.660 --> 00:11:56.900
+series hi is voltage low is no voltage
+
+348
+00:11:56.900 --> 00:11:58.040
+or ground
+
+349
+00:11:58.040 --> 00:12:00.920
+okay back to comparators right here now
+
+350
+00:12:00.920 --> 00:12:03.200
+I've written down exactly what happens
+
+351
+00:12:03.200 --> 00:12:05.780
+here in these two lines so what we are
+
+352
+00:12:05.780 --> 00:12:08.240
+saying is that the output signal here
+
+353
+00:12:08.240 --> 00:12:10.430
+the output will be high or it will
+
+354
+00:12:10.430 --> 00:12:13.580
+connect to VCC to positive voltage and
+
+355
+00:12:13.580 --> 00:12:16.070
+it will send out positive voltage only
+
+356
+00:12:16.070 --> 00:12:19.550
+if the V Plus input is greater than the
+
+357
+00:12:19.550 --> 00:12:21.680
+V minus input so if we have more voltage
+
+358
+00:12:21.680 --> 00:12:23.630
+coming into the plus input than we do
+
+359
+00:12:23.630 --> 00:12:25.460
+coming into the minus input then the
+
+360
+00:12:25.460 --> 00:12:27.650
+output will become high and it will send
+
+361
+00:12:27.650 --> 00:12:30.320
+out positive voltage for us however and
+
+362
+00:12:30.320 --> 00:12:32.060
+I also have this written down next to it
+
+363
+00:12:32.060 --> 00:12:35.450
+over here the output will be low or
+
+364
+00:12:35.450 --> 00:12:38.600
+connected to ground if the V Plus input
+
+365
+00:12:38.600 --> 00:12:41.210
+is less than to the minus input so if
+
+366
+00:12:41.210 --> 00:12:42.800
+the voltage coming into the plus input
+
+367
+00:12:42.800 --> 00:12:44.960
+is less than the voltage coming into the
+
+368
+00:12:44.960 --> 00:12:46.700
+minus input the output will be low
+
+369
+00:12:46.700 --> 00:12:49.160
+connect to ground that is what a
+
+370
+00:12:49.160 --> 00:12:50.930
+comparator does and I'm going to leave
+
+371
+00:12:50.930 --> 00:12:53.690
+this text on the screen right up here
+
+372
+00:12:53.690 --> 00:12:55.310
+that way that you can refer to it as I
+
+373
+00:12:55.310 --> 00:12:57.710
+am explaining things because it is a
+
+374
+00:12:57.710 --> 00:13:00.110
+very key part of the triple v timer of
+
+375
+00:13:00.110 --> 00:13:02.360
+course now that those basic explanations
+
+376
+00:13:02.360 --> 00:13:04.220
+are out of the way let's get to how this
+
+377
+00:13:04.220 --> 00:13:06.470
+is working so the first thing that we
+
+378
+00:13:06.470 --> 00:13:08.390
+are going to notice is that the VCC and
+
+379
+00:13:08.390 --> 00:13:11.090
+ground pins are connected by three
+
+380
+00:13:11.090 --> 00:13:13.880
+resistors in series here and these three
+
+381
+00:13:13.880 --> 00:13:16.520
+resistors actually split up our input
+
+382
+00:13:16.520 --> 00:13:19.550
+voltage so go to comparator a here is
+
+383
+00:13:19.550 --> 00:13:22.540
+going to be one third of our supply
+
+384
+00:13:22.540 --> 00:13:25.120
+by voltage one third of our VCC while
+
+385
+00:13:25.120 --> 00:13:28.240
+this wire going down to comparator B to
+
+386
+00:13:28.240 --> 00:13:30.490
+the minus input is going to be two
+
+387
+00:13:30.490 --> 00:13:33.490
+thirds of our input voltage two-thirds
+
+388
+00:13:33.490 --> 00:13:36.430
+of our VCC now I used a 9-volt battery
+
+389
+00:13:36.430 --> 00:13:38.500
+so instead of writing that I'm just
+
+390
+00:13:38.500 --> 00:13:40.630
+going to say that constantly we are
+
+391
+00:13:40.630 --> 00:13:42.190
+getting to the plus input of this
+
+392
+00:13:42.190 --> 00:13:44.770
+comparator three volts because that is
+
+393
+00:13:44.770 --> 00:13:46.990
+one third of my nine volt supply into
+
+394
+00:13:46.990 --> 00:13:49.180
+the minus input of the B comparator we
+
+395
+00:13:49.180 --> 00:13:50.890
+are getting six volts because that is
+
+396
+00:13:50.890 --> 00:13:53.290
+two thirds of my power supply and that's
+
+397
+00:13:53.290 --> 00:13:55.180
+pretty much going to stay constant we
+
+398
+00:13:55.180 --> 00:13:56.920
+will always be comparing something to
+
+399
+00:13:56.920 --> 00:13:58.870
+three volts here in something to six
+
+400
+00:13:58.870 --> 00:14:00.910
+volts down here now really the only
+
+401
+00:14:00.910 --> 00:14:02.770
+tough part that I have to explain is
+
+402
+00:14:02.770 --> 00:14:05.050
+this control voltage pin here which as
+
+403
+00:14:05.050 --> 00:14:06.760
+you can see is also connected to this
+
+404
+00:14:06.760 --> 00:14:09.340
+minus input basically don't worry about
+
+405
+00:14:09.340 --> 00:14:11.380
+this control voltage pin for now because
+
+406
+00:14:11.380 --> 00:14:12.700
+all in all it's pretty much just
+
+407
+00:14:12.700 --> 00:14:14.890
+connected to ground constantly and the
+
+408
+00:14:14.890 --> 00:14:16.750
+only reason that we have this capacitor
+
+409
+00:14:16.750 --> 00:14:19.270
+here is just to smooth out the input
+
+410
+00:14:19.270 --> 00:14:21.400
+that way we have a nice smooth voltage
+
+411
+00:14:21.400 --> 00:14:23.320
+going into this comparator that's the
+
+412
+00:14:23.320 --> 00:14:25.150
+only reason we have this capacitor here
+
+413
+00:14:25.150 --> 00:14:27.430
+and the control voltage pin also helps
+
+414
+00:14:27.430 --> 00:14:29.350
+set the sensitivity of the triple v
+
+415
+00:14:29.350 --> 00:14:31.480
+timer but again for this basic
+
+416
+00:14:31.480 --> 00:14:33.310
+explanation and because we just have
+
+417
+00:14:33.310 --> 00:14:34.900
+this connected to ground essentially
+
+418
+00:14:34.900 --> 00:14:37.270
+imagine that this control voltage pin is
+
+419
+00:14:37.270 --> 00:14:38.800
+doing nothing so we're just comparing
+
+420
+00:14:38.800 --> 00:14:41.350
+something to six volts here and trust me
+
+421
+00:14:41.350 --> 00:14:43.030
+that isn't going to hurt my explanation
+
+422
+00:14:43.030 --> 00:14:45.070
+when we first start up this triple v
+
+423
+00:14:45.070 --> 00:14:47.830
+timer what happens well we have from the
+
+424
+00:14:47.830 --> 00:14:50.680
+VCC pin traveling through this resistor
+
+425
+00:14:50.680 --> 00:14:53.080
+here and electricity instead of
+
+426
+00:14:53.080 --> 00:14:55.780
+traveling down here it has an easier
+
+427
+00:14:55.780 --> 00:14:58.300
+path to travel it will actually choose
+
+428
+00:14:58.300 --> 00:15:00.850
+to go through the discharge pin instead
+
+429
+00:15:00.850 --> 00:15:03.220
+and go directly to ground because
+
+430
+00:15:03.220 --> 00:15:05.140
+through the flip-flop here that switch
+
+431
+00:15:05.140 --> 00:15:07.390
+is connected to ground to begin with so
+
+432
+00:15:07.390 --> 00:15:08.980
+electricity is basically just going to
+
+433
+00:15:08.980 --> 00:15:11.590
+go from the positive to ground and it's
+
+434
+00:15:11.590 --> 00:15:13.150
+just going to skip this entire part
+
+435
+00:15:13.150 --> 00:15:14.890
+right here because it's an easier path
+
+436
+00:15:14.890 --> 00:15:17.200
+so if that is happening then we
+
+437
+00:15:17.200 --> 00:15:19.830
+basically just have a ground signal
+
+438
+00:15:19.830 --> 00:15:23.080
+traveling over on to the trigger input
+
+439
+00:15:23.080 --> 00:15:25.510
+pin so we have going to this negative
+
+440
+00:15:25.510 --> 00:15:28.420
+input of the a comparator zero volts
+
+441
+00:15:28.420 --> 00:15:30.370
+because it's connected to ground so
+
+442
+00:15:30.370 --> 00:15:32.920
+let's look at our comparator settings up
+
+443
+00:15:32.920 --> 00:15:35.350
+here what will this comparator output
+
+444
+00:15:35.350 --> 00:15:36.520
+well the
+
+445
+00:15:36.520 --> 00:15:39.280
+plus input is greater than the v- input
+
+446
+00:15:39.280 --> 00:15:41.710
+three volts is greater than zero volts
+
+447
+00:15:41.710 --> 00:15:44.080
+that means that the output of the
+
+448
+00:15:44.080 --> 00:15:46.180
+comparator in letter a that means that
+
+449
+00:15:46.180 --> 00:15:48.280
+the output of comparator a will be high
+
+450
+00:15:48.280 --> 00:15:51.130
+or it will send out voltage and whenever
+
+451
+00:15:51.130 --> 00:15:53.590
+we get a high output out of comparator a
+
+452
+00:15:53.590 --> 00:15:56.230
+the switches of the flip-flop are going
+
+453
+00:15:56.230 --> 00:15:58.660
+to switch to their down position so this
+
+454
+00:15:58.660 --> 00:16:00.790
+switch right here is going to move down
+
+455
+00:16:00.790 --> 00:16:03.100
+here to a no connection while this
+
+456
+00:16:03.100 --> 00:16:04.810
+switch right here is going to move down
+
+457
+00:16:04.810 --> 00:16:07.870
+to positive power instead of ground so
+
+458
+00:16:07.870 --> 00:16:10.180
+we flip the switches downward in this
+
+459
+00:16:10.180 --> 00:16:12.430
+flip-flop because the comparator letter
+
+460
+00:16:12.430 --> 00:16:14.620
+a is sending out a highest signal okay
+
+461
+00:16:14.620 --> 00:16:16.810
+so when we start up the triple five
+
+462
+00:16:16.810 --> 00:16:19.240
+timer essentially what happens is our
+
+463
+00:16:19.240 --> 00:16:21.940
+output is almost instantly connected to
+
+464
+00:16:21.940 --> 00:16:25.030
+positive power our output goes high so
+
+465
+00:16:25.030 --> 00:16:27.700
+our output is high so what happens after
+
+466
+00:16:27.700 --> 00:16:31.000
+all of this takes place well let's go
+
+467
+00:16:31.000 --> 00:16:33.430
+back to the start again we have coming
+
+468
+00:16:33.430 --> 00:16:35.710
+from positive power VCC through a
+
+469
+00:16:35.710 --> 00:16:38.140
+resistor except remember that the
+
+470
+00:16:38.140 --> 00:16:40.450
+flip-flop is in the down state right now
+
+471
+00:16:40.450 --> 00:16:43.060
+so electricity isn't going to travel
+
+472
+00:16:43.060 --> 00:16:44.680
+through the discharged pin any more
+
+473
+00:16:44.680 --> 00:16:46.690
+because it is no longer connected to
+
+474
+00:16:46.690 --> 00:16:48.850
+ground it's connected to nothing so it
+
+475
+00:16:48.850 --> 00:16:51.250
+has nowhere to travel to so instead
+
+476
+00:16:51.250 --> 00:16:53.260
+it'll continue to travel through this
+
+477
+00:16:53.260 --> 00:16:55.390
+resistor here and it will begin to
+
+478
+00:16:55.390 --> 00:16:58.810
+charge up this capacitor right here so
+
+479
+00:16:58.810 --> 00:17:01.210
+for a certain amount of time as this
+
+480
+00:17:01.210 --> 00:17:03.880
+capacitor is charging up we will
+
+481
+00:17:03.880 --> 00:17:05.530
+essentially have going through this
+
+482
+00:17:05.530 --> 00:17:07.660
+threshold pin to the positive input of
+
+483
+00:17:07.660 --> 00:17:10.209
+the D comparator zero volts and then
+
+484
+00:17:10.209 --> 00:17:11.980
+after maybe a very short amount of time
+
+485
+00:17:11.980 --> 00:17:13.690
+depending upon the capacitor and
+
+486
+00:17:13.690 --> 00:17:16.599
+resistor values it will climb up to one
+
+487
+00:17:16.599 --> 00:17:19.119
+volt and then after a little bit more
+
+488
+00:17:19.119 --> 00:17:21.250
+time it'll climb up to maybe two volts
+
+489
+00:17:21.250 --> 00:17:24.280
+and then three volts and because the V
+
+490
+00:17:24.280 --> 00:17:27.069
+Plus input is less than the V minus
+
+491
+00:17:27.069 --> 00:17:29.260
+input now because remember V minus is at
+
+492
+00:17:29.260 --> 00:17:31.300
+six volts two-thirds of our supply
+
+493
+00:17:31.300 --> 00:17:33.610
+voltage our output of this comparator
+
+494
+00:17:33.610 --> 00:17:36.460
+stays low so the switches aren't going
+
+495
+00:17:36.460 --> 00:17:38.080
+to switch to up because the output is
+
+496
+00:17:38.080 --> 00:17:40.300
+low it's not activating the flip-flop so
+
+497
+00:17:40.300 --> 00:17:42.640
+our output is essentially stuck at the
+
+498
+00:17:42.640 --> 00:17:45.250
+high output for so long and it's going
+
+499
+00:17:45.250 --> 00:17:48.340
+to be stuck there until the input of our
+
+500
+00:17:48.340 --> 00:17:49.539
+comparator the plus
+
+501
+00:17:49.539 --> 00:17:54.190
+put reaches just over six volts so for
+
+502
+00:17:54.190 --> 00:17:55.779
+example purposes I'm going to write
+
+503
+00:17:55.779 --> 00:17:57.519
+seven volts but in reality it's just
+
+504
+00:17:57.519 --> 00:17:59.739
+going to be a tiny tiny amount over six
+
+505
+00:17:59.739 --> 00:18:02.049
+volts now the second that that happens
+
+506
+00:18:02.049 --> 00:18:04.450
+comparator B is going to output a high
+
+507
+00:18:04.450 --> 00:18:07.210
+signal because now v+ is greater than v
+
+508
+00:18:07.210 --> 00:18:09.850
+- so since we have a high signal going
+
+509
+00:18:09.850 --> 00:18:12.100
+to the switch-up portion of our
+
+510
+00:18:12.100 --> 00:18:14.350
+flip-flop these switches that are in the
+
+511
+00:18:14.350 --> 00:18:16.899
+down position are going to flip back to
+
+512
+00:18:16.899 --> 00:18:19.210
+their up position again so let me go
+
+513
+00:18:19.210 --> 00:18:21.340
+ahead and just remove all these lines
+
+514
+00:18:21.340 --> 00:18:23.409
+here that I have drawn now these
+
+515
+00:18:23.409 --> 00:18:25.389
+switches are back in their up position
+
+516
+00:18:25.389 --> 00:18:27.220
+because we had a high signal come to the
+
+517
+00:18:27.220 --> 00:18:29.889
+switch up input so because that all took
+
+518
+00:18:29.889 --> 00:18:32.320
+time to happen because this capacitor
+
+519
+00:18:32.320 --> 00:18:34.629
+was charging up to get to that voltage
+
+520
+00:18:34.629 --> 00:18:37.509
+greater than 6 volt our output stayed
+
+521
+00:18:37.509 --> 00:18:40.659
+high at VCC for some amount of time and
+
+522
+00:18:40.659 --> 00:18:42.879
+it just switched back to its ground
+
+523
+00:18:42.879 --> 00:18:45.369
+connection again so now our output has
+
+524
+00:18:45.369 --> 00:18:47.590
+gone low so now what's going to happen
+
+525
+00:18:47.590 --> 00:18:50.169
+again let's begin at the beginning and
+
+526
+00:18:50.169 --> 00:18:53.080
+see what is happening now from VCC we
+
+527
+00:18:53.080 --> 00:18:54.609
+have power going through this resistor
+
+528
+00:18:54.609 --> 00:18:57.220
+but now it has that easy path again it
+
+529
+00:18:57.220 --> 00:18:59.080
+will go through the discharge pin to
+
+530
+00:18:59.080 --> 00:19:01.299
+ground because that's an easier path for
+
+531
+00:19:01.299 --> 00:19:03.129
+it to take to travel because our
+
+532
+00:19:03.129 --> 00:19:05.440
+capacitor is about two-thirds of the way
+
+533
+00:19:05.440 --> 00:19:08.259
+charged up it's at about 6 volts it's
+
+534
+00:19:08.259 --> 00:19:10.570
+going to begin to discharge and it will
+
+535
+00:19:10.570 --> 00:19:14.710
+start to discharge basically through the
+
+536
+00:19:14.710 --> 00:19:16.539
+trigger input right here through the
+
+537
+00:19:16.539 --> 00:19:19.509
+minus sign of this a comparator right
+
+538
+00:19:19.509 --> 00:19:21.659
+here so it's going to begin at 6 volts
+
+539
+00:19:21.659 --> 00:19:26.109
+well in this case v+ is less than v - so
+
+540
+00:19:26.109 --> 00:19:28.149
+our comparator is going to output a low
+
+541
+00:19:28.149 --> 00:19:29.859
+signal so it's not going to make the
+
+542
+00:19:29.859 --> 00:19:32.049
+switches go down just yet but slowly
+
+543
+00:19:32.049 --> 00:19:34.269
+over time the capacitor is going to
+
+544
+00:19:34.269 --> 00:19:36.220
+discharge it will go down to 5 volts
+
+545
+00:19:36.220 --> 00:19:38.979
+it'll slowly go down to 4 volts and once
+
+546
+00:19:38.979 --> 00:19:41.950
+it gets barely below 3 volts again for
+
+547
+00:19:41.950 --> 00:19:43.539
+example purposes I'm just going to write
+
+548
+00:19:43.539 --> 00:19:45.700
+2 volts to make it simple once it gets
+
+549
+00:19:45.700 --> 00:19:48.070
+below 3 volts over that short amount of
+
+550
+00:19:48.070 --> 00:19:50.529
+time comparator a is going to output a
+
+551
+00:19:50.529 --> 00:19:52.749
+high signal because now the plus is
+
+552
+00:19:52.749 --> 00:19:55.269
+greater than V minus again so we're less
+
+553
+00:19:55.269 --> 00:19:57.159
+than one-third of our supply voltage
+
+554
+00:19:57.159 --> 00:19:59.019
+it's going to make the switches flip to
+
+555
+00:19:59.019 --> 00:20:01.119
+their down position once more so our
+
+556
+00:20:01.119 --> 00:20:02.860
+output was at ground
+
+557
+00:20:02.860 --> 00:20:05.049
+or low for a little bit of time now it
+
+558
+00:20:05.049 --> 00:20:07.480
+just switched back to high again in this
+
+559
+00:20:07.480 --> 00:20:09.850
+cycle is going to repeat so at this
+
+560
+00:20:09.850 --> 00:20:13.059
+point in our circuit the discharge pin
+
+561
+00:20:13.059 --> 00:20:15.190
+is now in the down position connected to
+
+562
+00:20:15.190 --> 00:20:17.679
+nothing so it'll begin to recharge this
+
+563
+00:20:17.679 --> 00:20:19.840
+capacitor right here and it will charge
+
+564
+00:20:19.840 --> 00:20:22.540
+it until it's just over two thirds of
+
+565
+00:20:22.540 --> 00:20:24.820
+our supply voltage again and when that
+
+566
+00:20:24.820 --> 00:20:26.740
+happens this comparator will make the
+
+567
+00:20:26.740 --> 00:20:28.660
+switches go to their up position again
+
+568
+00:20:28.660 --> 00:20:31.120
+and the whole cycle is going to repeat
+
+569
+00:20:31.120 --> 00:20:33.160
+and because this all takes a bit of time
+
+570
+00:20:33.160 --> 00:20:35.140
+due to the resistors and the charging of
+
+571
+00:20:35.140 --> 00:20:36.400
+the capacitor which I'm going to explain
+
+572
+00:20:36.400 --> 00:20:39.070
+in just a few moments our output stays
+
+573
+00:20:39.070 --> 00:20:41.290
+connected to ground or low for some
+
+574
+00:20:41.290 --> 00:20:42.760
+amount of time and then it stays
+
+575
+00:20:42.760 --> 00:20:45.910
+connected to VCC or it stays high for a
+
+576
+00:20:45.910 --> 00:20:46.960
+little bit amount of time and it
+
+577
+00:20:46.960 --> 00:20:48.669
+switches back and forth between that
+
+578
+00:20:48.669 --> 00:20:51.190
+it's an alternating cycle so hopefully
+
+579
+00:20:51.190 --> 00:20:53.020
+that explanation got you through how
+
+580
+00:20:53.020 --> 00:20:55.179
+this triple v timer worked for us I'm
+
+581
+00:20:55.179 --> 00:20:56.770
+really hoping that I explained it well
+
+582
+00:20:56.770 --> 00:20:58.510
+enough if you have any questions at all
+
+583
+00:20:58.510 --> 00:20:59.980
+leave them down below in the comments I
+
+584
+00:20:59.980 --> 00:21:01.870
+or swimmin oats will try their best to
+
+585
+00:21:01.870 --> 00:21:03.520
+answer your question try to get you to
+
+586
+00:21:03.520 --> 00:21:05.890
+explain this the best we possibly can so
+
+587
+00:21:05.890 --> 00:21:07.480
+we have just a couple more things to
+
+588
+00:21:07.480 --> 00:21:09.940
+explain first of all reset is constantly
+
+589
+00:21:09.940 --> 00:21:12.820
+connected in our case to VCC basically
+
+590
+00:21:12.820 --> 00:21:15.580
+whenever a reset goes low so if we were
+
+591
+00:21:15.580 --> 00:21:17.830
+to connect reset to ground it's just
+
+592
+00:21:17.830 --> 00:21:19.660
+going to automatically force the
+
+593
+00:21:19.660 --> 00:21:21.280
+flip-flop to reset to the up position
+
+594
+00:21:21.280 --> 00:21:24.100
+and it'll stay in the up position until
+
+595
+00:21:24.100 --> 00:21:26.049
+our reset goes high again and it will
+
+596
+00:21:26.049 --> 00:21:28.179
+allow the triple five timer to function
+
+597
+00:21:28.179 --> 00:21:30.910
+again okay so how can we calculate the
+
+598
+00:21:30.910 --> 00:21:34.030
+frequency of our triple five timer well
+
+599
+00:21:34.030 --> 00:21:35.380
+there's a really neat equation that
+
+600
+00:21:35.380 --> 00:21:36.910
+someone created that we can figure that
+
+601
+00:21:36.910 --> 00:21:39.610
+out with basically we have frequency
+
+602
+00:21:39.610 --> 00:21:43.570
+equal to one point four four divided by
+
+603
+00:21:43.570 --> 00:21:45.549
+and I'm going to call this resistor a
+
+604
+00:21:45.549 --> 00:21:48.730
+right here and resistor B so we have
+
+605
+00:21:48.730 --> 00:21:52.570
+that divided by resistor a plus two
+
+606
+00:21:52.570 --> 00:21:56.740
+times the resistor amount of B all x and
+
+607
+00:21:56.740 --> 00:21:58.690
+we'll call the capacitance of this
+
+608
+00:21:58.690 --> 00:22:01.210
+capacitor C so we're going to multiply
+
+609
+00:22:01.210 --> 00:22:03.790
+that by the farad capacitance of that
+
+610
+00:22:03.790 --> 00:22:06.100
+right there so the frequency in the
+
+611
+00:22:06.100 --> 00:22:08.049
+circuit that I built is going to be one
+
+612
+00:22:08.049 --> 00:22:11.140
+point 4 4 divided by both of my
+
+613
+00:22:11.140 --> 00:22:13.840
+resistors were four point seven K ohms
+
+614
+00:22:13.840 --> 00:22:17.770
+so I have four thousand seven hundred
+
+615
+00:22:17.770 --> 00:22:23.679
+ohms plus two times four thousand seven
+
+616
+00:22:23.679 --> 00:22:25.660
+hundred ohms as well and then all of
+
+617
+00:22:25.660 --> 00:22:29.919
+that is multiplied by my 470 micro farad
+
+618
+00:22:29.919 --> 00:22:33.100
+capacitor so because I had 470 micro
+
+619
+00:22:33.100 --> 00:22:35.200
+farad's and we have to make this in the
+
+620
+00:22:35.200 --> 00:22:37.390
+fair I'd unit that is equivalent to zero
+
+621
+00:22:37.390 --> 00:22:41.410
+point zero zero zero four seven farads I
+
+622
+00:22:41.410 --> 00:22:43.179
+believe and actually I'm not going to
+
+623
+00:22:43.179 --> 00:22:44.559
+write that F in there just to make it
+
+624
+00:22:44.559 --> 00:22:46.510
+more readable so if I do the calculation
+
+625
+00:22:46.510 --> 00:22:49.570
+I should have the frequency that my
+
+626
+00:22:49.570 --> 00:22:51.790
+output was oscillating at so when I do
+
+627
+00:22:51.790 --> 00:22:54.130
+calculate that I get my frequency to
+
+628
+00:22:54.130 --> 00:22:57.970
+equal approximately zero point two one
+
+629
+00:22:57.970 --> 00:23:01.809
+seven Hertz which is abbreviated Hz and
+
+630
+00:23:01.809 --> 00:23:03.970
+that basically means how many times per
+
+631
+00:23:03.970 --> 00:23:06.610
+second is this cycle happening so I had
+
+632
+00:23:06.610 --> 00:23:08.980
+a very very slow oscillation because I
+
+633
+00:23:08.980 --> 00:23:11.950
+used such a big capacitance value so my
+
+634
+00:23:11.950 --> 00:23:13.510
+light wasn't even blinking on and off
+
+635
+00:23:13.510 --> 00:23:15.340
+once per second it was doing it even
+
+636
+00:23:15.340 --> 00:23:17.620
+slower than that but if we reduced the
+
+637
+00:23:17.620 --> 00:23:19.750
+capacitance value so if this value got
+
+638
+00:23:19.750 --> 00:23:21.910
+lower then our frequency would increase
+
+639
+00:23:21.910 --> 00:23:24.070
+or if these resistance values got lower
+
+640
+00:23:24.070 --> 00:23:26.440
+than our frequency would increase and it
+
+641
+00:23:26.440 --> 00:23:28.720
+would be faster and faster so you should
+
+642
+00:23:28.720 --> 00:23:30.520
+probably try and experiment around with
+
+643
+00:23:30.520 --> 00:23:32.440
+your resistor and capacitance values
+
+644
+00:23:32.440 --> 00:23:34.059
+there that way you can see all different
+
+645
+00:23:34.059 --> 00:23:35.860
+frequencies with your triple five timer
+
+646
+00:23:35.860 --> 00:23:37.809
+again I hope I explained this all well
+
+647
+00:23:37.809 --> 00:23:39.340
+enough for you guys any questions leave
+
+648
+00:23:39.340 --> 00:23:41.230
+them down below in the comments this is
+
+649
+00:23:41.230 --> 00:23:43.240
+really fun we are getting into the meat
+
+650
+00:23:43.240 --> 00:23:45.250
+and potatoes of this 8-bit computer
+
+651
+00:23:45.250 --> 00:23:47.380
+series now we just have to cover a few
+
+652
+00:23:47.380 --> 00:23:49.120
+more basic concepts until we actually
+
+653
+00:23:49.120 --> 00:23:51.429
+get into designing the 8-bit computer
+
+654
+00:23:51.429 --> 00:23:52.780
+thanks for watching everyone and I'll
+
+655
+00:23:52.780 --> 00:23:55.980
+see you guys in the next video
+

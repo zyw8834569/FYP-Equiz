@@ -68,6 +68,7 @@ var playlist =
       src: './assets/Thumbnail/Chapeter1/What Is An Integrated Circuit (IC).jpg'
     }],
   }, {
+
     name: 'How Integrated Circuits Work',
     duration: 563,
     sources: [{

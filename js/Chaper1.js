@@ -75,7 +75,7 @@ var playlist =
       type: 'video/youtube'
     }],
     track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter1/How Integrated Circuits Work - The Learning Circuit.vtt' },
-    poster: './assets/Poster/Chapeter1/How Integrated Circuits Work - The Learning Circuit.png',
+    poster: './assets/Poster/Chapeter1/How Integrated Circuits Work.png',
     thumbnail: [{
       srcset: './assets/Thumbnail/Chapeter1/How Integrated Circuits Work - The Learning Circuit.jpg',
       type: 'image/jpeg',

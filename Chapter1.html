@@ -40,7 +40,7 @@
 -->
 </head>
 
-<body onload="horizontal(), disablePicture()" onresize="horizontal()">
+<body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <img src="images/NTU-logo-small.jpg" alt="" width="100" height="35" class="img-thumbnail" /><a class="navbar-brand"
       href="#">&nbsp; E-learning&nbsp;</a>
@@ -51,7 +51,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link home-adj" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link home-adj" href="/FYPE-Learning.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -72,8 +72,8 @@
             CMOS Logic Circuits
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="Chapter6.html">Sequential CMOS Circuits & Low Power CMOS</a>
-            <a class="dropdown-item" href="Chapter5.html">Statc & Dynamic CMOS Logic Circuits</a>
+            <a class="dropdown-item" href="/Chapter6.html">Sequential CMOS Circuits & Low Power CMOS</a>
+            <a class="dropdown-item" href="/Chapter5.html">Statc & Dynamic CMOS Logic Circuits</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
@@ -84,8 +84,8 @@
             Digital Circuit Design
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="Chapter8.html">Sub-System Design & Design Methodology</a>
-            <a class="dropdown-item" href="Chapter7.html">CMOS Design</a>
+            <a class="dropdown-item" href="/Chapter8.html">Sub-System Design & Design Methodology</a>
+            <a class="dropdown-item" href="/Chapter7.html">CMOS Design</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
@@ -113,7 +113,7 @@
 
         <!--video js -->
         <link href="node_modules/video.js/dist/video-js.css" rel="stylesheet" />
-        <link href="node_modules/videojs-playlist-ui/dist/videojs-playlist-ui.vertical.css" rel="stylesheet" />
+        <link href="./node_modules/videojs-playlist-ui/dist/videojs-playlist-ui.vertical.css" rel="stylesheet" />
         <link href="node_modules/videojs-overlay/dist/videojs-overlay.css" rel="stylesheet" />
         <link href="node_modules/videojs-seek-buttons/dist/videojs-seek-buttons.css" rel="stylesheet" />
         <script src="node_modules/video.js/dist/video.min.js"></script>
@@ -127,19 +127,18 @@
   </section>
   <hr />
   <div class="quizcontainer">
-    <a id="link" href="quiz/Chaper1quiz.html"><button type="button" onclick="showAlert()" id="quiz-btn"
+    <a id="link" href="quiz/CMOSquiz.html"><button type="button" onclick="showAlert()" id="quiz-btn"
         class="btn btn-primary btn-lg btn-block">
         QUIZ
       </button></a>
   </div>
-  <script src="js/Chaper1.js"></script>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="js/jquery-3.4.1.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap-4.4.1.js"></script>
   <script type="text/javascript" src="js/infobox.js"></script>
-
+  <script src="js/cmos.js"></script>
 </body>
 
 </html>

@@ -58,7 +58,7 @@ var playlist =
 
     }],
     track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter1/What Is An Integrated Circuit (IC).vtt' },
-    poster: './assets/Poster/Chapeter1/What Is An Integrated Circuit (IC).jpg',
+    poster: './assets/Poster/Chapeter1/What Is An Integrated Circuit (IC).png',
     thumbnail: [{
       srcset: './assets/Thumbnail/Chapeter1/What Is An Integrated Circuit (IC).jpg',
       type: 'image/jpeg',
@@ -75,7 +75,7 @@ var playlist =
       type: 'video/youtube'
     }],
     track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter1/How Integrated Circuits Work - The Learning Circuit.vtt' },
-    poster: './assets/Poster/Chapeter1/How Integrated Circuits Work - The Learning Circuit.jpg',
+    poster: './assets/Poster/Chapeter1/How Integrated Circuits Work - The Learning Circuit.png',
     thumbnail: [{
       srcset: './assets/Thumbnail/Chapeter1/How Integrated Circuits Work - The Learning Circuit.jpg',
       type: 'image/jpeg',
@@ -91,7 +91,7 @@ var playlist =
       type: 'video/youtube'
     }],
     track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter1/Integrated Circuits.vtt' },
-    poster: './assets/Poster/Chapeter1/Integrated Circuits.jpg',
+    poster: './assets/Poster/Chapeter1/Integrated Circuits.png',
     thumbnail: [{
       srcset: './assets/Thumbnail/Chapeter1/Integrated Circuits.jpg',
       type: 'image/jpeg',
@@ -108,7 +108,7 @@ var playlist =
     }],
 
     track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter1/What is an Integrated Circuit.vtt' },
-    poster: './assets/Poster/Chapeter1/What is an Integrated Circuit.jpg',
+    poster: './assets/Poster/Chapeter1/What is an Integrated Circuit.png',
     thumbnail: [{
       srcset: './assets/Thumbnail/Chapeter1/What is an Integrated Circuit.jpg',
       type: 'image/jpeg',
@@ -125,7 +125,7 @@ var playlist =
     }],
 
     track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter1/Integrated Circuits 555 Timer.vtt' },
-    poster: './assets/Poster/Chapeter1/Integrated Circuits-555 Timer.jpg',
+    poster: './assets/Poster/Chapeter1/Integrated Circuits-555 Timer.png',
     thumbnail: [{
       srcset: './assets/Thumbnail/Chapeter1/Integrated Circuits-555 Timer.jpg',
       type: 'image/jpeg',

@@ -1,5 +1,5 @@
 {
-  "name": "webpages",
+  "name": "EE6306 E-learning Course",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tonybobo/Web.git"
+    "url": "git+https://github.com/zyw8834569/FYP-Equiz.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Tonybobo/Web/issues"
+    "url": "https://github.com/zyw8834569/FYP-Equiz/issues"
   },
-  "homepage": "https://github.com/Tonybobo/Web#readme",
+  "homepage": "https://github.com/zyw8834569/FYP-Equiz#readme",
   "devDependencies": {},
   "dependencies": {
     "sakura-js": "^1.1.1",

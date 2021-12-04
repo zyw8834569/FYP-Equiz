@@ -56,7 +56,6 @@ var playlist =
       src: 'https://www.youtube.com/embed/drtUkvtxp6s',
       type: 'video/youtube',
 
-
     }],
     track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter1/What Is An Integrated Circuit (IC).vtt' },
     poster: './assets/Poster/Chapeter1/What Is An Integrated Circuit (IC).jpg',

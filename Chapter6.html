@@ -40,7 +40,7 @@
 -->
 </head>
 
-<body>
+<body onload="horizontal(), disablePicture()" onresize="horizontal()">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <img src="images/NTU-logo-small.jpg" alt="" width="100" height="35" class="img-thumbnail" /><a class="navbar-brand"
       href="#">&nbsp; E-learning&nbsp;</a>
@@ -99,7 +99,8 @@
       </form>
     </div>
   </nav>
-  <section>
+  <section style="left: auto; top: -5%;">
+    <h1 style="left: 47.5%; top: 12%;" class="Chaptertitle"><strong>Chapter 6</strong></h1>
     <div class="button-container"> <a id="linkreturn" href="index.html">
         <button type="button" id="return-btn" class="btn btn-primary btn-lg btn-block"> Return </button>
       </a> </div>
@@ -113,7 +114,7 @@
 
         <!--video js -->
         <link href="node_modules/video.js/dist/video-js.css" rel="stylesheet" />
-        <link href="./node_modules/videojs-playlist-ui/dist/videojs-playlist-ui.vertical.css" rel="stylesheet" />
+        <link href="node_modules/videojs-playlist-ui/dist/videojs-playlist-ui.vertical.css" rel="stylesheet" />
         <link href="node_modules/videojs-overlay/dist/videojs-overlay.css" rel="stylesheet" />
         <link href="node_modules/videojs-seek-buttons/dist/videojs-seek-buttons.css" rel="stylesheet" />
         <script src="node_modules/video.js/dist/video.min.js"></script>
@@ -127,18 +128,19 @@
   </section>
   <hr />
   <div class="quizcontainer">
-    <a id="link" href="quiz/CMOSquiz.html"><button type="button" onclick="showAlert()" id="quiz-btn"
+    <a id="link" href="quiz/Chaper1quiz.html"><button type="button" onclick="showAlert()" id="quiz-btn"
         class="btn btn-primary btn-lg btn-block">
         QUIZ
       </button></a>
   </div>
+  <script src="js/Chaper1.js"></script>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="js/jquery-3.4.1.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap-4.4.1.js"></script>
   <script type="text/javascript" src="js/infobox.js"></script>
-  <script src="js/cmos.js"></script>
+
 </body>
 
 </html>

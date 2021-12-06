@@ -1,0 +1,1422 @@
+WEBVTT
+
+1
+00:00:01.040 --> 00:00:05.520
+hello this is module 4.3
+
+2
+00:00:05.520 --> 00:00:08.400
+mosfet dc characterization so the
+
+3
+00:00:08.400 --> 00:00:10.000
+coverage of this module
+
+4
+00:00:10.000 --> 00:00:13.440
+is shown here so it is mosfet
+
+5
+00:00:13.440 --> 00:00:14.880
+fundamentals
+
+6
+00:00:14.880 --> 00:00:17.279
+i'm calculating voltages between mosfet
+
+7
+00:00:17.279 --> 00:00:18.960
+terminals determining regions of
+
+8
+00:00:18.960 --> 00:00:20.080
+operation
+
+9
+00:00:20.080 --> 00:00:22.160
+drain current calculation and mosfet
+
+10
+00:00:22.160 --> 00:00:25.359
+characterization with bias circuits
+
+11
+00:00:25.359 --> 00:00:28.400
+so in this slide
+
+12
+00:00:28.400 --> 00:00:31.119
+it shows the pmos and the nmos
+
+13
+00:00:31.119 --> 00:00:32.079
+transistors
+
+14
+00:00:32.079 --> 00:00:36.160
+symbols and as you can see
+
+15
+00:00:36.160 --> 00:00:39.520
+um there is a gate terminal a source in
+
+16
+00:00:39.520 --> 00:00:40.960
+a drain terminal
+
+17
+00:00:40.960 --> 00:00:44.559
+and same here
+
+18
+00:00:44.559 --> 00:00:46.960
+what is important when you calculate
+
+19
+00:00:46.960 --> 00:00:48.000
+mosfet circuits
+
+20
+00:00:48.000 --> 00:00:52.000
+is to discern the voltages vgs and vds
+
+21
+00:00:52.000 --> 00:00:55.840
+for nmos and vsg and vsd for pmos
+
+22
+00:00:55.840 --> 00:00:58.160
+so due to the oxide present in the gate
+
+23
+00:00:58.160 --> 00:01:01.120
+terminal in mosfet so remember that
+
+24
+00:01:01.120 --> 00:01:03.680
+in in the physics structure of a mosfet
+
+25
+00:01:03.680 --> 00:01:05.760
+there's an oxide here and oxide there
+
+26
+00:01:05.760 --> 00:01:08.080
+and then oxide is effectively an
+
+27
+00:01:08.080 --> 00:01:09.280
+insulator
+
+28
+00:01:09.280 --> 00:01:12.960
+so therefore gate current is zero
+
+29
+00:01:12.960 --> 00:01:15.759
+so if git current is zero we can say
+
+30
+00:01:15.759 --> 00:01:16.640
+that is
+
+31
+00:01:16.640 --> 00:01:19.759
+equals id same here
+
+32
+00:01:19.759 --> 00:01:23.119
+and therefore compared to bjts there is
+
+33
+00:01:23.119 --> 00:01:24.640
+only one current
+
+34
+00:01:24.640 --> 00:01:28.080
+to be calculated for mosfets
+
+35
+00:01:28.080 --> 00:01:30.240
+another thing to note here is to
+
+36
+00:01:30.240 --> 00:01:33.040
+remember the positioning of the arrow
+
+37
+00:01:33.040 --> 00:01:35.040
+because the arrow defines where the
+
+38
+00:01:35.040 --> 00:01:36.479
+source is
+
+39
+00:01:36.479 --> 00:01:40.240
+for either nmos and pmos so for a pmos
+
+40
+00:01:40.240 --> 00:01:43.600
+the arrow is going in and for the nmos
+
+41
+00:01:43.600 --> 00:01:46.399
+it's going out
+
+42
+00:01:46.640 --> 00:01:49.119
+so guide in solving mosfet circuits so
+
+43
+00:01:49.119 --> 00:01:51.280
+how do you solve mosfet circuits
+
+44
+00:01:51.280 --> 00:01:53.520
+well the first step is to identify the
+
+45
+00:01:53.520 --> 00:01:54.320
+gate
+
+46
+00:01:54.320 --> 00:01:57.600
+the source and the drain terminals
+
+47
+00:01:57.600 --> 00:02:00.159
+so as as i've said earlier the terminal
+
+48
+00:02:00.159 --> 00:02:01.040
+with an arrow
+
+49
+00:02:01.040 --> 00:02:03.520
+outward if nmos and inward the pmos is
+
+50
+00:02:03.520 --> 00:02:05.759
+always the source the other terminal
+
+51
+00:02:05.759 --> 00:02:06.399
+without an
+
+52
+00:02:06.399 --> 00:02:08.399
+arrow is always the drain and the
+
+53
+00:02:08.399 --> 00:02:10.560
+terminal in between the mosfet
+
+54
+00:02:10.560 --> 00:02:14.000
+is the gate so the next step if you
+
+55
+00:02:14.000 --> 00:02:16.720
+if you are successful in identifying the
+
+56
+00:02:16.720 --> 00:02:18.000
+terminals
+
+57
+00:02:18.000 --> 00:02:20.319
+so solve for the important voltages
+
+58
+00:02:20.319 --> 00:02:22.000
+across the terminals of the transistor
+
+59
+00:02:22.000 --> 00:02:23.840
+using fundamental circuit techniques
+
+60
+00:02:23.840 --> 00:02:25.040
+take note
+
+61
+00:02:25.040 --> 00:02:27.840
+of the voltage polarities so remember
+
+62
+00:02:27.840 --> 00:02:30.319
+the nmos and the pmos
+
+63
+00:02:30.319 --> 00:02:34.000
+they have different polarities
+
+64
+00:02:34.000 --> 00:02:37.440
+when calculating so remember
+
+65
+00:02:37.440 --> 00:02:41.519
+vsvgs and vds for nmos and vsg
+
+66
+00:02:41.519 --> 00:02:45.200
+and vsd for pmos next step
+
+67
+00:02:45.200 --> 00:02:47.040
+from the voltages determine the
+
+68
+00:02:47.040 --> 00:02:49.280
+operating region of the transistor
+
+69
+00:02:49.280 --> 00:02:51.680
+and identify the applicable during
+
+70
+00:02:51.680 --> 00:02:53.200
+current equation
+
+71
+00:02:53.200 --> 00:02:56.239
+so if you want if you want to
+
+72
+00:02:56.239 --> 00:02:59.360
+master this this part you revis you can
+
+73
+00:02:59.360 --> 00:03:01.920
+revisit module 4.2
+
+74
+00:03:01.920 --> 00:03:05.120
+for determining the operating region so
+
+75
+00:03:05.120 --> 00:03:06.000
+now
+
+76
+00:03:06.000 --> 00:03:07.840
+just take note of these two some
+
+77
+00:03:07.840 --> 00:03:09.840
+problems will give the operating regions
+
+78
+00:03:09.840 --> 00:03:11.840
+given or a required design choice
+
+79
+00:03:11.840 --> 00:03:15.360
+take note of this if the operating
+
+80
+00:03:15.360 --> 00:03:16.959
+region can't be determined
+
+81
+00:03:16.959 --> 00:03:19.760
+or if you calculated vgs and vds and
+
+82
+00:03:19.760 --> 00:03:21.280
+they are dependent on
+
+83
+00:03:21.280 --> 00:03:23.519
+some variables and there is no fixed
+
+84
+00:03:23.519 --> 00:03:24.560
+value
+
+85
+00:03:24.560 --> 00:03:26.319
+assume that the transistor is in
+
+86
+00:03:26.319 --> 00:03:27.920
+saturation and check
+
+87
+00:03:27.920 --> 00:03:30.879
+if this assumption is correct so see
+
+88
+00:03:30.879 --> 00:03:31.840
+some um
+
+89
+00:03:31.840 --> 00:03:33.840
+we're gonna discuss the third sample
+
+90
+00:03:33.840 --> 00:03:35.360
+problem to show
+
+91
+00:03:35.360 --> 00:03:40.400
+this uh guide this part of the guide
+
+92
+00:03:40.400 --> 00:03:42.879
+so the next step is if you have
+
+93
+00:03:42.879 --> 00:03:44.480
+determined the correct
+
+94
+00:03:44.480 --> 00:03:46.319
+drain current equation use this equation
+
+95
+00:03:46.319 --> 00:03:47.760
+to solve for the drink current of the
+
+96
+00:03:47.760 --> 00:03:49.599
+mosfet
+
+97
+00:03:49.599 --> 00:03:52.720
+so take note of the current direction
+
+98
+00:03:52.720 --> 00:03:55.120
+and parameter units remember that there
+
+99
+00:03:55.120 --> 00:03:57.680
+is no current going to or from the gate
+
+100
+00:03:57.680 --> 00:04:00.799
+e ig is equal to zero and then from this
+
+101
+00:04:00.799 --> 00:04:02.239
+current equation
+
+102
+00:04:02.239 --> 00:04:05.760
+you can use these equations
+
+103
+00:04:05.760 --> 00:04:07.519
+to solve for other quantities needed in
+
+104
+00:04:07.519 --> 00:04:09.840
+the mosfet circuit
+
+105
+00:04:09.840 --> 00:04:12.959
+so um in to show
+
+106
+00:04:12.959 --> 00:04:14.879
+this guide to show the effectiveness of
+
+107
+00:04:14.879 --> 00:04:17.040
+this kind we will calculate some
+
+108
+00:04:17.040 --> 00:04:19.680
+example problems so the first sample
+
+109
+00:04:19.680 --> 00:04:20.560
+problem
+
+110
+00:04:20.560 --> 00:04:22.400
+so given that the enmotion sister is
+
+111
+00:04:22.400 --> 00:04:25.040
+characterized to have 2000 microamps per
+
+112
+00:04:25.040 --> 00:04:26.160
+volt squared
+
+113
+00:04:26.160 --> 00:04:28.320
+and vth equals 0.4 volts and the
+
+114
+00:04:28.320 --> 00:04:31.680
+transistor is biased with vx equals 0.8
+
+115
+00:04:31.680 --> 00:04:34.080
+find the region's operation the drain
+
+116
+00:04:34.080 --> 00:04:35.120
+current
+
+117
+00:04:35.120 --> 00:04:37.520
+if channeler modulation is negligible
+
+118
+00:04:37.520 --> 00:04:39.440
+and drain current if there is channel
+
+119
+00:04:39.440 --> 00:04:41.680
+and modulation and characterized to have
+
+120
+00:04:41.680 --> 00:04:45.199
+this parameter
+
+121
+00:04:45.199 --> 00:04:46.800
+so the first question the region of
+
+122
+00:04:46.800 --> 00:04:48.400
+operation
+
+123
+00:04:48.400 --> 00:04:51.280
+so the first step is to discern vgs and
+
+124
+00:04:51.280 --> 00:04:52.800
+vds so remember
+
+125
+00:04:52.800 --> 00:04:55.759
+that the arrow is always the source the
+
+126
+00:04:55.759 --> 00:04:57.280
+terminal with an arrow is always the
+
+127
+00:04:57.280 --> 00:04:58.240
+source
+
+128
+00:04:58.240 --> 00:05:00.160
+and the terminal without an arrow is the
+
+129
+00:05:00.160 --> 00:05:01.440
+drain and the
+
+130
+00:05:01.440 --> 00:05:04.479
+middle is the gate so you calculate vgs
+
+131
+00:05:04.479 --> 00:05:08.479
+so it's vx minus zero and calculate
+
+132
+00:05:08.479 --> 00:05:11.759
+pds which is five volts minus zero so as
+
+133
+00:05:11.759 --> 00:05:14.639
+you can see it's here
+
+134
+00:05:14.639 --> 00:05:18.320
+and then remember that we must find the
+
+135
+00:05:18.320 --> 00:05:19.520
+region of operation
+
+136
+00:05:19.520 --> 00:05:23.120
+so for this example this transistor
+
+137
+00:05:23.120 --> 00:05:25.759
+is in the saturation region because vgs
+
+138
+00:05:25.759 --> 00:05:27.840
+is greater than vth
+
+139
+00:05:27.840 --> 00:05:31.600
+and vds is greater than vgs minus vth
+
+140
+00:05:31.600 --> 00:05:32.400
+which is
+
+141
+00:05:32.400 --> 00:05:35.759
+shown here so because it is in such
+
+142
+00:05:35.759 --> 00:05:39.840
+in the saturation region
+
+143
+00:05:40.479 --> 00:05:42.560
+we can calculate the drain current so
+
+144
+00:05:42.560 --> 00:05:44.160
+because the channel length modulation is
+
+145
+00:05:44.160 --> 00:05:46.639
+negligible we will use this equation
+
+146
+00:05:46.639 --> 00:05:49.280
+which does not include the channel
+
+147
+00:05:49.280 --> 00:05:51.199
+length modulation
+
+148
+00:05:51.199 --> 00:05:53.360
+and then we substitute the values shown
+
+149
+00:05:53.360 --> 00:05:54.800
+here
+
+150
+00:05:54.800 --> 00:05:57.039
+as you can see the process
+
+151
+00:05:57.039 --> 00:05:59.120
+transconductance is 2 000 micrograms per
+
+152
+00:05:59.120 --> 00:06:00.560
+volt squared
+
+153
+00:06:00.560 --> 00:06:04.800
+and then vx vgs is vx minus 0. so it's
+
+154
+00:06:04.800 --> 00:06:05.440
+0.8
+
+155
+00:06:05.440 --> 00:06:07.759
+minus vth and then we calculate we get
+
+156
+00:06:07.759 --> 00:06:10.880
+160 microamps
+
+157
+00:06:10.880 --> 00:06:14.560
+and then if we want to calculate the
+
+158
+00:06:14.560 --> 00:06:16.400
+the current when there is channel
+
+159
+00:06:16.400 --> 00:06:19.680
+modulation we will use this equation
+
+160
+00:06:19.680 --> 00:06:22.880
+now this we include this part which
+
+161
+00:06:22.880 --> 00:06:26.800
+considers the channel length modulation
+
+162
+00:06:26.800 --> 00:06:28.479
+and then we substitute all the values
+
+163
+00:06:28.479 --> 00:06:31.199
+here so 2000
+
+164
+00:06:31.199 --> 00:06:34.319
+uh the process transconductance kn
+
+165
+00:06:34.319 --> 00:06:37.360
+and then vgs is 0.8 vth is 0.4
+
+166
+00:06:37.360 --> 00:06:38.720
+and then we substitute the channel
+
+167
+00:06:38.720 --> 00:06:40.960
+modulation parameter and vds
+
+168
+00:06:40.960 --> 00:06:43.440
+and then you get 176 micrograms so as
+
+169
+00:06:43.440 --> 00:06:44.400
+you can see
+
+170
+00:06:44.400 --> 00:06:46.560
+because there is channel and modulation
+
+171
+00:06:46.560 --> 00:06:47.680
+the drain current
+
+172
+00:06:47.680 --> 00:06:51.280
+is increased now
+
+173
+00:06:51.280 --> 00:06:52.880
+let's move on to the second sample
+
+174
+00:06:52.880 --> 00:06:56.720
+problem so now we have a pmos transistor
+
+175
+00:06:56.720 --> 00:06:59.840
+so it has a uh processor conductance so
+
+176
+00:06:59.840 --> 00:07:02.240
+4500 microamps per volt squared
+
+177
+00:07:02.240 --> 00:07:04.880
+and vth is negative 0.8 volts and its
+
+178
+00:07:04.880 --> 00:07:07.840
+bias with vm equals 0.8
+
+179
+00:07:07.840 --> 00:07:09.680
+so we need to find the resistance of
+
+180
+00:07:09.680 --> 00:07:13.280
+resistor rb so that v out is 2.8
+
+181
+00:07:13.280 --> 00:07:14.720
+assume channel length modulation is
+
+182
+00:07:14.720 --> 00:07:17.120
+negligible so the first step
+
+183
+00:07:17.120 --> 00:07:20.160
+is to discern vgs and vds
+
+184
+00:07:20.160 --> 00:07:23.759
+or for this pmos is sg and sd
+
+185
+00:07:23.759 --> 00:07:26.479
+so what are we gonna do first step is to
+
+186
+00:07:26.479 --> 00:07:27.039
+find the
+
+187
+00:07:27.039 --> 00:07:29.120
+region of operation so for the drain
+
+188
+00:07:29.120 --> 00:07:30.479
+current and then
+
+189
+00:07:30.479 --> 00:07:33.520
+solve for the resistance using ohm's law
+
+190
+00:07:33.520 --> 00:07:35.520
+so first step find the transistor's
+
+191
+00:07:35.520 --> 00:07:36.800
+region operation
+
+192
+00:07:36.800 --> 00:07:41.360
+so vsg is shown here so it's 3 volts
+
+193
+00:07:41.360 --> 00:07:44.479
+minus value of vm which is 0.8
+
+194
+00:07:44.479 --> 00:07:48.160
+so we get 2.2 and vsd we want
+
+195
+00:07:48.160 --> 00:07:51.599
+the value to be 2.8 here
+
+196
+00:07:51.599 --> 00:07:54.160
+so therefore it's 3 volts minus 2.8 to
+
+197
+00:07:54.160 --> 00:07:55.840
+be 0.2
+
+198
+00:07:55.840 --> 00:07:58.800
+so as you can see from this voltages we
+
+199
+00:07:58.800 --> 00:07:59.440
+can now
+
+200
+00:07:59.440 --> 00:08:03.120
+find the region of operation because vgs
+
+201
+00:08:03.120 --> 00:08:07.919
+or vsg for the pmos is greater than vthp
+
+202
+00:08:07.919 --> 00:08:10.879
+as you can see here and then the vsd is
+
+203
+00:08:10.879 --> 00:08:13.280
+between 0 and vsg minus the absolute
+
+204
+00:08:13.280 --> 00:08:15.199
+value of bthp
+
+205
+00:08:15.199 --> 00:08:17.199
+so therefore this one is in the linear
+
+206
+00:08:17.199 --> 00:08:19.599
+region
+
+207
+00:08:19.680 --> 00:08:22.160
+so because the pmos is operating in the
+
+208
+00:08:22.160 --> 00:08:24.080
+linear or the tried region use the
+
+209
+00:08:24.080 --> 00:08:24.879
+equation
+
+210
+00:08:24.879 --> 00:08:26.960
+this one so this is the equation for a
+
+211
+00:08:26.960 --> 00:08:27.430
+linear
+
+212
+00:08:27.430 --> 00:08:28.720
+[Music]
+
+213
+00:08:28.720 --> 00:08:30.879
+for the pmos operating in the linear
+
+214
+00:08:30.879 --> 00:08:32.640
+region
+
+215
+00:08:32.640 --> 00:08:34.958
+so remember that this is ids and it's
+
+216
+00:08:34.958 --> 00:08:35.839
+negative
+
+217
+00:08:35.839 --> 00:08:37.760
+so in order for us to have a simpler
+
+218
+00:08:37.760 --> 00:08:39.599
+simpler calculation we just reverse the
+
+219
+00:08:39.599 --> 00:08:40.000
+current
+
+220
+00:08:40.000 --> 00:08:42.799
+direction so this ids going there so we
+
+221
+00:08:42.799 --> 00:08:43.839
+just reverse it
+
+222
+00:08:43.839 --> 00:08:46.399
+so we get the positive so we use this
+
+223
+00:08:46.399 --> 00:08:46.959
+equation
+
+224
+00:08:46.959 --> 00:08:51.760
+isd equals kp vsg minus vt hp must be
+
+225
+00:08:51.760 --> 00:08:55.200
+the sd over 2 time all multiplied by v
+
+226
+00:08:55.200 --> 00:08:58.320
+st and then what we're gonna what we're
+
+227
+00:08:58.320 --> 00:08:59.680
+gonna do next is to substitute
+
+228
+00:08:59.680 --> 00:09:01.839
+everything so it everything's given
+
+229
+00:09:01.839 --> 00:09:04.000
+the process transconductance is here the
+
+230
+00:09:04.000 --> 00:09:05.440
+threshold is here
+
+231
+00:09:05.440 --> 00:09:07.519
+and the bias is here we substitute
+
+232
+00:09:07.519 --> 00:09:09.760
+everything here and we get 1.17
+
+233
+00:09:09.760 --> 00:09:11.839
+milliamps
+
+234
+00:09:11.839 --> 00:09:14.000
+from the current calculations we can now
+
+235
+00:09:14.000 --> 00:09:15.440
+solve for the resistance
+
+236
+00:09:15.440 --> 00:09:18.480
+using ohm's law so rb is v
+
+237
+00:09:18.480 --> 00:09:22.080
+out over the current so remember there
+
+238
+00:09:22.080 --> 00:09:23.360
+is no gate current
+
+239
+00:09:23.360 --> 00:09:27.440
+so all isd is isd also here
+
+240
+00:09:27.440 --> 00:09:29.200
+so we substitute all the values and we
+
+241
+00:09:29.200 --> 00:09:32.080
+get 2.39 kilo ohms
+
+242
+00:09:32.080 --> 00:09:33.839
+so now let's move on to the third
+
+243
+00:09:33.839 --> 00:09:36.240
+problem this is more difficult but
+
+244
+00:09:36.240 --> 00:09:38.800
+i hope you can understand the that the
+
+245
+00:09:38.800 --> 00:09:40.720
+process is the same for any mosfet
+
+246
+00:09:40.720 --> 00:09:41.839
+circuit
+
+247
+00:09:41.839 --> 00:09:44.560
+you encounter so for this one given that
+
+248
+00:09:44.560 --> 00:09:45.839
+the pmos transistor shown is
+
+249
+00:09:45.839 --> 00:09:46.959
+characterized to have
+
+250
+00:09:46.959 --> 00:09:49.920
+these parameters so kp is 500 microns
+
+251
+00:09:49.920 --> 00:09:51.279
+per volt squared
+
+252
+00:09:51.279 --> 00:09:54.080
+and vthp is negative 0.3 volts and its
+
+253
+00:09:54.080 --> 00:09:54.640
+bias
+
+254
+00:09:54.640 --> 00:09:57.600
+using a resistive divider shown here
+
+255
+00:09:57.600 --> 00:09:58.480
+with
+
+256
+00:09:58.480 --> 00:10:00.720
+rx equals 1 kilo ohm and roi is 2 kilo
+
+257
+00:10:00.720 --> 00:10:02.079
+ohm find the voltage v
+
+258
+00:10:02.079 --> 00:10:05.040
+out if rb is 10 kilo ohms assume the
+
+259
+00:10:05.040 --> 00:10:05.440
+channel
+
+260
+00:10:05.440 --> 00:10:08.560
+modulation is negligible
+
+261
+00:10:08.560 --> 00:10:10.880
+so what's what are the steps so the
+
+262
+00:10:10.880 --> 00:10:12.640
+first step is to solve for the crucial
+
+263
+00:10:12.640 --> 00:10:15.120
+voltages of the pmos in the circuit
+
+264
+00:10:15.120 --> 00:10:17.040
+find the region of operation calculate
+
+265
+00:10:17.040 --> 00:10:18.880
+the drain current and solve for v out
+
+266
+00:10:18.880 --> 00:10:20.880
+using ohm's law
+
+267
+00:10:20.880 --> 00:10:22.800
+so as you can see instead of having a
+
+268
+00:10:22.800 --> 00:10:24.880
+direct voltage here we have a resistive
+
+269
+00:10:24.880 --> 00:10:26.399
+divider
+
+270
+00:10:26.399 --> 00:10:29.600
+so now because there is no current
+
+271
+00:10:29.600 --> 00:10:33.600
+going into the gate so vm this one
+
+272
+00:10:33.600 --> 00:10:37.040
+can be calculated using voltage division
+
+273
+00:10:37.040 --> 00:10:39.360
+because there's no there's no gate
+
+274
+00:10:39.360 --> 00:10:40.320
+current
+
+275
+00:10:40.320 --> 00:10:42.800
+so you can see shown here so we get that
+
+276
+00:10:42.800 --> 00:10:46.640
+vm is 2 volts
+
+277
+00:10:46.640 --> 00:10:49.200
+then what's next so the next is to find
+
+278
+00:10:49.200 --> 00:10:51.920
+the transistor's region of operation
+
+279
+00:10:51.920 --> 00:10:55.279
+so if we want to find this we get vsg
+
+280
+00:10:55.279 --> 00:10:58.959
+and vst so vsg is 3 volts
+
+281
+00:10:58.959 --> 00:11:01.440
+minus two volts from what we calculated
+
+282
+00:11:01.440 --> 00:11:03.040
+earlier so we got one volt
+
+283
+00:11:03.040 --> 00:11:06.240
+and then vst is three volts minus vl
+
+284
+00:11:06.240 --> 00:11:09.200
+so now here's the here's the problem
+
+285
+00:11:09.200 --> 00:11:10.959
+because the value of the
+
+286
+00:11:10.959 --> 00:11:14.240
+value of vsd depends on v
+
+287
+00:11:14.240 --> 00:11:16.480
+out the region of operation can either
+
+288
+00:11:16.480 --> 00:11:20.079
+be linear or saturation
+
+289
+00:11:20.399 --> 00:11:23.120
+so in cases like this if the region of
+
+290
+00:11:23.120 --> 00:11:24.560
+the operation of the transistor is not
+
+291
+00:11:24.560 --> 00:11:26.880
+definite in a characterization or design
+
+292
+00:11:26.880 --> 00:11:27.440
+problem
+
+293
+00:11:27.440 --> 00:11:30.560
+assume assume that the transistor is in
+
+294
+00:11:30.560 --> 00:11:32.640
+saturation and check the voltage results
+
+295
+00:11:32.640 --> 00:11:33.519
+later
+
+296
+00:11:33.519 --> 00:11:35.519
+if the assumption is true if the
+
+297
+00:11:35.519 --> 00:11:36.640
+assumption is false
+
+298
+00:11:36.640 --> 00:11:38.240
+redo the solution with the assumption
+
+299
+00:11:38.240 --> 00:11:39.600
+that the linear is operating in the
+
+300
+00:11:39.600 --> 00:11:42.079
+linear or triad region
+
+301
+00:11:42.079 --> 00:11:44.880
+so now because we don't know if this is
+
+302
+00:11:44.880 --> 00:11:46.320
+linear or saturation we're going to
+
+303
+00:11:46.320 --> 00:11:46.800
+assume
+
+304
+00:11:46.800 --> 00:11:50.000
+first that it is saturation
+
+305
+00:11:50.000 --> 00:11:52.240
+as shown here so because we assume that
+
+306
+00:11:52.240 --> 00:11:54.160
+this is in saturation we're going to use
+
+307
+00:11:54.160 --> 00:11:56.240
+the ideal saturation equation of the
+
+308
+00:11:56.240 --> 00:11:58.000
+pmos drain current
+
+309
+00:11:58.000 --> 00:12:00.399
+so channel modulation is negligible so
+
+310
+00:12:00.399 --> 00:12:01.839
+this is constant
+
+311
+00:12:01.839 --> 00:12:04.880
+the constant equation so we substitute
+
+312
+00:12:04.880 --> 00:12:07.760
+everything so that the processor
+
+313
+00:12:07.760 --> 00:12:10.240
+conductance is 500 microamps per volt
+
+314
+00:12:10.240 --> 00:12:11.279
+squared
+
+315
+00:12:11.279 --> 00:12:14.560
+and then vsg is 1 volt
+
+316
+00:12:14.560 --> 00:12:17.360
+from earlier and then the threshold
+
+317
+00:12:17.360 --> 00:12:18.000
+voltage
+
+318
+00:12:18.000 --> 00:12:20.560
+is negative 0.3 remember to absolute
+
+319
+00:12:20.560 --> 00:12:21.440
+value this
+
+320
+00:12:21.440 --> 00:12:24.240
+avoid avoid not including this because
+
+321
+00:12:24.240 --> 00:12:26.160
+this will be confusing later on
+
+322
+00:12:26.160 --> 00:12:29.200
+and you will get this value 122.5
+
+323
+00:12:29.200 --> 00:12:31.839
+microamps
+
+324
+00:12:32.320 --> 00:12:35.040
+and then we can calculate the voltage
+
+325
+00:12:35.040 --> 00:12:36.560
+using ohm's law
+
+326
+00:12:36.560 --> 00:12:38.560
+because remember there is no gate
+
+327
+00:12:38.560 --> 00:12:40.399
+current here
+
+328
+00:12:40.399 --> 00:12:42.639
+therefore all the current in here will
+
+329
+00:12:42.639 --> 00:12:44.399
+be the current here
+
+330
+00:12:44.399 --> 00:12:47.200
+substitute everything you will get 1.225
+
+331
+00:12:47.200 --> 00:12:48.079
+volts
+
+332
+00:12:48.079 --> 00:12:51.200
+now because this answer
+
+333
+00:12:51.200 --> 00:12:53.120
+is from the assumption that the pmos is
+
+334
+00:12:53.120 --> 00:12:55.360
+in saturation
+
+335
+00:12:55.360 --> 00:12:58.160
+you must verify this first before you
+
+336
+00:12:58.160 --> 00:13:01.360
+accept it as your final answer
+
+337
+00:13:01.360 --> 00:13:03.680
+so now we just redo what we did earlier
+
+338
+00:13:03.680 --> 00:13:05.680
+so we find the transistor's region of
+
+339
+00:13:05.680 --> 00:13:06.800
+operation
+
+340
+00:13:06.800 --> 00:13:11.000
+so we get vsg is 1 volt and then vsd is
+
+341
+00:13:11.000 --> 00:13:14.160
+1.775 volts
+
+342
+00:13:14.160 --> 00:13:17.040
+so from the saturation requirements
+
+343
+00:13:17.040 --> 00:13:18.800
+shown here we must check if they are
+
+344
+00:13:18.800 --> 00:13:19.600
+true
+
+345
+00:13:19.600 --> 00:13:22.240
+so the first one is true and the second
+
+346
+00:13:22.240 --> 00:13:23.040
+one
+
+347
+00:13:23.040 --> 00:13:25.279
+one point seven seven five is actually
+
+348
+00:13:25.279 --> 00:13:26.480
+greater than one volt
+
+349
+00:13:26.480 --> 00:13:30.240
+minus negative um point the absolute
+
+350
+00:13:30.240 --> 00:13:32.240
+value of negative point three volts
+
+351
+00:13:32.240 --> 00:13:35.279
+therefore this answer is the correct
+
+352
+00:13:35.279 --> 00:13:36.399
+answer because
+
+353
+00:13:36.399 --> 00:13:38.240
+the transistor is actually in the
+
+354
+00:13:38.240 --> 00:13:41.279
+saturation region
+
+355
+00:13:41.279 --> 00:13:44.720
+so that ends this lecture
+

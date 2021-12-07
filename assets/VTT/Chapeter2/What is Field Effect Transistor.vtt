@@ -1,0 +1,1094 @@
+WEBVTT
+
+1
+00:00:01.400 --> 00:00:03.620
+in this easy eight video lecture we will
+
+2
+00:00:03.620 --> 00:00:05.710
+learn about field effect transistors
+
+3
+00:00:05.710 --> 00:00:09.829
+types of Fe T construction working and
+
+4
+00:00:09.829 --> 00:00:11.950
+the characteristics of J FET
+
+5
+00:00:11.950 --> 00:00:14.089
+construction working and the
+
+6
+00:00:14.089 --> 00:00:16.610
+characteristics of MOSFET and the
+
+7
+00:00:16.610 --> 00:00:20.890
+application of the MOSFET as a switch
+
+8
+00:00:20.890 --> 00:00:23.470
+field effect transistor abbreviated as
+
+9
+00:00:23.470 --> 00:00:26.140
+fut is a unipolar device meaning that
+
+10
+00:00:26.140 --> 00:00:28.779
+current conduction takes place only due
+
+11
+00:00:28.779 --> 00:00:32.020
+to one type of carrier this is the major
+
+12
+00:00:32.020 --> 00:00:34.840
+difference between the BJT and the FE T
+
+13
+00:00:34.840 --> 00:00:37.059
+as the BJT conduction of current takes
+
+14
+00:00:37.059 --> 00:00:38.680
+place due to the both electrons and
+
+15
+00:00:38.680 --> 00:00:41.400
+holes
+
+16
+00:00:41.620 --> 00:00:46.100
+the advantages of fe t and BJT are high
+
+17
+00:00:46.100 --> 00:00:49.219
+input impedance Fe T is a voltage
+
+18
+00:00:49.219 --> 00:00:51.890
+control device it provides high degree
+
+19
+00:00:51.890 --> 00:00:54.379
+of isolation between the input and the
+
+20
+00:00:54.379 --> 00:00:58.420
+output less noisy etc
+
+21
+00:00:58.420 --> 00:01:02.200
+f it is our mainly of two types Junction
+
+22
+00:01:02.200 --> 00:01:05.519
+field effect transistor or J FET and
+
+23
+00:01:05.519 --> 00:01:07.290
+metal-oxide-semiconductor field-effect
+
+24
+00:01:07.290 --> 00:01:11.259
+transistor or MOSFET
+
+25
+00:01:11.259 --> 00:01:13.520
+Junction field effect transistor was
+
+26
+00:01:13.520 --> 00:01:19.909
+first described by Shockley in 1952 J
+
+27
+00:01:19.909 --> 00:01:22.009
+FET is a 4 terminal device with the
+
+28
+00:01:22.009 --> 00:01:24.560
+terminal names as gate drain and source
+
+29
+00:01:24.560 --> 00:01:27.080
+the four terminal called as the body
+
+30
+00:01:27.080 --> 00:01:28.880
+terminal is always connected to the
+
+31
+00:01:28.880 --> 00:01:33.429
+source there are two types of gfitz as
+
+32
+00:01:33.429 --> 00:01:37.570
+an n-channel jfet and a p-channel jf8
+
+33
+00:01:37.570 --> 00:01:40.280
+thus we represent only three terminals
+
+34
+00:01:40.280 --> 00:01:43.650
+in a symbol of Japheth
+
+35
+00:01:43.650 --> 00:01:45.820
+let's start with the construction of
+
+36
+00:01:45.820 --> 00:01:48.790
+n-channel jfet the name n-channel
+
+37
+00:01:48.790 --> 00:01:51.369
+signifies that here electrons are the
+
+38
+00:01:51.369 --> 00:01:55.330
+majority charge carriers to form the
+
+39
+00:01:55.330 --> 00:01:58.390
+n-channel jfet we take n-type
+
+40
+00:01:58.390 --> 00:02:00.520
+semiconductor as the base and drop it
+
+41
+00:02:00.520 --> 00:02:02.799
+with a p-type semiconductor at both the
+
+42
+00:02:02.799 --> 00:02:03.280
+ends
+
+43
+00:02:03.280 --> 00:02:05.920
+both these P regions are electrically
+
+44
+00:02:05.920 --> 00:02:08.440
+connected to each other and an ohmic
+
+45
+00:02:08.440 --> 00:02:10.360
+contact is taken out of which is called
+
+46
+00:02:10.360 --> 00:02:13.630
+as the gate two more terminals are taken
+
+47
+00:02:13.630 --> 00:02:16.569
+out from n substrate and are called as
+
+48
+00:02:16.569 --> 00:02:19.720
+source and the drain the surge a FET has
+
+49
+00:02:19.720 --> 00:02:21.519
+three terminals source and drain and
+
+50
+00:02:21.519 --> 00:02:26.380
+gate similar to BJT jf8 also has two PN
+
+51
+00:02:26.380 --> 00:02:28.190
+junctions
+
+52
+00:02:28.190 --> 00:02:31.190
+for constructing a p-channel jf8 we take
+
+53
+00:02:31.190 --> 00:02:33.080
+a piece of straight and dope n-type
+
+54
+00:02:33.080 --> 00:02:35.180
+semiconductors at the two ends to form
+
+55
+00:02:35.180 --> 00:02:39.440
+the gate thus the two types of gfitz are
+
+56
+00:02:39.440 --> 00:02:42.610
+constructed as shown
+
+57
+00:02:43.099 --> 00:02:47.190
+hey it's time to concentrate now moving
+
+58
+00:02:47.190 --> 00:02:48.870
+forward towards the working net spies
+
+59
+00:02:48.870 --> 00:02:51.060
+the J effete with the two voltage
+
+60
+00:02:51.060 --> 00:02:53.670
+sources one between the gate and the
+
+61
+00:02:53.670 --> 00:02:56.400
+source as vgs and the second between the
+
+62
+00:02:56.400 --> 00:02:59.790
+drain and the source as VDS the source
+
+63
+00:02:59.790 --> 00:03:03.090
+acts as a common terminal initially as
+
+64
+00:03:03.090 --> 00:03:05.430
+no voltage is applied the depletion
+
+65
+00:03:05.430 --> 00:03:07.440
+region is formed across the two PN
+
+66
+00:03:07.440 --> 00:03:09.540
+junctions
+
+67
+00:03:09.540 --> 00:03:11.760
+being of n-type the drain-to-source
+
+68
+00:03:11.760 --> 00:03:14.459
+channel contains electrons as majority
+
+69
+00:03:14.459 --> 00:03:18.030
+charge carriers application of the small
+
+70
+00:03:18.030 --> 00:03:20.069
+drain to source voltage makes these
+
+71
+00:03:20.069 --> 00:03:22.110
+electrons flow from the source to the
+
+72
+00:03:22.110 --> 00:03:24.510
+drain as the positive voltage at the
+
+73
+00:03:24.510 --> 00:03:27.330
+drain attracts them thus the drain
+
+74
+00:03:27.330 --> 00:03:29.310
+current flows through the Jay FET from
+
+75
+00:03:29.310 --> 00:03:33.299
+the drain to the source now let's keep
+
+76
+00:03:33.299 --> 00:03:36.120
+the VDS constant and apply some gate to
+
+77
+00:03:36.120 --> 00:03:38.310
+the source voltage
+
+78
+00:03:38.310 --> 00:03:41.310
+P region contains holes applying the
+
+79
+00:03:41.310 --> 00:03:43.230
+negative voltage to the gate makes the
+
+80
+00:03:43.230 --> 00:03:46.770
+PN Junction reverse biased the depletion
+
+81
+00:03:46.770 --> 00:03:49.500
+region width increases and it penetrates
+
+82
+00:03:49.500 --> 00:03:52.140
+more deeply into the channel decreasing
+
+83
+00:03:52.140 --> 00:03:53.760
+the channel width and thus the drain
+
+84
+00:03:53.760 --> 00:03:56.140
+current reduces
+
+85
+00:03:56.140 --> 00:03:58.420
+now if we increase the gate voltage
+
+86
+00:03:58.420 --> 00:04:00.910
+towards a more negative side the
+
+87
+00:04:00.910 --> 00:04:02.950
+depletion region goes on increasing and
+
+88
+00:04:02.950 --> 00:04:05.320
+a point comes when the channel gets
+
+89
+00:04:05.320 --> 00:04:09.010
+depleted completely the value of vgs is
+
+90
+00:04:09.010 --> 00:04:11.440
+called as the pinch of voltage or
+
+91
+00:04:11.440 --> 00:04:14.020
+threshold voltage at this point the
+
+92
+00:04:14.020 --> 00:04:17.649
+current flows stop now let's keep the
+
+93
+00:04:17.649 --> 00:04:19.870
+vgs voltage constant written between
+
+94
+00:04:19.870 --> 00:04:22.270
+zero volts and the pinch off value and
+
+95
+00:04:22.270 --> 00:04:26.440
+increase the VDS voltage VDS is nothing
+
+96
+00:04:26.440 --> 00:04:28.240
+but the voltage drop across the channel
+
+97
+00:04:28.240 --> 00:04:30.550
+which increases as we move towards the
+
+98
+00:04:30.550 --> 00:04:34.030
+drain also the reverse bias voltage of
+
+99
+00:04:34.030 --> 00:04:37.050
+VG s is the highest at the drain
+
+100
+00:04:37.050 --> 00:04:39.880
+thus the depletion region gets a tapered
+
+101
+00:04:39.880 --> 00:04:42.520
+shape near the drain and channel becomes
+
+102
+00:04:42.520 --> 00:04:45.850
+much narrower in this case thus I D
+
+103
+00:04:45.850 --> 00:04:47.920
+remains constant and the characteristic
+
+104
+00:04:47.920 --> 00:04:51.480
+graph becomes nonlinear
+
+105
+00:04:52.310 --> 00:04:54.810
+now studying all the cases you may have
+
+106
+00:04:54.810 --> 00:04:57.660
+a question that why vgs is never
+
+107
+00:04:57.660 --> 00:05:01.200
+positive gate voltage primary controls
+
+108
+00:05:01.200 --> 00:05:04.140
+the flow of the drain current if we
+
+109
+00:05:04.140 --> 00:05:07.050
+apply vgs positive this will make the PN
+
+110
+00:05:07.050 --> 00:05:09.450
+Junction forward biased and the gate
+
+111
+00:05:09.450 --> 00:05:12.440
+sees this to control the current flow
+
+112
+00:05:12.440 --> 00:05:15.600
+thus we never apply a voltage above zero
+
+113
+00:05:15.600 --> 00:05:19.050
+volts to the gate terminal the synergy
+
+114
+00:05:19.050 --> 00:05:21.510
+FET the output current ID is controlled
+
+115
+00:05:21.510 --> 00:05:25.230
+by the input voltage vgs thus fe t is a
+
+116
+00:05:25.230 --> 00:05:27.690
+voltage control device whereas BJT is a
+
+117
+00:05:27.690 --> 00:05:30.830
+current control device
+
+118
+00:05:30.990 --> 00:05:33.810
+the characteristics of japheth are as
+
+119
+00:05:33.810 --> 00:05:36.180
+shown in the figure
+
+120
+00:05:36.180 --> 00:05:37.980
+the metal-oxide-semiconductor
+
+121
+00:05:37.980 --> 00:05:41.280
+field-effect transistor or simply mosfet
+
+122
+00:05:41.280 --> 00:05:44.460
+is the cousin of jfn as the boat exhibit
+
+123
+00:05:44.460 --> 00:05:48.420
+the same nature of F ETS MOSFET is also
+
+124
+00:05:48.420 --> 00:05:50.640
+divided in two types such as enhancement
+
+125
+00:05:50.640 --> 00:05:53.810
+and depletion type
+
+126
+00:05:54.610 --> 00:05:58.580
+seriously pay attention this is
+
+127
+00:05:58.580 --> 00:06:00.070
+important
+
+128
+00:06:00.070 --> 00:06:03.050
+MOSFET has also four terminals as gate
+
+129
+00:06:03.050 --> 00:06:06.800
+drain source and body but the body
+
+130
+00:06:06.800 --> 00:06:08.720
+terminal is always connected to the
+
+131
+00:06:08.720 --> 00:06:12.440
+source so the MOSFET is considered as a
+
+132
+00:06:12.440 --> 00:06:15.240
+three terminal device
+
+133
+00:06:15.240 --> 00:06:17.460
+so let's see the construction of the
+
+134
+00:06:17.460 --> 00:06:20.910
+mosfet now to construct an n-channel
+
+135
+00:06:20.910 --> 00:06:24.419
+MOSFET p-type semiconductor structure is
+
+136
+00:06:24.419 --> 00:06:27.870
+considered as the base or substrate then
+
+137
+00:06:27.870 --> 00:06:30.660
+we dope to n-type wells to obtain the
+
+138
+00:06:30.660 --> 00:06:32.610
+source and the drain terminals which
+
+139
+00:06:32.610 --> 00:06:34.440
+form the required end channel between
+
+140
+00:06:34.440 --> 00:06:37.620
+the two thus we get the MOSFET structure
+
+141
+00:06:37.620 --> 00:06:40.009
+as shown
+
+142
+00:06:41.140 --> 00:06:44.440
+the symbols of Jeff ed and MOSFET are
+
+143
+00:06:44.440 --> 00:06:46.510
+almost the same except that there is a
+
+144
+00:06:46.510 --> 00:06:48.610
+dotted line between gate and the other
+
+145
+00:06:48.610 --> 00:06:51.550
+two terminals in MOSFET this is because
+
+146
+00:06:51.550 --> 00:06:54.310
+in the MOSFET the gate terminal is kept
+
+147
+00:06:54.310 --> 00:06:56.560
+isolated from the drain and the source
+
+148
+00:06:56.560 --> 00:06:59.350
+with the help of an oxide layer and the
+
+149
+00:06:59.350 --> 00:07:01.000
+metal is used to make the contact
+
+150
+00:07:01.000 --> 00:07:02.190
+terminal
+
+151
+00:07:02.190 --> 00:07:04.990
+thus this device is named as the metal
+
+152
+00:07:04.990 --> 00:07:06.670
+oxide semiconductor field effect
+
+153
+00:07:06.670 --> 00:07:09.600
+transistor
+
+154
+00:07:10.020 --> 00:07:12.130
+moving forward let's start with the
+
+155
+00:07:12.130 --> 00:07:15.490
+working of MOSFET let's consider that
+
+156
+00:07:15.490 --> 00:07:20.259
+vgs and VDS is equal to zero volts the
+
+157
+00:07:20.259 --> 00:07:22.120
+mosfet remains stable but depletion
+
+158
+00:07:22.120 --> 00:07:24.520
+region is formed due to PN Junction as
+
+159
+00:07:24.520 --> 00:07:29.020
+shown now let's apply the positive vgs
+
+160
+00:07:29.020 --> 00:07:32.740
+as shown as the positive voltage is
+
+161
+00:07:32.740 --> 00:07:35.740
+applied to the gate terminal holes near
+
+162
+00:07:35.740 --> 00:07:37.509
+the gate are repelled towards the
+
+163
+00:07:37.509 --> 00:07:40.720
+substrate hence mosfet operates in the
+
+164
+00:07:40.720 --> 00:07:43.289
+cutoff mode
+
+165
+00:07:44.190 --> 00:07:46.440
+when we increase the gate voltage about
+
+166
+00:07:46.440 --> 00:07:49.560
+a threshold value all holes get depleted
+
+167
+00:07:49.560 --> 00:07:51.930
+from the depletion region and the gate
+
+168
+00:07:51.930 --> 00:07:53.850
+attracts all the minority charge
+
+169
+00:07:53.850 --> 00:07:57.330
+carriers this forms the inversion layer
+
+170
+00:07:57.330 --> 00:07:59.400
+near the gate which contains only
+
+171
+00:07:59.400 --> 00:08:02.670
+electrons this layer acts as a channel
+
+172
+00:08:02.670 --> 00:08:05.520
+and as it contains only electrons it is
+
+173
+00:08:05.520 --> 00:08:08.040
+called as the end channel as this
+
+174
+00:08:08.040 --> 00:08:10.320
+channel enhances due to increase in the
+
+175
+00:08:10.320 --> 00:08:12.960
+gate voltage this Fe T is called
+
+176
+00:08:12.960 --> 00:08:16.130
+enhancement type MOSFET
+
+177
+00:08:16.960 --> 00:08:19.750
+now let's apply a positive voltage to
+
+178
+00:08:19.750 --> 00:08:23.320
+the drain which is n-type when we apply
+
+179
+00:08:23.320 --> 00:08:26.380
+positive potential to the drain the
+
+180
+00:08:26.380 --> 00:08:28.840
+depletion region near the drain widens
+
+181
+00:08:28.840 --> 00:08:32.110
+due to reverse biased PN Junction
+
+182
+00:08:32.110 --> 00:08:34.899
+as we increase the strain voltage above
+
+183
+00:08:34.899 --> 00:08:37.089
+the gate voltage applied electrons from
+
+184
+00:08:37.089 --> 00:08:38.799
+the channel field a strong force of
+
+185
+00:08:38.799 --> 00:08:40.839
+attraction towards the drain and start
+
+186
+00:08:40.839 --> 00:08:42.279
+flowing from the source to the drain
+
+187
+00:08:42.279 --> 00:08:45.519
+through the channel this motion
+
+188
+00:08:45.519 --> 00:08:46.959
+generates the drain current which flows
+
+189
+00:08:46.959 --> 00:08:50.920
+from the drain to the source increasing
+
+190
+00:08:50.920 --> 00:08:52.899
+the VDS further we reach a point where
+
+191
+00:08:52.899 --> 00:08:55.269
+this channel width starts to decrease at
+
+192
+00:08:55.269 --> 00:08:57.850
+the drain terminal and the channel gets
+
+193
+00:08:57.850 --> 00:09:00.459
+tapered and is transformed into a single
+
+194
+00:09:00.459 --> 00:09:04.870
+point after this point even if we
+
+195
+00:09:04.870 --> 00:09:08.339
+increase the VDS ID remains constant
+
+196
+00:09:08.339 --> 00:09:11.410
+after this point MOSFET goes into a
+
+197
+00:09:11.410 --> 00:09:14.250
+saturation mode
+
+198
+00:09:14.330 --> 00:09:16.850
+thus we can summarize the working of the
+
+199
+00:09:16.850 --> 00:09:19.480
+MOSFET in the following table
+
+200
+00:09:19.480 --> 00:09:21.950
+when it is in the cutoff mode or
+
+201
+00:09:21.950 --> 00:09:24.680
+saturation mode it acts as a switch and
+
+202
+00:09:24.680 --> 00:09:27.350
+when it is in the active region it acts
+
+203
+00:09:27.350 --> 00:09:29.950
+as an amplifier
+
+204
+00:09:30.600 --> 00:09:32.589
+thus we observe the following
+
+205
+00:09:32.589 --> 00:09:34.029
+characteristics for the enhancement
+
+206
+00:09:34.029 --> 00:09:36.330
+MOSFET
+
+207
+00:09:37.740 --> 00:09:40.290
+now let's focus on the applications of
+
+208
+00:09:40.290 --> 00:09:44.250
+the MOSFET same as the BJT MOSFET can
+
+209
+00:09:44.250 --> 00:09:49.140
+also be used as a switch now this
+
+210
+00:09:49.140 --> 00:09:51.240
+operation of the MOSFET solely depends
+
+211
+00:09:51.240 --> 00:09:54.450
+upon the vgs voltage provided voltage
+
+212
+00:09:54.450 --> 00:09:56.550
+VDS between the drain and the source is
+
+213
+00:09:56.550 --> 00:10:00.030
+positive ends mosfet is called as
+
+214
+00:10:00.030 --> 00:10:02.810
+voltage controlled current source
+
+215
+00:10:02.810 --> 00:10:06.510
+when vgs is equal to zero no channel is
+
+216
+00:10:06.510 --> 00:10:06.990
+formed
+
+217
+00:10:06.990 --> 00:10:09.600
+thus mosfet acts as an open switch and
+
+218
+00:10:09.600 --> 00:10:13.980
+the bulb remains off and when vgs is
+
+219
+00:10:13.980 --> 00:10:16.140
+increased above the threshold voltage a
+
+220
+00:10:16.140 --> 00:10:18.270
+channel is formed between the drain and
+
+221
+00:10:18.270 --> 00:10:20.220
+the source and the flow of the current
+
+222
+00:10:20.220 --> 00:10:24.300
+starts thus mosfet acts as a closed
+
+223
+00:10:24.300 --> 00:10:27.620
+switch and the bulb glows
+
+224
+00:10:28.670 --> 00:10:30.890
+let us now review what we've learned in
+
+225
+00:10:30.890 --> 00:10:33.410
+this video lecture field effect
+
+226
+00:10:33.410 --> 00:10:36.080
+transistors are of two types J fads and
+
+227
+00:10:36.080 --> 00:10:39.620
+MOSFETs the G FET are further divided
+
+228
+00:10:39.620 --> 00:10:43.450
+into n channel J fat and p channel g fat
+
+229
+00:10:43.450 --> 00:10:46.790
+whereas the MOSFETs are the enhancement
+
+230
+00:10:46.790 --> 00:10:50.510
+type and the depletion type for n
+
+231
+00:10:50.510 --> 00:10:53.210
+channel J fed to P regions are doped
+
+232
+00:10:53.210 --> 00:10:56.480
+into the N substrate as shown the gate
+
+233
+00:10:56.480 --> 00:10:58.490
+is taken out from the P region and the
+
+234
+00:10:58.490 --> 00:11:00.800
+source and the drain are taken out from
+
+235
+00:11:00.800 --> 00:11:05.030
+the n substrate for P channel jf8 the
+
+236
+00:11:05.030 --> 00:11:07.730
+base is of p-type and the end regions
+
+237
+00:11:07.730 --> 00:11:10.580
+are doped along its two sides the gate
+
+238
+00:11:10.580 --> 00:11:13.040
+is taken out from n-type base and the
+
+239
+00:11:13.040 --> 00:11:14.870
+source and the drain terminals are taken
+
+240
+00:11:14.870 --> 00:11:19.310
+out from the P regions applications of
+
+241
+00:11:19.310 --> 00:11:21.260
+the positive VD a starts the current
+
+242
+00:11:21.260 --> 00:11:25.430
+flow keeping VG s constant increase in
+
+243
+00:11:25.430 --> 00:11:28.930
+the VDS increases the drain current ID
+
+244
+00:11:28.930 --> 00:11:31.310
+linearly and then the Contra means
+
+245
+00:11:31.310 --> 00:11:32.960
+constant
+
+246
+00:11:32.960 --> 00:11:35.810
+keeping the VDS positive and constant
+
+247
+00:11:35.810 --> 00:11:38.820
+application of the negative vgs reduces
+
+248
+00:11:38.820 --> 00:11:41.700
+the channel width the channel becomes
+
+249
+00:11:41.700 --> 00:11:44.010
+narrow and at pinch off point the
+
+250
+00:11:44.010 --> 00:11:48.000
+current flow stops for constructing an N
+
+251
+00:11:48.000 --> 00:11:51.930
+channel MOSFET - n wells are doped onto
+
+252
+00:11:51.930 --> 00:11:55.140
+the p-type substrate or base the gate
+
+253
+00:11:55.140 --> 00:11:58.500
+terminal is taken out from p-type the
+
+254
+00:11:58.500 --> 00:12:00.360
+source and the drain are taken from n
+
+255
+00:12:00.360 --> 00:12:02.580
+Wells and the body terminal is connected
+
+256
+00:12:02.580 --> 00:12:06.270
+to the source the gate is isolated from
+
+257
+00:12:06.270 --> 00:12:10.850
+the body by using sio2 oxide layer
+
+258
+00:12:10.850 --> 00:12:12.900
+application of the positive gate voltage
+
+259
+00:12:12.900 --> 00:12:16.410
+vgs repels the holes from the p-type and
+
+260
+00:12:16.410 --> 00:12:18.450
+attracts the minority electrons from the
+
+261
+00:12:18.450 --> 00:12:22.170
+base these electrons form a channel as
+
+262
+00:12:22.170 --> 00:12:26.190
+shown a VDS voltage greater than VG's
+
+263
+00:12:26.190 --> 00:12:28.770
+voltage when applied attracts the
+
+264
+00:12:28.770 --> 00:12:30.540
+electrons and constitutes the drain
+
+265
+00:12:30.540 --> 00:12:32.780
+current
+
+266
+00:12:33.220 --> 00:12:36.610
+further increase in the VDS leads the
+
+267
+00:12:36.610 --> 00:12:38.530
+pinch of point where the current ceases
+
+268
+00:12:38.530 --> 00:12:40.610
+to flow
+
+269
+00:12:40.610 --> 00:12:44.070
+MOSFET is used as a switch when operated
+
+270
+00:12:44.070 --> 00:12:46.980
+in the cutoff region it acts as an open
+
+271
+00:12:46.980 --> 00:12:50.700
+switch when operated in saturation it
+
+272
+00:12:50.700 --> 00:12:53.280
+acts as a closed switch and in the
+
+273
+00:12:53.280 --> 00:12:57.200
+active region it acts as an amplifier
+

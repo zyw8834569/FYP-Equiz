@@ -1,0 +1,750 @@
+WEBVTT
+
+1
+00:00:05.730 --> 00:00:09.880
+hello everybody this is a very very very
+
+2
+00:00:09.880 --> 00:00:14.620
+simple video on what a MOSFET is and
+
+3
+00:00:14.620 --> 00:00:17.730
+does a MOSFET is a
+
+4
+00:00:17.730 --> 00:00:19.740
+metal-oxide-semiconductor field-effect
+
+5
+00:00:19.740 --> 00:00:22.630
+transistor and this is what it looks
+
+6
+00:00:22.630 --> 00:00:24.840
+like
+
+7
+00:00:38.059 --> 00:00:40.309
+so this is how it looks like and it has
+
+8
+00:00:40.309 --> 00:00:43.430
+basically three terminals the drain the
+
+9
+00:00:43.430 --> 00:00:46.670
+source and the gate now that you know
+
+10
+00:00:46.670 --> 00:00:49.760
+what it looks like let's define what a
+
+11
+00:00:49.760 --> 00:00:52.699
+MOSFET is and there are two important
+
+12
+00:00:52.699 --> 00:00:55.550
+terms that you must know and it's right
+
+13
+00:00:55.550 --> 00:00:57.019
+in front of our faces
+
+14
+00:00:57.019 --> 00:00:58.610
+the metal-oxide-semiconductor
+
+15
+00:00:58.610 --> 00:01:02.809
+field-effect transistor so the most to
+
+16
+00:01:02.809 --> 00:01:06.619
+two terms we have to emphasize are the
+
+17
+00:01:06.619 --> 00:01:10.009
+field effect and the transistor and
+
+18
+00:01:10.009 --> 00:01:14.320
+that's what basically a moth MOSFET is
+
+19
+00:01:14.320 --> 00:01:18.890
+so first let's define what those terms
+
+20
+00:01:18.890 --> 00:01:22.070
+mean a field effect basically means that
+
+21
+00:01:22.070 --> 00:01:24.409
+something is caused by a certain voltage
+
+22
+00:01:24.409 --> 00:01:27.140
+source so depending on the magnitude of
+
+23
+00:01:27.140 --> 00:01:29.840
+a voltage it would do something
+
+24
+00:01:29.840 --> 00:01:33.649
+externally a transistor the second term
+
+25
+00:01:33.649 --> 00:01:36.350
+is something that amplifies or switched
+
+26
+00:01:36.350 --> 00:01:39.710
+electronic signals such as not only
+
+27
+00:01:39.710 --> 00:01:45.189
+signals but also current in this case so
+
+28
+00:01:45.189 --> 00:01:47.960
+combining the field effect definition
+
+29
+00:01:47.960 --> 00:01:49.880
+and the transistor definition together
+
+30
+00:01:49.880 --> 00:01:53.750
+we now know what a MOSFET is and that it
+
+31
+00:01:53.750 --> 00:01:57.229
+is something that that can amplify or
+
+32
+00:01:57.229 --> 00:02:00.920
+switch electronic signals that is caused
+
+33
+00:02:00.920 --> 00:02:06.409
+by a voltage source so here we have
+
+34
+00:02:06.409 --> 00:02:09.320
+scenario here three different circuits
+
+35
+00:02:09.320 --> 00:02:11.690
+and we have a circuit where we have a
+
+36
+00:02:11.690 --> 00:02:14.209
+high voltage source and a track and then
+
+37
+00:02:14.209 --> 00:02:16.880
+there's a ground now we have the
+
+38
+00:02:16.880 --> 00:02:19.370
+situation here where in this situation
+
+39
+00:02:19.370 --> 00:02:23.900
+the current is zero and here a little
+
+40
+00:02:23.900 --> 00:02:25.430
+bit of current is passing through the
+
+41
+00:02:25.430 --> 00:02:28.340
+ground and in this situation where a lot
+
+42
+00:02:28.340 --> 00:02:30.310
+of current is traveling to the ground
+
+43
+00:02:30.310 --> 00:02:33.920
+now what the MOSFET can do is that it
+
+44
+00:02:33.920 --> 00:02:38.260
+can do all of these kinds of scenarios
+
+45
+00:02:38.260 --> 00:02:42.019
+with its capability so in this here in
+
+46
+00:02:42.019 --> 00:02:44.180
+this situation here it can act as a
+
+47
+00:02:44.180 --> 00:02:46.010
+switch where basically switches off
+
+48
+00:02:46.010 --> 00:02:49.670
+entirely of the circuit and no current
+
+49
+00:02:49.670 --> 00:02:50.440
+is passing
+
+50
+00:02:50.440 --> 00:02:52.630
+essentially there is infinite resistance
+
+51
+00:02:52.630 --> 00:02:56.530
+and it is a open circuit here there is
+
+52
+00:02:56.530 --> 00:02:57.880
+very little current that is passing
+
+53
+00:02:57.880 --> 00:03:01.030
+through you know the resistance is still
+
+54
+00:03:01.030 --> 00:03:03.970
+relevant but here a lot of current is
+
+55
+00:03:03.970 --> 00:03:05.860
+flowing through and the resistance is
+
+56
+00:03:05.860 --> 00:03:09.280
+varies little and with the MOSFET and
+
+57
+00:03:09.280 --> 00:03:11.590
+use it utilizing the knowledge of field
+
+58
+00:03:11.590 --> 00:03:18.570
+effect an external voltage source could
+
+59
+00:03:18.570 --> 00:03:23.980
+apply to all of these conditions so
+
+60
+00:03:23.980 --> 00:03:27.700
+let's look at our MOSFET this is an N
+
+61
+00:03:27.700 --> 00:03:31.000
+type MOSFET so the symbol right here we
+
+62
+00:03:31.000 --> 00:03:35.620
+are given again and let's apply that
+
+63
+00:03:35.620 --> 00:03:38.560
+circuit into this MOSFET shall we so we
+
+64
+00:03:38.560 --> 00:03:42.340
+had that positive 10 volt here and then
+
+65
+00:03:42.340 --> 00:03:47.170
+we had here the ground now utilizing the
+
+66
+00:03:47.170 --> 00:03:55.720
+field effect Northey are-- what this
+
+67
+00:03:55.720 --> 00:03:57.400
+basically means is that the voltage
+
+68
+00:03:57.400 --> 00:04:01.420
+between the gate and the source is the
+
+69
+00:04:01.420 --> 00:04:06.310
+voltage that could control the current
+
+70
+00:04:06.310 --> 00:04:09.130
+passing from this part of the circuit
+
+71
+00:04:09.130 --> 00:04:13.650
+down here and it can vary as well so
+
+72
+00:04:13.650 --> 00:04:15.970
+what that basically means I'm going to
+
+73
+00:04:15.970 --> 00:04:19.390
+write it down right here that it can
+
+74
+00:04:19.390 --> 00:04:23.380
+affect these three variables so the
+
+75
+00:04:23.380 --> 00:04:25.300
+first thing that I've already mentioned
+
+76
+00:04:25.300 --> 00:04:28.780
+is the current and we can write that as
+
+77
+00:04:28.780 --> 00:04:33.190
+ID the second is the resistance between
+
+78
+00:04:33.190 --> 00:04:38.169
+D s and we call that Rd s and the third
+
+79
+00:04:38.169 --> 00:04:41.890
+is the voltage across the drain and the
+
+80
+00:04:41.890 --> 00:04:47.980
+source VDS and that's how the field
+
+81
+00:04:47.980 --> 00:04:53.200
+effect works in this situation where the
+
+82
+00:04:53.200 --> 00:04:56.169
+voltage gate source could affect these
+
+83
+00:04:56.169 --> 00:04:59.490
+three variables
+
+84
+00:05:03.850 --> 00:05:07.070
+so let's apply the situation and
+
+85
+00:05:07.070 --> 00:05:11.200
+conditions if the voltage vgs is low
+
+86
+00:05:11.200 --> 00:05:17.170
+then our drain current is next to zero
+
+87
+00:05:17.170 --> 00:05:28.970
+close to zero our resistance RDS is very
+
+88
+00:05:28.970 --> 00:05:33.740
+high high to the point where it almost
+
+89
+00:05:33.740 --> 00:05:41.350
+acts as an open circuit and also VDS is
+
+90
+00:05:41.350 --> 00:05:47.180
+low as well now let's apply our
+
+91
+00:05:47.180 --> 00:05:51.500
+situation when if vgs is high as vgs is
+
+92
+00:05:51.500 --> 00:06:00.580
+high than id is moderate to high
+
+93
+00:06:00.580 --> 00:06:08.300
+depending on the magnitude of vgs RDS
+
+94
+00:06:08.300 --> 00:06:14.630
+will be very low so low that it will
+
+95
+00:06:14.630 --> 00:06:21.980
+have an exponential effect VDS will be
+
+96
+00:06:21.980 --> 00:06:24.190
+high
+
+97
+00:06:25.980 --> 00:06:29.320
+so this is our field effect condition on
+
+98
+00:06:29.320 --> 00:06:33.550
+what would basically happen now let's
+
+99
+00:06:33.550 --> 00:06:44.290
+look at a graphical standpoint so let me
+
+100
+00:06:44.290 --> 00:06:49.420
+zoom out a little bit try to focus this
+
+101
+00:06:49.420 --> 00:06:54.580
+on more so is let's say that vgs we have
+
+102
+00:06:54.580 --> 00:06:58.180
+this graph and over time vgs will be
+
+103
+00:06:58.180 --> 00:07:02.380
+basically increasing and it increases
+
+104
+00:07:02.380 --> 00:07:05.800
+linearly well you may be wondering will
+
+105
+00:07:05.800 --> 00:07:08.230
+the drain current increase linearly as
+
+106
+00:07:08.230 --> 00:07:13.380
+well well actually not it will however
+
+107
+00:07:13.380 --> 00:07:19.540
+be zero in a short period of time in the
+
+108
+00:07:19.540 --> 00:07:22.540
+beginning so this is how the drain
+
+109
+00:07:22.540 --> 00:07:26.410
+current would work and look like where
+
+110
+00:07:26.410 --> 00:07:28.960
+it's essentially zero and up at a
+
+111
+00:07:28.960 --> 00:07:31.540
+certain point it will increase linearly
+
+112
+00:07:31.540 --> 00:07:36.780
+and then later it will actually Plateau
+
+113
+00:07:36.780 --> 00:07:40.750
+for a resistance it's the opposite
+
+114
+00:07:40.750 --> 00:07:42.610
+effect but it also as I've mentioned
+
+115
+00:07:42.610 --> 00:07:46.390
+will have an exponential decrease so at
+
+116
+00:07:46.390 --> 00:07:49.660
+this point when the current is slowly
+
+117
+00:07:49.660 --> 00:07:54.010
+going up literally the resistance will
+
+118
+00:07:54.010 --> 00:08:01.290
+be going down just like that now I've
+
+119
+00:08:01.290 --> 00:08:04.360
+shown you how the drain current would
+
+120
+00:08:04.360 --> 00:08:07.450
+act late and the voltage between the
+
+121
+00:08:07.450 --> 00:08:09.010
+drain and the source will have the same
+
+122
+00:08:09.010 --> 00:08:14.320
+effect same graph like vgs now this is
+
+123
+00:08:14.320 --> 00:08:18.010
+what go is is what gets interesting is
+
+124
+00:08:18.010 --> 00:08:22.930
+that what is this line here now this is
+
+125
+00:08:22.930 --> 00:08:26.370
+a pretty important line boundary and
+
+126
+00:08:26.370 --> 00:08:31.120
+this boundary is basically the region
+
+127
+00:08:31.120 --> 00:08:36.810
+between the cutoff and the linear mode
+
+128
+00:08:36.870 --> 00:08:41.139
+this is the cutoff we are essentially
+
+129
+00:08:41.139 --> 00:08:45.310
+voltage there is some voltage between
+
+130
+00:08:45.310 --> 00:08:47.829
+the gate and the source but then it's a
+
+131
+00:08:47.829 --> 00:08:50.050
+cutoff because the circuit is open and
+
+132
+00:08:50.050 --> 00:08:52.930
+there is no current flowing through the
+
+133
+00:08:52.930 --> 00:08:56.850
+drink drain to the source at all and
+
+134
+00:08:56.850 --> 00:09:00.660
+also the resistance is very very high
+
+135
+00:09:00.660 --> 00:09:04.059
+but when there is current that is able
+
+136
+00:09:04.059 --> 00:09:08.110
+to go through that point is called this
+
+137
+00:09:08.110 --> 00:09:09.939
+is a pretty important thing to point out
+
+138
+00:09:09.939 --> 00:09:14.110
+this is the voltage threshold where once
+
+139
+00:09:14.110 --> 00:09:16.930
+that a voltage between the gate and the
+
+140
+00:09:16.930 --> 00:09:18.639
+source passes through the value of the
+
+141
+00:09:18.639 --> 00:09:21.399
+threshold voltage current will be
+
+142
+00:09:21.399 --> 00:09:25.170
+flowing through a now the last thing I
+
+143
+00:09:25.170 --> 00:09:27.550
+want to just first write this down this
+
+144
+00:09:27.550 --> 00:09:30.120
+is the linear mode now the linear mode
+
+145
+00:09:30.120 --> 00:09:34.660
+doesn't go through this graph because
+
+146
+00:09:34.660 --> 00:09:36.610
+there is another mode that I haven't
+
+147
+00:09:36.610 --> 00:09:38.680
+mentioned and that is called the
+
+148
+00:09:38.680 --> 00:09:42.399
+saturation mode right here and the
+
+149
+00:09:42.399 --> 00:09:44.379
+border between the saturation and the
+
+150
+00:09:44.379 --> 00:09:46.209
+linear mode is when the current
+
+151
+00:09:46.209 --> 00:09:48.579
+saturates and plateaus as you can see
+
+152
+00:09:48.579 --> 00:09:57.519
+I've drawn here so at this point even
+
+153
+00:09:57.519 --> 00:09:59.259
+though when the voltage between the gate
+
+154
+00:09:59.259 --> 00:10:01.839
+and the source is increasing it will
+
+155
+00:10:01.839 --> 00:10:03.550
+come a certain point where the drain
+
+156
+00:10:03.550 --> 00:10:06.069
+current cannot increase anymore and that
+
+157
+00:10:06.069 --> 00:10:08.019
+is good because we don't want the MOSFET
+
+158
+00:10:08.019 --> 00:10:13.750
+to overheat so how do we apply this
+
+159
+00:10:13.750 --> 00:10:15.579
+mathematically understanding the three
+
+160
+00:10:15.579 --> 00:10:18.069
+modes the cutoff where the current is
+
+161
+00:10:18.069 --> 00:10:21.069
+not flowing at all we know where the
+
+162
+00:10:21.069 --> 00:10:23.559
+current is steadily increasing depending
+
+163
+00:10:23.559 --> 00:10:26.769
+on the rate of change of the voltage
+
+164
+00:10:26.769 --> 00:10:28.600
+between the gate and the source and the
+
+165
+00:10:28.600 --> 00:10:32.019
+saturation mode when the current is not
+
+166
+00:10:32.019 --> 00:10:37.050
+changing at all well very simple and
+
+167
+00:10:37.050 --> 00:10:40.980
+that is where the operating mode
+
+168
+00:10:40.980 --> 00:10:45.850
+conditions are explained so if the
+
+169
+00:10:45.850 --> 00:10:47.649
+voltage gate source is below the
+
+170
+00:10:47.649 --> 00:10:50.089
+threshold that will be the cut
+
+171
+00:10:50.089 --> 00:10:56.240
+mode when the voltage drain source is
+
+172
+00:10:56.240 --> 00:10:59.720
+less than the difference between vgs
+
+173
+00:10:59.720 --> 00:11:02.300
+minus the threshold voltage that will be
+
+174
+00:11:02.300 --> 00:11:08.120
+the linear mode and when the voltage
+
+175
+00:11:08.120 --> 00:11:11.089
+drain source is now greater than this
+
+176
+00:11:11.089 --> 00:11:13.790
+this difference then it will be in
+
+177
+00:11:13.790 --> 00:11:19.519
+saturation mode so there you have it the
+
+178
+00:11:19.519 --> 00:11:22.819
+most simplest way to explain what a
+
+179
+00:11:22.819 --> 00:11:26.180
+MOSFET is and the MOSFET as I've
+
+180
+00:11:26.180 --> 00:11:27.730
+explained is the
+
+181
+00:11:27.730 --> 00:11:29.889
+metal-oxide-semiconductor field-effect
+
+182
+00:11:29.889 --> 00:11:37.449
+transistor and it is something that is
+
+183
+00:11:37.449 --> 00:11:41.420
+able to amplify or switch electronic
+
+184
+00:11:41.420 --> 00:11:43.629
+signals that is caused by a voltage
+
+185
+00:11:43.629 --> 00:11:47.269
+source also known as the voltage gate
+
+186
+00:11:47.269 --> 00:11:49.999
+source hope you guys enjoyed this video
+
+187
+00:11:49.999 --> 00:11:53.740
+and I'll see you next time
+

@@ -100,39 +100,89 @@ var playlist =
       src: './assets/Thumbnail/Chapeter2/What is a CMOS.jpg'
     }]
   }, {
-    name: 'What is an Integrated Circuit',
-    duration: 141,
+    name: 'What is Field Effect Transistor',
+    duration: 781,
     sources: [{
-      src: 'https://www.youtube.com/embed/71FtcdwR2BU',
+      src: 'https://www.youtube.com/embed/3Ny3wzw0ke0',
       type: 'video/youtube'
     }],
 
-    track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/What is an Integrated Circuit.vtt' },
-    poster: './assets/Poster/Chapeter2/What is an Integrated Circuit.png',
+    track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/What is Field Effect Transistor.vtt' },
+    poster: './assets/Poster/Chapeter2/What is Field Effect Transistor.png',
     thumbnail: [{
-      srcset: './assets/Thumbnail/Chapeter2/What is an Integrated Circuit.jpg',
+      srcset: './assets/Thumbnail/Chapeter2/What is Field Effect Transistor.jpg',
       type: 'image/jpeg',
       media: '(min-width: 50px;)'
     }, {
-      src: './assets/Thumbnail/Chapeter2/What is an Integrated Circuit.jpg'
+      src: './assets/Thumbnail/Chapeter2/What is Field Effect Transistor.jpg'
     }]
   }, {
-    name: 'Integrated Circuits: 555 Timer',
-    duration: 1435,
+    name: 'MOSFETs explained',
+    duration: 716,
     sources: [{
-      src: 'https://www.youtube.com/embed/IbGrNgx6-lg',
+      src: 'https://www.youtube.com/embed/ymFfw_MGceI',
       type: 'video/youtube'
     }],
 
-    track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/Integrated Circuits 555 Timer.vtt' },
-    poster: './assets/Poster/Chapeter2/Integrated Circuits-555 Timer.png',
+    track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/MOSFETs explained.vtt' },
+    poster: './assets/Poster/Chapeter2/MOSFETs explained.png',
     thumbnail: [{
-      srcset: './assets/Thumbnail/Chapeter2/Integrated Circuits-555 Timer.jpg',
+      srcset: './assets/Thumbnail/Chapeter2/MOSFETs explained.jpg',
       type: 'image/jpeg',
       media: '(min-width: 50px;)'
     }, {
-      src: './assets/Thumbnail/Chapeter2/Integrated Circuits-555 Timer.jpg'
+      src: './assets/Thumbnail/Chapeter2/MOSFETs explained.jpg'
     }]
+  }, {
+    name: 'Building logic gates from MOSFET transistors',
+    duration: 649,
+    sources: [{
+      src: 'https://www.youtube.com/embed/1rZyGL1K5QI',
+      type: 'video/youtube'
+    }],
+    track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/Building logic gates.vtt' },
+    poster: './assets/Poster/Chapeter2/Building logic gates from MOSFET transistors.png',
+    thumbnail: [{
+      srcset: './assets/Thumbnail/Chapeter2/Building logic gates from MOSFET transistors.jpg',
+      type: 'image/jpeg',
+      media: '(min-width: 50px;)'
+    }, {
+      src: './assets/Thumbnail/Chapeter2/Building logic gates from MOSFET transistors.jpg'
+    }]
+  }, {
+    name: 'Thevenin Theorem',
+    duration: 563,
+    sources: [{
+      src: 'https://www.youtube.com/embed/zTDgziJC-q8',
+      type: 'video/youtube'
+    }],
+    track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/Thevenin Theorem.vtt' },
+    poster: './assets/Poster/Chapeter2/Thevenin Theorem.png',
+    thumbnail: [{
+      srcset: './assets/Thumbnail/Chapeter2/Thevenin Theorem.jpg',
+      type: 'image/jpeg',
+      media: '(min-width: 50px;)'
+    }, {
+      src: './assets/Thumbnail/Chapeter2/Thevenin Theorem.jpg'
+    }]
+
+  }, {
+    name: 'Superposition Theorem',
+    duration: 507,
+    sources: [{
+      src: 'https://www.youtube.com/embed/ZJ8zD8m-B1Q',
+      type: 'video/youtube'
+    }],
+    track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/Superposition Theorem.vtt' },
+    poster: './assets/Poster/Chapeter2/Superposition Theorem.png',
+    thumbnail: [{
+      srcset: './assets/Thumbnail/Chapeter2/Superposition Theorem.jpg',
+      type: 'image/jpeg',
+      media: '(min-width: 50px;)'
+    }, {
+      src: './assets/Thumbnail/Chapeter2/Superposition Theorem.jpg'
+    }]
+
   }
 
   ];

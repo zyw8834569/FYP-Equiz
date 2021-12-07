@@ -1,0 +1,622 @@
+WEBVTT
+
+1
+00:00:00.060 --> 00:00:01.949
+in this lecture we are going to have
+
+2
+00:00:01.949 --> 00:00:05.100
+discussion on superposition theorem we
+
+3
+00:00:05.100 --> 00:00:06.930
+will see what is superposition theorem
+
+4
+00:00:06.930 --> 00:00:09.840
+and how to use this theorem to do the
+
+5
+00:00:09.840 --> 00:00:12.059
+analysis of linear bi-directional
+
+6
+00:00:12.059 --> 00:00:16.020
+networks and we will start with the
+
+7
+00:00:16.020 --> 00:00:20.150
+statement of superposition theorem
+
+8
+00:00:20.150 --> 00:00:22.710
+superposition theorem states that the
+
+9
+00:00:22.710 --> 00:00:25.590
+voltage across all the current through
+
+10
+00:00:25.590 --> 00:00:28.800
+an element in a linear circuit is the
+
+11
+00:00:28.800 --> 00:00:33.149
+algebraic sum it is the algebraic sum of
+
+12
+00:00:33.149 --> 00:00:36.450
+the voltages across all the currents
+
+13
+00:00:36.450 --> 00:00:38.719
+through that element due to each
+
+14
+00:00:38.719 --> 00:00:41.850
+independent source acting alone
+
+15
+00:00:41.850 --> 00:00:44.309
+this statement will make complete sense
+
+16
+00:00:44.309 --> 00:00:47.789
+after solving one example now from this
+
+17
+00:00:47.789 --> 00:00:50.420
+statement we can say that in a linear
+
+18
+00:00:50.420 --> 00:00:53.250
+bi-directional network containing more
+
+19
+00:00:53.250 --> 00:00:56.520
+than one independent source the response
+
+20
+00:00:56.520 --> 00:00:59.340
+in any element is the sum of responses
+
+21
+00:00:59.340 --> 00:01:02.219
+obtained with one source acting at a
+
+22
+00:01:02.219 --> 00:01:04.290
+time and the other source is being
+
+23
+00:01:04.290 --> 00:01:07.830
+turned off now what do we mean by turned
+
+24
+00:01:07.830 --> 00:01:11.340
+off turned off means all the independent
+
+25
+00:01:11.340 --> 00:01:14.150
+sources are replaced by their internal
+
+26
+00:01:14.150 --> 00:01:17.580
+resistances that is we replace every
+
+27
+00:01:17.580 --> 00:01:20.759
+voltage source by zero volt or we can
+
+28
+00:01:20.759 --> 00:01:23.400
+say the short-circuit and every current
+
+29
+00:01:23.400 --> 00:01:25.830
+source by zero ampere or we can say that
+
+30
+00:01:25.830 --> 00:01:28.650
+open circuit for example here we have
+
+31
+00:01:28.650 --> 00:01:31.640
+this voltage source and if we want to
+
+32
+00:01:31.640 --> 00:01:34.950
+turn off this voltage source then we
+
+33
+00:01:34.950 --> 00:01:39.360
+will simply short-circuit this voltage
+
+34
+00:01:39.360 --> 00:01:43.950
+source here we have short circuited in
+
+35
+00:01:43.950 --> 00:01:46.290
+this voltage source and if we have the
+
+36
+00:01:46.290 --> 00:01:48.180
+current source and we want to turn it
+
+37
+00:01:48.180 --> 00:01:52.829
+off then we will open circuit this
+
+38
+00:01:52.829 --> 00:01:56.750
+current source here we have open
+
+39
+00:01:56.750 --> 00:02:00.060
+circuited this current source so this is
+
+40
+00:02:00.060 --> 00:02:02.610
+what do we mean by turning of the
+
+41
+00:02:02.610 --> 00:02:05.520
+independent sources now before we move
+
+42
+00:02:05.520 --> 00:02:07.590
+on to the example to understand the
+
+43
+00:02:07.590 --> 00:02:10.169
+superposition theorem in a better way we
+
+44
+00:02:10.169 --> 00:02:12.810
+will first note down two important
+
+45
+00:02:12.810 --> 00:02:13.530
+points
+
+46
+00:02:13.530 --> 00:02:16.260
+according to the first point we do not
+
+47
+00:02:16.260 --> 00:02:19.380
+turn off the dependent sources the
+
+48
+00:02:19.380 --> 00:02:22.160
+dependent sources are left as they are
+
+49
+00:02:22.160 --> 00:02:26.520
+this is important point to remember in
+
+50
+00:02:26.520 --> 00:02:28.860
+second point we should note down that
+
+51
+00:02:28.860 --> 00:02:31.650
+the superposition theorem is not valid
+
+52
+00:02:31.650 --> 00:02:35.730
+in case of non linear circuits so this
+
+53
+00:02:35.730 --> 00:02:37.710
+is all for the introduction now we will
+
+54
+00:02:37.710 --> 00:02:40.020
+move on to the implementation and I have
+
+55
+00:02:40.020 --> 00:02:42.780
+taken one question to understand how we
+
+56
+00:02:42.780 --> 00:02:45.510
+can use superposition to find the
+
+57
+00:02:45.510 --> 00:02:48.870
+voltage across an element so here is our
+
+58
+00:02:48.870 --> 00:02:51.990
+network and we need to find this voltage
+
+59
+00:02:51.990 --> 00:02:55.830
+V by using the superposition theorem I
+
+60
+00:02:55.830 --> 00:02:58.500
+will give you few seconds to analyze the
+
+61
+00:02:58.500 --> 00:03:01.160
+given Network
+
+62
+00:03:01.160 --> 00:03:03.920
+I hope you are done now we will move on
+
+63
+00:03:03.920 --> 00:03:06.920
+to the solution when you observe the
+
+64
+00:03:06.920 --> 00:03:12.160
+given network you will find we have 1 &
+
+65
+00:03:12.160 --> 00:03:16.460
+2 sources and we have two resistors out
+
+66
+00:03:16.460 --> 00:03:18.800
+of which we need to find the voltage
+
+67
+00:03:18.800 --> 00:03:21.770
+across 4 ohm resistor and for this
+
+68
+00:03:21.770 --> 00:03:23.540
+purpose we will use superposition
+
+69
+00:03:23.540 --> 00:03:26.120
+theorem and according to the
+
+70
+00:03:26.120 --> 00:03:28.700
+superposition theorem the voltage across
+
+71
+00:03:28.700 --> 00:03:31.820
+an element is the algebraic sum of the
+
+72
+00:03:31.820 --> 00:03:35.210
+voltages due to each independent source
+
+73
+00:03:35.210 --> 00:03:37.580
+acting alone we have two independent
+
+74
+00:03:37.580 --> 00:03:40.460
+sources and we need to find out voltage
+
+75
+00:03:40.460 --> 00:03:43.460
+across this resistor due to each source
+
+76
+00:03:43.460 --> 00:03:46.280
+one by one and then finally we will add
+
+77
+00:03:46.280 --> 00:03:48.410
+the obtained voltages to have the net
+
+78
+00:03:48.410 --> 00:03:50.750
+voltage V this will be more clear once
+
+79
+00:03:50.750 --> 00:03:53.540
+we start solving the question so what I
+
+80
+00:03:53.540 --> 00:03:55.580
+will do first is I will consider the
+
+81
+00:03:55.580 --> 00:03:58.280
+voltage across 4 ohm resistor due to
+
+82
+00:03:58.280 --> 00:04:04.550
+this source so first I will consider
+
+83
+00:04:04.550 --> 00:04:11.690
+this 6 volt source and this means we
+
+84
+00:04:11.690 --> 00:04:14.060
+need to turn off this 3 ampere source
+
+85
+00:04:14.060 --> 00:04:16.850
+that means we will open circuit the
+
+86
+00:04:16.850 --> 00:04:20.450
+source so let us copy in the given
+
+87
+00:04:20.450 --> 00:04:24.290
+Network and after copying it we will do
+
+88
+00:04:24.290 --> 00:04:27.440
+some modifications and the modification
+
+89
+00:04:27.440 --> 00:04:32.150
+is we will open circuit this source and
+
+90
+00:04:32.150 --> 00:04:37.100
+we will write V as V sub 1 because this
+
+91
+00:04:37.100 --> 00:04:39.920
+is not the voltage V we have turned off
+
+92
+00:04:39.920 --> 00:04:42.110
+this source and therefore the voltage
+
+93
+00:04:42.110 --> 00:04:44.420
+obtained here is only due to this source
+
+94
+00:04:44.420 --> 00:04:48.020
+now it is very easy to find out V 1 if
+
+95
+00:04:48.020 --> 00:04:50.600
+we can find out the current through this
+
+96
+00:04:50.600 --> 00:04:54.080
+resistor we can have V 1 and to find out
+
+97
+00:04:54.080 --> 00:04:57.280
+the current in this loop we will first
+
+98
+00:04:57.280 --> 00:05:01.940
+assume the current to be i1 and then we
+
+99
+00:05:01.940 --> 00:05:04.940
+will apply KVL after applying the KVL we
+
+100
+00:05:04.940 --> 00:05:07.820
+will have plus 6 volts minus i1
+
+101
+00:05:07.820 --> 00:05:11.600
+multiplied to 8 minus i1 multiplied to 4
+
+102
+00:05:11.600 --> 00:05:15.200
+equal to 0 so we will have I 1
+
+103
+00:05:15.200 --> 00:05:21.470
+equal to 6 divided by 8 plus 4 or we can
+
+104
+00:05:21.470 --> 00:05:26.650
+say that current high 1 is equal to 0.5
+
+105
+00:05:26.650 --> 00:05:31.190
+amperes now V 1 it is equal to I 1
+
+106
+00:05:31.190 --> 00:05:35.300
+multiplied to 4 we know Ivan it is 0.5
+
+107
+00:05:35.300 --> 00:05:38.990
+therefore V 1 is equal to 0.5 multiplied
+
+108
+00:05:38.990 --> 00:05:42.770
+to 4 and that is 2 volts so in this way
+
+109
+00:05:42.770 --> 00:05:46.040
+we have obtained V 1 which is voltage
+
+110
+00:05:46.040 --> 00:05:49.340
+across 4 ohm resistor due to 6 volt
+
+111
+00:05:49.340 --> 00:05:52.310
+source alone now we will find out the
+
+112
+00:05:52.310 --> 00:05:54.560
+voltage across 4 ohm resistor due to
+
+113
+00:05:54.560 --> 00:05:58.100
+this source so this time we will
+
+114
+00:05:58.100 --> 00:06:04.040
+consider the 3 amperes source and this
+
+115
+00:06:04.040 --> 00:06:06.440
+means we need to turn off the 6 volt
+
+116
+00:06:06.440 --> 00:06:08.930
+source so again we will do the
+
+117
+00:06:08.930 --> 00:06:12.170
+modification in our network and this
+
+118
+00:06:12.170 --> 00:06:14.960
+time we are going to short-circuit the 6
+
+119
+00:06:14.960 --> 00:06:18.620
+volt source so I will remove this source
+
+120
+00:06:18.620 --> 00:06:23.180
+and then we will have a short circuit
+
+121
+00:06:23.180 --> 00:06:26.690
+plus I will change the name of V we will
+
+122
+00:06:26.690 --> 00:06:29.990
+call it V sub 2 now again we will focus
+
+123
+00:06:29.990 --> 00:06:31.880
+on the calculation of voltage across
+
+124
+00:06:31.880 --> 00:06:34.970
+this resistor but this time we will find
+
+125
+00:06:34.970 --> 00:06:37.850
+it out due to this source here when this
+
+126
+00:06:37.850 --> 00:06:41.600
+source is turned off and to find out the
+
+127
+00:06:41.600 --> 00:06:44.840
+voltage v2 we will first find out the
+
+128
+00:06:44.840 --> 00:06:48.230
+current in this branch let's say the
+
+129
+00:06:48.230 --> 00:06:52.580
+current is i2 and once we have I - we
+
+130
+00:06:52.580 --> 00:06:56.620
+can have v2 to find out I 2 we will use
+
+131
+00:06:56.620 --> 00:06:59.990
+the current divider rule according to
+
+132
+00:06:59.990 --> 00:07:01.820
+the current divider rule we will have i2
+
+133
+00:07:01.820 --> 00:07:04.660
+equal to the total current entering
+
+134
+00:07:04.660 --> 00:07:08.060
+multiplied to the other resistance which
+
+135
+00:07:08.060 --> 00:07:11.930
+is 8 ohms divided by the sum of 2
+
+136
+00:07:11.930 --> 00:07:16.400
+resistances 8 plus 4 so we have I 2
+
+137
+00:07:16.400 --> 00:07:23.440
+equal to 3 multiplied to 8 divided by 12
+
+138
+00:07:23.440 --> 00:07:27.440
+so in this way we have obtained I 2
+
+139
+00:07:27.440 --> 00:07:29.090
+equal to 2 amperes
+
+140
+00:07:29.090 --> 00:07:33.320
+now we can find out V 2 V 2 is equal to
+
+141
+00:07:33.320 --> 00:07:39.590
+I 2 which is 2 multiplied to 4 ohms so
+
+142
+00:07:39.590 --> 00:07:42.800
+finally we are getting V 2 equal to 8
+
+143
+00:07:42.800 --> 00:07:48.139
+volts so 8 volts is the voltage across 4
+
+144
+00:07:48.139 --> 00:07:50.419
+ohm resistor because of this 3 ampere
+
+145
+00:07:50.419 --> 00:07:53.720
+source now the net voltage across this
+
+146
+00:07:53.720 --> 00:07:58.340
+resistor which is V is equal to V 1 plus
+
+147
+00:07:58.340 --> 00:08:03.800
+V 2 and this is from superposition
+
+148
+00:08:03.800 --> 00:08:07.190
+theorem we know V 1 we know V 2 we will
+
+149
+00:08:07.190 --> 00:08:11.330
+have V equal to 2 plus 8 that is 10
+
+150
+00:08:11.330 --> 00:08:15.590
+volts so 10 volts is the answer
+
+151
+00:08:15.590 --> 00:08:15.770
+[Music]
+
+152
+00:08:15.770 --> 00:08:17.940
+[Applause]
+
+153
+00:08:17.940 --> 00:08:21.949
+[Music]
+
+154
+00:08:24.060 --> 00:08:26.010
+you
+
+155
+00:08:26.010 --> 00:08:28.160
+[Music]
+

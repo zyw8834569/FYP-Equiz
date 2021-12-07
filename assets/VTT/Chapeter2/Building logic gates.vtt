@@ -1,0 +1,870 @@
+WEBVTT
+
+1
+00:00:00.030 --> 00:00:01.680
+at the core of every computer are
+
+2
+00:00:01.680 --> 00:00:03.720
+devices that actually perform the
+
+3
+00:00:03.720 --> 00:00:06.660
+computations in most modern computers we
+
+4
+00:00:06.660 --> 00:00:09.269
+either use n Mo's and P Mo's transistors
+
+5
+00:00:09.269 --> 00:00:11.700
+as the base of most of our operations
+
+6
+00:00:11.700 --> 00:00:14.759
+and in this lecture we'll be focusing on
+
+7
+00:00:14.759 --> 00:00:17.609
+how we use these to gate our transistors
+
+8
+00:00:17.609 --> 00:00:22.170
+to create logic gates now this is the N
+
+9
+00:00:22.170 --> 00:00:23.820
+Mo's transistor itself inside this
+
+10
+00:00:23.820 --> 00:00:27.660
+circle and we have some dimensions of
+
+11
+00:00:27.660 --> 00:00:29.070
+how we use it so we connect this lower
+
+12
+00:00:29.070 --> 00:00:31.859
+terminal terminal 2 to ground it's
+
+13
+00:00:31.859 --> 00:00:33.780
+sufficient just so you know that this is
+
+14
+00:00:33.780 --> 00:00:35.969
+the convention and you can explore why
+
+15
+00:00:35.969 --> 00:00:38.579
+in future courses and then we have a
+
+16
+00:00:38.579 --> 00:00:41.070
+gate which is our inputs and that's how
+
+17
+00:00:41.070 --> 00:00:43.020
+we control the transistor from our
+
+18
+00:00:43.020 --> 00:00:45.210
+perspective and that'll be a 0 or a 1
+
+19
+00:00:45.210 --> 00:00:48.000
+and then this terminal 1 connects to
+
+20
+00:00:48.000 --> 00:00:51.539
+other gates or the output of our logic
+
+21
+00:00:51.539 --> 00:00:55.350
+gate and then we've got our P Mo's
+
+22
+00:00:55.350 --> 00:00:58.440
+transistor over here which behaves in a
+
+23
+00:00:58.440 --> 00:01:03.210
+opposite fashion we have our our
+
+24
+00:01:03.210 --> 00:01:05.309
+transistor here and notice this little
+
+25
+00:01:05.309 --> 00:01:08.000
+symbol that tells us this is the p MOS
+
+26
+00:01:08.000 --> 00:01:11.820
+transistor and we connect terminal 1
+
+27
+00:01:11.820 --> 00:01:15.180
+here to this high voltage VDD which is
+
+28
+00:01:15.180 --> 00:01:17.430
+usually like about 1 volt but that's
+
+29
+00:01:17.430 --> 00:01:20.119
+going to be very based on the technology
+
+30
+00:01:20.119 --> 00:01:22.560
+and then we have our input gate which
+
+31
+00:01:22.560 --> 00:01:26.400
+allows us to control this transistor and
+
+32
+00:01:26.400 --> 00:01:29.280
+then terminal 2 connects out to other
+
+33
+00:01:29.280 --> 00:01:35.759
+circuits or other logic gates and so how
+
+34
+00:01:35.759 --> 00:01:38.759
+do we actually make these work and what
+
+35
+00:01:38.759 --> 00:01:41.579
+these actually do and so basically a
+
+36
+00:01:41.579 --> 00:01:44.549
+transistor is a electrically controlled
+
+37
+00:01:44.549 --> 00:01:49.350
+switch if we put a 1 in or a high
+
+38
+00:01:49.350 --> 00:01:53.100
+voltage the end loss becomes a closed
+
+39
+00:01:53.100 --> 00:01:55.530
+circuit whereas the p MOS becomes an
+
+40
+00:01:55.530 --> 00:02:00.409
+open circuit and if we were to switch of
+
+41
+00:02:00.409 --> 00:02:03.390
+let's expose the second longer so when
+
+42
+00:02:03.390 --> 00:02:06.240
+this is closed or shorted there's a
+
+43
+00:02:06.240 --> 00:02:09.959
+direct path from ground up to here so
+
+44
+00:02:09.959 --> 00:02:12.450
+basically our output terminal has a zero
+
+45
+00:02:12.450 --> 00:02:13.920
+volt output
+
+46
+00:02:13.920 --> 00:02:16.200
+whereas this guy since there's a an
+
+47
+00:02:16.200 --> 00:02:18.900
+open-circuit there's no current or
+
+48
+00:02:18.900 --> 00:02:21.209
+anything going through this and so this
+
+49
+00:02:21.209 --> 00:02:23.040
+is just basically a dangling wire
+
+50
+00:02:23.040 --> 00:02:24.480
+there's nothing there's nothing not
+
+51
+00:02:24.480 --> 00:02:29.850
+connected to anything however if we
+
+52
+00:02:29.850 --> 00:02:32.550
+switch our inputs the entire behavior
+
+53
+00:02:32.550 --> 00:02:35.490
+changes our end loss becomes an open and
+
+54
+00:02:35.490 --> 00:02:38.580
+our PMO's becomes a short and so now
+
+55
+00:02:38.580 --> 00:02:41.160
+there's a direct path between our output
+
+56
+00:02:41.160 --> 00:02:43.980
+and VDD so now this is going to be our
+
+57
+00:02:43.980 --> 00:02:50.340
+high voltage VDD and we can keep
+
+58
+00:02:50.340 --> 00:02:51.870
+altering these behaviors being
+
+59
+00:02:51.870 --> 00:02:53.640
+alternating between zero and once and
+
+60
+00:02:53.640 --> 00:02:56.340
+because they have opposite functionality
+
+61
+00:02:56.340 --> 00:03:01.670
+we call them complementary and
+
+62
+00:03:01.670 --> 00:03:04.709
+complementary Moss or CMOS is how we
+
+63
+00:03:04.709 --> 00:03:07.500
+talk about NMOS and PMO's as a group and
+
+64
+00:03:07.500 --> 00:03:09.390
+any other type of logic that has a
+
+65
+00:03:09.390 --> 00:03:12.870
+similar functionality the amazing thing
+
+66
+00:03:12.870 --> 00:03:16.100
+is that we can use just a PMO's and NMOS
+
+67
+00:03:16.100 --> 00:03:19.769
+transistors to create any circuit and so
+
+68
+00:03:19.769 --> 00:03:22.560
+here we have a not gate and we'll show
+
+69
+00:03:22.560 --> 00:03:23.780
+you how this works
+
+70
+00:03:23.780 --> 00:03:26.760
+if we have an input of zero
+
+71
+00:03:26.760 --> 00:03:31.470
+our p-type is going to become a short
+
+72
+00:03:31.470 --> 00:03:34.640
+and directly connect the output to VDD
+
+73
+00:03:34.640 --> 00:03:38.700
+so when our input is zero volts our
+
+74
+00:03:38.700 --> 00:03:41.010
+outputs going to have VDD volts which is
+
+75
+00:03:41.010 --> 00:03:46.400
+a logical one on the other hand this
+
+76
+00:03:46.400 --> 00:03:48.780
+this n-type is going to be open so
+
+77
+00:03:48.780 --> 00:03:50.820
+there's no connection between our output
+
+78
+00:03:50.820 --> 00:03:56.579
+and ground for if we input a 1 or VDD
+
+79
+00:03:56.579 --> 00:03:59.570
+volts we have a direct path between
+
+80
+00:03:59.570 --> 00:04:03.000
+ground and the output so our output is
+
+81
+00:04:03.000 --> 00:04:04.410
+going to have zero volts and be a
+
+82
+00:04:04.410 --> 00:04:07.860
+logical zero and our p-type is going to
+
+83
+00:04:07.860 --> 00:04:09.329
+become an open so there's no connection
+
+84
+00:04:09.329 --> 00:04:14.940
+between VDD and the output and so this
+
+85
+00:04:14.940 --> 00:04:17.130
+is how we build our not gate which has
+
+86
+00:04:17.130 --> 00:04:19.910
+this symbol
+
+87
+00:04:21.300 --> 00:04:23.950
+when we build more complicated or
+
+88
+00:04:23.950 --> 00:04:27.310
+complex digital logic circuits it
+
+89
+00:04:27.310 --> 00:04:28.480
+becomes important to notice there's
+
+90
+00:04:28.480 --> 00:04:30.430
+another part of what makes these guys
+
+91
+00:04:30.430 --> 00:04:33.780
+complementary so down here n MOS
+
+92
+00:04:33.780 --> 00:04:37.030
+transistors are connected in series
+
+93
+00:04:37.030 --> 00:04:40.390
+that means the up power output of one is
+
+94
+00:04:40.390 --> 00:04:43.140
+connected to the terminal of the other
+
+95
+00:04:43.140 --> 00:04:47.710
+whereas our PMO's up here are connected
+
+96
+00:04:47.710 --> 00:04:50.710
+in parallel where both of their outputs
+
+97
+00:04:50.710 --> 00:04:52.000
+are connected together and they're both
+
+98
+00:04:52.000 --> 00:04:56.580
+connected on their terminals to VDD and
+
+99
+00:04:56.580 --> 00:04:59.800
+this these differing paths this parallel
+
+100
+00:04:59.800 --> 00:05:02.170
+path versus series path is really
+
+101
+00:05:02.170 --> 00:05:04.210
+important that any time you have a PMO's
+
+102
+00:05:04.210 --> 00:05:06.220
+in parallel you need to have an n MOS in
+
+103
+00:05:06.220 --> 00:05:08.440
+series if you have a PMO's and series
+
+104
+00:05:08.440 --> 00:05:10.570
+you have an N Moss in parallel and
+
+105
+00:05:10.570 --> 00:05:13.180
+that's how we build our logic gates so
+
+106
+00:05:13.180 --> 00:05:14.680
+that we maintain this complementary
+
+107
+00:05:14.680 --> 00:05:17.410
+functionality now let's look at what
+
+108
+00:05:17.410 --> 00:05:18.970
+this circuit actually does
+
+109
+00:05:18.970 --> 00:05:23.920
+so let's input a is 0 B is 0 so an a is
+
+110
+00:05:23.920 --> 00:05:27.730
+0 this p MOS is going to be a short and
+
+111
+00:05:27.730 --> 00:05:31.570
+when B is 0 this p MOS is going to be a
+
+112
+00:05:31.570 --> 00:05:35.560
+short as well and so both these connect
+
+113
+00:05:35.560 --> 00:05:39.640
+our output directly to VDD so our output
+
+114
+00:05:39.640 --> 00:05:44.050
+should be a 1 and down here our a is
+
+115
+00:05:44.050 --> 00:05:46.030
+connected to our n MOS so that's going
+
+116
+00:05:46.030 --> 00:05:48.310
+to become and open and B is going to be
+
+117
+00:05:48.310 --> 00:05:49.750
+connect to this n moss and create an
+
+118
+00:05:49.750 --> 00:05:51.730
+open so there's no path between ground
+
+119
+00:05:51.730 --> 00:05:54.820
+and the output so indeed our output is 1
+
+120
+00:05:54.820 --> 00:05:58.140
+and let's try another input combination
+
+121
+00:05:58.140 --> 00:06:02.620
+so let's try with 0 1 and when a is 0
+
+122
+00:06:02.620 --> 00:06:04.750
+we're going to have a short on this p
+
+123
+00:06:04.750 --> 00:06:07.530
+MOS just like before and with b is 1
+
+124
+00:06:07.530 --> 00:06:10.180
+this is going to create an open on this
+
+125
+00:06:10.180 --> 00:06:10.780
+p MOS
+
+126
+00:06:10.780 --> 00:06:13.960
+a with 0 is going to create an open on
+
+127
+00:06:13.960 --> 00:06:17.620
+this n MOS and B with the 1 is going to
+
+128
+00:06:17.620 --> 00:06:21.430
+create a short so here our ground is
+
+129
+00:06:21.430 --> 00:06:24.250
+still cut off from the output but we do
+
+130
+00:06:24.250 --> 00:06:27.340
+have a direct path from VDD down to the
+
+131
+00:06:27.340 --> 00:06:31.150
+output so output is going to be 1 now
+
+132
+00:06:31.150 --> 00:06:34.030
+let's try the next combination 1 0 this
+
+133
+00:06:34.030 --> 00:06:35.040
+is going to be exactly like the
+
+134
+00:06:35.040 --> 00:06:37.380
+for except a little bit flipped so a is
+
+135
+00:06:37.380 --> 00:06:39.540
+going to result in this being open this
+
+136
+00:06:39.540 --> 00:06:41.840
+B is going to cause us to be short and
+
+137
+00:06:41.840 --> 00:06:44.430
+then this a is going to cause this n
+
+138
+00:06:44.430 --> 00:06:47.640
+Mo's to be shorted and this B with zero
+
+139
+00:06:47.640 --> 00:06:50.040
+is going to cause us and MAS to be open
+
+140
+00:06:50.040 --> 00:06:52.590
+so again there's no path between ground
+
+141
+00:06:52.590 --> 00:06:54.960
+in the output but there will be a path
+
+142
+00:06:54.960 --> 00:06:58.230
+between VDD and the output so the output
+
+143
+00:06:58.230 --> 00:07:02.280
+is 1 all right one last combination to
+
+144
+00:07:02.280 --> 00:07:07.110
+go we got a is 1 B is 1 that means a is
+
+145
+00:07:07.110 --> 00:07:09.270
+going to be an open on this P Moss B is
+
+146
+00:07:09.270 --> 00:07:11.190
+going to be an open on this P Moss and
+
+147
+00:07:11.190 --> 00:07:14.310
+then a is going to result in a short on
+
+148
+00:07:14.310 --> 00:07:16.830
+this n Moss and B is going to result in
+
+149
+00:07:16.830 --> 00:07:19.170
+a short on this n Moss so now we have a
+
+150
+00:07:19.170 --> 00:07:22.620
+path between ground and the output so
+
+151
+00:07:22.620 --> 00:07:25.500
+our output is 0 and we have no paths
+
+152
+00:07:25.500 --> 00:07:29.580
+between VDD and the output so that
+
+153
+00:07:29.580 --> 00:07:33.060
+reinforces that this is a 0 if you
+
+154
+00:07:33.060 --> 00:07:34.410
+recognize this truth table you should
+
+155
+00:07:34.410 --> 00:07:36.500
+recognize that this is the NAND function
+
+156
+00:07:36.500 --> 00:07:40.080
+the not and which has the following
+
+157
+00:07:40.080 --> 00:07:45.270
+circuit symbol we can now use this NAND
+
+158
+00:07:45.270 --> 00:07:47.940
+gate that we constructed to create a
+
+159
+00:07:47.940 --> 00:07:51.240
+NAND gate if we just competin a this
+
+160
+00:07:51.240 --> 00:07:53.850
+knot afterwards so we've got our NAND
+
+161
+00:07:53.850 --> 00:07:59.580
+and this is our knot and this would
+
+162
+00:07:59.580 --> 00:08:03.210
+result in a B is our inputs C has our
+
+163
+00:08:03.210 --> 00:08:05.670
+outputs for a NAND gate this is one
+
+164
+00:08:05.670 --> 00:08:07.410
+reason why we tend to use only NAND
+
+165
+00:08:07.410 --> 00:08:09.660
+gates in our implementation of actual
+
+166
+00:08:09.660 --> 00:08:12.090
+computers because an and gate is a lot
+
+167
+00:08:12.090 --> 00:08:14.970
+more complicated well anyways we'll find
+
+168
+00:08:14.970 --> 00:08:16.140
+out more about that in future lectures
+
+169
+00:08:16.140 --> 00:08:18.510
+as well so let's look at one last
+
+170
+00:08:18.510 --> 00:08:21.300
+circuit and I'll just give the punchline
+
+171
+00:08:21.300 --> 00:08:23.030
+away for this one this is an or gate and
+
+172
+00:08:23.030 --> 00:08:25.500
+we'll see exactly how this behaves I
+
+173
+00:08:25.500 --> 00:08:27.360
+want to draw attention back to the
+
+174
+00:08:27.360 --> 00:08:30.780
+series versus parallel here our p MOS
+
+175
+00:08:30.780 --> 00:08:36.990
+are in series whereas our n MOS down on
+
+176
+00:08:36.990 --> 00:08:39.990
+the bottom here are in parallel because
+
+177
+00:08:39.990 --> 00:08:42.059
+they share that common point over here
+
+178
+00:08:42.059 --> 00:08:45.480
+and so that should hopefully reinforce
+
+179
+00:08:45.480 --> 00:08:47.030
+the idea that we always do things
+
+180
+00:08:47.030 --> 00:08:48.720
+complementarily
+
+181
+00:08:48.720 --> 00:08:51.750
+PMO's and NMOS so let's look at the
+
+182
+00:08:51.750 --> 00:08:56.339
+inputs when Z a is 0 B is 0 a creates a
+
+183
+00:08:56.339 --> 00:08:58.500
+short on the PMO's B creates a short on
+
+184
+00:08:58.500 --> 00:09:01.829
+this PMO's and then the a comes around
+
+185
+00:09:01.829 --> 00:09:03.420
+here and creates an open on the N Moss
+
+186
+00:09:03.420 --> 00:09:05.870
+and B creates an open on this end Moss
+
+187
+00:09:05.870 --> 00:09:08.209
+so we have a direct connection between
+
+188
+00:09:08.209 --> 00:09:11.939
+VDD and the output and no path between
+
+189
+00:09:11.939 --> 00:09:15.829
+ground and the output so output is 1
+
+190
+00:09:15.829 --> 00:09:18.000
+let's try the next simple combination
+
+191
+00:09:18.000 --> 00:09:24.149
+with 0 1 0 creates a short here and an
+
+192
+00:09:24.149 --> 00:09:28.829
+open here so there's no path between VDD
+
+193
+00:09:28.829 --> 00:09:32.550
+and the output and then we've got 0 over
+
+194
+00:09:32.550 --> 00:09:36.300
+here so this guy's becomes an open but
+
+195
+00:09:36.300 --> 00:09:40.259
+to be being one here casein up short for
+
+196
+00:09:40.259 --> 00:09:42.000
+this n Moss so we have a path directly
+
+197
+00:09:42.000 --> 00:09:44.040
+from ground to the output so that
+
+198
+00:09:44.040 --> 00:09:47.610
+creates a 0 output next input
+
+199
+00:09:47.610 --> 00:09:52.920
+combination 1 0 B is 1 so we have a open
+
+200
+00:09:52.920 --> 00:09:56.069
+here and a short on this PMO's because
+
+201
+00:09:56.069 --> 00:09:58.139
+of the B and then this guy is going to
+
+202
+00:09:58.139 --> 00:10:02.699
+be open and this guy will be shorted so
+
+203
+00:10:02.699 --> 00:10:04.410
+now we have a different path but we
+
+204
+00:10:04.410 --> 00:10:06.420
+still have a path nonetheless from
+
+205
+00:10:06.420 --> 00:10:10.430
+ground to the output so our output be 0
+
+206
+00:10:10.430 --> 00:10:14.939
+and then we put both these as 1 both of
+
+207
+00:10:14.939 --> 00:10:18.480
+our p mosses will be open and both of
+
+208
+00:10:18.480 --> 00:10:21.000
+our n mosses will be shorted so we have
+
+209
+00:10:21.000 --> 00:10:24.809
+two paths from ground to the output so C
+
+210
+00:10:24.809 --> 00:10:28.439
+will be 0 and our output will be 0 and
+
+211
+00:10:28.439 --> 00:10:31.290
+this again creates our nor gate which
+
+212
+00:10:31.290 --> 00:10:37.110
+has the circuit symbol nor and we can
+
+213
+00:10:37.110 --> 00:10:40.110
+combine nor with not to create or and
+
+214
+00:10:40.110 --> 00:10:43.470
+just like our NAND art we generally will
+
+215
+00:10:43.470 --> 00:10:45.569
+prefer to use nor gates exclusively in
+
+216
+00:10:45.569 --> 00:10:47.879
+our designs rather than using and ORS
+
+217
+00:10:47.879 --> 00:10:50.300
+and nots
+

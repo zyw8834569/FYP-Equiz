@@ -50,7 +50,7 @@ player.fluid(true);
 
 var playlist =
   [{
-    name: 'MOSFET DC Characterization',
+    name: 'Mosfet Dc Characterization',
     duration: 823,
     sources: [{
       src: 'https://www.youtube.com/embed/W80SJ8QNL_g',
@@ -58,13 +58,13 @@ var playlist =
 
     }],
     track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/MOSFET DC Characterization.vtt' },
-    poster: './assets/Poster/Chapeter2/MOSFET DC.png',
+    poster: './assets/Poster/Chapeter2/Mosfet.png',
     thumbnail: [{
-      srcset: './assets/Thumbnail/Chapeter2/MOSFET DC.jpg',
+      srcset: './assets/Thumbnail/Chapeter2/Mosfet.jpg',
       type: 'image/jpeg',
       media: '(min-width: 50px;)'
     }, {
-      src: './assets/Thumbnail/Chapeter2/MOSFET DC.jpg'
+      src: './assets/Thumbnail/Chapeter2/Mosfet.jpg'
     }],
   }, {
 

@@ -50,7 +50,7 @@ player.fluid(true);
 
 var playlist =
   [{
-    name: 'Mosfet Dc Characterization',
+    name: 'MOSFET DC Characterization',
     duration: 823,
     sources: [{
       src: 'https://www.youtube.com/embed/W80SJ8QNL_g',
@@ -58,13 +58,13 @@ var playlist =
 
     }],
     track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/MOSFET DC Characterization.vtt' },
-    poster: './assets/Poster/Chapeter2/Mosfet.png',
+    poster: './assets/Poster/Chapeter2/MOSFET DC Characterization.png',
     thumbnail: [{
-      srcset: './assets/Thumbnail/Chapeter2/Mosfet.jpg',
+      srcset: './assets/Thumbnail/Chapeter2/MOSFET DC Characterization.jpg',
       type: 'image/jpeg',
       media: '(min-width: 50px;)'
     }, {
-      src: './assets/Thumbnail/Chapeter2/Mosfet.jpg'
+      src: './assets/Thumbnail/Chapeter2/MOSFET DC Characterization.jpg'
     }],
   }, {
 
@@ -75,13 +75,13 @@ var playlist =
       type: 'video/youtube'
     }],
     track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/Circuit Basics Learning Circuit.vtt' },
-    poster: './assets/Poster/Chapeter2/Circuit-Basics-Learning-Circuit.png',
+    poster: './assets/Poster/Chapeter2/Circuit Basics Learning Circuit.png',
     thumbnail: [{
-      srcset: './assets/Thumbnail/Chapeter2/Circuit-Basics-Learning-Circuit.jpg',
+      srcset: './assets/Thumbnail/Chapeter2/Circuit Basics Learning Circuit.jpg',
       type: 'image/jpeg',
       media: '(min-width: 50px;)'
     }, {
-      src: './assets/Thumbnail/Chapeter2/Circuit-Basics-Learning-Circuit.jpg'
+      src: './assets/Thumbnail/Chapeter2/Circuit Basics Learning Circuit.jpg'
     }]
   }, {
     name: 'What is a CMOS',
@@ -91,13 +91,13 @@ var playlist =
       type: 'video/youtube'
     }],
     track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/What is a CMOS.vtt' },
-    poster: './assets/Poster/Chapeter2/What-is-a-CMOS.png',
+    poster: './assets/Poster/Chapeter2/What is a CMOS.png',
     thumbnail: [{
-      srcset: './assets/Thumbnail/Chapeter2/What-is-a-CMOS.jpg',
+      srcset: './assets/Thumbnail/Chapeter2/What is a CMOS.jpg',
       type: 'image/jpeg',
       media: '(min-width: 50px;)'
     }, {
-      src: './assets/Thumbnail/Chapeter2/What-is-a-CMOS.jpg'
+      src: './assets/Thumbnail/Chapeter2/What is a CMOS.jpg'
     }]
   }, {
     name: 'What is Field Effect Transistor',
@@ -108,16 +108,16 @@ var playlist =
     }],
 
     track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/What is Field Effect Transistor.vtt' },
-    poster: './assets/Poster/Chapeter2/What-is-Field-Effect-Transistor.png',
+    poster: './assets/Poster/Chapeter2/What is Field Effect Transistor.png',
     thumbnail: [{
-      srcset: './assets/Thumbnail/Chapeter2/What-is-Field-Effect-Transistor.jpg',
+      srcset: './assets/Thumbnail/Chapeter2/What is Field Effect Transistor.jpg',
       type: 'image/jpeg',
       media: '(min-width: 50px;)'
     }, {
-      src: './assets/Thumbnail/Chapeter2/What-is-Field-Effect-Transistor.jpg'
+      src: './assets/Thumbnail/Chapeter2/What is Field Effect Transistor.jpg'
     }]
   }, {
-    name: 'MOSFETs explained',
+    name: 'MOSFET explained',
     duration: 716,
     sources: [{
       src: 'https://www.youtube.com/embed/ymFfw_MGceI',
@@ -125,13 +125,13 @@ var playlist =
     }],
 
     track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/MOSFETs explained.vtt' },
-    poster: './assets/Poster/Chapeter2/MOSFETs explained.png',
+    poster: './assets/Poster/Chapeter2/MOSFET explained.png',
     thumbnail: [{
-      srcset: './assets/Thumbnail/Chapeter2/MOSFETs explained.jpg',
+      srcset: './assets/Thumbnail/Chapeter2/MOSFET explained.jpg',
       type: 'image/jpeg',
       media: '(min-width: 50px;)'
     }, {
-      src: './assets/Thumbnail/Chapeter2/MOSFETs explained.jpg'
+      src: './assets/Thumbnail/Chapeter2/MOSFET explained.jpg'
     }]
   }, {
     name: 'Building logic gates from MOSFET transistors',
@@ -141,13 +141,13 @@ var playlist =
       type: 'video/youtube'
     }],
     track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/Building logic gates.vtt' },
-    poster: './assets/Poster/Chapeter2/Building-logic-gates.png',
+    poster: './assets/Poster/Chapeter2/Building logic gates.png',
     thumbnail: [{
-      srcset: './assets/Thumbnail/Chapeter2/Building-logic-gates.jpg',
+      srcset: './assets/Thumbnail/Chapeter2/Building logic gates.jpg',
       type: 'image/jpeg',
       media: '(min-width: 50px;)'
     }, {
-      src: './assets/Thumbnail/Chapeter2/Building-logic-gates.jpg'
+      src: './assets/Thumbnail/Chapeter2/Building logic gates.jpg'
     }]
   }, {
     name: 'Thevenin Theorem',
@@ -157,13 +157,13 @@ var playlist =
       type: 'video/youtube'
     }],
     track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/Thevenin Theorem.vtt' },
-    poster: './assets/Poster/Chapeter2/Thevenin Theorem.png',
+    poster: './assets/Poster/Chapeter2/Thevenin-Theorem.png',
     thumbnail: [{
-      srcset: './assets/Thumbnail/Chapeter2/Thevenin Theorem.jpg',
+      srcset: './assets/Thumbnail/Chapeter2/Thevenin-Theorem.jpg',
       type: 'image/jpeg',
       media: '(min-width: 50px;)'
     }, {
-      src: './assets/Thumbnail/Chapeter2/Thevenin Theorem.jpg'
+      src: './assets/Thumbnail/Chapeter2/Thevenin-Theorem.jpg'
     }]
 
   }, {
@@ -174,13 +174,13 @@ var playlist =
       type: 'video/youtube'
     }],
     track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/Superposition Theorem.vtt' },
-    poster: './assets/Poster/Chapeter2/Superposition Theorem.png',
+    poster: './assets/Poster/Chapeter2/Superposition-Theorem.png',
     thumbnail: [{
-      srcset: './assets/Thumbnail/Chapeter2/Superposition Theorem.jpg',
+      srcset: './assets/Thumbnail/Chapeter2/Superposition-Theorem.jpg',
       type: 'image/jpeg',
       media: '(min-width: 50px;)'
     }, {
-      src: './assets/Thumbnail/Chapeter2/Superposition Theorem.jpg'
+      src: './assets/Thumbnail/Chapeter2/Superposition-Theorem.jpg'
     }]
 
   }

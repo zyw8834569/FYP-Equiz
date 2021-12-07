@@ -58,13 +58,13 @@ var playlist =
 
     }],
     track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/MOSFET DC Characterization.vtt' },
-    poster: './assets/Poster/Chapeter2/MOSFET DC Characterization.png',
+    poster: './assets/Poster/Chapeter2/MOSFET DC.png',
     thumbnail: [{
-      srcset: './assets/Thumbnail/Chapeter2/MOSFET DC Characterization.jpg',
+      srcset: './assets/Thumbnail/Chapeter2/MOSFET DC.jpg',
       type: 'image/jpeg',
       media: '(min-width: 50px;)'
     }, {
-      src: './assets/Thumbnail/Chapeter2/MOSFET DC Characterization.jpg'
+      src: './assets/Thumbnail/Chapeter2/MOSFET DC.jpg'
     }],
   }, {
 

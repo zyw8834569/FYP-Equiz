@@ -1,0 +1,410 @@
+WEBVTT
+
+1
+00:00:01.770 --> 00:00:06.350
+first lecture from chapter number 8
+
+2
+00:00:06.350 --> 00:00:09.900
+today we'll solve the last topic from
+
+3
+00:00:09.900 --> 00:00:12.240
+chapter number 8 that is by CMOS NAND
+
+4
+00:00:12.240 --> 00:00:16.410
+and bi CMOS more we'll start with a
+
+5
+00:00:16.410 --> 00:00:22.110
+small recap where we know that CMOS that
+
+6
+00:00:22.110 --> 00:00:26.490
+a bi CMOS can be in general represented
+
+7
+00:00:26.490 --> 00:00:31.830
+as a combination of CMOS driver circuit
+
+8
+00:00:31.830 --> 00:00:36.329
+and two BJT transistors they both are of
+
+9
+00:00:36.329 --> 00:00:43.890
+NP and time the output high voltage is
+
+10
+00:00:43.890 --> 00:00:46.829
+transferred through q1 from space to
+
+11
+00:00:46.829 --> 00:00:50.690
+emitter and the output low is
+
+12
+00:00:50.690 --> 00:00:54.660
+facilitated by this transfer q2 and in
+
+13
+00:00:54.660 --> 00:00:56.570
+our last lecture we have studied an
+
+14
+00:00:56.570 --> 00:01:00.690
+example using bi CMOS not then this
+
+15
+00:01:00.690 --> 00:01:03.860
+lecture philtrum pious CMOS man to and
+
+16
+00:01:03.860 --> 00:01:09.240
+vice emotion or to write stress for post
+
+17
+00:01:09.240 --> 00:01:13.259
+study by CMOS NAND 2 we know we studied
+
+18
+00:01:13.259 --> 00:01:18.229
+in our last lecture 8:20 that the
+
+19
+00:01:18.229 --> 00:01:24.479
+formula to that the formula or the
+
+20
+00:01:24.479 --> 00:01:29.340
+technique to draw up a CMOS circuit is
+
+21
+00:01:29.340 --> 00:01:33.840
+this that we draw the regular p MOS
+
+22
+00:01:33.840 --> 00:01:36.240
+array first this is the regular p MOS
+
+23
+00:01:36.240 --> 00:01:39.840
+array of an and 2 and then we draw its
+
+24
+00:01:39.840 --> 00:01:44.669
+regular and most every he'll whereas the
+
+25
+00:01:44.669 --> 00:01:47.189
+output from the P Mo's is used to drive
+
+26
+00:01:47.189 --> 00:01:50.999
+q1 and the output from Elmo's is
+
+27
+00:01:50.999 --> 00:01:55.740
+connected to the output right and then
+
+28
+00:01:55.740 --> 00:02:00.419
+we repeat the same array here the same n
+
+29
+00:02:00.419 --> 00:02:07.910
+MOS is repeated are being it is repeated
+
+30
+00:02:07.910 --> 00:02:11.520
+exactly as it is here as it is in
+
+31
+00:02:11.520 --> 00:02:15.050
+regular CMOS it's repeated here
+
+32
+00:02:15.050 --> 00:02:17.950
+and then we always have this controlling
+
+33
+00:02:17.950 --> 00:02:21.710
+transistor which is always an Moss whose
+
+34
+00:02:21.710 --> 00:02:26.150
+gate is connected to the output from the
+
+35
+00:02:26.150 --> 00:02:31.370
+P Mo's array and and and it's train is
+
+36
+00:02:31.370 --> 00:02:34.460
+connected to the queue to transfer it's
+
+37
+00:02:34.460 --> 00:02:38.960
+always the same and and from the
+
+38
+00:02:38.960 --> 00:02:42.290
+combination of q1 q2 from the common
+
+39
+00:02:42.290 --> 00:02:44.960
+terminals of q1 q2 from the meter and
+
+40
+00:02:44.960 --> 00:02:47.300
+from the collector from the measure of
+
+41
+00:02:47.300 --> 00:02:49.280
+q1 and from the collector of q2 we get
+
+42
+00:02:49.280 --> 00:02:53.180
+the output so I repeat the N Mo's the P
+
+43
+00:02:53.180 --> 00:02:55.670
+Mo's array is drawn as search and most
+
+44
+00:02:55.670 --> 00:02:58.610
+array is shown here as search as it is
+
+45
+00:02:58.610 --> 00:03:00.800
+in decoder CMOS the N Mo's array is
+
+46
+00:03:00.800 --> 00:03:03.350
+repeated once again here we have this
+
+47
+00:03:03.350 --> 00:03:05.990
+controlling transistors and was input
+
+48
+00:03:05.990 --> 00:03:08.510
+the gate input hiss from the output of
+
+49
+00:03:08.510 --> 00:03:11.840
+the most early the train of this
+
+50
+00:03:11.840 --> 00:03:13.790
+controlling transfer is connected to the
+
+51
+00:03:13.790 --> 00:03:17.000
+base of q2 and the output from the p MOS
+
+52
+00:03:17.000 --> 00:03:20.060
+array is connected to the base of q1 and
+
+53
+00:03:20.060 --> 00:03:23.209
+the output from the n MOS arrays
+
+54
+00:03:23.209 --> 00:03:26.420
+connected to the output right we can use
+
+55
+00:03:26.420 --> 00:03:30.650
+this circuit to to verify the truth
+
+56
+00:03:30.650 --> 00:03:36.680
+table tt truth table truth table of men
+
+57
+00:03:36.680 --> 00:03:41.390
+do you know that comes we have this is 0
+
+58
+00:03:41.390 --> 00:03:45.680
+this is 0 the output should be a pawn we
+
+59
+00:03:45.680 --> 00:03:48.470
+can verify that and it's actually a
+
+60
+00:03:48.470 --> 00:03:53.870
+homework for questions if it is 0 0 here
+
+61
+00:03:53.870 --> 00:03:58.280
+0 here this array will be on and we'll
+
+62
+00:03:58.280 --> 00:04:06.320
+have VDD here VDD here and here we'll
+
+63
+00:04:06.320 --> 00:04:07.720
+have this base emitter Junction
+
+64
+00:04:07.720 --> 00:04:10.160
+subtracted out of VDD and the output
+
+65
+00:04:10.160 --> 00:04:12.170
+will be VDD minus VP II started a
+
+66
+00:04:12.170 --> 00:04:14.709
+certain video so we output hi would be
+
+67
+00:04:14.709 --> 00:04:19.430
+VT minus vbe slightly smaller than VDD
+
+68
+00:04:19.430 --> 00:04:23.330
+and you can verify it you can verify it
+
+69
+00:04:23.330 --> 00:04:27.620
+for other options let's move on to the
+
+70
+00:04:27.620 --> 00:04:28.800
+next
+
+71
+00:04:28.800 --> 00:04:32.190
+where I have drawn a schematic for bi
+
+72
+00:04:32.190 --> 00:04:37.080
+CMOS North - so we drop the same policy
+
+73
+00:04:37.080 --> 00:04:39.750
+the PMO's array is drawn the PMO's array
+
+74
+00:04:39.750 --> 00:04:44.970
+of regular CMOS is drawn here the N Mo's
+
+75
+00:04:44.970 --> 00:04:50.370
+array is drawn here the N Mo's array is
+
+76
+00:04:50.370 --> 00:04:55.250
+repeated here with the same inputs and
+
+77
+00:04:55.250 --> 00:04:57.659
+this is the controlling transistor like
+
+78
+00:04:57.659 --> 00:04:59.490
+we always have which is connected to the
+
+79
+00:04:59.490 --> 00:05:01.250
+output of the P Mo's array and about
+
+80
+00:05:01.250 --> 00:05:03.659
+output of the fema cell is connected to
+
+81
+00:05:03.659 --> 00:05:07.470
+the base of q1 and output the drain this
+
+82
+00:05:07.470 --> 00:05:09.060
+controlling transistor is connected to
+
+83
+00:05:09.060 --> 00:05:12.630
+the base of the second NPN transistor q2
+
+84
+00:05:12.630 --> 00:05:15.900
+and the output from the N Mo's array is
+
+85
+00:05:15.900 --> 00:05:20.400
+connected to the output here is a small
+
+86
+00:05:20.400 --> 00:05:24.830
+homework for muscles you have to verify
+
+87
+00:05:24.830 --> 00:05:30.240
+this was table for these four different
+
+88
+00:05:30.240 --> 00:05:34.949
+options that we can have this - and you
+
+89
+00:05:34.949 --> 00:05:37.949
+should be ready ready to know should be
+
+90
+00:05:37.949 --> 00:05:46.430
+able you should be able to draw
+
+91
+00:05:46.430 --> 00:05:55.639
+schematic by CMOS by see more schematic
+
+92
+00:05:55.639 --> 00:06:03.270
+for any boolean expression this is very
+
+93
+00:06:03.270 --> 00:06:05.969
+important now after we have studied
+
+94
+00:06:05.969 --> 00:06:10.409
+everything regarding bi CMOS you should
+
+95
+00:06:10.409 --> 00:06:17.840
+be able to should be able to draw
+
+96
+00:06:17.840 --> 00:06:21.259
+schematic for any given boolean
+
+97
+00:06:21.259 --> 00:06:25.349
+expression people try to solve an
+
+98
+00:06:25.349 --> 00:06:28.919
+example related to bi CMOS in the next
+
+99
+00:06:28.919 --> 00:06:33.029
+lecture that will hopefully be our last
+
+100
+00:06:33.029 --> 00:06:39.570
+lecture our last lecture from Japan her
+
+101
+00:06:39.570 --> 00:06:40.620
+head
+
+102
+00:06:40.620 --> 00:06:43.610
+thank you
+

@@ -1,0 +1,846 @@
+WEBVTT
+
+1
+00:00:00.650 --> 00:00:03.799
+welcome back to VLSI classes where we
+
+2
+00:00:03.799 --> 00:00:05.750
+continue with the fabrication process
+
+3
+00:00:05.750 --> 00:00:10.099
+tuning so in the previous class we
+
+4
+00:00:10.099 --> 00:00:12.290
+discussed about en masse and P will
+
+5
+00:00:12.290 --> 00:00:14.570
+process today we will start with the
+
+6
+00:00:14.570 --> 00:00:17.600
+n-well process so in P n-ville process
+
+7
+00:00:17.600 --> 00:00:20.180
+first you will be having a P substrate
+
+8
+00:00:20.180 --> 00:00:22.250
+wafer you will be having a P substrate
+
+9
+00:00:22.250 --> 00:00:25.400
+wafer in this P substrate wafer you will
+
+10
+00:00:25.400 --> 00:00:26.420
+create a Yonville
+
+11
+00:00:26.420 --> 00:00:29.600
+we will create a en well and in the CN
+
+12
+00:00:29.600 --> 00:00:33.230
+well you are going to create two sub or
+
+13
+00:00:33.230 --> 00:00:37.429
+my new tepee wells which form the P Mo's
+
+14
+00:00:37.429 --> 00:00:40.550
+P plus wells which forms the P Mo's in
+
+15
+00:00:40.550 --> 00:00:43.460
+his P substrate Hughes created two tiny
+
+16
+00:00:43.460 --> 00:00:46.399
+anvils to form en masse two tiny an
+
+17
+00:00:46.399 --> 00:00:49.969
+anvil to form in Mo's the same steps are
+
+18
+00:00:49.969 --> 00:00:52.370
+given only thing is in the previous case
+
+19
+00:00:52.370 --> 00:00:54.649
+that is using in prevail process you
+
+20
+00:00:54.649 --> 00:00:57.879
+were using yun substrate and you created
+
+21
+00:00:57.879 --> 00:01:00.649
+P Mo's here you will be using P
+
+22
+00:01:00.649 --> 00:01:03.109
+substrate and you'll be creating n Mo's
+
+23
+00:01:03.109 --> 00:01:05.059
+that's all so you'll be having all the
+
+24
+00:01:05.059 --> 00:01:07.610
+diffusion like P plus diffusion n plus
+
+25
+00:01:07.610 --> 00:01:10.940
+diffusion then contact cuts will be
+
+26
+00:01:10.940 --> 00:01:13.610
+formed deposition of patterned and over
+
+27
+00:01:13.610 --> 00:01:15.950
+glass so like this all the steps will be
+
+28
+00:01:15.950 --> 00:01:19.670
+remains the same look at this the same
+
+29
+00:01:19.670 --> 00:01:22.070
+thing right so you have P substrate here
+
+30
+00:01:22.070 --> 00:01:25.070
+and you have formed n plus 1 n plus 1
+
+31
+00:01:25.070 --> 00:01:28.280
+this is y NC n well formation so it is P
+
+32
+00:01:28.280 --> 00:01:31.460
+plus P plus this is P mas the first one
+
+33
+00:01:31.460 --> 00:01:34.550
+is P Mo's then X minus y n Mo's that's
+
+34
+00:01:34.550 --> 00:01:36.290
+all so this is also the connection of
+
+35
+00:01:36.290 --> 00:01:39.380
+inverter where this bulk and the source
+
+36
+00:01:39.380 --> 00:01:43.700
+are interconnected given to be VDD bulk
+
+37
+00:01:43.700 --> 00:01:47.300
+and source are connected and it is given
+
+38
+00:01:47.300 --> 00:01:49.760
+to VSS this is for en masse and this is
+
+39
+00:01:49.760 --> 00:01:52.280
+for weak P Mo's gates are interconnected
+
+40
+00:01:52.280 --> 00:01:55.340
+given to V in and the drains are
+
+41
+00:01:55.340 --> 00:01:58.220
+interconnected and given to VSS okay so
+
+42
+00:01:58.220 --> 00:02:01.910
+if you want me to repeat the circuit
+
+43
+00:02:01.910 --> 00:02:04.970
+diagram so look at this you have P Mo's
+
+44
+00:02:04.970 --> 00:02:09.829
+and this is n Mo's this is gate of P
+
+45
+00:02:09.829 --> 00:02:13.110
+Mo's source of P Mo's drain of P Mo's
+
+46
+00:02:13.110 --> 00:02:15.720
+Gate of en masse source sorry this is
+
+47
+00:02:15.720 --> 00:02:19.620
+drain of en masse and source of generous
+
+48
+00:02:19.620 --> 00:02:22.200
+I'll interconnect these to drain and
+
+49
+00:02:22.200 --> 00:02:25.710
+drain this is given to VDD and this is
+
+50
+00:02:25.710 --> 00:02:29.280
+given to VSS Gate are interconnected and
+
+51
+00:02:29.280 --> 00:02:33.990
+given to V in brain is connected to V
+
+52
+00:02:33.990 --> 00:02:37.440
+out so V n again look at this gates are
+
+53
+00:02:37.440 --> 00:02:40.590
+interconnected and given to V in brains
+
+54
+00:02:40.590 --> 00:02:43.320
+are interconnected given to V out I told
+
+55
+00:02:43.320 --> 00:02:47.220
+you the bulk will be connected to VSS so
+
+56
+00:02:47.220 --> 00:02:49.470
+which bulb the bulk will be connected to
+
+57
+00:02:49.470 --> 00:02:52.140
+source so it is connected to source here
+
+58
+00:02:52.140 --> 00:02:54.120
+the bulk is connected to source the same
+
+59
+00:02:54.120 --> 00:02:56.400
+thing you are connecting to source so
+
+60
+00:02:56.400 --> 00:02:59.190
+this is about yin well process this is
+
+61
+00:02:59.190 --> 00:03:02.010
+about end well process now there is a
+
+62
+00:03:02.010 --> 00:03:04.110
+disadvantage in Yonville process there
+
+63
+00:03:04.110 --> 00:03:07.140
+is a disadvantage in nml process what is
+
+64
+00:03:07.140 --> 00:03:09.350
+that
+
+65
+00:03:10.480 --> 00:03:13.569
+structure of envel envelopes s not only
+
+66
+00:03:13.569 --> 00:03:16.120
+in Yonville both in PL and yen well
+
+67
+00:03:16.120 --> 00:03:17.590
+there is a disadvantage
+
+68
+00:03:17.590 --> 00:03:20.409
+what is that disadvantages so this is
+
+69
+00:03:20.409 --> 00:03:23.140
+yen Ville so this is y n type material
+
+70
+00:03:23.140 --> 00:03:25.629
+this is p-type material and this is
+
+71
+00:03:25.629 --> 00:03:27.910
+p-type material and this is y n type
+
+72
+00:03:27.910 --> 00:03:29.739
+material now look at this there is a
+
+73
+00:03:29.739 --> 00:03:35.049
+formation of pnp and npn here you have
+
+74
+00:03:35.049 --> 00:03:39.790
+the formation of pnp and npn here PNP is
+
+75
+00:03:39.790 --> 00:03:43.629
+a BJT transistor NPN is also a BJT
+
+76
+00:03:43.629 --> 00:03:46.540
+transistor that is these two transistor
+
+77
+00:03:46.540 --> 00:03:48.760
+will be connected such that they get
+
+78
+00:03:48.760 --> 00:03:51.549
+latched up that is they won't allow any
+
+79
+00:03:51.549 --> 00:03:53.980
+current to flow here they won't allow
+
+80
+00:03:53.980 --> 00:03:56.049
+any current to flow here they lock the
+
+81
+00:03:56.049 --> 00:03:58.780
+system they lock the system they lock
+
+82
+00:03:58.780 --> 00:04:03.099
+this inverter okay so this locking or
+
+83
+00:04:03.099 --> 00:04:06.879
+this phenomena will damage the device or
+
+84
+00:04:06.879 --> 00:04:09.579
+it will not allow the allow the device
+
+85
+00:04:09.579 --> 00:04:13.870
+to work accordingly so this phenomena is
+
+86
+00:04:13.870 --> 00:04:17.228
+called twin and sorry larger problem
+
+87
+00:04:17.228 --> 00:04:20.139
+this is called larger problem to avoid
+
+88
+00:04:20.139 --> 00:04:21.639
+this larger problem
+
+89
+00:04:21.639 --> 00:04:24.430
+to avoid this flash a problem we have
+
+90
+00:04:24.430 --> 00:04:26.440
+come up with a solution which is called
+
+91
+00:04:26.440 --> 00:04:30.610
+a twin tub process to in tap process so
+
+92
+00:04:30.610 --> 00:04:33.419
+what is this twin turret winter process
+
+93
+00:04:33.419 --> 00:04:38.320
+sorry so what is this winter process in
+
+94
+00:04:38.320 --> 00:04:41.669
+winter process you will be having
+
+95
+00:04:41.669 --> 00:04:44.349
+epitaxial layer you will be having an
+
+96
+00:04:44.349 --> 00:04:46.750
+epitaxial layer so what is this
+
+97
+00:04:46.750 --> 00:04:49.900
+epitaxial layer it is a pure insulating
+
+98
+00:04:49.900 --> 00:04:53.830
+layer it is an insulating layer it will
+
+99
+00:04:53.830 --> 00:04:56.740
+not allow any conduction in between and
+
+100
+00:04:56.740 --> 00:05:00.220
+in this epitaxial layer you will grow an
+
+101
+00:05:00.220 --> 00:05:04.270
+in well you will grow a PL and in yen
+
+102
+00:05:04.270 --> 00:05:07.150
+value develop en moss in P well you
+
+103
+00:05:07.150 --> 00:05:10.270
+develop P Mo's so here sorry n MOS so
+
+104
+00:05:10.270 --> 00:05:14.020
+here you develop yen Moss here you
+
+105
+00:05:14.020 --> 00:05:18.220
+develop pima's okay so this is the
+
+106
+00:05:18.220 --> 00:05:20.469
+epitaxial layer this is the epitaxial
+
+107
+00:05:20.469 --> 00:05:22.820
+layer in this epitaxially
+
+108
+00:05:22.820 --> 00:05:25.400
+you will grow pima's and here you will
+
+109
+00:05:25.400 --> 00:05:28.490
+grow en masse now look at this general
+
+110
+00:05:28.490 --> 00:05:31.610
+and people are separated by epitaxial
+
+111
+00:05:31.610 --> 00:05:34.700
+layer which is an insulating layer now
+
+112
+00:05:34.700 --> 00:05:37.580
+there is no conduction between any of
+
+113
+00:05:37.580 --> 00:05:42.040
+these two so both P Mo's and n Mo's are
+
+114
+00:05:42.040 --> 00:05:45.640
+operated individually they're operated
+
+115
+00:05:45.640 --> 00:05:48.620
+individually they are not interconnected
+
+116
+00:05:48.620 --> 00:05:50.810
+with each of them they are not
+
+117
+00:05:50.810 --> 00:05:53.390
+interconnected with each of them hence
+
+118
+00:05:53.390 --> 00:05:57.170
+we are free from latch up problem hence
+
+119
+00:05:57.170 --> 00:06:01.310
+we are free from latch up problem so
+
+120
+00:06:01.310 --> 00:06:03.830
+this is about CMOS process
+
+121
+00:06:03.830 --> 00:06:06.410
+the last one is by CMOS technology I
+
+122
+00:06:06.410 --> 00:06:09.560
+told you what what is bi CMOS technology
+
+123
+00:06:09.560 --> 00:06:15.610
+so if I combine BJT with N Mo's and P
+
+124
+00:06:15.610 --> 00:06:20.000
+Mo's then we call it as bi CMOS
+
+125
+00:06:20.000 --> 00:06:22.970
+technology if you have only n Mo's and P
+
+126
+00:06:22.970 --> 00:06:26.660
+Mo's then it is called CMOS technology
+
+127
+00:06:26.660 --> 00:06:31.400
+then it is called CMOS technology in
+
+128
+00:06:31.400 --> 00:06:34.040
+CMOS technology why do we need this bi
+
+129
+00:06:34.040 --> 00:06:36.530
+CMOS technology already we have CMOS
+
+130
+00:06:36.530 --> 00:06:39.710
+technology the thing is there are few
+
+131
+00:06:39.710 --> 00:06:42.440
+advantages in bipolar technology and
+
+132
+00:06:42.440 --> 00:06:45.560
+there are few disadvantages and
+
+133
+00:06:45.560 --> 00:06:49.460
+advantages in CMOS technology that is we
+
+134
+00:06:49.460 --> 00:06:52.580
+have both pros and cons in both the
+
+135
+00:06:52.580 --> 00:06:54.980
+technology so we are going to combine
+
+136
+00:06:54.980 --> 00:06:58.850
+them to pick up the advantages whatever
+
+137
+00:06:58.850 --> 00:07:02.000
+we require say for example look at this
+
+138
+00:07:02.000 --> 00:07:04.760
+so it has high power dissipation which
+
+139
+00:07:04.760 --> 00:07:08.720
+is undisciplined äj-- okay next no
+
+140
+00:07:08.720 --> 00:07:10.820
+packing density which is a disadvantage
+
+141
+00:07:10.820 --> 00:07:13.010
+hang again okay
+
+142
+00:07:13.010 --> 00:07:16.430
+so low input impedance advantage okay
+
+143
+00:07:16.430 --> 00:07:18.800
+so high output drive current very very
+
+144
+00:07:18.800 --> 00:07:22.460
+advantage high GM advantage okay
+
+145
+00:07:22.460 --> 00:07:24.650
+so high frequency at low current
+
+146
+00:07:24.650 --> 00:07:26.690
+advantage so like this there are
+
+147
+00:07:26.690 --> 00:07:30.140
+advantages and also disadvantages coming
+
+148
+00:07:30.140 --> 00:07:32.330
+to the limitations so high delay
+
+149
+00:07:32.330 --> 00:07:35.360
+sensitive load disadvantage
+
+150
+00:07:35.360 --> 00:07:38.270
+okay so high packing density advantage
+
+151
+00:07:38.270 --> 00:07:41.689
+high noise margin advantage scalable
+
+152
+00:07:41.689 --> 00:07:43.789
+threshold advantage so there are
+
+153
+00:07:43.789 --> 00:07:46.340
+advantages here and also disadvantages
+
+154
+00:07:46.340 --> 00:07:50.090
+like low output drive current low GM so
+
+155
+00:07:50.090 --> 00:07:52.430
+these are all the disadvantages here so
+
+156
+00:07:52.430 --> 00:07:54.250
+I have to overcome this disadvantage
+
+157
+00:07:54.250 --> 00:07:58.189
+using the bipolar advantages therefore I
+
+158
+00:07:58.189 --> 00:08:02.870
+design the circuits using CMOS and BJT
+
+159
+00:08:02.870 --> 00:08:05.629
+which we call it as bi CMOS technology
+
+160
+00:08:05.629 --> 00:08:08.659
+which we call it as bi CMOS technology
+
+161
+00:08:08.659 --> 00:08:11.150
+so how do you write this bi CMOS
+
+162
+00:08:11.150 --> 00:08:19.300
+technology behind is bipolar CMOS is
+
+163
+00:08:19.300 --> 00:08:21.409
+complementary metal-oxide-semiconductor
+
+164
+00:08:21.409 --> 00:08:26.389
+so bi represents bipolar technology now
+
+165
+00:08:26.389 --> 00:08:29.360
+this is a structure of BJT so you don't
+
+166
+00:08:29.360 --> 00:08:31.250
+have different steps here only thing is
+
+167
+00:08:31.250 --> 00:08:32.870
+you have to explain what is this
+
+168
+00:08:32.870 --> 00:08:35.779
+structure so this is the buried
+
+169
+00:08:35.779 --> 00:08:37.610
+substrate structure but buried
+
+170
+00:08:37.610 --> 00:08:39.860
+sub-collector structure okay it is an
+
+171
+00:08:39.860 --> 00:08:44.149
+insulating layer and this is the well of
+
+172
+00:08:44.149 --> 00:08:47.300
+which is Yonville and in this yen value
+
+173
+00:08:47.300 --> 00:08:49.880
+form P well that is P region which is
+
+174
+00:08:49.880 --> 00:08:53.839
+base region so it is so in this area you
+
+175
+00:08:53.839 --> 00:08:56.029
+are adding little more dopant for doping
+
+176
+00:08:56.029 --> 00:08:58.130
+concentration increasing the doping
+
+177
+00:08:58.130 --> 00:08:59.810
+concentration so that it is
+
+178
+00:08:59.810 --> 00:09:02.329
+interconnected with base and you form a
+
+179
+00:09:02.329 --> 00:09:05.420
+connection here so this is n-type
+
+180
+00:09:05.420 --> 00:09:07.459
+material this is the n-type material
+
+181
+00:09:07.459 --> 00:09:10.279
+that forms emitter and this is the
+
+182
+00:09:10.279 --> 00:09:12.980
+collector because this is y n well you
+
+183
+00:09:12.980 --> 00:09:15.230
+need n collector here so this is there
+
+184
+00:09:15.230 --> 00:09:17.930
+also in n-type material and you have
+
+185
+00:09:17.930 --> 00:09:20.269
+increased the concentration to form the
+
+186
+00:09:20.269 --> 00:09:23.209
+collector now look at this this is
+
+187
+00:09:23.209 --> 00:09:26.209
+collector which is connected to n
+
+188
+00:09:26.209 --> 00:09:28.100
+complete well it means it is having the
+
+189
+00:09:28.100 --> 00:09:31.190
+largest area and this is the emitter
+
+190
+00:09:31.190 --> 00:09:33.560
+which is having less area and it has
+
+191
+00:09:33.560 --> 00:09:36.350
+high concentration and this is the base
+
+192
+00:09:36.350 --> 00:09:38.810
+region this is the base region which is
+
+193
+00:09:38.810 --> 00:09:41.329
+having moderate area here okay
+
+194
+00:09:41.329 --> 00:09:43.640
+so if you just look it into the top you
+
+195
+00:09:43.640 --> 00:09:45.709
+it looks somewhat like this so you will
+
+196
+00:09:45.709 --> 00:09:47.620
+be having a base connection
+
+197
+00:09:47.620 --> 00:09:49.240
+this is the emitter this is the base
+
+198
+00:09:49.240 --> 00:09:50.920
+connection this is the emitter
+
+199
+00:09:50.920 --> 00:09:53.140
+connection and this is the collector
+
+200
+00:09:53.140 --> 00:09:55.330
+connection collector is having larger
+
+201
+00:09:55.330 --> 00:09:57.490
+area so you have to contact touch here
+
+202
+00:09:57.490 --> 00:09:58.480
+okay
+
+203
+00:09:58.480 --> 00:10:01.840
+so this is about fabrication of bi CMOS
+
+204
+00:10:01.840 --> 00:10:05.020
+technology so this is what fabrication
+
+205
+00:10:05.020 --> 00:10:07.890
+says about
+
+206
+00:10:08.270 --> 00:10:10.520
+thank you for watching this video if you
+
+207
+00:10:10.520 --> 00:10:12.380
+have any doubts you can write me back to
+
+208
+00:10:12.380 --> 00:10:14.950
+my mail id
+
+209
+00:10:15.080 --> 00:10:17.060
+please like the video share with your
+
+210
+00:10:17.060 --> 00:10:18.890
+friends and subscribe to my channel
+
+211
+00:10:18.890 --> 00:10:21.430
+thank you
+

@@ -1,0 +1,1868 @@
+WEBVTT
+
+1
+00:00:09.820 --> 00:01:07.000
+In
+
+2
+00:01:07.000 --> 00:01:12.210
+the last few classes we have looked at the
+CMOS logic circuit and some of its variations
+
+3
+00:01:12.210 --> 00:01:19.240
+or efforts to improve the performance of a
+CMOS circuits. Today’s class we shall again
+
+4
+00:01:19.240 --> 00:01:25.271
+look at another variation of the CMOS circuit.
+Now before going into that let us first look
+
+5
+00:01:25.271 --> 00:01:35.799
+at the advantage of a CMOS gate in comparison
+with other logic families in the MOS family.
+
+6
+00:01:35.799 --> 00:01:43.520
+The CMOS as we know, the major advantage is
+that it has a zero static power dissipation.
+
+7
+00:01:43.520 --> 00:01:52.290
+That is because under static conditions when
+the NMOS is on, the PMOS is off and when the
+
+8
+00:01:52.290 --> 00:01:58.159
+PMOS is on, the NMOS is off. So there is no
+actual current flowing from the supply to
+
+9
+00:01:58.159 --> 00:02:06.360
+the ground. The static power dissipation is
+zero. The power dissipation only occurs when
+
+10
+00:02:06.360 --> 00:02:10.840
+the output is switched from one level to the
+other, from output high to output low or from
+
+11
+00:02:10.840 --> 00:02:15.290
+low to high. So that is a hallmark of the
+good circuit that is the power dissipation,
+
+12
+00:02:15.290 --> 00:02:20.730
+the power is mostly consumed in switching
+and there is no wastage of power in the static
+
+13
+00:02:20.730 --> 00:02:22.850
+condition.
+
+14
+00:02:22.850 --> 00:02:30.260
+CMOS also has another advantage that is the
+output low is not determined by the sizes
+
+15
+00:02:30.260 --> 00:02:35.070
+of the transistor. That is it is basically
+a non ratio logic in the sense that the output
+
+16
+00:02:35.070 --> 00:02:41.199
+low does not really depend upon the ratios
+or the widths of the individual transistors
+
+17
+00:02:41.199 --> 00:02:49.630
+which is true in the case of other logic MOS
+logic families because for example in the
+
+18
+00:02:49.630 --> 00:02:56.160
+logic family with a depletion mode load, the
+load transistor is always on. The output low
+
+19
+00:02:56.160 --> 00:03:00.720
+will be determined by the widths of the individual
+transistors. This is not the case in the case
+
+20
+00:03:00.720 --> 00:03:09.540
+of CMOS. So in fact one can use a small dimension,
+one can use the minimum size transistors because
+
+21
+00:03:09.540 --> 00:03:14.269
+the output voltage is not really determined
+by the sizes of that individual transistor
+
+22
+00:03:14.269 --> 00:03:24.470
+which of course results in a saving area.
+That is one of the advantages of CMOS when
+
+23
+00:03:24.470 --> 00:03:26.350
+compared to other logic families.
+
+24
+00:03:26.350 --> 00:03:35.840
+Now another advantage would be while switching,
+when the output is to be charged say we have
+
+25
+00:03:35.840 --> 00:03:40.250
+an output capacitance and the output voltage
+has to switch from low to high that is the
+
+26
+00:03:40.250 --> 00:03:44.940
+output capacitance has to be charged. Then
+what happens is the NMOS transistor is off
+
+27
+00:03:44.940 --> 00:03:52.100
+and the PMOS is on and the current flows through
+the PMOS to charge the output capacitance.
+
+28
+00:03:52.100 --> 00:03:59.130
+In this case since the NMOS is on, the entire
+PMOS current can be used to drive the output
+
+29
+00:03:59.130 --> 00:04:03.720
+capacitance. On the other hand when the output
+has to go from a high to low that is this
+
+30
+00:04:03.720 --> 00:04:09.140
+output capacitance has to be discharged then
+what happens is that the PMOS is off, the
+
+31
+00:04:09.140 --> 00:04:16.250
+NMOS is on and the entire NMOS current can
+be used to discharge the output capacitance.
+
+32
+00:04:16.250 --> 00:04:24.910
+Since the PMOS is off, which is not the case
+of other logic families like again the NMOS
+
+33
+00:04:24.910 --> 00:04:30.650
+logic families where the load transistor would
+always be on with the result that the current
+
+34
+00:04:30.650 --> 00:04:36.900
+which is discharging the capacitance is the
+difference of the currents of the driver transistor
+
+35
+00:04:36.900 --> 00:04:38.750
+and the load transistor.
+
+36
+00:04:38.750 --> 00:04:49.000
+This is a major advantage of course here one
+must also point out that since the dimension
+
+37
+00:04:49.000 --> 00:04:54.630
+of the NMOS and the PMOS transistors are the
+same then the PMOS would have a lower current
+
+38
+00:04:54.630 --> 00:04:59.710
+because of the lower mobility of holes. In
+fact if one has to go for equal on and off
+
+39
+00:04:59.710 --> 00:05:07.900
+times then one has to increase the width of
+the PMOS transistor but that is a small disadvantage.
+
+40
+00:05:07.900 --> 00:05:16.120
+The major advantages in the case of a NMOS
+is that you have zero static power dissipation
+
+41
+00:05:16.120 --> 00:05:22.880
+and also we can have almost minimum size transistors
+and also while switching on and off, since
+
+42
+00:05:22.880 --> 00:05:33.560
+the two currents do not clash, one can have
+fast switching also. Even with these advantages
+
+43
+00:05:33.560 --> 00:05:40.610
+and also acknowledging the fact that the CMOS
+has been the main stay of the VLSI for a long
+
+44
+00:05:40.610 --> 00:05:48.420
+time, this is not the ultimate circuit in
+the sense that there is also a lot of improvements
+
+45
+00:05:48.420 --> 00:05:50.040
+which can take place.
+
+46
+00:05:50.040 --> 00:05:55.820
+For example CMOS is not the fastest logic
+family. The fastest logic families are still
+
+47
+00:05:55.820 --> 00:06:03.240
+the bi polar logic family that is the ECL
+and the main reason for this is that for the
+
+48
+00:06:03.240 --> 00:06:09.030
+bi polar transistor the trans conductance
+is the highest. The bi polar transistor has
+
+49
+00:06:09.030 --> 00:06:13.870
+a much higher trans conductance than MOS transistors
+because of the exponential relation of the
+
+50
+00:06:13.870 --> 00:06:19.520
+output current with the input voltage. So
+that is a major advantage of the bi polar
+
+51
+00:06:19.520 --> 00:06:24.960
+transistors and also the current drive capability
+or bi polar transistors is more than that
+
+52
+00:06:24.960 --> 00:06:30.730
+of the MOS counter parts. If one has to drive
+a large current, one would prefer to use the
+
+53
+00:06:30.730 --> 00:06:35.490
+bi polar transistor because if one has to
+drive the same current with a MOS transistor,
+
+54
+00:06:35.490 --> 00:06:42.200
+one would require a huge size transistor which
+would take up a lot of area. Basically the
+
+55
+00:06:42.200 --> 00:06:47.960
+bi polar transistor have certain inherent
+advantages that is the higher trans conductance
+
+56
+00:06:47.960 --> 00:06:54.580
+as well as larger current drive capabilities
+which also makes them very highly suitable
+
+57
+00:06:54.580 --> 00:07:02.530
+for high speed logic circuits. On the one
+hand we have the advantage of CMOS that is
+
+58
+00:07:02.530 --> 00:07:09.870
+zero static power dissipation and some other
+advantages.
+
+59
+00:07:09.870 --> 00:07:15.919
+On the other hand we have the bi polar transistors
+which have certain advantages like being a
+
+60
+00:07:15.919 --> 00:07:20.720
+high speed logic family, by being a high speed
+device in the sense you have a higher trans
+
+61
+00:07:20.720 --> 00:07:31.270
+conductance. Now if we can have a logic family
+which derives the advantages of both that
+
+62
+00:07:31.270 --> 00:07:38.821
+is we have on the one hand logic family which
+has a zero static power dissipation and on
+
+63
+00:07:38.821 --> 00:07:44.210
+the other hand it has a very high current
+drive capability that is it can drive large
+
+64
+00:07:44.210 --> 00:07:51.310
+currents to charge and discharge the output
+capacitances. Then of course using the bi
+
+65
+00:07:51.310 --> 00:07:58.250
+polar transistor then of course it would be
+sort of best of the both worlds. so that is
+
+66
+00:07:58.250 --> 00:08:09.240
+what is attempted in the bi CMOS logic family
+which is basically a CMOS circuit which includes
+
+67
+00:08:09.240 --> 00:08:18.430
+bi polar transistors in the driving part where
+use a bi polar transistor to drive large output
+
+68
+00:08:18.430 --> 00:08:29.169
+currents and this is used to speed up the
+circuit and give better performance.
+
+69
+00:08:29.169 --> 00:08:35.179
+So we shall discuss this bi CMOS logic circuit
+in today’s class. Let us look at the bi
+
+70
+00:08:35.179 --> 00:08:43.999
+CMOS inverter. What you have is a PMOS is
+driving a bi polar transistor and then you
+
+71
+00:08:44.000 --> 00:08:56.420
+have an NMOS which also drives another bi
+polar transistor and this is the input here
+
+72
+00:08:56.420 --> 00:09:06.010
+and you have the output here, this is applied
+voltage. So you have Vin and we have Vout.
+
+73
+00:09:06.010 --> 00:09:14.450
+So the input side it is like a CMOS, you have
+a PMOS and a NMOS which are shorted and connected
+
+74
+00:09:14.450 --> 00:09:16.830
+to the input.
+
+75
+00:09:16.830 --> 00:09:22.990
+Now what happens is when the input is low
+say zero volts, this NMOS will be off and
+
+76
+00:09:22.990 --> 00:09:31.120
+the PMOS will be on. Now when the PMOS is
+on, a current will flow in this direction
+
+77
+00:09:31.120 --> 00:09:36.970
+and this current forms the base current of
+the bi polar transistor. So if the PMOS current
+
+78
+00:09:36.970 --> 00:09:46.600
+is ID if you say then the base current of
+the bi polar transistor is ID. You would have
+
+79
+00:09:46.600 --> 00:09:52.790
+an output current beta plus one times because
+the output current is actually the emitter
+
+80
+00:09:52.790 --> 00:09:59.572
+current of the bi polar transistor. So beta
+plus one times ID that is the current which
+
+81
+00:09:59.572 --> 00:10:09.770
+flows and is going to charge the output capacitances.
+On the other hand since the NMOS is off then
+
+82
+00:10:09.770 --> 00:10:14.630
+the base current of this lower bi polar transistor
+is zero, so this lower bi polar transistor
+
+83
+00:10:14.630 --> 00:10:16.510
+is off. So it is not conducting.
+
+84
+00:10:16.510 --> 00:10:22.380
+So when the upper bi polar transistor is conducting,
+the lower bi polar transistor is not conducting.
+
+85
+00:10:22.380 --> 00:10:31.540
+Basically once this output capacitance is
+charged then there will be no current flowing
+
+86
+00:10:31.540 --> 00:10:37.550
+because although the upper transistor would
+be in a conducting state, the lower transistor
+
+87
+00:10:37.550 --> 00:10:44.010
+is off and so there would be no static current
+flowing in this logic gate. On the other hand
+
+88
+00:10:44.010 --> 00:10:51.831
+if you look at the other situation, when the
+input is high say VDD then you have a high
+
+89
+00:10:51.831 --> 00:10:56.980
+gate voltage for the NMOS transistor here.
+So this NMOS transistor is on whereas this
+
+90
+00:10:56.980 --> 00:11:05.110
+PMOS transistor is off. Now since this NMOS
+transistor is on, a current would flow in
+
+91
+00:11:05.110 --> 00:11:11.230
+this direction. Again this current is going
+to be the base current of this bi polar transistor
+
+92
+00:11:11.230 --> 00:11:20.000
+and since we have a current ID which is actually
+the drain current of the of the MOS device.
+
+93
+00:11:20.000 --> 00:11:26.550
+If the base current of the bi polar transistor
+is ID then the total current which is flowing,
+
+94
+00:11:26.550 --> 00:11:34.750
+which is actually going to be in this direction
+now that is the total current is the sum of
+
+95
+00:11:34.750 --> 00:11:42.110
+the collector current of this bi polar transistor
+plus the drain current of this MOS. So that
+
+96
+00:11:42.110 --> 00:11:47.120
+is going to be beta plus one times ID again
+but it would flow in the opposite direction
+
+97
+00:11:47.120 --> 00:11:51.440
+and it would help to discharge the output
+capacitance. When the NMOS transistor turns
+
+98
+00:11:51.440 --> 00:12:01.980
+on, a current would tend to flow in a direction
+which discharges the output capacitance. The
+
+99
+00:12:01.980 --> 00:12:06.900
+discharging current is now beta plus one times
+ID. On the other hand since this PMOS transistor
+
+100
+00:12:06.900 --> 00:12:14.459
+is now off because you have a high input,
+the PMOS transistor is off then there is no
+
+101
+00:12:14.459 --> 00:12:18.820
+base current for upper bi polar transistor
+here. So this upper bi polar transistor is
+
+102
+00:12:18.820 --> 00:12:19.850
+going to be off.
+
+103
+00:12:19.850 --> 00:12:26.180
+So when the lower bi polar transistor is on,
+the upper bi polar transistor is off. So again
+
+104
+00:12:26.180 --> 00:12:34.110
+in the steady state you would have no static
+power dissipation. Once the output capacitance
+
+105
+00:12:34.110 --> 00:12:39.470
+is discharge then no further current would
+be flowing. Because although the lower transistor
+
+106
+00:12:39.470 --> 00:12:45.290
+is in a conducting state, the upper transistor
+is in a non conducting state.
+
+107
+00:12:45.290 --> 00:12:55.110
+If you look at the circuit, it retains the
+advantages of the CMOS in the sense that again
+
+108
+00:12:55.110 --> 00:12:59.620
+when the upper half is conducting, the lower
+half is off and when the lower half is conducting,
+
+109
+00:12:59.620 --> 00:13:09.270
+the upper half is on. So both upper half and
+lower half are never on simultaneously in
+
+110
+00:13:09.270 --> 00:13:17.200
+the steady state. So the static power dissipation
+is zero. On the other hand if you look at
+
+111
+00:13:17.200 --> 00:13:22.290
+the advantages compared with CMOS, we find
+that the charging and discharging currents
+
+112
+00:13:22.290 --> 00:13:28.740
+are now beta plus one times ID whereas in
+the case of a CMOS the current which was driving
+
+113
+00:13:28.740 --> 00:13:34.350
+the output capacitances, the charging or discharging
+the output capacitance was only ID.
+
+114
+00:13:34.350 --> 00:13:42.300
+We have a gain of beta plus one, although
+this circuit retains the advantages of the
+
+115
+00:13:42.300 --> 00:13:49.529
+CMOS, it has an additional gain of beta plus
+one. Since we are now charging and discharging
+
+116
+00:13:49.529 --> 00:13:55.680
+the output capacitances with higher current,
+the time required to charge or discharge the
+
+117
+00:13:55.680 --> 00:14:01.250
+capacitance would be less in the sense that
+the operation would be speeded up. So this
+
+118
+00:14:01.250 --> 00:14:10.080
+is going to operate at a much higher speed
+than the corresponding CMOS.
+
+119
+00:14:10.080 --> 00:14:18.492
+If you look at the delay curves of the CMOS
+and the bi CMOS, if you plot the delay, this
+
+120
+00:14:18.492 --> 00:14:32.810
+is the say delay and you have the load capacitance.
+Now for a CMOS, if it goes like this, we know
+
+121
+00:14:32.810 --> 00:14:40.890
+that the current you can write I is equal
+to C dV dT so delta V is the logics swing
+
+122
+00:14:40.890 --> 00:14:48.100
+and the time is delta T for the output capacitance
+to change by delta V and if this of course
+
+123
+00:14:48.100 --> 00:14:52.330
+assumes a constant current is used to charge
+or discharge the capacitance. So we can write
+
+124
+00:14:52.330 --> 00:15:03.930
+td is equal to C delta V by I.
+
+125
+00:15:03.930 --> 00:15:15.519
+So the slope of this curve is going to be
+delta V which is the logic swing by I. Now
+
+126
+00:15:15.519 --> 00:15:22.390
+this is for the CMOS whereas for a bi CMOS
+what we have now is this current which is
+
+127
+00:15:22.390 --> 00:15:28.270
+the current for the ID, if we call the drain
+current in the case of CMOS, this is a drain
+
+128
+00:15:28.270 --> 00:15:31.390
+currents which are used to drive the capacitances.
+
+129
+00:15:31.390 --> 00:15:36.520
+Now for a bi CMOS since the current which
+is now charging or discharging the capacitances
+
+130
+00:15:36.520 --> 00:15:44.790
+is beta plus one times ID, you have a curve
+like this. This is the slope, the slope of
+
+131
+00:15:44.790 --> 00:15:53.290
+the curve is going to be reduced. So you have
+delta V by beta plus one ID, this is the slope
+
+132
+00:15:53.290 --> 00:16:03.709
+for the bi CMOS curve. So we see that for
+the bi CMOS even with a large change in capacitance,
+
+133
+00:16:03.709 --> 00:16:08.090
+the delay does not change by much whereas
+in the case of CMOS, if you are driving a
+
+134
+00:16:08.090 --> 00:16:10.860
+large capacitance the delay changes much.
+
+135
+00:16:10.860 --> 00:16:16.300
+Of course initially for very low capacitance
+the bi CMOS may have a slightly higher delay
+
+136
+00:16:16.300 --> 00:16:22.240
+because of the fact that you are introducing
+additional components in a bi CMOS but especially
+
+137
+00:16:22.240 --> 00:16:33.870
+for larger capacitances because of the fact
+that the delays almost flat, for larger capacitances
+
+138
+00:16:33.870 --> 00:16:45.870
+the bi CMOS will be operating with the much
+lesser delay compared to the corresponding
+
+139
+00:16:45.870 --> 00:16:58.420
+the CMOS. So that is the advantage of bi CMOS
+compared to the CMOS. There is a small disadvantage
+
+140
+00:16:58.420 --> 00:17:05.150
+which we shall also point out here and we
+shall discuss in detail some time later.
+
+141
+00:17:05.150 --> 00:17:14.138
+The disadvantage in this case for the bi CMOS
+is that when the output voltage for example
+
+142
+00:17:14.138 --> 00:17:27.909
+when we are charging the output capacitance
+and when the PMOS is on, this bi polar transistor
+
+143
+00:17:27.910 --> 00:17:34.730
+gets a base drive, the output capacitance
+is getting charged, the output voltage raises
+
+144
+00:17:34.730 --> 00:17:41.889
+but once the output voltage raises to VDD
+minus VBE, when the output voltage is equal
+
+145
+00:17:41.889 --> 00:17:48.820
+to VDD minus VBE that is VBE is the base emitter
+drop of the bi polar transistor then what
+
+146
+00:17:48.820 --> 00:17:59.700
+happens is say VBE is point seven volts or
+VON of the bi polar transistor. After that
+
+147
+00:17:59.700 --> 00:18:06.409
+if the output were to raise further then the
+base emitter drop of the bi polar transistor
+
+148
+00:18:06.409 --> 00:18:11.940
+would reduce to below VON which means that
+it is no longer going to be in a conducting
+
+149
+00:18:11.940 --> 00:18:22.299
+state. The output voltage will raise to almost
+close to VDD. That is VDD minus VON very fast
+
+150
+00:18:22.299 --> 00:18:29.080
+because of the action of the bi polar transistor.
+After that what happens is because we require
+
+151
+00:18:29.080 --> 00:18:34.029
+a certain voltage drop across the base emitter
+of the bi polar transistor to maintain it
+
+152
+00:18:34.029 --> 00:18:40.869
+in the on condition, the output voltage would
+stop raising any further I mean it will raise
+
+153
+00:18:40.869 --> 00:18:43.739
+but very slowly.
+
+154
+00:18:43.739 --> 00:18:50.739
+Similarly when the output capacitance is going
+to be discharged, the current flows through
+
+155
+00:18:50.739 --> 00:18:58.299
+into the bi polar transistor as the drain
+current of the MOS. Now here again the base
+
+156
+00:18:58.299 --> 00:19:07.489
+voltage of the bi polar transistor has to
+be around 0.6 to 0.7 volts. Now when the output
+
+157
+00:19:07.489 --> 00:19:13.870
+voltage falls to that value close to 0.6 volts,
+what happens is this voltage collector voltage
+
+158
+00:19:13.870 --> 00:19:23.029
+becomes equal to the 0.6 volts. It cannot
+fall any further because then the base emitter
+
+159
+00:19:23.029 --> 00:19:29.840
+voltage is going to be below 0.6 volts which
+means that this bi polar transistor is going
+
+160
+00:19:29.840 --> 00:19:41.489
+to drop very small current and the discharging
+becomes extremely slow. Also since the drain
+
+161
+00:19:41.489 --> 00:19:49.000
+current of the NMOS should flow into base
+of the bi polar transistor, the NMOS would
+
+162
+00:19:49.000 --> 00:19:51.960
+also stop conducting.
+
+163
+00:19:51.960 --> 00:19:59.080
+The logic swing of the bi CMOS, it is not
+a full swing that is from 0 to VDD as in the
+
+164
+00:19:59.080 --> 00:20:07.679
+case of CMOS but in the bi CMOS, the output
+voltage would go from VON to VDD minus VON.
+
+165
+00:20:07.679 --> 00:20:12.941
+So the swing is from VON to VDD minus VON
+where VON is the cutting voltage of the base
+
+166
+00:20:12.941 --> 00:20:21.759
+emitter of the bi polar transistor which would
+be around say 0.6 to 0.7 volts. If you have
+
+167
+00:20:21.759 --> 00:20:29.850
+a 5 volt operation it would go from say 0.6
+to 0.7 volts to around 4.4 volts. So you do
+
+168
+00:20:29.850 --> 00:20:38.299
+not have full swing operation here. That is
+one disadvantage of the bi CMOS when compared
+
+169
+00:20:38.299 --> 00:20:42.570
+to the CMOS.
+We shall look at the implications of this
+
+170
+00:20:42.570 --> 00:20:49.889
+sometime later. In general we see that the
+bi CMOS as lot of advantages compare to CMOS
+
+171
+00:20:49.889 --> 00:20:55.359
+in the sense that it retains the advantage
+of CMOS as being zero static dissipation circuit
+
+172
+00:20:55.359 --> 00:21:00.100
+at the same time because of the gain of the
+bi polar transistor it is a much faster circuit
+
+173
+00:21:00.100 --> 00:21:12.860
+compared to a CMOS. Especially when driving
+large load capacitances. Then there is one
+
+174
+00:21:12.860 --> 00:21:29.890
+more point to be looked at in this bi CMOS.
+One advantage is that this bi polar transistor
+
+175
+00:21:29.890 --> 00:21:38.729
+does not really go to saturation. Why? because
+since the emitter voltage of this bi polar
+
+176
+00:21:38.729 --> 00:21:43.739
+transistor can only raise to VDD minus VBE
+and this is always at VDD which means that
+
+177
+00:21:43.739 --> 00:21:48.799
+the collector to emitter drop of this VCE
+of this bi polar transistor is always going
+
+178
+00:21:48.799 --> 00:21:52.549
+to be at least 0.6 to 0.7 volts.
+
+179
+00:21:52.549 --> 00:21:57.970
+So it does not allow it to go to saturation.
+In the lower transistor also since the output
+
+180
+00:21:57.970 --> 00:22:05.220
+voltage does not fall to below 0.6 volts are
+so this collector emitter drop is at least
+
+181
+00:22:05.220 --> 00:22:13.440
+0.6 volt so it does not go to saturation.
+But even then what we would like to do is
+
+182
+00:22:13.440 --> 00:22:21.299
+once the input voltage changes state for example
+from low to high say, then what is going to
+
+183
+00:22:21.299 --> 00:22:27.460
+happen is when the input voltage was low,
+the PMOS was conducting and the NMOS was off.
+
+184
+00:22:27.460 --> 00:22:32.960
+So this transistor was on, upper transistor
+was on, this was off. So as this goes from
+
+185
+00:22:32.960 --> 00:22:38.210
+low to high, this should go from on to off
+and this should go from off to on.
+
+186
+00:22:38.210 --> 00:22:44.789
+Now this on to off should take place very
+quickly otherwise what is going to happen
+
+187
+00:22:44.789 --> 00:22:53.009
+is, we are having a high speed circuits so
+we require this off to on should also take
+
+188
+00:22:53.009 --> 00:23:01.210
+place very fast that is output capacitance
+should be discharged very fast because the
+
+189
+00:23:01.210 --> 00:23:05.789
+lower transistor is going from off to on.
+So the discharging current is through this
+
+190
+00:23:05.789 --> 00:23:09.039
+lower bi polar transistor.
+
+191
+00:23:09.039 --> 00:23:15.139
+Now if this upper bi polar transistor does
+not go off fast then this current is going
+
+192
+00:23:15.139 --> 00:23:23.549
+to actually affect the switching off or the
+discharging of the output capacitance because
+
+193
+00:23:23.549 --> 00:23:27.979
+the current which is going to discharge the
+output capacitance is going to be the difference
+
+194
+00:23:27.979 --> 00:23:37.320
+of this current drawn by the lower transistor
+and the emitter current of the upper transistor,
+
+195
+00:23:37.320 --> 00:23:40.960
+so that is going to be the difference. This
+upper transistor must switch off fast, so
+
+196
+00:23:40.960 --> 00:23:44.520
+we should ensure that this switching off is
+done fast.
+
+197
+00:23:44.520 --> 00:23:50.200
+So how do we ensure that? You see that there
+is no real mechanism in this circuit for a
+
+198
+00:23:50.200 --> 00:23:54.479
+reverse based current to flow for the bi polar
+transistor. We have always stressed that when
+
+199
+00:23:54.479 --> 00:24:01.210
+we discussed bi polar logic families that
+in order to switch off the transistor fast,
+
+200
+00:24:01.210 --> 00:24:06.779
+you must have a reverse base current flowing
+which draws out the base charge and switches
+
+201
+00:24:06.779 --> 00:24:16.479
+of the bi polar transistor fast. So that is
+one drawback in this present form because
+
+202
+00:24:16.479 --> 00:24:19.669
+there is no mechanism to remove the base charge.
+
+203
+00:24:19.669 --> 00:24:29.909
+Now let us see how we can improve this circuit
+by introducing small changes so that it can
+
+204
+00:24:29.909 --> 00:24:46.669
+switch off fast. What is done is we have a
+circuit like this. This is the NMOS here,
+
+205
+00:24:46.669 --> 00:24:58.559
+we have the bi polar transistor so this is
+the input here, there is another NMOS here
+
+206
+00:24:58.559 --> 00:25:09.169
+and this NMOS input is drawn from here. So
+this is the new inverter.
+
+207
+00:25:09.169 --> 00:25:16.369
+Now what we have added if we just compare
+these two circuits. So what we have added
+
+208
+00:25:16.369 --> 00:25:23.450
+in the new circuit here is that we have added
+an NMOS here and another NMOS here. Now these
+
+209
+00:25:23.450 --> 00:25:28.690
+two NMOS’s as we can see are connected to
+the base of the bi polar transistor and are
+
+210
+00:25:28.690 --> 00:25:34.570
+basically used to draw out the charges from
+the base of the bi polar transistor, when
+
+211
+00:25:34.570 --> 00:25:42.320
+these transistors have to go from on to off
+condition. So when you have a similar transition
+
+212
+00:25:42.320 --> 00:25:47.960
+at the input that is low to high, this input
+then this lower transistor should turn on
+
+213
+00:25:47.960 --> 00:25:59.409
+from off condition and the upper transistor
+should go from on to off. So what happens
+
+214
+00:25:59.409 --> 00:26:06.609
+is as this goes high then this NMOS transistor
+is going to turn on from the off condition
+
+215
+00:26:06.609 --> 00:26:16.159
+and this is going to conduct and discharge
+whatever base charge is there in the bi polar
+
+216
+00:26:16.159 --> 00:26:23.850
+transistor and help it to switch off faster
+because this NMOS is turning on.
+
+217
+00:26:23.850 --> 00:26:32.359
+This transistor is going to go from off to
+on. So basically when this was low, so this
+
+218
+00:26:32.359 --> 00:26:37.350
+is an inverter here you see that we have a
+CMOS inverter here and the output of the CMOS
+
+219
+00:26:37.350 --> 00:26:42.129
+inverter is actually fed as input here to
+this NMOS and which is connected to the base
+
+220
+00:26:42.129 --> 00:26:48.360
+of the bi polar transistor. So this is going
+to draw out the base charge from the bi polar
+
+221
+00:26:48.360 --> 00:26:57.109
+transistor so what happens is when the input
+is low, this is CMOS inverter, this is high
+
+222
+00:26:57.109 --> 00:27:06.989
+and the input to this NMOS transistor is high
+so this is on and it maintains this transistor
+
+223
+00:27:06.989 --> 00:27:15.840
+in the off condition. So when this output
+again goes from high to low then what happens
+
+224
+00:27:15.840 --> 00:27:24.909
+is this output of the CMOS goes from low to
+high and this turns on this transistor which
+
+225
+00:27:24.909 --> 00:27:30.539
+helps it to discharge whatever base charge
+in the bi polar transistor.
+
+226
+00:27:30.539 --> 00:27:41.450
+So we have two additional transistors here
+which help to discharge the base charge of
+
+227
+00:27:41.450 --> 00:27:52.169
+this bi polar transistors. So this is the
+basic form of the bi CMOS inverter. We can
+
+228
+00:27:52.169 --> 00:28:00.210
+also have other logic gates as in the CMOS,
+for example a NAND gate. Now what we have
+
+229
+00:28:00.210 --> 00:28:06.480
+to do is in the case of a NAND gate, you know
+in the case of a CMOS we have two PMOS transistors
+
+230
+00:28:06.480 --> 00:28:19.559
+in parallel and two NMOS transistors in series.
+If we want to have a NAND gate in CMOS, this
+
+231
+00:28:19.559 --> 00:28:39.240
+is the circuit. Now in a case of a bi CMOS
+what we would do is this which is goes to
+
+232
+00:28:39.240 --> 00:28:57.289
+the base of the bi polar transistor and we
+have the lower bi polar transistor here. So
+
+233
+00:28:57.289 --> 00:29:12.059
+this goes here, this other input actually
+draw it here. Then the output of this CMOS
+
+234
+00:29:12.059 --> 00:29:25.749
+here in CMOS NAND gate goes to the gate of
+this NMOS here. This completes the circuit
+
+235
+00:29:25.749 --> 00:29:31.269
+for the bi CMOS NAND gate.
+
+236
+00:29:31.269 --> 00:29:38.629
+Just I will explain it once more. So there
+are two inputs here bi CMOS NAND gate A and
+
+237
+00:29:38.629 --> 00:29:48.239
+B. So what happens is when the input in a
+NAND gate we know the output goes high, when
+
+238
+00:29:48.239 --> 00:29:54.629
+any input is low. When any input is low the
+output goes high and when both inputs are
+
+239
+00:29:54.629 --> 00:29:58.479
+high, the output is going to be low.
+
+240
+00:29:58.479 --> 00:30:05.711
+Now when both inputs are high, both this lower
+NMOS transistors are going to conduct. So
+
+241
+00:30:05.711 --> 00:30:11.389
+both these are conducting as well as these
+two are conducting. Now since these two transistors
+
+242
+00:30:11.389 --> 00:30:16.539
+are in series say the lower half this is in
+series, when these are conducting there is
+
+243
+00:30:16.539 --> 00:30:24.090
+a current flowing this way into the base of
+the lower bi polar transistor and so the lower
+
+244
+00:30:24.090 --> 00:30:33.609
+bi polar transistor is going to be on It is
+basically going to discharge the output capacitance
+
+245
+00:30:33.609 --> 00:30:41.219
+so the output voltage goes low. So when both
+these go high, the output is going to go low
+
+246
+00:30:41.219 --> 00:30:47.789
+and also when both these are high then these
+PMOS transistors are off.
+
+247
+00:30:47.789 --> 00:30:54.669
+So this upper bi polar transistor is off whereas
+these two transistor is also on. These two
+
+248
+00:30:54.669 --> 00:31:10.330
+NMOS are on which enables the discharge of
+whatever base charge is in the upper transistor.
+
+249
+00:31:10.330 --> 00:31:16.909
+When any input goes low so high to low say
+here what is going to happen? when this any
+
+250
+00:31:16.909 --> 00:31:23.190
+input goes low then one of these NMOS transistor
+is going to switch off, is going to go in
+
+251
+00:31:23.190 --> 00:31:27.730
+off condition which means that in the series
+path is not conducting which means that the
+
+252
+00:31:27.730 --> 00:31:31.470
+lower bi polar transistor is not going to
+have any base current which means that the
+
+253
+00:31:31.470 --> 00:31:35.940
+lower bi polar transistor is not going to
+conduct. So the lower bi polar transistor
+
+254
+00:31:35.940 --> 00:31:47.719
+is off. Now at the same time this is basically
+a CMOS NAND gate. This CMOS NAND gate when
+
+255
+00:31:47.719 --> 00:31:53.769
+any input goes low, the output is going to
+go high, we have a high here and which means
+
+256
+00:31:53.769 --> 00:32:00.889
+that it turns on the upper bi polar transistor
+and there is a current flowing in this direction
+
+257
+00:32:00.889 --> 00:32:06.979
+which is going to charge the output capacitance
+and the output is going to have a low to high
+
+258
+00:32:06.979 --> 00:32:11.729
+transition.
+
+259
+00:32:11.729 --> 00:32:18.529
+At the same time see, this goes high here,
+this gate voltage of this NMOS transistor
+
+260
+00:32:18.529 --> 00:32:24.559
+here is going to go high. this turns it on
+and since this is connected; the drain of
+
+261
+00:32:24.559 --> 00:32:28.849
+this NMOS is connected to the base of the
+bi polar transistor and current is going to
+
+262
+00:32:28.849 --> 00:32:34.169
+flow out from the base of this bi polar transistor
+and help to remove any base charge stored
+
+263
+00:32:34.169 --> 00:32:39.429
+in the lower bi polar transistor plus speeding
+up the switching off of this bi polar transistor.
+
+264
+00:32:39.429 --> 00:32:44.419
+So the upper bi polar transistor turns on,
+the lower bi polar transistor turns off and
+
+265
+00:32:44.419 --> 00:32:53.979
+a current flows out to charge the output capacitance
+and you have a low to high transition. So
+
+266
+00:32:53.979 --> 00:33:07.379
+this gives the circuit of a CMOS NAND gate.
+What we basically have is we have a CMOS NAND
+
+267
+00:33:07.379 --> 00:33:09.609
+gate here, this is a bi CMOS NAND gate.
+
+268
+00:33:09.609 --> 00:33:19.369
+So we have a CMOS NAND gate here, we have
+the n block of the CMOS here which is actually
+
+269
+00:33:19.369 --> 00:33:24.499
+driving the lower bi polar transistor and
+then the output of the CMOS NAND gate is driving
+
+270
+00:33:24.499 --> 00:33:31.119
+the gate of this NMOS transistor here which
+is helping to switch of the bi polar transistor.
+
+271
+00:33:31.119 --> 00:33:38.059
+So now if you look at any bi CMOS circuit,
+we can actually derive it from the CMOS logic
+
+272
+00:33:38.059 --> 00:33:48.159
+circuit by drawing it in this from. We shall
+draw a general bi CMOS logic circuit. We have
+
+273
+00:33:48.159 --> 00:33:56.979
+a CMOS gate here so if we are making a bi
+CMOS NAND gate, we will have to make a CMOS
+
+274
+00:33:56.979 --> 00:34:02.200
+NAND gate. If we have a bi CMOS NOR gate you
+will have to make a CMOS NOR gate. If you
+
+275
+00:34:02.200 --> 00:34:07.619
+want any other logic function so this is the
+CMOS equivalent of whatever bi CMOS logic
+
+276
+00:34:07.619 --> 00:34:15.820
+circuit you want to make. So these are the
+inputs here for that CMOS then the output
+
+277
+00:34:15.820 --> 00:34:27.929
+of that goes to the base of the bi polar transistor
+and this is connected to the VDD supply voltage.
+
+278
+00:34:27.929 --> 00:34:43.960
+We have another bi polar transistor here and
+then we have the n block of the CMOS. That
+
+279
+00:34:43.960 --> 00:34:52.370
+is the lower half of this CMOS, the n block
+is connected to another bi polar transistor
+
+280
+00:34:52.370 --> 00:35:02.430
+and this goes to ground and this goes to ground
+here and then the output of the CMOS drives
+
+281
+00:35:02.430 --> 00:35:09.450
+another NMOS transistor here. So this goes
+to the gate of this NMOS which is connected
+
+282
+00:35:09.450 --> 00:35:21.240
+to the base of the bi polar transistor, so
+the inputs again come here. Suppose we have
+
+283
+00:35:21.240 --> 00:35:31.160
+some inputs and for that set of inputs we
+must get a logic high say now what happens
+
+284
+00:35:31.160 --> 00:35:38.520
+is this CMOS which is actually also realizing
+that particular function, so what will happen
+
+285
+00:35:38.520 --> 00:35:41.870
+is this output here is going to go to logic
+high.
+
+286
+00:35:41.870 --> 00:35:48.400
+Now when does in a CMOS the output is going
+to go high when the p block conducts and the
+
+287
+00:35:48.400 --> 00:35:54.710
+n block is off which means that if this output
+is going to go high here, this n block is
+
+288
+00:35:54.710 --> 00:36:00.200
+going to be off because this is a same CMOS,
+this is a n block of the CMOS which is the
+
+289
+00:36:00.200 --> 00:36:05.340
+lower half of that CMOS circuit so this is
+going to be off. Now if the n block is off,
+
+290
+00:36:05.340 --> 00:36:11.450
+the lower transistor is off, you have a high
+at the base of the upper bi polar transistor
+
+291
+00:36:11.450 --> 00:36:19.870
+which means that it conducts and also the
+gate of this NMOS transistor here as a high
+
+292
+00:36:19.870 --> 00:36:25.660
+which means that this also conducts which
+removes the base charge of this lower bi polar
+
+293
+00:36:25.660 --> 00:36:29.560
+transistor. So the upper bi polar transistor
+conducts, the lower bi polar transistor is
+
+294
+00:36:29.560 --> 00:36:36.100
+off so the output is going to go high and
+the and the output current is increased by
+
+295
+00:36:36.100 --> 00:36:39.010
+the current gain of the bi polar transistor.
+
+296
+00:36:39.010 --> 00:36:45.500
+Similarly if for a particular set of inputs,
+the output should go low then we will have
+
+297
+00:36:45.500 --> 00:36:51.510
+a low here and the n block should conduct
+because the output is low in a CMOS when the
+
+298
+00:36:51.510 --> 00:36:56.260
+n block conducts which means that the lower
+bi polar transistor will have a base current
+
+299
+00:36:56.260 --> 00:37:03.050
+which means that this current is going to
+discharge the output capacitance. Also since
+
+300
+00:37:03.050 --> 00:37:11.910
+this is low here, this NMOS is off which means
+that it is not really affecting the output,
+
+301
+00:37:11.910 --> 00:37:17.640
+it is not going to have any effect on the
+circuit. Also since this is a CMOS you have
+
+302
+00:37:17.640 --> 00:37:26.170
+an n block here which turns on. At that n
+block here in the CMOS is going to discharge
+
+303
+00:37:26.170 --> 00:37:29.770
+whatever base charge is there in this upper
+bi polar transistor.
+
+304
+00:37:29.770 --> 00:37:34.820
+So in this case the output is going to go
+low because the lower bi polar transistor
+
+305
+00:37:34.820 --> 00:37:43.530
+turns on, the upper bi polar transistor is
+off. So this is the basic circuit of any bi
+
+306
+00:37:43.530 --> 00:38:01.320
+CMOS gate. So any CMOS gate can be converted
+to a bi CMOS using this particular circuit.
+
+307
+00:38:01.320 --> 00:38:08.840
+Now this bi CMOS obviously has a lot of advantages
+compared to CMOS as we have already seen but
+
+308
+00:38:08.840 --> 00:38:12.860
+we also said that there was one particular
+disadvantage that is we are not having full
+
+309
+00:38:12.860 --> 00:38:21.940
+logic swing. This particular disadvantage
+is it really shows up when we go for low voltage
+
+310
+00:38:21.940 --> 00:38:28.040
+circuits. See up to a long time, the power
+supply voltages in logic circuits where 5
+
+311
+00:38:28.040 --> 00:38:39.640
+volts that was a standard which was used but
+in recent days, the power supply voltages
+
+312
+00:38:39.640 --> 00:38:46.250
+are being continuously scaled down. There
+are lots of reasons for that one is that as
+
+313
+00:38:46.250 --> 00:38:51.190
+we are going for smaller and smaller devices
+to improve the speed as well as to reduce
+
+314
+00:38:51.190 --> 00:38:56.810
+the power dissipation, the smaller devices
+cannot take so high voltages because the electric
+
+315
+00:38:56.810 --> 00:39:01.720
+fields becomes too large with the result that
+there can be break down problem.
+
+316
+00:39:01.720 --> 00:39:06.480
+So as we reduce the dimension of the device,
+we must also reduce the power supply voltages.
+
+317
+00:39:06.480 --> 00:39:13.380
+The power supply voltages are also reduced
+to reduce the power dissipation. So in order
+
+318
+00:39:13.380 --> 00:39:23.390
+to do that if we reduce the power supply voltages,
+it really creates problems in the case of
+
+319
+00:39:23.390 --> 00:39:31.420
+bi CMOS. Now if you look at this circuit here,
+when you have an input voltage whatever input
+
+320
+00:39:31.420 --> 00:39:41.770
+voltage is applied here, if this voltage is
+now VDD minus VBE, if you have another VBE
+
+321
+00:39:41.770 --> 00:39:50.170
+here so the actual voltage for the NMOS is
+VDD minus twice VDD. That is also clear here
+
+322
+00:39:50.170 --> 00:40:00.780
+if you go back to this circuit. So if it is
+VDD minus VBE and you have a VBE here, so
+
+323
+00:40:00.780 --> 00:40:07.670
+what we have is VDD minus twice VBE across
+the gate to source of the NMOS.
+
+324
+00:40:07.670 --> 00:40:15.060
+So you know that the current in a NMOS is
+proportional to VGS minus VT. So if the VGS
+
+325
+00:40:15.060 --> 00:40:25.000
+in this case is now VDD minus twice VBE in
+the case of bi CMOS minus VT squared now but
+
+326
+00:40:25.000 --> 00:40:31.530
+of course you have a current gain of beta
+is almost beta, beta is high, beta plus one
+
+327
+00:40:31.530 --> 00:40:33.410
+can be approximated as beta.
+
+328
+00:40:33.410 --> 00:40:46.380
+So for a I, for bi CMOS that is charging and
+discharging current you will have VDD minus
+
+329
+00:40:46.380 --> 00:40:51.410
+VT whole square. In a CMOS the entire voltage
+is dropped across the transistor, there is
+
+330
+00:40:51.410 --> 00:40:57.910
+no two VBE drop. Now if you look at a five
+volt power supply and say suppose when beta
+
+331
+00:40:57.910 --> 00:41:09.270
+is fifty, VDD is 5 volts say VBE is 0.8 volts.
+This is usually at the higher side but for
+
+332
+00:41:09.270 --> 00:41:18.450
+smaller devices you usually have that and
+say VT is equal to 1 volt. So this ratio R
+
+333
+00:41:18.450 --> 00:41:32.000
+let us say will be equal to 50 into 5 minus
+1.6 minus 1 squared divided by 5 minus 1 squared.
+
+334
+00:41:32.000 --> 00:41:45.470
+So this is 50 times, this is 2.6, into 2.4
+squared divided by 4 squared. So this is basically
+
+335
+00:41:45.470 --> 00:41:55.190
+0.6 squared that is 0.36, so this will be
+around 80.
+
+336
+00:41:55.190 --> 00:42:02.480
+So the current gain which we have due to bi
+CMOS, although we are having a beta of 50
+
+337
+00:42:02.480 --> 00:42:11.580
+is only 18 here because this is reduced because
+of the reduction in the logic swing due to
+
+338
+00:42:11.580 --> 00:42:18.260
+the bi polar transistor. Now this problem
+is going to be more severe as we go for low
+
+339
+00:42:18.260 --> 00:42:26.330
+voltage circuit. Suppose the VDD is now 3
+volts and VT of course will be also reduced,
+
+340
+00:42:26.330 --> 00:42:36.590
+we have a 3 volt circuits say 0.6 volts then
+this ratio is going to be equal to
+
+341
+00:42:36.590 --> 00:42:49.990
+say 50 (3-1.6- 0.6) squared divided by (3
+- 0.6) squared. So this is going to be 50
+
+342
+00:42:49.990 --> 00:43:08.990
+into, this is 0.8 squared divided by 2.4 squared,
+so it is about 5 or so.
+
+343
+00:43:08.990 --> 00:43:16.260
+This ratio is further reduced so we see that
+as we go for low and lower voltage circuits,
+
+344
+00:43:16.260 --> 00:43:23.240
+this ratio is reduced. The advantage of bi
+CMOS is severely reduced as we go for lower
+
+345
+00:43:23.240 --> 00:43:31.950
+and lower voltage. If we go for say 2.5 volt
+circuit for example then the bi CMOS would
+
+346
+00:43:31.950 --> 00:43:39.820
+not be as advantageous as a CMOS. There are
+lot of circuits which has come up which would
+
+347
+00:43:39.820 --> 00:43:48.670
+like to retain the advantages of bi CMOS even
+at low voltages. So what is done is we have
+
+348
+00:43:48.670 --> 00:43:58.210
+low voltage bi CMOS circuits where an attempt
+is made for full swing operation. I will just
+
+349
+00:43:58.210 --> 00:44:06.620
+give one example which has been used in the
+Pentium chip. So what they do is you take
+
+350
+00:44:06.620 --> 00:44:18.080
+a NAND gate, this is basically a CMOS NAND
+then which goes to the bi polar transistor
+
+351
+00:44:18.080 --> 00:44:30.490
+here and then here the pull down is actually
+done with the help of NMOS.
+
+352
+00:44:30.490 --> 00:44:39.080
+So we don’t use the bi polar transistor
+in the pull down because of the fact that
+
+353
+00:44:39.080 --> 00:44:44.510
+at low voltages it is no longer advantages
+to do a pull down because of the extra VBE
+
+354
+00:44:44.510 --> 00:44:51.670
+drop. One must also remember that here if
+you go back to this circuit, the difference
+
+355
+00:44:51.670 --> 00:44:58.010
+here is that this voltage here for the NMOS,
+the source voltage becomes VBE. If you have
+
+356
+00:44:58.010 --> 00:45:04.450
+VDD minus VBE here so it becomes VDD minus
+2 VBE across this but here since the source
+
+357
+00:45:04.450 --> 00:45:10.720
+of the PMOS is always at VDD, the gate to
+source voltage of the PMOS is not so much
+
+358
+00:45:10.720 --> 00:45:19.510
+affected as in the case of NMOS. So what it
+done here is you put an inverter here and
+
+359
+00:45:19.510 --> 00:45:31.100
+then follow it up with a PMOS. So this is
+basically the circuit, there are some other
+
+360
+00:45:31.100 --> 00:45:37.800
+additional circuitry here which is for preventing
+the break down on this transistor but we will
+
+361
+00:45:37.800 --> 00:45:38.800
+not go into that.
+
+362
+00:45:38.800 --> 00:45:46.330
+The basic idea here is that these are the
+two inputs here. Now when the output goes
+
+363
+00:45:46.330 --> 00:45:56.920
+high, the output capacitance is going to get
+charged up but only up to VDD minus VBE by
+
+364
+00:45:56.920 --> 00:46:01.490
+this bi polar transistor. After that what
+happens is since this output is high, we have
+
+365
+00:46:01.490 --> 00:46:07.690
+an inverter here, this also CMOS inverter.
+So this PMOS input voltage is low which turns
+
+366
+00:46:07.690 --> 00:46:18.150
+on this PMOS. What happens is this output
+voltage goes to VDD minus VBE, the bi polar
+
+367
+00:46:18.150 --> 00:46:23.520
+transistor helps to pull up the output to
+VDD minus VBE, after that the PMOS is there
+
+368
+00:46:23.520 --> 00:46:31.130
+to pull it up beyond that towards VDD. The
+output is going to go to VDD because of this
+
+369
+00:46:31.130 --> 00:46:36.350
+PMOS, at the same time it will also go to
+zero because you don’t have any bi polar
+
+370
+00:46:36.350 --> 00:46:45.630
+transistor. We have full swing operation from
+0 to VDD and so a lot of these circuits are
+
+371
+00:46:45.630 --> 00:46:52.380
+being developed nowadays for full swing operation,
+keeping in mind of the low voltage operation.
+
+372
+00:46:52.380 --> 00:46:57.620
+This is a particular circuit has been used
+in Pentium in fact there are different variations
+
+373
+00:46:57.620 --> 00:47:06.390
+of this full swing bi CMOS circuits by different
+groups of people from different companies
+
+374
+00:47:06.390 --> 00:47:15.040
+but what we see basically is for the pull
+down part, the NMOS goes back to the NMOS.
+
+375
+00:47:15.040 --> 00:47:23.010
+There is no bi polar transistor but for pull
+up the bi polar transistor is used which helps
+
+376
+00:47:23.010 --> 00:47:34.710
+to speed up the low to high transition of
+the output. So with that we come to the end
+
+377
+00:47:34.710 --> 00:47:42.560
+of this section on basic bi CMOS circuitry,
+we shall take up some more applications of
+
+378
+00:47:42.560 --> 00:48:11.990
+this bi CMOS in the next few classes.
+

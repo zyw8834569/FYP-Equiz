@@ -50,137 +50,120 @@ player.fluid(true);
 
 var playlist =
   [{
-    name: 'MOSFET DC Characterization',
-    duration: 823,
+    name: 'BiCMOS logic',
+    duration: 405,
     sources: [{
-      src: 'https://www.youtube.com/embed/W80SJ8QNL_g',
+      src: 'https://www.youtube.com/embed/fpoJw8JOkI4',
       type: 'video/youtube',
 
     }],
-    track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/MOSFET DC Characterization.vtt' },
-    poster: './assets/Poster/Chapeter2/MOSFET DC Characterization.png',
+    track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter3/BiCMOS logic.vtt' },
+    poster: './assets/Poster/Chapeter3/BiCMOS logic.png',
     thumbnail: [{
-      srcset: './assets/Thumbnail/Chapeter2/MOSFET DC Characterization.jpg',
+      srcset: './assets/Thumbnail/Chapeter3/BiCMOS logic.jpg',
       type: 'image/jpeg',
       media: '(min-width: 50px;)'
     }, {
-      src: './assets/Thumbnail/Chapeter2/MOSFET DC Characterization.jpg'
+      src: './assets/Thumbnail/Chapeter3/BiCMOS logic.jpg'
     }],
   }, {
 
-    name: 'Circuit Basics Learning Circuit',
-    duration: 398,
+    name: 'BiCMOS Gates',
+    duration: 2908,
     sources: [{
-      src: 'https://www.youtube.com/embed/iZYedWOERN0',
+      src: 'https://www.youtube.com/embed/VTTJ7nYSus8',
       type: 'video/youtube'
     }],
-    track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/Circuit Basics Learning Circuit.vtt' },
-    poster: './assets/Poster/Chapeter2/Circuit Basics Learning Circuit.png',
+    track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter3/BiCMOS Gates.vtt' },
+    poster: './assets/Poster/Chapeter3/BiCMOS Gates.png',
     thumbnail: [{
-      srcset: './assets/Thumbnail/Chapeter2/Circuit Basics Learning Circuit.jpg',
+      srcset: './assets/Thumbnail/Chapeter3/BiCMOS Gates.jpg',
       type: 'image/jpeg',
       media: '(min-width: 50px;)'
     }, {
-      src: './assets/Thumbnail/Chapeter2/Circuit Basics Learning Circuit.jpg'
+      src: './assets/Thumbnail/Chapeter3/BiCMOS Gates.jpg'
     }]
   }, {
-    name: 'What is a CMOS',
-    duration: 474,
+    name: 'BiCMOS Technologies',
+    duration: 192,
     sources: [{
-      src: 'https://www.youtube.com/embed/docgmTprR5o',
+      src: 'https://www.youtube.com/embed/e7k_KLwUwaQ',
       type: 'video/youtube'
     }],
-    track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/What is a CMOS.vtt' },
-    poster: './assets/Poster/Chapeter2/What is a CMOS.png',
+    track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter3/BiCMOS Technologies.vtt' },
+    poster: './assets/Poster/Chapeter3/BiCMOS Technologies.png',
     thumbnail: [{
-      srcset: './assets/Thumbnail/Chapeter2/What is a CMOS.jpg',
+      srcset: './assets/Thumbnail/Chapeter3/BiCMOS Technologies.jpg',
       type: 'image/jpeg',
       media: '(min-width: 50px;)'
     }, {
-      src: './assets/Thumbnail/Chapeter2/What is a CMOS.jpg'
+      src: './assets/Thumbnail/Chapeter3/BiCMOS Technologies.jpg'
     }]
   }, {
-    name: 'What is Field Effect Transistor',
-    duration: 781,
+    name: 'BiCMOS Fabrication',
+    duration: 265,
     sources: [{
-      src: 'https://www.youtube.com/embed/3Ny3wzw0ke0',
+      src: 'https://www.youtube.com/embed/-4jOzGN0GTw',
       type: 'video/youtube'
     }],
 
-    track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/What is Field Effect Transistor.vtt' },
-    poster: './assets/Poster/Chapeter2/What is Field Effect Transistor.png',
+    track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter3/BiCMOS Fabrication.vtt' },
+    poster: './assets/Poster/Chapeter3/BiCMOS Fabrication.png',
     thumbnail: [{
-      srcset: './assets/Thumbnail/Chapeter2/What is Field Effect Transistor.jpg',
+      srcset: './assets/Thumbnail/Chapeter3/BiCMOS Fabrication.jpg',
       type: 'image/jpeg',
       media: '(min-width: 50px;)'
     }, {
-      src: './assets/Thumbnail/Chapeter2/What is Field Effect Transistor.jpg'
+      src: './assets/Thumbnail/Chapeter3/BiCMOS Fabrication.jpg'
     }]
   }, {
-    name: 'MOSFET explained',
-    duration: 716,
+    name: 'BICMOS NAND Gate',
+    duration: 997,
     sources: [{
-      src: 'https://www.youtube.com/embed/ymFfw_MGceI',
+      src: 'https://www.youtube.com/embed/Ib5MNFvu1aA',
       type: 'video/youtube'
     }],
 
-    track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/MOSFETs explained.vtt' },
-    poster: './assets/Poster/Chapeter2/MOSFET explained.png',
+    track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter3/BICMOS NAND Gate.vtt' },
+    poster: './assets/Poster/Chapeter3/BICMOS NAND Gate.png',
     thumbnail: [{
-      srcset: './assets/Thumbnail/Chapeter2/MOSFET explained.jpg',
+      srcset: './assets/Thumbnail/Chapeter3/BICMOS NAND Gate.jpg',
       type: 'image/jpeg',
       media: '(min-width: 50px;)'
     }, {
-      src: './assets/Thumbnail/Chapeter2/MOSFET explained.jpg'
+      src: './assets/Thumbnail/Chapeter3/BICMOS NAND Gate.jpg'
     }]
   }, {
-    name: 'Building logic gates from MOSFET transistors',
-    duration: 649,
+    name: 'BiCMOS Fabrication 2',
+    duration: 624,
     sources: [{
-      src: 'https://www.youtube.com/embed/1rZyGL1K5QI',
+      src: 'https://www.youtube.com/embed/7f3Z3K7kz5U',
       type: 'video/youtube'
     }],
-    track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/Building logic gates.vtt' },
-    poster: './assets/Poster/Chapeter2/Building logic gates.png',
+    track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter3/BiCMOS Fabrication 2.vtt' },
+    poster: './assets/Poster/Chapeter3/BiCMOS Fabrication 2.png',
     thumbnail: [{
-      srcset: './assets/Thumbnail/Chapeter2/Building logic gates.jpg',
+      srcset: './assets/Thumbnail/Chapeter3/BiCMOS Fabrication 2.jpg',
       type: 'image/jpeg',
       media: '(min-width: 50px;)'
     }, {
-      src: './assets/Thumbnail/Chapeter2/Building logic gates.jpg'
+      src: './assets/Thumbnail/Chapeter3/BiCMOS Fabrication 2.jpg'
     }]
   }, {
-    name: 'Thevenin Theorem',
-    duration: 563,
+    name: 'Bi-CMOS TECHNOLOGY',
+    duration: 894,
     sources: [{
-      src: 'https://www.youtube.com/embed/zTDgziJC-q8',
+      src: 'https://www.youtube.com/embed/MbZqDRJjqPg',
       type: 'video/youtube'
     }],
-    track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/Thevenin Theorem.vtt' },
-    poster: './assets/Poster/Chapeter2/Thevenin-Theorem.png',
+    track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter3/Bi-CMOS TECHNOLOGY.vtt' },
+    poster: './assets/Poster/Chapeter3/Bi-CMOS TECHNOLOGY.png',
     thumbnail: [{
-      srcset: './assets/Thumbnail/Chapeter2/Thevenin-Theorem.jpg',
+      srcset: './assets/Thumbnail/Chapeter3/Bi-CMOS TECHNOLOGY.jpg',
       type: 'image/jpeg',
       media: '(min-width: 50px;)'
     }, {
-      src: './assets/Thumbnail/Chapeter2/Thevenin-Theorem.jpg'
-    }]
-
-  }, {
-    name: 'Superposition Theorem',
-    duration: 507,
-    sources: [{
-      src: 'https://www.youtube.com/embed/ZJ8zD8m-B1Q',
-      type: 'video/youtube'
-    }],
-    track: { kind: 'captions', label: 'English', srclang: 'en', src: './assets/VTT/Chapeter2/Superposition Theorem.vtt' },
-    poster: './assets/Poster/Chapeter2/Superposition-Theorem.png',
-    thumbnail: [{
-      srcset: './assets/Thumbnail/Chapeter2/Superposition-Theorem.jpg',
-      type: 'image/jpeg',
-      media: '(min-width: 50px;)'
-    }, {
-      src: './assets/Thumbnail/Chapeter2/Superposition-Theorem.jpg'
+      src: './assets/Thumbnail/Chapeter3/Bi-CMOS TECHNOLOGY.jpg'
     }]
 
   }

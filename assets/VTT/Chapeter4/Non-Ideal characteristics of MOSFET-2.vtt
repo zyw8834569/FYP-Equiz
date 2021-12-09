@@ -1,0 +1,4462 @@
+WEBVTT
+
+1
+00:00:05.279 --> 00:00:06.879
+yeah so in the last couple of classes we
+
+2
+00:00:06.879 --> 00:00:07.839
+were talking about the cv
+
+3
+00:00:07.839 --> 00:00:09.040
+characteristics and then
+
+4
+00:00:09.040 --> 00:00:10.800
+after the cv characteristics discussion
+
+5
+00:00:10.800 --> 00:00:12.400
+we were getting into
+
+6
+00:00:12.400 --> 00:00:15.200
+the secondary effects and these are the
+
+7
+00:00:15.200 --> 00:00:17.199
+list of effects that
+
+8
+00:00:17.199 --> 00:00:19.439
+we supposed to discuss and as you said
+
+9
+00:00:19.439 --> 00:00:21.119
+there are a few effects that will be
+
+10
+00:00:21.119 --> 00:00:22.320
+having a glimpse of it
+
+11
+00:00:22.320 --> 00:00:24.160
+but the certain effects that i will go
+
+12
+00:00:24.160 --> 00:00:26.720
+in depth in the sense not too much of
+
+13
+00:00:26.720 --> 00:00:28.720
+depth at the level of physics but
+
+14
+00:00:28.720 --> 00:00:30.240
+certainly that would help us to
+
+15
+00:00:30.240 --> 00:00:32.800
+model the uh behavior okay so i'll just
+
+16
+00:00:32.800 --> 00:00:34.559
+try to model few of the behaviors of
+
+17
+00:00:34.559 --> 00:00:35.120
+these
+
+18
+00:00:35.120 --> 00:00:37.680
+effects yeah so today we will just begin
+
+19
+00:00:37.680 --> 00:00:38.879
+with this discussion okay
+
+20
+00:00:38.879 --> 00:00:41.360
+so in the last class when i started
+
+21
+00:00:41.360 --> 00:00:42.320
+talking about it
+
+22
+00:00:42.320 --> 00:00:43.920
+i said that this velocity saturation
+
+23
+00:00:43.920 --> 00:00:45.520
+effect is an effect that happens because
+
+24
+00:00:45.520 --> 00:00:45.920
+of the
+
+25
+00:00:45.920 --> 00:00:49.440
+lateral electric field okay so this is
+
+26
+00:00:49.440 --> 00:00:52.000
+an electric field that is created
+
+27
+00:00:52.000 --> 00:00:52.800
+because of the
+
+28
+00:00:52.800 --> 00:00:56.320
+vds okay due to this electrical uh field
+
+29
+00:00:56.320 --> 00:00:57.600
+between the source and the drain
+
+30
+00:00:57.600 --> 00:00:59.520
+there is some physical phenomena that is
+
+31
+00:00:59.520 --> 00:01:02.160
+happening to the ids
+
+32
+00:01:02.160 --> 00:01:03.520
+quantity okay this is what we are going
+
+33
+00:01:03.520 --> 00:01:05.680
+to study under this saturation effect so
+
+34
+00:01:05.680 --> 00:01:08.000
+in order to study the behavior of our
+
+35
+00:01:08.000 --> 00:01:10.000
+ideas when i have a lateral electric
+
+36
+00:01:10.000 --> 00:01:11.439
+field what i did is
+
+37
+00:01:11.439 --> 00:01:15.280
+i took a very long channel device
+
+38
+00:01:15.439 --> 00:01:17.680
+and using this long channel device i try
+
+39
+00:01:17.680 --> 00:01:18.560
+to derive the
+
+40
+00:01:18.560 --> 00:01:20.400
+relation of ideas okay so finally what
+
+41
+00:01:20.400 --> 00:01:22.159
+we found is that we found
+
+42
+00:01:22.159 --> 00:01:23.920
+two different current equation one for
+
+43
+00:01:23.920 --> 00:01:25.360
+the linear region
+
+44
+00:01:25.360 --> 00:01:27.920
+okay we started with the expression of
+
+45
+00:01:27.920 --> 00:01:29.200
+qch by
+
+46
+00:01:29.200 --> 00:01:31.439
+transit time and that can be written as
+
+47
+00:01:31.439 --> 00:01:33.439
+something like mu n cyx
+
+48
+00:01:33.439 --> 00:01:36.880
+w by l and then
+
+49
+00:01:36.880 --> 00:01:40.000
+vgs minus vt minus vds by
+
+50
+00:01:40.000 --> 00:01:42.960
+2 into vds okay so this was the current
+
+51
+00:01:42.960 --> 00:01:44.079
+equation that we derived
+
+52
+00:01:44.079 --> 00:01:46.000
+and in order to get the saturation
+
+53
+00:01:46.000 --> 00:01:47.119
+current equation
+
+54
+00:01:47.119 --> 00:01:49.119
+what we did is that we just substituted
+
+55
+00:01:49.119 --> 00:01:51.040
+our vds to be exactly equal to
+
+56
+00:01:51.040 --> 00:01:55.200
+vds sat and that value of vdsat was
+
+57
+00:01:55.200 --> 00:01:58.159
+equal to vgs minus vt okay so this is
+
+58
+00:01:58.159 --> 00:01:59.360
+more important
+
+59
+00:01:59.360 --> 00:02:01.200
+so what i've done is like i try to
+
+60
+00:02:01.200 --> 00:02:03.360
+replace this vds
+
+61
+00:02:03.360 --> 00:02:05.600
+with vgs minus vt expression so when we
+
+62
+00:02:05.600 --> 00:02:07.600
+do so we end up having this current
+
+63
+00:02:07.600 --> 00:02:08.160
+equation
+
+64
+00:02:08.160 --> 00:02:09.840
+which i can write it as id sat or the
+
+65
+00:02:09.840 --> 00:02:11.280
+current in the saturation current as
+
+66
+00:02:11.280 --> 00:02:12.000
+something
+
+67
+00:02:12.000 --> 00:02:15.360
+like half mu n c o x
+
+68
+00:02:15.360 --> 00:02:18.400
+w by l into v g s minus v t the whole
+
+69
+00:02:18.400 --> 00:02:18.800
+square
+
+70
+00:02:18.800 --> 00:02:20.800
+okay so now let us try to plot this
+
+71
+00:02:20.800 --> 00:02:22.080
+behaviors of
+
+72
+00:02:22.080 --> 00:02:25.200
+of of long channel in terms of
+
+73
+00:02:25.200 --> 00:02:29.040
+graphs okay so i just want to plot them
+
+74
+00:02:29.040 --> 00:02:32.319
+one versus vgs id versus vgs
+
+75
+00:02:32.319 --> 00:02:36.239
+the other one has ids versus vds
+
+76
+00:02:36.239 --> 00:02:38.239
+and as i said this is the graph that we
+
+77
+00:02:38.239 --> 00:02:40.239
+call it as a transfer catalystic graph
+
+78
+00:02:40.239 --> 00:02:40.959
+because
+
+79
+00:02:40.959 --> 00:02:44.080
+vgs would act as a kind of input voltage
+
+80
+00:02:44.080 --> 00:02:46.160
+whereas ids is nothing but an output
+
+81
+00:02:46.160 --> 00:02:47.840
+current so it's a plot between input and
+
+82
+00:02:47.840 --> 00:02:49.920
+output so due to which we call this a as
+
+83
+00:02:49.920 --> 00:02:51.840
+a kind of transfer characteristic graph
+
+84
+00:02:51.840 --> 00:02:54.480
+whereas the graph towards the right that
+
+85
+00:02:54.480 --> 00:02:56.800
+is ids versus vds we call this graph as
+
+86
+00:02:56.800 --> 00:02:59.040
+an output characteristic graph
+
+87
+00:02:59.040 --> 00:03:02.959
+okay and this one is just the transfer
+
+88
+00:03:02.959 --> 00:03:05.519
+characteristic graph yeah yeah so now i
+
+89
+00:03:05.519 --> 00:03:06.080
+hope that
+
+90
+00:03:06.080 --> 00:03:08.080
+you you might already know these answers
+
+91
+00:03:08.080 --> 00:03:09.280
+so just a quick
+
+92
+00:03:09.280 --> 00:03:11.120
+review of it we assume that the value of
+
+93
+00:03:11.120 --> 00:03:13.680
+ids is completely equal to zero
+
+94
+00:03:13.680 --> 00:03:16.239
+okay uh till i reach the value of regis
+
+95
+00:03:16.239 --> 00:03:16.720
+that is
+
+96
+00:03:16.720 --> 00:03:19.280
+equal to vt and beyond that what happens
+
+97
+00:03:19.280 --> 00:03:19.920
+is that
+
+98
+00:03:19.920 --> 00:03:22.879
+you get some sort of current okay so
+
+99
+00:03:22.879 --> 00:03:23.599
+again
+
+100
+00:03:23.599 --> 00:03:25.120
+you will have different sets of graphs
+
+101
+00:03:25.120 --> 00:03:27.040
+for different values of vds
+
+102
+00:03:27.040 --> 00:03:30.239
+okay so we will restrict to a single
+
+103
+00:03:30.239 --> 00:03:32.400
+value of vds here okay
+
+104
+00:03:32.400 --> 00:03:34.000
+and this is the kind of graph and when i
+
+105
+00:03:34.000 --> 00:03:35.840
+look here the particular region
+
+106
+00:03:35.840 --> 00:03:37.760
+where our transfer would be in
+
+107
+00:03:37.760 --> 00:03:39.120
+saturation assuming that
+
+108
+00:03:39.120 --> 00:03:41.680
+we have vds that is greater than zero
+
+109
+00:03:41.680 --> 00:03:42.400
+okay so
+
+110
+00:03:42.400 --> 00:03:44.159
+in this particular segment we first
+
+111
+00:03:44.159 --> 00:03:45.760
+enter into saturation and then we get
+
+112
+00:03:45.760 --> 00:03:46.000
+into
+
+113
+00:03:46.000 --> 00:03:48.000
+linear okay so something like a kind of
+
+114
+00:03:48.000 --> 00:03:49.200
+a linear
+
+115
+00:03:49.200 --> 00:03:51.040
+relation will happen here but there are
+
+116
+00:03:51.040 --> 00:03:52.400
+certainly some sort of quadratic
+
+117
+00:03:52.400 --> 00:03:54.000
+relation happens at this particular zone
+
+118
+00:03:54.000 --> 00:03:54.400
+okay
+
+119
+00:03:54.400 --> 00:03:56.159
+now why does this quadratic relation
+
+120
+00:03:56.159 --> 00:03:58.000
+happens when i try to plot ids versus
+
+121
+00:03:58.000 --> 00:03:59.680
+vgs
+
+122
+00:03:59.680 --> 00:04:01.599
+why does this graph takes a kind of
+
+123
+00:04:01.599 --> 00:04:02.799
+quadratic nature
+
+124
+00:04:02.799 --> 00:04:04.239
+like a kind of parabola at this
+
+125
+00:04:04.239 --> 00:04:05.360
+particular junction and we are in
+
+126
+00:04:05.360 --> 00:04:07.760
+saturation regime
+
+127
+00:04:07.760 --> 00:04:11.200
+should we repeat the question now
+
+128
+00:04:11.200 --> 00:04:14.159
+uh when i try to plot ids versus vgs we
+
+129
+00:04:14.159 --> 00:04:15.680
+know that the transistor
+
+130
+00:04:15.680 --> 00:04:18.320
+would be in cut off between the value of
+
+131
+00:04:18.320 --> 00:04:20.639
+vgs when it is equal to zero to vt
+
+132
+00:04:20.639 --> 00:04:22.800
+right and after then it gets into
+
+133
+00:04:22.800 --> 00:04:24.880
+saturation within maybe
+
+134
+00:04:24.880 --> 00:04:26.639
+probably this graph might not tell you
+
+135
+00:04:26.639 --> 00:04:29.840
+exactly why we are in saturation but
+
+136
+00:04:29.840 --> 00:04:33.360
+i think we know that whenever the value
+
+137
+00:04:33.360 --> 00:04:35.280
+of vds is greater than
+
+138
+00:04:35.280 --> 00:04:38.960
+vgs minus vt then this is the condition
+
+139
+00:04:38.960 --> 00:04:40.800
+for saturation okay so let us assume
+
+140
+00:04:40.800 --> 00:04:41.440
+that our
+
+141
+00:04:41.440 --> 00:04:42.800
+value of vds that i've plotted is
+
+142
+00:04:42.800 --> 00:04:44.880
+greater than zero so which means that
+
+143
+00:04:44.880 --> 00:04:47.199
+we have a positive value for our vds so
+
+144
+00:04:47.199 --> 00:04:48.479
+in that case the moment i
+
+145
+00:04:48.479 --> 00:04:52.240
+cross this vt the value of vgs minus vt
+
+146
+00:04:52.240 --> 00:04:53.520
+would be much smaller than the value of
+
+147
+00:04:53.520 --> 00:04:55.360
+vds that i have due to which from cut
+
+148
+00:04:55.360 --> 00:04:56.800
+off we will be entering into
+
+149
+00:04:56.800 --> 00:04:59.360
+saturation regime and after a while
+
+150
+00:04:59.360 --> 00:05:00.160
+we'll be
+
+151
+00:05:00.160 --> 00:05:01.680
+at the edge of the saturation and then
+
+152
+00:05:01.680 --> 00:05:04.720
+we will move on to linear region okay
+
+153
+00:05:04.720 --> 00:05:07.680
+so for an nmos device i think this these
+
+154
+00:05:07.680 --> 00:05:09.520
+equations we have already seen
+
+155
+00:05:09.520 --> 00:05:11.039
+so we assume that the value of ideas is
+
+156
+00:05:11.039 --> 00:05:12.960
+equal to zero for transfer that is
+
+157
+00:05:12.960 --> 00:05:16.639
+in cut off and
+
+158
+00:05:16.639 --> 00:05:19.919
+when the value of ideas is is not equal
+
+159
+00:05:19.919 --> 00:05:20.400
+to zero
+
+160
+00:05:20.400 --> 00:05:22.880
+then there can be two possible regions
+
+161
+00:05:22.880 --> 00:05:24.400
+and the possibility of either of these
+
+162
+00:05:24.400 --> 00:05:25.199
+two regions
+
+163
+00:05:25.199 --> 00:05:26.960
+depends on the value of vds and vgs
+
+164
+00:05:26.960 --> 00:05:30.639
+right so if i say i am in linear
+
+165
+00:05:30.639 --> 00:05:35.440
+region the relation between the vds
+
+166
+00:05:35.440 --> 00:05:38.400
+and vgs can be returned something like
+
+167
+00:05:38.400 --> 00:05:40.240
+this okay when the value of v is smaller
+
+168
+00:05:40.240 --> 00:05:42.160
+than the value of v just minus v t
+
+169
+00:05:42.160 --> 00:05:46.000
+then we'll be in the linear region clear
+
+170
+00:05:46.000 --> 00:05:48.880
+but when i say that i'm in the
+
+171
+00:05:48.880 --> 00:05:51.199
+saturation.j
+
+172
+00:05:51.199 --> 00:05:53.680
+then the value of vds supposed to be
+
+173
+00:05:53.680 --> 00:05:54.479
+greater than
+
+174
+00:05:54.479 --> 00:05:57.520
+or equal to vgs minus vt
+
+175
+00:05:57.520 --> 00:06:00.319
+correct so now the mode i cross this
+
+176
+00:06:00.319 --> 00:06:02.160
+particular voltage i have some sort of
+
+177
+00:06:02.160 --> 00:06:04.000
+positive value of v gs minus vt
+
+178
+00:06:04.000 --> 00:06:06.319
+okay because this is my v g's axis and
+
+179
+00:06:06.319 --> 00:06:07.919
+when i subtract the value of v t
+
+180
+00:06:07.919 --> 00:06:09.680
+there will be a very small amount of
+
+181
+00:06:09.680 --> 00:06:11.280
+voltage that i will have across v g s
+
+182
+00:06:11.280 --> 00:06:12.639
+minus v t term okay
+
+183
+00:06:12.639 --> 00:06:14.160
+and that value when i compare with
+
+184
+00:06:14.160 --> 00:06:16.240
+respect to radius it is quite smaller
+
+185
+00:06:16.240 --> 00:06:18.000
+due to which i am satisfying
+
+186
+00:06:18.000 --> 00:06:20.400
+the saturation region condition okay so
+
+187
+00:06:20.400 --> 00:06:21.520
+from cutoff
+
+188
+00:06:21.520 --> 00:06:23.360
+we are entering into saturation regime
+
+189
+00:06:23.360 --> 00:06:25.120
+first and then
+
+190
+00:06:25.120 --> 00:06:28.000
+once i increase the value of vgs for a
+
+191
+00:06:28.000 --> 00:06:29.919
+fixed value of vds i'm talking okay
+
+192
+00:06:29.919 --> 00:06:32.880
+so as i keep increasing the value of vgs
+
+193
+00:06:32.880 --> 00:06:34.000
+what happens to the v g s minus
+
+194
+00:06:34.000 --> 00:06:37.360
+v d term that keeps rising and
+
+195
+00:06:37.360 --> 00:06:39.440
+momentarily we just move from this
+
+196
+00:06:39.440 --> 00:06:42.240
+saturation regime to linear region once
+
+197
+00:06:42.240 --> 00:06:45.440
+i have a huge value of v s minus v t
+
+198
+00:06:45.440 --> 00:06:47.280
+which is greater than the value of v d s
+
+199
+00:06:47.280 --> 00:06:49.120
+okay so this is how the travel so even
+
+200
+00:06:49.120 --> 00:06:50.479
+though if you're not comfortable
+
+201
+00:06:50.479 --> 00:06:52.800
+with this way of writing i'll talk about
+
+202
+00:06:52.800 --> 00:06:54.479
+the same concept when we talk about dc
+
+203
+00:06:54.479 --> 00:06:55.440
+characteristics of
+
+204
+00:06:55.440 --> 00:06:58.479
+cmos inverter okay but the only thing
+
+205
+00:06:58.479 --> 00:06:59.280
+that i want to
+
+206
+00:06:59.280 --> 00:07:01.039
+emphasize here is that there is a kind
+
+207
+00:07:01.039 --> 00:07:02.639
+of quadratic
+
+208
+00:07:02.639 --> 00:07:05.680
+graph between the id and vgs when i try
+
+209
+00:07:05.680 --> 00:07:08.080
+to plot there is a kind of curvature
+
+210
+00:07:08.080 --> 00:07:11.039
+that you could see and this curvature
+
+211
+00:07:11.039 --> 00:07:12.000
+represents a
+
+212
+00:07:12.000 --> 00:07:13.759
+quadratic relation between the id and
+
+213
+00:07:13.759 --> 00:07:15.759
+the vgs so why does this quadratic
+
+214
+00:07:15.759 --> 00:07:18.639
+relation appears
+
+215
+00:07:19.360 --> 00:07:21.919
+due to what
+
+216
+00:07:24.960 --> 00:07:29.199
+in the id set yeah
+
+217
+00:07:29.440 --> 00:07:32.720
+yeah there is a square exactly so there
+
+218
+00:07:32.720 --> 00:07:34.639
+is a square term that is sitting
+
+219
+00:07:34.639 --> 00:07:37.440
+in this ids sat expression okay and due
+
+220
+00:07:37.440 --> 00:07:38.080
+to which
+
+221
+00:07:38.080 --> 00:07:40.720
+even for a small increment in the value
+
+222
+00:07:40.720 --> 00:07:41.680
+of vgs
+
+223
+00:07:41.680 --> 00:07:44.879
+the current is actually stepping bias
+
+224
+00:07:44.879 --> 00:07:46.960
+factor of square okay and due to which
+
+225
+00:07:46.960 --> 00:07:48.479
+there is a quadratic relation and after
+
+226
+00:07:48.479 --> 00:07:48.960
+then
+
+227
+00:07:48.960 --> 00:07:51.440
+you would see some sort of linear
+
+228
+00:07:51.440 --> 00:07:53.680
+relation between the id and vgs
+
+229
+00:07:53.680 --> 00:07:56.479
+okay so this is the nominal graph for a
+
+230
+00:07:56.479 --> 00:07:57.840
+long channel device okay whatever i'm
+
+231
+00:07:57.840 --> 00:07:59.360
+plotting is only for long channel device
+
+232
+00:07:59.360 --> 00:07:59.919
+and i've
+
+233
+00:07:59.919 --> 00:08:02.160
+still not had gone to the saturation
+
+234
+00:08:02.160 --> 00:08:03.360
+effect okay
+
+235
+00:08:03.360 --> 00:08:05.199
+and now we will just get into the other
+
+236
+00:08:05.199 --> 00:08:07.440
+graph where i want to plot id versus
+
+237
+00:08:07.440 --> 00:08:10.080
+vds okay now again we know that there is
+
+238
+00:08:10.080 --> 00:08:12.240
+a kind of
+
+239
+00:08:12.240 --> 00:08:15.599
+no current when the value of vgs is less
+
+240
+00:08:15.599 --> 00:08:16.560
+than vt
+
+241
+00:08:16.560 --> 00:08:18.479
+okay but i would have certainly an
+
+242
+00:08:18.479 --> 00:08:20.319
+amount of current for the value of
+
+243
+00:08:20.319 --> 00:08:22.639
+vgs that is greater than vt okay so i'll
+
+244
+00:08:22.639 --> 00:08:24.800
+just mark it as vgs one
+
+245
+00:08:24.800 --> 00:08:28.560
+and the next vgs2 will have a higher
+
+246
+00:08:28.560 --> 00:08:30.960
+value
+
+247
+00:08:31.919 --> 00:08:35.279
+okay so each of these vgs
+
+248
+00:08:35.279 --> 00:08:37.519
+are being incremented at an equal step
+
+249
+00:08:37.519 --> 00:08:38.880
+okay so what does that mean is that
+
+250
+00:08:38.880 --> 00:08:41.839
+if i have say for example one volt the
+
+251
+00:08:41.839 --> 00:08:43.919
+vgs2 would be like two word the vgs3
+
+252
+00:08:43.919 --> 00:08:45.200
+will be like three volt and we just
+
+253
+00:08:45.200 --> 00:08:46.240
+would be like four volt
+
+254
+00:08:46.240 --> 00:08:48.240
+okay so the the difference between the
+
+255
+00:08:48.240 --> 00:08:49.360
+neighboring
+
+256
+00:08:49.360 --> 00:08:52.160
+voltages is all one word when i do so
+
+257
+00:08:52.160 --> 00:08:52.720
+you could see
+
+258
+00:08:52.720 --> 00:08:54.959
+that the currents were expanding is not
+
+259
+00:08:54.959 --> 00:08:56.080
+equal okay
+
+260
+00:08:56.080 --> 00:08:58.160
+it is not exactly incremented in the
+
+261
+00:08:58.160 --> 00:08:59.200
+same equal step
+
+262
+00:08:59.200 --> 00:09:00.880
+heights okay the height difference
+
+263
+00:09:00.880 --> 00:09:02.000
+between these two currents and the
+
+264
+00:09:02.000 --> 00:09:02.959
+height difference between these two
+
+265
+00:09:02.959 --> 00:09:03.920
+currents are different
+
+266
+00:09:03.920 --> 00:09:07.279
+okay and this again
+
+267
+00:09:07.279 --> 00:09:09.600
+it's purely because of this square
+
+268
+00:09:09.600 --> 00:09:10.720
+relation that i have
+
+269
+00:09:10.720 --> 00:09:13.040
+okay because of any equal increment in
+
+270
+00:09:13.040 --> 00:09:14.320
+the value of vgs
+
+271
+00:09:14.320 --> 00:09:16.080
+the current is being incremented by the
+
+272
+00:09:16.080 --> 00:09:18.160
+square term and due to which we would
+
+273
+00:09:18.160 --> 00:09:19.279
+see some sort of
+
+274
+00:09:19.279 --> 00:09:21.680
+unequal height differences in the value
+
+275
+00:09:21.680 --> 00:09:23.920
+of ideas versus vds graphs
+
+276
+00:09:23.920 --> 00:09:26.880
+okay hope that it is clear because these
+
+277
+00:09:26.880 --> 00:09:28.240
+are the graphs that will help us
+
+278
+00:09:28.240 --> 00:09:30.880
+to see how does the plus station impacts
+
+279
+00:09:30.880 --> 00:09:31.440
+our
+
+280
+00:09:31.440 --> 00:09:33.519
+cara okay this is what the current
+
+281
+00:09:33.519 --> 00:09:34.720
+discussion is all about
+
+282
+00:09:34.720 --> 00:09:37.200
+so now let us talk about short channel
+
+283
+00:09:37.200 --> 00:09:39.200
+device
+
+284
+00:09:39.200 --> 00:09:40.800
+so when i say short channel device we
+
+285
+00:09:40.800 --> 00:09:42.320
+are talking about a channel that is less
+
+286
+00:09:42.320 --> 00:09:43.760
+than one micrometer
+
+287
+00:09:43.760 --> 00:09:45.760
+under this condition our relation that i
+
+288
+00:09:45.760 --> 00:09:49.200
+am trying to plot would be different
+
+289
+00:09:49.200 --> 00:09:52.399
+now what i mean by velocity saturation
+
+290
+00:09:52.399 --> 00:09:54.000
+is that when i try to plot electric
+
+291
+00:09:54.000 --> 00:09:56.080
+field that is the lateral electric field
+
+292
+00:09:56.080 --> 00:09:59.680
+versus the drift velocity okay
+
+293
+00:09:59.839 --> 00:10:01.360
+we know that there exists a relation
+
+294
+00:10:01.360 --> 00:10:03.200
+which is given by the classical physics
+
+295
+00:10:03.200 --> 00:10:05.200
+that the drift velocity is given by mu
+
+296
+00:10:05.200 --> 00:10:06.720
+times that of the electric field
+
+297
+00:10:06.720 --> 00:10:08.399
+okay we know that the electric field can
+
+298
+00:10:08.399 --> 00:10:09.839
+be returned or the lateral electric
+
+299
+00:10:09.839 --> 00:10:10.800
+field can be determined
+
+300
+00:10:10.800 --> 00:10:13.519
+as vds divided by that channel length
+
+301
+00:10:13.519 --> 00:10:13.920
+and
+
+302
+00:10:13.920 --> 00:10:16.000
+the moment i reduce the channel length
+
+303
+00:10:16.000 --> 00:10:17.120
+say for example like
+
+304
+00:10:17.120 --> 00:10:19.839
+180 nanometer okay what happens is that
+
+305
+00:10:19.839 --> 00:10:20.800
+even for small
+
+306
+00:10:20.800 --> 00:10:22.720
+values of vds that i have the electric
+
+307
+00:10:22.720 --> 00:10:24.000
+field will suddenly
+
+308
+00:10:24.000 --> 00:10:26.320
+goes to a very very high value okay and
+
+309
+00:10:26.320 --> 00:10:27.440
+due to which
+
+310
+00:10:27.440 --> 00:10:29.680
+these electrons or the carriers the
+
+311
+00:10:29.680 --> 00:10:31.279
+charge carriers attains
+
+312
+00:10:31.279 --> 00:10:34.399
+a saturation velocity okay and it never
+
+313
+00:10:34.399 --> 00:10:35.040
+follows this
+
+314
+00:10:35.040 --> 00:10:36.959
+expression okay so what i'm trying to
+
+315
+00:10:36.959 --> 00:10:38.079
+mean is that
+
+316
+00:10:38.079 --> 00:10:40.320
+during the small values of electric
+
+317
+00:10:40.320 --> 00:10:41.360
+field
+
+318
+00:10:41.360 --> 00:10:43.920
+the relation is generally followed given
+
+319
+00:10:43.920 --> 00:10:45.360
+by this particular
+
+320
+00:10:45.360 --> 00:10:48.240
+expression okay
+
+321
+00:10:48.480 --> 00:10:50.880
+but after attaining a particular
+
+322
+00:10:50.880 --> 00:10:52.160
+electric field which we called as
+
+323
+00:10:52.160 --> 00:10:54.959
+critical electric field e c the velocity
+
+324
+00:10:54.959 --> 00:10:57.120
+of the carriers becomes constant
+
+325
+00:10:57.120 --> 00:11:00.399
+and it attains a saturated
+
+326
+00:11:00.399 --> 00:11:03.760
+velocity here i guess this graph we have
+
+327
+00:11:03.760 --> 00:11:05.279
+discussed in the last class as well
+
+328
+00:11:05.279 --> 00:11:08.480
+okay now clearly this particular cara is
+
+329
+00:11:08.480 --> 00:11:09.360
+not
+
+330
+00:11:09.360 --> 00:11:13.120
+reflected by this classical physics
+
+331
+00:11:13.120 --> 00:11:15.279
+equation so we have to modify this drift
+
+332
+00:11:15.279 --> 00:11:17.040
+velocity expression in order to
+
+333
+00:11:17.040 --> 00:11:19.200
+fit this particular carrot that the real
+
+334
+00:11:19.200 --> 00:11:20.959
+device actually shows the behavior
+
+335
+00:11:20.959 --> 00:11:23.600
+okay so in order to reflect this
+
+336
+00:11:23.600 --> 00:11:24.959
+behavior
+
+337
+00:11:24.959 --> 00:11:26.880
+i'm just going to slightly modify our
+
+338
+00:11:26.880 --> 00:11:28.079
+drift velocity
+
+339
+00:11:28.079 --> 00:11:32.079
+expression okay so which is given as vds
+
+340
+00:11:32.079 --> 00:11:35.279
+is equal to mu times that of the
+
+341
+00:11:35.279 --> 00:11:40.079
+electric field divided by 1 plus
+
+342
+00:11:41.040 --> 00:11:44.079
+by ec okay so classically what we had
+
+343
+00:11:44.079 --> 00:11:44.560
+was
+
+344
+00:11:44.560 --> 00:11:47.279
+just the drift velocity was equal to mu
+
+345
+00:11:47.279 --> 00:11:48.240
+times that of e
+
+346
+00:11:48.240 --> 00:11:51.519
+l but now in order to accommodate this
+
+347
+00:11:51.519 --> 00:11:53.519
+particular carrot we have remodified
+
+348
+00:11:53.519 --> 00:11:55.360
+this drift velocity expression
+
+349
+00:11:55.360 --> 00:11:57.839
+to something that looks like this okay
+
+350
+00:11:57.839 --> 00:11:58.480
+now
+
+351
+00:11:58.480 --> 00:11:59.680
+there are two things that we need to
+
+352
+00:11:59.680 --> 00:12:01.760
+observe here which means that
+
+353
+00:12:01.760 --> 00:12:05.519
+for electric field that el that is
+
+354
+00:12:05.519 --> 00:12:07.120
+far far lower than the value of this
+
+355
+00:12:07.120 --> 00:12:08.880
+critical electric field what happens to
+
+356
+00:12:08.880 --> 00:12:09.440
+the ratio
+
+357
+00:12:09.440 --> 00:12:10.639
+when the lateral electric field is much
+
+358
+00:12:10.639 --> 00:12:12.240
+smaller than the critical electric field
+
+359
+00:12:12.240 --> 00:12:13.600
+how i can approximate this drift
+
+360
+00:12:13.600 --> 00:12:15.920
+velocity term
+
+361
+00:12:15.920 --> 00:12:18.959
+it would be still equal to ca
+
+362
+00:12:18.959 --> 00:12:22.720
+into e l yeah so this would be still
+
+363
+00:12:22.720 --> 00:12:24.720
+following the classical physics okay
+
+364
+00:12:24.720 --> 00:12:26.560
+but the moment i am trying to get closer
+
+365
+00:12:26.560 --> 00:12:28.320
+and closer say for example
+
+366
+00:12:28.320 --> 00:12:30.240
+for the electric field that is exactly
+
+367
+00:12:30.240 --> 00:12:31.920
+equal to
+
+368
+00:12:31.920 --> 00:12:34.480
+the critical electric field what happens
+
+369
+00:12:34.480 --> 00:12:35.120
+is that
+
+370
+00:12:35.120 --> 00:12:38.000
+this drift velocity will become v sat
+
+371
+00:12:38.000 --> 00:12:39.600
+and what is the value of this v sat
+
+372
+00:12:39.600 --> 00:12:42.160
+when i try to plug in where e equal to e
+
+373
+00:12:42.160 --> 00:12:42.800
+c
+
+374
+00:12:42.800 --> 00:12:46.160
+then it becomes something like
+
+375
+00:12:47.440 --> 00:12:50.480
+this okay our velocity saturation is
+
+376
+00:12:50.480 --> 00:12:51.680
+given by this particular
+
+377
+00:12:51.680 --> 00:12:53.839
+expression and this expression is valid
+
+378
+00:12:53.839 --> 00:12:55.600
+even for electric field that is greater
+
+379
+00:12:55.600 --> 00:12:56.000
+than
+
+380
+00:12:56.000 --> 00:12:57.760
+this critical electric field it stays
+
+381
+00:12:57.760 --> 00:13:00.079
+constant okay and that constant value is
+
+382
+00:13:00.079 --> 00:13:02.560
+evaluated based on this substitution
+
+383
+00:13:02.560 --> 00:13:05.360
+okay and we are keeping this as a kind
+
+384
+00:13:05.360 --> 00:13:06.000
+of
+
+385
+00:13:06.000 --> 00:13:08.800
+ec and what we are plotting is with
+
+386
+00:13:08.800 --> 00:13:10.160
+respect to el okay
+
+387
+00:13:10.160 --> 00:13:12.320
+so any further increase in the value of
+
+388
+00:13:12.320 --> 00:13:14.000
+this lateral electric field
+
+389
+00:13:14.000 --> 00:13:17.519
+this quantity will be a kind of constant
+
+390
+00:13:17.519 --> 00:13:20.320
+term okay yeah
+
+391
+00:13:20.320 --> 00:13:23.040
+sure you can ask sir uh like if you
+
+392
+00:13:23.040 --> 00:13:23.519
+increase
+
+393
+00:13:23.519 --> 00:13:28.720
+el then won't dl by ec be more than one
+
+394
+00:13:28.720 --> 00:13:30.959
+yeah the drift velocity is actually
+
+395
+00:13:30.959 --> 00:13:32.800
+being remapped into this expression okay
+
+396
+00:13:32.800 --> 00:13:34.560
+so we will will not be utilizing this
+
+397
+00:13:34.560 --> 00:13:36.320
+expression this is for the case
+
+398
+00:13:36.320 --> 00:13:38.240
+when i am having an electric field that
+
+399
+00:13:38.240 --> 00:13:40.079
+is less than the critical electric field
+
+400
+00:13:40.079 --> 00:13:41.279
+okay so there are two different
+
+401
+00:13:41.279 --> 00:13:43.839
+equations
+
+402
+00:13:44.240 --> 00:13:45.839
+okay and this expression is valid only
+
+403
+00:13:45.839 --> 00:13:47.519
+when i am working for an electric field
+
+404
+00:13:47.519 --> 00:13:48.160
+that is
+
+405
+00:13:48.160 --> 00:13:50.240
+less than the critical electric field
+
+406
+00:13:50.240 --> 00:13:51.360
+but
+
+407
+00:13:51.360 --> 00:13:53.839
+according to the graph this drift
+
+408
+00:13:53.839 --> 00:13:54.480
+velocity
+
+409
+00:13:54.480 --> 00:13:57.920
+would be equated to v sat when i
+
+410
+00:13:57.920 --> 00:14:00.160
+have electric field that is greater than
+
+411
+00:14:00.160 --> 00:14:02.160
+the critical electric field so these are
+
+412
+00:14:02.160 --> 00:14:03.040
+the two different
+
+413
+00:14:03.040 --> 00:14:07.199
+equations okay okay
+
+414
+00:14:07.199 --> 00:14:09.760
+yeah now let us try to evaluate the
+
+415
+00:14:09.760 --> 00:14:12.959
+current in the linear region
+
+416
+00:14:13.839 --> 00:14:17.199
+okay now as i said uh the current
+
+417
+00:14:17.199 --> 00:14:18.720
+equation as we did for the long channel
+
+418
+00:14:18.720 --> 00:14:19.600
+the current equation
+
+419
+00:14:19.600 --> 00:14:21.120
+can be written as the channel charge
+
+420
+00:14:21.120 --> 00:14:22.720
+divided by the transit time
+
+421
+00:14:22.720 --> 00:14:24.560
+end up having something like mu times
+
+422
+00:14:24.560 --> 00:14:26.160
+one plus our
+
+423
+00:14:26.160 --> 00:14:29.040
+lateral electric field divided by ec
+
+424
+00:14:29.040 --> 00:14:29.440
+okay
+
+425
+00:14:29.440 --> 00:14:31.839
+so you could clearly see that there is
+
+426
+00:14:31.839 --> 00:14:32.959
+this particular term
+
+427
+00:14:32.959 --> 00:14:34.160
+is happening just because of this
+
+428
+00:14:34.160 --> 00:14:37.040
+particular substitution
+
+429
+00:14:37.360 --> 00:14:40.000
+so the t can be written as drift
+
+430
+00:14:40.000 --> 00:14:41.519
+velocity
+
+431
+00:14:41.519 --> 00:14:44.079
+divided by the the length of the channel
+
+432
+00:14:44.079 --> 00:14:44.720
+okay
+
+433
+00:14:44.720 --> 00:14:46.720
+and then uh once you keep substituting
+
+434
+00:14:46.720 --> 00:14:48.000
+the qc edge which
+
+435
+00:14:48.000 --> 00:14:50.959
+i told the value of this qch was written
+
+436
+00:14:50.959 --> 00:14:53.040
+as
+
+437
+00:14:54.959 --> 00:14:57.600
+okay this vd which was our drift
+
+438
+00:14:57.600 --> 00:14:58.079
+velocity
+
+439
+00:14:58.079 --> 00:15:00.639
+can be represented by this expression
+
+440
+00:15:00.639 --> 00:15:03.040
+which is
+
+441
+00:15:03.680 --> 00:15:06.560
+uh mu times el divided by 1 plus el
+
+442
+00:15:06.560 --> 00:15:08.160
+times of ec okay so i'm just trying to
+
+443
+00:15:08.160 --> 00:15:09.680
+substitute each of these quantities here
+
+444
+00:15:09.680 --> 00:15:10.399
+okay
+
+445
+00:15:10.399 --> 00:15:13.440
+did i write this properly no this is uh
+
+446
+00:15:13.440 --> 00:15:16.000
+yeah so now that uh you just plug in the
+
+447
+00:15:16.000 --> 00:15:16.720
+value of this
+
+448
+00:15:16.720 --> 00:15:19.760
+vd that we had over here because we are
+
+449
+00:15:19.760 --> 00:15:21.040
+in linear region okay
+
+450
+00:15:21.040 --> 00:15:22.959
+so in the linear region the value of vds
+
+451
+00:15:22.959 --> 00:15:24.160
+is small
+
+452
+00:15:24.160 --> 00:15:26.079
+okay and you know which i'm just using
+
+453
+00:15:26.079 --> 00:15:27.760
+this particular
+
+454
+00:15:27.760 --> 00:15:29.199
+expression rather than using this
+
+455
+00:15:29.199 --> 00:15:31.040
+expression okay so
+
+456
+00:15:31.040 --> 00:15:32.320
+hope you're clear so i'm just
+
+457
+00:15:32.320 --> 00:15:34.079
+substituting this equation just because
+
+458
+00:15:34.079 --> 00:15:35.279
+the vds
+
+459
+00:15:35.279 --> 00:15:38.320
+value is small
+
+460
+00:15:39.360 --> 00:15:41.680
+due to which the lateral electric field
+
+461
+00:15:41.680 --> 00:15:42.399
+is
+
+462
+00:15:42.399 --> 00:15:44.160
+lesser than the critical electric field
+
+463
+00:15:44.160 --> 00:15:45.600
+and i am using this
+
+464
+00:15:45.600 --> 00:15:48.240
+vd expression to substitute over here so
+
+465
+00:15:48.240 --> 00:15:49.920
+once you substitute you end up having
+
+466
+00:15:49.920 --> 00:15:51.680
+some sort of beautiful expression
+
+467
+00:15:51.680 --> 00:15:54.639
+uh where mu would be there and there is
+
+468
+00:15:54.639 --> 00:15:56.240
+also a critical electric field that
+
+469
+00:15:56.240 --> 00:15:59.839
+comes here okay and
+
+470
+00:15:59.839 --> 00:16:01.920
+you have this entire equation which is
+
+471
+00:16:01.920 --> 00:16:03.279
+the qch
+
+472
+00:16:03.279 --> 00:16:05.839
+expression
+
+473
+00:16:06.480 --> 00:16:09.120
+the blue one is basically due to the
+
+474
+00:16:09.120 --> 00:16:12.480
+expression of qch and then
+
+475
+00:16:12.480 --> 00:16:14.560
+so uh one thing that i can write is like
+
+476
+00:16:14.560 --> 00:16:16.959
+el can also be written as a
+
+477
+00:16:16.959 --> 00:16:20.399
+vds by pl channel length okay so we will
+
+478
+00:16:20.399 --> 00:16:22.880
+hold this as well and uh due to which
+
+479
+00:16:22.880 --> 00:16:24.560
+i'm going to substitute wherever i have
+
+480
+00:16:24.560 --> 00:16:24.959
+this
+
+481
+00:16:24.959 --> 00:16:28.880
+el this is again el sorry yeah
+
+482
+00:16:28.880 --> 00:16:30.720
+so where i have this el i'm just going
+
+483
+00:16:30.720 --> 00:16:32.480
+to utilize this expression
+
+484
+00:16:32.480 --> 00:16:37.839
+so when you do so
+
+485
+00:16:40.160 --> 00:16:42.079
+okay so this vds expression is coming
+
+486
+00:16:42.079 --> 00:16:44.240
+out of this el term that is sitting at
+
+487
+00:16:44.240 --> 00:16:45.279
+the top okay
+
+488
+00:16:45.279 --> 00:16:48.079
+yeah so hope that it is clear so once i
+
+489
+00:16:48.079 --> 00:16:49.519
+substitute all of these things this
+
+490
+00:16:49.519 --> 00:16:51.600
+is the expression i have as a kind of
+
+491
+00:16:51.600 --> 00:16:53.199
+current equation now i'm just going to
+
+492
+00:16:53.199 --> 00:16:54.000
+introduce one
+
+493
+00:16:54.000 --> 00:16:56.079
+particular term which is known as kappa
+
+494
+00:16:56.079 --> 00:16:57.440
+okay so i'm just
+
+495
+00:16:57.440 --> 00:16:59.279
+going to rewrite this equation that i've
+
+496
+00:16:59.279 --> 00:17:00.959
+written here equation number one
+
+497
+00:17:00.959 --> 00:17:03.360
+in terms of kappa of something okay so i
+
+498
+00:17:03.360 --> 00:17:05.039
+am just going to write it as kappa of
+
+499
+00:17:05.039 --> 00:17:07.439
+vds
+
+500
+00:17:07.439 --> 00:17:10.480
+into the normal equation which is
+
+501
+00:17:10.480 --> 00:17:13.760
+mu times cox w by l
+
+502
+00:17:13.760 --> 00:17:16.880
+vgs minus vt minus vds
+
+503
+00:17:16.880 --> 00:17:20.079
+by 2 into vds okay so now when i look
+
+504
+00:17:20.079 --> 00:17:21.359
+for the expression what is this
+
+505
+00:17:21.359 --> 00:17:24.319
+kappa expression you could see just by
+
+506
+00:17:24.319 --> 00:17:25.760
+making a comparison between the equation
+
+507
+00:17:25.760 --> 00:17:26.720
+number 1 and 2
+
+508
+00:17:26.720 --> 00:17:30.320
+you could say that this kappa of vds
+
+509
+00:17:30.320 --> 00:17:35.039
+is nothing but it's 1 upon 1 plus
+
+510
+00:17:35.039 --> 00:17:38.160
+vds by ec times l
+
+511
+00:17:38.160 --> 00:17:41.039
+okay now one can also write the product
+
+512
+00:17:41.039 --> 00:17:41.360
+of
+
+513
+00:17:41.360 --> 00:17:44.000
+ec into l as something known as critical
+
+514
+00:17:44.000 --> 00:17:44.640
+voltage
+
+515
+00:17:44.640 --> 00:17:47.200
+so in the previous uh expression like
+
+516
+00:17:47.200 --> 00:17:48.480
+can you just like scroll a little
+
+517
+00:17:48.480 --> 00:17:49.520
+upwards
+
+518
+00:17:49.520 --> 00:17:52.720
+one okay uh there are actually el
+
+519
+00:17:52.720 --> 00:17:56.320
+when we substitute vds by l
+
+520
+00:17:56.400 --> 00:18:00.240
+then uh the w into l will becomes w
+
+521
+00:18:00.240 --> 00:18:04.480
+but then like how come w by actually
+
+522
+00:18:04.480 --> 00:18:06.960
+there is one more t that is sitting here
+
+523
+00:18:06.960 --> 00:18:08.000
+right
+
+524
+00:18:08.000 --> 00:18:12.080
+so this t has something like l by v d
+
+525
+00:18:12.080 --> 00:18:14.400
+okay so already there was one l that is
+
+526
+00:18:14.400 --> 00:18:15.440
+coming out here
+
+527
+00:18:15.440 --> 00:18:17.280
+because there is a cancellation so we
+
+528
+00:18:17.280 --> 00:18:18.880
+have two l's at the bottom
+
+529
+00:18:18.880 --> 00:18:20.880
+okay one of the l will get cancelled
+
+530
+00:18:20.880 --> 00:18:22.000
+with this l
+
+531
+00:18:22.000 --> 00:18:24.400
+and uh one more l comes from the e l
+
+532
+00:18:24.400 --> 00:18:26.480
+term
+
+533
+00:18:26.480 --> 00:18:30.240
+okay yeah yeah so now let us talk about
+
+534
+00:18:30.240 --> 00:18:32.240
+this kappa of vds okay this couple of
+
+535
+00:18:32.240 --> 00:18:35.039
+vds has a special meaning so it measures
+
+536
+00:18:35.039 --> 00:18:39.600
+the degree of velocity saturation
+
+537
+00:18:40.000 --> 00:18:42.400
+okay now whenever we are dealing with
+
+538
+00:18:42.400 --> 00:18:43.440
+something like
+
+539
+00:18:43.440 --> 00:18:46.480
+long channel device so when i say long
+
+540
+00:18:46.480 --> 00:18:47.760
+channel device we are talking about the
+
+541
+00:18:47.760 --> 00:18:48.960
+length of the channel that is
+
+542
+00:18:48.960 --> 00:18:52.720
+much greater than one micrometer or
+
+543
+00:18:52.720 --> 00:18:56.880
+whenever the value of vds is small
+
+544
+00:18:56.880 --> 00:19:01.760
+okay 0.1.2 or 0.3 okay so when the
+
+545
+00:19:01.760 --> 00:19:03.520
+value of videos is small what happens to
+
+546
+00:19:03.520 --> 00:19:05.679
+this kappa of vds okay we'll talk about
+
+547
+00:19:05.679 --> 00:19:07.440
+both these quantities
+
+548
+00:19:07.440 --> 00:19:09.919
+okay so i'm taking two cases the first
+
+549
+00:19:09.919 --> 00:19:10.720
+case
+
+550
+00:19:10.720 --> 00:19:14.080
+is either i'm having a very long channel
+
+551
+00:19:14.080 --> 00:19:16.160
+or either i'm having a very small value
+
+552
+00:19:16.160 --> 00:19:18.320
+of vds what happens to this kappa
+
+553
+00:19:18.320 --> 00:19:22.400
+what does this copper value ends up
+
+554
+00:19:22.960 --> 00:19:25.039
+what happens to this ratio when when the
+
+555
+00:19:25.039 --> 00:19:26.320
+value of v is small
+
+556
+00:19:26.320 --> 00:19:30.240
+what happens to this ratio of vds by el
+
+557
+00:19:30.240 --> 00:19:31.679
+say for example when vds is equal to
+
+558
+00:19:31.679 --> 00:19:34.960
+zero what happens this quantity becomes
+
+559
+00:19:34.960 --> 00:19:38.000
+zero and due to which the kappa would
+
+560
+00:19:38.000 --> 00:19:41.120
+end up having a value that is equal to
+
+561
+00:19:41.120 --> 00:19:43.919
+1 right so whenever we are dealing with
+
+562
+00:19:43.919 --> 00:19:45.840
+the small value of vds we can assume
+
+563
+00:19:45.840 --> 00:19:47.760
+that the kappa
+
+564
+00:19:47.760 --> 00:19:50.640
+is equal to 1 okay which means that this
+
+565
+00:19:50.640 --> 00:19:51.840
+current equation
+
+566
+00:19:51.840 --> 00:19:54.160
+is as similar as that of the long
+
+567
+00:19:54.160 --> 00:19:55.520
+channel current equation
+
+568
+00:19:55.520 --> 00:19:57.360
+am i right this is the linear region
+
+569
+00:19:57.360 --> 00:19:59.360
+current equation
+
+570
+00:19:59.360 --> 00:20:02.240
+and when i deal with small value of v ds
+
+571
+00:20:02.240 --> 00:20:05.120
+i am ending up having the
+
+572
+00:20:05.120 --> 00:20:07.200
+current equation that is similar to our
+
+573
+00:20:07.200 --> 00:20:09.280
+long channel linear current equation
+
+574
+00:20:09.280 --> 00:20:11.280
+and also when i go for a channel length
+
+575
+00:20:11.280 --> 00:20:13.039
+that is greater than one micrometer what
+
+576
+00:20:13.039 --> 00:20:14.000
+happens to this
+
+577
+00:20:14.000 --> 00:20:17.200
+quantity that is v ds by ec
+
+578
+00:20:17.200 --> 00:20:21.120
+times l again this
+
+579
+00:20:21.120 --> 00:20:24.000
+quantity will become small okay which is
+
+580
+00:20:24.000 --> 00:20:24.320
+like
+
+581
+00:20:24.320 --> 00:20:26.000
+closer to the value of zero again under
+
+582
+00:20:26.000 --> 00:20:28.080
+that condition also the kappa
+
+583
+00:20:28.080 --> 00:20:30.640
+of v or anything like kappa of v ds or
+
+584
+00:20:30.640 --> 00:20:31.919
+copper of just v
+
+585
+00:20:31.919 --> 00:20:35.360
+okay would then be equal to one okay so
+
+586
+00:20:35.360 --> 00:20:35.760
+under
+
+587
+00:20:35.760 --> 00:20:37.600
+either of these two conditions the kappa
+
+588
+00:20:37.600 --> 00:20:39.120
+takes up a value of one
+
+589
+00:20:39.120 --> 00:20:42.480
+here but what happens on the other hand
+
+590
+00:20:42.480 --> 00:20:43.520
+that is whenever we
+
+591
+00:20:43.520 --> 00:20:46.159
+deal with a shorter channel that is for
+
+592
+00:20:46.159 --> 00:20:48.480
+length that is less than one micrometer
+
+593
+00:20:48.480 --> 00:20:52.799
+okay or when the value of vds is large
+
+594
+00:20:52.799 --> 00:20:54.640
+under this condition what value this
+
+595
+00:20:54.640 --> 00:20:57.039
+copper would take then
+
+596
+00:20:57.039 --> 00:20:59.760
+will it be higher than the value of one
+
+597
+00:20:59.760 --> 00:21:02.480
+or it will be less than the value of one
+
+598
+00:21:02.480 --> 00:21:03.840
+you want me to show the expression of
+
+599
+00:21:03.840 --> 00:21:05.600
+kappa the kappa is expressed something
+
+600
+00:21:05.600 --> 00:21:06.000
+like this
+
+601
+00:21:06.000 --> 00:21:09.360
+less than one so less than one yeah yeah
+
+602
+00:21:09.360 --> 00:21:11.280
+so whenever we have a short channel or
+
+603
+00:21:11.280 --> 00:21:13.120
+whenever we have a large value of vds in
+
+604
+00:21:13.120 --> 00:21:14.400
+a short channel okay so rather than
+
+605
+00:21:14.400 --> 00:21:15.760
+writing it as
+
+606
+00:21:15.760 --> 00:21:18.320
+r i would write it as and okay so this
+
+607
+00:21:18.320 --> 00:21:21.280
+is a better quantity
+
+608
+00:21:23.120 --> 00:21:25.280
+and rather than writing this kappa
+
+609
+00:21:25.280 --> 00:21:26.559
+something like this okay i want to
+
+610
+00:21:26.559 --> 00:21:28.799
+generalize this kappa term
+
+611
+00:21:28.799 --> 00:21:30.799
+something like just cup of v how do i
+
+612
+00:21:30.799 --> 00:21:32.559
+express this cup of v
+
+613
+00:21:32.559 --> 00:21:34.159
+i'm just writing it as potential
+
+614
+00:21:34.159 --> 00:21:36.080
+difference across any two terminal it
+
+615
+00:21:36.080 --> 00:21:36.799
+can be either
+
+616
+00:21:36.799 --> 00:21:39.360
+across vgs or it can be across vds so i
+
+617
+00:21:39.360 --> 00:21:41.280
+want to generalize this kappa term
+
+618
+00:21:41.280 --> 00:21:43.200
+in terms of just v rather than specific
+
+619
+00:21:43.200 --> 00:21:44.320
+about
+
+620
+00:21:44.320 --> 00:21:48.960
+v d s how do i express this kappa of v
+
+621
+00:21:49.120 --> 00:21:50.720
+so it is again taken from this
+
+622
+00:21:50.720 --> 00:21:53.360
+expression just replace this
+
+623
+00:21:53.360 --> 00:21:56.159
+v d s just with v right so when i do so
+
+624
+00:21:56.159 --> 00:21:57.679
+i would end up having an expression
+
+625
+00:21:57.679 --> 00:21:58.640
+which is written as
+
+626
+00:21:58.640 --> 00:22:02.400
+1 divided by 1 plus v
+
+627
+00:22:02.400 --> 00:22:04.400
+divided by v c but if you are more
+
+628
+00:22:04.400 --> 00:22:05.600
+comfortable with
+
+629
+00:22:05.600 --> 00:22:07.679
+writing in terms of critical electric
+
+630
+00:22:07.679 --> 00:22:08.640
+field you can rewrite
+
+631
+00:22:08.640 --> 00:22:10.960
+this expression again as ec times graph
+
+632
+00:22:10.960 --> 00:22:12.880
+l okay so either of these two forms are
+
+633
+00:22:12.880 --> 00:22:14.320
+conveying the same thing
+
+634
+00:22:14.320 --> 00:22:16.559
+here yeah i'll tell you the reason why
+
+635
+00:22:16.559 --> 00:22:17.440
+i'm writing
+
+636
+00:22:17.440 --> 00:22:20.080
+as cup of v rather than cup of vds when
+
+637
+00:22:20.080 --> 00:22:23.760
+we move on to saturation regime okay
+
+638
+00:22:23.840 --> 00:22:25.200
+so now let us look for the current
+
+639
+00:22:25.200 --> 00:22:27.440
+equation in the saturation region
+
+640
+00:22:27.440 --> 00:22:30.640
+for a short channel device but
+
+641
+00:22:30.640 --> 00:22:34.159
+here before i do the derivation
+
+642
+00:22:34.159 --> 00:22:35.919
+i i just want to provide you some sort
+
+643
+00:22:35.919 --> 00:22:37.440
+of node okay
+
+644
+00:22:37.440 --> 00:22:39.919
+so in this case i'm not going to assume
+
+645
+00:22:39.919 --> 00:22:42.799
+that the value of vds sat
+
+646
+00:22:42.799 --> 00:22:46.000
+is equal to v s minus vt
+
+647
+00:22:46.000 --> 00:22:49.200
+okay so what i'm trying to say is that
+
+648
+00:22:49.200 --> 00:22:50.799
+whenever the transfer is in saturation
+
+649
+00:22:50.799 --> 00:22:53.039
+regime the value of vds
+
+650
+00:22:53.039 --> 00:22:56.000
+is written as vds sat but that value of
+
+651
+00:22:56.000 --> 00:22:58.000
+vdsat
+
+652
+00:22:58.000 --> 00:23:00.400
+need not to be equal to vgs minus vt as
+
+653
+00:23:00.400 --> 00:23:02.159
+we had it for the long channel device
+
+654
+00:23:02.159 --> 00:23:05.120
+clear so based on this i want to rewrite
+
+655
+00:23:05.120 --> 00:23:06.159
+it
+
+656
+00:23:06.159 --> 00:23:08.720
+hope you're clear okay so since because
+
+657
+00:23:08.720 --> 00:23:10.400
+it doesn't follow the same rule as we
+
+658
+00:23:10.400 --> 00:23:11.600
+had before
+
+659
+00:23:11.600 --> 00:23:13.200
+i'm going to express the saturation
+
+660
+00:23:13.200 --> 00:23:14.640
+current
+
+661
+00:23:14.640 --> 00:23:17.120
+by two different ways and then i i'm
+
+662
+00:23:17.120 --> 00:23:18.720
+going to merge both these expressions
+
+663
+00:23:18.720 --> 00:23:19.600
+now to get the
+
+664
+00:23:19.600 --> 00:23:21.760
+final conclusion out of the expression
+
+665
+00:23:21.760 --> 00:23:22.720
+clear
+
+666
+00:23:22.720 --> 00:23:24.720
+so since because the transistor gets
+
+667
+00:23:24.720 --> 00:23:26.320
+into the saturation regime the moment
+
+668
+00:23:26.320 --> 00:23:28.640
+the value of vds is equal to vdsat
+
+669
+00:23:28.640 --> 00:23:30.960
+i want to rewrite the current equation
+
+670
+00:23:30.960 --> 00:23:32.240
+in the saturation regime
+
+671
+00:23:32.240 --> 00:23:35.600
+just by substituting vds equal to vdsat
+
+672
+00:23:35.600 --> 00:23:37.360
+but this video sat need not to be equal
+
+673
+00:23:37.360 --> 00:23:39.280
+to v just minus vt okay later i will
+
+674
+00:23:39.280 --> 00:23:40.880
+prove that they are not equal but as
+
+675
+00:23:40.880 --> 00:23:42.880
+of now this need not to be equal to vgs
+
+676
+00:23:42.880 --> 00:23:44.320
+minus vt will hold this
+
+677
+00:23:44.320 --> 00:23:47.360
+as just vds sat so
+
+678
+00:23:47.360 --> 00:23:49.360
+wherever i had my vds i'm going to
+
+679
+00:23:49.360 --> 00:23:51.919
+rewrite them with vds sat okay and then
+
+680
+00:23:51.919 --> 00:23:53.360
+it followed by mu
+
+681
+00:23:53.360 --> 00:23:56.559
+c yx w by l and then we had v g s
+
+682
+00:23:56.559 --> 00:23:59.360
+minus vt and then we had something like
+
+683
+00:23:59.360 --> 00:24:00.240
+vds
+
+684
+00:24:00.240 --> 00:24:02.240
+divided by 2 so that vds has to be
+
+685
+00:24:02.240 --> 00:24:03.600
+replaced with
+
+686
+00:24:03.600 --> 00:24:07.360
+radius sat by 2
+
+687
+00:24:07.360 --> 00:24:10.320
+into v dsi so this is one expression
+
+688
+00:24:10.320 --> 00:24:10.880
+okay
+
+689
+00:24:10.880 --> 00:24:12.640
+and there is also one more expression
+
+690
+00:24:12.640 --> 00:24:14.640
+which we can derive just by making use
+
+691
+00:24:14.640 --> 00:24:16.159
+of the current equation that
+
+692
+00:24:16.159 --> 00:24:18.720
+however we did for our linear region how
+
+693
+00:24:18.720 --> 00:24:20.000
+i can express this current equation in
+
+694
+00:24:20.000 --> 00:24:20.960
+terms of charges
+
+695
+00:24:20.960 --> 00:24:24.159
+it is written as qch divided by the
+
+696
+00:24:24.159 --> 00:24:25.440
+transit time
+
+697
+00:24:25.440 --> 00:24:27.760
+right any of the qch expression reminds
+
+698
+00:24:27.760 --> 00:24:28.799
+the same doesn't matter
+
+699
+00:24:28.799 --> 00:24:30.840
+okay so it can be returned as something
+
+700
+00:24:30.840 --> 00:24:33.840
+like
+
+701
+00:24:34.000 --> 00:24:35.600
+okay so this expression reminds the same
+
+702
+00:24:35.600 --> 00:24:37.520
+okay but what happens
+
+703
+00:24:37.520 --> 00:24:40.640
+for the transit time is is different
+
+704
+00:24:40.640 --> 00:24:42.080
+okay this transit time
+
+705
+00:24:42.080 --> 00:24:44.159
+is right now can be expressed in terms
+
+706
+00:24:44.159 --> 00:24:47.200
+of drift velocity
+
+707
+00:24:47.200 --> 00:24:48.559
+but this drift velocity in the
+
+708
+00:24:48.559 --> 00:24:50.640
+saturation regime is replaced with
+
+709
+00:24:50.640 --> 00:24:52.559
+saturation velocity okay so i've
+
+710
+00:24:52.559 --> 00:24:54.000
+replaced this vd
+
+711
+00:24:54.000 --> 00:24:56.000
+with saturation velocity okay so i'm
+
+712
+00:24:56.000 --> 00:24:57.360
+just going to substitute each of these
+
+713
+00:24:57.360 --> 00:24:59.520
+quantities to build up this expression
+
+714
+00:24:59.520 --> 00:25:02.400
+here so i would end up having
+
+715
+00:25:02.400 --> 00:25:06.320
+an idea sat to be equal to
+
+716
+00:25:06.320 --> 00:25:10.000
+saturation velocity times c yx
+
+717
+00:25:10.000 --> 00:25:11.600
+and then the width and there is no l
+
+718
+00:25:11.600 --> 00:25:13.039
+term here because one of the l
+
+719
+00:25:13.039 --> 00:25:14.960
+gets cancelled with this l okay due to
+
+720
+00:25:14.960 --> 00:25:16.720
+which there is no l term that is sitting
+
+721
+00:25:16.720 --> 00:25:18.000
+here
+
+722
+00:25:18.000 --> 00:25:19.919
+and the remaining term of v g s minus v
+
+723
+00:25:19.919 --> 00:25:21.200
+t
+
+724
+00:25:21.200 --> 00:25:24.320
+and v d s sat by two would appear here
+
+725
+00:25:24.320 --> 00:25:27.200
+okay so i have two different kind
+
+726
+00:25:27.200 --> 00:25:28.400
+expressions that
+
+727
+00:25:28.400 --> 00:25:30.320
+conveys the same current equation that
+
+728
+00:25:30.320 --> 00:25:32.240
+exists for a transistor
+
+729
+00:25:32.240 --> 00:25:35.600
+in the saturation region okay so now
+
+730
+00:25:35.600 --> 00:25:37.120
+i'm going to utilize both these
+
+731
+00:25:37.120 --> 00:25:39.200
+expression like maybe i will write this
+
+732
+00:25:39.200 --> 00:25:40.840
+as
+
+733
+00:25:40.840 --> 00:25:44.000
+a and this one as
+
+734
+00:25:44.000 --> 00:25:46.240
+b okay i'm going to utilize both this
+
+735
+00:25:46.240 --> 00:25:47.200
+expression
+
+736
+00:25:47.200 --> 00:25:48.960
+in order to derive the total saturation
+
+737
+00:25:48.960 --> 00:25:50.799
+current equation
+
+738
+00:25:50.799 --> 00:25:53.279
+so in order to write this i'm going to
+
+739
+00:25:53.279 --> 00:25:54.400
+substitute
+
+740
+00:25:54.400 --> 00:25:58.080
+two things that is the kappa of vdsat
+
+741
+00:25:58.080 --> 00:26:00.799
+which we had in our equation number a so
+
+742
+00:26:00.799 --> 00:26:01.120
+this
+
+743
+00:26:01.120 --> 00:26:03.440
+term would be replaced with our known
+
+744
+00:26:03.440 --> 00:26:06.240
+expression which is written as 1 plus
+
+745
+00:26:06.240 --> 00:26:09.760
+vds sat by vc
+
+746
+00:26:09.760 --> 00:26:12.320
+okay and i'm also going to rewrite this
+
+747
+00:26:12.320 --> 00:26:13.039
+vsat
+
+748
+00:26:13.039 --> 00:26:14.720
+okay so if you want how to get this
+
+749
+00:26:14.720 --> 00:26:16.880
+reset i'll first express this ec
+
+750
+00:26:16.880 --> 00:26:18.880
+we know that this ec based on the
+
+751
+00:26:18.880 --> 00:26:20.320
+continuity equation
+
+752
+00:26:20.320 --> 00:26:22.480
+it can be written as something like this
+
+753
+00:26:22.480 --> 00:26:24.320
+so it's based on the expression that we
+
+754
+00:26:24.320 --> 00:26:25.840
+derived earlier okay
+
+755
+00:26:25.840 --> 00:26:27.919
+so if you are following it i think there
+
+756
+00:26:27.919 --> 00:26:29.440
+won't be any doubt in
+
+757
+00:26:29.440 --> 00:26:32.640
+within you okay yeah so this expression
+
+758
+00:26:32.640 --> 00:26:33.679
+i have utilized
+
+759
+00:26:33.679 --> 00:26:36.799
+clear so v sat
+
+760
+00:26:36.799 --> 00:26:39.760
+equals to mu times e c divided by two
+
+761
+00:26:39.760 --> 00:26:40.320
+and that
+
+762
+00:26:40.320 --> 00:26:41.840
+expression is what is being rewritten
+
+763
+00:26:41.840 --> 00:26:43.679
+something like this okay
+
+764
+00:26:43.679 --> 00:26:46.799
+so again this ec
+
+765
+00:26:46.799 --> 00:26:48.640
+can be returned in terms of critical
+
+766
+00:26:48.640 --> 00:26:50.159
+voltage right
+
+767
+00:26:50.159 --> 00:26:53.600
+so vc by l because
+
+768
+00:26:53.600 --> 00:26:56.320
+for the other side also i have this vc
+
+769
+00:26:56.320 --> 00:26:57.919
+so due to which i'm just taking
+
+770
+00:26:57.919 --> 00:27:00.000
+few things in common so whichever things
+
+771
+00:27:00.000 --> 00:27:02.000
+that i can cancel out i can just cancel
+
+772
+00:27:02.000 --> 00:27:02.720
+here
+
+773
+00:27:02.720 --> 00:27:04.799
+so due to which i have this v sat
+
+774
+00:27:04.799 --> 00:27:06.640
+expressed in terms of
+
+775
+00:27:06.640 --> 00:27:11.039
+vc clear so i have got two expressions
+
+776
+00:27:11.039 --> 00:27:12.320
+which i am going to substitute
+
+777
+00:27:12.320 --> 00:27:14.400
+in both these equation number a as was
+
+778
+00:27:14.400 --> 00:27:15.600
+equation number b
+
+779
+00:27:15.600 --> 00:27:17.520
+here so once you have both these
+
+780
+00:27:17.520 --> 00:27:19.200
+expression you could see that there are
+
+781
+00:27:19.200 --> 00:27:22.240
+few terms there is a kappa of vds term
+
+782
+00:27:22.240 --> 00:27:24.960
+and there is also vsat term or the
+
+783
+00:27:24.960 --> 00:27:26.720
+velocity saturation term
+
+784
+00:27:26.720 --> 00:27:28.799
+so for both these expressions i want to
+
+785
+00:27:28.799 --> 00:27:31.360
+rewrite them in terms of vc
+
+786
+00:27:31.360 --> 00:27:34.799
+okay and those expressions for kappa of
+
+787
+00:27:34.799 --> 00:27:35.039
+v
+
+788
+00:27:35.039 --> 00:27:38.320
+sat in terms of v c and the v
+
+789
+00:27:38.320 --> 00:27:40.559
+sat in terms of v c is being written
+
+790
+00:27:40.559 --> 00:27:42.559
+here so now the only thing that i have
+
+791
+00:27:42.559 --> 00:27:44.480
+to do is that since because both
+
+792
+00:27:44.480 --> 00:27:46.640
+expression a as well as expression b are
+
+793
+00:27:46.640 --> 00:27:48.240
+conveying the same
+
+794
+00:27:48.240 --> 00:27:50.559
+current equation i can equate both these
+
+795
+00:27:50.559 --> 00:27:52.240
+equations
+
+796
+00:27:52.240 --> 00:27:53.200
+so now that i am just going to
+
+797
+00:27:53.200 --> 00:27:55.679
+substitute each of these quantities and
+
+798
+00:27:55.679 --> 00:27:57.679
+let me try to first express them and
+
+799
+00:27:57.679 --> 00:28:02.000
+later i will replace this v sat
+
+800
+00:28:02.000 --> 00:28:05.360
+maybe i am just equating b
+
+801
+00:28:06.480 --> 00:28:17.840
+that is equal to a okay
+
+802
+00:28:18.559 --> 00:28:20.960
+okay so which are the terms that are
+
+803
+00:28:20.960 --> 00:28:21.919
+common i can
+
+804
+00:28:21.919 --> 00:28:24.399
+actually cancel them yeah i think there
+
+805
+00:28:24.399 --> 00:28:25.120
+is something that i
+
+806
+00:28:25.120 --> 00:28:28.640
+uh yeah so
+
+807
+00:28:28.640 --> 00:28:30.240
+this is supposed to be equal to v g s
+
+808
+00:28:30.240 --> 00:28:32.000
+minus v t
+
+809
+00:28:32.000 --> 00:28:34.960
+minus v d sat okay so this is something
+
+810
+00:28:34.960 --> 00:28:35.440
+that i
+
+811
+00:28:35.440 --> 00:28:37.520
+forgot to mention here okay so in the
+
+812
+00:28:37.520 --> 00:28:40.480
+previous case uh
+
+813
+00:28:40.799 --> 00:28:43.919
+i think in the long channel structure we
+
+814
+00:28:43.919 --> 00:28:44.240
+were
+
+815
+00:28:44.240 --> 00:28:46.640
+directly using this minus vds by two
+
+816
+00:28:46.640 --> 00:28:47.600
+okay but
+
+817
+00:28:47.600 --> 00:28:49.760
+in the case of uh saturation regime uh
+
+818
+00:28:49.760 --> 00:28:50.880
+the channel
+
+819
+00:28:50.880 --> 00:28:52.960
+is tapered okay so due to which i'm just
+
+820
+00:28:52.960 --> 00:28:53.919
+using only
+
+821
+00:28:53.919 --> 00:28:56.720
+vds sat here okay there is no half
+
+822
+00:28:56.720 --> 00:28:58.559
+factor that is sitting here here
+
+823
+00:28:58.559 --> 00:29:00.880
+so sorry for for not informing this
+
+824
+00:29:00.880 --> 00:29:01.760
+earlier okay
+
+825
+00:29:01.760 --> 00:29:04.080
+the reason behind this uh substitution
+
+826
+00:29:04.080 --> 00:29:05.120
+is just because
+
+827
+00:29:05.120 --> 00:29:08.559
+the channel staffered when we are in the
+
+828
+00:29:08.559 --> 00:29:10.640
+saturation regime
+
+829
+00:29:10.640 --> 00:29:13.600
+and due to which this vds by 2 is being
+
+830
+00:29:13.600 --> 00:29:16.080
+rewritten as
+
+831
+00:29:16.080 --> 00:29:19.279
+just vds set clear
+
+832
+00:29:19.279 --> 00:29:22.720
+and substitute this guy v sat
+
+833
+00:29:22.720 --> 00:29:26.399
+which is vc by l
+
+834
+00:29:26.399 --> 00:29:32.159
+and we have something like vgs minus vt
+
+835
+00:29:34.080 --> 00:29:37.120
+vdsat and this kappa of vds can be
+
+836
+00:29:37.120 --> 00:29:39.039
+written as something like 1 plus
+
+837
+00:29:39.039 --> 00:29:42.240
+vds sat by vc
+
+838
+00:29:42.240 --> 00:29:44.399
+and there is also mu by l term that is
+
+839
+00:29:44.399 --> 00:29:46.159
+sitting here
+
+840
+00:29:46.159 --> 00:29:49.600
+and then we just minus vt minus
+
+841
+00:29:49.600 --> 00:29:52.480
+radius sat
+
+842
+00:29:53.120 --> 00:29:56.000
+into various set okay so again there are
+
+843
+00:29:56.000 --> 00:29:56.399
+few
+
+844
+00:29:56.399 --> 00:29:58.240
+few common terms which we can cancel
+
+845
+00:29:58.240 --> 00:30:00.240
+namely the mobility and the length
+
+846
+00:30:00.240 --> 00:30:09.840
+can be cancelled
+
+847
+00:30:10.799 --> 00:30:13.520
+okay so again this vc's can be cancelled
+
+848
+00:30:13.520 --> 00:30:15.520
+from here to here
+
+849
+00:30:15.520 --> 00:30:17.520
+and the only thing that we need to do is
+
+850
+00:30:17.520 --> 00:30:18.799
+just uh some
+
+851
+00:30:18.799 --> 00:30:20.880
+sort of cross multiplication of these
+
+852
+00:30:20.880 --> 00:30:23.840
+two terms
+
+853
+00:30:45.279 --> 00:30:48.399
+okay so there is quadratic term which we
+
+854
+00:30:48.399 --> 00:30:49.520
+can actually cancel
+
+855
+00:30:49.520 --> 00:30:53.039
+on both the sides okay so
+
+856
+00:30:53.039 --> 00:30:55.520
+there is no caution and we certainly
+
+857
+00:30:55.520 --> 00:30:57.760
+have to rearrange this expression
+
+858
+00:30:57.760 --> 00:30:59.039
+yeah so certainly there is one
+
+859
+00:30:59.039 --> 00:31:01.679
+particular term and this term vgs minus
+
+860
+00:31:01.679 --> 00:31:02.640
+vt
+
+861
+00:31:02.640 --> 00:31:05.679
+times vds can actually get merged with
+
+862
+00:31:05.679 --> 00:31:07.679
+this expression or towards the left side
+
+863
+00:31:07.679 --> 00:31:09.840
+so
+
+864
+00:31:12.720 --> 00:31:16.559
+you would have v g s minus v t
+
+865
+00:31:17.600 --> 00:31:33.840
+video sat
+
+866
+00:31:39.760 --> 00:31:42.159
+yeah so i'm just going to take off this
+
+867
+00:31:42.159 --> 00:31:42.960
+video sat
+
+868
+00:31:42.960 --> 00:31:47.840
+in common
+
+869
+00:31:58.840 --> 00:32:01.840
+uh
+
+870
+00:32:04.320 --> 00:32:06.000
+now i just want to look into this
+
+871
+00:32:06.000 --> 00:32:08.000
+expression of vdsat
+
+872
+00:32:08.000 --> 00:32:10.080
+so this vdsat is actually proportional
+
+873
+00:32:10.080 --> 00:32:11.279
+to vgs minus vt
+
+874
+00:32:11.279 --> 00:32:13.279
+but there is a factor that sits between
+
+875
+00:32:13.279 --> 00:32:14.480
+those v d sat
+
+876
+00:32:14.480 --> 00:32:16.720
+and the v s minus v d and what is this
+
+877
+00:32:16.720 --> 00:32:18.480
+factor
+
+878
+00:32:18.480 --> 00:32:21.200
+how i can rewrite this factor this
+
+879
+00:32:21.200 --> 00:32:22.559
+factor
+
+880
+00:32:22.559 --> 00:32:25.279
+is almost similar to the expression of
+
+881
+00:32:25.279 --> 00:32:27.519
+this kappa that we derived earlier right
+
+882
+00:32:27.519 --> 00:32:30.320
+because the kappa of v can be returned
+
+883
+00:32:30.320 --> 00:32:31.440
+that is that cup of e
+
+884
+00:32:31.440 --> 00:32:33.279
+yeah so cup of v has a form that is
+
+885
+00:32:33.279 --> 00:32:35.600
+written as 1 divided by 1 plus
+
+886
+00:32:35.600 --> 00:32:38.240
+v times that of the critical voltage
+
+887
+00:32:38.240 --> 00:32:38.640
+okay
+
+888
+00:32:38.640 --> 00:32:40.399
+so when i look back into this expression
+
+889
+00:32:40.399 --> 00:32:41.679
+that we derived here
+
+890
+00:32:41.679 --> 00:32:44.080
+you could see it is 1 upon 1 plus some
+
+891
+00:32:44.080 --> 00:32:44.960
+voltage
+
+892
+00:32:44.960 --> 00:32:47.519
+that is as a whole it is v just minus vt
+
+893
+00:32:47.519 --> 00:32:48.240
+voltage
+
+894
+00:32:48.240 --> 00:32:50.480
+divided by the critical voltage so i can
+
+895
+00:32:50.480 --> 00:32:52.320
+rewrite this expression that i marked
+
+896
+00:32:52.320 --> 00:32:53.360
+with orange
+
+897
+00:32:53.360 --> 00:32:57.679
+as something like kappa of vgs
+
+898
+00:32:57.679 --> 00:33:00.720
+minus vt into
+
+899
+00:33:00.720 --> 00:33:04.320
+vgs minus vt okay
+
+900
+00:33:04.320 --> 00:33:08.080
+so certainly we know that this
+
+901
+00:33:08.080 --> 00:33:11.760
+kappa will take up a value that is equal
+
+902
+00:33:11.760 --> 00:33:12.559
+to one
+
+903
+00:33:12.559 --> 00:33:15.039
+whenever we deal with so when does this
+
+904
+00:33:15.039 --> 00:33:17.919
+copper term will take up a value of one
+
+905
+00:33:17.919 --> 00:33:21.120
+long channel yeah so whenever we deal
+
+906
+00:33:21.120 --> 00:33:21.760
+with
+
+907
+00:33:21.760 --> 00:33:25.279
+long channel device okay
+
+908
+00:33:25.279 --> 00:33:30.159
+or whenever the value of vds
+
+909
+00:33:30.720 --> 00:33:34.159
+is small but what happens when i have
+
+910
+00:33:34.159 --> 00:33:37.519
+radius that is large okay a video that
+
+911
+00:33:37.519 --> 00:33:38.399
+is large
+
+912
+00:33:38.399 --> 00:33:40.960
+as well as
+
+913
+00:33:42.320 --> 00:33:44.480
+the length of the channel is less than
+
+914
+00:33:44.480 --> 00:33:47.039
+one micrometer okay
+
+915
+00:33:47.039 --> 00:33:49.200
+so in that case we know that this kappa
+
+916
+00:33:49.200 --> 00:33:50.640
+will take up a value that is smaller
+
+917
+00:33:50.640 --> 00:33:51.760
+than the value of 1.
+
+918
+00:33:51.760 --> 00:33:55.840
+so what does it implies to this equation
+
+919
+00:33:55.840 --> 00:33:58.240
+which means that my device will enter
+
+920
+00:33:58.240 --> 00:33:59.279
+into saturation
+
+921
+00:33:59.279 --> 00:34:04.080
+well before the vds reaches vgs minus vt
+
+922
+00:34:04.080 --> 00:34:07.200
+so in the previous case yeah
+
+923
+00:34:07.200 --> 00:34:11.599
+so for for a longer channel device
+
+924
+00:34:11.599 --> 00:34:14.239
+the device was entering into saturation
+
+925
+00:34:14.239 --> 00:34:14.719
+when
+
+926
+00:34:14.719 --> 00:34:18.639
+the value of vds is exactly equal to vgs
+
+927
+00:34:18.639 --> 00:34:19.520
+minus v t
+
+928
+00:34:19.520 --> 00:34:21.440
+okay so this is for the case of a long
+
+929
+00:34:21.440 --> 00:34:23.760
+channel
+
+930
+00:34:23.760 --> 00:34:26.719
+okay but in in our case what happens is
+
+931
+00:34:26.719 --> 00:34:27.119
+that
+
+932
+00:34:27.119 --> 00:34:29.440
+i am entering into the saturation regime
+
+933
+00:34:29.440 --> 00:34:30.560
+well before
+
+934
+00:34:30.560 --> 00:34:32.399
+reaching the value of v just minus vt at
+
+935
+00:34:32.399 --> 00:34:34.480
+this point itself
+
+936
+00:34:34.480 --> 00:34:36.560
+i'm entering into saturation and i'm
+
+937
+00:34:36.560 --> 00:34:37.760
+marking this voltage
+
+938
+00:34:37.760 --> 00:34:40.639
+as v d sat and that v d sat can be
+
+939
+00:34:40.639 --> 00:34:41.359
+written as
+
+940
+00:34:41.359 --> 00:34:45.280
+kappa of v g s minus v t
+
+941
+00:34:45.280 --> 00:34:48.320
+into v g s
+
+942
+00:34:48.320 --> 00:34:50.079
+minus vt and we know that this kappa
+
+943
+00:34:50.079 --> 00:34:51.599
+value will be small right
+
+944
+00:34:51.599 --> 00:34:53.199
+so due to which i will be entering into
+
+945
+00:34:53.199 --> 00:34:54.960
+saturation regime before the value of
+
+946
+00:34:54.960 --> 00:34:55.520
+vds
+
+947
+00:34:55.520 --> 00:34:58.240
+is equal to vgs minus vt okay and due to
+
+948
+00:34:58.240 --> 00:34:58.720
+which
+
+949
+00:34:58.720 --> 00:35:04.240
+the short channel transistor has
+
+950
+00:35:04.720 --> 00:35:09.440
+extended saturation regime
+
+951
+00:35:09.599 --> 00:35:11.520
+so what do we mean by this extended
+
+952
+00:35:11.520 --> 00:35:12.640
+saturation regime
+
+953
+00:35:12.640 --> 00:35:15.200
+you see in the long channel device the
+
+954
+00:35:15.200 --> 00:35:17.359
+saturation regime falls
+
+955
+00:35:17.359 --> 00:35:19.440
+right from this value of vds all the way
+
+956
+00:35:19.440 --> 00:35:21.200
+through this okay when i take a short
+
+957
+00:35:21.200 --> 00:35:23.520
+channel
+
+958
+00:35:23.920 --> 00:35:26.160
+the saturation regime is much wider for
+
+959
+00:35:26.160 --> 00:35:28.839
+a short channel device
+
+960
+00:35:28.839 --> 00:35:31.920
+okay so this is one of the physical
+
+961
+00:35:31.920 --> 00:35:33.440
+phenomena that you can observe
+
+962
+00:35:33.440 --> 00:35:36.160
+when you try to plot id versus vds okay
+
+963
+00:35:36.160 --> 00:35:37.680
+apart from this there is also one more
+
+964
+00:35:37.680 --> 00:35:39.119
+important factor that i want to bring
+
+965
+00:35:39.119 --> 00:35:39.440
+out
+
+966
+00:35:39.440 --> 00:35:42.800
+okay let us look for the expression b
+
+967
+00:35:42.800 --> 00:35:45.119
+so when i look carefully you could see
+
+968
+00:35:45.119 --> 00:35:46.720
+that the value of this id sat
+
+969
+00:35:46.720 --> 00:35:50.079
+is proportional to v g s minus v t
+
+970
+00:35:50.079 --> 00:35:52.320
+okay either you look into the expression
+
+971
+00:35:52.320 --> 00:35:54.400
+a or you look into the expression b
+
+972
+00:35:54.400 --> 00:35:55.680
+you could see that they are proportional
+
+973
+00:35:55.680 --> 00:35:57.839
+to v g s minus v t so now
+
+974
+00:35:57.839 --> 00:36:00.880
+for a short channel device let me pick
+
+975
+00:36:00.880 --> 00:36:01.280
+this
+
+976
+00:36:01.280 --> 00:36:05.280
+graphs that i have plotted earlier
+
+977
+00:36:08.640 --> 00:36:10.079
+whenever i deal with short channel
+
+978
+00:36:10.079 --> 00:36:12.400
+device okay let me pick a green one
+
+979
+00:36:12.400 --> 00:36:14.720
+what happens is that since the
+
+980
+00:36:14.720 --> 00:36:16.880
+saturation current
+
+981
+00:36:16.880 --> 00:36:19.760
+is proportional to vgs minus vt how do i
+
+982
+00:36:19.760 --> 00:36:20.640
+modify this
+
+983
+00:36:20.640 --> 00:36:24.000
+graph what modification do i need to
+
+984
+00:36:24.000 --> 00:36:27.599
+have for this particular graph
+
+985
+00:36:27.599 --> 00:36:29.520
+will i be still following this kind of
+
+986
+00:36:29.520 --> 00:36:31.280
+graph or will there be any
+
+987
+00:36:31.280 --> 00:36:33.040
+differences in the graph apart from the
+
+988
+00:36:33.040 --> 00:36:34.880
+device getting into saturation much
+
+989
+00:36:34.880 --> 00:36:35.680
+earlier
+
+990
+00:36:35.680 --> 00:36:37.359
+will there be any other impact that i
+
+991
+00:36:37.359 --> 00:36:38.960
+can impose on this particular
+
+992
+00:36:38.960 --> 00:36:42.880
+graph we will have equal width
+
+993
+00:36:42.880 --> 00:36:46.079
+between the yes true true yeah
+
+994
+00:36:46.079 --> 00:36:49.200
+exactly so what happens is that we'll
+
+995
+00:36:49.200 --> 00:36:49.680
+have
+
+996
+00:36:49.680 --> 00:36:55.839
+equal bits so
+
+997
+00:36:56.079 --> 00:36:58.480
+so so this is the kind of phenomena that
+
+998
+00:36:58.480 --> 00:36:59.920
+we would end up having
+
+999
+00:36:59.920 --> 00:37:02.160
+once we have a velocity saturation
+
+1000
+00:37:02.160 --> 00:37:03.280
+impact okay
+
+1001
+00:37:03.280 --> 00:37:06.000
+so in a way the current that i would get
+
+1002
+00:37:06.000 --> 00:37:07.040
+is also small
+
+1003
+00:37:07.040 --> 00:37:09.440
+y again i will look back into our
+
+1004
+00:37:09.440 --> 00:37:11.040
+current equation
+
+1005
+00:37:11.040 --> 00:37:13.040
+that is equation number a so since the
+
+1006
+00:37:13.040 --> 00:37:14.160
+value of kappa
+
+1007
+00:37:14.160 --> 00:37:16.400
+takes up a value that is less than one
+
+1008
+00:37:16.400 --> 00:37:17.760
+the current that i would get out of the
+
+1009
+00:37:17.760 --> 00:37:18.400
+device
+
+1010
+00:37:18.400 --> 00:37:21.599
+will be small okay and the same has been
+
+1011
+00:37:21.599 --> 00:37:22.160
+reflected
+
+1012
+00:37:22.160 --> 00:37:24.640
+even in this graph when i go for equal
+
+1013
+00:37:24.640 --> 00:37:26.000
+widths the current
+
+1014
+00:37:26.000 --> 00:37:28.240
+that i would get is small compared to
+
+1015
+00:37:28.240 --> 00:37:29.760
+the current that i was getting earlier
+
+1016
+00:37:29.760 --> 00:37:31.119
+for the same
+
+1017
+00:37:31.119 --> 00:37:34.240
+value of vgs okay so there are two three
+
+1018
+00:37:34.240 --> 00:37:36.720
+factors that we can see here
+
+1019
+00:37:36.720 --> 00:37:40.800
+the first factor is the device
+
+1020
+00:37:41.839 --> 00:37:46.240
+enters into saturation
+
+1021
+00:37:46.960 --> 00:37:51.440
+much earlier
+
+1022
+00:37:51.440 --> 00:37:55.119
+okay the second one the ids
+
+1023
+00:37:55.119 --> 00:37:58.640
+is linearly equal to v just minus vt
+
+1024
+00:37:58.640 --> 00:38:00.800
+and due to which i would end up having
+
+1025
+00:38:00.800 --> 00:38:05.200
+equal widths
+
+1026
+00:38:05.200 --> 00:38:08.400
+of id sat okay
+
+1027
+00:38:08.400 --> 00:38:10.640
+for
+
+1028
+00:38:11.520 --> 00:38:14.720
+equal widths of
+
+1029
+00:38:15.520 --> 00:38:18.880
+vgs minus vt values okay or vgs values
+
+1030
+00:38:18.880 --> 00:38:20.480
+or equal bits of vgs values
+
+1031
+00:38:20.480 --> 00:38:22.720
+clear so this is the second thing that i
+
+1032
+00:38:22.720 --> 00:38:23.599
+can see
+
+1033
+00:38:23.599 --> 00:38:26.240
+and also the current that i would get
+
+1034
+00:38:26.240 --> 00:38:28.560
+the idsat
+
+1035
+00:38:28.560 --> 00:38:31.520
+would be small
+
+1036
+00:38:31.599 --> 00:38:35.040
+for short channel
+
+1037
+00:38:35.040 --> 00:38:36.560
+device okay so these are the three
+
+1038
+00:38:36.560 --> 00:38:38.640
+physical phenomena that i can observe
+
+1039
+00:38:38.640 --> 00:38:40.960
+okay so now there is one last thing that
+
+1040
+00:38:40.960 --> 00:38:42.880
+i want to show here
+
+1041
+00:38:42.880 --> 00:38:45.200
+we have plotted id versus vds graph how
+
+1042
+00:38:45.200 --> 00:38:48.560
+about id versus vgs graph
+
+1043
+00:38:48.560 --> 00:38:51.680
+any idea let me use the
+
+1044
+00:38:51.680 --> 00:38:54.240
+same graph that i plotted earlier yeah
+
+1045
+00:38:54.240 --> 00:38:56.720
+how does this graph would change
+
+1046
+00:38:56.720 --> 00:38:59.920
+where is my saturation regime your own
+
+1047
+00:38:59.920 --> 00:39:02.400
+saturation would be linear instead of
+
+1048
+00:39:02.400 --> 00:39:05.040
+quadratic
+
+1049
+00:39:05.599 --> 00:39:08.160
+yes yes so yeah instead of quadratic
+
+1050
+00:39:08.160 --> 00:39:09.599
+what happens is that it will be a kind
+
+1051
+00:39:09.599 --> 00:39:10.320
+of linear
+
+1052
+00:39:10.320 --> 00:39:13.520
+okay but at small values of uh vgs minus
+
+1053
+00:39:13.520 --> 00:39:14.000
+vt
+
+1054
+00:39:14.000 --> 00:39:17.040
+it will be still quadratic okay because
+
+1055
+00:39:17.040 --> 00:39:20.079
+the current ids
+
+1056
+00:39:20.400 --> 00:39:23.280
+has an expression copper of vgs minus vt
+
+1057
+00:39:23.280 --> 00:39:24.000
+okay
+
+1058
+00:39:24.000 --> 00:39:26.160
+so when this value of vgs minus vt is
+
+1059
+00:39:26.160 --> 00:39:27.119
+small
+
+1060
+00:39:27.119 --> 00:39:29.200
+what does it mean the kappa will take up
+
+1061
+00:39:29.200 --> 00:39:30.320
+a value of 1
+
+1062
+00:39:30.320 --> 00:39:33.839
+when i try to plot this small portion
+
+1063
+00:39:33.839 --> 00:39:34.480
+will reflect
+
+1064
+00:39:34.480 --> 00:39:36.560
+a quadratic relation but once i cross a
+
+1065
+00:39:36.560 --> 00:39:37.839
+particular value
+
+1066
+00:39:37.839 --> 00:39:40.079
+it becomes a kind of straight line like
+
+1067
+00:39:40.079 --> 00:39:41.359
+a kind of linear
+
+1068
+00:39:41.359 --> 00:39:45.040
+graph okay it becomes something like a
+
+1069
+00:39:45.040 --> 00:39:46.560
+straight line
+
+1070
+00:39:46.560 --> 00:39:48.800
+even in the saturation regime it becomes
+
+1071
+00:39:48.800 --> 00:39:50.720
+a linear relation between regions and
+
+1072
+00:39:50.720 --> 00:39:53.119
+id here there won't be any any curvature
+
+1073
+00:39:53.119 --> 00:39:54.000
+here
+
+1074
+00:39:54.000 --> 00:39:55.200
+but initially there will be a small
+
+1075
+00:39:55.200 --> 00:39:57.040
+curvature just because the kappa
+
+1076
+00:39:57.040 --> 00:39:58.640
+would take up the value of one when the
+
+1077
+00:39:58.640 --> 00:40:00.480
+value of v g s minus v d is small
+
+1078
+00:40:00.480 --> 00:40:03.920
+clear but otherwise it takes up a linear
+
+1079
+00:40:03.920 --> 00:40:04.480
+relation
+
+1080
+00:40:04.480 --> 00:40:06.880
+here and then you end up having a very
+
+1081
+00:40:06.880 --> 00:40:09.440
+less current
+
+1082
+00:40:09.440 --> 00:40:11.440
+after this okay so these are the
+
+1083
+00:40:11.440 --> 00:40:12.560
+pictures that i've drawn
+
+1084
+00:40:12.560 --> 00:40:15.599
+which i know that uh it is not that
+
+1085
+00:40:15.599 --> 00:40:19.200
+great so i'll show you the pictures
+
+1086
+00:40:19.200 --> 00:40:22.160
+that are taken from the textbook okay
+
+1087
+00:40:22.160 --> 00:40:22.480
+yeah
+
+1088
+00:40:22.480 --> 00:40:24.079
+so this is a kind of carrot for a long
+
+1089
+00:40:24.079 --> 00:40:25.680
+channel towards the left side and this
+
+1090
+00:40:25.680 --> 00:40:27.200
+is the cara that i would get for a short
+
+1091
+00:40:27.200 --> 00:40:27.680
+channel
+
+1092
+00:40:27.680 --> 00:40:30.000
+of equal bits and also the device is
+
+1093
+00:40:30.000 --> 00:40:30.880
+entering into
+
+1094
+00:40:30.880 --> 00:40:34.240
+saturation much earlier
+
+1095
+00:40:34.240 --> 00:40:35.680
+and this is the quadratic relation that
+
+1096
+00:40:35.680 --> 00:40:37.760
+i have for a long channel
+
+1097
+00:40:37.760 --> 00:40:40.240
+and this is a kind of linear relation
+
+1098
+00:40:40.240 --> 00:40:41.520
+that i have for the
+
+1099
+00:40:41.520 --> 00:40:43.760
+short channel device okay so hope that
+
+1100
+00:40:43.760 --> 00:40:45.359
+you have understood how does the
+
+1101
+00:40:45.359 --> 00:40:47.280
+saturation impacts our id
+
+1102
+00:40:47.280 --> 00:40:48.880
+characteristics as a whole
+
+1103
+00:40:48.880 --> 00:40:50.720
+okay so in the next class we will
+
+1104
+00:40:50.720 --> 00:40:52.079
+discuss about the mobility
+
+1105
+00:40:52.079 --> 00:40:54.400
+degradation which we will not discuss
+
+1106
+00:40:54.400 --> 00:40:55.440
+too much we'll just
+
+1107
+00:40:55.440 --> 00:40:58.079
+tell what is this mobility degradation
+
+1108
+00:40:58.079 --> 00:40:59.920
+means and how does it impacts our
+
+1109
+00:40:59.920 --> 00:41:01.440
+current that's it okay we will not go
+
+1110
+00:41:01.440 --> 00:41:01.839
+into
+
+1111
+00:41:01.839 --> 00:41:03.599
+expressions or derivations or something
+
+1112
+00:41:03.599 --> 00:41:05.280
+like that we just uh
+
+1113
+00:41:05.280 --> 00:41:07.359
+look into it and then we'll just move on
+
+1114
+00:41:07.359 --> 00:41:09.280
+to the further on ideal effects
+
+1115
+00:41:09.280 --> 00:41:19.280
+here so let me stop here
+

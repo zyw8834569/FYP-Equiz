@@ -1,0 +1,5494 @@
+WEBVTT
+
+1
+00:00:09.760 --> 00:00:10.719
+so your mic is
+
+2
+00:00:10.719 --> 00:00:13.679
+new yes
+
+3
+00:00:14.400 --> 00:00:18.640
+okay uh sorry for that yeah
+
+4
+00:00:18.640 --> 00:00:20.320
+so what i was talking is about the
+
+5
+00:00:20.320 --> 00:00:21.840
+velocity saturation effect this is one
+
+6
+00:00:21.840 --> 00:00:22.880
+among the effect
+
+7
+00:00:22.880 --> 00:00:24.800
+that we have under the uh secondary
+
+8
+00:00:24.800 --> 00:00:26.080
+effects and
+
+9
+00:00:26.080 --> 00:00:28.320
+the saturation effect is something like
+
+10
+00:00:28.320 --> 00:00:29.679
+when the electric field between the
+
+11
+00:00:29.679 --> 00:00:30.000
+source
+
+12
+00:00:30.000 --> 00:00:32.479
+and the drain attains a particular
+
+13
+00:00:32.479 --> 00:00:33.680
+electric field which we call it as a
+
+14
+00:00:33.680 --> 00:00:35.040
+critical electric field the velocity of
+
+15
+00:00:35.040 --> 00:00:36.960
+the carrier becomes saturated
+
+16
+00:00:36.960 --> 00:00:40.320
+so due to which there are a few things
+
+17
+00:00:40.320 --> 00:00:41.920
+that happens to our device
+
+18
+00:00:41.920 --> 00:00:45.120
+iv characteristic graphs okay one of the
+
+19
+00:00:45.120 --> 00:00:46.719
+major thing is that our device will
+
+20
+00:00:46.719 --> 00:00:49.200
+enter into saturation regime well before
+
+21
+00:00:49.200 --> 00:00:52.000
+the value of vds is equal to vgs minus
+
+22
+00:00:52.000 --> 00:00:53.039
+vt okay
+
+23
+00:00:53.039 --> 00:00:54.960
+because in the long channel device we
+
+24
+00:00:54.960 --> 00:00:56.399
+always assume that the transistor
+
+25
+00:00:56.399 --> 00:00:58.480
+enters into saturation regime the moment
+
+26
+00:00:58.480 --> 00:01:00.640
+the value of vds is equal to vgs minus
+
+27
+00:01:00.640 --> 00:01:01.280
+vt
+
+28
+00:01:01.280 --> 00:01:03.600
+okay so that was something a kind of a
+
+29
+00:01:03.600 --> 00:01:04.720
+well defined
+
+30
+00:01:04.720 --> 00:01:07.119
+voltage by which i can get to know
+
+31
+00:01:07.119 --> 00:01:09.439
+whether my device is in saturation or
+
+32
+00:01:09.439 --> 00:01:11.920
+i'm in the linear region okay but right
+
+33
+00:01:11.920 --> 00:01:14.159
+now when we use a small channel device
+
+34
+00:01:14.159 --> 00:01:16.159
+what happens is that uh this
+
+35
+00:01:16.159 --> 00:01:18.240
+phenomenon never follows like uh we
+
+36
+00:01:18.240 --> 00:01:19.520
+can't completely define that
+
+37
+00:01:19.520 --> 00:01:21.759
+our device enters into saturation the
+
+38
+00:01:21.759 --> 00:01:24.000
+moment the vds is equal to vgs minus vt
+
+39
+00:01:24.000 --> 00:01:26.560
+but in short the device enters into
+
+40
+00:01:26.560 --> 00:01:27.439
+saturation
+
+41
+00:01:27.439 --> 00:01:29.920
+for value of vds that is even smaller
+
+42
+00:01:29.920 --> 00:01:31.600
+than the value of v just minus vt okay
+
+43
+00:01:31.600 --> 00:01:33.200
+so due to which what happens is that we
+
+44
+00:01:33.200 --> 00:01:34.400
+have an extended
+
+45
+00:01:34.400 --> 00:01:36.799
+saturation regime and the second
+
+46
+00:01:36.799 --> 00:01:38.240
+physical phenomena that happens is that
+
+47
+00:01:38.240 --> 00:01:39.439
+the saturation current
+
+48
+00:01:39.439 --> 00:01:42.000
+is proportional to vgs minus vt okay so
+
+49
+00:01:42.000 --> 00:01:43.040
+this is something
+
+50
+00:01:43.040 --> 00:01:45.040
+uh which is different from than compared
+
+51
+00:01:45.040 --> 00:01:46.240
+to our uh previous
+
+52
+00:01:46.240 --> 00:01:48.560
+characteristic graphs okay where the
+
+53
+00:01:48.560 --> 00:01:49.680
+saturation current
+
+54
+00:01:49.680 --> 00:01:50.960
+for a long channel device was
+
+55
+00:01:50.960 --> 00:01:52.799
+proportional to v just minus v the whole
+
+56
+00:01:52.799 --> 00:01:54.159
+square but right now
+
+57
+00:01:54.159 --> 00:01:57.439
+it is proportional okay so due to which
+
+58
+00:01:57.439 --> 00:01:58.960
+there is an equal width
+
+59
+00:01:58.960 --> 00:02:00.640
+when there is an equal increment in the
+
+60
+00:02:00.640 --> 00:02:02.079
+value of vgs
+
+61
+00:02:02.079 --> 00:02:04.159
+okay so this is something that we had
+
+62
+00:02:04.159 --> 00:02:05.520
+addressed in the previous
+
+63
+00:02:05.520 --> 00:02:08.878
+class and uh also because
+
+64
+00:02:08.878 --> 00:02:12.000
+the id sat is a function of
+
+65
+00:02:12.000 --> 00:02:15.680
+kappa of uh vds
+
+66
+00:02:15.680 --> 00:02:18.239
+yeah so here is this okay so since
+
+67
+00:02:18.239 --> 00:02:18.800
+because
+
+68
+00:02:18.800 --> 00:02:22.080
+the idsat is basically a function of vds
+
+69
+00:02:22.080 --> 00:02:24.640
+what happens is that the current that we
+
+70
+00:02:24.640 --> 00:02:25.760
+would get
+
+71
+00:02:25.760 --> 00:02:28.080
+for a short channel a value of vds which
+
+72
+00:02:28.080 --> 00:02:29.360
+is larger
+
+73
+00:02:29.360 --> 00:02:31.040
+the copper value we always know that it
+
+74
+00:02:31.040 --> 00:02:32.400
+will be less than the value of one
+
+75
+00:02:32.400 --> 00:02:33.840
+due to which the current also gets
+
+76
+00:02:33.840 --> 00:02:35.360
+reduced okay so these are some of the
+
+77
+00:02:35.360 --> 00:02:36.720
+physical phenomena that we were
+
+78
+00:02:36.720 --> 00:02:38.800
+addressing in the previous class and
+
+79
+00:02:38.800 --> 00:02:40.640
+today i just want to show you about this
+
+80
+00:02:40.640 --> 00:02:42.400
+characteristic graph plot okay so i just
+
+81
+00:02:42.400 --> 00:02:45.280
+want to plot this id versus vds graph
+
+82
+00:02:45.280 --> 00:02:48.239
+through simulation and also if possible
+
+83
+00:02:48.239 --> 00:02:50.080
+i will try to plot id versus vgs
+
+84
+00:02:50.080 --> 00:02:52.400
+okay this simulation is just a way to
+
+85
+00:02:52.400 --> 00:02:54.239
+explain the things okay so
+
+86
+00:02:54.239 --> 00:02:56.640
+it's not a part of your theory course
+
+87
+00:02:56.640 --> 00:02:58.319
+but it's part of your lab
+
+88
+00:02:58.319 --> 00:02:59.519
+i guess right now you could see the
+
+89
+00:02:59.519 --> 00:03:02.080
+screen right
+
+90
+00:03:02.480 --> 00:03:06.400
+a different screen yeah
+
+91
+00:03:06.400 --> 00:03:08.560
+yes so there are a few setups that i
+
+92
+00:03:08.560 --> 00:03:19.840
+have to do just just grab for some time
+
+93
+00:03:24.400 --> 00:03:25.760
+so these things you will be learning
+
+94
+00:03:25.760 --> 00:03:28.000
+later later on during the course
+
+95
+00:03:28.000 --> 00:03:32.720
+okay so i'm just
+
+96
+00:03:32.720 --> 00:03:36.959
+trying to show only the graph part of it
+
+97
+00:03:37.360 --> 00:03:38.799
+so you don't need to worry right now
+
+98
+00:03:38.799 --> 00:03:47.840
+about why i am setting all these things
+
+99
+00:03:53.840 --> 00:03:56.239
+so now that i am just going to plot id
+
+100
+00:03:56.239 --> 00:03:58.640
+versus
+
+101
+00:03:58.720 --> 00:04:01.920
+vds graph okay and
+
+102
+00:04:01.920 --> 00:04:04.080
+the value of vgs that it has taken is
+
+103
+00:04:04.080 --> 00:04:05.280
+0.6 okay so
+
+104
+00:04:05.280 --> 00:04:08.080
+i have just defined those as a variable
+
+105
+00:04:08.080 --> 00:04:09.040
+and
+
+106
+00:04:09.040 --> 00:04:10.879
+right now we are varying the value of
+
+107
+00:04:10.879 --> 00:04:12.560
+various right from 0 to
+
+108
+00:04:12.560 --> 00:04:14.799
+1.2 volt and i've kept the value of
+
+109
+00:04:14.799 --> 00:04:17.279
+wages to be around
+
+110
+00:04:17.279 --> 00:04:19.680
+0.6 volt okay yeah so this was the
+
+111
+00:04:19.680 --> 00:04:20.720
+carrot that we have
+
+112
+00:04:20.720 --> 00:04:23.759
+and i also wanted to plot for
+
+113
+00:04:23.759 --> 00:04:26.639
+different values of vgs okay not just
+
+114
+00:04:26.639 --> 00:04:28.880
+for 0.6 i want i just want it for
+
+115
+00:04:28.880 --> 00:04:30.639
+different values of vgs so what i do is
+
+116
+00:04:30.639 --> 00:04:33.199
+i have to perform something known as
+
+117
+00:04:33.199 --> 00:04:37.040
+parametric analysis and
+
+118
+00:04:37.600 --> 00:04:39.759
+i'll just pull out my vgs and i would
+
+119
+00:04:39.759 --> 00:04:42.080
+vary the value of vgs from 0 to
+
+120
+00:04:42.080 --> 00:04:46.240
+1.2 maybe
+
+121
+00:04:48.080 --> 00:04:50.320
+6
+
+122
+00:04:54.070 --> 00:04:55.600
+[Applause]
+
+123
+00:04:55.600 --> 00:04:58.000
+okay so these are some of the keras and
+
+124
+00:04:58.000 --> 00:04:59.199
+as you could
+
+125
+00:04:59.199 --> 00:05:01.280
+clearly see that there is some sort of
+
+126
+00:05:01.280 --> 00:05:02.639
+quadratic nature
+
+127
+00:05:02.639 --> 00:05:05.520
+when the value of vgs even even it's a
+
+128
+00:05:05.520 --> 00:05:07.360
+function of regions as well okay
+
+129
+00:05:07.360 --> 00:05:10.080
+so but as you move on the spacing that
+
+130
+00:05:10.080 --> 00:05:11.360
+we have between these two
+
+131
+00:05:11.360 --> 00:05:13.280
+lines maybe uh i'll change the
+
+132
+00:05:13.280 --> 00:05:14.960
+background okay
+
+133
+00:05:14.960 --> 00:05:16.560
+yeah so again there is something known
+
+134
+00:05:16.560 --> 00:05:18.400
+as uh mobility degradation which happens
+
+135
+00:05:18.400 --> 00:05:20.000
+because of the vertical electric field
+
+136
+00:05:20.000 --> 00:05:21.360
+that is created between the
+
+137
+00:05:21.360 --> 00:05:24.560
+gate and the body okay so
+
+138
+00:05:24.560 --> 00:05:26.880
+again it's it's a function of both the
+
+139
+00:05:26.880 --> 00:05:27.759
+mobility
+
+140
+00:05:27.759 --> 00:05:29.520
+so in this case you could see that the
+
+141
+00:05:29.520 --> 00:05:31.280
+the spacing that i have here
+
+142
+00:05:31.280 --> 00:05:33.360
+is as similar to what we have here so
+
+143
+00:05:33.360 --> 00:05:35.120
+maybe i have to do a lot
+
+144
+00:05:35.120 --> 00:05:39.280
+a number of let me just try to
+
+145
+00:05:39.280 --> 00:05:42.080
+step this one
+
+146
+00:05:43.039 --> 00:05:45.120
+and let me specify the step size that's
+
+147
+00:05:45.120 --> 00:05:48.240
+point one okay
+
+148
+00:05:50.880 --> 00:05:52.720
+so i'm just incrementing the value of
+
+149
+00:05:52.720 --> 00:05:55.600
+vgs in steps of 100 millivolt
+
+150
+00:05:55.600 --> 00:05:58.319
+yeah so i hope that right now the graphs
+
+151
+00:05:58.319 --> 00:05:59.360
+are clear to you
+
+152
+00:05:59.360 --> 00:06:01.199
+you could see that the spacings that you
+
+153
+00:06:01.199 --> 00:06:02.639
+have is almost like
+
+154
+00:06:02.639 --> 00:06:04.800
+a kind of equal spacings when i try to
+
+155
+00:06:04.800 --> 00:06:06.639
+increase the value of wedges in steps of
+
+156
+00:06:06.639 --> 00:06:08.560
+100 millivolt
+
+157
+00:06:08.560 --> 00:06:11.520
+is the graphs are clear
+
+158
+00:06:11.759 --> 00:06:15.039
+but for low values of vgs obviously
+
+159
+00:06:15.039 --> 00:06:16.560
+it follows some sort of quadratic
+
+160
+00:06:16.560 --> 00:06:18.960
+relation okay but as you rise the value
+
+161
+00:06:18.960 --> 00:06:20.000
+of v g s
+
+162
+00:06:20.000 --> 00:06:21.680
+then again what we have is something
+
+163
+00:06:21.680 --> 00:06:24.000
+known as mobility degradation there is
+
+164
+00:06:24.000 --> 00:06:26.080
+again one more effect okay that i will
+
+165
+00:06:26.080 --> 00:06:27.280
+be discussing now
+
+166
+00:06:27.280 --> 00:06:29.120
+but this is what happens when we try to
+
+167
+00:06:29.120 --> 00:06:31.360
+plot it okay so we have equal spacings
+
+168
+00:06:31.360 --> 00:06:33.600
+in the kind of saturation current okay
+
+169
+00:06:33.600 --> 00:06:34.720
+and there is no
+
+170
+00:06:34.720 --> 00:06:37.120
+appropriate region where i can visually
+
+171
+00:06:37.120 --> 00:06:37.919
+see
+
+172
+00:06:37.919 --> 00:06:40.080
+the linear region separated out of our
+
+173
+00:06:40.080 --> 00:06:41.680
+saturation regime okay it's almost like
+
+174
+00:06:41.680 --> 00:06:43.199
+a kind of linear
+
+175
+00:06:43.199 --> 00:06:45.840
+graph okay so so something like a kind
+
+176
+00:06:45.840 --> 00:06:46.720
+of
+
+177
+00:06:46.720 --> 00:06:49.680
+a smooth graph that happens here okay so
+
+178
+00:06:49.680 --> 00:06:51.520
+it becomes very hard for us to actually
+
+179
+00:06:51.520 --> 00:06:53.039
+define whether the transfer is in
+
+180
+00:06:53.039 --> 00:06:55.440
+saturation or in the linear region
+
+181
+00:06:55.440 --> 00:06:58.800
+so this is for chart channel transistor
+
+182
+00:06:58.800 --> 00:07:01.360
+yeah yeah this is for 45 nanometer okay
+
+183
+00:07:01.360 --> 00:07:02.960
+the length and the width of the channels
+
+184
+00:07:02.960 --> 00:07:03.280
+are
+
+185
+00:07:03.280 --> 00:07:07.199
+specified here okay so here in this case
+
+186
+00:07:07.199 --> 00:07:08.160
+the length of the channel
+
+187
+00:07:08.160 --> 00:07:11.039
+was 45 nanometer okay now we can
+
+188
+00:07:11.039 --> 00:07:11.840
+actually mimic
+
+189
+00:07:11.840 --> 00:07:14.720
+but it's not a real device but what i
+
+190
+00:07:14.720 --> 00:07:15.440
+can do is that
+
+191
+00:07:15.440 --> 00:07:18.080
+i can just make this as something like 1
+
+192
+00:07:18.080 --> 00:07:20.639
+micrometer 1u means 1 micrometer
+
+193
+00:07:20.639 --> 00:07:22.960
+and i would increase the width to say
+
+194
+00:07:22.960 --> 00:07:24.160
+for example 10
+
+195
+00:07:24.160 --> 00:07:27.360
+micrometer okay and there will be a
+
+196
+00:07:27.360 --> 00:07:28.720
+slight change because the thickness of
+
+197
+00:07:28.720 --> 00:07:30.720
+the oxide reminds the same for 45
+
+198
+00:07:30.720 --> 00:07:32.400
+nanometer technology okay so due to
+
+199
+00:07:32.400 --> 00:07:33.919
+which there will be some sort of
+
+200
+00:07:33.919 --> 00:07:36.479
+mobility degradation effect we can't
+
+201
+00:07:36.479 --> 00:07:37.360
+really model
+
+202
+00:07:37.360 --> 00:07:39.919
+a long-term device just by changing the
+
+203
+00:07:39.919 --> 00:07:41.120
+length and the width of the
+
+204
+00:07:41.120 --> 00:07:43.360
+transistors but still we can certainly
+
+205
+00:07:43.360 --> 00:07:46.800
+see some sort of changes that is
+
+206
+00:07:56.840 --> 00:07:59.840
+happening
+
+207
+00:08:10.840 --> 00:08:13.840
+uh
+
+208
+00:08:22.000 --> 00:08:24.639
+i just make this as one micro micron as
+
+209
+00:08:24.639 --> 00:08:25.680
+the channel length
+
+210
+00:08:25.680 --> 00:08:28.479
+and 10 micron as the width of the uh
+
+211
+00:08:28.479 --> 00:08:29.360
+transistor
+
+212
+00:08:29.360 --> 00:08:33.440
+of the channel and let me
+
+213
+00:08:33.440 --> 00:08:41.839
+just get back to parametric
+
+214
+00:08:43.360 --> 00:08:45.120
+so again we are not entirely changing
+
+215
+00:08:45.120 --> 00:08:47.200
+the technology we are reusing the 45
+
+216
+00:08:47.200 --> 00:08:49.279
+nanometer technology itself but
+
+217
+00:08:49.279 --> 00:08:51.200
+with higher length and rate okay so
+
+218
+00:08:51.200 --> 00:08:52.480
+certainly there will be some sort of
+
+219
+00:08:52.480 --> 00:08:53.519
+differences
+
+220
+00:08:53.519 --> 00:08:55.760
+but you cannot expect some sort of
+
+221
+00:08:55.760 --> 00:08:57.360
+quadratic nature that i was showing
+
+222
+00:08:57.360 --> 00:08:59.680
+earlier okay so we have to use the real
+
+223
+00:08:59.680 --> 00:09:03.200
+technology for it in order to get the
+
+224
+00:09:03.279 --> 00:09:06.560
+effect okay yeah so the one
+
+225
+00:09:06.560 --> 00:09:09.120
+towards the right okay so this is
+
+226
+00:09:09.120 --> 00:09:09.600
+something
+
+227
+00:09:09.600 --> 00:09:12.560
+for a kind of longer channel okay and
+
+228
+00:09:12.560 --> 00:09:14.399
+the one towards the left side is for the
+
+229
+00:09:14.399 --> 00:09:15.760
+shorter channel okay so you could
+
+230
+00:09:15.760 --> 00:09:17.200
+barely see that there is a kind of
+
+231
+00:09:17.200 --> 00:09:19.200
+spacing becomes higher and higher
+
+232
+00:09:19.200 --> 00:09:21.279
+okay whereas the spacings here are
+
+233
+00:09:21.279 --> 00:09:23.360
+almost equal whereas here there is
+
+234
+00:09:23.360 --> 00:09:25.440
+some sort of impact that you could see
+
+235
+00:09:25.440 --> 00:09:26.720
+okay i guess uh
+
+236
+00:09:26.720 --> 00:09:28.480
+more than this we can't uh really talk
+
+237
+00:09:28.480 --> 00:09:30.800
+about this just with 45 nanometer i have
+
+238
+00:09:30.800 --> 00:09:32.240
+to use a completely different technology
+
+239
+00:09:32.240 --> 00:09:33.519
+to talk about it okay
+
+240
+00:09:33.519 --> 00:09:36.640
+so that whatever we study in the theory
+
+241
+00:09:36.640 --> 00:09:38.720
+with quadratic spacing you can really
+
+242
+00:09:38.720 --> 00:09:40.640
+see those quadratic spacing only for
+
+243
+00:09:40.640 --> 00:09:42.160
+technologies which are at least a
+
+244
+00:09:42.160 --> 00:09:44.160
+minimum of 500 nanometer or more than
+
+245
+00:09:44.160 --> 00:09:45.440
+that okay one micron
+
+246
+00:09:45.440 --> 00:09:47.279
+technology if we have then those
+
+247
+00:09:47.279 --> 00:09:48.720
+technologies can be utilized
+
+248
+00:09:48.720 --> 00:09:50.240
+and we can do the simulation in order to
+
+249
+00:09:50.240 --> 00:09:52.880
+get the characteristics that we see
+
+250
+00:09:52.880 --> 00:09:55.040
+normally in our textbooks okay this is
+
+251
+00:09:55.040 --> 00:09:56.800
+just to show how the graphs have been
+
+252
+00:09:56.800 --> 00:09:57.600
+brought in and
+
+253
+00:09:57.600 --> 00:09:59.600
+and you could also see that the
+
+254
+00:09:59.600 --> 00:10:00.640
+saturation
+
+255
+00:10:00.640 --> 00:10:04.079
+region barely happens for a value of vds
+
+256
+00:10:04.079 --> 00:10:05.839
+that is more than a certain value okay
+
+257
+00:10:05.839 --> 00:10:07.279
+whereas in this case you could see that
+
+258
+00:10:07.279 --> 00:10:09.279
+the device almost enters into saturation
+
+259
+00:10:09.279 --> 00:10:10.000
+regime
+
+260
+00:10:10.000 --> 00:10:13.200
+for even for small values of videos yeah
+
+261
+00:10:13.200 --> 00:10:15.920
+so now i'll just switch over my screen
+
+262
+00:10:15.920 --> 00:10:16.959
+so the next
+
+263
+00:10:16.959 --> 00:10:18.959
+type of impact that i wanted to discuss
+
+264
+00:10:18.959 --> 00:10:22.560
+is about mobility degradation
+
+265
+00:10:23.440 --> 00:10:25.680
+now we have already seen something known
+
+266
+00:10:25.680 --> 00:10:27.279
+as velocity saturation effect
+
+267
+00:10:27.279 --> 00:10:28.880
+and that velocity saturation effect
+
+268
+00:10:28.880 --> 00:10:30.880
+happens because of the lateral electric
+
+269
+00:10:30.880 --> 00:10:32.320
+field that is the field that exists
+
+270
+00:10:32.320 --> 00:10:33.760
+between the source
+
+271
+00:10:33.760 --> 00:10:36.320
+and the drain okay but on the other hand
+
+272
+00:10:36.320 --> 00:10:38.000
+what we have
+
+273
+00:10:38.000 --> 00:10:40.959
+is a field due to the gate as well okay
+
+274
+00:10:40.959 --> 00:10:41.760
+because
+
+275
+00:10:41.760 --> 00:10:45.200
+we know that the gate certainly has some
+
+276
+00:10:45.200 --> 00:10:46.720
+sort of potential
+
+277
+00:10:46.720 --> 00:10:49.200
+which is greater than the value of vt
+
+278
+00:10:49.200 --> 00:10:50.079
+okay so
+
+279
+00:10:50.079 --> 00:10:51.680
+so this will actually create some sort
+
+280
+00:10:51.680 --> 00:10:53.279
+of field across the oxide okay
+
+281
+00:10:53.279 --> 00:10:55.120
+across the thickness of the oxide we
+
+282
+00:10:55.120 --> 00:10:56.959
+have some sort of electric field
+
+283
+00:10:56.959 --> 00:10:58.480
+okay which is a constant electric field
+
+284
+00:10:58.480 --> 00:10:59.839
+that we have studied when we discussed
+
+285
+00:10:59.839 --> 00:11:00.399
+about the
+
+286
+00:11:00.399 --> 00:11:04.480
+cv right yeah now even this field will
+
+287
+00:11:04.480 --> 00:11:05.920
+create some sort of impact
+
+288
+00:11:05.920 --> 00:11:08.399
+now what we wanted is the free carriers
+
+289
+00:11:08.399 --> 00:11:09.120
+let me just
+
+290
+00:11:09.120 --> 00:11:12.640
+choose a an nmos so that i have a p type
+
+291
+00:11:12.640 --> 00:11:14.320
+as my semiconductor and
+
+292
+00:11:14.320 --> 00:11:16.240
+once the value of vgs is greater than
+
+293
+00:11:16.240 --> 00:11:18.240
+the value of vt we know that
+
+294
+00:11:18.240 --> 00:11:21.760
+it pulls out all the electrons and it
+
+295
+00:11:21.760 --> 00:11:24.160
+creates some sort of channel here okay
+
+296
+00:11:24.160 --> 00:11:24.959
+and then we
+
+297
+00:11:24.959 --> 00:11:26.640
+also know that we have some sort of
+
+298
+00:11:26.640 --> 00:11:28.000
+repeated uh
+
+299
+00:11:28.000 --> 00:11:31.120
+region around this entire segment okay
+
+300
+00:11:31.120 --> 00:11:34.079
+yeah so now what happens is that these
+
+301
+00:11:34.079 --> 00:11:35.279
+electrons
+
+302
+00:11:35.279 --> 00:11:37.920
+uh has to move from the source side
+
+303
+00:11:37.920 --> 00:11:39.200
+towards the drain side
+
+304
+00:11:39.200 --> 00:11:41.279
+okay and this is our entity operation
+
+305
+00:11:41.279 --> 00:11:42.480
+but what happens
+
+306
+00:11:42.480 --> 00:11:44.160
+on the other hand is that the value of
+
+307
+00:11:44.160 --> 00:11:45.680
+vgs
+
+308
+00:11:45.680 --> 00:11:47.680
+creates an electric field which we call
+
+309
+00:11:47.680 --> 00:11:49.279
+as a vertical electric field
+
+310
+00:11:49.279 --> 00:11:51.360
+which is given as vg by the thickness of
+
+311
+00:11:51.360 --> 00:11:52.480
+the oxide
+
+312
+00:11:52.480 --> 00:11:55.519
+okay so now as the technology shrinks
+
+313
+00:11:55.519 --> 00:11:56.000
+down
+
+314
+00:11:56.000 --> 00:11:58.000
+the thickness of the oxide becomes less
+
+315
+00:11:58.000 --> 00:11:59.360
+than nanometer okay
+
+316
+00:11:59.360 --> 00:12:01.760
+i think at the atomic scale you will
+
+317
+00:12:01.760 --> 00:12:03.839
+find this thickness of the oxide okay
+
+318
+00:12:03.839 --> 00:12:06.480
+so this in turn creates some sort of
+
+319
+00:12:06.480 --> 00:12:08.320
+huge electric field even for small
+
+320
+00:12:08.320 --> 00:12:10.240
+values of vgs
+
+321
+00:12:10.240 --> 00:12:12.480
+and that creates a very high electric
+
+322
+00:12:12.480 --> 00:12:14.000
+field and due to which
+
+323
+00:12:14.000 --> 00:12:16.639
+one could actually model the mobility of
+
+324
+00:12:16.639 --> 00:12:17.680
+the carrier
+
+325
+00:12:17.680 --> 00:12:20.000
+that is effectively being disturbed by
+
+326
+00:12:20.000 --> 00:12:22.160
+this vertical electric field
+
+327
+00:12:22.160 --> 00:12:24.079
+as something like mu naught when there
+
+328
+00:12:24.079 --> 00:12:26.240
+is no field that causes the uh
+
+329
+00:12:26.240 --> 00:12:29.760
+motion due to the vertical field
+
+330
+00:12:29.760 --> 00:12:31.200
+and then there is some sort of eta
+
+331
+00:12:31.200 --> 00:12:33.200
+factor okay uh this is something like a
+
+332
+00:12:33.200 --> 00:12:33.920
+kind of uh
+
+333
+00:12:33.920 --> 00:12:37.040
+empirical factor multiplied by the vgs
+
+334
+00:12:37.040 --> 00:12:38.480
+minus vt okay
+
+335
+00:12:38.480 --> 00:12:40.720
+so as we raise the value of this radius
+
+336
+00:12:40.720 --> 00:12:41.600
+minus vt
+
+337
+00:12:41.600 --> 00:12:42.880
+effectively what happens is that the
+
+338
+00:12:42.880 --> 00:12:45.120
+mobility of your carrier
+
+339
+00:12:45.120 --> 00:12:47.839
+becomes slow okay now this can be again
+
+340
+00:12:47.839 --> 00:12:50.000
+can be shown some sort of
+
+341
+00:12:50.000 --> 00:12:53.600
+with a comical video okay
+
+342
+00:12:53.600 --> 00:12:57.360
+as something like this okay
+
+343
+00:12:57.839 --> 00:12:59.839
+so this is the kind of reporter who just
+
+344
+00:12:59.839 --> 00:13:01.760
+wants to report something and uh he is
+
+345
+00:13:01.760 --> 00:13:02.399
+trying to
+
+346
+00:13:02.399 --> 00:13:05.680
+put himself stand against the strong
+
+347
+00:13:05.680 --> 00:13:08.480
+wind okay but he couldn't be able to
+
+348
+00:13:08.480 --> 00:13:09.040
+resist
+
+349
+00:13:09.040 --> 00:13:10.240
+so what happens is that he couldn't be
+
+350
+00:13:10.240 --> 00:13:12.320
+able to move uh between the source and
+
+351
+00:13:12.320 --> 00:13:13.680
+the drain because of the
+
+352
+00:13:13.680 --> 00:13:17.279
+high uh vertical field towards the storm
+
+353
+00:13:17.279 --> 00:13:19.680
+okay that flows okay so that makes him
+
+354
+00:13:19.680 --> 00:13:20.480
+to collide
+
+355
+00:13:20.480 --> 00:13:23.279
+along the uh wall okay so it is
+
+356
+00:13:23.279 --> 00:13:25.920
+something like you
+
+357
+00:13:25.920 --> 00:13:28.160
+okay let me stop this video okay so you
+
+358
+00:13:28.160 --> 00:13:29.440
+got some sort of an idea
+
+359
+00:13:29.440 --> 00:13:32.399
+okay so with this idea let me try to
+
+360
+00:13:32.399 --> 00:13:34.560
+mimic this cartoon
+
+361
+00:13:34.560 --> 00:13:39.440
+okay so you have some sort of wall
+
+362
+00:13:39.440 --> 00:13:44.480
+okay and you you want to run between the
+
+363
+00:13:44.480 --> 00:13:46.560
+source side towards the drain side and
+
+364
+00:13:46.560 --> 00:13:48.399
+you want to have something like this
+
+365
+00:13:48.399 --> 00:13:49.680
+but what happens is that there is a
+
+366
+00:13:49.680 --> 00:13:51.199
+vertical field that is coming from the
+
+367
+00:13:51.199 --> 00:13:52.079
+other side
+
+368
+00:13:52.079 --> 00:13:54.320
+uh something like a kind of blower a big
+
+369
+00:13:54.320 --> 00:13:55.360
+fan okay
+
+370
+00:13:55.360 --> 00:13:56.880
+okay so you have to assume that this is
+
+371
+00:13:56.880 --> 00:13:58.399
+a fan okay so there is
+
+372
+00:13:58.399 --> 00:14:01.600
+no other way and this pan is actually
+
+373
+00:14:01.600 --> 00:14:04.639
+growing at a very high speed okay so
+
+374
+00:14:04.639 --> 00:14:06.079
+so due to which what happens is that
+
+375
+00:14:06.079 --> 00:14:08.320
+this person his original
+
+376
+00:14:08.320 --> 00:14:10.399
+speed would be much larger but just
+
+377
+00:14:10.399 --> 00:14:11.680
+because of this blow
+
+378
+00:14:11.680 --> 00:14:13.760
+his speed would be reduced and in
+
+379
+00:14:13.760 --> 00:14:15.680
+general what happens is that he collides
+
+380
+00:14:15.680 --> 00:14:17.600
+at the interface between oxide and the
+
+381
+00:14:17.600 --> 00:14:19.680
+semiconductor okay rather than he tries
+
+382
+00:14:19.680 --> 00:14:20.800
+to move freely
+
+383
+00:14:20.800 --> 00:14:23.680
+he's been hitted on this interface so it
+
+384
+00:14:23.680 --> 00:14:25.519
+is something like you are trying to run
+
+385
+00:14:25.519 --> 00:14:27.279
+close to the wall so what happens is
+
+386
+00:14:27.279 --> 00:14:29.440
+that the speed at which you want to
+
+387
+00:14:29.440 --> 00:14:31.839
+actually get slow down okay rather than
+
+388
+00:14:31.839 --> 00:14:33.600
+running in a very uh free space you are
+
+389
+00:14:33.600 --> 00:14:35.120
+trying to run in a very
+
+390
+00:14:35.120 --> 00:14:36.720
+cumbersome area so due to which you
+
+391
+00:14:36.720 --> 00:14:38.240
+cannot run fast okay
+
+392
+00:14:38.240 --> 00:14:40.160
+and this is the type of impact that we
+
+393
+00:14:40.160 --> 00:14:41.839
+call that impact as a mobility
+
+394
+00:14:41.839 --> 00:14:44.160
+degradation this happens because of the
+
+395
+00:14:44.160 --> 00:14:46.800
+vertical field created by this gate
+
+396
+00:14:46.800 --> 00:14:48.320
+potential
+
+397
+00:14:48.320 --> 00:14:51.920
+okay so after this what we have is
+
+398
+00:14:51.920 --> 00:14:54.639
+something known as channel length
+
+399
+00:14:54.639 --> 00:14:55.279
+modulation
+
+400
+00:14:55.279 --> 00:14:56.480
+we have already discussed about this
+
+401
+00:14:56.480 --> 00:14:58.880
+channel modulation effect in the last
+
+402
+00:14:58.880 --> 00:15:01.199
+couple of classes i'll just revise okay
+
+403
+00:15:01.199 --> 00:15:04.160
+i'll not do the derivation here
+
+404
+00:15:04.160 --> 00:15:06.399
+now under this channel and modulation
+
+405
+00:15:06.399 --> 00:15:07.680
+i'm just going to assume that the length
+
+406
+00:15:07.680 --> 00:15:09.920
+of the channel is quite high okay so
+
+407
+00:15:09.920 --> 00:15:12.399
+in the sense of we are talking about a
+
+408
+00:15:12.399 --> 00:15:13.920
+saturation current
+
+409
+00:15:13.920 --> 00:15:16.720
+for a long channel device okay so we
+
+410
+00:15:16.720 --> 00:15:18.399
+know that that could be written as
+
+411
+00:15:18.399 --> 00:15:21.440
+ids saturation and
+
+412
+00:15:21.440 --> 00:15:24.079
+that could be written as half k n dash w
+
+413
+00:15:24.079 --> 00:15:25.440
+by l
+
+414
+00:15:25.440 --> 00:15:28.639
+v g s minus v t the whole square and
+
+415
+00:15:28.639 --> 00:15:30.160
+effectively what happens is that the
+
+416
+00:15:30.160 --> 00:15:32.000
+length of the channel is
+
+417
+00:15:32.000 --> 00:15:33.920
+becoming tapper and tapper as we rise
+
+418
+00:15:33.920 --> 00:15:35.519
+the value of vds okay
+
+419
+00:15:35.519 --> 00:15:37.600
+so this is the channel that i'm trying
+
+420
+00:15:37.600 --> 00:15:38.959
+to mark here okay
+
+421
+00:15:38.959 --> 00:15:42.160
+so this is my channel area where i have
+
+422
+00:15:42.160 --> 00:15:42.800
+filled with
+
+423
+00:15:42.800 --> 00:15:45.600
+all charge carriers within this zone
+
+424
+00:15:45.600 --> 00:15:46.320
+okay
+
+425
+00:15:46.320 --> 00:15:48.560
+and this happens when we have vds that
+
+426
+00:15:48.560 --> 00:15:50.079
+is equal to vds
+
+427
+00:15:50.079 --> 00:15:52.480
+sat okay and as we rise the value of
+
+428
+00:15:52.480 --> 00:15:53.519
+this vds
+
+429
+00:15:53.519 --> 00:15:55.360
+beyond the value of vdsat say for
+
+430
+00:15:55.360 --> 00:15:57.839
+example i am talking about vds1
+
+431
+00:15:57.839 --> 00:16:00.320
+which is greater than the value of vdsat
+
+432
+00:16:00.320 --> 00:16:02.000
+what happens is that this channel
+
+433
+00:16:02.000 --> 00:16:05.360
+is actually getting tappered further
+
+434
+00:16:05.360 --> 00:16:07.600
+and effectively the length of the
+
+435
+00:16:07.600 --> 00:16:09.040
+channel has got reduced
+
+436
+00:16:09.040 --> 00:16:12.079
+where i have filled with carriers okay
+
+437
+00:16:12.079 --> 00:16:15.120
+so this region is currently been filled
+
+438
+00:16:15.120 --> 00:16:16.079
+with carriers
+
+439
+00:16:16.079 --> 00:16:18.160
+but there is a region where i don't have
+
+440
+00:16:18.160 --> 00:16:19.519
+any carriers here okay so this
+
+441
+00:16:19.519 --> 00:16:20.560
+particular region is
+
+442
+00:16:20.560 --> 00:16:22.959
+known is left over with no carriers here
+
+443
+00:16:22.959 --> 00:16:23.600
+okay
+
+444
+00:16:23.600 --> 00:16:25.839
+so the effective length across which i
+
+445
+00:16:25.839 --> 00:16:27.120
+have carriers
+
+446
+00:16:27.120 --> 00:16:30.639
+has become something like del l
+
+447
+00:16:30.639 --> 00:16:32.079
+and this is my total length of the
+
+448
+00:16:32.079 --> 00:16:34.399
+channel
+
+449
+00:16:34.480 --> 00:16:40.320
+okay and effectively what i have here
+
+450
+00:16:40.720 --> 00:16:43.759
+is the l minus del l okay
+
+451
+00:16:43.759 --> 00:16:45.519
+and because of this uh we derived and
+
+452
+00:16:45.519 --> 00:16:47.360
+showed that it could be written as half
+
+453
+00:16:47.360 --> 00:16:48.079
+k n dash
+
+454
+00:16:48.079 --> 00:16:51.440
+w by l into v g s
+
+455
+00:16:51.440 --> 00:16:54.880
+minus v t the whole square into 1 plus
+
+456
+00:16:54.880 --> 00:16:58.240
+lambda if we really see this delta l
+
+457
+00:16:58.240 --> 00:17:01.600
+is actually proportional to delta v d s
+
+458
+00:17:01.600 --> 00:17:05.359
+so this delta v d s is nothing but
+
+459
+00:17:05.359 --> 00:17:08.640
+it's a voltage that goes beyond the vds
+
+460
+00:17:08.640 --> 00:17:10.959
+side
+
+461
+00:17:11.520 --> 00:17:16.160
+so i could write my vds as a potential
+
+462
+00:17:16.160 --> 00:17:19.119
+that is offsetted by this vdsat plus any
+
+463
+00:17:19.119 --> 00:17:21.760
+extra potential that i am giving
+
+464
+00:17:21.760 --> 00:17:23.919
+can be returned as delta v ds okay so
+
+465
+00:17:23.919 --> 00:17:25.599
+what happens is that uh we were trying
+
+466
+00:17:25.599 --> 00:17:26.240
+to
+
+467
+00:17:26.240 --> 00:17:28.240
+use this relation and then later we
+
+468
+00:17:28.240 --> 00:17:29.600
+wrote this delta l
+
+469
+00:17:29.600 --> 00:17:32.480
+to be equal to delta vds but we
+
+470
+00:17:32.480 --> 00:17:33.120
+introduced
+
+471
+00:17:33.120 --> 00:17:35.280
+a constant which we called as lambda
+
+472
+00:17:35.280 --> 00:17:36.720
+prime okay
+
+473
+00:17:36.720 --> 00:17:40.480
+and later on we also introduced one more
+
+474
+00:17:40.480 --> 00:17:43.840
+constant which was written as something
+
+475
+00:17:43.840 --> 00:17:44.720
+like
+
+476
+00:17:44.720 --> 00:17:46.000
+and due know which one could write
+
+477
+00:17:46.000 --> 00:17:48.320
+something like delta
+
+478
+00:17:48.320 --> 00:17:51.039
+vds okay so now what happens is that
+
+479
+00:17:51.039 --> 00:17:52.320
+this is a kind of cara
+
+480
+00:17:52.320 --> 00:17:54.160
+where i'm trying to plot with respect to
+
+481
+00:17:54.160 --> 00:17:55.760
+delta vds
+
+482
+00:17:55.760 --> 00:17:59.200
+so when you try to plot
+
+483
+00:17:59.280 --> 00:18:02.559
+the saturation current id is
+
+484
+00:18:02.559 --> 00:18:05.679
+okay in terms of delta vds
+
+485
+00:18:05.679 --> 00:18:08.080
+now for a value of delta vds that is
+
+486
+00:18:08.080 --> 00:18:08.799
+equal to 0
+
+487
+00:18:08.799 --> 00:18:10.880
+we know that we have some sort of
+
+488
+00:18:10.880 --> 00:18:12.240
+saturation current and that could be
+
+489
+00:18:12.240 --> 00:18:14.320
+defined only by this particular quantity
+
+490
+00:18:14.320 --> 00:18:14.720
+okay
+
+491
+00:18:14.720 --> 00:18:17.280
+so this quantity let us assume some
+
+492
+00:18:17.280 --> 00:18:18.080
+value for it
+
+493
+00:18:18.080 --> 00:18:20.400
+and along the y axis it has some value
+
+494
+00:18:20.400 --> 00:18:22.480
+now as i raise the value of delta v ds
+
+495
+00:18:22.480 --> 00:18:24.320
+what happens is that the lambda gets
+
+496
+00:18:24.320 --> 00:18:25.679
+multiplied with the increase in the
+
+497
+00:18:25.679 --> 00:18:27.200
+value of this delta v ds and due to
+
+498
+00:18:27.200 --> 00:18:28.799
+which the graph would normally look
+
+499
+00:18:28.799 --> 00:18:30.720
+something like a kind of tapered line
+
+500
+00:18:30.720 --> 00:18:32.240
+okay now
+
+501
+00:18:32.240 --> 00:18:35.840
+we don't want this camera to be plotted
+
+502
+00:18:35.840 --> 00:18:38.400
+along the axis where i have delta vds
+
+503
+00:18:38.400 --> 00:18:40.000
+but what i wanted is a plot
+
+504
+00:18:40.000 --> 00:18:43.039
+of ideas
+
+505
+00:18:43.039 --> 00:18:45.760
+versus vds okay i wanted a plot that's
+
+506
+00:18:45.760 --> 00:18:46.880
+supposed to be
+
+507
+00:18:46.880 --> 00:18:49.120
+uh running across the value of vds
+
+508
+00:18:49.120 --> 00:18:51.360
+rather than the value of delta vds okay
+
+509
+00:18:51.360 --> 00:18:53.440
+and due to which i need to translate
+
+510
+00:18:53.440 --> 00:18:55.280
+each and every point that i have here
+
+511
+00:18:55.280 --> 00:18:57.360
+on to this particular plot now in order
+
+512
+00:18:57.360 --> 00:18:59.360
+to translate from here to here
+
+513
+00:18:59.360 --> 00:19:01.840
+i have to make use of this equation
+
+514
+00:19:01.840 --> 00:19:02.400
+where
+
+515
+00:19:02.400 --> 00:19:04.880
+v d s is nothing but it is defined as
+
+516
+00:19:04.880 --> 00:19:06.240
+delta v d s
+
+517
+00:19:06.240 --> 00:19:09.600
+plus v d sat
+
+518
+00:19:09.600 --> 00:19:11.520
+which i wrote it at the beginning so the
+
+519
+00:19:11.520 --> 00:19:12.960
+zero point that i have here
+
+520
+00:19:12.960 --> 00:19:15.200
+when the value of vds delta vds was at
+
+521
+00:19:15.200 --> 00:19:17.120
+zero i had this particular point
+
+522
+00:19:17.120 --> 00:19:19.039
+and this point has to be mapped onto
+
+523
+00:19:19.039 --> 00:19:20.320
+this graph right
+
+524
+00:19:20.320 --> 00:19:21.840
+so when you try to plug in the value of
+
+525
+00:19:21.840 --> 00:19:24.480
+this maybe i'll use a different color
+
+526
+00:19:24.480 --> 00:19:26.799
+okay so this point i want to plot it
+
+527
+00:19:26.799 --> 00:19:27.840
+over this
+
+528
+00:19:27.840 --> 00:19:29.760
+vds graph then what i do is that i just
+
+529
+00:19:29.760 --> 00:19:31.280
+plug in the value of 0
+
+530
+00:19:31.280 --> 00:19:34.080
+that i have here over here so now what
+
+531
+00:19:34.080 --> 00:19:36.320
+happens is that
+
+532
+00:19:36.320 --> 00:19:39.120
+for this current value our vds supposed
+
+533
+00:19:39.120 --> 00:19:40.559
+to be equal to vds
+
+534
+00:19:40.559 --> 00:19:42.240
+sat so which means that this particular
+
+535
+00:19:42.240 --> 00:19:46.000
+point is actually mapping on to
+
+536
+00:19:46.000 --> 00:19:48.080
+this particular point where the value of
+
+537
+00:19:48.080 --> 00:19:49.919
+vds is equal to
+
+538
+00:19:49.919 --> 00:19:53.520
+vds sat okay now this point
+
+539
+00:19:53.520 --> 00:19:55.760
+again you try to plug in the value that
+
+540
+00:19:55.760 --> 00:19:56.880
+you have here
+
+541
+00:19:56.880 --> 00:19:59.039
+okay this value let us assume that it is
+
+542
+00:19:59.039 --> 00:19:59.919
+delta v d s
+
+543
+00:19:59.919 --> 00:20:02.480
+one so that delta v s one you would plug
+
+544
+00:20:02.480 --> 00:20:02.960
+in here
+
+545
+00:20:02.960 --> 00:20:05.039
+and due to which the same similar point
+
+546
+00:20:05.039 --> 00:20:06.480
+would be marked over here so
+
+547
+00:20:06.480 --> 00:20:08.960
+when you try to join all of these points
+
+548
+00:20:08.960 --> 00:20:10.880
+the same color would be translated
+
+549
+00:20:10.880 --> 00:20:13.679
+on this particular camera okay and to
+
+550
+00:20:13.679 --> 00:20:16.000
+define this current
+
+551
+00:20:16.000 --> 00:20:18.320
+i want to rewrite this saturation
+
+552
+00:20:18.320 --> 00:20:19.679
+current okay
+
+553
+00:20:19.679 --> 00:20:22.240
+so how will i rewrite this i have to
+
+554
+00:20:22.240 --> 00:20:23.039
+change this
+
+555
+00:20:23.039 --> 00:20:27.440
+delta vds in terms of this vds okay
+
+556
+00:20:27.840 --> 00:20:30.559
+so my saturation current that i normally
+
+557
+00:20:30.559 --> 00:20:31.039
+use
+
+558
+00:20:31.039 --> 00:20:34.880
+to plot it against ideas versus vds
+
+559
+00:20:34.880 --> 00:20:36.880
+can be rewritten as something like half
+
+560
+00:20:36.880 --> 00:20:38.480
+k n dash w by
+
+561
+00:20:38.480 --> 00:20:42.000
+l v g s minus v t the whole square
+
+562
+00:20:42.000 --> 00:20:44.320
+plus in order to plot on the axis of v d
+
+563
+00:20:44.320 --> 00:20:46.400
+s i have to write it as lambda times the
+
+564
+00:20:46.400 --> 00:20:47.600
+rough vds
+
+565
+00:20:47.600 --> 00:20:49.840
+clear i i think there was some sort of
+
+566
+00:20:49.840 --> 00:20:51.600
+discussion around this particular point
+
+567
+00:20:51.600 --> 00:20:53.840
+and this is what i was about to define
+
+568
+00:20:53.840 --> 00:20:55.280
+uh when you were asking about this
+
+569
+00:20:55.280 --> 00:20:56.720
+particular doubt okay so i want to
+
+570
+00:20:56.720 --> 00:20:58.559
+translate on different graph okay and
+
+571
+00:20:58.559 --> 00:20:59.360
+due to which
+
+572
+00:20:59.360 --> 00:21:01.919
+this delta vds has to be replaced with
+
+573
+00:21:01.919 --> 00:21:03.679
+vds so that i can utilize
+
+574
+00:21:03.679 --> 00:21:06.400
+in the graph that i was trying to plot
+
+575
+00:21:06.400 --> 00:21:08.000
+uh id versus vds
+
+576
+00:21:08.000 --> 00:21:11.600
+here yeah so
+
+577
+00:21:11.600 --> 00:21:15.280
+after this we have but this
+
+578
+00:21:15.280 --> 00:21:17.360
+expression is valid only after vds set
+
+579
+00:21:17.360 --> 00:21:19.039
+yeah yeah of course
+
+580
+00:21:19.039 --> 00:21:20.960
+but we also know that when the value of
+
+581
+00:21:20.960 --> 00:21:22.640
+vds is less than
+
+582
+00:21:22.640 --> 00:21:25.520
+vds sat i will not use this current
+
+583
+00:21:25.520 --> 00:21:26.080
+equation
+
+584
+00:21:26.080 --> 00:21:28.080
+i will be using the linear current
+
+585
+00:21:28.080 --> 00:21:29.679
+equation
+
+586
+00:21:29.679 --> 00:21:32.400
+okay which is defined as gained so i'll
+
+587
+00:21:32.400 --> 00:21:32.799
+be
+
+588
+00:21:32.799 --> 00:21:34.559
+using that in order to plot the
+
+589
+00:21:34.559 --> 00:21:37.520
+remaining part of the graph
+
+590
+00:21:39.760 --> 00:21:41.520
+so now let us talk about the other
+
+591
+00:21:41.520 --> 00:21:42.960
+phenomenon that we have is
+
+592
+00:21:42.960 --> 00:21:44.720
+about the body effect okay so probably
+
+593
+00:21:44.720 --> 00:21:46.159
+you might be already familiar with this
+
+594
+00:21:46.159 --> 00:21:47.679
+body effect
+
+595
+00:21:47.679 --> 00:21:49.520
+now this is a kind of physical phenomena
+
+596
+00:21:49.520 --> 00:21:51.360
+that happens whenever the source
+
+597
+00:21:51.360 --> 00:21:54.159
+and the body are at completely different
+
+598
+00:21:54.159 --> 00:21:55.200
+potentials okay
+
+599
+00:21:55.200 --> 00:21:57.919
+so what i really mean is that the if
+
+600
+00:21:57.919 --> 00:21:59.600
+there exists a potential difference
+
+601
+00:21:59.600 --> 00:22:01.280
+between the source and the body which is
+
+602
+00:22:01.280 --> 00:22:03.919
+not equal to zero okay
+
+603
+00:22:03.919 --> 00:22:05.360
+so this condition means that there is a
+
+604
+00:22:05.360 --> 00:22:06.559
+potential difference between the source
+
+605
+00:22:06.559 --> 00:22:07.360
+and the body
+
+606
+00:22:07.360 --> 00:22:10.640
+so in turn you would have studied that
+
+607
+00:22:10.640 --> 00:22:12.080
+the threshold voltage of
+
+608
+00:22:12.080 --> 00:22:14.240
+a transistor would then get modified and
+
+609
+00:22:14.240 --> 00:22:16.159
+that is written as vt naught
+
+610
+00:22:16.159 --> 00:22:19.520
+plus something like gamma square root of
+
+611
+00:22:19.520 --> 00:22:23.200
+2 phi f plus vsb
+
+612
+00:22:23.200 --> 00:22:26.960
+minus square root of 2 phi f okay
+
+613
+00:22:26.960 --> 00:22:28.960
+now this 2 for i f is basically is a
+
+614
+00:22:28.960 --> 00:22:30.320
+quantity that
+
+615
+00:22:30.320 --> 00:22:32.000
+comes through some sort of built in
+
+616
+00:22:32.000 --> 00:22:33.919
+potential phenomena okay so
+
+617
+00:22:33.919 --> 00:22:35.600
+sometimes what happens is that they tend
+
+618
+00:22:35.600 --> 00:22:37.039
+to write it as
+
+619
+00:22:37.039 --> 00:22:39.679
+pi s and that is nothing but equals to 2
+
+620
+00:22:39.679 --> 00:22:40.159
+phi f
+
+621
+00:22:40.159 --> 00:22:41.919
+okay so only thing that you need to note
+
+622
+00:22:41.919 --> 00:22:43.679
+here is that any value
+
+623
+00:22:43.679 --> 00:22:46.080
+either it is given in terms of phi f or
+
+624
+00:22:46.080 --> 00:22:47.760
+phi s do not get confused look at the
+
+625
+00:22:47.760 --> 00:22:48.480
+value
+
+626
+00:22:48.480 --> 00:22:50.080
+if the value is around point seven to
+
+627
+00:22:50.080 --> 00:22:52.559
+point eight use that value
+
+628
+00:22:52.559 --> 00:22:56.000
+either as two phi f or phi is okay so
+
+629
+00:22:56.000 --> 00:22:57.440
+the only thing that you have to be
+
+630
+00:22:57.440 --> 00:22:59.360
+concerned is look for this particular
+
+631
+00:22:59.360 --> 00:22:59.919
+value
+
+632
+00:22:59.919 --> 00:23:02.320
+if it is within that range use it in
+
+633
+00:23:02.320 --> 00:23:03.120
+case
+
+634
+00:23:03.120 --> 00:23:05.919
+if the value is given as point four or
+
+635
+00:23:05.919 --> 00:23:06.720
+point
+
+636
+00:23:06.720 --> 00:23:09.280
+three eight okay then you have to
+
+637
+00:23:09.280 --> 00:23:10.960
+multiply by a factor of two in order to
+
+638
+00:23:10.960 --> 00:23:11.520
+get the
+
+639
+00:23:11.520 --> 00:23:14.400
+so then then this means we what we have
+
+640
+00:23:14.400 --> 00:23:14.799
+given
+
+641
+00:23:14.799 --> 00:23:16.720
+is something known as phi f and you need
+
+642
+00:23:16.720 --> 00:23:18.480
+to multiply that quantity in terms of
+
+643
+00:23:18.480 --> 00:23:20.320
+two in order to get the
+
+644
+00:23:20.320 --> 00:23:22.640
+highest quantity okay i hope that i am
+
+645
+00:23:22.640 --> 00:23:24.400
+not confusing you so i'll just rewrite
+
+646
+00:23:24.400 --> 00:23:24.720
+this
+
+647
+00:23:24.720 --> 00:23:26.640
+same expression in terms of phi s so
+
+648
+00:23:26.640 --> 00:23:28.480
+that both the expressions are conveying
+
+649
+00:23:28.480 --> 00:23:30.559
+the same thing the way that i would
+
+650
+00:23:30.559 --> 00:23:33.200
+look at both these expression is by
+
+651
+00:23:33.200 --> 00:23:35.039
+looking at the value that has been given
+
+652
+00:23:35.039 --> 00:23:36.320
+for this phi s or phi
+
+653
+00:23:36.320 --> 00:23:39.440
+f here if the value is fit within this
+
+654
+00:23:39.440 --> 00:23:40.640
+point seven to point eight
+
+655
+00:23:40.640 --> 00:23:43.039
+then use that value as it is over here
+
+656
+00:23:43.039 --> 00:23:44.720
+okay so here
+
+657
+00:23:44.720 --> 00:23:48.000
+maybe i should have used it
+
+658
+00:23:48.840 --> 00:23:52.000
+okay so ensure that whatever the value
+
+659
+00:23:52.000 --> 00:23:52.880
+that you're plugging
+
+660
+00:23:52.880 --> 00:23:54.480
+is in the range between point seven to
+
+661
+00:23:54.480 --> 00:23:56.559
+point eight or even point nine it's fine
+
+662
+00:23:56.559 --> 00:23:57.120
+okay
+
+663
+00:23:57.120 --> 00:23:59.360
+so if that is the case you use it as it
+
+664
+00:23:59.360 --> 00:24:00.240
+is else
+
+665
+00:24:00.240 --> 00:24:02.240
+if the value is given as point four you
+
+666
+00:24:02.240 --> 00:24:04.240
+multiply by a factor of two and then
+
+667
+00:24:04.240 --> 00:24:04.960
+plug in that
+
+668
+00:24:04.960 --> 00:24:07.440
+particular value over here okay so that
+
+669
+00:24:07.440 --> 00:24:08.720
+is nothing but it's a it's a kind of
+
+670
+00:24:08.720 --> 00:24:09.760
+threshold voltage
+
+671
+00:24:09.760 --> 00:24:12.159
+of your diode okay across the pn
+
+672
+00:24:12.159 --> 00:24:13.600
+junction that we have
+
+673
+00:24:13.600 --> 00:24:16.080
+for the between the so body and the
+
+674
+00:24:16.080 --> 00:24:17.919
+source region okay so there is always a
+
+675
+00:24:17.919 --> 00:24:18.960
+pn junction
+
+676
+00:24:18.960 --> 00:24:20.799
+will not go much in depth about the
+
+677
+00:24:20.799 --> 00:24:22.720
+physics behind it but the point is that
+
+678
+00:24:22.720 --> 00:24:24.320
+uh you look for the range of value that
+
+679
+00:24:24.320 --> 00:24:26.240
+is given in your question and
+
+680
+00:24:26.240 --> 00:24:29.360
+use that value accordingly okay yeah but
+
+681
+00:24:29.360 --> 00:24:32.240
+does this really make sense like i felt
+
+682
+00:24:32.240 --> 00:24:33.440
+really uh
+
+683
+00:24:33.440 --> 00:24:35.200
+not good when i just looked at this
+
+684
+00:24:35.200 --> 00:24:36.960
+expression as it is okay so
+
+685
+00:24:36.960 --> 00:24:38.400
+what i have done is that i've just tried
+
+686
+00:24:38.400 --> 00:24:40.080
+to create some sort of picture here
+
+687
+00:24:40.080 --> 00:24:42.960
+okay so before i talk about this picture
+
+688
+00:24:42.960 --> 00:24:44.799
+i just want to emphasize about the
+
+689
+00:24:44.799 --> 00:24:46.400
+what do we really mean by the threshold
+
+690
+00:24:46.400 --> 00:24:48.480
+voltage okay the real meaning behind the
+
+691
+00:24:48.480 --> 00:24:50.320
+threshold voltage
+
+692
+00:24:50.320 --> 00:24:51.919
+now a threshold voltage can be
+
+693
+00:24:51.919 --> 00:24:54.960
+decomposed that voltage of 0.7 or 0.5
+
+694
+00:24:54.960 --> 00:24:56.480
+whatever the voltage that we have for a
+
+695
+00:24:56.480 --> 00:24:56.880
+mass
+
+696
+00:24:56.880 --> 00:24:58.640
+transfer can be decomposed into two
+
+697
+00:24:58.640 --> 00:25:00.320
+components okay we are part of the
+
+698
+00:25:00.320 --> 00:25:01.919
+threshold voltage
+
+699
+00:25:01.919 --> 00:25:04.720
+let me take this as point six okay just
+
+700
+00:25:04.720 --> 00:25:05.120
+a
+
+701
+00:25:05.120 --> 00:25:07.600
+kind of number so a part of this point
+
+702
+00:25:07.600 --> 00:25:08.480
+six voltage
+
+703
+00:25:08.480 --> 00:25:10.880
+say for example point four volt okay is
+
+704
+00:25:10.880 --> 00:25:11.679
+meant to
+
+705
+00:25:11.679 --> 00:25:16.799
+create depletion region first okay
+
+706
+00:25:17.200 --> 00:25:18.960
+basically the entire voltage is supposed
+
+707
+00:25:18.960 --> 00:25:21.120
+to be used for creating the depletion
+
+708
+00:25:21.120 --> 00:25:21.679
+voltage
+
+709
+00:25:21.679 --> 00:25:24.880
+maybe i would use that term as well and
+
+710
+00:25:24.880 --> 00:25:27.039
+a slight bit of voltage is required okay
+
+711
+00:25:27.039 --> 00:25:28.559
+so maybe around point
+
+712
+00:25:28.559 --> 00:25:31.600
+five nine volt i would use
+
+713
+00:25:31.600 --> 00:25:34.240
+and the remaining voltage that we have
+
+714
+00:25:34.240 --> 00:25:36.720
+could be used
+
+715
+00:25:36.720 --> 00:25:42.159
+to create a thin layer of channel okay
+
+716
+00:25:42.159 --> 00:25:43.840
+now these are numbers just the numbers
+
+717
+00:25:43.840 --> 00:25:46.320
+do not fix your mind to these numbers as
+
+718
+00:25:46.320 --> 00:25:47.120
+it is okay
+
+719
+00:25:47.120 --> 00:25:49.200
+because uh sometimes we always tell when
+
+720
+00:25:49.200 --> 00:25:50.400
+the value of v gs
+
+721
+00:25:50.400 --> 00:25:53.440
+is equal to vt still the transfer is off
+
+722
+00:25:53.440 --> 00:25:54.400
+okay so
+
+723
+00:25:54.400 --> 00:25:56.559
+that is the reason why i'm not trying to
+
+724
+00:25:56.559 --> 00:25:57.679
+emphasize on this
+
+725
+00:25:57.679 --> 00:25:58.960
+particular point that the threshold
+
+726
+00:25:58.960 --> 00:26:00.640
+voltage is meant to create both
+
+727
+00:26:00.640 --> 00:26:01.440
+basically
+
+728
+00:26:01.440 --> 00:26:03.600
+we assume that the value of vgs in this
+
+729
+00:26:03.600 --> 00:26:05.600
+case is required for both
+
+730
+00:26:05.600 --> 00:26:07.600
+to create the depletion as well as to
+
+731
+00:26:07.600 --> 00:26:09.039
+create a thin layer of channel
+
+732
+00:26:09.039 --> 00:26:12.640
+just an assumption okay now let me just
+
+733
+00:26:12.640 --> 00:26:14.559
+get back the
+
+734
+00:26:14.559 --> 00:26:17.120
+figure here okay so i have just created
+
+735
+00:26:17.120 --> 00:26:18.159
+some voltage
+
+736
+00:26:18.159 --> 00:26:20.480
+that is slightly above the value of vdh
+
+737
+00:26:20.480 --> 00:26:21.279
+okay so
+
+738
+00:26:21.279 --> 00:26:23.679
+very tiny bit of voltage more than the
+
+739
+00:26:23.679 --> 00:26:24.400
+value of
+
+740
+00:26:24.400 --> 00:26:27.200
+vth so now that it has depleted my
+
+741
+00:26:27.200 --> 00:26:29.039
+carriers which is given in the dark gray
+
+742
+00:26:29.039 --> 00:26:29.520
+color
+
+743
+00:26:29.520 --> 00:26:32.480
+okay so it has depleted the carriers and
+
+744
+00:26:32.480 --> 00:26:32.799
+like
+
+745
+00:26:32.799 --> 00:26:34.240
+the majority carries underneath the
+
+746
+00:26:34.240 --> 00:26:36.480
+channel and also it has pulled out
+
+747
+00:26:36.480 --> 00:26:38.640
+the electrons so the electrons are shown
+
+748
+00:26:38.640 --> 00:26:40.080
+as a kind of bubbles
+
+749
+00:26:40.080 --> 00:26:43.600
+white color circles i guess the pictures
+
+750
+00:26:43.600 --> 00:26:44.159
+are clear
+
+751
+00:26:44.159 --> 00:26:48.240
+so if you want i can enlarge a bit
+
+752
+00:26:49.360 --> 00:26:51.600
+okay so now in order to create this
+
+753
+00:26:51.600 --> 00:26:53.440
+channel i need almost like
+
+754
+00:26:53.440 --> 00:26:55.200
+10 uh electrons to create this
+
+755
+00:26:55.200 --> 00:26:56.480
+particular channel okay
+
+756
+00:26:56.480 --> 00:26:58.320
+and this is the condition that i have in
+
+757
+00:26:58.320 --> 00:27:00.000
+vbs when there is no potential
+
+758
+00:27:00.000 --> 00:27:01.919
+difference between the source
+
+759
+00:27:01.919 --> 00:27:04.880
+and the body okay so when both these uh
+
+760
+00:27:04.880 --> 00:27:06.080
+nodes are at the same potential
+
+761
+00:27:06.080 --> 00:27:08.320
+this is what happens but the moment i
+
+762
+00:27:08.320 --> 00:27:09.760
+try to apply some sort of potential
+
+763
+00:27:09.760 --> 00:27:11.120
+difference say for example the source
+
+764
+00:27:11.120 --> 00:27:13.039
+node is slightly higher than the value
+
+765
+00:27:13.039 --> 00:27:13.760
+of zero
+
+766
+00:27:13.760 --> 00:27:15.840
+okay then in that case what happens is
+
+767
+00:27:15.840 --> 00:27:18.159
+that there is a positive charge
+
+768
+00:27:18.159 --> 00:27:20.000
+okay and that positive charge will pull
+
+769
+00:27:20.000 --> 00:27:21.279
+out an electron
+
+770
+00:27:21.279 --> 00:27:23.840
+out of this particular region okay so
+
+771
+00:27:23.840 --> 00:27:24.480
+now that
+
+772
+00:27:24.480 --> 00:27:26.159
+the channel is not completely formed
+
+773
+00:27:26.159 --> 00:27:27.840
+because uh one of the electron has been
+
+774
+00:27:27.840 --> 00:27:29.440
+pulled off from the channel that is
+
+775
+00:27:29.440 --> 00:27:30.640
+created okay
+
+776
+00:27:30.640 --> 00:27:33.840
+now it is left over with just nine
+
+777
+00:27:33.840 --> 00:27:37.200
+so now in order to create a channel
+
+778
+00:27:37.200 --> 00:27:38.960
+i need 10 electrons to completely fill
+
+779
+00:27:38.960 --> 00:27:40.640
+this particular zone between the
+
+780
+00:27:40.640 --> 00:27:42.559
+source and the drain okay i need an
+
+781
+00:27:42.559 --> 00:27:44.559
+extra electron so how will i get that
+
+782
+00:27:44.559 --> 00:27:46.399
+extra electron
+
+783
+00:27:46.399 --> 00:27:48.320
+which is a minority carrier so what i
+
+784
+00:27:48.320 --> 00:27:50.240
+supposed to do
+
+785
+00:27:50.240 --> 00:27:53.520
+so increasing vg increase yeah
+
+786
+00:27:53.520 --> 00:27:56.480
+so in in that case i need to increase
+
+787
+00:27:56.480 --> 00:27:56.880
+the
+
+788
+00:27:56.880 --> 00:27:59.840
+value of vg okay so in turn i can also
+
+789
+00:27:59.840 --> 00:28:01.200
+visually see that
+
+790
+00:28:01.200 --> 00:28:02.880
+the threshold voltage of the device has
+
+791
+00:28:02.880 --> 00:28:04.640
+also been raised up okay
+
+792
+00:28:04.640 --> 00:28:06.799
+because for this value i have already
+
+793
+00:28:06.799 --> 00:28:07.840
+created
+
+794
+00:28:07.840 --> 00:28:09.679
+the channel as was the depleted region
+
+795
+00:28:09.679 --> 00:28:10.880
+okay but
+
+796
+00:28:10.880 --> 00:28:13.600
+just because the vsb is rised higher it
+
+797
+00:28:13.600 --> 00:28:15.360
+has lost one of the electron and due to
+
+798
+00:28:15.360 --> 00:28:15.760
+which
+
+799
+00:28:15.760 --> 00:28:18.240
+the threshold voltage of the device has
+
+800
+00:28:18.240 --> 00:28:19.039
+also
+
+801
+00:28:19.039 --> 00:28:22.080
+been shooted up yeah so we are modeling
+
+802
+00:28:22.080 --> 00:28:22.480
+this
+
+803
+00:28:22.480 --> 00:28:23.840
+particular physical phenomena through
+
+804
+00:28:23.840 --> 00:28:25.679
+this particular expression of
+
+805
+00:28:25.679 --> 00:28:28.720
+vt okay so whenever there is a rise in
+
+806
+00:28:28.720 --> 00:28:29.760
+the potential difference between the
+
+807
+00:28:29.760 --> 00:28:31.039
+source and the body the threshold
+
+808
+00:28:31.039 --> 00:28:32.720
+voltage of the device also rises
+
+809
+00:28:32.720 --> 00:28:35.200
+okay that is it loses that electron and
+
+810
+00:28:35.200 --> 00:28:36.159
+i need
+
+811
+00:28:36.159 --> 00:28:38.399
+an extra voltage to actually create a
+
+812
+00:28:38.399 --> 00:28:39.919
+very thin layer of channel between the
+
+813
+00:28:39.919 --> 00:28:40.720
+source and the
+
+814
+00:28:40.720 --> 00:28:42.799
+body okay so this is something that
+
+815
+00:28:42.799 --> 00:28:44.480
+gives you a visual feel like
+
+816
+00:28:44.480 --> 00:28:46.799
+why the threshold voltage of the device
+
+817
+00:28:46.799 --> 00:28:48.000
+increases the moment
+
+818
+00:28:48.000 --> 00:28:50.399
+the vsb starts rising okay you may also
+
+819
+00:28:50.399 --> 00:28:51.440
+wonder like what happens
+
+820
+00:28:51.440 --> 00:28:53.600
+when you have the reverse condition okay
+
+821
+00:28:53.600 --> 00:28:55.520
+so say for example i have
+
+822
+00:28:55.520 --> 00:28:57.279
+negative and a positive here then
+
+823
+00:28:57.279 --> 00:28:59.200
+obviously you need a very less threshold
+
+824
+00:28:59.200 --> 00:29:00.880
+voltage okay that's a different story
+
+825
+00:29:00.880 --> 00:29:01.840
+and
+
+826
+00:29:01.840 --> 00:29:04.320
+when we talk about a digital vlsi design
+
+827
+00:29:04.320 --> 00:29:06.080
+we will never encounter this condition
+
+828
+00:29:06.080 --> 00:29:08.000
+that is we will not have this vsb in the
+
+829
+00:29:08.000 --> 00:29:09.600
+negative direction just because
+
+830
+00:29:09.600 --> 00:29:12.480
+the body of our inverse structure will
+
+831
+00:29:12.480 --> 00:29:13.679
+be at the ground okay
+
+832
+00:29:13.679 --> 00:29:15.279
+it cannot be pulled to any positive
+
+833
+00:29:15.279 --> 00:29:18.799
+values due to which our vsb
+
+834
+00:29:18.799 --> 00:29:22.080
+becomes a negative okay so there won't
+
+835
+00:29:22.080 --> 00:29:23.919
+be any such situation where the source
+
+836
+00:29:23.919 --> 00:29:26.960
+is pulled lower than zero volt okay
+
+837
+00:29:26.960 --> 00:29:28.720
+so that is the condition and uh we
+
+838
+00:29:28.720 --> 00:29:30.080
+always encounter an increase in the
+
+839
+00:29:30.080 --> 00:29:31.679
+value of vdh okay
+
+840
+00:29:31.679 --> 00:29:33.679
+so the next thing that we have to
+
+841
+00:29:33.679 --> 00:29:34.880
+discuss
+
+842
+00:29:34.880 --> 00:29:37.039
+is again uh that is related to threshold
+
+843
+00:29:37.039 --> 00:29:38.080
+voltage
+
+844
+00:29:38.080 --> 00:29:41.039
+which is known as short channel effect
+
+845
+00:29:41.039 --> 00:29:41.360
+and
+
+846
+00:29:41.360 --> 00:29:43.760
+there is also one more effect which is
+
+847
+00:29:43.760 --> 00:29:44.880
+called as drain
+
+848
+00:29:44.880 --> 00:29:47.360
+induced
+
+849
+00:29:48.240 --> 00:29:54.399
+barrier lowering okay
+
+850
+00:29:54.399 --> 00:29:56.399
+so again all the three effects that i
+
+851
+00:29:56.399 --> 00:29:58.559
+have discussed including this uh
+
+852
+00:29:58.559 --> 00:30:01.360
+body effect one and the short channel
+
+853
+00:30:01.360 --> 00:30:01.840
+effects
+
+854
+00:30:01.840 --> 00:30:04.240
+two and the third one which is the drain
+
+855
+00:30:04.240 --> 00:30:05.520
+induced barrier lowering all these
+
+856
+00:30:05.520 --> 00:30:07.279
+effects are related to the threshold
+
+857
+00:30:07.279 --> 00:30:07.840
+voltage
+
+858
+00:30:07.840 --> 00:30:10.720
+okay now in the case of a short channel
+
+859
+00:30:10.720 --> 00:30:11.279
+device
+
+860
+00:30:11.279 --> 00:30:14.640
+what happens is that it is the reduction
+
+861
+00:30:14.640 --> 00:30:15.360
+in the threshold
+
+862
+00:30:15.360 --> 00:30:18.720
+voltage with respect to the length of
+
+863
+00:30:18.720 --> 00:30:20.080
+the
+
+864
+00:30:20.080 --> 00:30:22.399
+channel okay so i'll talk about this
+
+865
+00:30:22.399 --> 00:30:23.120
+whereas
+
+866
+00:30:23.120 --> 00:30:25.440
+at drain induced barrier lowering it's a
+
+867
+00:30:25.440 --> 00:30:27.520
+kind of effect of threshold voltage with
+
+868
+00:30:27.520 --> 00:30:30.080
+respect to
+
+869
+00:30:30.720 --> 00:30:33.520
+the value of medials okay so and the
+
+870
+00:30:33.520 --> 00:30:35.360
+body effect
+
+871
+00:30:35.360 --> 00:30:36.880
+so which is nothing but it's a steady of
+
+872
+00:30:36.880 --> 00:30:38.480
+a threshold voltage
+
+873
+00:30:38.480 --> 00:30:41.520
+with respect to vsb clear so
+
+874
+00:30:41.520 --> 00:30:42.960
+if i am trying to talk a threshold
+
+875
+00:30:42.960 --> 00:30:45.039
+voltage with respect to vsb then we call
+
+876
+00:30:45.039 --> 00:30:46.480
+that effect as a body effect
+
+877
+00:30:46.480 --> 00:30:49.360
+if i am talking threshold voltage effect
+
+878
+00:30:49.360 --> 00:30:50.080
+because of the
+
+879
+00:30:50.080 --> 00:30:51.679
+change in the length of the channel we
+
+880
+00:30:51.679 --> 00:30:53.120
+are calling that effect as a kind of
+
+881
+00:30:53.120 --> 00:30:54.240
+short channel effect
+
+882
+00:30:54.240 --> 00:30:56.320
+and drain induced barrier is an effect
+
+883
+00:30:56.320 --> 00:30:57.600
+where the threshold voltage of the
+
+884
+00:30:57.600 --> 00:30:58.320
+device
+
+885
+00:30:58.320 --> 00:31:01.200
+varies with respect to videos okay so
+
+886
+00:31:01.200 --> 00:31:01.519
+this
+
+887
+00:31:01.519 --> 00:31:03.760
+effect comes into picture only for short
+
+888
+00:31:03.760 --> 00:31:04.640
+channel device
+
+889
+00:31:04.640 --> 00:31:07.279
+and even the same applicable for this as
+
+890
+00:31:07.279 --> 00:31:08.480
+well okay
+
+891
+00:31:08.480 --> 00:31:11.279
+now why does this happen uh when we put
+
+892
+00:31:11.279 --> 00:31:12.000
+ourselves
+
+893
+00:31:12.000 --> 00:31:13.679
+into a question the one thing that we
+
+894
+00:31:13.679 --> 00:31:15.519
+have to note is that we always define
+
+895
+00:31:15.519 --> 00:31:17.120
+that the threshold voltage is only a
+
+896
+00:31:17.120 --> 00:31:19.360
+function of
+
+897
+00:31:19.360 --> 00:31:22.399
+vgs okay a more practical example is
+
+898
+00:31:22.399 --> 00:31:24.000
+that we always assume that the mother is
+
+899
+00:31:24.000 --> 00:31:25.279
+the only responsible to
+
+900
+00:31:25.279 --> 00:31:26.960
+bring up their child okay so this is
+
+901
+00:31:26.960 --> 00:31:28.480
+something similar to that
+
+902
+00:31:28.480 --> 00:31:30.159
+and this is the assumption that we had
+
+903
+00:31:30.159 --> 00:31:31.600
+before okay
+
+904
+00:31:31.600 --> 00:31:33.919
+but now we know that both the husband
+
+905
+00:31:33.919 --> 00:31:35.279
+and wife has to play a role
+
+906
+00:31:35.279 --> 00:31:36.640
+in bringing up the child the same
+
+907
+00:31:36.640 --> 00:31:38.640
+similar reason can apply
+
+908
+00:31:38.640 --> 00:31:40.640
+okay so when i get into this short
+
+909
+00:31:40.640 --> 00:31:42.559
+channel
+
+910
+00:31:42.559 --> 00:31:44.559
+what happens is that let us look across
+
+911
+00:31:44.559 --> 00:31:45.679
+this first
+
+912
+00:31:45.679 --> 00:31:48.000
+physical thing okay as i said a
+
+913
+00:31:48.000 --> 00:31:48.960
+threshold voltage
+
+914
+00:31:48.960 --> 00:31:51.919
+has to do two jobs one of the job is to
+
+915
+00:31:51.919 --> 00:31:54.960
+deplete the charges
+
+916
+00:31:57.200 --> 00:31:59.279
+okay so that was its major preliminary
+
+917
+00:31:59.279 --> 00:32:01.279
+job and then later it has to pull
+
+918
+00:32:01.279 --> 00:32:04.559
+the magnetic carriers now
+
+919
+00:32:04.559 --> 00:32:06.799
+when i reduce this channel length what
+
+920
+00:32:06.799 --> 00:32:08.399
+happens is that you can just barely
+
+921
+00:32:08.399 --> 00:32:11.760
+compare these two things having a very
+
+922
+00:32:11.760 --> 00:32:13.679
+long channel
+
+923
+00:32:13.679 --> 00:32:15.760
+and the one that has very shorter
+
+924
+00:32:15.760 --> 00:32:18.080
+channel
+
+925
+00:32:18.240 --> 00:32:21.519
+now if this is a an n-mos we have to
+
+926
+00:32:21.519 --> 00:32:23.679
+have a p-type material a p-type
+
+927
+00:32:23.679 --> 00:32:25.120
+substrate for both these
+
+928
+00:32:25.120 --> 00:32:28.000
+structures and the length of this
+
+929
+00:32:28.000 --> 00:32:29.760
+particular channel is quite
+
+930
+00:32:29.760 --> 00:32:31.279
+large than compared to the length of the
+
+931
+00:32:31.279 --> 00:32:33.440
+channel that is required here
+
+932
+00:32:33.440 --> 00:32:36.080
+now let us try to draw the depleted
+
+933
+00:32:36.080 --> 00:32:37.919
+region around the pn junction okay
+
+934
+00:32:37.919 --> 00:32:39.440
+so now in this case we know that the
+
+935
+00:32:39.440 --> 00:32:41.440
+depletion region surrounds the source
+
+936
+00:32:41.440 --> 00:32:42.000
+and the drain
+
+937
+00:32:42.000 --> 00:32:44.159
+okay and we also know that there is a
+
+938
+00:32:44.159 --> 00:32:45.440
+part of the channel has already been
+
+939
+00:32:45.440 --> 00:32:47.600
+depleted because of this pn junction
+
+940
+00:32:47.600 --> 00:32:50.320
+okay and even here a part of the channel
+
+941
+00:32:50.320 --> 00:32:51.760
+has been depleted
+
+942
+00:32:51.760 --> 00:32:54.480
+already by this pn junction but as we
+
+943
+00:32:54.480 --> 00:32:55.600
+compare the length
+
+944
+00:32:55.600 --> 00:32:57.039
+over which the depleted region is
+
+945
+00:32:57.039 --> 00:32:58.720
+created this is like
+
+946
+00:32:58.720 --> 00:33:01.679
+a very very small fraction so we can
+
+947
+00:33:01.679 --> 00:33:03.120
+approximately say that
+
+948
+00:33:03.120 --> 00:33:05.120
+in order to create a repeated region for
+
+949
+00:33:05.120 --> 00:33:06.320
+this threshold voltage
+
+950
+00:33:06.320 --> 00:33:07.919
+we always assume that it's a function of
+
+951
+00:33:07.919 --> 00:33:09.760
+one d v g
+
+952
+00:33:09.760 --> 00:33:13.360
+okay so i have to apply enough vgs
+
+953
+00:33:13.360 --> 00:33:16.799
+to create a depleted region under this
+
+954
+00:33:16.799 --> 00:33:19.200
+oxide region okay but when i look here
+
+955
+00:33:19.200 --> 00:33:20.559
+the length of the channel has already
+
+956
+00:33:20.559 --> 00:33:21.600
+been reduced
+
+957
+00:33:21.600 --> 00:33:24.720
+now this pn junction has already
+
+958
+00:33:24.720 --> 00:33:26.799
+depleted a part of the channel okay
+
+959
+00:33:26.799 --> 00:33:29.919
+and due to which you no need to create
+
+960
+00:33:29.919 --> 00:33:31.919
+a depleted region at these junctions
+
+961
+00:33:31.919 --> 00:33:33.519
+okay all of these charges are being
+
+962
+00:33:33.519 --> 00:33:35.360
+depleted by this pn junction diodes
+
+963
+00:33:35.360 --> 00:33:37.360
+itself okay so the only thing is that
+
+964
+00:33:37.360 --> 00:33:39.200
+you are left over to deplete only this
+
+965
+00:33:39.200 --> 00:33:40.880
+part of the channel which requires a
+
+966
+00:33:40.880 --> 00:33:42.320
+very less voltage than compared to
+
+967
+00:33:42.320 --> 00:33:43.679
+deplete the entire
+
+968
+00:33:43.679 --> 00:33:46.240
+length of the channel okay so this is in
+
+969
+00:33:46.240 --> 00:33:47.120
+the case of a
+
+970
+00:33:47.120 --> 00:33:49.200
+long channel and this is in the case of
+
+971
+00:33:49.200 --> 00:33:51.120
+a short channel
+
+972
+00:33:51.120 --> 00:33:53.519
+okay so hope that it is clear so due to
+
+973
+00:33:53.519 --> 00:33:55.440
+which the threshold voltage that is
+
+974
+00:33:55.440 --> 00:33:56.799
+required to deplete the charges
+
+975
+00:33:56.799 --> 00:33:57.679
+underneath the
+
+976
+00:33:57.679 --> 00:34:00.000
+channel has got reduced okay so now let
+
+977
+00:34:00.000 --> 00:34:02.159
+us try to plot them physically okay so i
+
+978
+00:34:02.159 --> 00:34:02.720
+just want
+
+979
+00:34:02.720 --> 00:34:05.120
+to plot only the graph and we will not
+
+980
+00:34:05.120 --> 00:34:06.720
+get into the modeling part
+
+981
+00:34:06.720 --> 00:34:10.000
+as we had for body effect okay so
+
+982
+00:34:10.000 --> 00:34:12.320
+this is my length and let us assume like
+
+983
+00:34:12.320 --> 00:34:14.159
+uh we have 45 nanometers
+
+984
+00:34:14.159 --> 00:34:17.359
+so let me have 45 nanometer and let me
+
+985
+00:34:17.359 --> 00:34:20.399
+mark almost like one micro meter
+
+986
+00:34:20.399 --> 00:34:22.079
+and all of these lengths are more than
+
+987
+00:34:22.079 --> 00:34:23.839
+that okay so now that when you try to
+
+988
+00:34:23.839 --> 00:34:26.079
+plot this
+
+989
+00:34:26.079 --> 00:34:28.000
+the threshold voltage will not be a
+
+990
+00:34:28.000 --> 00:34:29.440
+function of a length
+
+991
+00:34:29.440 --> 00:34:32.079
+till a particular technology but as as
+
+992
+00:34:32.079 --> 00:34:33.599
+and when when we try to reduce
+
+993
+00:34:33.599 --> 00:34:35.918
+the technology as i said due to this
+
+994
+00:34:35.918 --> 00:34:37.918
+physical reason
+
+995
+00:34:37.918 --> 00:34:39.440
+the threshold voltage of the device
+
+996
+00:34:39.440 --> 00:34:40.960
+starts reducing
+
+997
+00:34:40.960 --> 00:34:44.719
+okay and this is for 45 nanometer
+
+998
+00:34:44.719 --> 00:34:48.480
+clear so this effect
+
+999
+00:34:48.480 --> 00:34:50.159
+of reduction in the threshold voltage we
+
+1000
+00:34:50.159 --> 00:34:51.760
+call that effect as a
+
+1001
+00:34:51.760 --> 00:34:55.119
+short channel effect okay
+
+1002
+00:34:55.119 --> 00:34:58.320
+yeah so now can you guess
+
+1003
+00:34:58.320 --> 00:34:59.839
+what could be the drain induced barrier
+
+1004
+00:34:59.839 --> 00:35:02.160
+lowering and how does this impact our
+
+1005
+00:35:02.160 --> 00:35:06.160
+threshold voltage any idea
+
+1006
+00:35:06.960 --> 00:35:09.599
+so that means uh in short channel effect
+
+1007
+00:35:09.599 --> 00:35:12.079
+for 45 nanometers
+
+1008
+00:35:12.079 --> 00:35:14.560
+the vt will be the vt will be very small
+
+1009
+00:35:14.560 --> 00:35:17.359
+in the sense yes yes
+
+1010
+00:35:17.359 --> 00:35:19.920
+yeah but actually if i try to plot the
+
+1011
+00:35:19.920 --> 00:35:20.480
+same thing
+
+1012
+00:35:20.480 --> 00:35:23.920
+in your cadence it will not happen no
+
+1013
+00:35:23.920 --> 00:35:25.599
+the reason behind is that there is some
+
+1014
+00:35:25.599 --> 00:35:27.040
+sort of uh
+
+1015
+00:35:27.040 --> 00:35:29.839
+heavily doped region underneath this uh
+
+1016
+00:35:29.839 --> 00:35:30.720
+layer
+
+1017
+00:35:30.720 --> 00:35:33.359
+which is known as a halo implant doping
+
+1018
+00:35:33.359 --> 00:35:33.760
+okay
+
+1019
+00:35:33.760 --> 00:35:36.480
+and due to which in reality you will not
+
+1020
+00:35:36.480 --> 00:35:37.440
+have this kind of
+
+1021
+00:35:37.440 --> 00:35:40.640
+carrot uh but rather when you try to
+
+1022
+00:35:40.640 --> 00:35:41.040
+plot
+
+1023
+00:35:41.040 --> 00:35:44.880
+this is my vd okay so
+
+1024
+00:35:44.880 --> 00:35:46.960
+versus the length the camera would look
+
+1025
+00:35:46.960 --> 00:35:49.359
+weird you will have a very high
+
+1026
+00:35:49.359 --> 00:35:51.359
+uh threshold voltage and then you would
+
+1027
+00:35:51.359 --> 00:35:52.400
+get something like this
+
+1028
+00:35:52.400 --> 00:35:55.040
+okay and the reason why it has become
+
+1029
+00:35:55.040 --> 00:35:57.280
+something like this is because of the uh
+
+1030
+00:35:57.280 --> 00:36:00.800
+halo implant okay so we will not talk
+
+1031
+00:36:00.800 --> 00:36:02.480
+too much about this implant
+
+1032
+00:36:02.480 --> 00:36:04.960
+how does it behaves and things like that
+
+1033
+00:36:04.960 --> 00:36:07.200
+but because of this reason okay or
+
+1034
+00:36:07.200 --> 00:36:08.720
+it can also be called as a pocket
+
+1035
+00:36:08.720 --> 00:36:10.800
+implant because of this kind of
+
+1036
+00:36:10.800 --> 00:36:12.880
+effect you would find that the short
+
+1037
+00:36:12.880 --> 00:36:14.960
+voltage of the short channel device
+
+1038
+00:36:14.960 --> 00:36:18.160
+is not as i proved theoretically
+
+1039
+00:36:18.160 --> 00:36:19.280
+something like this okay
+
+1040
+00:36:19.280 --> 00:36:21.520
+it is something in another direction and
+
+1041
+00:36:21.520 --> 00:36:23.040
+the reason for this is because of the
+
+1042
+00:36:23.040 --> 00:36:24.160
+fabrication that they
+
+1043
+00:36:24.160 --> 00:36:26.960
+have introduced okay because as you said
+
+1044
+00:36:26.960 --> 00:36:28.480
+once the threshold voltage of the device
+
+1045
+00:36:28.480 --> 00:36:29.440
+becomes very small
+
+1046
+00:36:29.440 --> 00:36:30.960
+it becomes too difficult for us to
+
+1047
+00:36:30.960 --> 00:36:32.880
+control the current flow
+
+1048
+00:36:32.880 --> 00:36:34.560
+because we know that the mass transistor
+
+1049
+00:36:34.560 --> 00:36:37.200
+is a is a voltage controlled current
+
+1050
+00:36:37.200 --> 00:36:37.680
+device
+
+1051
+00:36:37.680 --> 00:36:40.800
+okay so if we are not having the hold on
+
+1052
+00:36:40.800 --> 00:36:41.200
+the
+
+1053
+00:36:41.200 --> 00:36:43.200
+voltage then it becomes difficult for us
+
+1054
+00:36:43.200 --> 00:36:44.560
+to control the flow of current between
+
+1055
+00:36:44.560 --> 00:36:45.520
+the source and the drain
+
+1056
+00:36:45.520 --> 00:36:47.119
+and due to which there are some
+
+1057
+00:36:47.119 --> 00:36:49.440
+fabrication steps that have been taken
+
+1058
+00:36:49.440 --> 00:36:52.000
+and if you want i can show even the
+
+1059
+00:36:52.000 --> 00:36:52.880
+graph of this
+
+1060
+00:36:52.880 --> 00:36:54.320
+but i think we are running out of time
+
+1061
+00:36:54.320 --> 00:36:55.680
+probably in the next class i will show
+
+1062
+00:36:55.680 --> 00:36:56.960
+the graph for this
+
+1063
+00:36:56.960 --> 00:36:58.400
+as well as the drain induced barrier
+
+1064
+00:36:58.400 --> 00:37:00.480
+lowering okay yeah so now
+
+1065
+00:37:00.480 --> 00:37:01.760
+the the only question is that i just
+
+1066
+00:37:01.760 --> 00:37:03.200
+want to end this particular node with
+
+1067
+00:37:03.200 --> 00:37:03.599
+this
+
+1068
+00:37:03.599 --> 00:37:05.839
+discussion what happens to threshold
+
+1069
+00:37:05.839 --> 00:37:07.040
+voltage when we have
+
+1070
+00:37:07.040 --> 00:37:10.400
+vds say for example i take two
+
+1071
+00:37:10.400 --> 00:37:12.240
+values of vds vds when it is equal to
+
+1072
+00:37:12.240 --> 00:37:14.400
+zero volt and the value of vds that is
+
+1073
+00:37:14.400 --> 00:37:14.960
+equal to
+
+1074
+00:37:14.960 --> 00:37:16.880
+some positive voltage like 0.6 volt or
+
+1075
+00:37:16.880 --> 00:37:18.000
+something and
+
+1076
+00:37:18.000 --> 00:37:20.480
+the third one is at 1.2 volt now what
+
+1077
+00:37:20.480 --> 00:37:22.800
+happens to each of these
+
+1078
+00:37:22.800 --> 00:37:25.520
+voltages will the threshold voltage
+
+1079
+00:37:25.520 --> 00:37:27.119
+reminds the same for all
+
+1080
+00:37:27.119 --> 00:37:30.320
+or will it increases
+
+1081
+00:37:30.320 --> 00:37:33.839
+or will it decreases which among these
+
+1082
+00:37:33.839 --> 00:37:34.480
+possible
+
+1083
+00:37:34.480 --> 00:37:36.160
+physical phenomena can happen okay
+
+1084
+00:37:36.160 --> 00:37:37.680
+either constant
+
+1085
+00:37:37.680 --> 00:37:40.560
+as vt or it might increase or it might
+
+1086
+00:37:40.560 --> 00:37:41.760
+decrease so
+
+1087
+00:37:41.760 --> 00:37:44.880
+so you have option a b
+
+1088
+00:37:44.880 --> 00:37:49.359
+as well c and i also forgot to tell
+
+1089
+00:37:49.359 --> 00:37:51.200
+about one more thing uh velocity
+
+1090
+00:37:51.200 --> 00:37:52.720
+saturation effect
+
+1091
+00:37:52.720 --> 00:37:54.960
+uh maybe maybe after this i'll take
+
+1092
+00:37:54.960 --> 00:37:55.920
+another five minutes
+
+1093
+00:37:55.920 --> 00:37:59.280
+uh and then i will leave the class
+
+1094
+00:37:59.359 --> 00:38:00.800
+but you need to come up with the answers
+
+1095
+00:38:00.800 --> 00:38:02.839
+which of the physical phenomena can
+
+1096
+00:38:02.839 --> 00:38:04.079
+happen
+
+1097
+00:38:04.079 --> 00:38:07.200
+so due to means by seeing the challenge
+
+1098
+00:38:07.200 --> 00:38:08.880
+modulation it will decrease most
+
+1099
+00:38:08.880 --> 00:38:12.320
+vt will decrease no as
+
+1100
+00:38:12.320 --> 00:38:15.520
+so as the channel will reduce
+
+1101
+00:38:15.520 --> 00:38:17.520
+no uh what happens where the moment i
+
+1102
+00:38:17.520 --> 00:38:19.520
+increase this potential
+
+1103
+00:38:19.520 --> 00:38:21.359
+if this is my drain what happens the
+
+1104
+00:38:21.359 --> 00:38:22.560
+moment i increase the potential when
+
+1105
+00:38:22.560 --> 00:38:25.359
+compared to the body
+
+1106
+00:38:25.440 --> 00:38:28.480
+what happens to this depleted region is
+
+1107
+00:38:28.480 --> 00:38:33.839
+this p-n junction is reverse past
+
+1108
+00:38:34.560 --> 00:38:36.800
+it's reverse bias so i'm trying to
+
+1109
+00:38:36.800 --> 00:38:37.680
+increase the
+
+1110
+00:38:37.680 --> 00:38:39.359
+reverse bias means that the depleted
+
+1111
+00:38:39.359 --> 00:38:40.880
+region around this segment will also
+
+1112
+00:38:40.880 --> 00:38:43.040
+increase
+
+1113
+00:38:43.040 --> 00:38:46.560
+am i right so what you're actually doing
+
+1114
+00:38:46.560 --> 00:38:48.240
+is that you're trying to deplete most of
+
+1115
+00:38:48.240 --> 00:38:48.560
+the
+
+1116
+00:38:48.560 --> 00:38:51.040
+charges underneath the gate just because
+
+1117
+00:38:51.040 --> 00:38:52.400
+the channel is already small
+
+1118
+00:38:52.400 --> 00:38:54.800
+and you're depleting more of the charges
+
+1119
+00:38:54.800 --> 00:38:55.760
+underneath this
+
+1120
+00:38:55.760 --> 00:38:58.320
+so what happens to the threshold voltage
+
+1121
+00:38:58.320 --> 00:39:00.000
+a part of the job is already done by the
+
+1122
+00:39:00.000 --> 00:39:01.359
+value of vds
+
+1123
+00:39:01.359 --> 00:39:03.680
+he has already depleted for me so the
+
+1124
+00:39:03.680 --> 00:39:05.680
+only job that is left over is to deplete
+
+1125
+00:39:05.680 --> 00:39:07.440
+only this part of the
+
+1126
+00:39:07.440 --> 00:39:10.960
+channel so do i need a very high
+
+1127
+00:39:10.960 --> 00:39:12.560
+threshold voltage or
+
+1128
+00:39:12.560 --> 00:39:14.079
+will the threshold voltage will shrink
+
+1129
+00:39:14.079 --> 00:39:16.000
+down
+
+1130
+00:39:16.000 --> 00:39:19.599
+shrinks down yeah it would reduce right
+
+1131
+00:39:19.599 --> 00:39:20.079
+because
+
+1132
+00:39:20.079 --> 00:39:22.240
+and this effect we call call it as drain
+
+1133
+00:39:22.240 --> 00:39:23.839
+induced barrier lowering okay
+
+1134
+00:39:23.839 --> 00:39:26.160
+but uh certainly isn't it similar to
+
+1135
+00:39:26.160 --> 00:39:28.240
+satellite modulation
+
+1136
+00:39:28.240 --> 00:39:30.480
+modulation is about saturation current
+
+1137
+00:39:30.480 --> 00:39:32.320
+but in this case uh it is about the
+
+1138
+00:39:32.320 --> 00:39:33.760
+threshold voltage is what we are
+
+1139
+00:39:33.760 --> 00:39:34.800
+concerned
+
+1140
+00:39:34.800 --> 00:39:37.280
+that is a current equation okay so but
+
+1141
+00:39:37.280 --> 00:39:37.920
+uh
+
+1142
+00:39:37.920 --> 00:39:40.000
+in both the cases we are just increasing
+
+1143
+00:39:40.000 --> 00:39:43.040
+vds like
+
+1144
+00:39:44.000 --> 00:39:48.000
+of course of course yeah yeah yeah so
+
+1145
+00:39:48.000 --> 00:39:49.760
+like the channel and modulation effect
+
+1146
+00:39:49.760 --> 00:39:51.760
+we can observe even for
+
+1147
+00:39:51.760 --> 00:39:53.359
+channel length uh that is greater than
+
+1148
+00:39:53.359 --> 00:39:54.880
+one micron also
+
+1149
+00:39:54.880 --> 00:39:57.599
+if if you look back the current equation
+
+1150
+00:39:57.599 --> 00:39:58.720
+that i've used for the channel
+
+1151
+00:39:58.720 --> 00:39:59.920
+modulation is still
+
+1152
+00:39:59.920 --> 00:40:01.920
+a long channel current equation only
+
+1153
+00:40:01.920 --> 00:40:02.960
+okay and
+
+1154
+00:40:02.960 --> 00:40:04.960
+as you could guess that as i raise the
+
+1155
+00:40:04.960 --> 00:40:06.000
+value of vds
+
+1156
+00:40:06.000 --> 00:40:08.319
+the value of vt is also reducing and
+
+1157
+00:40:08.319 --> 00:40:09.520
+this is the physical phenomena that
+
+1158
+00:40:09.520 --> 00:40:10.640
+happens only for
+
+1159
+00:40:10.640 --> 00:40:13.119
+very short channel devices okay and we
+
+1160
+00:40:13.119 --> 00:40:14.160
+will not really
+
+1161
+00:40:14.160 --> 00:40:16.000
+worry about this effect when we are
+
+1162
+00:40:16.000 --> 00:40:17.200
+working
+
+1163
+00:40:17.200 --> 00:40:18.640
+across a very long channel like
+
+1164
+00:40:18.640 --> 00:40:20.800
+something like this okay so for channel
+
+1165
+00:40:20.800 --> 00:40:22.000
+length of this
+
+1166
+00:40:22.000 --> 00:40:23.680
+depleting part of the channel doesn't
+
+1167
+00:40:23.680 --> 00:40:25.119
+make much change
+
+1168
+00:40:25.119 --> 00:40:28.400
+but the depletion of the charges becomes
+
+1169
+00:40:28.400 --> 00:40:30.319
+a huge impact when we go for a shorter
+
+1170
+00:40:30.319 --> 00:40:31.680
+channel okay maybe
+
+1171
+00:40:31.680 --> 00:40:33.599
+the one reason that i can give why we
+
+1172
+00:40:33.599 --> 00:40:35.440
+are discussing all of these effects
+
+1173
+00:40:35.440 --> 00:40:38.720
+separately means that we always go for
+
+1174
+00:40:38.720 --> 00:40:41.599
+linear model okay the reason why we are
+
+1175
+00:40:41.599 --> 00:40:43.200
+always interested in linear model is
+
+1176
+00:40:43.200 --> 00:40:43.599
+that
+
+1177
+00:40:43.599 --> 00:40:45.359
+you know that superposition theorem
+
+1178
+00:40:45.359 --> 00:40:47.520
+right say for example uh you have some
+
+1179
+00:40:47.520 --> 00:40:49.200
+two potentials and you want to calculate
+
+1180
+00:40:49.200 --> 00:40:50.560
+the current flow through the device or
+
+1181
+00:40:50.560 --> 00:40:51.680
+something like that okay
+
+1182
+00:40:51.680 --> 00:40:53.359
+and we know that maybe i'm not having
+
+1183
+00:40:53.359 --> 00:40:55.119
+the appropriate
+
+1184
+00:40:55.119 --> 00:40:57.040
+circuit conditions here okay let me just
+
+1185
+00:40:57.040 --> 00:40:58.560
+try to apply some something like this
+
+1186
+00:40:58.560 --> 00:40:59.119
+okay
+
+1187
+00:40:59.119 --> 00:41:02.000
+or maybe a plus three volt or something
+
+1188
+00:41:02.000 --> 00:41:02.560
+so now
+
+1189
+00:41:02.560 --> 00:41:03.920
+now to analyze the whole current that
+
+1190
+00:41:03.920 --> 00:41:06.000
+flows between them what i can do is that
+
+1191
+00:41:06.000 --> 00:41:06.640
+i can
+
+1192
+00:41:06.640 --> 00:41:08.079
+just because the resistance is a linear
+
+1193
+00:41:08.079 --> 00:41:09.760
+device i could model
+
+1194
+00:41:09.760 --> 00:41:12.240
+by taking one voltage at a time and then
+
+1195
+00:41:12.240 --> 00:41:13.040
+try to
+
+1196
+00:41:13.040 --> 00:41:14.960
+add up those results in order to get the
+
+1197
+00:41:14.960 --> 00:41:16.160
+total current okay
+
+1198
+00:41:16.160 --> 00:41:18.319
+so even here it would be always better
+
+1199
+00:41:18.319 --> 00:41:19.760
+to model them
+
+1200
+00:41:19.760 --> 00:41:21.599
+as a separate functions okay so we are
+
+1201
+00:41:21.599 --> 00:41:22.880
+trying to model them as a separate
+
+1202
+00:41:22.880 --> 00:41:23.359
+functions
+
+1203
+00:41:23.359 --> 00:41:25.280
+assuming that these transits are
+
+1204
+00:41:25.280 --> 00:41:27.200
+somewhat linear so that i can
+
+1205
+00:41:27.200 --> 00:41:30.400
+add up those impacts later on okay so
+
+1206
+00:41:30.400 --> 00:41:31.680
+that is what we have studied in the
+
+1207
+00:41:31.680 --> 00:41:33.440
+channel in modulation we we never
+
+1208
+00:41:33.440 --> 00:41:35.599
+considered any of these effects
+
+1209
+00:41:35.599 --> 00:41:37.839
+and we just spoke about only the how the
+
+1210
+00:41:37.839 --> 00:41:40.640
+current varies with respect to vds okay
+
+1211
+00:41:40.640 --> 00:41:42.319
+and we just gave us a kind of separate
+
+1212
+00:41:42.319 --> 00:41:44.480
+name something like that
+
+1213
+00:41:44.480 --> 00:41:48.960
+okay i hope uh you're clear
+
+1214
+00:41:48.960 --> 00:41:51.359
+yes sir uh this drain induced barrier
+
+1215
+00:41:51.359 --> 00:41:52.480
+lowering uh
+
+1216
+00:41:52.480 --> 00:41:55.280
+is it uh dominating only in the short
+
+1217
+00:41:55.280 --> 00:41:56.160
+channel
+
+1218
+00:41:56.160 --> 00:41:59.119
+yes yes this is an impact that happens
+
+1219
+00:41:59.119 --> 00:42:00.560
+only in the short channel
+
+1220
+00:42:00.560 --> 00:42:02.880
+if the length of the channel is more as
+
+1221
+00:42:02.880 --> 00:42:05.520
+i said the depletion around this
+
+1222
+00:42:05.520 --> 00:42:06.800
+uh when we compare to the total
+
+1223
+00:42:06.800 --> 00:42:08.640
+depletion is barely small
+
+1224
+00:42:08.640 --> 00:42:10.319
+okay so the the fraction of depletion
+
+1225
+00:42:10.319 --> 00:42:12.319
+that this vds creates
+
+1226
+00:42:12.319 --> 00:42:14.640
+is a very small tiny amount so we
+
+1227
+00:42:14.640 --> 00:42:15.920
+generally assume that it's only a
+
+1228
+00:42:15.920 --> 00:42:18.160
+function of vgs and we never consider
+
+1229
+00:42:18.160 --> 00:42:21.200
+it as a function of vds okay but the
+
+1230
+00:42:21.200 --> 00:42:22.800
+drain induced barrier lowering
+
+1231
+00:42:22.800 --> 00:42:25.760
+says that the vt is not only a function
+
+1232
+00:42:25.760 --> 00:42:28.560
+of vgs but it's also
+
+1233
+00:42:28.560 --> 00:42:32.720
+a function of vds
+
+1234
+00:42:32.720 --> 00:42:35.599
+okay so it's a function of both these
+
+1235
+00:42:35.599 --> 00:42:38.000
+voltages
+
+1236
+00:42:38.000 --> 00:42:39.680
+and that impact will happen only for
+
+1237
+00:42:39.680 --> 00:42:41.760
+shorter channel device okay
+
+1238
+00:42:41.760 --> 00:42:43.839
+yeah so with this note i just want to
+
+1239
+00:42:43.839 --> 00:42:44.960
+talk about every
+
+1240
+00:42:44.960 --> 00:42:47.040
+last point about the velocity saturation
+
+1241
+00:42:47.040 --> 00:42:48.560
+effect okay so i guess
+
+1242
+00:42:48.560 --> 00:42:50.640
+you might be familiar with this equation
+
+1243
+00:42:50.640 --> 00:42:52.560
+yes
+
+1244
+00:42:52.560 --> 00:42:54.160
+okay so this was the equation that we
+
+1245
+00:42:54.160 --> 00:42:55.760
+have used and what happens is that
+
+1246
+00:42:55.760 --> 00:42:57.440
+in this case you could see that there is
+
+1247
+00:42:57.440 --> 00:42:59.359
+a denominator term that is also a
+
+1248
+00:42:59.359 --> 00:42:59.920
+function of
+
+1249
+00:42:59.920 --> 00:43:03.040
+e so now when i try to plot e versus the
+
+1250
+00:43:03.040 --> 00:43:04.560
+drift velocity
+
+1251
+00:43:04.560 --> 00:43:06.160
+it is not as kind of straight line that
+
+1252
+00:43:06.160 --> 00:43:07.599
+i can plot okay
+
+1253
+00:43:07.599 --> 00:43:10.480
+and i cannot use this straight line
+
+1254
+00:43:10.480 --> 00:43:11.119
+where i
+
+1255
+00:43:11.119 --> 00:43:13.040
+could write the drift velocity to be
+
+1256
+00:43:13.040 --> 00:43:15.119
+equal to mu n times it of
+
+1257
+00:43:15.119 --> 00:43:17.680
+e okay but what happens is that when i
+
+1258
+00:43:17.680 --> 00:43:20.079
+try to plot this as a whole
+
+1259
+00:43:20.079 --> 00:43:23.680
+you would get as a kind of curvature
+
+1260
+00:43:23.680 --> 00:43:25.359
+and then it reaches to the velocity
+
+1261
+00:43:25.359 --> 00:43:26.800
+saturation effect okay
+
+1262
+00:43:26.800 --> 00:43:29.920
+so every time the slope changes so this
+
+1263
+00:43:29.920 --> 00:43:31.760
+becomes very hard for us to really uh
+
+1264
+00:43:31.760 --> 00:43:34.720
+predict the value of things okay so
+
+1265
+00:43:34.720 --> 00:43:36.079
+there is something known as piecewise
+
+1266
+00:43:36.079 --> 00:43:37.839
+modeling so you would have learned
+
+1267
+00:43:37.839 --> 00:43:41.119
+the same thing in your body plot right
+
+1268
+00:43:41.119 --> 00:43:43.839
+whenever you have a pole the gain of
+
+1269
+00:43:43.839 --> 00:43:44.319
+your
+
+1270
+00:43:44.319 --> 00:43:46.240
+system will reduce at a rate of minus 20
+
+1271
+00:43:46.240 --> 00:43:48.000
+db per decade and you can use this
+
+1272
+00:43:48.000 --> 00:43:49.920
+piecewise approximation okay
+
+1273
+00:43:49.920 --> 00:43:52.720
+so yeah as electric field increases we
+
+1274
+00:43:52.720 --> 00:43:54.480
+should get negative and also negative
+
+1275
+00:43:54.480 --> 00:43:59.599
+direction because as you increase
+
+1276
+00:43:59.599 --> 00:44:01.599
+yeah yeah i think all of these proves i
+
+1277
+00:44:01.599 --> 00:44:03.520
+have done uh earlier you can just watch
+
+1278
+00:44:03.520 --> 00:44:04.880
+those videos why we are getting
+
+1279
+00:44:04.880 --> 00:44:07.359
+a drift velocity in terms of this maybe
+
+1280
+00:44:07.359 --> 00:44:08.960
+we will discuss about this because the
+
+1281
+00:44:08.960 --> 00:44:10.960
+electric field is running between the
+
+1282
+00:44:10.960 --> 00:44:13.440
+between the drain and the source and we
+
+1283
+00:44:13.440 --> 00:44:14.400
+are using the
+
+1284
+00:44:14.400 --> 00:44:16.000
+charge carrier flowing from source to
+
+1285
+00:44:16.000 --> 00:44:17.760
+drain so based on that
+
+1286
+00:44:17.760 --> 00:44:19.599
+we have this negative sign getting
+
+1287
+00:44:19.599 --> 00:44:20.880
+changed but
+
+1288
+00:44:20.880 --> 00:44:23.119
+it's basically a function where as i
+
+1289
+00:44:23.119 --> 00:44:24.480
+increase the electric field
+
+1290
+00:44:24.480 --> 00:44:27.680
+the velocity also increases okay
+
+1291
+00:44:27.680 --> 00:44:29.359
+it cannot go the other way since because
+
+1292
+00:44:29.359 --> 00:44:32.400
+it has a negative value
+
+1293
+00:44:32.720 --> 00:44:36.079
+okay yeah so now if at all if i
+
+1294
+00:44:36.079 --> 00:44:37.599
+want to model this as a kind of
+
+1295
+00:44:37.599 --> 00:44:39.359
+piecewise model that we have used like
+
+1296
+00:44:39.359 --> 00:44:41.040
+even in the case of a
+
+1297
+00:44:41.040 --> 00:44:45.440
+kind of bode plot then one could use
+
+1298
+00:44:45.440 --> 00:44:48.160
+this piecewise model as vd that is equal
+
+1299
+00:44:48.160 --> 00:44:48.640
+to
+
+1300
+00:44:48.640 --> 00:44:51.520
+mu n times that of e when the electric
+
+1301
+00:44:51.520 --> 00:44:52.319
+field
+
+1302
+00:44:52.319 --> 00:44:55.040
+is less than the critical electric field
+
+1303
+00:44:55.040 --> 00:44:55.520
+okay
+
+1304
+00:44:55.520 --> 00:44:58.319
+this vd drift policy becomes equal to
+
+1305
+00:44:58.319 --> 00:45:00.480
+saturation velocity
+
+1306
+00:45:00.480 --> 00:45:02.400
+for e that is greater than or equal to
+
+1307
+00:45:02.400 --> 00:45:04.000
+critical electric field okay
+
+1308
+00:45:04.000 --> 00:45:05.839
+so based on this we have had some sort
+
+1309
+00:45:05.839 --> 00:45:07.520
+of question
+
+1310
+00:45:07.520 --> 00:45:09.200
+uh maybe i'll just show you the question
+
+1311
+00:45:09.200 --> 00:45:10.800
+and the answer of this we will discuss
+
+1312
+00:45:10.800 --> 00:45:12.240
+in the next class
+
+1313
+00:45:12.240 --> 00:45:16.400
+okay so because of this approximation
+
+1314
+00:45:16.400 --> 00:45:18.079
+i could write that the drift velocity is
+
+1315
+00:45:18.079 --> 00:45:19.839
+nothing but mobility times the electric
+
+1316
+00:45:19.839 --> 00:45:20.319
+field
+
+1317
+00:45:20.319 --> 00:45:22.640
+whereas the other way around is that
+
+1318
+00:45:22.640 --> 00:45:23.839
+when the electric field
+
+1319
+00:45:23.839 --> 00:45:28.000
+is maybe i have to switch over this
+
+1320
+00:45:28.000 --> 00:45:30.400
+equal symbol here okay then the vsat
+
+1321
+00:45:30.400 --> 00:45:31.200
+would be
+
+1322
+00:45:31.200 --> 00:45:34.160
+equal to mu n times zero of ec okay so
+
+1323
+00:45:34.160 --> 00:45:34.880
+now we have
+
+1324
+00:45:34.880 --> 00:45:36.960
+we one could use this equation where i
+
+1325
+00:45:36.960 --> 00:45:38.079
+need to connect both these
+
+1326
+00:45:38.079 --> 00:45:40.960
+uh expressions okay at electric field
+
+1327
+00:45:40.960 --> 00:45:42.480
+that is equal to e c
+
+1328
+00:45:42.480 --> 00:45:44.800
+then v sat is equal to mu n times that
+
+1329
+00:45:44.800 --> 00:45:46.400
+of easy is what i can write it
+
+1330
+00:45:46.400 --> 00:45:49.280
+okay hope uh this is clear this is the
+
+1331
+00:45:49.280 --> 00:45:50.880
+field that i have
+
+1332
+00:45:50.880 --> 00:45:52.880
+for an electric field that is equal to
+
+1333
+00:45:52.880 --> 00:45:55.040
+ec where i can
+
+1334
+00:45:55.040 --> 00:45:58.480
+equate both these quantities okay so
+
+1335
+00:45:58.480 --> 00:46:02.560
+based on this what one can do is that
+
+1336
+00:46:02.560 --> 00:46:05.280
+one could rewrite the saturation
+
+1337
+00:46:05.280 --> 00:46:06.240
+velocity
+
+1338
+00:46:06.240 --> 00:46:08.400
+v d sat in terms of the critical
+
+1339
+00:46:08.400 --> 00:46:09.920
+electric field
+
+1340
+00:46:09.920 --> 00:46:13.520
+okay and this e c
+
+1341
+00:46:13.520 --> 00:46:16.560
+is nothing but can be written as
+
+1342
+00:46:16.560 --> 00:46:19.359
+v sat divided by mu n okay so we have
+
+1343
+00:46:19.359 --> 00:46:22.720
+this kind of a good relation
+
+1344
+00:46:22.720 --> 00:46:24.640
+that could be derived just by this
+
+1345
+00:46:24.640 --> 00:46:25.839
+approximation
+
+1346
+00:46:25.839 --> 00:46:30.240
+clear so there is a small question here
+
+1347
+00:46:30.240 --> 00:46:32.400
+the critical voltage is what you need to
+
+1348
+00:46:32.400 --> 00:46:34.160
+compute for the pmos transistor
+
+1349
+00:46:34.160 --> 00:46:36.960
+and the pmos transistor has an effective
+
+1350
+00:46:36.960 --> 00:46:38.240
+mobility which is given as
+
+1351
+00:46:38.240 --> 00:46:41.280
+38 centimeter square per volt per second
+
+1352
+00:46:41.280 --> 00:46:43.119
+okay and avalanche saturation
+
+1353
+00:46:43.119 --> 00:46:45.680
+which is around 7 into 10 to the power 7
+
+1354
+00:46:45.680 --> 00:46:46.800
+centimeter
+
+1355
+00:46:46.800 --> 00:46:50.000
+per second okay and you you have to
+
+1356
+00:46:50.000 --> 00:46:50.800
+assume that
+
+1357
+00:46:50.800 --> 00:46:54.839
+we have an abrupt change in the velocity
+
+1358
+00:46:54.839 --> 00:46:57.520
+okay so which means that we are trying
+
+1359
+00:46:57.520 --> 00:46:59.119
+to talk about this kind of field
+
+1360
+00:46:59.119 --> 00:47:01.520
+the one at the blue okay so there is an
+
+1361
+00:47:01.520 --> 00:47:02.880
+abrupt change
+
+1362
+00:47:02.880 --> 00:47:05.359
+from the linear motion to this constant
+
+1363
+00:47:05.359 --> 00:47:06.160
+velocity
+
+1364
+00:47:06.160 --> 00:47:08.880
+here so when you have such condition
+
+1365
+00:47:08.880 --> 00:47:09.520
+what is the
+
+1366
+00:47:09.520 --> 00:47:11.839
+critical voltage that you have assuming
+
+1367
+00:47:11.839 --> 00:47:13.359
+that the channel length of the transfer
+
+1368
+00:47:13.359 --> 00:47:14.160
+is
+
+1369
+00:47:14.160 --> 00:47:16.560
+equal to 200 nanometer okay so i want
+
+1370
+00:47:16.560 --> 00:47:17.359
+you to work out
+
+1371
+00:47:17.359 --> 00:47:20.160
+this particular example okay i guess i
+
+1372
+00:47:20.160 --> 00:47:21.599
+have taken too much of time
+
+1373
+00:47:21.599 --> 00:47:25.839
+i just stopped here
+

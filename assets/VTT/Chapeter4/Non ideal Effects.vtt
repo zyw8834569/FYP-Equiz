@@ -1,0 +1,5082 @@
+WEBVTT
+
+1
+00:00:00.719 --> 00:00:03.199
+hello all so today
+
+2
+00:00:03.199 --> 00:00:05.520
+uh we're going to talk about the
+
+3
+00:00:05.520 --> 00:00:07.200
+non-ideal effects
+
+4
+00:00:07.200 --> 00:00:10.240
+of mosfet so as you know
+
+5
+00:00:10.240 --> 00:00:13.759
+as uh with the semiconductor devices
+
+6
+00:00:13.759 --> 00:00:15.920
+uh the experimental characteristic is
+
+7
+00:00:15.920 --> 00:00:17.359
+not the same like the
+
+8
+00:00:17.359 --> 00:00:20.480
+theoretically uh behavior so
+
+9
+00:00:20.480 --> 00:00:22.640
+the experimental characteristic is most
+
+10
+00:00:22.640 --> 00:00:23.760
+facts uh
+
+11
+00:00:23.760 --> 00:00:27.199
+deviate to some degree uh from
+
+12
+00:00:27.199 --> 00:00:29.199
+the ideal relation that have been
+
+13
+00:00:29.199 --> 00:00:31.039
+theoretically derived
+
+14
+00:00:31.039 --> 00:00:33.440
+using the various assumption and also
+
+15
+00:00:33.440 --> 00:00:34.880
+approximation
+
+16
+00:00:34.880 --> 00:00:37.440
+so basically in the character
+
+17
+00:00:37.440 --> 00:00:39.440
+characteristic for experimental
+
+18
+00:00:39.440 --> 00:00:41.600
+is a slight difference from the
+
+19
+00:00:41.600 --> 00:00:42.960
+theoretical one
+
+20
+00:00:42.960 --> 00:00:45.760
+so this is because of the non-ideal
+
+21
+00:00:45.760 --> 00:00:46.480
+effects
+
+22
+00:00:46.480 --> 00:00:49.600
+of mosfets
+
+23
+00:00:49.840 --> 00:00:53.360
+so here is the outline for this lecture
+
+24
+00:00:53.360 --> 00:00:55.600
+so i'm going to talk the non-ideal
+
+25
+00:00:55.600 --> 00:00:57.280
+effect of mosfet
+
+26
+00:00:57.280 --> 00:01:00.719
+including sub threshold conduction
+
+27
+00:01:00.719 --> 00:01:03.920
+channel length modulation
+
+28
+00:01:03.920 --> 00:01:07.200
+mobility relay variation value
+
+29
+00:01:07.200 --> 00:01:10.560
+city saturation and ballistic transport
+
+30
+00:01:10.560 --> 00:01:12.560
+so after that we're going to talk about
+
+31
+00:01:12.560 --> 00:01:14.080
+the mosfet scaling
+
+32
+00:01:14.080 --> 00:01:16.720
+so what happened if the gate length or
+
+33
+00:01:16.720 --> 00:01:18.560
+the channel length of the mosfet
+
+34
+00:01:18.560 --> 00:01:22.159
+uh shrinking so there are effects
+
+35
+00:01:22.159 --> 00:01:25.200
+due to that includes a constant field
+
+36
+00:01:25.200 --> 00:01:27.720
+scaling threshold voltage first
+
+37
+00:01:27.720 --> 00:01:29.040
+approximations
+
+38
+00:01:29.040 --> 00:01:31.920
+generalized scaling and small device
+
+39
+00:01:31.920 --> 00:01:33.280
+geometries
+
+40
+00:01:33.280 --> 00:01:36.720
+there are short channel effects
+
+41
+00:01:36.720 --> 00:01:41.840
+and narrow channel effects
+
+42
+00:01:42.320 --> 00:01:45.840
+so this is the right figures
+
+43
+00:01:45.840 --> 00:01:50.240
+shows the iv id vgs
+
+44
+00:01:50.240 --> 00:01:54.079
+characteristic so the blue lines
+
+45
+00:01:54.079 --> 00:01:57.520
+shows the experimental of id
+
+46
+00:01:57.520 --> 00:01:59.600
+and the black line is the id for the
+
+47
+00:01:59.600 --> 00:02:00.719
+ideal case
+
+48
+00:02:00.719 --> 00:02:03.920
+for the ideal case is when we apply gate
+
+49
+00:02:03.920 --> 00:02:04.880
+voltage
+
+50
+00:02:04.880 --> 00:02:07.680
+until it reaches threshold voltage then
+
+51
+00:02:07.680 --> 00:02:08.000
+the
+
+52
+00:02:08.000 --> 00:02:11.680
+current of a drain current start flowing
+
+53
+00:02:11.680 --> 00:02:15.599
+so this is for the ideal case however
+
+54
+00:02:15.599 --> 00:02:19.680
+in actual case or during experimental
+
+55
+00:02:19.680 --> 00:02:23.680
+before actually it reached the
+
+56
+00:02:23.680 --> 00:02:26.480
+threshold voltage there is a very small
+
+57
+00:02:26.480 --> 00:02:27.280
+current
+
+58
+00:02:27.280 --> 00:02:31.440
+measured for the mosfet and slowly
+
+59
+00:02:31.440 --> 00:02:34.160
+uh increase until it reaches a threshold
+
+60
+00:02:34.160 --> 00:02:34.720
+point
+
+61
+00:02:34.720 --> 00:02:38.080
+and it increase further so
+
+62
+00:02:38.080 --> 00:02:41.120
+this is for the experimental case so
+
+63
+00:02:41.120 --> 00:02:44.959
+that's why we call it as a sub threshold
+
+64
+00:02:44.959 --> 00:02:51.840
+subthreshold conduction for this case
+
+65
+00:02:53.920 --> 00:02:54.980
+where
+
+66
+00:02:54.980 --> 00:02:57.519
+[Music]
+
+67
+00:02:57.519 --> 00:02:59.840
+drain current can be measured even
+
+68
+00:02:59.840 --> 00:03:05.120
+before the threshold voltage
+
+69
+00:03:05.120 --> 00:03:08.640
+so why is that happen uh because
+
+70
+00:03:08.640 --> 00:03:11.360
+of the current near threshold voltage so
+
+71
+00:03:11.360 --> 00:03:13.440
+the last figure here shows the energy
+
+72
+00:03:13.440 --> 00:03:14.800
+band diagram
+
+73
+00:03:14.800 --> 00:03:17.840
+of a mos structure with the p-type
+
+74
+00:03:17.840 --> 00:03:19.680
+substrate bias
+
+75
+00:03:19.680 --> 00:03:22.560
+okay so for normal behavior so this is
+
+76
+00:03:22.560 --> 00:03:24.560
+the gate
+
+77
+00:03:24.560 --> 00:03:29.519
+okay and this is the semiconductor
+
+78
+00:03:30.239 --> 00:03:33.760
+so for normal behavior so we apply the
+
+79
+00:03:33.760 --> 00:03:36.879
+surface potential here uh less
+
+80
+00:03:36.879 --> 00:03:40.400
+than the two phi fp
+
+81
+00:03:40.400 --> 00:03:43.120
+okay in order to make the electrons
+
+82
+00:03:43.120 --> 00:03:46.879
+flowing from source to drain and current
+
+83
+00:03:46.879 --> 00:03:50.319
+is flowing so however
+
+84
+00:03:50.319 --> 00:03:53.680
+for the condition of
+
+85
+00:03:54.319 --> 00:03:57.360
+surface potential in between 5fp
+
+86
+00:03:57.360 --> 00:04:00.799
+and 25fp there is also
+
+87
+00:04:00.799 --> 00:04:03.920
+a current flowing at
+
+88
+00:04:03.920 --> 00:04:07.439
+drain terminal and this
+
+89
+00:04:07.439 --> 00:04:11.920
+is we call it as a weak inversion
+
+90
+00:04:11.920 --> 00:04:15.200
+so that's why there is a slightly
+
+91
+00:04:15.200 --> 00:04:19.759
+small current of drained drink current
+
+92
+00:04:19.759 --> 00:04:22.160
+measured before it reached the threshold
+
+93
+00:04:22.160 --> 00:04:24.560
+voltage
+
+94
+00:04:25.759 --> 00:04:28.080
+so that behavior the previous slide can
+
+95
+00:04:28.080 --> 00:04:29.840
+be explained further
+
+96
+00:04:29.840 --> 00:04:33.040
+uh in this diagram
+
+97
+00:04:33.040 --> 00:04:35.360
+okay so this is uh the figure e shows
+
+98
+00:04:35.360 --> 00:04:36.240
+the
+
+99
+00:04:36.240 --> 00:04:39.280
+mosfet structure with uh
+
+100
+00:04:39.280 --> 00:04:43.280
+applying bias so so this is the case
+
+101
+00:04:43.280 --> 00:04:46.320
+so during accumulation the figure b
+
+102
+00:04:46.320 --> 00:04:50.720
+so this is the source gate
+
+103
+00:04:50.720 --> 00:04:53.520
+and the drain so this is what happens so
+
+104
+00:04:53.520 --> 00:04:55.040
+during accumulation
+
+105
+00:04:55.040 --> 00:04:58.320
+so the barrier is actually very uh
+
+106
+00:04:58.320 --> 00:05:01.199
+very large from from zero the applying
+
+107
+00:05:01.199 --> 00:05:02.160
+voltage
+
+108
+00:05:02.160 --> 00:05:05.919
+to uh this two by fb
+
+109
+00:05:05.919 --> 00:05:09.199
+so during this uh so electron is a
+
+110
+00:05:09.199 --> 00:05:12.710
+very hard to move or to
+
+111
+00:05:12.710 --> 00:05:14.720
+[Music]
+
+112
+00:05:14.720 --> 00:05:17.360
+to to to pass the barrier so this is the
+
+113
+00:05:17.360 --> 00:05:18.560
+electron this is
+
+114
+00:05:18.560 --> 00:05:21.600
+very hard to pass the barrier
+
+115
+00:05:21.600 --> 00:05:25.199
+from source to the drain therefore there
+
+116
+00:05:25.199 --> 00:05:25.759
+is no
+
+117
+00:05:25.759 --> 00:05:29.039
+current flowing uh from drain to the
+
+118
+00:05:29.039 --> 00:05:29.759
+source
+
+119
+00:05:29.759 --> 00:05:33.600
+however during weak inversion
+
+120
+00:05:33.600 --> 00:05:36.560
+okay the the barrier is actually uh
+
+121
+00:05:36.560 --> 00:05:37.280
+lowered
+
+122
+00:05:37.280 --> 00:05:41.199
+okay so uh from pi fp
+
+123
+00:05:41.199 --> 00:05:45.440
+to two by fp so now since the barrier is
+
+124
+00:05:45.440 --> 00:05:49.199
+uh lowered so the electron is uh
+
+125
+00:05:49.199 --> 00:05:52.320
+can pass through uh from source
+
+126
+00:05:52.320 --> 00:05:55.280
+this is source gate and drain so
+
+127
+00:05:55.280 --> 00:05:57.600
+electron can pass through this barrier
+
+128
+00:05:57.600 --> 00:06:01.360
+and therefore during this weak inversion
+
+129
+00:06:01.360 --> 00:06:04.880
+drain current can be measured due to the
+
+130
+00:06:04.880 --> 00:06:06.000
+electron can pass
+
+131
+00:06:06.000 --> 00:06:08.479
+through uh from source to the dream
+
+132
+00:06:08.479 --> 00:06:09.440
+therefore elect
+
+133
+00:06:09.440 --> 00:06:13.039
+uh drain current can be measured
+
+134
+00:06:13.039 --> 00:06:14.479
+so this is what happened during
+
+135
+00:06:14.479 --> 00:06:17.120
+experimental where before it reached the
+
+136
+00:06:17.120 --> 00:06:18.400
+threshold voltage
+
+137
+00:06:18.400 --> 00:06:20.880
+there is a slightly current measured so
+
+138
+00:06:20.880 --> 00:06:22.720
+this is actually due to the weak
+
+139
+00:06:22.720 --> 00:06:26.000
+inversion so in here we can
+
+140
+00:06:26.000 --> 00:06:28.319
+summarize that the barrier between n
+
+141
+00:06:28.319 --> 00:06:29.199
+plus source
+
+142
+00:06:29.199 --> 00:06:31.440
+and the channel is small therefore
+
+143
+00:06:31.440 --> 00:06:32.639
+electron can
+
+144
+00:06:32.639 --> 00:06:35.280
+move to the channel or in other word
+
+145
+00:06:35.280 --> 00:06:36.240
+electron can
+
+146
+00:06:36.240 --> 00:06:39.360
+pass the barrier okay so
+
+147
+00:06:39.360 --> 00:06:42.800
+in inversion so this is source
+
+148
+00:06:42.800 --> 00:06:46.720
+gate and drain so during inversion
+
+149
+00:06:46.720 --> 00:06:49.840
+even the barrier become very very small
+
+150
+00:06:49.840 --> 00:06:53.680
+here okay so it actually electron can
+
+151
+00:06:53.680 --> 00:06:56.720
+pass through easily okay from source
+
+152
+00:06:56.720 --> 00:06:59.440
+to the channel and that's why during
+
+153
+00:06:59.440 --> 00:07:00.479
+inversion
+
+154
+00:07:00.479 --> 00:07:04.960
+the id can be measured or the ids start
+
+155
+00:07:04.960 --> 00:07:07.599
+increase so this is what happened during
+
+156
+00:07:07.599 --> 00:07:08.560
+subtraction
+
+157
+00:07:08.560 --> 00:07:11.120
+conduction
+
+158
+00:07:12.800 --> 00:07:16.160
+so this is the summarization of the
+
+159
+00:07:16.160 --> 00:07:18.400
+threshold current so sub threshold
+
+160
+00:07:18.400 --> 00:07:19.360
+current uh
+
+161
+00:07:19.360 --> 00:07:24.080
+id sub is proportional to this portion
+
+162
+00:07:24.080 --> 00:07:27.120
+and this portion can be simplified
+
+163
+00:07:27.120 --> 00:07:30.400
+when vds is greater than the fuel
+
+164
+00:07:30.400 --> 00:07:34.319
+kt so the whole equation
+
+165
+00:07:34.319 --> 00:07:37.440
+for the id sub can be simplified uh
+
+166
+00:07:37.440 --> 00:07:39.840
+into this where id sub is proportional
+
+167
+00:07:39.840 --> 00:07:40.960
+to the exponent
+
+168
+00:07:40.960 --> 00:07:44.400
+vgs kt so this
+
+169
+00:07:44.400 --> 00:07:47.919
+uh subtraction id sub is actually
+
+170
+00:07:47.919 --> 00:07:51.360
+it's a electrical characteristic of a
+
+171
+00:07:51.360 --> 00:07:52.479
+mosfet
+
+172
+00:07:52.479 --> 00:07:59.840
+so we call it as a sub threshold swing
+
+173
+00:08:00.560 --> 00:08:03.199
+so this one can be measured due to the
+
+174
+00:08:03.199 --> 00:08:03.840
+slope
+
+175
+00:08:03.840 --> 00:08:07.840
+of the lock idvg so when we
+
+176
+00:08:07.840 --> 00:08:11.360
+log scale the uh
+
+177
+00:08:11.360 --> 00:08:14.479
+the y-axis so we can measure the
+
+178
+00:08:14.479 --> 00:08:16.879
+slope and we can get the uh
+
+179
+00:08:16.879 --> 00:08:18.080
+sub-threshold swing
+
+180
+00:08:18.080 --> 00:08:20.160
+so this subtraction swing is actually a
+
+181
+00:08:20.160 --> 00:08:23.280
+switching behavior
+
+182
+00:08:23.280 --> 00:08:27.280
+it's a switching behavior
+
+183
+00:08:27.280 --> 00:08:30.560
+okay so uh 16 millivolt per decade is
+
+184
+00:08:30.560 --> 00:08:32.719
+the ideal case which is good
+
+185
+00:08:32.719 --> 00:08:35.760
+where the device or the mosfet needs 60
+
+186
+00:08:35.760 --> 00:08:37.519
+millivolt to turn on
+
+187
+00:08:37.519 --> 00:08:40.880
+uh from off to on or on to off so that
+
+188
+00:08:40.880 --> 00:08:42.240
+is very ideal case
+
+189
+00:08:42.240 --> 00:08:44.159
+so this subtraction swing can be
+
+190
+00:08:44.159 --> 00:08:46.640
+increased if the leakage current
+
+191
+00:08:46.640 --> 00:08:50.800
+is very high in the mosfet so
+
+192
+00:08:50.800 --> 00:08:53.680
+basically this subtraction swing depends
+
+193
+00:08:53.680 --> 00:08:54.320
+on
+
+194
+00:08:54.320 --> 00:08:57.200
+different structure due to how much it
+
+195
+00:08:57.200 --> 00:08:59.360
+produced the leakage current
+
+196
+00:08:59.360 --> 00:09:01.760
+so the higher the leakage current the
+
+197
+00:09:01.760 --> 00:09:02.800
+sub-tissue swing
+
+198
+00:09:02.800 --> 00:09:06.839
+will increase more than 60 millivolt per
+
+199
+00:09:06.839 --> 00:09:08.880
+decade
+
+200
+00:09:08.880 --> 00:09:11.600
+so the other effect is channel length
+
+201
+00:09:11.600 --> 00:09:13.200
+modulation
+
+202
+00:09:13.200 --> 00:09:16.959
+so in ideal case we assume
+
+203
+00:09:16.959 --> 00:09:19.120
+in the derivation of the iv
+
+204
+00:09:19.120 --> 00:09:21.120
+characteristic
+
+205
+00:09:21.120 --> 00:09:24.480
+the channel link is constant however it
+
+206
+00:09:24.480 --> 00:09:27.839
+it actually it does not constant so the
+
+207
+00:09:27.839 --> 00:09:29.120
+left figure
+
+208
+00:09:29.120 --> 00:09:32.080
+okay so the left figure uh shows the uh
+
+209
+00:09:32.080 --> 00:09:33.760
+the mosfet structure
+
+210
+00:09:33.760 --> 00:09:36.480
+so we have the application of vgs and
+
+211
+00:09:36.480 --> 00:09:37.440
+vds
+
+212
+00:09:37.440 --> 00:09:41.839
+so this is the the inversion charge
+
+213
+00:09:41.839 --> 00:09:45.120
+the blue area so in this case
+
+214
+00:09:45.120 --> 00:09:47.600
+the transistor channel line is produced
+
+215
+00:09:47.600 --> 00:09:48.240
+by
+
+216
+00:09:48.240 --> 00:09:52.399
+l so this l so from source to drain
+
+217
+00:09:52.399 --> 00:09:55.440
+so basically uh this is the the ideal
+
+218
+00:09:55.440 --> 00:09:56.880
+case of china line
+
+219
+00:09:56.880 --> 00:09:59.920
+so however this channel line is actually
+
+220
+00:09:59.920 --> 00:10:04.000
+depends so in how much we apply uh
+
+221
+00:10:04.000 --> 00:10:07.760
+voltage to the vds so when we apply
+
+222
+00:10:07.760 --> 00:10:10.880
+uh higher vds so there
+
+223
+00:10:10.880 --> 00:10:14.160
+there will be uh so this vds so
+
+224
+00:10:14.160 --> 00:10:17.680
+let's see when we apply vds greater than
+
+225
+00:10:17.680 --> 00:10:19.839
+the vds
+
+226
+00:10:19.839 --> 00:10:23.360
+saturation so actually
+
+227
+00:10:23.360 --> 00:10:26.800
+uh this mosfet is in
+
+228
+00:10:26.800 --> 00:10:30.160
+saturation region so the depletion
+
+229
+00:10:30.160 --> 00:10:33.680
+region will be extended under the
+
+230
+00:10:33.680 --> 00:10:37.040
+drain okay under the drain so
+
+231
+00:10:37.040 --> 00:10:39.519
+this one will be extended therefore
+
+232
+00:10:39.519 --> 00:10:41.839
+there will be a portion
+
+233
+00:10:41.839 --> 00:10:45.279
+of the inversion charge to be backward
+
+234
+00:10:45.279 --> 00:10:48.560
+so this region actually is due
+
+235
+00:10:48.560 --> 00:10:51.920
+to the high drain
+
+236
+00:10:51.920 --> 00:10:55.040
+to source voltage that we apply and we
+
+237
+00:10:55.040 --> 00:10:58.959
+introduce or represent it as a delta l
+
+238
+00:10:58.959 --> 00:11:02.160
+so this delta if l is depends on how
+
+239
+00:11:02.160 --> 00:11:02.640
+much
+
+240
+00:11:02.640 --> 00:11:06.480
+high we apply to the vds
+
+241
+00:11:06.480 --> 00:11:09.519
+so at saturation region a channel will
+
+242
+00:11:09.519 --> 00:11:13.200
+pinch off at the drain terminal edge and
+
+243
+00:11:13.200 --> 00:11:16.480
+the pinch off point move towards uh
+
+244
+00:11:16.480 --> 00:11:19.680
+source as vds is increased
+
+245
+00:11:19.680 --> 00:11:22.800
+so the right trigger shows what happened
+
+246
+00:11:22.800 --> 00:11:25.920
+is actually when we apply vds greater
+
+247
+00:11:25.920 --> 00:11:28.160
+than the vds saturation
+
+248
+00:11:28.160 --> 00:11:31.680
+so the electron can still uh
+
+249
+00:11:31.680 --> 00:11:34.480
+flowing so this is the other side is our
+
+250
+00:11:34.480 --> 00:11:35.040
+sauce
+
+251
+00:11:35.040 --> 00:11:37.920
+so let's get confused so the the other
+
+252
+00:11:37.920 --> 00:11:39.680
+side of here is sauce
+
+253
+00:11:39.680 --> 00:11:42.399
+and gate and this is the dream so
+
+254
+00:11:42.399 --> 00:11:44.000
+electron can still
+
+255
+00:11:44.000 --> 00:11:47.120
+flowing through however
+
+256
+00:11:47.120 --> 00:11:49.839
+it looks like there is a separation at
+
+257
+00:11:49.839 --> 00:11:50.399
+this
+
+258
+00:11:50.399 --> 00:11:53.600
+edge to the drain however electron can
+
+259
+00:11:53.600 --> 00:11:54.079
+still
+
+260
+00:11:54.079 --> 00:11:57.040
+pass through this edge where this
+
+261
+00:11:57.040 --> 00:11:57.920
+electric
+
+262
+00:11:57.920 --> 00:12:00.320
+field can actually accelerate the
+
+263
+00:12:00.320 --> 00:12:01.920
+electron
+
+264
+00:12:01.920 --> 00:12:04.800
+to pass through
+
+265
+00:12:04.959 --> 00:12:08.480
+uh from uh source to drain
+
+266
+00:12:08.480 --> 00:12:11.600
+and therefore current can still
+
+267
+00:12:11.600 --> 00:12:15.600
+be measured at the drain terminal
+
+268
+00:12:15.600 --> 00:12:19.519
+so this current is actually uh
+
+269
+00:12:19.519 --> 00:12:23.279
+deviate okay due to the
+
+270
+00:12:23.279 --> 00:12:26.320
+this delta l so this is what we call as
+
+271
+00:12:26.320 --> 00:12:27.600
+the channel length
+
+272
+00:12:27.600 --> 00:12:30.320
+modulation
+
+273
+00:12:32.480 --> 00:12:35.519
+so the expression for the delta
+
+274
+00:12:35.519 --> 00:12:38.560
+l just now represent by this
+
+275
+00:12:38.560 --> 00:12:42.240
+equation where the delta l depends on
+
+276
+00:12:42.240 --> 00:12:43.200
+the
+
+277
+00:12:43.200 --> 00:12:46.959
+uh phi fp and also
+
+278
+00:12:46.959 --> 00:12:49.920
+the vds saturation that we apply and
+
+279
+00:12:49.920 --> 00:12:52.320
+also how much different of
+
+280
+00:12:52.320 --> 00:12:55.600
+the vds so drain current
+
+281
+00:12:55.600 --> 00:12:59.279
+is proportional to this channel length
+
+282
+00:12:59.279 --> 00:13:02.480
+so actually uh so the
+
+283
+00:13:02.480 --> 00:13:04.959
+drain current is deviate from the
+
+284
+00:13:04.959 --> 00:13:07.440
+initial due to the
+
+285
+00:13:07.440 --> 00:13:10.639
+delta l just now so when we have
+
+286
+00:13:10.639 --> 00:13:14.160
+a delta l portion actually drain current
+
+287
+00:13:14.160 --> 00:13:17.360
+will increase okay so
+
+288
+00:13:17.360 --> 00:13:20.480
+delta l is a function of vds
+
+289
+00:13:20.480 --> 00:13:23.600
+so that the id saturation is also depend
+
+290
+00:13:23.600 --> 00:13:28.240
+on the vds and also the delta l
+
+291
+00:13:28.240 --> 00:13:31.680
+so as mosfet becomes smaller means the
+
+292
+00:13:31.680 --> 00:13:34.800
+length become smaller so the effect of
+
+293
+00:13:34.800 --> 00:13:36.560
+channel line modulation become
+
+294
+00:13:36.560 --> 00:13:40.399
+more severe so this is the delta l
+
+295
+00:13:40.399 --> 00:13:44.240
+become more severe
+
+296
+00:13:47.120 --> 00:13:50.240
+okay this is the drain current with
+
+297
+00:13:50.240 --> 00:13:52.560
+channel length modulation
+
+298
+00:13:52.560 --> 00:13:54.720
+the left figure shows the idvd
+
+299
+00:13:54.720 --> 00:13:55.839
+characteristic
+
+300
+00:13:55.839 --> 00:13:59.920
+okay for the deviate
+
+301
+00:13:59.920 --> 00:14:02.880
+i prime d this is the normal id
+
+302
+00:14:02.880 --> 00:14:04.240
+characteristic
+
+303
+00:14:04.240 --> 00:14:07.360
+so for this case we actually have the so
+
+304
+00:14:07.360 --> 00:14:07.920
+this is
+
+305
+00:14:07.920 --> 00:14:11.839
+like this so the idbd so anything
+
+306
+00:14:11.839 --> 00:14:16.000
+that uh greater than this
+
+307
+00:14:16.000 --> 00:14:20.079
+line is saturation
+
+308
+00:14:21.600 --> 00:14:24.959
+during saturation region
+
+309
+00:14:25.279 --> 00:14:28.000
+so when we apply greater vds so this is
+
+310
+00:14:28.000 --> 00:14:29.360
+happens
+
+311
+00:14:29.360 --> 00:14:32.240
+so in this case
+
+312
+00:14:32.560 --> 00:14:35.760
+uh actually
+
+313
+00:14:35.760 --> 00:14:38.800
+so for the case of um
+
+314
+00:14:38.800 --> 00:14:42.240
+normal behavior so this is uh this
+
+315
+00:14:42.240 --> 00:14:45.839
+id is uh saturate is supposed to be
+
+316
+00:14:45.839 --> 00:14:49.040
+uh straight line it's a very
+
+317
+00:14:49.040 --> 00:14:52.959
+lean normal saturation
+
+318
+00:14:52.959 --> 00:14:56.000
+however there is a slight slope
+
+319
+00:14:56.000 --> 00:14:58.480
+okay in experimental the blue line there
+
+320
+00:14:58.480 --> 00:14:59.760
+is a slight slope
+
+321
+00:14:59.760 --> 00:15:01.680
+so as you can see there is a difference
+
+322
+00:15:01.680 --> 00:15:03.199
+between the ideal case
+
+323
+00:15:03.199 --> 00:15:06.399
+and the experimental so there is
+
+324
+00:15:06.399 --> 00:15:09.519
+for experimental there is a slight slope
+
+325
+00:15:09.519 --> 00:15:12.639
+so this slope is actually due to
+
+326
+00:15:12.639 --> 00:15:17.040
+the due to the
+
+327
+00:15:17.040 --> 00:15:19.680
+channel line modulation so there is a
+
+328
+00:15:19.680 --> 00:15:20.800
+slope here
+
+329
+00:15:20.800 --> 00:15:24.959
+so when there is a slope here means
+
+330
+00:15:25.120 --> 00:15:28.160
+there is a resistivity so
+
+331
+00:15:28.160 --> 00:15:31.199
+we need to consider the resistivity uh
+
+332
+00:15:31.199 --> 00:15:31.839
+during
+
+333
+00:15:31.839 --> 00:15:34.720
+channel lung modulation so this is their
+
+334
+00:15:34.720 --> 00:15:36.240
+id
+
+335
+00:15:36.240 --> 00:15:41.839
+in saturation so this is id saturation
+
+336
+00:15:42.720 --> 00:15:45.600
+so this id saturation is given by this
+
+337
+00:15:45.600 --> 00:15:46.639
+equation
+
+338
+00:15:46.639 --> 00:15:50.560
+but when we have a delta l
+
+339
+00:15:50.560 --> 00:15:53.839
+channel line modulation so uh we have
+
+340
+00:15:53.839 --> 00:15:54.800
+this portion
+
+341
+00:15:54.800 --> 00:15:56.959
+so this portion is actually represent
+
+342
+00:15:56.959 --> 00:15:59.360
+the china line modulation parameter
+
+343
+00:15:59.360 --> 00:16:01.600
+so this portion is actually represent
+
+344
+00:16:01.600 --> 00:16:03.360
+the output resistance
+
+345
+00:16:03.360 --> 00:16:06.720
+so the slope for this one is uh
+
+346
+00:16:06.720 --> 00:16:10.079
+voltage over current so we have uh
+
+347
+00:16:10.079 --> 00:16:12.560
+are not here so they are this r node is
+
+348
+00:16:12.560 --> 00:16:13.839
+given by
+
+349
+00:16:13.839 --> 00:16:16.399
+uh if you quantify the equation so given
+
+350
+00:16:16.399 --> 00:16:17.519
+by this equation
+
+351
+00:16:17.519 --> 00:16:20.720
+depends on the lambda so when lambda
+
+352
+00:16:20.720 --> 00:16:23.839
+uh lambda is actually normally small
+
+353
+00:16:23.839 --> 00:16:25.920
+so the resistivity or the output
+
+354
+00:16:25.920 --> 00:16:27.120
+resistance can
+
+355
+00:16:27.120 --> 00:16:31.040
+be simplified by this equation
+
+356
+00:16:31.040 --> 00:16:35.279
+that's why we can summarize that
+
+357
+00:16:35.279 --> 00:16:38.800
+why is the id vds has a
+
+358
+00:16:38.800 --> 00:16:43.360
+slightly slow high slope
+
+359
+00:16:43.360 --> 00:16:46.720
+compared to the ideal idv idvd
+
+360
+00:16:46.720 --> 00:16:51.839
+is because of the china line modulation
+
+361
+00:16:52.800 --> 00:16:56.240
+so for the calculation of the channel
+
+362
+00:16:56.240 --> 00:16:58.240
+of the current due to the channel line
+
+363
+00:16:58.240 --> 00:17:00.000
+modulation you can try
+
+364
+00:17:00.000 --> 00:17:05.839
+example 11.1 from the textbook
+
+365
+00:17:08.400 --> 00:17:11.919
+so for the calculation of the channel
+
+366
+00:17:11.919 --> 00:17:13.919
+of the current due to the channel line
+
+367
+00:17:13.919 --> 00:17:15.679
+modulation you can try
+
+368
+00:17:15.679 --> 00:17:20.720
+example 11.1 from the textbook
+
+369
+00:17:24.319 --> 00:17:27.599
+so next is we move on the mobility
+
+370
+00:17:27.599 --> 00:17:30.640
+variation so the assumption that has
+
+371
+00:17:30.640 --> 00:17:31.200
+been made
+
+372
+00:17:31.200 --> 00:17:34.240
+in ideal transistor the mobility is
+
+373
+00:17:34.240 --> 00:17:36.960
+constant mobility means the electron
+
+374
+00:17:36.960 --> 00:17:40.080
+uh how uh the electron flow from source
+
+375
+00:17:40.080 --> 00:17:41.039
+to the drain
+
+376
+00:17:41.039 --> 00:17:42.640
+so it's actually the mobility of
+
+377
+00:17:42.640 --> 00:17:44.880
+electron however the mob
+
+378
+00:17:44.880 --> 00:17:48.240
+the mobility of electron vary due to the
+
+379
+00:17:48.240 --> 00:17:51.039
+influence from the gate voltage also
+
+380
+00:17:51.039 --> 00:17:52.240
+from the decrease of
+
+381
+00:17:52.240 --> 00:17:55.120
+effective mobility when the carrier
+
+382
+00:17:55.120 --> 00:17:55.840
+approach
+
+383
+00:17:55.840 --> 00:17:58.960
+validity saturation remain so what is
+
+384
+00:17:58.960 --> 00:18:01.280
+this we going to talk in the next
+
+385
+00:18:01.280 --> 00:18:03.679
+slide
+
+386
+00:18:05.679 --> 00:18:08.720
+so what is mobility variation so it
+
+387
+00:18:08.720 --> 00:18:10.960
+depends one is depend on the
+
+388
+00:18:10.960 --> 00:18:14.160
+how much okay how much uh gate
+
+389
+00:18:14.160 --> 00:18:17.760
+to source voltage that we apply so the
+
+390
+00:18:17.760 --> 00:18:20.799
+so when we apply uh gate to source
+
+391
+00:18:20.799 --> 00:18:23.520
+voltage we will apply vg here so there
+
+392
+00:18:23.520 --> 00:18:24.240
+will be
+
+393
+00:18:24.240 --> 00:18:27.280
+an electric field uh
+
+394
+00:18:27.280 --> 00:18:31.120
+in a vertical position here
+
+395
+00:18:31.120 --> 00:18:34.240
+okay so this positive gate voltage uh
+
+396
+00:18:34.240 --> 00:18:37.280
+is applied to form inversion layer so
+
+397
+00:18:37.280 --> 00:18:38.640
+the electric field
+
+398
+00:18:38.640 --> 00:18:41.840
+also in a vertical direction or
+
+399
+00:18:41.840 --> 00:18:43.120
+transverse
+
+400
+00:18:43.120 --> 00:18:46.960
+electric field so due to this
+
+401
+00:18:46.960 --> 00:18:50.000
+electric field actually um
+
+402
+00:18:50.000 --> 00:18:54.840
+so electron is flowing in this direction
+
+403
+00:18:54.840 --> 00:18:59.280
+okay so ideally electron is flowing
+
+404
+00:18:59.280 --> 00:19:02.080
+uh very smooth uh from source to the
+
+405
+00:19:02.080 --> 00:19:03.360
+drain
+
+406
+00:19:03.360 --> 00:19:06.799
+okay however when there is a
+
+407
+00:19:06.799 --> 00:19:09.600
+high electric field uh in the vertical
+
+408
+00:19:09.600 --> 00:19:10.559
+direction
+
+409
+00:19:10.559 --> 00:19:13.919
+so it will actually um
+
+410
+00:19:13.919 --> 00:19:16.799
+give barrier to the electron to flow
+
+411
+00:19:16.799 --> 00:19:17.760
+very smooth
+
+412
+00:19:17.760 --> 00:19:20.640
+uh from source to the drain so this
+
+413
+00:19:20.640 --> 00:19:23.600
+electron in inversion layer
+
+414
+00:19:23.600 --> 00:19:27.120
+actually can move from source to drink
+
+415
+00:19:27.120 --> 00:19:28.000
+the drain
+
+416
+00:19:28.000 --> 00:19:31.520
+but need to overcome or to pass through
+
+417
+00:19:31.520 --> 00:19:31.919
+this
+
+418
+00:19:31.919 --> 00:19:34.799
+electric field so this is the carrier
+
+419
+00:19:34.799 --> 00:19:36.160
+movement
+
+420
+00:19:36.160 --> 00:19:39.760
+to the drain is affected by the
+
+421
+00:19:39.760 --> 00:19:43.200
+transverse electric field which we we
+
+422
+00:19:43.200 --> 00:19:47.039
+explained in the next slide
+
+423
+00:19:47.760 --> 00:19:50.240
+so this is what happened so for this
+
+424
+00:19:50.240 --> 00:19:51.200
+case uh
+
+425
+00:19:51.200 --> 00:19:54.400
+let's say we have so just now we have
+
+426
+00:19:54.400 --> 00:19:58.799
+a gate here so we have
+
+427
+00:19:58.799 --> 00:20:02.000
+gate to source voltage and we apply
+
+428
+00:20:02.000 --> 00:20:04.640
+high gate voltage when we apply gate
+
+429
+00:20:04.640 --> 00:20:06.559
+voltage to the gate so there will be an
+
+430
+00:20:06.559 --> 00:20:08.799
+electric field
+
+431
+00:20:08.799 --> 00:20:11.300
+okay so for this case
+
+432
+00:20:11.300 --> 00:20:12.799
+[Music]
+
+433
+00:20:12.799 --> 00:20:14.960
+instead of electron flowing from source
+
+434
+00:20:14.960 --> 00:20:16.480
+to the drain
+
+435
+00:20:16.480 --> 00:20:19.600
+very smooth
+
+436
+00:20:19.679 --> 00:20:22.240
+however electron need need to pass
+
+437
+00:20:22.240 --> 00:20:24.720
+through the transverse electric field
+
+438
+00:20:24.720 --> 00:20:28.320
+so for this case uh it has
+
+439
+00:20:28.320 --> 00:20:32.080
+um barrier to overcome
+
+440
+00:20:32.080 --> 00:20:34.640
+two so there is electric field
+
+441
+00:20:34.640 --> 00:20:35.840
+throughout
+
+442
+00:20:35.840 --> 00:20:39.360
+this uh gate region so electron actually
+
+443
+00:20:39.360 --> 00:20:40.080
+instead of
+
+444
+00:20:40.080 --> 00:20:42.400
+uh going very smooth from source to
+
+445
+00:20:42.400 --> 00:20:43.520
+drain
+
+446
+00:20:43.520 --> 00:20:47.520
+uh so this um actually
+
+447
+00:20:47.520 --> 00:20:50.960
+uh the electron pass through in zigzag
+
+448
+00:20:50.960 --> 00:20:53.679
+mode so in it pass through one electric
+
+449
+00:20:53.679 --> 00:20:54.400
+field
+
+450
+00:20:54.400 --> 00:20:56.480
+and then it go down pass through one
+
+451
+00:20:56.480 --> 00:20:57.440
+electric field
+
+452
+00:20:57.440 --> 00:21:00.840
+and then it go down so every um
+
+453
+00:21:00.840 --> 00:21:04.159
+electron uh every mobility of electron
+
+454
+00:21:04.159 --> 00:21:04.640
+touch
+
+455
+00:21:04.640 --> 00:21:07.760
+the this region and this region
+
+456
+00:21:07.760 --> 00:21:10.880
+so it actually store charge
+
+457
+00:21:10.880 --> 00:21:14.320
+in every uh region it it passed through
+
+458
+00:21:14.320 --> 00:21:16.960
+means the barrier it passed through so
+
+459
+00:21:16.960 --> 00:21:17.360
+it's
+
+460
+00:21:17.360 --> 00:21:20.480
+store charged and the current also
+
+461
+00:21:20.480 --> 00:21:23.360
+will be depends on the charge that has
+
+462
+00:21:23.360 --> 00:21:24.960
+been stored
+
+463
+00:21:24.960 --> 00:21:27.840
+so for this case uh this effect is
+
+464
+00:21:27.840 --> 00:21:29.120
+called as a surface
+
+465
+00:21:29.120 --> 00:21:32.159
+scattering okay so the surface
+
+466
+00:21:32.159 --> 00:21:33.840
+scattering is actually degrade the
+
+467
+00:21:33.840 --> 00:21:35.520
+mobility so why
+
+468
+00:21:35.520 --> 00:21:38.480
+degrade the mobility is uh how electron
+
+469
+00:21:38.480 --> 00:21:40.480
+flows from source to the drain
+
+470
+00:21:40.480 --> 00:21:42.880
+so how electron mobile from source to
+
+471
+00:21:42.880 --> 00:21:44.159
+the dream
+
+472
+00:21:44.159 --> 00:21:46.480
+and it has to overcome the electric
+
+473
+00:21:46.480 --> 00:21:48.480
+field instead of going straight
+
+474
+00:21:48.480 --> 00:21:51.679
+line now it has a zigzag behavior
+
+475
+00:21:51.679 --> 00:21:54.799
+so this scattering
+
+476
+00:21:54.799 --> 00:21:57.679
+the if effective transverse electric
+
+477
+00:21:57.679 --> 00:21:58.000
+field
+
+478
+00:21:58.000 --> 00:22:01.200
+is given by this equation and this
+
+479
+00:22:01.200 --> 00:22:04.799
+uh effective mobility is given by
+
+480
+00:22:04.799 --> 00:22:08.080
+this equation
+
+481
+00:22:08.080 --> 00:22:11.280
+so this is what surface scattering so
+
+482
+00:22:11.280 --> 00:22:13.200
+surface scattering will degrade the
+
+483
+00:22:13.200 --> 00:22:14.799
+mobility of electron
+
+484
+00:22:14.799 --> 00:22:17.919
+thus it will affect the
+
+485
+00:22:17.919 --> 00:22:21.600
+the current the drain current
+
+486
+00:22:22.640 --> 00:22:25.840
+okay the inversion layer mobility so
+
+487
+00:22:25.840 --> 00:22:28.720
+this figure shows the electron mobility
+
+488
+00:22:28.720 --> 00:22:31.440
+versus the electric field in the
+
+489
+00:22:31.440 --> 00:22:33.200
+inversion layer
+
+490
+00:22:33.200 --> 00:22:36.480
+basically this electric field
+
+491
+00:22:36.480 --> 00:22:39.919
+or effective electric field is
+
+492
+00:22:39.919 --> 00:22:40.799
+proportional
+
+493
+00:22:40.799 --> 00:22:44.080
+to the how much uh gate voltage
+
+494
+00:22:44.080 --> 00:22:47.520
+that we apply okay so this uh as
+
+495
+00:22:47.520 --> 00:22:49.919
+explained in the previous night uh
+
+496
+00:22:49.919 --> 00:22:50.799
+effective
+
+497
+00:22:50.799 --> 00:22:53.840
+uh electric field is due to the lateral
+
+498
+00:22:53.840 --> 00:22:56.080
+electric field or transverse electric
+
+499
+00:22:56.080 --> 00:22:56.960
+field
+
+500
+00:22:56.960 --> 00:23:00.000
+so if this uh if
+
+501
+00:23:00.000 --> 00:23:03.200
+vgs is
+
+502
+00:23:03.360 --> 00:23:07.760
+higher so this will affect the
+
+503
+00:23:07.760 --> 00:23:12.000
+electron mobility or the mu
+
+504
+00:23:12.000 --> 00:23:15.840
+effective will decrease
+
+505
+00:23:15.840 --> 00:23:19.280
+so this mobility decreases due to
+
+506
+00:23:19.280 --> 00:23:22.320
+the electric field so the higher
+
+507
+00:23:22.320 --> 00:23:25.520
+the gate voltage the more the electric
+
+508
+00:23:25.520 --> 00:23:26.320
+field
+
+509
+00:23:26.320 --> 00:23:30.240
+lateral vertical electric field produced
+
+510
+00:23:30.240 --> 00:23:33.039
+therefore the the more difficult for the
+
+511
+00:23:33.039 --> 00:23:34.720
+electron to pass through
+
+512
+00:23:34.720 --> 00:23:37.840
+from source to the drain therefore it
+
+513
+00:23:37.840 --> 00:23:38.799
+will affect
+
+514
+00:23:38.799 --> 00:23:43.200
+the amount of drain current
+
+515
+00:23:43.200 --> 00:23:47.120
+flowing from drain to the source
+
+516
+00:23:48.960 --> 00:23:52.400
+so to calculate the
+
+517
+00:23:52.400 --> 00:23:54.960
+effective electric field at threshold
+
+518
+00:23:54.960 --> 00:23:56.159
+point
+
+519
+00:23:56.159 --> 00:24:01.279
+you can try example 11.2
+
+520
+00:24:02.960 --> 00:24:06.559
+so to calculate the
+
+521
+00:24:06.559 --> 00:24:08.960
+effective electric field at threshold
+
+522
+00:24:08.960 --> 00:24:10.159
+point
+
+523
+00:24:10.159 --> 00:24:15.279
+you can try example 11.2
+
+524
+00:24:17.440 --> 00:24:20.480
+okay this figure shows the idvd
+
+525
+00:24:20.480 --> 00:24:22.000
+characteristic
+
+526
+00:24:22.000 --> 00:24:25.679
+uh comparing between when we consider
+
+527
+00:24:25.679 --> 00:24:27.279
+constant mobility
+
+528
+00:24:27.279 --> 00:24:31.120
+and also value velocity saturation
+
+529
+00:24:31.120 --> 00:24:34.320
+so this comparison of id is
+
+530
+00:24:34.320 --> 00:24:38.080
+uh for constant mobility uh
+
+531
+00:24:38.080 --> 00:24:41.440
+shows is as in the dotted black line
+
+532
+00:24:41.440 --> 00:24:46.799
+here okay for velocity saturation
+
+533
+00:24:47.039 --> 00:24:50.320
+is the blue line okay as we can see
+
+534
+00:24:50.320 --> 00:24:52.240
+if we didn't consider the constant
+
+535
+00:24:52.240 --> 00:24:53.360
+mobility
+
+536
+00:24:53.360 --> 00:24:56.400
+then the idbd characteristic is
+
+537
+00:24:56.400 --> 00:24:59.840
+normal where it's saturated
+
+538
+00:24:59.840 --> 00:25:03.760
+saturate and higher
+
+539
+00:25:03.760 --> 00:25:07.279
+drain voltage okay for even for
+
+540
+00:25:07.279 --> 00:25:10.400
+high gate voltage okay but
+
+541
+00:25:10.400 --> 00:25:13.520
+if we consider the constant mobility as
+
+542
+00:25:13.520 --> 00:25:14.080
+we can see
+
+543
+00:25:14.080 --> 00:25:17.120
+for smaller vgs
+
+544
+00:25:17.120 --> 00:25:20.400
+okay for smaller one volt vgs there is
+
+545
+00:25:20.400 --> 00:25:22.640
+a very slightly different between the
+
+546
+00:25:22.640 --> 00:25:23.919
+blue line and the
+
+547
+00:25:23.919 --> 00:25:26.559
+black line however when we increase
+
+548
+00:25:26.559 --> 00:25:27.440
+further
+
+549
+00:25:27.440 --> 00:25:30.720
+the gate voltage for example this one
+
+550
+00:25:30.720 --> 00:25:33.840
+two volt okay there is a deviation okay
+
+551
+00:25:33.840 --> 00:25:36.159
+between when we consider velocity
+
+552
+00:25:36.159 --> 00:25:36.960
+saturation
+
+553
+00:25:36.960 --> 00:25:39.520
+and constant mobility so this is
+
+554
+00:25:39.520 --> 00:25:41.120
+actually due to the
+
+555
+00:25:41.120 --> 00:25:43.520
+electric field that or the surface
+
+556
+00:25:43.520 --> 00:25:44.559
+scattering that
+
+557
+00:25:44.559 --> 00:25:47.679
+we explained in the previous previous
+
+558
+00:25:47.679 --> 00:25:48.480
+slide
+
+559
+00:25:48.480 --> 00:25:51.520
+so the difference is much greater when
+
+560
+00:25:51.520 --> 00:25:52.480
+we increase
+
+561
+00:25:52.480 --> 00:25:55.039
+the gate voltage so we can see for the
+
+562
+00:25:55.039 --> 00:25:56.000
+three volt gate
+
+563
+00:25:56.000 --> 00:25:58.799
+voltage so this is the line the blue
+
+564
+00:25:58.799 --> 00:25:59.760
+line
+
+565
+00:25:59.760 --> 00:26:02.559
+and this is when we the black line when
+
+566
+00:26:02.559 --> 00:26:03.760
+we consider
+
+567
+00:26:03.760 --> 00:26:07.120
+the constant mobility so for this case
+
+568
+00:26:07.120 --> 00:26:10.400
+for smaller um
+
+569
+00:26:10.400 --> 00:26:13.600
+drain current saturation uh the
+
+570
+00:26:13.600 --> 00:26:16.559
+approximate uh so actually for smaller
+
+571
+00:26:16.559 --> 00:26:18.320
+drain current saturation
+
+572
+00:26:18.320 --> 00:26:21.039
+it does not depends on the gate voltage
+
+573
+00:26:21.039 --> 00:26:21.440
+but
+
+574
+00:26:21.440 --> 00:26:23.919
+for higher drain current saturation it
+
+575
+00:26:23.919 --> 00:26:25.600
+depends on the
+
+576
+00:26:25.600 --> 00:26:28.320
+gate voltage when we consider constant
+
+577
+00:26:28.320 --> 00:26:31.039
+mobility
+
+578
+00:26:32.080 --> 00:26:35.120
+okay the increasing of velocity
+
+579
+00:26:35.120 --> 00:26:36.159
+saturation
+
+580
+00:26:36.159 --> 00:26:39.200
+can actually increase the drain current
+
+581
+00:26:39.200 --> 00:26:42.559
+thus we will get a faster switching time
+
+582
+00:26:42.559 --> 00:26:45.200
+where the device or the mosfet can turn
+
+583
+00:26:45.200 --> 00:26:46.000
+on and off
+
+584
+00:26:46.000 --> 00:26:49.520
+in a short time okay so the left figures
+
+585
+00:26:49.520 --> 00:26:50.880
+shows the
+
+586
+00:26:50.880 --> 00:26:53.520
+simple mos structure so this is the
+
+587
+00:26:53.520 --> 00:26:56.720
+china length from source to the dream
+
+588
+00:26:56.720 --> 00:27:00.159
+okay represent as the capital l
+
+589
+00:27:00.159 --> 00:27:03.440
+so there is also a parameter of
+
+590
+00:27:03.440 --> 00:27:06.880
+small l so this is actually the distance
+
+591
+00:27:06.880 --> 00:27:09.200
+uh between the collision or the
+
+592
+00:27:09.200 --> 00:27:10.240
+scattering
+
+593
+00:27:10.240 --> 00:27:12.799
+what we uh what i have explained in the
+
+594
+00:27:12.799 --> 00:27:13.760
+previous slide
+
+595
+00:27:13.760 --> 00:27:16.720
+so this collision is actually due to the
+
+596
+00:27:16.720 --> 00:27:17.120
+uh
+
+597
+00:27:17.120 --> 00:27:20.159
+electric field of
+
+598
+00:27:20.159 --> 00:27:23.360
+the gate to source and drain okay
+
+599
+00:27:23.360 --> 00:27:26.320
+where it will affect that the electron
+
+600
+00:27:26.320 --> 00:27:27.679
+instead of flowing
+
+601
+00:27:27.679 --> 00:27:29.520
+a straight line from source to the drain
+
+602
+00:27:29.520 --> 00:27:33.840
+it has a zigzag behavior if you still
+
+603
+00:27:33.840 --> 00:27:37.279
+so this is the distance of the electron
+
+604
+00:27:37.279 --> 00:27:38.240
+to pass through
+
+605
+00:27:38.240 --> 00:27:41.760
+from source to drain uh where it has to
+
+606
+00:27:41.760 --> 00:27:43.520
+overcome the scattering
+
+607
+00:27:43.520 --> 00:27:46.880
+so in most case cases uh the capital
+
+608
+00:27:46.880 --> 00:27:50.080
+l is uh greater than the
+
+609
+00:27:50.080 --> 00:27:53.120
+small l okay so this is
+
+610
+00:27:53.120 --> 00:27:56.399
+when scattering uh occurs so for this
+
+611
+00:27:56.399 --> 00:27:57.200
+case
+
+612
+00:27:57.200 --> 00:27:59.919
+uh it is a normal behavior so there is
+
+613
+00:27:59.919 --> 00:28:01.919
+an electric field
+
+614
+00:28:01.919 --> 00:28:04.720
+vertical electric field from gate from
+
+615
+00:28:04.720 --> 00:28:05.440
+the gate
+
+616
+00:28:05.440 --> 00:28:08.640
+therefore the electron has to pass
+
+617
+00:28:08.640 --> 00:28:10.799
+through from source to drain
+
+618
+00:28:10.799 --> 00:28:12.399
+to pass through the electric field from
+
+619
+00:28:12.399 --> 00:28:15.200
+source to 3 in in a zigzag behavior
+
+620
+00:28:15.200 --> 00:28:18.399
+but what if the l is smaller the
+
+621
+00:28:18.399 --> 00:28:21.840
+uh the capital l is smaller than the
+
+622
+00:28:21.840 --> 00:28:24.880
+small l so this is a very ideal case so
+
+623
+00:28:24.880 --> 00:28:28.080
+we consider it as a no scattering so no
+
+624
+00:28:28.080 --> 00:28:30.559
+scattering effect so the electron can
+
+625
+00:28:30.559 --> 00:28:32.240
+move very smooth
+
+626
+00:28:32.240 --> 00:28:34.080
+uh from source to drain in a straight
+
+627
+00:28:34.080 --> 00:28:35.679
+line so this
+
+628
+00:28:35.679 --> 00:28:38.559
+we call it as a ballistic transport so
+
+629
+00:28:38.559 --> 00:28:40.399
+ballistic transport it's like
+
+630
+00:28:40.399 --> 00:28:42.960
+there is no barrier so it can pass
+
+631
+00:28:42.960 --> 00:28:43.760
+through
+
+632
+00:28:43.760 --> 00:28:47.039
+in a in in sort of a straight line
+
+633
+00:28:47.039 --> 00:28:49.600
+so for this case the voltage of valistic
+
+634
+00:28:49.600 --> 00:28:51.360
+is greater than the
+
+635
+00:28:51.360 --> 00:28:54.640
+voltage of saturation so this actually
+
+636
+00:28:54.640 --> 00:28:57.679
+so this behavior so no scattering effect
+
+637
+00:28:57.679 --> 00:29:00.240
+and ballistic transport can be achieved
+
+638
+00:29:00.240 --> 00:29:01.919
+by using a novel
+
+639
+00:29:01.919 --> 00:29:04.720
+morse structure uh we call it as a
+
+640
+00:29:04.720 --> 00:29:05.360
+carbon
+
+641
+00:29:05.360 --> 00:29:08.320
+nanotube transistor if you interest to
+
+642
+00:29:08.320 --> 00:29:09.120
+know further
+
+643
+00:29:09.120 --> 00:29:10.880
+you can check out what is carbon
+
+644
+00:29:10.880 --> 00:29:12.640
+nanotube so
+
+645
+00:29:12.640 --> 00:29:14.480
+the electrons flowing through the
+
+646
+00:29:14.480 --> 00:29:15.919
+channel has no
+
+647
+00:29:15.919 --> 00:29:19.520
+scattering effect and we call it as the
+
+648
+00:29:19.520 --> 00:29:21.360
+electron
+
+649
+00:29:21.360 --> 00:29:26.480
+has a ballistic transport
+
+650
+00:29:26.480 --> 00:29:28.880
+this is the summary for ballistics
+
+651
+00:29:28.880 --> 00:29:30.000
+transport
+
+652
+00:29:30.000 --> 00:29:33.120
+in long channel affiti we consider a
+
+653
+00:29:33.120 --> 00:29:33.679
+drift
+
+654
+00:29:33.679 --> 00:29:36.640
+transport so this drift transport is
+
+655
+00:29:36.640 --> 00:29:37.840
+influenced by the
+
+656
+00:29:37.840 --> 00:29:40.480
+scattering effect or collision of the
+
+657
+00:29:40.480 --> 00:29:41.440
+electron
+
+658
+00:29:41.440 --> 00:29:44.399
+or zigzag behavior in the channel for
+
+659
+00:29:44.399 --> 00:29:46.399
+the electron to pass through from source
+
+660
+00:29:46.399 --> 00:29:48.000
+to the drain
+
+661
+00:29:48.000 --> 00:29:50.559
+so the mean distance between scattering
+
+662
+00:29:50.559 --> 00:29:52.159
+effect or scattering event
+
+663
+00:29:52.159 --> 00:29:55.200
+is called as a mean path through
+
+664
+00:29:55.200 --> 00:29:58.480
+so if the china line gets smaller
+
+665
+00:29:58.480 --> 00:30:02.240
+so the mean free path or the scattering
+
+666
+00:30:02.240 --> 00:30:05.039
+event can be ignored and the carrier is
+
+667
+00:30:05.039 --> 00:30:08.080
+expected to move in ballistic or without
+
+668
+00:30:08.080 --> 00:30:11.279
+collision or without scattering so this
+
+669
+00:30:11.279 --> 00:30:14.399
+carrier velocity is much faster when in
+
+670
+00:30:14.399 --> 00:30:14.960
+drift
+
+671
+00:30:14.960 --> 00:30:17.520
+transport
+
+672
+00:30:21.440 --> 00:30:24.559
+now we move on the mosfet scaling so
+
+673
+00:30:24.559 --> 00:30:25.760
+what happened
+
+674
+00:30:25.760 --> 00:30:29.120
+uh if we scale down the channel line of
+
+675
+00:30:29.120 --> 00:30:30.720
+the mosfet
+
+676
+00:30:30.720 --> 00:30:32.640
+what happened to the characteristic so
+
+677
+00:30:32.640 --> 00:30:35.120
+especially the frequency response of
+
+678
+00:30:35.120 --> 00:30:38.399
+the fat structure can be improved by
+
+679
+00:30:38.399 --> 00:30:40.480
+reducing the channel length so what are
+
+680
+00:30:40.480 --> 00:30:42.720
+the parameters that need to be scaled
+
+681
+00:30:42.720 --> 00:30:45.520
+as the channel line is scaled down is
+
+682
+00:30:45.520 --> 00:30:47.200
+two parameter
+
+683
+00:30:47.200 --> 00:30:49.919
+constant field scaling and generalized
+
+684
+00:30:49.919 --> 00:30:50.960
+scaling
+
+685
+00:30:50.960 --> 00:30:55.679
+so the constant field scaling
+
+686
+00:30:55.679 --> 00:30:58.720
+is actually device dimension and the
+
+687
+00:30:58.720 --> 00:31:00.000
+device voltage
+
+688
+00:31:00.000 --> 00:31:03.840
+is scaled such that the electric field
+
+689
+00:31:03.840 --> 00:31:05.360
+is remain constant
+
+690
+00:31:05.360 --> 00:31:07.519
+doesn't matter it's a vertical electric
+
+691
+00:31:07.519 --> 00:31:09.760
+field or horizontal electric field
+
+692
+00:31:09.760 --> 00:31:12.799
+and we consider the electric field is
+
+693
+00:31:12.799 --> 00:31:16.399
+constant so for the generalized scaling
+
+694
+00:31:16.399 --> 00:31:20.000
+is actually um
+
+695
+00:31:20.000 --> 00:31:22.159
+there are other when we for the apply
+
+696
+00:31:22.159 --> 00:31:23.360
+voltage
+
+697
+00:31:23.360 --> 00:31:26.080
+our scale with the skin with the same
+
+698
+00:31:26.080 --> 00:31:27.760
+scaling factor
+
+699
+00:31:27.760 --> 00:31:30.399
+uh as the divide dimension however in
+
+700
+00:31:30.399 --> 00:31:32.640
+the actual technology evolution
+
+701
+00:31:32.640 --> 00:31:35.919
+the voltage does not uh reduce
+
+702
+00:31:35.919 --> 00:31:38.960
+with the same scaling factor so
+
+703
+00:31:38.960 --> 00:31:42.399
+this has to look through what are the
+
+704
+00:31:42.399 --> 00:31:44.840
+effect of the generalized
+
+705
+00:31:44.840 --> 00:31:47.840
+scaling
+
+706
+00:31:48.080 --> 00:31:50.960
+for the first effect which is constant
+
+707
+00:31:50.960 --> 00:31:51.679
+field
+
+708
+00:31:51.679 --> 00:31:55.440
+scaling so the constant field scaling
+
+709
+00:31:55.440 --> 00:31:59.039
+is a device parameter where we consider
+
+710
+00:31:59.039 --> 00:32:01.120
+the physical dimension
+
+711
+00:32:01.120 --> 00:32:04.720
+the physical dimension means the uh
+
+712
+00:32:04.720 --> 00:32:08.159
+chandelien the oxide thickness
+
+713
+00:32:08.159 --> 00:32:11.919
+uh the doping this is all the physical
+
+714
+00:32:11.919 --> 00:32:12.960
+parameter
+
+715
+00:32:12.960 --> 00:32:16.000
+and as well as the the width okay
+
+716
+00:32:16.000 --> 00:32:18.480
+the width
+
+717
+00:32:19.279 --> 00:32:23.760
+okay the width of the uh device
+
+718
+00:32:23.840 --> 00:32:27.519
+okay so uh all this parameter is skill
+
+719
+00:32:27.519 --> 00:32:30.640
+such that the electric field we consider
+
+720
+00:32:30.640 --> 00:32:33.279
+constant means the electric field here
+
+721
+00:32:33.279 --> 00:32:34.480
+is
+
+722
+00:32:34.480 --> 00:32:37.039
+constant
+
+723
+00:32:40.960 --> 00:32:43.760
+all right so this electric field should
+
+724
+00:32:43.760 --> 00:32:45.600
+not be increased to ensure
+
+725
+00:32:45.600 --> 00:32:48.559
+the reliability of the fact is remain
+
+726
+00:32:48.559 --> 00:32:49.679
+constant
+
+727
+00:32:49.679 --> 00:32:53.200
+so but there is one parameter
+
+728
+00:32:53.200 --> 00:32:56.320
+introduced which is k parameter
+
+729
+00:32:56.320 --> 00:32:59.360
+so this is scaling parameter
+
+730
+00:32:59.360 --> 00:33:01.519
+so when we consider this scaling
+
+731
+00:33:01.519 --> 00:33:02.559
+parameter
+
+732
+00:33:02.559 --> 00:33:05.600
+so all the physical dimension
+
+733
+00:33:05.600 --> 00:33:09.039
+such as the gate applied voltage
+
+734
+00:33:09.039 --> 00:33:12.399
+the channel line now become k l
+
+735
+00:33:12.399 --> 00:33:14.960
+uh the doping concentration now we
+
+736
+00:33:14.960 --> 00:33:16.480
+divide by the k
+
+737
+00:33:16.480 --> 00:33:22.159
+parameter and also the w now become
+
+738
+00:33:22.840 --> 00:33:26.720
+um kw
+
+739
+00:33:26.799 --> 00:33:29.519
+all right so all the physical parameter
+
+740
+00:33:29.519 --> 00:33:30.399
+and now
+
+741
+00:33:30.399 --> 00:33:33.200
+has to times with the k value which is
+
+742
+00:33:33.200 --> 00:33:33.679
+the
+
+743
+00:33:33.679 --> 00:33:36.320
+scaling parameter so we notice that the
+
+744
+00:33:36.320 --> 00:33:37.360
+channel length
+
+745
+00:33:37.360 --> 00:33:40.480
+is reduced by 0.7 l
+
+746
+00:33:40.480 --> 00:33:43.120
+so basically typical value for k
+
+747
+00:33:43.120 --> 00:33:45.840
+scanning parameter is 0.7
+
+748
+00:33:45.840 --> 00:33:49.440
+therefore uh this parameter uh
+
+749
+00:33:49.440 --> 00:33:51.840
+this physical parameter now has to
+
+750
+00:33:51.840 --> 00:33:52.640
+multiply
+
+751
+00:33:52.640 --> 00:33:56.159
+by 0.7 but for the doping has to divide
+
+752
+00:33:56.159 --> 00:33:56.480
+by
+
+753
+00:33:56.480 --> 00:34:00.720
+0.7 so this scaling parameter will
+
+754
+00:34:00.720 --> 00:34:02.799
+affect the drain current
+
+755
+00:34:02.799 --> 00:34:04.840
+which will be explained in the next
+
+756
+00:34:04.840 --> 00:34:07.840
+slide
+
+757
+00:34:08.639 --> 00:34:12.159
+so when we consider k
+
+758
+00:34:12.159 --> 00:34:15.040
+scaling parameter or the constant field
+
+759
+00:34:15.040 --> 00:34:16.239
+scaling parameter
+
+760
+00:34:16.239 --> 00:34:19.520
+in the iv characteristic so the iv
+
+761
+00:34:19.520 --> 00:34:22.079
+the drain current equation will also
+
+762
+00:34:22.079 --> 00:34:24.239
+depends on the k parameter
+
+763
+00:34:24.239 --> 00:34:27.679
+so this portion uh is the
+
+764
+00:34:27.679 --> 00:34:31.040
+id for the original case okay without
+
+765
+00:34:31.040 --> 00:34:33.599
+constant field scaling parameter
+
+766
+00:34:33.599 --> 00:34:37.359
+so this is a quotient is the id scale
+
+767
+00:34:37.359 --> 00:34:40.719
+where we consider k parameter
+
+768
+00:34:40.719 --> 00:34:44.079
+okay in the equation where the w times
+
+769
+00:34:44.079 --> 00:34:45.199
+with k
+
+770
+00:34:45.199 --> 00:34:47.440
+the channel line times weight k the
+
+771
+00:34:47.440 --> 00:34:49.359
+oxide thickness times with k
+
+772
+00:34:49.359 --> 00:34:53.520
+and also the gate voltage times with k
+
+773
+00:34:53.520 --> 00:34:56.800
+so for this case uh the new
+
+774
+00:34:56.800 --> 00:35:00.640
+id skill is depends on the k so if we
+
+775
+00:35:00.640 --> 00:35:03.599
+let's say if we take out all the k value
+
+776
+00:35:03.599 --> 00:35:04.320
+so
+
+777
+00:35:04.320 --> 00:35:07.520
+the the equation for k will become
+
+778
+00:35:07.520 --> 00:35:10.880
+this portion is k times
+
+779
+00:35:10.880 --> 00:35:14.960
+so this quotient is
+
+780
+00:35:15.440 --> 00:35:19.680
+k square okay divided by
+
+781
+00:35:19.680 --> 00:35:22.880
+k times k so
+
+782
+00:35:22.880 --> 00:35:24.960
+actually if we simplify the equation
+
+783
+00:35:24.960 --> 00:35:26.640
+we'll get k
+
+784
+00:35:26.640 --> 00:35:30.000
+so basically uh if we can
+
+785
+00:35:30.000 --> 00:35:34.079
+uh simplify the equation so id scale
+
+786
+00:35:34.079 --> 00:35:37.440
+is now uh is equal to the k
+
+787
+00:35:37.440 --> 00:35:41.920
+times id original before we consider the
+
+788
+00:35:41.920 --> 00:35:42.640
+k
+
+789
+00:35:42.640 --> 00:35:45.839
+parameter scaling
+
+790
+00:35:49.599 --> 00:35:52.480
+okay for the threshold voltage uh first
+
+791
+00:35:52.480 --> 00:35:54.160
+approximation
+
+792
+00:35:54.160 --> 00:35:56.560
+this equation is the in the previous
+
+793
+00:35:56.560 --> 00:35:57.280
+slide
+
+794
+00:35:57.280 --> 00:36:00.320
+so id scale is depends on the k
+
+795
+00:36:00.320 --> 00:36:03.599
+scaling parameter all the
+
+796
+00:36:03.599 --> 00:36:06.720
+physical parameter for w depends on the
+
+797
+00:36:06.720 --> 00:36:07.200
+k
+
+798
+00:36:07.200 --> 00:36:09.920
+for l depends on the k for t ox depends
+
+799
+00:36:09.920 --> 00:36:10.800
+on the k
+
+800
+00:36:10.800 --> 00:36:14.079
+as well as for the vgs it depends on the
+
+801
+00:36:14.079 --> 00:36:14.800
+skill
+
+802
+00:36:14.800 --> 00:36:18.160
+factor however for the threshold voltage
+
+803
+00:36:18.160 --> 00:36:20.640
+it does not depends on the scale skill
+
+804
+00:36:20.640 --> 00:36:21.599
+factor
+
+805
+00:36:21.599 --> 00:36:25.200
+why didn't threshold voltage skill is
+
+806
+00:36:25.200 --> 00:36:28.560
+because of so from this equation so this
+
+807
+00:36:28.560 --> 00:36:29.280
+is
+
+808
+00:36:29.280 --> 00:36:33.839
+the portion for the doping concentration
+
+809
+00:36:38.839 --> 00:36:40.000
+okay
+
+810
+00:36:40.000 --> 00:36:44.079
+right so this portion is actually
+
+811
+00:36:44.079 --> 00:36:47.680
+proportional to the
+
+812
+00:36:50.480 --> 00:36:53.839
+square root k so basically uh for this
+
+813
+00:36:53.839 --> 00:36:54.480
+case
+
+814
+00:36:54.480 --> 00:36:57.839
+uh key does not give any uh
+
+815
+00:36:57.839 --> 00:37:00.960
+much change to the threshold voltage
+
+816
+00:37:00.960 --> 00:37:04.000
+that's why for this case k does not
+
+817
+00:37:04.000 --> 00:37:07.680
+uh being being scaled okay
+
+818
+00:37:07.680 --> 00:37:10.160
+if you want to know more on the summary
+
+819
+00:37:10.160 --> 00:37:12.480
+of the constant field device scaling you
+
+820
+00:37:12.480 --> 00:37:13.200
+can
+
+821
+00:37:13.200 --> 00:37:16.240
+look at this table 11.1
+
+822
+00:37:16.240 --> 00:37:20.079
+so each scale parameter is explained
+
+823
+00:37:20.079 --> 00:37:23.200
+by times k or divide by k or
+
+824
+00:37:23.200 --> 00:37:26.079
+is actually equal to 1 so you can look
+
+825
+00:37:26.079 --> 00:37:27.920
+through this scaling factor
+
+826
+00:37:27.920 --> 00:37:32.800
+in this table 11.1
+
+827
+00:37:34.880 --> 00:37:37.119
+generalized scaling there are
+
+828
+00:37:37.119 --> 00:37:38.960
+shortcomings in constant
+
+829
+00:37:38.960 --> 00:37:42.000
+field scaling approach
+
+830
+00:37:42.000 --> 00:37:45.359
+so basically uh it is
+
+831
+00:37:45.359 --> 00:37:48.720
+uh we consider that the electric field
+
+832
+00:37:48.720 --> 00:37:52.160
+is constant and the other parameter is
+
+833
+00:37:52.160 --> 00:37:53.040
+not scale
+
+834
+00:37:53.040 --> 00:37:55.119
+is threshold voltage and subtraction
+
+835
+00:37:55.119 --> 00:37:56.320
+current
+
+836
+00:37:56.320 --> 00:37:59.119
+and electric field cannot be maintained
+
+837
+00:37:59.119 --> 00:38:01.200
+due to the increase in electric field
+
+838
+00:38:01.200 --> 00:38:02.240
+decrease
+
+839
+00:38:02.240 --> 00:38:05.280
+and the device reliability and increase
+
+840
+00:38:05.280 --> 00:38:07.040
+in power density
+
+841
+00:38:07.040 --> 00:38:09.280
+in generalized scaling not all
+
+842
+00:38:09.280 --> 00:38:10.640
+parameters are skilled
+
+843
+00:38:10.640 --> 00:38:13.520
+using one scaling factor so the only
+
+844
+00:38:13.520 --> 00:38:15.280
+parameters such as
+
+845
+00:38:15.280 --> 00:38:18.000
+apply voltage and threshold voltage
+
+846
+00:38:18.000 --> 00:38:19.040
+scale
+
+847
+00:38:19.040 --> 00:38:21.920
+more gradually compared to the physical
+
+848
+00:38:21.920 --> 00:38:23.520
+dimension which is l
+
+849
+00:38:23.520 --> 00:38:27.359
+w and oxide thickness
+
+850
+00:38:28.560 --> 00:38:31.359
+okay we will move uh further to the
+
+851
+00:38:31.359 --> 00:38:32.480
+threshold voltage
+
+852
+00:38:32.480 --> 00:38:34.880
+modification so this is one of the
+
+853
+00:38:34.880 --> 00:38:35.839
+effect
+
+854
+00:38:35.839 --> 00:38:39.760
+uh non ideal effect uh
+
+855
+00:38:39.760 --> 00:38:42.320
+this effect is divided into two the
+
+856
+00:38:42.320 --> 00:38:43.599
+short channel effect
+
+857
+00:38:43.599 --> 00:38:46.000
+and narrow channel effect so what are
+
+858
+00:38:46.000 --> 00:38:46.640
+these two
+
+859
+00:38:46.640 --> 00:38:50.240
+is for it consider
+
+860
+00:38:50.240 --> 00:38:54.880
+what happened when the gate length
+
+861
+00:38:54.880 --> 00:38:57.760
+is decreased so there will be a short
+
+862
+00:38:57.760 --> 00:38:58.960
+channel effect
+
+863
+00:38:58.960 --> 00:39:01.599
+and for narrow channel effect is what
+
+864
+00:39:01.599 --> 00:39:03.200
+happened when the w
+
+865
+00:39:03.200 --> 00:39:07.119
+decreased so what happened to the
+
+866
+00:39:07.119 --> 00:39:09.680
+mosfet characteristics so we will look
+
+867
+00:39:09.680 --> 00:39:14.079
+through after this
+
+868
+00:39:14.079 --> 00:39:17.280
+now what is a short channel effect
+
+869
+00:39:17.280 --> 00:39:20.720
+so let us look uh what is short channel
+
+870
+00:39:20.720 --> 00:39:21.920
+effect from these
+
+871
+00:39:21.920 --> 00:39:25.680
+uh three figures the first figure shows
+
+872
+00:39:25.680 --> 00:39:29.359
+at flat band okay where there is no
+
+873
+00:39:29.359 --> 00:39:31.920
+gate applied voltage and there is no
+
+874
+00:39:31.920 --> 00:39:33.920
+space charge region
+
+875
+00:39:33.920 --> 00:39:36.480
+or depletion region created underneath
+
+876
+00:39:36.480 --> 00:39:37.040
+the
+
+877
+00:39:37.040 --> 00:39:40.320
+gate okay and
+
+878
+00:39:40.320 --> 00:39:43.760
+during inversion so this figure
+
+879
+00:39:43.760 --> 00:39:47.440
+is at inversion okay so this figure
+
+880
+00:39:47.440 --> 00:39:51.200
+shows at long channel
+
+881
+00:39:51.200 --> 00:39:53.520
+sorry
+
+882
+00:39:54.400 --> 00:39:57.839
+at long channel and the bottom figures
+
+883
+00:39:57.839 --> 00:40:11.520
+shows at short channel
+
+884
+00:40:11.520 --> 00:40:14.640
+so at inversion when the gate voltage is
+
+885
+00:40:14.640 --> 00:40:17.119
+applied
+
+886
+00:40:17.680 --> 00:40:20.640
+okay so there will be a space charge
+
+887
+00:40:20.640 --> 00:40:21.119
+region
+
+888
+00:40:21.119 --> 00:40:25.680
+created as a shadow area here
+
+889
+00:40:25.680 --> 00:40:28.400
+so this is a space charge region created
+
+890
+00:40:28.400 --> 00:40:30.160
+underneath the gate
+
+891
+00:40:30.160 --> 00:40:38.000
+all right so this is gate voltage
+
+892
+00:40:38.000 --> 00:40:41.200
+okay so for this case uh this is long
+
+893
+00:40:41.200 --> 00:40:42.720
+channel
+
+894
+00:40:42.720 --> 00:40:46.640
+we we put it as l okay what happened
+
+895
+00:40:46.640 --> 00:40:50.640
+uh if we scale down the channel length
+
+896
+00:40:50.640 --> 00:40:54.319
+so now the gate will become smaller so
+
+897
+00:40:54.319 --> 00:40:55.280
+we have mu
+
+898
+00:40:55.280 --> 00:40:58.800
+l here we put it as l prime
+
+899
+00:40:58.800 --> 00:41:02.160
+so this is due to the short channel
+
+900
+00:41:02.160 --> 00:41:05.200
+so in this case uh the
+
+901
+00:41:05.200 --> 00:41:07.839
+space charge region also will become
+
+902
+00:41:07.839 --> 00:41:08.720
+compact
+
+903
+00:41:08.720 --> 00:41:12.160
+so as we can see the uh now
+
+904
+00:41:12.160 --> 00:41:16.240
+the region are compact and um
+
+905
+00:41:16.240 --> 00:41:19.040
+the area is larger so therefore the
+
+906
+00:41:19.040 --> 00:41:20.000
+charge
+
+907
+00:41:20.000 --> 00:41:23.200
+uh the charge
+
+908
+00:41:23.200 --> 00:41:26.079
+and the uh shade in the space charge
+
+909
+00:41:26.079 --> 00:41:27.839
+region here also
+
+910
+00:41:27.839 --> 00:41:31.200
+will be uh increase the number of charge
+
+911
+00:41:31.200 --> 00:41:34.240
+so due to this area
+
+912
+00:41:34.240 --> 00:41:37.440
+change in a short channel
+
+913
+00:41:37.440 --> 00:41:40.000
+thus it will also effect the number of
+
+914
+00:41:40.000 --> 00:41:41.200
+charges
+
+915
+00:41:41.200 --> 00:41:44.079
+in the space charge region therefore it
+
+916
+00:41:44.079 --> 00:41:45.440
+will affect the
+
+917
+00:41:45.440 --> 00:41:48.079
+threshold voltage so how would this
+
+918
+00:41:48.079 --> 00:41:49.119
+happen
+
+919
+00:41:49.119 --> 00:41:53.440
+it will be explained in the next slide
+
+920
+00:41:55.119 --> 00:41:57.760
+so now let's take a look on the
+
+921
+00:41:57.760 --> 00:42:00.400
+threshold voltage equation
+
+922
+00:42:00.400 --> 00:42:02.960
+so this is the equation for the
+
+923
+00:42:02.960 --> 00:42:04.240
+threshold voltage
+
+924
+00:42:04.240 --> 00:42:07.280
+uh the normal case the long channel
+
+925
+00:42:07.280 --> 00:42:10.240
+okay as we can see it depends on the
+
+926
+00:42:10.240 --> 00:42:11.440
+charge
+
+927
+00:42:11.440 --> 00:42:13.839
+on the charge at uh the space charge
+
+928
+00:42:13.839 --> 00:42:14.880
+region
+
+929
+00:42:14.880 --> 00:42:19.520
+uh q prime sd and the other parameter
+
+930
+00:42:19.520 --> 00:42:23.520
+so this figure shows the mosfet
+
+931
+00:42:23.520 --> 00:42:30.319
+structure for short channel
+
+932
+00:42:30.319 --> 00:42:33.359
+okay and then for this case
+
+933
+00:42:33.359 --> 00:42:36.400
+um for short channel as i said
+
+934
+00:42:36.400 --> 00:42:39.599
+uh earlier so the space charge
+
+935
+00:42:39.599 --> 00:42:41.839
+region under the gate will become more
+
+936
+00:42:41.839 --> 00:42:43.040
+compact
+
+937
+00:42:43.040 --> 00:42:46.800
+and will be extended further if we
+
+938
+00:42:46.800 --> 00:42:49.520
+consider all the space charge region
+
+939
+00:42:49.520 --> 00:42:51.440
+under the source under the git and under
+
+940
+00:42:51.440 --> 00:42:52.079
+the drain
+
+941
+00:42:52.079 --> 00:42:55.839
+so this is source gate and the drain
+
+942
+00:42:55.839 --> 00:42:59.200
+so it will be uh this term so
+
+943
+00:42:59.200 --> 00:43:02.319
+xs will be extended
+
+944
+00:43:02.319 --> 00:43:04.960
+so this is a space charge region at the
+
+945
+00:43:04.960 --> 00:43:05.839
+drain
+
+946
+00:43:05.839 --> 00:43:08.480
+okay and this is the space charge region
+
+947
+00:43:08.480 --> 00:43:10.400
+under the gate
+
+948
+00:43:10.400 --> 00:43:13.760
+so we have that parameter
+
+949
+00:43:13.760 --> 00:43:16.720
+all right so if we consider the space
+
+950
+00:43:16.720 --> 00:43:18.400
+charge region depth
+
+951
+00:43:18.400 --> 00:43:21.680
+for all uh xs is
+
+952
+00:43:21.680 --> 00:43:25.359
+equal to the xd xd is equal to x dt
+
+953
+00:43:25.359 --> 00:43:28.319
+and finally is approximately equal to
+
+954
+00:43:28.319 --> 00:43:28.640
+the
+
+955
+00:43:28.640 --> 00:43:32.240
+x dt therefore the charge
+
+956
+00:43:32.240 --> 00:43:35.200
+per unit area under the gate will become
+
+957
+00:43:35.200 --> 00:43:36.800
+to this equation
+
+958
+00:43:36.800 --> 00:43:40.079
+so now the space charge region under the
+
+959
+00:43:40.079 --> 00:43:41.280
+gate will
+
+960
+00:43:41.280 --> 00:43:44.319
+uh if we can see this is
+
+961
+00:43:44.319 --> 00:43:47.760
+this this portion so this is a
+
+962
+00:43:47.760 --> 00:43:51.119
+trapezoidal uh
+
+963
+00:43:51.119 --> 00:43:54.560
+region so if we want to know the
+
+964
+00:43:54.560 --> 00:43:57.920
+area we need to multiply we need to
+
+965
+00:43:57.920 --> 00:44:01.920
+sum this uh length and also this length
+
+966
+00:44:01.920 --> 00:44:04.960
+and finally it is actually equal to this
+
+967
+00:44:04.960 --> 00:44:05.839
+value
+
+968
+00:44:05.839 --> 00:44:08.960
+l plus l prime over two
+
+969
+00:44:08.960 --> 00:44:11.839
+so therefore the chi the charge
+
+970
+00:44:11.839 --> 00:44:12.480
+underneath
+
+971
+00:44:12.480 --> 00:44:16.480
+the gate will be multiplied by this
+
+972
+00:44:16.480 --> 00:44:21.200
+uh area portion the trapezoidal area
+
+973
+00:44:21.200 --> 00:44:24.480
+so from the geometry uh actually uh
+
+974
+00:44:24.480 --> 00:44:27.280
+approximately to equal to this equation
+
+975
+00:44:27.280 --> 00:44:28.480
+and therefore
+
+976
+00:44:28.480 --> 00:44:32.400
+the new uh charge underneath the gate
+
+977
+00:44:32.400 --> 00:44:36.319
+will be equal to this equation
+
+978
+00:44:36.319 --> 00:44:39.520
+so when the charge under
+
+979
+00:44:39.520 --> 00:44:43.200
+the gate is changed therefore it will
+
+980
+00:44:43.200 --> 00:44:46.160
+affect the threshold voltage so these
+
+981
+00:44:46.160 --> 00:44:46.800
+terms
+
+982
+00:44:46.800 --> 00:44:50.079
+now will the qb will be affected
+
+983
+00:44:50.079 --> 00:44:53.599
+the the the gate voltage and sorry the
+
+984
+00:44:53.599 --> 00:44:55.359
+threshold voltage which we
+
+985
+00:44:55.359 --> 00:44:59.119
+explained in the next slide
+
+986
+00:45:00.319 --> 00:45:03.680
+if we uh write down the equation
+
+987
+00:45:03.680 --> 00:45:06.400
+therefore the change in threshold
+
+988
+00:45:06.400 --> 00:45:07.119
+voltage
+
+989
+00:45:07.119 --> 00:45:10.400
+delta vt is equal to the threshold
+
+990
+00:45:10.400 --> 00:45:11.440
+voltage
+
+991
+00:45:11.440 --> 00:45:14.480
+of short channel minus the threshold
+
+992
+00:45:14.480 --> 00:45:15.040
+voltage
+
+993
+00:45:15.040 --> 00:45:18.319
+of a long channel which given by
+
+994
+00:45:18.319 --> 00:45:21.760
+this portion of equation and finally
+
+995
+00:45:21.760 --> 00:45:25.200
+the delta t will be equal to
+
+996
+00:45:25.200 --> 00:45:28.400
+this long equation
+
+997
+00:45:28.400 --> 00:45:32.319
+so when if we can uh
+
+998
+00:45:32.319 --> 00:45:37.760
+summarize it um actually as the
+
+999
+00:45:38.000 --> 00:45:41.440
+channel link is decreased okay so the
+
+1000
+00:45:41.440 --> 00:45:42.800
+threshold voltage
+
+1001
+00:45:42.800 --> 00:45:46.160
+will also be decreased so this is for
+
+1002
+00:45:46.160 --> 00:45:48.640
+the case of
+
+1003
+00:45:48.640 --> 00:45:51.920
+sorry this is for the case of n channel
+
+1004
+00:45:51.920 --> 00:45:53.920
+with the end so when the channel line
+
+1005
+00:45:53.920 --> 00:45:56.079
+decrease the threshold voltage will be
+
+1006
+00:45:56.079 --> 00:45:56.960
+shifted
+
+1007
+00:45:56.960 --> 00:45:59.920
+in negative direction which is towards
+
+1008
+00:45:59.920 --> 00:46:00.240
+the
+
+1009
+00:46:00.240 --> 00:46:03.440
+depletion mode
+
+1010
+00:46:03.760 --> 00:46:06.960
+if you want to try uh how to calculate
+
+1011
+00:46:06.960 --> 00:46:08.800
+the threshold voltage shift
+
+1012
+00:46:08.800 --> 00:46:11.839
+and also the space charge region
+
+1013
+00:46:11.839 --> 00:46:15.440
+underneath the source drain and the gate
+
+1014
+00:46:15.440 --> 00:46:20.079
+you can try example 11.3
+
+1015
+00:46:21.839 --> 00:46:25.040
+if you want to try uh how to calculate
+
+1016
+00:46:25.040 --> 00:46:26.960
+the threshold voltage shift
+
+1017
+00:46:26.960 --> 00:46:30.000
+and also the space charge region
+
+1018
+00:46:30.000 --> 00:46:33.599
+underneath the source drain and the gate
+
+1019
+00:46:33.599 --> 00:46:38.319
+you can try example 11.3
+
+1020
+00:46:40.079 --> 00:46:42.880
+now change in threshold voltage so the
+
+1021
+00:46:42.880 --> 00:46:43.839
+left figures
+
+1022
+00:46:43.839 --> 00:46:47.040
+shows the threshold voltage minus uh
+
+1023
+00:46:47.040 --> 00:46:50.400
+flat van voltage versus uh gate length
+
+1024
+00:46:50.400 --> 00:46:53.680
+okay as you can see uh the
+
+1025
+00:46:53.680 --> 00:46:56.720
+the trend are almost the same same for
+
+1026
+00:46:56.720 --> 00:46:57.520
+all
+
+1027
+00:46:57.520 --> 00:47:00.560
+uh concentration condition
+
+1028
+00:47:00.560 --> 00:47:03.599
+this is 10 to the power 11 10 of 16
+
+1029
+00:47:03.599 --> 00:47:07.040
+and so on so basically the
+
+1030
+00:47:07.040 --> 00:47:10.400
+trend are almost the same however if we
+
+1031
+00:47:10.400 --> 00:47:13.520
+take a look at for the case of short
+
+1032
+00:47:13.520 --> 00:47:14.400
+channel
+
+1033
+00:47:14.400 --> 00:47:19.920
+if we take at two micrometer
+
+1034
+00:47:20.160 --> 00:47:24.160
+okay as we can see if we go
+
+1035
+00:47:24.160 --> 00:47:27.440
+less than two micrometer so the channel
+
+1036
+00:47:27.440 --> 00:47:29.440
+line less than two micrometer
+
+1037
+00:47:29.440 --> 00:47:31.359
+as you can see the trend start to
+
+1038
+00:47:31.359 --> 00:47:33.599
+decrease the terrestrial voltage uh
+
+1039
+00:47:33.599 --> 00:47:34.319
+starts
+
+1040
+00:47:34.319 --> 00:47:38.079
+uh start to decrease so this happens uh
+
+1041
+00:47:38.079 --> 00:47:38.640
+as
+
+1042
+00:47:38.640 --> 00:47:41.839
+due to the uh channel
+
+1043
+00:47:41.839 --> 00:47:44.400
+lag modulation it's explained in the
+
+1044
+00:47:44.400 --> 00:47:45.760
+previous slide
+
+1045
+00:47:45.760 --> 00:47:48.240
+so uh the short channel becomes
+
+1046
+00:47:48.240 --> 00:47:49.599
+significant
+
+1047
+00:47:49.599 --> 00:47:52.240
+when the gate length is less than 2
+
+1048
+00:47:52.240 --> 00:47:53.760
+micrometer
+
+1049
+00:47:53.760 --> 00:47:56.319
+and short channel effect is less
+
+1050
+00:47:56.319 --> 00:47:57.920
+significant
+
+1051
+00:47:57.920 --> 00:48:01.520
+for low doping substrate
+
+1052
+00:48:01.520 --> 00:48:05.440
+if we can see at n a equal to 10 power
+
+1053
+00:48:05.440 --> 00:48:06.319
+of 15
+
+1054
+00:48:06.319 --> 00:48:08.880
+this is almost straight line and there
+
+1055
+00:48:08.880 --> 00:48:09.359
+is no
+
+1056
+00:48:09.359 --> 00:48:12.880
+change in for the case of less than
+
+1057
+00:48:12.880 --> 00:48:16.559
+2 micrometer so if we can
+
+1058
+00:48:16.559 --> 00:48:19.119
+look for the the same trend the
+
+1059
+00:48:19.119 --> 00:48:21.280
+threshold voltage versus china line
+
+1060
+00:48:21.280 --> 00:48:26.000
+so again for the same if we have less
+
+1061
+00:48:26.000 --> 00:48:29.920
+than two micrometer the
+
+1062
+00:48:32.000 --> 00:48:35.119
+the threshold voltage is actually
+
+1063
+00:48:35.119 --> 00:48:39.119
+decreased and this will also become more
+
+1064
+00:48:39.119 --> 00:48:40.079
+severe
+
+1065
+00:48:40.079 --> 00:48:43.280
+if we apply larger drain to source
+
+1066
+00:48:43.280 --> 00:48:44.720
+voltage
+
+1067
+00:48:44.720 --> 00:48:47.760
+as we can see for the case of this line
+
+1068
+00:48:47.760 --> 00:48:48.240
+okay
+
+1069
+00:48:48.240 --> 00:48:51.599
+the drain voltage is uh at linear region
+
+1070
+00:48:51.599 --> 00:48:54.960
+where the applied voltage is 0.125
+
+1071
+00:48:54.960 --> 00:48:57.040
+so there is a change in the threshold
+
+1072
+00:48:57.040 --> 00:48:58.319
+voltage
+
+1073
+00:48:58.319 --> 00:49:01.760
+but not very severe but when we
+
+1074
+00:49:01.760 --> 00:49:04.960
+apply uh drain voltage uh
+
+1075
+00:49:04.960 --> 00:49:08.480
+four volt which means this is during
+
+1076
+00:49:08.480 --> 00:49:11.359
+uh saturation region okay during
+
+1077
+00:49:11.359 --> 00:49:13.839
+saturation region
+
+1078
+00:49:13.839 --> 00:49:15.920
+thus the threshold voltage will become
+
+1079
+00:49:15.920 --> 00:49:17.359
+decreased more
+
+1080
+00:49:17.359 --> 00:49:20.720
+severe for this case so charge voltage
+
+1081
+00:49:20.720 --> 00:49:22.559
+does not only
+
+1082
+00:49:22.559 --> 00:49:24.880
+depends on the gate length it also
+
+1083
+00:49:24.880 --> 00:49:25.760
+depends
+
+1084
+00:49:25.760 --> 00:49:28.400
+on the how much bias that we apply in
+
+1085
+00:49:28.400 --> 00:49:29.359
+the drain
+
+1086
+00:49:29.359 --> 00:49:32.319
+is either in linear region or saturation
+
+1087
+00:49:32.319 --> 00:49:34.640
+region
+
+1088
+00:49:36.960 --> 00:49:39.680
+if we look at the narrow channel effect
+
+1089
+00:49:39.680 --> 00:49:40.079
+so
+
+1090
+00:49:40.079 --> 00:49:42.319
+what is narrow channel effect so what
+
+1091
+00:49:42.319 --> 00:49:44.160
+happens when we decrease
+
+1092
+00:49:44.160 --> 00:49:47.280
+the width instead of the length
+
+1093
+00:49:47.280 --> 00:49:50.079
+this figures uh diagram shows the cross
+
+1094
+00:49:50.079 --> 00:49:50.960
+section
+
+1095
+00:49:50.960 --> 00:49:53.520
+along the channel width for n channel
+
+1096
+00:49:53.520 --> 00:49:54.559
+mosfet
+
+1097
+00:49:54.559 --> 00:49:58.319
+and this is the w okay
+
+1098
+00:49:58.319 --> 00:50:02.079
+so if we draw a cross section uh
+
+1099
+00:50:02.079 --> 00:50:05.200
+for the width so at the back here so
+
+1100
+00:50:05.200 --> 00:50:05.520
+this
+
+1101
+00:50:05.520 --> 00:50:09.359
+is the l all right
+
+1102
+00:50:09.359 --> 00:50:12.400
+so underneath the area i mean the area
+
+1103
+00:50:12.400 --> 00:50:13.520
+underneath the gate
+
+1104
+00:50:13.520 --> 00:50:17.280
+so this area is given by the shaded area
+
+1105
+00:50:17.280 --> 00:50:17.920
+here
+
+1106
+00:50:17.920 --> 00:50:21.359
+so this is the area where the charge uh
+
+1107
+00:50:21.359 --> 00:50:24.640
+trap or stock underneath the gate
+
+1108
+00:50:24.640 --> 00:50:28.000
+which is given by qb it uh
+
+1109
+00:50:28.000 --> 00:50:31.599
+equals to the qb naught okay before we
+
+1110
+00:50:31.599 --> 00:50:34.640
+narrow down the channel line uh plus the
+
+1111
+00:50:34.640 --> 00:50:36.240
+delta qb
+
+1112
+00:50:36.240 --> 00:50:40.640
+so qb naught is given by
+
+1113
+00:50:40.640 --> 00:50:44.160
+this equation e n a w
+
+1114
+00:50:44.160 --> 00:50:48.000
+l x d t but now
+
+1115
+00:50:48.000 --> 00:50:51.359
+what happened when we
+
+1116
+00:50:51.520 --> 00:50:55.040
+decrease the gate gate width okay
+
+1117
+00:50:55.040 --> 00:50:58.079
+so there will be so this area this area
+
+1118
+00:50:58.079 --> 00:51:00.640
+is quite straightforward which is
+
+1119
+00:51:00.640 --> 00:51:03.440
+uh the
+
+1120
+00:51:04.079 --> 00:51:06.800
+square area but now i'm talking about
+
+1121
+00:51:06.800 --> 00:51:07.359
+this
+
+1122
+00:51:07.359 --> 00:51:09.839
+area which is the rate area that i'm
+
+1123
+00:51:09.839 --> 00:51:10.480
+shaded
+
+1124
+00:51:10.480 --> 00:51:13.920
+so this area is given by the delta qb
+
+1125
+00:51:13.920 --> 00:51:16.640
+where it now depends on the fitting
+
+1126
+00:51:16.640 --> 00:51:17.760
+parameter
+
+1127
+00:51:17.760 --> 00:51:21.280
+this one okay so this is the fitting
+
+1128
+00:51:21.280 --> 00:51:22.160
+parameter
+
+1129
+00:51:22.160 --> 00:51:24.800
+so if we consider this fitting parameter
+
+1130
+00:51:24.800 --> 00:51:25.359
+now
+
+1131
+00:51:25.359 --> 00:51:30.160
+the qb will become uh
+
+1132
+00:51:30.160 --> 00:51:33.760
+will equal to this equation
+
+1133
+00:51:33.760 --> 00:51:36.240
+so therefore there will be change in the
+
+1134
+00:51:36.240 --> 00:51:37.839
+threshold voltage
+
+1135
+00:51:37.839 --> 00:51:39.839
+which is depends on the fitting
+
+1136
+00:51:39.839 --> 00:51:40.960
+parameter
+
+1137
+00:51:40.960 --> 00:51:43.440
+times this fitting parameter and delta
+
+1138
+00:51:43.440 --> 00:51:45.119
+vt now will become
+
+1139
+00:51:45.119 --> 00:51:47.839
+with this equation so if we can
+
+1140
+00:51:47.839 --> 00:51:49.200
+summarize this
+
+1141
+00:51:49.200 --> 00:51:52.240
+uh we can say that
+
+1142
+00:51:52.240 --> 00:51:55.760
+as uh w is
+
+1143
+00:51:55.760 --> 00:51:58.960
+decreased okay then the
+
+1144
+00:51:58.960 --> 00:52:02.000
+v threshold for the case of the
+
+1145
+00:52:02.000 --> 00:52:05.440
+n mosfet will be increased
+
+1146
+00:52:05.440 --> 00:52:08.160
+so additional charge space charge is
+
+1147
+00:52:08.160 --> 00:52:09.760
+need to be considered for
+
+1148
+00:52:09.760 --> 00:52:12.960
+narrow channeling
+
+1149
+00:52:15.040 --> 00:52:17.599
+this is the effect of gate width on the
+
+1150
+00:52:17.599 --> 00:52:19.119
+threshold voltage
+
+1151
+00:52:19.119 --> 00:52:21.680
+as we can see this figure shows the
+
+1152
+00:52:21.680 --> 00:52:24.000
+threshold voltage versus the gate width
+
+1153
+00:52:24.000 --> 00:52:27.359
+okay as the gate width if let's say
+
+1154
+00:52:27.359 --> 00:52:29.920
+we take
+
+1155
+00:52:31.599 --> 00:52:33.839
+8 it
+
+1156
+00:52:34.800 --> 00:52:37.920
+okay for
+
+1157
+00:52:38.800 --> 00:52:40.960
+for the gate width less than the 8
+
+1158
+00:52:40.960 --> 00:52:42.079
+micrometer
+
+1159
+00:52:42.079 --> 00:52:45.119
+the threshold voltage starts to
+
+1160
+00:52:45.119 --> 00:52:49.040
+increase so instead of the trend
+
+1161
+00:52:49.040 --> 00:52:52.079
+like this so
+
+1162
+00:52:52.079 --> 00:52:55.760
+after it reaches a narrower gate width
+
+1163
+00:52:55.760 --> 00:52:58.319
+so the thruster voltage will start to
+
+1164
+00:52:58.319 --> 00:52:59.200
+increase
+
+1165
+00:52:59.200 --> 00:53:01.359
+so threshold voltage begins to become
+
+1166
+00:53:01.359 --> 00:53:04.319
+apparent or significant for larger
+
+1167
+00:53:04.319 --> 00:53:07.599
+uh channel width compared to the induced
+
+1168
+00:53:07.599 --> 00:53:10.720
+space charge width so this trend is
+
+1169
+00:53:10.720 --> 00:53:11.760
+actually the same
+
+1170
+00:53:11.760 --> 00:53:14.960
+for uh with the we
+
+1171
+00:53:14.960 --> 00:53:17.359
+change in the concentration or the
+
+1172
+00:53:17.359 --> 00:53:20.400
+doping concentration
+
+1173
+00:53:23.760 --> 00:53:27.040
+therefore this is uh the summarization
+
+1174
+00:53:27.040 --> 00:53:29.760
+of threshold voltage modification
+
+1175
+00:53:29.760 --> 00:53:31.040
+threshold voltage change
+
+1176
+00:53:31.040 --> 00:53:33.200
+due to the channel dimension so the
+
+1177
+00:53:33.200 --> 00:53:34.319
+figure is
+
+1178
+00:53:34.319 --> 00:53:37.280
+is the threshold voltage due to the
+
+1179
+00:53:37.280 --> 00:53:39.040
+channel length
+
+1180
+00:53:39.040 --> 00:53:42.079
+and figure b shows the threshold voltage
+
+1181
+00:53:42.079 --> 00:53:44.640
+due to the channel width so at certain
+
+1182
+00:53:44.640 --> 00:53:45.359
+point
+
+1183
+00:53:45.359 --> 00:53:49.359
+uh for uh short
+
+1184
+00:53:49.359 --> 00:53:51.280
+channel length okay the threshold
+
+1185
+00:53:51.280 --> 00:53:52.559
+voltage uh
+
+1186
+00:53:52.559 --> 00:53:54.480
+the difference of thruster voltage will
+
+1187
+00:53:54.480 --> 00:53:56.880
+decrease for this case
+
+1188
+00:53:56.880 --> 00:53:59.920
+when the l is decreased the
+
+1189
+00:53:59.920 --> 00:54:03.359
+threshold voltage will be also decreased
+
+1190
+00:54:03.359 --> 00:54:05.440
+for the case of short channel line for
+
+1191
+00:54:05.440 --> 00:54:06.880
+the case of
+
+1192
+00:54:06.880 --> 00:54:10.480
+narrow channeling okay
+
+1193
+00:54:10.480 --> 00:54:13.920
+uh when we take any of the gate width
+
+1194
+00:54:13.920 --> 00:54:17.359
+less than uh any certain point
+
+1195
+00:54:17.359 --> 00:54:20.720
+so if we can summarize this the w
+
+1196
+00:54:20.720 --> 00:54:23.920
+uh increase but the threshold voltage
+
+1197
+00:54:23.920 --> 00:54:25.440
+will
+
+1198
+00:54:25.440 --> 00:54:29.280
+decrease for the china width case
+
+1199
+00:54:29.280 --> 00:54:32.480
+so that's it for the conclusion for the
+
+1200
+00:54:32.480 --> 00:54:33.680
+threshold voltage change
+
+1201
+00:54:33.680 --> 00:54:36.160
+due to the channel dimension for both
+
+1202
+00:54:36.160 --> 00:54:36.960
+channel length
+
+1203
+00:54:36.960 --> 00:54:40.000
+and channel with
+
+1204
+00:54:41.119 --> 00:54:44.960
+so this is the summary of the lecture
+
+1205
+00:54:44.960 --> 00:54:48.079
+so uh i have explained the sub-threshold
+
+1206
+00:54:48.079 --> 00:54:49.200
+conduction
+
+1207
+00:54:49.200 --> 00:54:52.480
+means the id is not equal to zero
+
+1208
+00:54:52.480 --> 00:54:55.920
+okay so for this case is this uh for the
+
+1209
+00:54:55.920 --> 00:54:59.760
+experimental uh case uh the real case
+
+1210
+00:54:59.760 --> 00:55:02.400
+even when the vg s is less than the
+
+1211
+00:55:02.400 --> 00:55:03.839
+threshold voltage
+
+1212
+00:55:03.839 --> 00:55:06.400
+in this case uh the transistor is biased
+
+1213
+00:55:06.400 --> 00:55:07.040
+in weak
+
+1214
+00:55:07.040 --> 00:55:09.440
+inversion mode okay where the id is
+
+1215
+00:55:09.440 --> 00:55:11.760
+dominated by the diffusion
+
+1216
+00:55:11.760 --> 00:55:15.280
+rather than the drift mechanism so the l
+
+1217
+00:55:15.280 --> 00:55:17.280
+effective or the channel line effective
+
+1218
+00:55:17.280 --> 00:55:18.559
+is reduced
+
+1219
+00:55:18.559 --> 00:55:22.240
+with the vds apply the larger you apply
+
+1220
+00:55:22.240 --> 00:55:25.760
+vds voltage at drain okay you would
+
+1221
+00:55:25.760 --> 00:55:27.440
+create an extended region
+
+1222
+00:55:27.440 --> 00:55:30.079
+under the drain and therefore the
+
+1223
+00:55:30.079 --> 00:55:31.040
+effective
+
+1224
+00:55:31.040 --> 00:55:33.440
+gate length will be reduced in this case
+
+1225
+00:55:33.440 --> 00:55:34.880
+mosfet is biased
+
+1226
+00:55:34.880 --> 00:55:37.839
+in the saturation region due to the
+
+1227
+00:55:37.839 --> 00:55:38.960
+depletion region
+
+1228
+00:55:38.960 --> 00:55:41.359
+and the drain extend into the channel
+
+1229
+00:55:41.359 --> 00:55:44.240
+this effect is known as a channel
+
+1230
+00:55:44.240 --> 00:55:47.280
+length modulation
+
+1231
+00:55:47.280 --> 00:55:49.440
+and the mobility of carrier in the
+
+1232
+00:55:49.440 --> 00:55:51.599
+inversion layer is not constant
+
+1233
+00:55:51.599 --> 00:55:54.319
+okay this is because that as vgs is
+
+1234
+00:55:54.319 --> 00:55:55.200
+increased
+
+1235
+00:55:55.200 --> 00:55:57.920
+the electric field or the vertical
+
+1236
+00:55:57.920 --> 00:55:59.119
+electric field or
+
+1237
+00:55:59.119 --> 00:56:01.359
+transverse electric field under the gate
+
+1238
+00:56:01.359 --> 00:56:03.680
+okay at the oxide interface will
+
+1239
+00:56:03.680 --> 00:56:06.319
+increase and this will cause a surface
+
+1240
+00:56:06.319 --> 00:56:07.680
+scattering effect
+
+1241
+00:56:07.680 --> 00:56:10.319
+okay due to this scattering effect it
+
+1242
+00:56:10.319 --> 00:56:11.119
+will lead to
+
+1243
+00:56:11.119 --> 00:56:15.280
+the mobility reduction and also it will
+
+1244
+00:56:15.280 --> 00:56:18.559
+deviate the ideal iv characteristic
+
+1245
+00:56:18.559 --> 00:56:21.599
+okay and as the uh l
+
+1246
+00:56:21.599 --> 00:56:24.160
+is reduced the lateral electric field is
+
+1247
+00:56:24.160 --> 00:56:26.240
+increased so that the caries flowing
+
+1248
+00:56:26.240 --> 00:56:27.599
+through the channel
+
+1249
+00:56:27.599 --> 00:56:30.319
+may reach their saturation velocity in
+
+1250
+00:56:30.319 --> 00:56:31.119
+this case
+
+1251
+00:56:31.119 --> 00:56:34.160
+the drain current become a linear
+
+1252
+00:56:34.160 --> 00:56:36.559
+function
+
+1253
+00:56:36.720 --> 00:56:39.359
+and then finally if i could summarize
+
+1254
+00:56:39.359 --> 00:56:42.000
+that the tendency of mosfet
+
+1255
+00:56:42.000 --> 00:56:44.559
+design becomes smaller so the gate
+
+1256
+00:56:44.559 --> 00:56:45.760
+length or the l
+
+1257
+00:56:45.760 --> 00:56:48.640
+become smaller so the principle of
+
+1258
+00:56:48.640 --> 00:56:49.599
+constant
+
+1259
+00:56:49.599 --> 00:56:52.559
+field scaling has been discussed okay so
+
+1260
+00:56:52.559 --> 00:56:54.880
+the modification in threshold voltage as
+
+1261
+00:56:54.880 --> 00:56:56.960
+device dimensions shrinking
+
+1262
+00:56:56.960 --> 00:56:59.920
+not only the l the w as well the the
+
+1263
+00:56:59.920 --> 00:57:00.799
+gate width
+
+1264
+00:57:00.799 --> 00:57:03.119
+has been discussed so because of the
+
+1265
+00:57:03.119 --> 00:57:04.880
+charge sharing effect
+
+1266
+00:57:04.880 --> 00:57:06.880
+in the substrate the threshold voltage
+
+1267
+00:57:06.880 --> 00:57:07.920
+decreased as
+
+1268
+00:57:07.920 --> 00:57:10.720
+the gate length decreased and also the
+
+1269
+00:57:10.720 --> 00:57:12.160
+threshold voltage increase
+
+1270
+00:57:12.160 --> 00:57:19.040
+as the width at the gate width decrease
+

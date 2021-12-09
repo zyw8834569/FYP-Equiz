@@ -1,0 +1,4134 @@
+WEBVTT
+
+1
+00:00:07.839 --> 00:00:12.000
+so rather than muting it i
+
+2
+00:00:12.000 --> 00:00:17.359
+i just did the call-in okay yeah
+
+3
+00:00:17.359 --> 00:00:19.039
+yeah so this is basically due to the
+
+4
+00:00:19.039 --> 00:00:20.560
+tunneling effect which is basically a
+
+5
+00:00:20.560 --> 00:00:22.720
+quantum mechanical effect that happens
+
+6
+00:00:22.720 --> 00:00:24.720
+for the flow of current through the
+
+7
+00:00:24.720 --> 00:00:26.080
+oxide okay
+
+8
+00:00:26.080 --> 00:00:27.920
+and again there is one more type of
+
+9
+00:00:27.920 --> 00:00:29.439
+leakage current that flows
+
+10
+00:00:29.439 --> 00:00:31.760
+that is primarily due to the pn junction
+
+11
+00:00:31.760 --> 00:00:32.479
+diodes
+
+12
+00:00:32.479 --> 00:00:34.559
+because we know that a reverse biased pn
+
+13
+00:00:34.559 --> 00:00:36.239
+junction will also have some sort of
+
+14
+00:00:36.239 --> 00:00:38.640
+reverse saturation current okay so due
+
+15
+00:00:38.640 --> 00:00:40.160
+to that mechanism there will be a
+
+16
+00:00:40.160 --> 00:00:42.000
+kind of current flow between the source
+
+17
+00:00:42.000 --> 00:00:43.760
+and the body or between the drain and
+
+18
+00:00:43.760 --> 00:00:44.399
+the body
+
+19
+00:00:44.399 --> 00:00:46.480
+okay so these are some of the leakage
+
+20
+00:00:46.480 --> 00:00:47.520
+current and uh
+
+21
+00:00:47.520 --> 00:00:49.440
+today we'll focus more on the sub
+
+22
+00:00:49.440 --> 00:00:50.879
+threshold conduction okay
+
+23
+00:00:50.879 --> 00:00:52.960
+and there are some set of problems that
+
+24
+00:00:52.960 --> 00:00:54.879
+could come around this particular
+
+25
+00:00:54.879 --> 00:00:56.399
+threshold connection we will do some set
+
+26
+00:00:56.399 --> 00:00:58.239
+of problems as well okay
+
+27
+00:00:58.239 --> 00:01:01.680
+yeah now
+
+28
+00:01:01.680 --> 00:01:05.359
+let me begin with this topic
+
+29
+00:01:08.080 --> 00:01:10.159
+so as i said a subthreshold connection
+
+30
+00:01:10.159 --> 00:01:13.840
+is a kind of current flow that happens
+
+31
+00:01:14.000 --> 00:01:16.000
+between the source and the drain even
+
+32
+00:01:16.000 --> 00:01:18.560
+for the value of vgs
+
+33
+00:01:18.560 --> 00:01:20.799
+that is less than vt okay so we call
+
+34
+00:01:20.799 --> 00:01:22.240
+that non-zero current as the sub
+
+35
+00:01:22.240 --> 00:01:23.520
+threshold conduction okay
+
+36
+00:01:23.520 --> 00:01:25.119
+so now we'll just look into like why
+
+37
+00:01:25.119 --> 00:01:27.040
+this is happening or how how exactly we
+
+38
+00:01:27.040 --> 00:01:27.360
+can
+
+39
+00:01:27.360 --> 00:01:29.920
+model this particular current okay so
+
+40
+00:01:29.920 --> 00:01:31.520
+now what we do is that uh
+
+41
+00:01:31.520 --> 00:01:34.640
+normally when we try to plot a graph of
+
+42
+00:01:34.640 --> 00:01:38.159
+ids versus vgs
+
+43
+00:01:38.159 --> 00:01:39.600
+what we assume is that the current is
+
+44
+00:01:39.600 --> 00:01:41.840
+almost zero till i reach the value of
+
+45
+00:01:41.840 --> 00:01:43.520
+vgs that is equal to vt
+
+46
+00:01:43.520 --> 00:01:45.360
+and after then you assume that there is
+
+47
+00:01:45.360 --> 00:01:46.640
+a kind of quadratic nature
+
+48
+00:01:46.640 --> 00:01:48.799
+and uh after a while the device will
+
+49
+00:01:48.799 --> 00:01:50.159
+enter into linear
+
+50
+00:01:50.159 --> 00:01:51.520
+so there will be some sort of straight
+
+51
+00:01:51.520 --> 00:01:53.360
+line after this okay yeah so we will not
+
+52
+00:01:53.360 --> 00:01:54.880
+worry much about this
+
+53
+00:01:54.880 --> 00:01:58.640
+cara which is above the value of vt okay
+
+54
+00:01:58.640 --> 00:02:01.520
+now in this case we would see that the
+
+55
+00:02:01.520 --> 00:02:03.360
+curve that i have drawn here is almost
+
+56
+00:02:03.360 --> 00:02:04.799
+flat okay so
+
+57
+00:02:04.799 --> 00:02:07.520
+but rather if i try to change the scale
+
+58
+00:02:07.520 --> 00:02:08.800
+of this particular axis
+
+59
+00:02:08.800 --> 00:02:10.720
+that is my y-axis in terms of
+
+60
+00:02:10.720 --> 00:02:12.959
+logarithmic okay
+
+61
+00:02:12.959 --> 00:02:16.160
+with a base of 10 and when i try to
+
+62
+00:02:16.160 --> 00:02:17.760
+replot this
+
+63
+00:02:17.760 --> 00:02:21.040
+graph we would see something different
+
+64
+00:02:21.040 --> 00:02:23.840
+okay
+
+65
+00:02:24.080 --> 00:02:25.440
+okay so we would see some sort of
+
+66
+00:02:25.440 --> 00:02:27.599
+characteristics and this characteristics
+
+67
+00:02:27.599 --> 00:02:28.239
+happens
+
+68
+00:02:28.239 --> 00:02:30.160
+the moment the value of regis is less
+
+69
+00:02:30.160 --> 00:02:32.239
+than vt okay so
+
+70
+00:02:32.239 --> 00:02:35.040
+now when i have this kind of cara which
+
+71
+00:02:35.040 --> 00:02:36.080
+has been plotted
+
+72
+00:02:36.080 --> 00:02:38.080
+against this logarithmic scale of this
+
+73
+00:02:38.080 --> 00:02:39.760
+uh ideas
+
+74
+00:02:39.760 --> 00:02:43.599
+okay so so logarithmic scale uh would
+
+75
+00:02:43.599 --> 00:02:44.400
+then be
+
+76
+00:02:44.400 --> 00:02:46.640
+in terms of 10 to the power i'm just
+
+77
+00:02:46.640 --> 00:02:48.800
+choosing some random number okay so that
+
+78
+00:02:48.800 --> 00:02:52.879
+the step size would be in terms of uh
+
+79
+00:02:53.920 --> 00:02:55.519
+something in this particular scale okay
+
+80
+00:02:55.519 --> 00:02:57.920
+so so every equal increment will be
+
+81
+00:02:57.920 --> 00:03:00.400
+in terms of decay clear so when i see
+
+82
+00:03:00.400 --> 00:03:01.680
+this particular
+
+83
+00:03:01.680 --> 00:03:02.879
+you could see that there is a linear
+
+84
+00:03:02.879 --> 00:03:04.480
+relation that exists between this
+
+85
+00:03:04.480 --> 00:03:06.400
+logarithmic scale of ideas
+
+86
+00:03:06.400 --> 00:03:08.319
+and the value of vgs that is less than
+
+87
+00:03:08.319 --> 00:03:09.680
+the value of vd okay
+
+88
+00:03:09.680 --> 00:03:12.080
+so now the way to model this particular
+
+89
+00:03:12.080 --> 00:03:12.720
+picture
+
+90
+00:03:12.720 --> 00:03:14.879
+is we can use some sort of concept that
+
+91
+00:03:14.879 --> 00:03:16.000
+we have studied in
+
+92
+00:03:16.000 --> 00:03:18.720
+vjt okay so first let me try to explain
+
+93
+00:03:18.720 --> 00:03:20.319
+why this current flows and through what
+
+94
+00:03:20.319 --> 00:03:22.000
+type of mechanism this current flows
+
+95
+00:03:22.000 --> 00:03:22.640
+okay
+
+96
+00:03:22.640 --> 00:03:24.239
+and later we'll just try to model this
+
+97
+00:03:24.239 --> 00:03:26.480
+part of the current that actually flows
+
+98
+00:03:26.480 --> 00:03:28.080
+for the value of v so that is less than
+
+99
+00:03:28.080 --> 00:03:30.640
+v t clear
+
+100
+00:03:30.640 --> 00:03:32.640
+and again i'm just taking this n mass
+
+101
+00:03:32.640 --> 00:03:34.319
+transistor
+
+102
+00:03:34.319 --> 00:03:36.080
+so clearly we could see that there is an
+
+103
+00:03:36.080 --> 00:03:39.200
+n which is basically the source terminal
+
+104
+00:03:39.200 --> 00:03:42.799
+okay and then there is a kind of
+
+105
+00:03:42.799 --> 00:03:45.040
+p type semiconductor okay which is
+
+106
+00:03:45.040 --> 00:03:46.239
+basically the body
+
+107
+00:03:46.239 --> 00:03:50.000
+so there is an en pen transistor
+
+108
+00:03:50.000 --> 00:03:52.959
+right so it is it could be visualized
+
+109
+00:03:52.959 --> 00:03:55.680
+something like this
+
+110
+00:03:55.840 --> 00:03:58.159
+with some sort of a parasitic bjt
+
+111
+00:03:58.159 --> 00:03:59.599
+transfer that is being formed just
+
+112
+00:03:59.599 --> 00:04:01.040
+because of this pn junction
+
+113
+00:04:01.040 --> 00:04:03.920
+diodes across the source in the body and
+
+114
+00:04:03.920 --> 00:04:05.519
+across the drain and the
+
+115
+00:04:05.519 --> 00:04:07.680
+body okay so due to which there happens
+
+116
+00:04:07.680 --> 00:04:09.120
+to be some sort of reverse bias and we
+
+117
+00:04:09.120 --> 00:04:10.799
+know that each of these pn junctions are
+
+118
+00:04:10.799 --> 00:04:12.319
+basically reversed by us
+
+119
+00:04:12.319 --> 00:04:15.360
+and it is through this
+
+120
+00:04:15.360 --> 00:04:17.918
+the current flows okay and whatever
+
+121
+00:04:17.918 --> 00:04:18.720
+current is that
+
+122
+00:04:18.720 --> 00:04:21.040
+it's it's basically a reverse saturation
+
+123
+00:04:21.040 --> 00:04:21.839
+current
+
+124
+00:04:21.839 --> 00:04:25.040
+okay now let us try to model this
+
+125
+00:04:25.040 --> 00:04:27.040
+particular current okay so i'm not going
+
+126
+00:04:27.040 --> 00:04:28.800
+to explain how exactly these currents
+
+127
+00:04:28.800 --> 00:04:29.840
+have been written down but i'll just
+
+128
+00:04:29.840 --> 00:04:32.000
+give the final expression okay
+
+129
+00:04:32.000 --> 00:04:34.080
+so the current that is flowing for the
+
+130
+00:04:34.080 --> 00:04:35.600
+value of vgs
+
+131
+00:04:35.600 --> 00:04:37.680
+that is less than vt could be modeled
+
+132
+00:04:37.680 --> 00:04:38.639
+with some sort of
+
+133
+00:04:38.639 --> 00:04:40.720
+expression okay so now the way that this
+
+134
+00:04:40.720 --> 00:04:41.680
+particular plot
+
+135
+00:04:41.680 --> 00:04:43.280
+shows a kind of linear characteristics
+
+136
+00:04:43.280 --> 00:04:45.759
+between the logarithmic scale of ideas
+
+137
+00:04:45.759 --> 00:04:48.160
+versus a linear scale of vgs one could
+
+138
+00:04:48.160 --> 00:04:50.000
+see that there is a kind of relation
+
+139
+00:04:50.000 --> 00:04:50.880
+okay so
+
+140
+00:04:50.880 --> 00:04:52.960
+now can anyone tell me like what type of
+
+141
+00:04:52.960 --> 00:04:54.400
+relation that these
+
+142
+00:04:54.400 --> 00:04:57.680
+the ideas and vgs
+
+143
+00:04:57.680 --> 00:05:00.880
+defines in this particular zone where uh
+
+144
+00:05:00.880 --> 00:05:02.080
+we are trying to plot against the
+
+145
+00:05:02.080 --> 00:05:03.840
+logarithmic scale of
+
+146
+00:05:03.840 --> 00:05:07.759
+10. linear no it cannot be linear right
+
+147
+00:05:07.759 --> 00:05:08.720
+because
+
+148
+00:05:08.720 --> 00:05:10.560
+yeah it's actually linear so which means
+
+149
+00:05:10.560 --> 00:05:12.080
+that i have something like logarithmic
+
+150
+00:05:12.080 --> 00:05:13.120
+scale
+
+151
+00:05:13.120 --> 00:05:16.880
+and this is my y-axis so y equals to mx
+
+152
+00:05:16.880 --> 00:05:19.280
+so that can be some sort of slope value
+
+153
+00:05:19.280 --> 00:05:20.560
+exponential
+
+154
+00:05:20.560 --> 00:05:22.639
+yeah yeah that is what i wanted okay so
+
+155
+00:05:22.639 --> 00:05:24.320
+now that in order to remove this
+
+156
+00:05:24.320 --> 00:05:26.479
+logarithmic scale i have to take
+
+157
+00:05:26.479 --> 00:05:27.520
+anti-log
+
+158
+00:05:27.520 --> 00:05:28.880
+which is nothing but the exponential on
+
+159
+00:05:28.880 --> 00:05:30.800
+both the sides when i do this then what
+
+160
+00:05:30.800 --> 00:05:31.759
+happens is that
+
+161
+00:05:31.759 --> 00:05:33.520
+you would end up having some something
+
+162
+00:05:33.520 --> 00:05:35.440
+like exponential term okay
+
+163
+00:05:35.440 --> 00:05:37.600
+so so this is what we would end up so
+
+164
+00:05:37.600 --> 00:05:38.639
+even our
+
+165
+00:05:38.639 --> 00:05:41.520
+case the current equation that i am
+
+166
+00:05:41.520 --> 00:05:43.120
+about to write will also have this kind
+
+167
+00:05:43.120 --> 00:05:43.840
+of exponential
+
+168
+00:05:43.840 --> 00:05:45.360
+relation with respect to the value of v
+
+169
+00:05:45.360 --> 00:05:47.600
+g s okay so
+
+170
+00:05:47.600 --> 00:05:49.360
+there is a reverse saturation current
+
+171
+00:05:49.360 --> 00:05:50.960
+which i am writing it as just
+
+172
+00:05:50.960 --> 00:05:53.360
+is okay sometimes it can also be written
+
+173
+00:05:53.360 --> 00:05:54.080
+as
+
+174
+00:05:54.080 --> 00:05:56.800
+ids naught okay so we will not worry
+
+175
+00:05:56.800 --> 00:05:57.199
+about
+
+176
+00:05:57.199 --> 00:05:59.440
+what notation to be used okay in general
+
+177
+00:05:59.440 --> 00:06:00.880
+there is some sort of reverse saturation
+
+178
+00:06:00.880 --> 00:06:01.759
+current
+
+179
+00:06:01.759 --> 00:06:04.080
+and that current has to be multiplied
+
+180
+00:06:04.080 --> 00:06:06.880
+with some sort of excuse me sir
+
+181
+00:06:06.880 --> 00:06:09.360
+yeah uh the log is taken based in
+
+182
+00:06:09.360 --> 00:06:10.000
+november
+
+183
+00:06:10.000 --> 00:06:13.440
+so how can it be exponential uh
+
+184
+00:06:13.440 --> 00:06:17.199
+e supposed to be longer yes if it's long
+
+185
+00:06:17.199 --> 00:06:18.840
+it'll be exponential that
+
+186
+00:06:18.840 --> 00:06:23.039
+even so it's supposed to be long right
+
+187
+00:06:23.039 --> 00:06:26.639
+okay then i think it's fine yeah
+
+188
+00:06:26.639 --> 00:06:27.759
+yeah it's supposed to be some sort of
+
+189
+00:06:27.759 --> 00:06:30.080
+logarithmic scale and they actually gets
+
+190
+00:06:30.080 --> 00:06:30.880
+related with
+
+191
+00:06:30.880 --> 00:06:33.520
+an exponential term okay and again uh
+
+192
+00:06:33.520 --> 00:06:34.080
+this is
+
+193
+00:06:34.080 --> 00:06:36.479
+a concept basically through this bjt
+
+194
+00:06:36.479 --> 00:06:38.080
+structure that we are trying to derive
+
+195
+00:06:38.080 --> 00:06:39.600
+okay
+
+196
+00:06:39.600 --> 00:06:43.199
+yeah so here we have some sort of term
+
+197
+00:06:43.199 --> 00:06:44.720
+through which we could be able to relate
+
+198
+00:06:44.720 --> 00:06:46.960
+the value of vgs okay and also there is
+
+199
+00:06:46.960 --> 00:06:48.160
+also one more term that
+
+200
+00:06:48.160 --> 00:06:50.400
+happens over because of the pn junction
+
+201
+00:06:50.400 --> 00:06:51.919
+that happens because of the drain
+
+202
+00:06:51.919 --> 00:06:53.759
+to source or basically because of the
+
+203
+00:06:53.759 --> 00:06:55.039
+drain and source
+
+204
+00:06:55.039 --> 00:06:57.360
+we also have some sort of current flow
+
+205
+00:06:57.360 --> 00:07:00.479
+because we need some sort of
+
+206
+00:07:00.479 --> 00:07:01.759
+potential difference between the drain
+
+207
+00:07:01.759 --> 00:07:02.720
+and the source in order to make the
+
+208
+00:07:02.720 --> 00:07:04.240
+current to flow right so we need some
+
+209
+00:07:04.240 --> 00:07:04.880
+sort of
+
+210
+00:07:04.880 --> 00:07:07.280
+component that is relating to our vds
+
+211
+00:07:07.280 --> 00:07:09.120
+okay so again this is
+
+212
+00:07:09.120 --> 00:07:12.639
+uh there is no proof that i can give for
+
+213
+00:07:12.639 --> 00:07:13.280
+this
+
+214
+00:07:13.280 --> 00:07:14.880
+it's just the equation that i'm just
+
+215
+00:07:14.880 --> 00:07:16.560
+writing it down and
+
+216
+00:07:16.560 --> 00:07:18.479
+right now if at all if the value of this
+
+217
+00:07:18.479 --> 00:07:19.759
+vds okay
+
+218
+00:07:19.759 --> 00:07:22.160
+if the value of this vds is much much
+
+219
+00:07:22.160 --> 00:07:24.400
+greater than the thermal voltage
+
+220
+00:07:24.400 --> 00:07:27.120
+which is nothing but kt by q okay maybe
+
+221
+00:07:27.120 --> 00:07:28.720
+i could write it as
+
+222
+00:07:28.720 --> 00:07:31.759
+vk okay so that uh we will use this vt
+
+223
+00:07:31.759 --> 00:07:32.080
+for
+
+224
+00:07:32.080 --> 00:07:34.000
+uh representing the threshold voltage
+
+225
+00:07:34.000 --> 00:07:35.840
+and vk for representing the thermal
+
+226
+00:07:35.840 --> 00:07:37.039
+voltage okay
+
+227
+00:07:37.039 --> 00:07:39.919
+so if this expression is satisfied then
+
+228
+00:07:39.919 --> 00:07:41.599
+obviously what happens is that the e to
+
+229
+00:07:41.599 --> 00:07:42.240
+the power
+
+230
+00:07:42.240 --> 00:07:44.160
+most negative term would end up having a
+
+231
+00:07:44.160 --> 00:07:45.440
+value of 0 okay
+
+232
+00:07:45.440 --> 00:07:47.759
+so in that case one could approximate
+
+233
+00:07:47.759 --> 00:07:49.759
+this current flow of ids to be
+
+234
+00:07:49.759 --> 00:07:54.000
+equal to is into e to the power of v g s
+
+235
+00:07:54.000 --> 00:07:57.520
+minus v t divided by n times that of v k
+
+236
+00:07:57.520 --> 00:08:00.240
+okay so i've just reduced this
+
+237
+00:08:00.240 --> 00:08:02.160
+expression of kt by q
+
+238
+00:08:02.160 --> 00:08:04.080
+as just vk and then i have substituted
+
+239
+00:08:04.080 --> 00:08:05.440
+that notation over here
+
+240
+00:08:05.440 --> 00:08:08.639
+okay yeah so this is the current flow
+
+241
+00:08:08.639 --> 00:08:09.280
+and now
+
+242
+00:08:09.280 --> 00:08:11.919
+one could also wanted something out of
+
+243
+00:08:11.919 --> 00:08:12.400
+this
+
+244
+00:08:12.400 --> 00:08:14.479
+device right so when i try to plot this
+
+245
+00:08:14.479 --> 00:08:16.000
+particular camera we will try to
+
+246
+00:08:16.000 --> 00:08:17.280
+evaluate the slope factor
+
+247
+00:08:17.280 --> 00:08:20.319
+okay so i want to evaluate the slope
+
+248
+00:08:20.319 --> 00:08:20.800
+factor
+
+249
+00:08:20.800 --> 00:08:23.520
+with something known as s and i will try
+
+250
+00:08:23.520 --> 00:08:25.120
+to define this flow factor
+
+251
+00:08:25.120 --> 00:08:27.520
+we want to switch to to the very lowest
+
+252
+00:08:27.520 --> 00:08:28.240
+current
+
+253
+00:08:28.240 --> 00:08:30.400
+at the earliest okay so i want the slope
+
+254
+00:08:30.400 --> 00:08:31.840
+to be much steeper
+
+255
+00:08:31.840 --> 00:08:33.919
+okay i want to decrease at a much faster
+
+256
+00:08:33.919 --> 00:08:34.958
+rate okay
+
+257
+00:08:34.958 --> 00:08:36.640
+so this is what we want to evaluate
+
+258
+00:08:36.640 --> 00:08:38.240
+through this flow factor the rate at
+
+259
+00:08:38.240 --> 00:08:39.440
+which i am trying to switch off
+
+260
+00:08:39.440 --> 00:08:42.000
+supposed to be much faster okay so that
+
+261
+00:08:42.000 --> 00:08:44.959
+can be read by the slope factor
+
+262
+00:08:44.959 --> 00:08:47.040
+uh excuse me sir can you repeat it i
+
+263
+00:08:47.040 --> 00:08:48.399
+couldn't follow what you
+
+264
+00:08:48.399 --> 00:08:50.720
+explained yeah yeah so i'm talking about
+
+265
+00:08:50.720 --> 00:08:51.839
+the slope factor so
+
+266
+00:08:51.839 --> 00:08:53.200
+this flow factor is an important
+
+267
+00:08:53.200 --> 00:08:55.200
+quantity in order to know
+
+268
+00:08:55.200 --> 00:08:57.440
+whether our device can quickly turn off
+
+269
+00:08:57.440 --> 00:08:58.640
+to a very
+
+270
+00:08:58.640 --> 00:09:00.320
+small amount of current the moment i
+
+271
+00:09:00.320 --> 00:09:01.760
+switch the value of vgs
+
+272
+00:09:01.760 --> 00:09:04.160
+below the value of vt i want this
+
+273
+00:09:04.160 --> 00:09:04.800
+current
+
+274
+00:09:04.800 --> 00:09:08.160
+to go to a very low values so we we
+
+275
+00:09:08.160 --> 00:09:08.800
+basically
+
+276
+00:09:08.800 --> 00:09:10.720
+want to measure the slope factor of this
+
+277
+00:09:10.720 --> 00:09:12.800
+in order to measure how fast the
+
+278
+00:09:12.800 --> 00:09:16.080
+current is getting reduced
+
+279
+00:09:16.080 --> 00:09:18.000
+for the value of vgs that is below the
+
+280
+00:09:18.000 --> 00:09:19.519
+value of vt okay so
+
+281
+00:09:19.519 --> 00:09:22.320
+that is the measure that we are doing in
+
+282
+00:09:22.320 --> 00:09:23.600
+terms of slope factor
+
+283
+00:09:23.600 --> 00:09:26.160
+okay so let me try to define uh more
+
+284
+00:09:26.160 --> 00:09:27.519
+formally rather than
+
+285
+00:09:27.519 --> 00:09:30.720
+speaking it out so i'm just going to
+
+286
+00:09:30.720 --> 00:09:31.279
+define
+
+287
+00:09:31.279 --> 00:09:33.120
+a factor which is known as slope factor
+
+288
+00:09:33.120 --> 00:09:37.839
+yes which basically measures
+
+289
+00:09:38.240 --> 00:09:41.839
+the inverse rate okay
+
+290
+00:09:42.720 --> 00:09:50.320
+of decline of ideas
+
+291
+00:09:50.320 --> 00:09:54.160
+with respect to vgs
+
+292
+00:09:54.240 --> 00:09:57.360
+below the value of vt okay so
+
+293
+00:09:57.360 --> 00:09:59.279
+it actually measures the quality of the
+
+294
+00:09:59.279 --> 00:10:01.360
+technology or of the mosfet that we are
+
+295
+00:10:01.360 --> 00:10:01.920
+using
+
+296
+00:10:01.920 --> 00:10:04.079
+okay so now the way that we are going to
+
+297
+00:10:04.079 --> 00:10:05.680
+measure this particular slope factor
+
+298
+00:10:05.680 --> 00:10:09.120
+is by reading out the slope value of
+
+299
+00:10:09.120 --> 00:10:10.560
+this okay so now what i am going to do
+
+300
+00:10:10.560 --> 00:10:12.160
+is that i am just going to take
+
+301
+00:10:12.160 --> 00:10:14.800
+two different currents okay and then the
+
+302
+00:10:14.800 --> 00:10:15.680
+corresponding
+
+303
+00:10:15.680 --> 00:10:18.880
+vgs values okay say for example i'm just
+
+304
+00:10:18.880 --> 00:10:22.240
+picking one of the current at which
+
+305
+00:10:22.240 --> 00:10:26.320
+my ids 1 is equal to 10 to the power
+
+306
+00:10:26.320 --> 00:10:27.600
+minus 7 okay
+
+307
+00:10:27.600 --> 00:10:30.320
+and the corresponding value of vgs let
+
+308
+00:10:30.320 --> 00:10:31.279
+me take it as v
+
+309
+00:10:31.279 --> 00:10:34.399
+one okay and let me take the second one
+
+310
+00:10:34.399 --> 00:10:35.120
+which is the
+
+311
+00:10:35.120 --> 00:10:38.160
+ids two where the current id2 supposed
+
+312
+00:10:38.160 --> 00:10:39.839
+to be a decade away from this
+
+313
+00:10:39.839 --> 00:10:42.160
+value of ids one clear so clearly there
+
+314
+00:10:42.160 --> 00:10:43.920
+is a difference of ten
+
+315
+00:10:43.920 --> 00:10:46.320
+between both these currents and i choose
+
+316
+00:10:46.320 --> 00:10:49.440
+that corresponding value of vgs as vgs2
+
+317
+00:10:49.440 --> 00:10:52.320
+here so you got the differences right so
+
+318
+00:10:52.320 --> 00:10:53.600
+now that i just want to measure the
+
+319
+00:10:53.600 --> 00:10:54.640
+slope factor
+
+320
+00:10:54.640 --> 00:10:56.560
+i make use of this equation that i have
+
+321
+00:10:56.560 --> 00:10:58.079
+written down earlier
+
+322
+00:10:58.079 --> 00:11:01.279
+that i have ids 1 which is basically
+
+323
+00:11:01.279 --> 00:11:03.440
+equal to 10 to the power minus 7
+
+324
+00:11:03.440 --> 00:11:07.760
+okay amperes and that is
+
+325
+00:11:07.760 --> 00:11:10.800
+related to the value of vgs as vgs 1
+
+326
+00:11:10.800 --> 00:11:14.399
+minus vt divided by n times that of kv
+
+327
+00:11:14.399 --> 00:11:16.959
+now i have one more current which i have
+
+328
+00:11:16.959 --> 00:11:18.000
+taken
+
+329
+00:11:18.000 --> 00:11:20.480
+which is a decade away from this ids one
+
+330
+00:11:20.480 --> 00:11:22.160
+okay the idea is two
+
+331
+00:11:22.160 --> 00:11:23.600
+the difference between the ids one and
+
+332
+00:11:23.600 --> 00:11:25.440
+ids two supposed to be
+
+333
+00:11:25.440 --> 00:11:28.959
+ten okay and that can be
+
+334
+00:11:28.959 --> 00:11:32.720
+returned in terms of the same expression
+
+335
+00:11:32.720 --> 00:11:34.720
+but in the place of regis i am just
+
+336
+00:11:34.720 --> 00:11:36.240
+speaking as vgs2
+
+337
+00:11:36.240 --> 00:11:38.959
+okay the corresponding value of vgs2 so
+
+338
+00:11:38.959 --> 00:11:39.760
+now what i
+
+339
+00:11:39.760 --> 00:11:41.839
+can do is that i divide both these
+
+340
+00:11:41.839 --> 00:11:43.040
+equations
+
+341
+00:11:43.040 --> 00:11:46.399
+okay one divided by two then
+
+342
+00:11:46.399 --> 00:11:49.839
+i would end up having something like
+
+343
+00:11:49.839 --> 00:11:52.000
+this
+
+344
+00:11:54.720 --> 00:11:57.440
+i will take long on both the sides okay
+
+345
+00:11:57.440 --> 00:11:59.839
+so that
+
+346
+00:12:03.440 --> 00:12:05.920
+so this delta v g s is what i'm going to
+
+347
+00:12:05.920 --> 00:12:07.040
+define as the
+
+348
+00:12:07.040 --> 00:12:10.000
+slope factor which can be written as i'm
+
+349
+00:12:10.000 --> 00:12:11.680
+just going to expand this
+
+350
+00:12:11.680 --> 00:12:16.160
+which is kt by q in the place of vk
+
+351
+00:12:16.160 --> 00:12:19.200
+and then into lon of 10 and the unit for
+
+352
+00:12:19.200 --> 00:12:20.000
+this
+
+353
+00:12:20.000 --> 00:12:23.279
+would be like
+
+354
+00:12:23.279 --> 00:12:27.200
+millivolt per decade
+
+355
+00:12:27.360 --> 00:12:29.120
+so hope that you're clear with the slow
+
+356
+00:12:29.120 --> 00:12:31.279
+factor here so the slow factor is
+
+357
+00:12:31.279 --> 00:12:33.200
+something that we are trying to measure
+
+358
+00:12:33.200 --> 00:12:36.240
+for the current that flows
+
+359
+00:12:36.240 --> 00:12:38.720
+below the value of v g s that is less
+
+360
+00:12:38.720 --> 00:12:39.760
+than the value of v t
+
+361
+00:12:39.760 --> 00:12:42.079
+okay and how are we measuring is that we
+
+362
+00:12:42.079 --> 00:12:43.680
+are taking two currents that are a
+
+363
+00:12:43.680 --> 00:12:44.800
+decade of
+
+364
+00:12:44.800 --> 00:12:46.800
+difference between them clear so i've
+
+365
+00:12:46.800 --> 00:12:48.880
+just chosen here 10 to the power minus 7
+
+366
+00:12:48.880 --> 00:12:50.000
+as one of the current and
+
+367
+00:12:50.000 --> 00:12:51.920
+the other current that i'm taking is 10
+
+368
+00:12:51.920 --> 00:12:53.120
+to the power minus 8
+
+369
+00:12:53.120 --> 00:12:54.800
+okay so i've taken that difference and
+
+370
+00:12:54.800 --> 00:12:56.560
+the corresponding regions values i have
+
+371
+00:12:56.560 --> 00:12:57.360
+taken
+
+372
+00:12:57.360 --> 00:12:59.040
+and then when i try to measure their
+
+373
+00:12:59.040 --> 00:13:01.200
+differences supposed to be equal to this
+
+374
+00:13:01.200 --> 00:13:06.959
+okay so now clearly for room temperature
+
+375
+00:13:06.959 --> 00:13:10.320
+okay that is for a
+
+376
+00:13:10.320 --> 00:13:13.440
+temperature of 300 kelvin okay
+
+377
+00:13:13.440 --> 00:13:18.000
+one could write this vk or this kt by q
+
+378
+00:13:18.000 --> 00:13:20.000
+would be approximately equal to
+
+379
+00:13:20.000 --> 00:13:21.920
+sometimes 25 millivolt
+
+380
+00:13:21.920 --> 00:13:23.680
+or sometimes they used to write 26
+
+381
+00:13:23.680 --> 00:13:26.240
+millivolt okay so
+
+382
+00:13:26.240 --> 00:13:27.760
+what we do is that we'll just fix this
+
+383
+00:13:27.760 --> 00:13:30.399
+26 millivolt as our quantity here
+
+384
+00:13:30.399 --> 00:13:33.600
+okay and in case if the value of n
+
+385
+00:13:33.600 --> 00:13:36.000
+is equal to 1 then i just want you to
+
+386
+00:13:36.000 --> 00:13:38.320
+compute what is the slope factor of that
+
+387
+00:13:38.320 --> 00:13:40.480
+okay so this is just a kind of ideal
+
+388
+00:13:40.480 --> 00:13:41.600
+case where
+
+389
+00:13:41.600 --> 00:13:44.959
+having an n that is equal to 1 is pretty
+
+390
+00:13:44.959 --> 00:13:48.560
+pretty much rare okay so i just want you
+
+391
+00:13:48.560 --> 00:13:50.399
+to compute and get me the value of this
+
+392
+00:13:50.399 --> 00:13:51.760
+slope factor for
+
+393
+00:13:51.760 --> 00:13:53.920
+n that is equal to one so that you can
+
+394
+00:13:53.920 --> 00:13:55.279
+just directly substitute here
+
+395
+00:13:55.279 --> 00:13:57.040
+and you have to have your calculator in
+
+396
+00:13:57.040 --> 00:14:00.240
+order to compute the remaining part
+
+397
+00:14:00.240 --> 00:14:03.199
+okay so the value would be closer to 60
+
+398
+00:14:03.199 --> 00:14:04.880
+millivolt per decade
+
+399
+00:14:04.880 --> 00:14:07.440
+okay yeah so exactly if you want it is
+
+400
+00:14:07.440 --> 00:14:10.079
+like 59.86 but we would approximate that
+
+401
+00:14:10.079 --> 00:14:11.040
+to be closer to
+
+402
+00:14:11.040 --> 00:14:13.360
+60 millivolt per decade now what does
+
+403
+00:14:13.360 --> 00:14:15.120
+this tells us
+
+404
+00:14:15.120 --> 00:14:17.519
+okay this is the most important thing
+
+405
+00:14:17.519 --> 00:14:18.399
+now
+
+406
+00:14:18.399 --> 00:14:21.839
+this tells me that in order to reduce
+
+407
+00:14:21.839 --> 00:14:24.880
+the current from 10 to the power minus 7
+
+408
+00:14:24.880 --> 00:14:27.440
+to 10 to the power minus 8 i need only
+
+409
+00:14:27.440 --> 00:14:29.360
+60 millivolt
+
+410
+00:14:29.360 --> 00:14:32.240
+difference between the vgs okay so this
+
+411
+00:14:32.240 --> 00:14:33.040
+is actually
+
+412
+00:14:33.040 --> 00:14:36.639
+a better quantity but let us take
+
+413
+00:14:36.639 --> 00:14:38.639
+en that is equal to 1.5 which is
+
+414
+00:14:38.639 --> 00:14:39.920
+normally found
+
+415
+00:14:39.920 --> 00:14:43.279
+in the mos technologies okay so when i
+
+416
+00:14:43.279 --> 00:14:45.040
+have
+
+417
+00:14:45.040 --> 00:14:47.040
+the n that is equal to 1.5 the slope
+
+418
+00:14:47.040 --> 00:14:48.079
+factor becomes
+
+419
+00:14:48.079 --> 00:14:50.959
+something like 90 millivolt per decade
+
+420
+00:14:50.959 --> 00:14:52.480
+now what does this mean
+
+421
+00:14:52.480 --> 00:14:55.519
+which number is good
+
+422
+00:14:56.000 --> 00:14:57.760
+having s that is equal to 60 millivolt
+
+423
+00:14:57.760 --> 00:14:59.839
+is good or having yes that is equal to
+
+424
+00:14:59.839 --> 00:15:00.800
+90 millivolt
+
+425
+00:15:00.800 --> 00:15:02.720
+per decade is good so which one among
+
+426
+00:15:02.720 --> 00:15:04.880
+you
+
+427
+00:15:05.440 --> 00:15:08.480
+okay you see in order to reduce from
+
+428
+00:15:08.480 --> 00:15:10.480
+uh 10 to the power minus 7 to 10 to the
+
+429
+00:15:10.480 --> 00:15:13.519
+power minus 8 i have to have
+
+430
+00:15:13.519 --> 00:15:17.920
+the difference the v gs1 has to change
+
+431
+00:15:17.920 --> 00:15:20.399
+to v gs2 so that the vgs 2 can be
+
+432
+00:15:20.399 --> 00:15:21.839
+returned as vgs 1
+
+433
+00:15:21.839 --> 00:15:24.560
+plus 90 millivolt so i need a 90
+
+434
+00:15:24.560 --> 00:15:26.560
+millivolt to reduce this current
+
+435
+00:15:26.560 --> 00:15:28.560
+whereas here when i have n that is equal
+
+436
+00:15:28.560 --> 00:15:29.759
+to one
+
+437
+00:15:29.759 --> 00:15:31.519
+okay so let's say for example i have
+
+438
+00:15:31.519 --> 00:15:33.120
+regis one here and
+
+439
+00:15:33.120 --> 00:15:36.320
+i could write this vgs two as we just
+
+440
+00:15:36.320 --> 00:15:39.040
+one plus just sixty millivolt so which
+
+441
+00:15:39.040 --> 00:15:41.839
+one is good in this case
+
+442
+00:15:42.160 --> 00:15:45.519
+which is stepping down much faster
+
+443
+00:15:45.519 --> 00:15:49.120
+n equal to 1 yeah n equals to 1 because
+
+444
+00:15:49.120 --> 00:15:50.880
+i need only 60 millivolt to reduce the
+
+445
+00:15:50.880 --> 00:15:52.560
+current from 10 to the power minus 7 to
+
+446
+00:15:52.560 --> 00:15:53.199
+10 to the power
+
+447
+00:15:53.199 --> 00:15:56.000
+minus 8 okay so this is actually better
+
+448
+00:15:56.000 --> 00:15:57.759
+option than compared to this one
+
+449
+00:15:57.759 --> 00:16:00.320
+okay so maybe the way that i have marked
+
+450
+00:16:00.320 --> 00:16:01.759
+here as a slope factor
+
+451
+00:16:01.759 --> 00:16:03.360
+might confuse you though the only thing
+
+452
+00:16:03.360 --> 00:16:06.000
+that i wanted here is that
+
+453
+00:16:06.000 --> 00:16:07.279
+through the slope factor we are trying
+
+454
+00:16:07.279 --> 00:16:09.680
+to evaluate
+
+455
+00:16:09.680 --> 00:16:12.880
+this quantity okay so
+
+456
+00:16:12.880 --> 00:16:14.639
+how much of the vgs that i needed you
+
+457
+00:16:14.639 --> 00:16:16.560
+know reduce the current a decade below
+
+458
+00:16:16.560 --> 00:16:16.959
+okay
+
+459
+00:16:16.959 --> 00:16:19.279
+so the rate at which i want to reduce is
+
+460
+00:16:19.279 --> 00:16:20.639
+what we are trying to compute through
+
+461
+00:16:20.639 --> 00:16:21.040
+this
+
+462
+00:16:21.040 --> 00:16:23.120
+slope factor s okay or the differences
+
+463
+00:16:23.120 --> 00:16:24.639
+in the value of vgs okay
+
+464
+00:16:24.639 --> 00:16:26.639
+if i could able to make this vgs1 and
+
+465
+00:16:26.639 --> 00:16:28.639
+vgs2 as close as possible
+
+466
+00:16:28.639 --> 00:16:30.480
+then the rate at which this would
+
+467
+00:16:30.480 --> 00:16:32.800
+decline would be much faster okay so for
+
+468
+00:16:32.800 --> 00:16:33.360
+this
+
+469
+00:16:33.360 --> 00:16:35.600
+new graph that i've drawn you could see
+
+470
+00:16:35.600 --> 00:16:37.600
+that i need only a small amount of v
+
+471
+00:16:37.600 --> 00:16:38.959
+just to reduce from 10 to the power
+
+472
+00:16:38.959 --> 00:16:41.040
+minus 7 to 10 to the minus 8
+
+473
+00:16:41.040 --> 00:16:43.920
+okay so in that case the s factor will
+
+474
+00:16:43.920 --> 00:16:44.880
+be
+
+475
+00:16:44.880 --> 00:16:48.480
+much smaller okay so i need
+
+476
+00:16:48.480 --> 00:16:50.800
+s to be small or basically the delta
+
+477
+00:16:50.800 --> 00:16:51.920
+which is to be small
+
+478
+00:16:51.920 --> 00:16:54.240
+in order to reduce the current by a
+
+479
+00:16:54.240 --> 00:16:55.360
+decade
+
+480
+00:16:55.360 --> 00:16:58.560
+okay hope that it makes sense so we want
+
+481
+00:16:58.560 --> 00:17:00.160
+this delta which is to be as small as
+
+482
+00:17:00.160 --> 00:17:00.720
+possible
+
+483
+00:17:00.720 --> 00:17:02.959
+okay so in this case having an n factor
+
+484
+00:17:02.959 --> 00:17:04.559
+that is equal to 1 will give us the
+
+485
+00:17:04.559 --> 00:17:07.919
+minimum v just to reduce the current
+
+486
+00:17:07.919 --> 00:17:11.039
+by a decade okay yeah
+
+487
+00:17:11.039 --> 00:17:14.160
+so now let us do a simple problem here
+
+488
+00:17:14.160 --> 00:17:15.599
+yeah hope that you could be able to see
+
+489
+00:17:15.599 --> 00:17:17.599
+this particular problem so what is the
+
+490
+00:17:17.599 --> 00:17:18.079
+minimum
+
+491
+00:17:18.079 --> 00:17:20.799
+threshold voltage for which the leakage
+
+492
+00:17:20.799 --> 00:17:21.520
+current
+
+493
+00:17:21.520 --> 00:17:24.079
+through the off transistor that is when
+
+494
+00:17:24.079 --> 00:17:26.720
+vgs is equal to zero is ten to the power
+
+495
+00:17:26.720 --> 00:17:30.160
+for three times lesser than the transfer
+
+496
+00:17:30.160 --> 00:17:31.520
+that is barely on
+
+497
+00:17:31.520 --> 00:17:35.520
+when we just is equal to bt okay so
+
+498
+00:17:35.520 --> 00:17:37.520
+uh assume that the value of n is equal
+
+499
+00:17:37.520 --> 00:17:40.160
+to 1.5 okay so we would be solving two
+
+500
+00:17:40.160 --> 00:17:40.559
+things
+
+501
+00:17:40.559 --> 00:17:42.960
+okay one with n that is equal to 1.5 the
+
+502
+00:17:42.960 --> 00:17:45.280
+other one with n that is equal to 1.3
+
+503
+00:17:45.280 --> 00:17:45.760
+okay
+
+504
+00:17:45.760 --> 00:17:48.720
+so soi stands for silicon on insulator
+
+505
+00:17:48.720 --> 00:17:50.400
+which is again a kind of technology
+
+506
+00:17:50.400 --> 00:17:51.840
+through which mos transits can be
+
+507
+00:17:51.840 --> 00:17:52.799
+fabricated
+
+508
+00:17:52.799 --> 00:17:54.960
+okay so we will talk about these things
+
+509
+00:17:54.960 --> 00:17:56.960
+later on when we discuss about this unit
+
+510
+00:17:56.960 --> 00:17:59.760
+number five okay so as of now we'll just
+
+511
+00:17:59.760 --> 00:18:00.880
+won't worry about this
+
+512
+00:18:00.880 --> 00:18:03.840
+sy or any other factor okay we'll worry
+
+513
+00:18:03.840 --> 00:18:05.039
+about only the factor of
+
+514
+00:18:05.039 --> 00:18:08.480
+n so now given this question how would
+
+515
+00:18:08.480 --> 00:18:08.960
+we
+
+516
+00:18:08.960 --> 00:18:11.360
+actually start so we actually wanted you
+
+517
+00:18:11.360 --> 00:18:12.720
+to calculate the threshold voltage of
+
+518
+00:18:12.720 --> 00:18:14.320
+the device
+
+519
+00:18:14.320 --> 00:18:17.760
+based on the given data we know that
+
+520
+00:18:17.760 --> 00:18:19.360
+the current there is some sort of
+
+521
+00:18:19.360 --> 00:18:22.559
+current okay
+
+522
+00:18:22.559 --> 00:18:25.840
+at these two points one when the value
+
+523
+00:18:25.840 --> 00:18:27.360
+of vgs is at vt
+
+524
+00:18:27.360 --> 00:18:29.120
+there is some current which is ids one
+
+525
+00:18:29.120 --> 00:18:31.039
+let us take and there is also one more
+
+526
+00:18:31.039 --> 00:18:31.679
+current
+
+527
+00:18:31.679 --> 00:18:34.799
+okay which is ids2 when vgs
+
+528
+00:18:34.799 --> 00:18:38.080
+is equal to zero okay so and the
+
+529
+00:18:38.080 --> 00:18:39.600
+difference between these two
+
+530
+00:18:39.600 --> 00:18:42.640
+are 10 to the power 3 okay
+
+531
+00:18:42.640 --> 00:18:46.160
+that is ids 1 is 10 to the power
+
+532
+00:18:46.160 --> 00:18:49.200
+3 times greater than the value of ids 2
+
+533
+00:18:49.200 --> 00:18:51.440
+okay that is what has been given here
+
+534
+00:18:51.440 --> 00:18:53.919
+now we want you to compute the value of
+
+535
+00:18:53.919 --> 00:18:54.720
+vt
+
+536
+00:18:54.720 --> 00:18:58.160
+based on this expression so how i can
+
+537
+00:18:58.160 --> 00:18:59.520
+rewrite those
+
+538
+00:18:59.520 --> 00:19:02.400
+currents when the value of vgs is equal
+
+539
+00:19:02.400 --> 00:19:04.000
+or less than the value of vt
+
+540
+00:19:04.000 --> 00:19:07.280
+how i can replace this ids1 and ids2
+
+541
+00:19:07.280 --> 00:19:09.600
+expressions and we also have to assume
+
+542
+00:19:09.600 --> 00:19:11.440
+that the value of vds is
+
+543
+00:19:11.440 --> 00:19:13.200
+much larger than the thermal voltage
+
+544
+00:19:13.200 --> 00:19:14.880
+okay so this is an assumption so
+
+545
+00:19:14.880 --> 00:19:16.960
+we can leave out the exponential part
+
+546
+00:19:16.960 --> 00:19:18.400
+that was there in the original
+
+547
+00:19:18.400 --> 00:19:21.120
+expression okay
+
+548
+00:19:24.000 --> 00:19:26.240
+so we can use i s into e to the power of
+
+549
+00:19:26.240 --> 00:19:27.520
+something
+
+550
+00:19:27.520 --> 00:19:30.000
+yes yes yes yeah this is what we wanted
+
+551
+00:19:30.000 --> 00:19:30.799
+actually
+
+552
+00:19:30.799 --> 00:19:34.320
+so in this case we know that in general
+
+553
+00:19:34.320 --> 00:19:38.320
+i can bring out the expression of ids
+
+554
+00:19:38.320 --> 00:19:40.559
+okay so which is defined as is e to the
+
+555
+00:19:40.559 --> 00:19:42.320
+power vgs
+
+556
+00:19:42.320 --> 00:19:45.600
+minus vt divided by n times that of
+
+557
+00:19:45.600 --> 00:19:48.400
+vk okay so i can use this equation and i
+
+558
+00:19:48.400 --> 00:19:49.679
+can write it as is
+
+559
+00:19:49.679 --> 00:19:52.799
+e to the power and the value of vgs that
+
+560
+00:19:52.799 --> 00:19:53.440
+i have
+
+561
+00:19:53.440 --> 00:19:56.799
+when i am at vt will become zero right
+
+562
+00:19:56.799 --> 00:20:00.080
+so vg is yeah so what happens to the
+
+563
+00:20:00.080 --> 00:20:00.960
+exponential of
+
+564
+00:20:00.960 --> 00:20:04.400
+zero one it will be one okay
+
+565
+00:20:04.400 --> 00:20:07.600
+yeah so it is something like i s into
+
+566
+00:20:07.600 --> 00:20:08.960
+one
+
+567
+00:20:08.960 --> 00:20:11.919
+okay and on the other hand i have again
+
+568
+00:20:11.919 --> 00:20:12.799
+i is
+
+569
+00:20:12.799 --> 00:20:14.640
+e to the power and what is the value of
+
+570
+00:20:14.640 --> 00:20:16.480
+v j's that i have here
+
+571
+00:20:16.480 --> 00:20:19.280
+that is equal to zero right yeah so i
+
+572
+00:20:19.280 --> 00:20:21.280
+have something like minus vt divided by
+
+573
+00:20:21.280 --> 00:20:24.799
+n times that of vk okay
+
+574
+00:20:24.799 --> 00:20:26.880
+so i could cancel out this these two
+
+575
+00:20:26.880 --> 00:20:28.320
+terms and
+
+576
+00:20:28.320 --> 00:20:30.240
+i could bring the exponential on the
+
+577
+00:20:30.240 --> 00:20:34.240
+other side
+
+578
+00:20:34.240 --> 00:20:37.600
+vk and i have this 10 to the power 3
+
+579
+00:20:37.600 --> 00:20:40.640
+and take long on both the sides
+
+580
+00:20:40.640 --> 00:20:44.000
+so that we can get rid of this
+
+581
+00:20:45.360 --> 00:20:47.520
+so through this formula i could find the
+
+582
+00:20:47.520 --> 00:20:49.200
+value of the threshold voltage of the
+
+583
+00:20:49.200 --> 00:20:50.159
+transistor
+
+584
+00:20:50.159 --> 00:20:53.360
+okay so you can use this vk to be 26
+
+585
+00:20:53.360 --> 00:20:56.159
+approximately 26 millivolt okay at the
+
+586
+00:20:56.159 --> 00:20:57.760
+room temperature
+
+587
+00:20:57.760 --> 00:21:02.080
+and you just get me the value of this so
+
+588
+00:21:02.080 --> 00:21:03.679
+269 milli
+
+589
+00:21:03.679 --> 00:21:06.960
+ah yeah so approximately it comes around
+
+590
+00:21:06.960 --> 00:21:08.280
+yeah closer to this
+
+591
+00:21:08.280 --> 00:21:11.760
+269.4 approximately i can write it as
+
+592
+00:21:11.760 --> 00:21:13.840
+270 millivolt okay and that is the
+
+593
+00:21:13.840 --> 00:21:15.360
+threshold voltage of this particular
+
+594
+00:21:15.360 --> 00:21:16.400
+transfer
+
+595
+00:21:16.400 --> 00:21:18.159
+so now there is one more part of this
+
+596
+00:21:18.159 --> 00:21:20.640
+okay if at all if i'm using this
+
+597
+00:21:20.640 --> 00:21:24.559
+soi which has a smaller value of
+
+598
+00:21:24.559 --> 00:21:26.559
+n what is the threshold voltage that is
+
+599
+00:21:26.559 --> 00:21:27.919
+required for sy
+
+600
+00:21:27.919 --> 00:21:31.360
+if n is equal to 1.3 okay
+
+601
+00:21:31.360 --> 00:21:33.360
+so now this time what i do is that i
+
+602
+00:21:33.360 --> 00:21:34.400
+know that
+
+603
+00:21:34.400 --> 00:21:36.559
+i could rewrite this expression on the
+
+604
+00:21:36.559 --> 00:21:37.600
+other way
+
+605
+00:21:37.600 --> 00:21:40.720
+okay so which is nothing but vt can be
+
+606
+00:21:40.720 --> 00:21:41.440
+written as
+
+607
+00:21:41.440 --> 00:21:44.960
+n times vk and there is a lawn
+
+608
+00:21:44.960 --> 00:21:46.960
+to the 10 to the power 3 right so this 3
+
+609
+00:21:46.960 --> 00:21:48.159
+can be brought
+
+610
+00:21:48.159 --> 00:21:50.559
+in front and i can write it as lon of 10
+
+611
+00:21:50.559 --> 00:21:51.200
+itself
+
+612
+00:21:51.200 --> 00:21:54.000
+right so now this particular quantity
+
+613
+00:21:54.000 --> 00:21:55.039
+that i have here
+
+614
+00:21:55.039 --> 00:21:56.480
+is a well known factor which is nothing
+
+615
+00:21:56.480 --> 00:21:58.720
+but the s okay
+
+616
+00:21:58.720 --> 00:22:00.880
+and just by multiplying by a factor of
+
+617
+00:22:00.880 --> 00:22:02.159
+three would get me the
+
+618
+00:22:02.159 --> 00:22:04.240
+threshold voltage of the device okay so
+
+619
+00:22:04.240 --> 00:22:05.520
+now in case
+
+620
+00:22:05.520 --> 00:22:09.360
+if i know this s factor so
+
+621
+00:22:09.360 --> 00:22:12.480
+now for sy we know that
+
+622
+00:22:12.480 --> 00:22:15.840
+the n is said to be 1.3 okay so based on
+
+623
+00:22:15.840 --> 00:22:16.640
+this quantity
+
+624
+00:22:16.640 --> 00:22:18.720
+first let us try to calculate this slope
+
+625
+00:22:18.720 --> 00:22:20.159
+factor and then we
+
+626
+00:22:20.159 --> 00:22:21.679
+we know that this slow factor has to be
+
+627
+00:22:21.679 --> 00:22:23.520
+multiplied by a factor of 3
+
+628
+00:22:23.520 --> 00:22:25.440
+in order to get the value of the
+
+629
+00:22:25.440 --> 00:22:27.120
+threshold voltage of the transistor
+
+630
+00:22:27.120 --> 00:22:29.200
+right so i can use this way as well okay
+
+631
+00:22:29.200 --> 00:22:30.720
+so this is one more way
+
+632
+00:22:30.720 --> 00:22:32.640
+by which we can find the threshold
+
+633
+00:22:32.640 --> 00:22:33.919
+voltage okay
+
+634
+00:22:33.919 --> 00:22:35.600
+or you can use the same expression the
+
+635
+00:22:35.600 --> 00:22:37.120
+only thing is replace this n with a
+
+636
+00:22:37.120 --> 00:22:39.360
+factor of 1.3 that is also fine okay
+
+637
+00:22:39.360 --> 00:22:42.400
+so sometimes given an s factor
+
+638
+00:22:42.400 --> 00:22:46.559
+we can directly do this as well clear
+
+639
+00:22:47.440 --> 00:22:49.520
+so this is the slope factor that i have
+
+640
+00:22:49.520 --> 00:22:51.360
+and once i know this flow factor
+
+641
+00:22:51.360 --> 00:22:53.919
+what i can do is that i can just
+
+642
+00:22:53.919 --> 00:22:55.679
+multiply by a factor of three
+
+643
+00:22:55.679 --> 00:22:59.280
+to get put into okay
+
+644
+00:22:59.280 --> 00:23:01.440
+yeah so now what i'm going to do is that
+
+645
+00:23:01.440 --> 00:23:02.480
+i'm just going to
+
+646
+00:23:02.480 --> 00:23:05.520
+run in a much faster phase okay
+
+647
+00:23:05.520 --> 00:23:08.000
+so the second type of leakage that we
+
+648
+00:23:08.000 --> 00:23:08.799
+have
+
+649
+00:23:08.799 --> 00:23:10.720
+is about the gate leakage and as i said
+
+650
+00:23:10.720 --> 00:23:12.480
+this leakage happens just because the
+
+651
+00:23:12.480 --> 00:23:14.159
+thickness of the oxide for lower
+
+652
+00:23:14.159 --> 00:23:15.440
+technologies
+
+653
+00:23:15.440 --> 00:23:18.320
+has been dropped to a thickness which is
+
+654
+00:23:18.320 --> 00:23:19.440
+almost like 15
+
+655
+00:23:19.440 --> 00:23:22.000
+to 20 amp strong so which is like 10 to
+
+656
+00:23:22.000 --> 00:23:23.440
+the power minus 10
+
+657
+00:23:23.440 --> 00:23:25.440
+meters okay and due to which what
+
+658
+00:23:25.440 --> 00:23:26.559
+happens is that there is some
+
+659
+00:23:26.559 --> 00:23:28.080
+phenomena which is known as tunneling
+
+660
+00:23:28.080 --> 00:23:29.840
+that happens and that results
+
+661
+00:23:29.840 --> 00:23:32.240
+in this gate leakage current okay and
+
+662
+00:23:32.240 --> 00:23:34.000
+again this gate tunneling can be
+
+663
+00:23:34.000 --> 00:23:34.799
+classified
+
+664
+00:23:34.799 --> 00:23:36.799
+physically into two kind of physical
+
+665
+00:23:36.799 --> 00:23:37.919
+mechanisms
+
+666
+00:23:37.919 --> 00:23:40.400
+one is like fn tunneling okay which is
+
+667
+00:23:40.400 --> 00:23:41.200
+more important
+
+668
+00:23:41.200 --> 00:23:43.279
+when we have a moderate thickness
+
+669
+00:23:43.279 --> 00:23:44.880
+basically this kind of tunneling is
+
+670
+00:23:44.880 --> 00:23:47.679
+used for programming the ee probe okay
+
+671
+00:23:47.679 --> 00:23:49.120
+so apart from this we will not discuss
+
+672
+00:23:49.120 --> 00:23:50.880
+much about those gate leakage
+
+673
+00:23:50.880 --> 00:23:52.559
+things and there is also a direct
+
+674
+00:23:52.559 --> 00:23:54.240
+tunneling and this direct
+
+675
+00:23:54.240 --> 00:23:56.880
+internally happens even at low voltages
+
+676
+00:23:56.880 --> 00:23:57.279
+with
+
+677
+00:23:57.279 --> 00:23:59.200
+very thin oxide and this is the most
+
+678
+00:23:59.200 --> 00:24:01.840
+dominant leakage component that we have
+
+679
+00:24:01.840 --> 00:24:04.320
+for the lower technologies okay so the
+
+680
+00:24:04.320 --> 00:24:05.919
+direct handling is one of the dominant
+
+681
+00:24:05.919 --> 00:24:07.039
+factor
+
+682
+00:24:07.039 --> 00:24:10.240
+when you go for lower technologies
+
+683
+00:24:10.240 --> 00:24:12.480
+that's it we will not go much in depth
+
+684
+00:24:12.480 --> 00:24:13.360
+and the final
+
+685
+00:24:13.360 --> 00:24:16.080
+type of junction leakage that we have is
+
+686
+00:24:16.080 --> 00:24:17.840
+about the pn junction okay so here i
+
+687
+00:24:17.840 --> 00:24:19.600
+have a structure which is known as
+
+688
+00:24:19.600 --> 00:24:22.200
+n well structure we will talk about this
+
+689
+00:24:22.200 --> 00:24:23.360
+envelope
+
+690
+00:24:23.360 --> 00:24:24.720
+and there is something known as twin
+
+691
+00:24:24.720 --> 00:24:26.720
+turb and many such factors
+
+692
+00:24:26.720 --> 00:24:28.400
+when we discuss about unit number five
+
+693
+00:24:28.400 --> 00:24:30.240
+okay so as of now you assume that an
+
+694
+00:24:30.240 --> 00:24:30.880
+envelope
+
+695
+00:24:30.880 --> 00:24:33.039
+is something where we will have this
+
+696
+00:24:33.039 --> 00:24:34.960
+pmos transistor
+
+697
+00:24:34.960 --> 00:24:36.799
+and the piece of state is where we will
+
+698
+00:24:36.799 --> 00:24:38.000
+have these nmos
+
+699
+00:24:38.000 --> 00:24:41.120
+transistors clear
+
+700
+00:24:41.200 --> 00:24:42.720
+so as you could able to see that there
+
+701
+00:24:42.720 --> 00:24:45.600
+is a pn junction okay across the source
+
+702
+00:24:45.600 --> 00:24:48.640
+and the body and even in the case of
+
+703
+00:24:48.640 --> 00:24:50.720
+a pmos transfer there is some sort of pn
+
+704
+00:24:50.720 --> 00:24:52.240
+junction diodes okay
+
+705
+00:24:52.240 --> 00:24:53.840
+now we know that normally these p
+
+706
+00:24:53.840 --> 00:24:56.159
+injection diodes are in general reverse
+
+707
+00:24:56.159 --> 00:24:58.480
+bias
+
+708
+00:24:58.480 --> 00:25:00.000
+so in this case you could see that there
+
+709
+00:25:00.000 --> 00:25:01.679
+is a p substrate
+
+710
+00:25:01.679 --> 00:25:03.520
+so this p substrate is connected to the
+
+711
+00:25:03.520 --> 00:25:05.440
+ground through this p plus region okay
+
+712
+00:25:05.440 --> 00:25:06.880
+so it is something like we are trying to
+
+713
+00:25:06.880 --> 00:25:08.000
+fix some sort of
+
+714
+00:25:08.000 --> 00:25:09.679
+body potential which is generally a
+
+715
+00:25:09.679 --> 00:25:11.360
+ground for
+
+716
+00:25:11.360 --> 00:25:14.080
+an nmos transfer so similarly i would be
+
+717
+00:25:14.080 --> 00:25:14.960
+having
+
+718
+00:25:14.960 --> 00:25:17.279
+an envel this end well is completely
+
+719
+00:25:17.279 --> 00:25:19.520
+biased to a vdd okay so
+
+720
+00:25:19.520 --> 00:25:22.240
+to some power supply clear so there is
+
+721
+00:25:22.240 --> 00:25:23.600
+some sort of reverse bias
+
+722
+00:25:23.600 --> 00:25:25.600
+between this pn junction due to these
+
+723
+00:25:25.600 --> 00:25:27.600
+kind of body that has been connected to
+
+724
+00:25:27.600 --> 00:25:29.200
+a fixed potential okay
+
+725
+00:25:29.200 --> 00:25:31.360
+whereas the source and the drain may or
+
+726
+00:25:31.360 --> 00:25:33.440
+may not have the same potential as we
+
+727
+00:25:33.440 --> 00:25:35.200
+have for the body okay so they may have
+
+728
+00:25:35.200 --> 00:25:37.039
+a higher potential than compared to this
+
+729
+00:25:37.039 --> 00:25:38.480
+uh in the case of an n-type
+
+730
+00:25:38.480 --> 00:25:40.480
+semiconductor whereas in the case of a
+
+731
+00:25:40.480 --> 00:25:42.080
+p-type semiconductor
+
+732
+00:25:42.080 --> 00:25:44.960
+these p plus regions normally will take
+
+733
+00:25:44.960 --> 00:25:46.320
+voltages which are
+
+734
+00:25:46.320 --> 00:25:48.799
+either equal to v db or sometimes lower
+
+735
+00:25:48.799 --> 00:25:50.080
+than the value of v d d
+
+736
+00:25:50.080 --> 00:25:53.039
+here so right now you might not be able
+
+737
+00:25:53.039 --> 00:25:54.799
+to appreciate this particular phenomena
+
+738
+00:25:54.799 --> 00:25:55.760
+just because
+
+739
+00:25:55.760 --> 00:25:58.559
+we still have to go a long way okay so
+
+740
+00:25:58.559 --> 00:25:59.520
+the only thing is that
+
+741
+00:25:59.520 --> 00:26:02.240
+these pn junction diodes are in general
+
+742
+00:26:02.240 --> 00:26:03.360
+they are reverse biased
+
+743
+00:26:03.360 --> 00:26:04.960
+okay and whenever there is a reverse
+
+744
+00:26:04.960 --> 00:26:06.640
+biased pn junction we know that there is
+
+745
+00:26:06.640 --> 00:26:08.000
+some sort of leakage current and one
+
+746
+00:26:08.000 --> 00:26:09.279
+could model that
+
+747
+00:26:09.279 --> 00:26:10.640
+reverse bias leakage current through
+
+748
+00:26:10.640 --> 00:26:12.320
+this kind of expression okay
+
+749
+00:26:12.320 --> 00:26:16.159
+so here in this case so yeah
+
+750
+00:26:16.159 --> 00:26:20.080
+so why is there uh p plus and n plus in
+
+751
+00:26:20.080 --> 00:26:22.880
+p substrate so what is the user why will
+
+752
+00:26:22.880 --> 00:26:25.120
+this
+
+753
+00:26:28.000 --> 00:26:29.600
+because this is for the source and this
+
+754
+00:26:29.600 --> 00:26:31.279
+is for the drain
+
+755
+00:26:31.279 --> 00:26:33.440
+these n plus regions that are there in
+
+756
+00:26:33.440 --> 00:26:34.720
+our p substrate
+
+757
+00:26:34.720 --> 00:26:36.960
+is by construction uh we will have this
+
+758
+00:26:36.960 --> 00:26:38.159
+kind of structure
+
+759
+00:26:38.159 --> 00:26:40.240
+i'm talking about p plus and p minus
+
+760
+00:26:40.240 --> 00:26:41.679
+substitutes that
+
+761
+00:26:41.679 --> 00:26:44.720
+what does what are the negatives
+
+762
+00:26:44.720 --> 00:26:47.440
+this one you're talking this people okay
+
+763
+00:26:47.440 --> 00:26:48.080
+yeah yeah
+
+764
+00:26:48.080 --> 00:26:50.240
+so this is something like we are heavily
+
+765
+00:26:50.240 --> 00:26:51.120
+doped this
+
+766
+00:26:51.120 --> 00:26:53.600
+p type material just because in order to
+
+767
+00:26:53.600 --> 00:26:54.880
+reduce the resistivity
+
+768
+00:26:54.880 --> 00:26:56.880
+because even the resistance of the
+
+769
+00:26:56.880 --> 00:26:58.480
+material will also matters when we try
+
+770
+00:26:58.480 --> 00:27:00.320
+to apply some sort of potential
+
+771
+00:27:00.320 --> 00:27:03.279
+say for example if i have a very large
+
+772
+00:27:03.279 --> 00:27:04.080
+resistance
+
+773
+00:27:04.080 --> 00:27:05.600
+the voltage that i am applying here 5
+
+774
+00:27:05.600 --> 00:27:07.520
+volt will be dropped
+
+775
+00:27:07.520 --> 00:27:09.520
+very heavily when the resistance is
+
+776
+00:27:09.520 --> 00:27:11.440
+large okay so we want to reduce the
+
+777
+00:27:11.440 --> 00:27:12.480
+resistance so that
+
+778
+00:27:12.480 --> 00:27:14.480
+i could at least produce something like
+
+779
+00:27:14.480 --> 00:27:15.520
+4.9 volt
+
+780
+00:27:15.520 --> 00:27:18.080
+if the value of resistance is small okay
+
+781
+00:27:18.080 --> 00:27:20.720
+but in case if the resistance is large
+
+782
+00:27:20.720 --> 00:27:23.760
+okay then when i apply a five volt
+
+783
+00:27:23.760 --> 00:27:25.760
+then at this point i would get something
+
+784
+00:27:25.760 --> 00:27:27.520
+like five point sorry four point eight
+
+785
+00:27:27.520 --> 00:27:27.919
+or
+
+786
+00:27:27.919 --> 00:27:29.520
+four point seven volt something like
+
+787
+00:27:29.520 --> 00:27:30.880
+that okay so we want to reduce that
+
+788
+00:27:30.880 --> 00:27:32.320
+resistance when we try to apply
+
+789
+00:27:32.320 --> 00:27:34.399
+some sort of potentials here okay so due
+
+790
+00:27:34.399 --> 00:27:36.880
+to which we generally go for heavy doped
+
+791
+00:27:36.880 --> 00:27:38.159
+materials here
+
+792
+00:27:38.159 --> 00:27:39.520
+that's the reason why we have this p
+
+793
+00:27:39.520 --> 00:27:41.360
+plus regions here and
+
+794
+00:27:41.360 --> 00:27:43.760
+over here there is an n plus regions so
+
+795
+00:27:43.760 --> 00:27:45.039
+which is basically meant to
+
+796
+00:27:45.039 --> 00:27:48.080
+bias this body
+
+797
+00:27:48.080 --> 00:27:50.559
+body of both the pmos as with the nmos
+
+798
+00:27:50.559 --> 00:27:53.440
+does it make sense
+
+799
+00:27:53.760 --> 00:27:57.440
+sir i didn't understand properly so
+
+800
+00:27:57.440 --> 00:27:59.360
+because he said that
+
+801
+00:27:59.360 --> 00:28:01.919
+for for increasing the voltage we use
+
+802
+00:28:01.919 --> 00:28:04.159
+the p plus n cluster
+
+803
+00:28:04.159 --> 00:28:06.720
+so but how are the damage in this uh
+
+804
+00:28:06.720 --> 00:28:08.240
+formula
+
+805
+00:28:08.240 --> 00:28:10.000
+no no you see the entire body is
+
+806
+00:28:10.000 --> 00:28:11.679
+supposed to have some sort of potential
+
+807
+00:28:11.679 --> 00:28:14.240
+some sort of voltage okay so now i am
+
+808
+00:28:14.240 --> 00:28:15.440
+applying a voltage through this
+
+809
+00:28:15.440 --> 00:28:16.080
+particular
+
+810
+00:28:16.080 --> 00:28:19.200
+ground okay and that voltage has to be
+
+811
+00:28:19.200 --> 00:28:21.200
+supplied through this entire structure
+
+812
+00:28:21.200 --> 00:28:23.360
+okay but the opening that i'm giving
+
+813
+00:28:23.360 --> 00:28:23.679
+here
+
+814
+00:28:23.679 --> 00:28:25.919
+is it's something like how i can say
+
+815
+00:28:25.919 --> 00:28:27.520
+okay so every material that
+
+816
+00:28:27.520 --> 00:28:30.080
+that we use has some sort of resistance
+
+817
+00:28:30.080 --> 00:28:30.640
+okay
+
+818
+00:28:30.640 --> 00:28:32.559
+so say for example when i'm trying to
+
+819
+00:28:32.559 --> 00:28:33.760
+apply some 5 volt
+
+820
+00:28:33.760 --> 00:28:35.760
+even when you take a metal okay a
+
+821
+00:28:35.760 --> 00:28:36.799
+lengthy wire
+
+822
+00:28:36.799 --> 00:28:39.840
+which runs like kilometers away so this
+
+823
+00:28:39.840 --> 00:28:41.600
+230 volt that you apply
+
+824
+00:28:41.600 --> 00:28:43.600
+in one end when you reach to the other
+
+825
+00:28:43.600 --> 00:28:44.880
+end it will be like
+
+826
+00:28:44.880 --> 00:28:48.640
+220 volt okay so basically there's some
+
+827
+00:28:48.640 --> 00:28:50.240
+sort of resistances that is along the
+
+828
+00:28:50.240 --> 00:28:50.799
+path
+
+829
+00:28:50.799 --> 00:28:52.720
+okay and in order to reduce the
+
+830
+00:28:52.720 --> 00:28:54.159
+resistance we use this uh
+
+831
+00:28:54.159 --> 00:28:56.000
+aluminium wires the reason why we are
+
+832
+00:28:56.000 --> 00:28:58.080
+going for aluminum wire is that
+
+833
+00:28:58.080 --> 00:29:00.640
+the resistance of those wires are bit
+
+834
+00:29:00.640 --> 00:29:01.360
+less
+
+835
+00:29:01.360 --> 00:29:04.640
+okay so even here i'm trying to
+
+836
+00:29:04.640 --> 00:29:06.480
+apply this potential because it's a
+
+837
+00:29:06.480 --> 00:29:08.320
+planar structure like i have to talk
+
+838
+00:29:08.320 --> 00:29:10.080
+more about the semiconductor
+
+839
+00:29:10.080 --> 00:29:12.159
+over here but these things has to be
+
+840
+00:29:12.159 --> 00:29:14.399
+discussed during our unit number five
+
+841
+00:29:14.399 --> 00:29:16.720
+so planar fabrication is something like
+
+842
+00:29:16.720 --> 00:29:18.080
+all our terminals will be
+
+843
+00:29:18.080 --> 00:29:19.679
+at the top level so we will have a
+
+844
+00:29:19.679 --> 00:29:22.080
+general substrate or something
+
+845
+00:29:22.080 --> 00:29:25.440
+like a p substrate okay
+
+846
+00:29:25.440 --> 00:29:27.600
+and then what i do is that i i try to
+
+847
+00:29:27.600 --> 00:29:29.200
+dope things like a p
+
+848
+00:29:29.200 --> 00:29:32.640
+plus material with some sort of masking
+
+849
+00:29:32.640 --> 00:29:33.200
+and then
+
+850
+00:29:33.200 --> 00:29:35.679
+later there will be a metalization okay
+
+851
+00:29:35.679 --> 00:29:36.640
+and then
+
+852
+00:29:36.640 --> 00:29:38.880
+i will have a wire and through the wire
+
+853
+00:29:38.880 --> 00:29:40.159
+i would be connected to
+
+854
+00:29:40.159 --> 00:29:42.000
+an external power supply like a five
+
+855
+00:29:42.000 --> 00:29:43.679
+volt uh supply okay
+
+856
+00:29:43.679 --> 00:29:46.640
+so what happens is that these voltages
+
+857
+00:29:46.640 --> 00:29:48.000
+are the current flows
+
+858
+00:29:48.000 --> 00:29:49.919
+through this shorter wire will have a
+
+859
+00:29:49.919 --> 00:29:51.039
+much larger resistance
+
+860
+00:29:51.039 --> 00:29:52.880
+and again when i'm entering into the
+
+861
+00:29:52.880 --> 00:29:54.080
+into the substrate
+
+862
+00:29:54.080 --> 00:29:56.960
+i need a low resistance path okay so
+
+863
+00:29:56.960 --> 00:29:58.159
+what we are trying to really
+
+864
+00:29:58.159 --> 00:30:00.399
+do here is that we want to reduce this
+
+865
+00:30:00.399 --> 00:30:02.559
+voltage that is getting dropped here
+
+866
+00:30:02.559 --> 00:30:04.720
+we want to observe whatever the voltage
+
+867
+00:30:04.720 --> 00:30:06.960
+that i have here
+
+868
+00:30:06.960 --> 00:30:10.080
+onto this entire surface as uniform as
+
+869
+00:30:10.080 --> 00:30:10.640
+possible
+
+870
+00:30:10.640 --> 00:30:13.039
+uh it is something like to reduce the
+
+871
+00:30:13.039 --> 00:30:13.840
+resistance
+
+872
+00:30:13.840 --> 00:30:16.159
+not much uh physics behind this
+
+873
+00:30:16.159 --> 00:30:18.000
+particular p plus region
+
+874
+00:30:18.000 --> 00:30:22.080
+okay dancer dancing yeah
+
+875
+00:30:22.080 --> 00:30:23.440
+sorry if i couldn't able to explain
+
+876
+00:30:23.440 --> 00:30:25.679
+properly
+
+877
+00:30:25.679 --> 00:30:28.240
+yeah so but these structures will not
+
+878
+00:30:28.240 --> 00:30:30.000
+actually create any sort of p-n junction
+
+879
+00:30:30.000 --> 00:30:31.840
+it's only the opposite structure like n
+
+880
+00:30:31.840 --> 00:30:33.520
+plus with p-type semiconductor will
+
+881
+00:30:33.520 --> 00:30:34.559
+create a p-n junction
+
+882
+00:30:34.559 --> 00:30:37.120
+and even here an n well which is nothing
+
+883
+00:30:37.120 --> 00:30:38.799
+but an n substrate for
+
+884
+00:30:38.799 --> 00:30:42.000
+a pmos uh will create a pn junction with
+
+885
+00:30:42.000 --> 00:30:42.559
+the p
+
+886
+00:30:42.559 --> 00:30:44.480
+plus sources and the drain structures
+
+887
+00:30:44.480 --> 00:30:46.640
+okay so those pn junctions are normally
+
+888
+00:30:46.640 --> 00:30:47.679
+reversed by us
+
+889
+00:30:47.679 --> 00:30:50.000
+and they generally conduct some small
+
+890
+00:30:50.000 --> 00:30:51.039
+current
+
+891
+00:30:51.039 --> 00:30:54.000
+across them okay even the annul that i
+
+892
+00:30:54.000 --> 00:30:54.799
+have drawn here
+
+893
+00:30:54.799 --> 00:30:56.960
+also creates some sort of bn junction
+
+894
+00:30:56.960 --> 00:30:57.919
+between the
+
+895
+00:30:57.919 --> 00:31:00.399
+p-type substrate and the zen well okay
+
+896
+00:31:00.399 --> 00:31:01.440
+so you have
+
+897
+00:31:01.440 --> 00:31:03.840
+almost like too many parasitic diodes
+
+898
+00:31:03.840 --> 00:31:05.120
+throughout the interior structure
+
+899
+00:31:05.120 --> 00:31:07.600
+okay and all of these structures work in
+
+900
+00:31:07.600 --> 00:31:08.640
+the reverse bias
+
+901
+00:31:08.640 --> 00:31:10.320
+conditions and due to which there will
+
+902
+00:31:10.320 --> 00:31:11.919
+be obviously current flow through them
+
+903
+00:31:11.919 --> 00:31:13.840
+okay and we call that as a junction
+
+904
+00:31:13.840 --> 00:31:14.960
+leakage current
+
+905
+00:31:14.960 --> 00:31:16.559
+yeah which is the current doesn't serve
+
+906
+00:31:16.559 --> 00:31:19.120
+for any purpose it just goes waste
+
+907
+00:31:19.120 --> 00:31:21.120
+okay and one could model the current
+
+908
+00:31:21.120 --> 00:31:23.200
+through this kind of equation where
+
+909
+00:31:23.200 --> 00:31:25.360
+the diode voltage vd can be returned as
+
+910
+00:31:25.360 --> 00:31:26.559
+minus vsb
+
+911
+00:31:26.559 --> 00:31:28.880
+between the source and the body or vdb
+
+912
+00:31:28.880 --> 00:31:32.000
+between the drain and the body
+
+913
+00:31:32.000 --> 00:31:33.840
+yeah so nothing much apart from these
+
+914
+00:31:33.840 --> 00:31:35.919
+discussions with respect to the leakage
+
+915
+00:31:35.919 --> 00:31:38.720
+current so today we discussed about
+
+916
+00:31:38.720 --> 00:31:40.320
+three type of leakages
+
+917
+00:31:40.320 --> 00:31:44.559
+one is the sub threshold conduction
+
+918
+00:31:44.559 --> 00:31:47.919
+the second one is the gate leakage
+
+919
+00:31:47.919 --> 00:31:50.000
+so the most dominant is the direct
+
+920
+00:31:50.000 --> 00:31:52.000
+tunneling impact okay so due to this
+
+921
+00:31:52.000 --> 00:31:53.039
+tunneling effect
+
+922
+00:31:53.039 --> 00:31:54.960
+the gate leakage current flows okay
+
+923
+00:31:54.960 --> 00:31:56.480
+between the gate and the body
+
+924
+00:31:56.480 --> 00:31:58.840
+and the third one is the junction
+
+925
+00:31:58.840 --> 00:32:01.200
+leakage so these are the three important
+
+926
+00:32:01.200 --> 00:32:02.799
+leakage current components that we have
+
+927
+00:32:02.799 --> 00:32:03.360
+okay
+
+928
+00:32:03.360 --> 00:32:06.000
+so the next couple of things as well
+
+929
+00:32:06.000 --> 00:32:06.960
+i'll just run
+
+930
+00:32:06.960 --> 00:32:08.799
+very fast okay so there's nothing much
+
+931
+00:32:08.799 --> 00:32:10.399
+to discuss the only thing that we are
+
+932
+00:32:10.399 --> 00:32:11.440
+going to discuss is that there are
+
+933
+00:32:11.440 --> 00:32:12.960
+certain parameters that varies with
+
+934
+00:32:12.960 --> 00:32:14.240
+respect to the temperature
+
+935
+00:32:14.240 --> 00:32:17.279
+okay so namely the mobility okay so the
+
+936
+00:32:17.279 --> 00:32:18.240
+mobility of the
+
+937
+00:32:18.240 --> 00:32:20.399
+carriers charge carriers generally
+
+938
+00:32:20.399 --> 00:32:21.679
+decreases with the rise in
+
+939
+00:32:21.679 --> 00:32:24.880
+temperature okay and the
+
+940
+00:32:24.880 --> 00:32:26.320
+due to this what happens is that the
+
+941
+00:32:26.320 --> 00:32:28.159
+saturation velocity also
+
+942
+00:32:28.159 --> 00:32:30.559
+tries to gets reduced with respect to
+
+943
+00:32:30.559 --> 00:32:31.519
+the temperature
+
+944
+00:32:31.519 --> 00:32:33.919
+now the reason why this mobility getting
+
+945
+00:32:33.919 --> 00:32:35.519
+reduced with respect temperature is that
+
+946
+00:32:35.519 --> 00:32:36.240
+the lattice
+
+947
+00:32:36.240 --> 00:32:38.480
+structure actually starts vibrating when
+
+948
+00:32:38.480 --> 00:32:39.760
+you raise the temperature of the
+
+949
+00:32:39.760 --> 00:32:42.159
+material okay and due to which the
+
+950
+00:32:42.159 --> 00:32:43.919
+carrier will be get heated by these
+
+951
+00:32:43.919 --> 00:32:45.360
+vibrated phonons
+
+952
+00:32:45.360 --> 00:32:47.120
+and due to which the mobility of these
+
+953
+00:32:47.120 --> 00:32:48.640
+those carriers will get reduced
+
+954
+00:32:48.640 --> 00:32:50.880
+okay so once it gets reduced saturation
+
+955
+00:32:50.880 --> 00:32:52.880
+velocity also gets reduced
+
+956
+00:32:52.880 --> 00:32:55.600
+and the other components like the
+
+957
+00:32:55.600 --> 00:32:56.240
+threshold
+
+958
+00:32:56.240 --> 00:32:59.200
+of the device also decreases linearly
+
+959
+00:32:59.200 --> 00:33:00.399
+with the rise in temperature
+
+960
+00:33:00.399 --> 00:33:03.600
+okay and here again the on current okay
+
+961
+00:33:03.600 --> 00:33:05.600
+also decreases with the rise in
+
+962
+00:33:05.600 --> 00:33:07.200
+temperature
+
+963
+00:33:07.200 --> 00:33:09.120
+and the sub threshold conduction which
+
+964
+00:33:09.120 --> 00:33:11.600
+is the current which we don't want to
+
+965
+00:33:11.600 --> 00:33:14.559
+exist rises exponentially with
+
+966
+00:33:14.559 --> 00:33:15.679
+temperature okay so
+
+967
+00:33:15.679 --> 00:33:17.039
+you see everything happens in the
+
+968
+00:33:17.039 --> 00:33:18.640
+opposite direction we want higher
+
+969
+00:33:18.640 --> 00:33:19.840
+mobility
+
+970
+00:33:19.840 --> 00:33:22.320
+just to make the switch on and off very
+
+971
+00:33:22.320 --> 00:33:23.600
+fast okay
+
+972
+00:33:23.600 --> 00:33:25.440
+and we want this threshold voltage of
+
+973
+00:33:25.440 --> 00:33:26.640
+the transfer to be
+
+974
+00:33:26.640 --> 00:33:29.279
+much higher so that we can set some sort
+
+975
+00:33:29.279 --> 00:33:30.640
+of switching voltages
+
+976
+00:33:30.640 --> 00:33:33.519
+okay that again gets reduced and we
+
+977
+00:33:33.519 --> 00:33:35.279
+don't want the substantial conduction
+
+978
+00:33:35.279 --> 00:33:37.679
+current to exist at all but
+
+979
+00:33:37.679 --> 00:33:40.240
+unfortunately when the temperature rises
+
+980
+00:33:40.240 --> 00:33:42.080
+it increases exponentially
+
+981
+00:33:42.080 --> 00:33:44.559
+and whereas the one good thing is that
+
+982
+00:33:44.559 --> 00:33:46.000
+the gate leakage
+
+983
+00:33:46.000 --> 00:33:47.360
+okay there is something which is
+
+984
+00:33:47.360 --> 00:33:49.279
+independent of the uh temperature
+
+985
+00:33:49.279 --> 00:33:50.720
+because of the tunneling effect
+
+986
+00:33:50.720 --> 00:33:53.679
+okay so so these are the side effects
+
+987
+00:33:53.679 --> 00:33:55.440
+that we have and there are some couple
+
+988
+00:33:55.440 --> 00:33:56.480
+of graph
+
+989
+00:33:56.480 --> 00:33:59.760
+not too many okay it shows the the
+
+990
+00:33:59.760 --> 00:34:00.480
+temperature
+
+991
+00:34:00.480 --> 00:34:01.919
+variation with respect to the current
+
+992
+00:34:01.919 --> 00:34:04.080
+okay so what happens the moment you
+
+993
+00:34:04.080 --> 00:34:06.000
+have the increase in temperature how
+
+994
+00:34:06.000 --> 00:34:07.200
+does the graph
+
+995
+00:34:07.200 --> 00:34:09.520
+shifts okay is what has been given okay
+
+996
+00:34:09.520 --> 00:34:10.879
+so clearly
+
+997
+00:34:10.879 --> 00:34:12.639
+the graph that has been plotted as id
+
+998
+00:34:12.639 --> 00:34:14.800
+versus vgs was plotted against the
+
+999
+00:34:14.800 --> 00:34:15.679
+square root of
+
+1000
+00:34:15.679 --> 00:34:18.719
+ids okay so this is the case when we
+
+1001
+00:34:18.719 --> 00:34:19.199
+have
+
+1002
+00:34:19.199 --> 00:34:21.359
+saturation current okay so we know that
+
+1003
+00:34:21.359 --> 00:34:23.119
+the saturation current
+
+1004
+00:34:23.119 --> 00:34:26.719
+is actually returned as vgs minus vt the
+
+1005
+00:34:26.719 --> 00:34:27.359
+whole square
+
+1006
+00:34:27.359 --> 00:34:29.599
+okay so in order to show the linear
+
+1007
+00:34:29.599 --> 00:34:30.480
+relation
+
+1008
+00:34:30.480 --> 00:34:32.239
+we have taken a square root on both the
+
+1009
+00:34:32.239 --> 00:34:34.560
+sides okay and that's the reason why
+
+1010
+00:34:34.560 --> 00:34:37.520
+you would see the vgs was being plotted
+
+1011
+00:34:37.520 --> 00:34:38.480
+against this
+
+1012
+00:34:38.480 --> 00:34:40.800
+square root of ideas here and that shows
+
+1013
+00:34:40.800 --> 00:34:42.879
+some sort of linear relation between the
+
+1014
+00:34:42.879 --> 00:34:44.639
+temperature
+
+1015
+00:34:44.639 --> 00:34:48.000
+vgs and the square root of ideas okay so
+
+1016
+00:34:48.000 --> 00:34:51.040
+you could see that at high values of vgs
+
+1017
+00:34:51.040 --> 00:34:52.560
+the current has a negative temperature
+
+1018
+00:34:52.560 --> 00:34:54.159
+coefficient so
+
+1019
+00:34:54.159 --> 00:34:55.760
+what does it mean is that the rise in
+
+1020
+00:34:55.760 --> 00:34:57.839
+temperature actually reduces the current
+
+1021
+00:34:57.839 --> 00:35:00.880
+okay at high values of vgs but for low
+
+1022
+00:35:00.880 --> 00:35:03.680
+values of vgs in this particular region
+
+1023
+00:35:03.680 --> 00:35:05.040
+we have a positive temperature
+
+1024
+00:35:05.040 --> 00:35:07.119
+coefficient so when i say positive
+
+1025
+00:35:07.119 --> 00:35:08.160
+temperature coefficient
+
+1026
+00:35:08.160 --> 00:35:10.400
+this means that a rise in temperature
+
+1027
+00:35:10.400 --> 00:35:11.200
+actually
+
+1028
+00:35:11.200 --> 00:35:14.320
+raises the current okay so we will have
+
+1029
+00:35:14.320 --> 00:35:16.000
+a high current when we have
+
+1030
+00:35:16.000 --> 00:35:17.440
+a positive temperature coefficient when
+
+1031
+00:35:17.440 --> 00:35:19.440
+the temperature rises okay
+
+1032
+00:35:19.440 --> 00:35:22.079
+so that's it and with this let me stop
+
+1033
+00:35:22.079 --> 00:35:30.160
+here okay
+

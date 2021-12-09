@@ -1,0 +1,270 @@
+WEBVTT
+
+1
+00:00:05.800 --> 00:00:09.559
+hello everybody in this video I am gonna
+
+2
+00:00:09.559 --> 00:00:14.150
+show you how to design an X nor gate out
+
+3
+00:00:14.150 --> 00:00:20.689
+of C Mon so here's a introduction the
+
+4
+00:00:20.689 --> 00:00:27.730
+symbol for an X nor gate looks like this
+
+5
+00:00:39.640 --> 00:00:44.179
+the truth table if we take the two
+
+6
+00:00:44.179 --> 00:00:56.570
+inputs a and B looks like this 1 0 0 1
+
+7
+00:00:56.570 --> 00:01:06.080
+and the equation is a following so this
+
+8
+00:01:06.080 --> 00:01:10.610
+is how xnor gate looks like so the most
+
+9
+00:01:10.610 --> 00:01:12.620
+important thing is to utilize this
+
+10
+00:01:12.620 --> 00:01:14.420
+equation because this has been a very
+
+11
+00:01:14.420 --> 00:01:23.630
+very important so let's now focus to
+
+12
+00:01:23.630 --> 00:01:28.820
+write down our pull-up network and our
+
+13
+00:01:28.820 --> 00:01:36.050
+pulldown network and then write down the
+
+14
+00:01:36.050 --> 00:01:39.500
+equations for each of them so for a
+
+15
+00:01:39.500 --> 00:01:42.920
+pull-up what we basically do is apply
+
+16
+00:01:42.920 --> 00:01:46.310
+the inverse of this equation so we have
+
+17
+00:01:46.310 --> 00:01:49.670
+a times B so what we have is the inverse
+
+18
+00:01:49.670 --> 00:01:52.910
+of a plus because there's a dot here the
+
+19
+00:01:52.910 --> 00:01:57.710
+inverse B so we have inverse of a plus
+
+20
+00:01:57.710 --> 00:02:01.030
+inverse of B
+
+21
+00:02:01.899 --> 00:02:05.210
+and then for this we apply the same
+
+22
+00:02:05.210 --> 00:02:08.780
+concept but this time since there's
+
+23
+00:02:08.780 --> 00:02:12.769
+already an inverse theirs won't be in
+
+24
+00:02:12.769 --> 00:02:16.360
+the pull-up network session so we have a
+
+25
+00:02:16.360 --> 00:02:19.880
+and then we have B here and then one
+
+26
+00:02:19.880 --> 00:02:25.280
+have an plus sign and then here we're
+
+27
+00:02:25.280 --> 00:02:26.510
+going to group them together by the
+
+28
+00:02:26.510 --> 00:02:29.900
+inverse in which we get this dot right
+
+29
+00:02:29.900 --> 00:02:33.260
+here and for a pulldown it's really
+
+30
+00:02:33.260 --> 00:02:37.150
+really easy it's simply the same thing
+
+31
+00:02:37.150 --> 00:02:48.860
+the same equation now let's draw our
+
+32
+00:02:48.860 --> 00:02:52.430
+CMOS circuit so now what we know our
+
+33
+00:02:52.430 --> 00:03:06.139
+pull-up or pulldown let's write down our
+
+34
+00:03:06.139 --> 00:03:08.739
+equations
+
+35
+00:03:22.940 --> 00:03:25.890
+so let's first draw our pull out network
+
+36
+00:03:25.890 --> 00:03:34.950
+circuit so we have VDD and right here
+
+37
+00:03:34.950 --> 00:03:39.080
+I'm gonna draw this circuit right here
+
+38
+00:03:49.250 --> 00:03:51.810
+and then let's draw our circuit here a
+
+39
+00:03:51.810 --> 00:04:04.590
+plus B and then since there's a and
+
+40
+00:04:04.590 --> 00:04:07.230
+state here we're gonna connect them in
+
+41
+00:04:07.230 --> 00:04:10.260
+series like this so there's our pull-up
+
+42
+00:04:10.260 --> 00:04:19.260
+network and I'll pull down Network we
+
+43
+00:04:19.260 --> 00:04:23.959
+have a times B so we have that in series
+
+44
+00:04:30.440 --> 00:04:33.810
+and then we have this in series again
+
+45
+00:04:33.810 --> 00:04:36.599
+but both this time both a and B is an
+
+46
+00:04:36.599 --> 00:04:38.990
+inverse
+
+47
+00:04:50.260 --> 00:04:54.610
+and then finally here if you have our
+
+48
+00:04:54.610 --> 00:04:59.300
+zero output and then our hi so excuse me
+
+49
+00:04:59.300 --> 00:05:02.660
+so this is low and this is high and this
+
+50
+00:05:02.660 --> 00:05:07.670
+is our here's our output now here is our
+
+51
+00:05:07.670 --> 00:05:09.410
+CMOS circuit but we're not done yet
+
+52
+00:05:09.410 --> 00:05:12.530
+because this is not how an X knowing X
+
+53
+00:05:12.530 --> 00:05:17.210
+nor gate works as you know that this is
+
+54
+00:05:17.210 --> 00:05:21.310
+how the X nor gate works is with these
+
+55
+00:05:21.310 --> 00:05:26.330
+following outputs this truth table but
+
+56
+00:05:26.330 --> 00:05:29.660
+the problem is is that this doesn't
+
+57
+00:05:29.660 --> 00:05:32.570
+match it so what we need to do is we
+
+58
+00:05:32.570 --> 00:05:35.030
+simply just have to apply an inverter to
+
+59
+00:05:35.030 --> 00:05:37.970
+it and this will operate like an X nor
+
+60
+00:05:37.970 --> 00:05:45.310
+gate so it's just draw an inverter here
+
+61
+00:05:58.760 --> 00:06:01.250
+[Music]
+
+62
+00:06:01.250 --> 00:06:04.400
+and there we go that's our xnor gate
+
+63
+00:06:04.400 --> 00:06:07.680
+hope you guys get a snapshot of this
+
+64
+00:06:07.680 --> 00:06:09.540
+just in case if you guys want to use
+
+65
+00:06:09.540 --> 00:06:16.980
+this for your homework well anyways
+
+66
+00:06:16.980 --> 00:06:18.750
+thank you guys so much for watching and
+
+67
+00:06:18.750 --> 00:06:21.800
+I will see you next time
+

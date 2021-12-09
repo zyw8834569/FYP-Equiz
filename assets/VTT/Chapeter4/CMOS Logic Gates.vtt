@@ -1,0 +1,458 @@
+WEBVTT
+
+1
+00:00:00.030 --> 00:00:02.820
+in this video we're going to look at the
+
+2
+00:00:02.820 --> 00:00:08.429
+design of basic CMOS logic circuits each
+
+3
+00:00:08.429 --> 00:00:10.320
+of our CMOS logic gates will have the
+
+4
+00:00:10.320 --> 00:00:13.799
+following complementary structure first
+
+5
+00:00:13.799 --> 00:00:15.929
+we have a connection to the positive
+
+6
+00:00:15.929 --> 00:00:18.869
+supply voltage called VCC and another
+
+7
+00:00:18.869 --> 00:00:21.750
+one to ground then we have our inputs in
+
+8
+00:00:21.750 --> 00:00:25.500
+this case two inputs a and B a single
+
+9
+00:00:25.500 --> 00:00:29.010
+output F a pull-up network that connects
+
+10
+00:00:29.010 --> 00:00:30.929
+the positive supply voltage to the
+
+11
+00:00:30.929 --> 00:00:33.450
+output and a pulldown network that
+
+12
+00:00:33.450 --> 00:00:36.270
+connects the output to the low supply
+
+13
+00:00:36.270 --> 00:00:39.329
+voltage or ground the pull-up network
+
+14
+00:00:39.329 --> 00:00:42.210
+connects to the supply voltage VCC and
+
+15
+00:00:42.210 --> 00:00:44.160
+it will be composed of only P Mo's
+
+16
+00:00:44.160 --> 00:00:46.550
+transistors while the pulldown network
+
+17
+00:00:46.550 --> 00:00:49.800
+connects to ground and that will be
+
+18
+00:00:49.800 --> 00:00:52.770
+composed of only n Mo's transistors the
+
+19
+00:00:52.770 --> 00:00:55.230
+important thing is that only the pull-up
+
+20
+00:00:55.230 --> 00:00:57.809
+network or the pulldown network can be
+
+21
+00:00:57.809 --> 00:01:00.090
+connecting the output to one of the
+
+22
+00:01:00.090 --> 00:01:02.250
+supply voltages at a time
+
+23
+00:01:02.250 --> 00:01:03.989
+so either the pull-up network is
+
+24
+00:01:03.989 --> 00:01:06.270
+conducting or the pulldown network is
+
+25
+00:01:06.270 --> 00:01:08.280
+conducting but will never have both
+
+26
+00:01:08.280 --> 00:01:10.470
+conducting at the same time otherwise
+
+27
+00:01:10.470 --> 00:01:13.490
+we'd short out our supply voltage the
+
+28
+00:01:13.490 --> 00:01:15.570
+pull-up network and the pulldown network
+
+29
+00:01:15.570 --> 00:01:18.810
+as we'll see our logical complements and
+
+30
+00:01:18.810 --> 00:01:22.200
+again the transistors were using our
+
+31
+00:01:22.200 --> 00:01:24.920
+CMOS which means complementary
+
+32
+00:01:24.920 --> 00:01:30.810
+metal-oxide-semiconductor the first CMOS
+
+33
+00:01:30.810 --> 00:01:33.210
+logic gate which we've already seen is
+
+34
+00:01:33.210 --> 00:01:36.600
+an inverter the pull-up network consists
+
+35
+00:01:36.600 --> 00:01:39.659
+of a single p MOS transistor while the
+
+36
+00:01:39.659 --> 00:01:42.090
+pulldown network consists of a single n
+
+37
+00:01:42.090 --> 00:01:46.740
+Mo's transistor if we have a low input
+
+38
+00:01:46.740 --> 00:01:51.540
+the N Mo's transistor is open and the P
+
+39
+00:01:51.540 --> 00:01:54.149
+Mo's transistor is like a switch that's
+
+40
+00:01:54.149 --> 00:01:56.549
+closed thus there's a conducting path
+
+41
+00:01:56.549 --> 00:01:59.280
+through the P Mo's transistor to the
+
+42
+00:01:59.280 --> 00:02:01.110
+positive supply voltage and the output
+
+43
+00:02:01.110 --> 00:02:03.960
+is high if we change the input to low
+
+44
+00:02:03.960 --> 00:02:06.899
+then the N Mo's transistor is like a
+
+45
+00:02:06.899 --> 00:02:09.149
+closed switch and there's a conducting
+
+46
+00:02:09.149 --> 00:02:13.660
+path between the output and ground
+
+47
+00:02:13.660 --> 00:02:16.430
+now we'll look at our first two input
+
+48
+00:02:16.430 --> 00:02:19.670
+CMOS logic gate the pulldown network
+
+49
+00:02:19.670 --> 00:02:22.880
+consists of two and maus transistors in
+
+50
+00:02:22.880 --> 00:02:25.010
+series while the pull-up network
+
+51
+00:02:25.010 --> 00:02:27.680
+consists of two P Mo's transistors in
+
+52
+00:02:27.680 --> 00:02:30.820
+parallel if both of the inputs are low
+
+53
+00:02:30.820 --> 00:02:34.040
+then there's a conducting path through
+
+54
+00:02:34.040 --> 00:02:36.560
+both branches of the pull-up network and
+
+55
+00:02:36.560 --> 00:02:38.930
+the output is high note that the
+
+56
+00:02:38.930 --> 00:02:41.750
+pulldown network both switches are open
+
+57
+00:02:41.750 --> 00:02:45.200
+so there is no connection to ground if I
+
+58
+00:02:45.200 --> 00:02:49.640
+set one of the inputs to a high I still
+
+59
+00:02:49.640 --> 00:02:51.860
+have a conducting path in the pull-up
+
+60
+00:02:51.860 --> 00:02:54.200
+network and there still is no conducting
+
+61
+00:02:54.200 --> 00:02:57.020
+path to ground in the pulldown same
+
+62
+00:02:57.020 --> 00:02:58.760
+thing happens if I switch the other
+
+63
+00:02:58.760 --> 00:03:01.490
+inputs I get a conducting path through
+
+64
+00:03:01.490 --> 00:03:03.110
+the other branch of the pull-up but
+
+65
+00:03:03.110 --> 00:03:04.700
+still no conducting path than the
+
+66
+00:03:04.700 --> 00:03:07.490
+pulldown on the other hand if both
+
+67
+00:03:07.490 --> 00:03:10.070
+inputs are set high I now have a
+
+68
+00:03:10.070 --> 00:03:11.900
+conducting path to ground through the
+
+69
+00:03:11.900 --> 00:03:14.660
+pulldown network but no conducting path
+
+70
+00:03:14.660 --> 00:03:16.460
+to the positive voltage through the
+
+71
+00:03:16.460 --> 00:03:20.150
+pull-up network looking at the resulting
+
+72
+00:03:20.150 --> 00:03:22.400
+truth table we see that this is the
+
+73
+00:03:22.400 --> 00:03:28.370
+function for a NAND gate not and now
+
+74
+00:03:28.370 --> 00:03:30.410
+let's take a look at a second example of
+
+75
+00:03:30.410 --> 00:03:33.230
+a CMOS logic circuit where the pulldown
+
+76
+00:03:33.230 --> 00:03:37.220
+network consists of two parallel and mas
+
+77
+00:03:37.220 --> 00:03:39.620
+transistors and the pull-up network
+
+78
+00:03:39.620 --> 00:03:43.220
+consists of two series CMOS transistors
+
+79
+00:03:43.220 --> 00:03:46.580
+in this case if both of the inputs are
+
+80
+00:03:46.580 --> 00:03:49.010
+low there's a conducting path between
+
+81
+00:03:49.010 --> 00:03:53.150
+the output and the and the positive
+
+82
+00:03:53.150 --> 00:03:55.760
+supply voltage since both of the PMO's
+
+83
+00:03:55.760 --> 00:03:58.760
+transistors are conducting or closed
+
+84
+00:03:58.760 --> 00:04:02.930
+switches with low inputs if we change
+
+85
+00:04:02.930 --> 00:04:05.630
+one of the inputs to a high voltage then
+
+86
+00:04:05.630 --> 00:04:09.470
+the pull-up network opens up but we do
+
+87
+00:04:09.470 --> 00:04:11.570
+have a conducting path through the left
+
+88
+00:04:11.570 --> 00:04:14.660
+branch of the pulldown network between
+
+89
+00:04:14.660 --> 00:04:17.269
+the output and ground so the output goes
+
+90
+00:04:17.269 --> 00:04:21.680
+to low if we switch both of the other
+
+91
+00:04:21.680 --> 00:04:25.000
+input to be high
+
+92
+00:04:26.380 --> 00:04:29.330
+we still have a conducting path through
+
+93
+00:04:29.330 --> 00:04:31.280
+the pulldown network this time through
+
+94
+00:04:31.280 --> 00:04:33.410
+the right branch but since the bottom
+
+95
+00:04:33.410 --> 00:04:35.090
+switch is open in the pull-up network
+
+96
+00:04:35.090 --> 00:04:37.070
+there is no conducting path to the
+
+97
+00:04:37.070 --> 00:04:40.490
+positive supply voltage now if we set
+
+98
+00:04:40.490 --> 00:04:43.340
+both of the inputs to high we still have
+
+99
+00:04:43.340 --> 00:04:45.710
+a conducting path to the through the
+
+100
+00:04:45.710 --> 00:04:47.870
+pulldown network this time through both
+
+101
+00:04:47.870 --> 00:04:50.780
+branches and no conducting path through
+
+102
+00:04:50.780 --> 00:04:53.810
+the pull-up Network if we look at the
+
+103
+00:04:53.810 --> 00:04:57.410
+resulting truth table this is the logic
+
+104
+00:04:57.410 --> 00:05:03.400
+for a boolean nor function or not or if
+
+105
+00:05:03.400 --> 00:05:06.920
+we wanted to design an or gate we could
+
+106
+00:05:06.920 --> 00:05:09.650
+simply add an inverter to the output of
+
+107
+00:05:09.650 --> 00:05:14.330
+an or gate note how the output of the
+
+108
+00:05:14.330 --> 00:05:17.390
+nor gate feeds into the input of the
+
+109
+00:05:17.390 --> 00:05:20.000
+inverter clicking through each of the
+
+110
+00:05:20.000 --> 00:05:23.120
+combinations we see that we now get the
+
+111
+00:05:23.120 --> 00:05:34.970
+truth table for a or gate similarly we
+
+112
+00:05:34.970 --> 00:05:37.400
+can construct an and gate by attaching
+
+113
+00:05:37.400 --> 00:05:41.890
+an inverter to the output of an and gate
+
+114
+00:05:49.129 --> 00:05:51.189
+you
+

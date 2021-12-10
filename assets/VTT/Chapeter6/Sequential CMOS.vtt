@@ -1,0 +1,1014 @@
+WEBVTT
+
+1
+00:00:00.260 --> 00:00:03.419
+in module 6 we will take a look at
+
+2
+00:00:03.419 --> 00:00:05.759
+sequential CMOS circuits and how they
+
+3
+00:00:05.759 --> 00:00:08.189
+can be integrated with combinational
+
+4
+00:00:08.189 --> 00:00:14.070
+CMOS to form synchronous pipelines first
+
+5
+00:00:14.070 --> 00:00:15.059
+we have to distinguish between
+
+6
+00:00:15.059 --> 00:00:17.279
+combinational circuits and sequential
+
+7
+00:00:17.279 --> 00:00:19.680
+circuits so far we have dealt with
+
+8
+00:00:19.680 --> 00:00:22.529
+combinational circuits the definition of
+
+9
+00:00:22.529 --> 00:00:23.970
+a combinational circuit is a circuit
+
+10
+00:00:23.970 --> 00:00:27.420
+whose output F is a function of its
+
+11
+00:00:27.420 --> 00:00:30.539
+inputs and only its inputs so the
+
+12
+00:00:30.539 --> 00:00:32.910
+function is the output is a function a
+
+13
+00:00:32.910 --> 00:00:35.820
+combinational function a combination of
+
+14
+00:00:35.820 --> 00:00:38.610
+the inputs it is a boolean combination
+
+15
+00:00:38.610 --> 00:00:40.950
+of the inputs and that's it so if we
+
+16
+00:00:40.950 --> 00:00:43.950
+have logic inputs if any of the logic
+
+17
+00:00:43.950 --> 00:00:46.620
+inputs change generally the output will
+
+18
+00:00:46.620 --> 00:00:48.059
+change it will not change
+
+19
+00:00:48.059 --> 00:00:50.039
+instantaneously it will take a
+
+20
+00:00:50.039 --> 00:00:52.620
+propagation delay to change but we
+
+21
+00:00:52.620 --> 00:00:56.340
+assume that any input change will lead
+
+22
+00:00:56.340 --> 00:01:00.180
+to an output change the amount of time
+
+23
+00:01:00.180 --> 00:01:04.379
+that separates the change in the input
+
+24
+00:01:04.379 --> 00:01:06.390
+from the change in the output will vary
+
+25
+00:01:06.390 --> 00:01:09.119
+depending on which input combination has
+
+26
+00:01:09.119 --> 00:01:12.360
+caused the change but we will always see
+
+27
+00:01:12.360 --> 00:01:15.030
+a change in response and changing the
+
+28
+00:01:15.030 --> 00:01:16.650
+output and response to a change in the
+
+29
+00:01:16.650 --> 00:01:18.840
+inputs a change in the output is
+
+30
+00:01:18.840 --> 00:01:21.270
+unconditional and will always happen and
+
+31
+00:01:21.270 --> 00:01:23.070
+this is what defines a combinational
+
+32
+00:01:23.070 --> 00:01:25.380
+circuit and this is as opposed to a
+
+33
+00:01:25.380 --> 00:01:27.360
+sequential circuit a sequential circuit
+
+34
+00:01:27.360 --> 00:01:30.900
+does not always observe an output that
+
+35
+00:01:30.900 --> 00:01:35.430
+is a function of inputs the sequential
+
+36
+00:01:35.430 --> 00:01:39.320
+circuit has an output that is sometimes
+
+37
+00:01:39.320 --> 00:01:42.240
+the value of the input and that other
+
+38
+00:01:42.240 --> 00:01:45.420
+times it is a value that is stored it is
+
+39
+00:01:45.420 --> 00:01:49.140
+an old value and therefore we need a
+
+40
+00:01:49.140 --> 00:01:51.799
+signal to tell us whether the output is
+
+41
+00:01:51.799 --> 00:01:55.049
+following the input or is a combination
+
+42
+00:01:55.049 --> 00:01:57.270
+of the input or whether the output is
+
+43
+00:01:57.270 --> 00:02:00.360
+preserving an old value and this control
+
+44
+00:02:00.360 --> 00:02:02.969
+signal that switches or multiplexers
+
+45
+00:02:02.969 --> 00:02:04.829
+between these two modes for the output
+
+46
+00:02:04.829 --> 00:02:09.929
+is called the clock signal so why is a
+
+47
+00:02:09.929 --> 00:02:11.660
+sequential element
+
+48
+00:02:11.660 --> 00:02:15.980
+sequential so let's look at a very
+
+49
+00:02:15.980 --> 00:02:18.980
+common piece of code that is used to
+
+50
+00:02:18.980 --> 00:02:21.980
+exchange the values in two variables or
+
+51
+00:02:21.980 --> 00:02:24.770
+two registers a and B so let's assume we
+
+52
+00:02:24.770 --> 00:02:27.530
+want to exchange the values contained an
+
+53
+00:02:27.530 --> 00:02:30.980
+a and B what we do is that we first use
+
+54
+00:02:30.980 --> 00:02:34.130
+an intermediate register or intermediate
+
+55
+00:02:34.130 --> 00:02:37.310
+variable and we put the value of a in
+
+56
+00:02:37.310 --> 00:02:41.180
+the intermediate value of T and then we
+
+57
+00:02:41.180 --> 00:02:45.460
+assign the value of of a of B to a and
+
+58
+00:02:45.460 --> 00:02:51.320
+then we assign the value of T to B so
+
+59
+00:02:51.320 --> 00:02:53.510
+this way we have exchanged the values
+
+60
+00:02:53.510 --> 00:02:56.420
+contained in a and B now imagine that
+
+61
+00:02:56.420 --> 00:02:58.370
+this piece of code which has the
+
+62
+00:02:58.370 --> 00:03:00.710
+variable swap code which is a very
+
+63
+00:03:00.710 --> 00:03:03.680
+well-known piece of code actually
+
+64
+00:03:03.680 --> 00:03:06.830
+describes Hardware connections so let's
+
+65
+00:03:06.830 --> 00:03:10.280
+imagine that a B and T are nodes
+
+66
+00:03:10.280 --> 00:03:12.560
+electrical nodes in a circuit rather
+
+67
+00:03:12.560 --> 00:03:14.480
+than registers of variables they are
+
+68
+00:03:14.480 --> 00:03:17.360
+actual Hardware nodes then these three
+
+69
+00:03:17.360 --> 00:03:19.940
+statements describe the the sky
+
+70
+00:03:19.940 --> 00:03:21.590
+connections between these two between
+
+71
+00:03:21.590 --> 00:03:23.690
+these three nodes so the first statement
+
+72
+00:03:23.690 --> 00:03:26.600
+connects node a to node T the second
+
+73
+00:03:26.600 --> 00:03:28.790
+statement connects node a to node B and
+
+74
+00:03:28.790 --> 00:03:30.440
+the third statement is actually
+
+75
+00:03:30.440 --> 00:03:32.510
+redundant because all it does is
+
+76
+00:03:32.510 --> 00:03:35.030
+connects node T to no B which are
+
+77
+00:03:35.030 --> 00:03:38.570
+already connected through node a so if
+
+78
+00:03:38.570 --> 00:03:41.660
+this was a description of Hardware
+
+79
+00:03:41.660 --> 00:03:44.620
+connections it will not eight achieve
+
+80
+00:03:44.620 --> 00:03:48.050
+variable exchange or variable swap what
+
+81
+00:03:48.050 --> 00:03:49.820
+it will do is that it will short-circuit
+
+82
+00:03:49.820 --> 00:03:52.250
+the three nodes to each other ensuring
+
+83
+00:03:52.250 --> 00:03:54.170
+that all three of them have the same
+
+84
+00:03:54.170 --> 00:03:57.800
+value at all times but in order for this
+
+85
+00:03:57.800 --> 00:04:01.730
+to perform variable swap in order for
+
+86
+00:04:01.730 --> 00:04:03.890
+this to exchange the values in a and B
+
+87
+00:04:03.890 --> 00:04:08.150
+we have to have an intermediate storage
+
+88
+00:04:08.150 --> 00:04:10.489
+element called T in which to temporarily
+
+89
+00:04:10.489 --> 00:04:14.750
+store the value of a another thing is
+
+90
+00:04:14.750 --> 00:04:17.329
+that for variable swap to happen we
+
+91
+00:04:17.329 --> 00:04:19.250
+to execute these three statements in
+
+92
+00:04:19.250 --> 00:04:21.949
+order if these three statements describe
+
+93
+00:04:21.949 --> 00:04:24.560
+Hardware connections then the order in
+
+94
+00:04:24.560 --> 00:04:28.069
+which they are stated does not matter it
+
+95
+00:04:28.069 --> 00:04:30.229
+is just connections there is no
+
+96
+00:04:30.229 --> 00:04:33.409
+significance to the order but for them
+
+97
+00:04:33.409 --> 00:04:36.470
+to execute variable swap the order has
+
+98
+00:04:36.470 --> 00:04:38.330
+to be observed so this has to be
+
+99
+00:04:38.330 --> 00:04:40.370
+statement number one this has to be the
+
+100
+00:04:40.370 --> 00:04:41.960
+statement remember - and this has to be
+
+101
+00:04:41.960 --> 00:04:44.120
+statement number three if you exchange
+
+102
+00:04:44.120 --> 00:04:46.280
+any of these two statements with
+
+103
+00:04:46.280 --> 00:04:48.199
+exchange their order then a variable
+
+104
+00:04:48.199 --> 00:04:51.889
+swap will not be achieved so we find
+
+105
+00:04:51.889 --> 00:04:55.460
+that to perform variable swap we have to
+
+106
+00:04:55.460 --> 00:04:58.129
+have an intermediate storage for the
+
+107
+00:04:58.129 --> 00:05:00.919
+value T so there has to be storage and
+
+108
+00:05:00.919 --> 00:05:03.650
+storage immediately tells us that we
+
+109
+00:05:03.650 --> 00:05:07.849
+have memory and we find that having
+
+110
+00:05:07.849 --> 00:05:10.370
+memory or storage is necessary to
+
+111
+00:05:10.370 --> 00:05:13.460
+perform a sequence of operations so if
+
+112
+00:05:13.460 --> 00:05:15.919
+we need sequencing if we need something
+
+113
+00:05:15.919 --> 00:05:19.009
+that follows a certain order we cannot
+
+114
+00:05:19.009 --> 00:05:21.319
+use combinational circuits we have to
+
+115
+00:05:21.319 --> 00:05:23.419
+use sequential circuits and they are
+
+116
+00:05:23.419 --> 00:05:25.940
+called sequential because they allow us
+
+117
+00:05:25.940 --> 00:05:28.330
+to perform a sequence of operations a
+
+118
+00:05:28.330 --> 00:05:30.430
+sequential element will by necessity
+
+119
+00:05:30.430 --> 00:05:33.050
+have memory because this is what allows
+
+120
+00:05:33.050 --> 00:05:35.960
+us to perform a sequence memory that
+
+121
+00:05:35.960 --> 00:05:38.810
+stores intermediate results and having a
+
+122
+00:05:38.810 --> 00:05:41.509
+memory by necessity suggests that we
+
+123
+00:05:41.509 --> 00:05:43.909
+have a control signal to distinguish
+
+124
+00:05:43.909 --> 00:05:47.060
+between storing mode and transparent
+
+125
+00:05:47.060 --> 00:05:49.639
+mode this control signal is called the
+
+126
+00:05:49.639 --> 00:05:52.340
+clock now we have to think about what
+
+127
+00:05:52.340 --> 00:05:54.620
+storage mechanisms we have available
+
+128
+00:05:54.620 --> 00:05:57.860
+that allow us to realize memories so
+
+129
+00:05:57.860 --> 00:06:00.110
+that we can form sequential elements
+
+130
+00:06:00.110 --> 00:06:03.050
+there is a storage element a storage
+
+131
+00:06:03.050 --> 00:06:05.419
+mechanism that we considered in module 5
+
+132
+00:06:05.419 --> 00:06:08.900
+which was a capacitor with open circuits
+
+133
+00:06:08.900 --> 00:06:12.500
+in all directions so storing on the high
+
+134
+00:06:12.500 --> 00:06:15.110
+impedance node is a valid method of
+
+135
+00:06:15.110 --> 00:06:17.810
+storage the capacitance will keep the
+
+136
+00:06:17.810 --> 00:06:20.599
+value whether it's VDD or zero volt will
+
+137
+00:06:20.599 --> 00:06:24.229
+keep its value indefinitely as long as
+
+138
+00:06:24.229 --> 00:06:25.529
+there are perfect open circuit
+
+139
+00:06:25.529 --> 00:06:28.019
+in all directions this method of storage
+
+140
+00:06:28.019 --> 00:06:31.079
+is called dynamic storage and it will
+
+141
+00:06:31.079 --> 00:06:33.299
+lead us down the path of dynamic latches
+
+142
+00:06:33.299 --> 00:06:35.309
+and dynamic registers which are valid
+
+143
+00:06:35.309 --> 00:06:37.469
+storage elements that would be very
+
+144
+00:06:37.469 --> 00:06:40.169
+important but we have to have a static
+
+145
+00:06:40.169 --> 00:06:41.909
+counterpart we have to have a static
+
+146
+00:06:41.909 --> 00:06:43.889
+storage mechanism because we know that
+
+147
+00:06:43.889 --> 00:06:47.669
+dynamic storage mechanisms are not very
+
+148
+00:06:47.669 --> 00:06:50.489
+robust they are susceptible to leakage
+
+149
+00:06:50.489 --> 00:06:53.069
+to charge sharing to all these signal
+
+150
+00:06:53.069 --> 00:06:55.169
+integrity issues that affect dynamic
+
+151
+00:06:55.169 --> 00:06:57.779
+logic so we have to find a static
+
+152
+00:06:57.779 --> 00:07:01.699
+storage mechanism now consider this
+
+153
+00:07:01.699 --> 00:07:05.159
+circuit okay we don't even have to use
+
+154
+00:07:05.159 --> 00:07:07.919
+an end we can using just a NAND gate so
+
+155
+00:07:07.919 --> 00:07:10.199
+we have a NAND gate and the input to the
+
+156
+00:07:10.199 --> 00:07:14.339
+end gate is variable X and variable X
+
+157
+00:07:14.339 --> 00:07:17.189
+bar so they are a valuable and it's
+
+158
+00:07:17.189 --> 00:07:20.419
+complement strictly speaking we should
+
+159
+00:07:20.419 --> 00:07:22.859
+think of the output of the NAND of the
+
+160
+00:07:22.859 --> 00:07:26.579
+and gate as always known because we just
+
+161
+00:07:26.579 --> 00:07:30.619
+have zero inputs all the time however
+
+162
+00:07:30.619 --> 00:07:35.099
+let's consider this step like when the
+
+163
+00:07:35.099 --> 00:07:37.049
+connects makes a positive step and
+
+164
+00:07:37.049 --> 00:07:39.509
+that's consider the fact that X bar is
+
+165
+00:07:39.509 --> 00:07:42.029
+the complement of X but through an
+
+166
+00:07:42.029 --> 00:07:44.789
+inverter and so the inverter has some
+
+167
+00:07:44.789 --> 00:07:49.169
+delay and X bar takes some time for its
+
+168
+00:07:49.169 --> 00:07:52.949
+output to drop down to zero and so there
+
+169
+00:07:52.949 --> 00:07:57.089
+is an interval of time during which both
+
+170
+00:07:57.089 --> 00:07:59.849
+X and X bar are one allowing us to
+
+171
+00:07:59.849 --> 00:08:02.189
+produce an F and output from the circuit
+
+172
+00:08:02.189 --> 00:08:07.859
+that is an impulse of 1 and the duration
+
+173
+00:08:07.859 --> 00:08:10.139
+of this impulse is the delay of the
+
+174
+00:08:10.139 --> 00:08:13.409
+inverter and is not produced immediately
+
+175
+00:08:13.409 --> 00:08:17.609
+after X bar out after X rises but takes
+
+176
+00:08:17.609 --> 00:08:19.709
+some delay and this is the delay of the
+
+177
+00:08:19.709 --> 00:08:22.949
+end gate now this kind of circuit is
+
+178
+00:08:22.949 --> 00:08:26.069
+called a monostable circuit because it
+
+179
+00:08:26.069 --> 00:08:30.839
+has one stable state F has one stable
+
+180
+00:08:30.839 --> 00:08:34.150
+state which is 0 F can't
+
+181
+00:08:34.150 --> 00:08:36.669
+the value of one but when it does take
+
+182
+00:08:36.669 --> 00:08:38.620
+the value of one it can only remain
+
+183
+00:08:38.620 --> 00:08:41.200
+there for a finite period of time equal
+
+184
+00:08:41.200 --> 00:08:43.960
+to Delta inverter it will always go back
+
+185
+00:08:43.960 --> 00:08:47.170
+to its stable state which is none which
+
+186
+00:08:47.170 --> 00:08:47.920
+is zero
+
+187
+00:08:47.920 --> 00:08:50.950
+so note F is not suitable for storage
+
+188
+00:08:50.950 --> 00:08:53.830
+it's not a suitable memory location
+
+189
+00:08:53.830 --> 00:08:57.390
+because it cannot support an indefinite
+
+190
+00:08:57.390 --> 00:09:00.910
+storage of either 0 1 it can only remain
+
+191
+00:09:00.910 --> 00:09:04.420
+stable at 0 now let's consider the
+
+192
+00:09:04.420 --> 00:09:07.210
+situation where we have three inverters
+
+193
+00:09:07.210 --> 00:09:10.510
+or any odd number of inverters connected
+
+194
+00:09:10.510 --> 00:09:15.220
+in feedback now if there is a 0 at the
+
+195
+00:09:15.220 --> 00:09:18.010
+output of the third inverter this 0 will
+
+196
+00:09:18.010 --> 00:09:19.330
+pass through the first inverter
+
+197
+00:09:19.330 --> 00:09:21.520
+producing a 1 through the second
+
+198
+00:09:21.520 --> 00:09:24.520
+inverter producing 0 and this 0 would
+
+199
+00:09:24.520 --> 00:09:26.710
+produce a 1 at the output of the first
+
+200
+00:09:26.710 --> 00:09:29.110
+inverter and so if we look at North F
+
+201
+00:09:29.110 --> 00:09:32.200
+which is the output of the first
+
+202
+00:09:32.200 --> 00:09:35.830
+inverter so note F will remain at 0 and
+
+203
+00:09:35.830 --> 00:09:39.160
+then will rise back up to 1 after 3
+
+204
+00:09:39.160 --> 00:09:41.320
+inverter delays so this is 3 Delta
+
+205
+00:09:41.320 --> 00:09:45.030
+inverter but this one would also travel
+
+206
+00:09:45.030 --> 00:09:48.370
+through the three inverters updating to
+
+207
+00:09:48.370 --> 00:09:51.640
+0 and updating this node to 1 and
+
+208
+00:09:51.640 --> 00:09:55.150
+updating F back to 0 so in another 3
+
+209
+00:09:55.150 --> 00:09:57.730
+Delta inverter it will go back down to 0
+
+210
+00:09:57.730 --> 00:10:00.820
+and the 0 travel again and update back
+
+211
+00:10:00.820 --> 00:10:03.910
+to 1 and so forth and so we find that no
+
+212
+00:10:03.910 --> 00:10:05.950
+death in fact any node in this circuit
+
+213
+00:10:05.950 --> 00:10:09.220
+is gonna be oscillating it's gonna be an
+
+214
+00:10:09.220 --> 00:10:11.560
+oscillator it's gonna produce a square
+
+215
+00:10:11.560 --> 00:10:15.490
+wave whose period is 6 Delta inverter
+
+216
+00:10:15.490 --> 00:10:18.540
+and we have the same situation with any
+
+217
+00:10:18.540 --> 00:10:20.860
+connection of an odd number of inverters
+
+218
+00:10:20.860 --> 00:10:25.660
+in feedback now note F is not suitable
+
+219
+00:10:25.660 --> 00:10:28.360
+as a storage node either because note F
+
+220
+00:10:28.360 --> 00:10:32.770
+cannot support either 1 or 0 in a steady
+
+221
+00:10:32.770 --> 00:10:36.160
+state in fact we call not a fan a stable
+
+222
+00:10:36.160 --> 00:10:38.290
+node it is completely unstable
+
+223
+00:10:38.290 --> 00:10:41.320
+it can never remain as 0 can never
+
+224
+00:10:41.320 --> 00:10:44.710
+remain at 1 it will always switch from 0
+
+225
+00:10:44.710 --> 00:10:46.750
+or 1 to the other state
+
+226
+00:10:46.750 --> 00:10:48.970
+which is why it oscillates so it is not
+
+227
+00:10:48.970 --> 00:10:53.830
+a suitable storage node now let's look
+
+228
+00:10:53.830 --> 00:10:56.580
+at two inverters connected in feedback
+
+229
+00:10:56.580 --> 00:11:00.300
+or actually any even number of inverters
+
+230
+00:11:00.300 --> 00:11:04.150
+let's look at North F if no def contains
+
+231
+00:11:04.150 --> 00:11:06.580
+a value of zero the zero travelled
+
+232
+00:11:06.580 --> 00:11:08.260
+through the first inverter producing a
+
+233
+00:11:08.260 --> 00:11:10.510
+one at the input of the second inverter
+
+234
+00:11:10.510 --> 00:11:12.520
+this one at the input of the second
+
+235
+00:11:12.520 --> 00:11:15.460
+inverter reinforces the zero at the
+
+236
+00:11:15.460 --> 00:11:18.040
+output of the second inverter and so no
+
+237
+00:11:18.040 --> 00:11:22.330
+math can remain at zero indefinitely no
+
+238
+00:11:22.330 --> 00:11:23.860
+death can also remain at one
+
+239
+00:11:23.860 --> 00:11:27.280
+indefinitely and not only can it remain
+
+240
+00:11:27.280 --> 00:11:30.010
+at zero one it is a regenerative zero of
+
+241
+00:11:30.010 --> 00:11:33.880
+one if there is any noise that adds some
+
+242
+00:11:33.880 --> 00:11:36.640
+voltage to our the zero volt at node F
+
+243
+00:11:36.640 --> 00:11:38.860
+the first inverter will take care of
+
+244
+00:11:38.860 --> 00:11:40.780
+that and will return it back to zero
+
+245
+00:11:40.780 --> 00:11:43.780
+through the pulldown path and so this is
+
+246
+00:11:43.780 --> 00:11:46.300
+an active and regenerative storage it is
+
+247
+00:11:46.300 --> 00:11:49.510
+a static storage and we call node F a
+
+248
+00:11:49.510 --> 00:11:51.850
+bi-stable node because it has two
+
+249
+00:11:51.850 --> 00:11:54.820
+possible stable States 0 and 1 and
+
+250
+00:11:54.820 --> 00:11:57.580
+therefore mode F is perfectly suitable
+
+251
+00:11:57.580 --> 00:12:00.250
+for storage and this storage mechanism
+
+252
+00:12:00.250 --> 00:12:03.580
+is our storage mechanism of choice for
+
+253
+00:12:03.580 --> 00:12:06.839
+static memories
+

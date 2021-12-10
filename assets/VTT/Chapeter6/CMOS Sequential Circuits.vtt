@@ -1,0 +1,4770 @@
+WEBVTT
+
+1
+00:00:05.140 --> 00:00:09.639
+hello everyone so till now in this
+
+2
+00:00:09.639 --> 00:00:10.750
+course we have been looking at
+
+3
+00:00:10.750 --> 00:00:14.139
+combinations of it all before how the
+
+4
+00:00:14.139 --> 00:00:16.299
+combination circuits are we will see
+
+5
+00:00:16.299 --> 00:00:20.080
+more all the related to movies now let's
+
+6
+00:00:20.080 --> 00:00:23.020
+look at under processes sequential
+
+7
+00:00:23.020 --> 00:00:25.119
+circuits or with a very integral part of
+
+8
+00:00:25.119 --> 00:00:26.490
+anybody today
+
+9
+00:00:26.490 --> 00:00:34.720
+so in this do in this lecture we will
+
+10
+00:00:34.720 --> 00:00:37.239
+see how how sequential elements are used
+
+11
+00:00:37.239 --> 00:00:41.140
+in sequence we will see two major types
+
+12
+00:00:41.140 --> 00:00:44.409
+of sequence elements latch and this lock
+
+13
+00:00:44.409 --> 00:00:46.330
+you see how they are designed using
+
+14
+00:00:46.330 --> 00:00:52.479
+chemo we look at the delay or within the
+
+15
+00:00:52.479 --> 00:00:56.680
+parameters of latch and tip of good now
+
+16
+00:00:56.680 --> 00:00:58.600
+latch insist on both have the concept of
+
+17
+00:00:58.600 --> 00:01:01.290
+naturally amended it we look into that
+
+18
+00:01:01.290 --> 00:01:03.339
+now wherever there are a sequence
+
+19
+00:01:03.339 --> 00:01:06.130
+element there is a clock the clock comes
+
+20
+00:01:06.130 --> 00:01:10.540
+into picture so we look at the clock the
+
+21
+00:01:10.540 --> 00:01:11.670
+clock skew Oh
+
+22
+00:01:11.670 --> 00:01:13.960
+reporter it is doing analysis of the
+
+23
+00:01:13.960 --> 00:01:16.810
+glue we need touch upon time borrowing
+
+24
+00:01:16.810 --> 00:01:20.920
+and we see a bit about to face all the
+
+25
+00:01:20.920 --> 00:01:23.950
+time borrowing the delay concepts I just
+
+26
+00:01:23.950 --> 00:01:26.230
+touched upon in restricted they will be
+
+27
+00:01:26.230 --> 00:01:28.810
+explained and mean in detail we need
+
+28
+00:01:28.810 --> 00:01:32.170
+four and five that is giving citizen is
+
+29
+00:01:32.170 --> 00:01:34.930
+an analysis but here we we lay down the
+
+30
+00:01:34.930 --> 00:01:40.240
+basis of pieces let us look at what is
+
+31
+00:01:40.240 --> 00:01:43.830
+sequencing why do we need it is that it
+
+32
+00:01:43.830 --> 00:01:46.540
+now the major distance between
+
+33
+00:01:46.540 --> 00:01:49.150
+combination is equal to logic is what or
+
+34
+00:01:49.150 --> 00:01:52.270
+a combination logic we all put trained
+
+35
+00:01:52.270 --> 00:01:55.780
+output depends only on the input state
+
+36
+00:01:55.780 --> 00:01:59.820
+at that moon so if we change the input
+
+37
+00:01:59.820 --> 00:02:02.950
+after some debate in a negative of the
+
+38
+00:02:02.950 --> 00:02:05.760
+CMOS the output will respect that thing
+
+39
+00:02:05.760 --> 00:02:09.549
+for example one handed both inputs are
+
+40
+00:02:09.549 --> 00:02:11.799
+one we offer this one if you change one
+
+41
+00:02:11.799 --> 00:02:14.560
+input to 0 the output will go to 0 after
+
+42
+00:02:14.560 --> 00:02:16.540
+some time is amount of the
+
+43
+00:02:16.540 --> 00:02:19.750
+a sequential logic on the other hand the
+
+44
+00:02:19.750 --> 00:02:22.359
+output depends not only on the previous
+
+45
+00:02:22.359 --> 00:02:25.209
+inputs but also not on on only on the
+
+46
+00:02:25.209 --> 00:02:27.579
+current input think also only what the
+
+47
+00:02:27.579 --> 00:02:29.840
+input was before
+
+48
+00:02:29.840 --> 00:02:34.280
+so this this dynasty sequential logic we
+
+49
+00:02:34.280 --> 00:02:37.310
+use to separate the previous content
+
+50
+00:02:37.310 --> 00:02:41.599
+which I mean these are the outputs of
+
+51
+00:02:41.599 --> 00:02:43.940
+sequential elements of oil sleep or
+
+52
+00:02:43.940 --> 00:02:47.480
+tokens they are there two very famous
+
+53
+00:02:47.480 --> 00:02:49.880
+example pair or one is open of a finite
+
+54
+00:02:49.880 --> 00:02:52.519
+state machine and there is a pipeline so
+
+55
+00:02:52.519 --> 00:02:54.950
+we go back there basic digital design
+
+56
+00:02:54.950 --> 00:02:58.310
+remember water efficient load then FSM
+
+57
+00:02:58.310 --> 00:03:04.370
+is a set of sequential circuits this is
+
+58
+00:03:04.370 --> 00:03:05.630
+anything a particular speaker
+
+59
+00:03:05.630 --> 00:03:08.989
+now when the ecig mentions at its
+
+60
+00:03:08.989 --> 00:03:11.750
+minimum once click over depending on
+
+61
+00:03:11.750 --> 00:03:15.590
+what input scale so a finite efficient
+
+62
+00:03:15.590 --> 00:03:17.630
+or circuit something like this we have a
+
+63
+00:03:17.630 --> 00:03:21.920
+type of lip pop bank registered and the
+
+64
+00:03:21.920 --> 00:03:24.049
+output of these registers depends on
+
+65
+00:03:24.049 --> 00:03:27.709
+inputs and also on water what all
+
+66
+00:03:27.709 --> 00:03:31.010
+outputs are going so it depends not only
+
+67
+00:03:31.010 --> 00:03:34.100
+on the input state with an input state
+
+68
+00:03:34.100 --> 00:03:36.950
+but also on what input was what was the
+
+69
+00:03:36.950 --> 00:03:39.950
+state of this bank of resistors was
+
+70
+00:03:39.950 --> 00:03:42.370
+previously
+
+71
+00:03:42.580 --> 00:03:46.930
+as compared to F Matheson there set it
+
+72
+00:03:46.930 --> 00:03:50.980
+like pipelining where the data we just
+
+73
+00:03:50.980 --> 00:03:53.530
+get through the Penn State is suited to
+
+74
+00:03:53.530 --> 00:03:55.540
+the state one some processing happens
+
+75
+00:03:55.540 --> 00:03:58.810
+moving this way the community state to
+
+76
+00:03:58.810 --> 00:04:01.470
+this state P and so on
+
+77
+00:04:01.470 --> 00:04:04.660
+now the question arises why do we need
+
+78
+00:04:04.660 --> 00:04:07.090
+frequent thing about
+
+79
+00:04:07.090 --> 00:04:12.310
+so let's say if the tokens or if the or
+
+80
+00:04:12.310 --> 00:04:15.099
+states of the permanent a perfect move
+
+81
+00:04:15.099 --> 00:04:20.620
+at constant speeds all the parts in your
+
+82
+00:04:20.620 --> 00:04:22.389
+design then there is no need of
+
+83
+00:04:22.389 --> 00:04:24.280
+sequencing because the sequencing is
+
+84
+00:04:24.280 --> 00:04:27.070
+inherently be taking table for example
+
+85
+00:04:27.070 --> 00:04:30.910
+in fiber optics beam light pulses which
+
+86
+00:04:30.910 --> 00:04:33.460
+are equivalent to token still send down
+
+87
+00:04:33.460 --> 00:04:35.980
+an optical cable
+
+88
+00:04:35.980 --> 00:04:38.500
+the design itself guarantees that the
+
+89
+00:04:38.500 --> 00:04:40.630
+next phase is same before the first
+
+90
+00:04:40.630 --> 00:04:42.520
+because at the end of the table it will
+
+91
+00:04:42.520 --> 00:04:45.520
+not happen with the input pulses will
+
+92
+00:04:45.520 --> 00:04:49.630
+not remove the cable out of order so
+
+93
+00:04:49.630 --> 00:04:52.210
+since this is the elta driving nature of
+
+94
+00:04:52.210 --> 00:04:54.700
+the design step there is no need of a
+
+95
+00:04:54.700 --> 00:04:56.410
+separate hardware to separate these
+
+96
+00:04:56.410 --> 00:04:59.890
+forces although will be physical
+
+97
+00:04:59.890 --> 00:05:03.790
+limitation or post by will be set up
+
+98
+00:05:03.790 --> 00:05:06.190
+like this motion is the minimum time
+
+99
+00:05:06.190 --> 00:05:08.230
+between pulses but otherwise no extra
+
+100
+00:05:08.230 --> 00:05:10.480
+hardware is the poem
+
+101
+00:05:10.480 --> 00:05:12.820
+we can say this is a equivalent of a
+
+102
+00:05:12.820 --> 00:05:14.990
+pipe an ineffective
+
+103
+00:05:14.990 --> 00:05:19.729
+in case of digital design this type of
+
+104
+00:05:19.729 --> 00:05:22.729
+internal capability is not there that is
+
+105
+00:05:22.729 --> 00:05:26.210
+I mean extra hardware to make sure that
+
+106
+00:05:26.210 --> 00:05:30.110
+the tokens transfer from input to output
+
+107
+00:05:30.110 --> 00:05:33.979
+right the order so what this means is
+
+108
+00:05:33.979 --> 00:05:37.490
+that with the lady fast open so that we
+
+109
+00:05:37.490 --> 00:05:41.240
+are going to add a flow this is the
+
+110
+00:05:41.240 --> 00:05:43.009
+sizable including employees that we
+
+111
+00:05:43.009 --> 00:05:46.840
+think or into our practical office and
+
+112
+00:05:46.840 --> 00:05:51.530
+there's a no course of a boot architect
+
+113
+00:05:51.530 --> 00:05:53.780
+of it feels really expensive into this
+
+114
+00:05:53.780 --> 00:05:59.030
+lead the pipelining inside it or CPU
+
+115
+00:05:59.030 --> 00:06:01.610
+design so that is what will help in
+
+116
+00:06:01.610 --> 00:06:04.880
+making and the disbeliever tky
+
+117
+00:06:04.880 --> 00:06:07.940
+sequencing is required anyway as we go
+
+118
+00:06:07.940 --> 00:06:11.000
+on and see examples of utilize them you
+
+119
+00:06:11.000 --> 00:06:14.410
+start appreciating this country
+
+120
+00:06:15.550 --> 00:06:18.819
+now obviously then we use the sequential
+
+121
+00:06:18.819 --> 00:06:20.800
+element like proper latch with the
+
+122
+00:06:20.800 --> 00:06:23.710
+latest pass cooking so that they move
+
+123
+00:06:23.710 --> 00:06:26.680
+with back knee one stable tighten it is
+
+124
+00:06:26.680 --> 00:06:30.009
+I someday someday lead of the show 1000
+
+125
+00:06:30.009 --> 00:06:33.910
+but they have to be also possible to the
+
+126
+00:06:33.910 --> 00:06:36.060
+Attic we have to be able to split open
+
+127
+00:06:36.060 --> 00:06:40.240
+now this compare like pick up there do
+
+128
+00:06:40.240 --> 00:06:43.300
+circuit 1 is only cut fully complies a
+
+129
+00:06:43.300 --> 00:06:46.330
+combination that is comprised of
+
+130
+00:06:46.330 --> 00:06:49.569
+combination for sequences so one of
+
+131
+00:06:49.569 --> 00:06:51.370
+their combinations are sequence element
+
+132
+00:06:51.370 --> 00:06:53.770
+binding will be a bit slower than the
+
+133
+00:06:53.770 --> 00:06:55.319
+earlier one
+
+134
+00:06:55.319 --> 00:06:57.370
+this site often where it is for
+
+135
+00:06:57.370 --> 00:07:00.220
+sequencing overhead so this will also
+
+136
+00:07:00.220 --> 00:07:03.460
+call this copy because then we all
+
+137
+00:07:03.460 --> 00:07:05.740
+sequencer able to design we also have to
+
+138
+00:07:05.740 --> 00:07:08.770
+add the core but it also applies to a
+
+139
+00:07:08.770 --> 00:07:12.520
+single entity group or the eigen come to
+
+140
+00:07:12.520 --> 00:07:17.259
+another example theta this will be
+
+141
+00:07:17.259 --> 00:07:19.120
+inevitable side effect of mentoring
+
+142
+00:07:19.120 --> 00:07:21.280
+people when you want to maintain
+
+143
+00:07:21.280 --> 00:07:24.789
+sequence you have to make sure that the
+
+144
+00:07:24.789 --> 00:07:27.159
+faster tokens do not cooperate with
+
+145
+00:07:27.159 --> 00:07:30.550
+local or call this is the essence of
+
+146
+00:07:30.550 --> 00:07:32.850
+speaking
+
+147
+00:07:32.850 --> 00:07:36.060
+now let's look at the two basic people
+
+148
+00:07:36.060 --> 00:07:41.520
+being large and at the top so latch is a
+
+149
+00:07:41.520 --> 00:07:44.010
+little sensitive device on the other
+
+150
+00:07:44.010 --> 00:07:48.030
+hand clifftop is an HP building the most
+
+151
+00:07:48.030 --> 00:07:52.360
+famous example of the light is ad latch
+
+152
+00:07:52.360 --> 00:07:54.669
+what the dilash means is that the data
+
+153
+00:07:54.669 --> 00:07:59.960
+we are going to whenever clock is active
+
+154
+00:07:59.960 --> 00:08:05.190
+Christof is usually made from two
+
+155
+00:08:05.190 --> 00:08:07.830
+latches which are mine in the master
+
+156
+00:08:07.830 --> 00:08:09.960
+slave configuration we call this a dick
+
+157
+00:08:09.960 --> 00:08:13.350
+soft top or at a resistor now going back
+
+158
+00:08:13.350 --> 00:08:16.020
+to basic digital design we have each 32
+
+159
+00:08:16.020 --> 00:08:19.770
+remember the study of the chiclet i4 @e
+
+160
+00:08:19.770 --> 00:08:25.320
+type or registered also but in today's
+
+161
+00:08:25.320 --> 00:08:28.890
+design world the D latch reduce the
+
+162
+00:08:28.890 --> 00:08:32.799
+power of the two most extensively easily
+
+163
+00:08:32.799 --> 00:08:35.188
+let's look at the timing diagrams of
+
+164
+00:08:35.188 --> 00:08:39.729
+latch lat collages American pipe which
+
+165
+00:08:39.729 --> 00:08:41.169
+is probably on the right-hand side of
+
+166
+00:08:41.169 --> 00:08:44.499
+the clock or can be the symbol F of the
+
+167
+00:08:44.499 --> 00:08:47.889
+clock has a triangle attached to the
+
+168
+00:08:47.889 --> 00:08:49.989
+clock rather the clock the next field
+
+169
+00:08:49.989 --> 00:08:51.579
+Italian this step we should
+
+170
+00:08:51.579 --> 00:08:53.049
+differentiate within a large enough
+
+171
+00:08:53.049 --> 00:08:56.410
+epoch so let's look at stock usually a
+
+172
+00:08:56.410 --> 00:08:59.499
+walk in a design is mostly a freerunning
+
+173
+00:08:59.499 --> 00:09:03.189
+clock that you know it has a certain
+
+174
+00:09:03.189 --> 00:09:05.649
+frequency and there is a hyper under the
+
+175
+00:09:05.649 --> 00:09:09.910
+iPod there is a local you know whenever
+
+176
+00:09:09.910 --> 00:09:13.480
+clock goes high we assume data to be
+
+177
+00:09:13.480 --> 00:09:14.980
+like this we have to be changing like
+
+178
+00:09:14.980 --> 00:09:18.699
+this what happens to sort of output of a
+
+179
+00:09:18.699 --> 00:09:24.850
+lab and what happens to all okay now the
+
+180
+00:09:24.850 --> 00:09:27.189
+last functionality is such that whenever
+
+181
+00:09:27.189 --> 00:09:29.739
+the clock is active that is we are
+
+182
+00:09:29.739 --> 00:09:31.689
+assuming that the clock is active within
+
+183
+00:09:31.689 --> 00:09:35.009
+the hi-fi page which is doing the pulse
+
+184
+00:09:35.009 --> 00:09:39.399
+now in this is a large transferring that
+
+185
+00:09:39.399 --> 00:09:42.610
+means whatever happens on D will appear
+
+186
+00:09:42.610 --> 00:09:44.860
+on a few of the something so we see here
+
+187
+00:09:44.860 --> 00:09:46.959
+that D is going to fall and then we're
+
+188
+00:09:46.959 --> 00:09:48.819
+going to be going to once again going to
+
+189
+00:09:48.819 --> 00:09:54.100
+0 so this is this is propagated to Q
+
+190
+00:09:54.100 --> 00:09:56.560
+so cube goes to one end to 0 after
+
+191
+00:09:56.560 --> 00:10:01.560
+sometime now when the clock goes to zero
+
+192
+00:10:01.560 --> 00:10:03.910
+the closing edge of the table that is
+
+193
+00:10:03.910 --> 00:10:06.000
+whenever a lot is going from high to low
+
+194
+00:10:06.000 --> 00:10:10.720
+this will close the last what it means
+
+195
+00:10:10.720 --> 00:10:14.949
+is that whatever data is Dylan Q will be
+
+196
+00:10:14.949 --> 00:10:19.389
+L so any change on D during this period
+
+197
+00:10:19.389 --> 00:10:22.930
+in the clock blue period does not appear
+
+198
+00:10:22.930 --> 00:10:25.280
+on cube
+
+199
+00:10:25.280 --> 00:10:28.910
+let's serve ice again during clock hype
+
+200
+00:10:28.910 --> 00:10:31.430
+i period given the clock - slashes
+
+201
+00:10:31.430 --> 00:10:33.260
+transparent so that we wait accommodate
+
+202
+00:10:33.260 --> 00:10:35.840
+two elegant over anything on d gets
+
+203
+00:10:35.840 --> 00:10:38.450
+transferred on people whenever this
+
+204
+00:10:38.450 --> 00:10:41.690
+clock goes to inactive state whatever is
+
+205
+00:10:41.690 --> 00:10:44.560
+the state of teeth in handy
+
+206
+00:10:44.560 --> 00:10:47.720
+on the other hand a clip-clop
+
+207
+00:10:47.720 --> 00:10:50.120
+whenever there is a clock whenever clock
+
+208
+00:10:50.120 --> 00:10:53.450
+goes from zero to one that is viewing a
+
+209
+00:10:53.450 --> 00:10:56.270
+positivity in a positive edge triggered
+
+210
+00:10:56.270 --> 00:11:00.080
+flip-flop whatever is on D passes on to
+
+211
+00:11:00.080 --> 00:11:00.530
+you
+
+212
+00:11:00.530 --> 00:11:04.940
+so now as big at this moment Venus de
+
+213
+00:11:04.940 --> 00:11:07.640
+loop so Q goes down to zero the dis
+
+214
+00:11:07.640 --> 00:11:10.010
+arrow the blue arrow shows the effect we
+
+215
+00:11:10.010 --> 00:11:12.850
+can bring logic entertaining at is
+
+216
+00:11:12.850 --> 00:11:16.310
+another plug goes to one whatever is d
+
+217
+00:11:16.310 --> 00:11:18.260
+is transparent with you so who goes to
+
+218
+00:11:18.260 --> 00:11:22.100
+zero out at some point and then nothing
+
+219
+00:11:22.100 --> 00:11:24.500
+happens on Q irrespective of whatever is
+
+220
+00:11:24.500 --> 00:11:28.490
+happening on team during D during the
+
+221
+00:11:28.490 --> 00:11:30.830
+high pass or the locum the next figure
+
+222
+00:11:30.830 --> 00:11:33.050
+will only come as a little bit applause
+
+223
+00:11:33.050 --> 00:11:36.170
+when again the D is 1 so 2 goes to one
+
+224
+00:11:36.170 --> 00:11:38.040
+efficiently
+
+225
+00:11:38.040 --> 00:11:40.440
+the difference is the largest level
+
+226
+00:11:40.440 --> 00:11:42.690
+sensitive device that will come with an
+
+227
+00:11:42.690 --> 00:11:45.380
+extra device
+
+228
+00:11:45.440 --> 00:11:50.120
+and so that are how these or to cable
+
+229
+00:11:50.120 --> 00:11:53.920
+circuits are built using theme of course
+
+230
+00:11:53.920 --> 00:11:56.590
+this is a very very basic latch nothing
+
+231
+00:11:56.590 --> 00:12:01.030
+but this box is connected to grid D is d
+
+232
+00:12:01.030 --> 00:12:03.030
+NQ are connected to so convincingly
+
+233
+00:12:03.030 --> 00:12:06.070
+listen to go back to the bigger
+
+234
+00:12:06.070 --> 00:12:07.630
+thickness is nothing but a pass for my
+
+235
+00:12:07.630 --> 00:12:11.410
+sister passion is to latch obviously it
+
+236
+00:12:11.410 --> 00:12:13.690
+is the smallest latch possible using in
+
+237
+00:12:13.690 --> 00:12:16.470
+multiple modes whether the advantages of
+
+238
+00:12:16.470 --> 00:12:19.930
+this meat is very very small and low
+
+239
+00:12:19.930 --> 00:12:22.660
+o'clock low we look at what what what it
+
+240
+00:12:22.660 --> 00:12:25.870
+is men's I know clock would just note
+
+241
+00:12:25.870 --> 00:12:29.260
+that the clock respite has only one loop
+
+242
+00:12:29.260 --> 00:12:32.340
+that is the gate of this one is great
+
+243
+00:12:32.340 --> 00:12:36.490
+these are advantages on many paths into
+
+244
+00:12:36.490 --> 00:12:38.440
+the past analytical it will have a big
+
+245
+00:12:38.440 --> 00:12:40.750
+drop it will be knowledge tooling
+
+246
+00:12:40.750 --> 00:12:44.170
+because oh the output is not driven by
+
+247
+00:12:44.170 --> 00:12:46.480
+we do it correctly or persons in fact of
+
+248
+00:12:46.480 --> 00:12:48.760
+anxiety equals back driving because
+
+249
+00:12:48.760 --> 00:12:53.580
+being an effective tool to the decision
+
+250
+00:12:54.360 --> 00:12:57.060
+the effect of this is that whatever
+
+251
+00:12:57.060 --> 00:13:00.600
+noise to use on Q can be lighter ability
+
+252
+00:13:00.600 --> 00:13:04.370
+it is dynamic they are looking to the
+
+253
+00:13:04.370 --> 00:13:06.870
+Dakotas dynamics of the dynamic manger
+
+254
+00:13:06.870 --> 00:13:09.450
+and the input is more connected to the
+
+255
+00:13:09.450 --> 00:13:11.820
+inputs is not connected to this other
+
+256
+00:13:11.820 --> 00:13:15.600
+specific reason this is one device now
+
+257
+00:13:15.600 --> 00:13:18.060
+let's look at in next few slides we look
+
+258
+00:13:18.060 --> 00:13:19.890
+at the different movements that are
+
+259
+00:13:19.890 --> 00:13:21.780
+download that having done over this
+
+260
+00:13:21.780 --> 00:13:24.630
+basic design so improvement number one
+
+261
+00:13:24.630 --> 00:13:27.450
+we replace a power transistor biocon
+
+262
+00:13:27.450 --> 00:13:29.270
+sufficiently
+
+263
+00:13:29.270 --> 00:13:33.860
+so what we solve we solve the case of
+
+264
+00:13:33.860 --> 00:13:35.720
+beauty drop it and now they're using
+
+265
+00:13:35.720 --> 00:13:37.580
+both in Oakland oh so there is movie
+
+266
+00:13:37.580 --> 00:13:41.560
+pizza now here note that the plot pipe
+
+267
+00:13:41.560 --> 00:13:43.940
+earlier is connected to just one gate in
+
+268
+00:13:43.940 --> 00:13:45.950
+bookmark with the food baited hooks go
+
+269
+00:13:45.950 --> 00:13:48.190
+the new road is impeding on walk and
+
+270
+00:13:48.190 --> 00:13:52.300
+further it required an inverted
+
+271
+00:13:53.400 --> 00:13:57.320
+next improvement we do is that we try to
+
+272
+00:13:57.320 --> 00:14:00.840
+we added one inverter from d2 to we can
+
+273
+00:14:00.840 --> 00:14:03.180
+add the inverter at the two sides or the
+
+274
+00:14:03.180 --> 00:14:07.250
+deep end or the transition week
+
+275
+00:14:07.250 --> 00:14:14.280
+advantages now the in the second case in
+
+276
+00:14:14.280 --> 00:14:16.800
+this case B is now connected to the gate
+
+277
+00:14:16.800 --> 00:14:20.310
+and not to the diffusion in this case
+
+278
+00:14:20.310 --> 00:14:24.150
+you to God is not connected to is now
+
+279
+00:14:24.150 --> 00:14:27.150
+take it to the we frame that is it is
+
+280
+00:14:27.150 --> 00:14:29.220
+being driven by BD together it is
+
+281
+00:14:29.220 --> 00:14:31.650
+restoring Q does not drive anything back
+
+282
+00:14:31.650 --> 00:14:35.010
+to gate the back to D so one of those
+
+283
+00:14:35.010 --> 00:14:38.130
+two these two designs fixes for example
+
+284
+00:14:38.130 --> 00:14:40.470
+a design number one which is the output
+
+285
+00:14:40.470 --> 00:14:44.160
+noise sensitivity since Q is direct
+
+286
+00:14:44.160 --> 00:14:47.970
+directly driven by VDD or ground the
+
+287
+00:14:47.970 --> 00:14:50.460
+second circuit solves the diffusion
+
+288
+00:14:50.460 --> 00:14:53.490
+input type obviously in both these cases
+
+289
+00:14:53.490 --> 00:14:56.940
+we have the output is not available that
+
+290
+00:14:56.940 --> 00:15:00.270
+is available movie or put isn't notice
+
+291
+00:15:00.270 --> 00:15:02.850
+right let's see one more improvement
+
+292
+00:15:02.850 --> 00:15:05.850
+over this what we do okay let's go back
+
+293
+00:15:05.850 --> 00:15:06.810
+to 3d circuit
+
+294
+00:15:06.810 --> 00:15:12.870
+you see these three topics now
+
+295
+00:15:12.870 --> 00:15:17.520
+these the ex will have some the node X
+
+296
+00:15:17.520 --> 00:15:20.070
+will have some capacitance with respect
+
+297
+00:15:20.070 --> 00:15:22.680
+to ground or wing PD depending on the
+
+298
+00:15:22.680 --> 00:15:25.589
+logic developments let's say the clock
+
+299
+00:15:25.589 --> 00:15:28.230
+is zero whenever the clock is build this
+
+300
+00:15:28.230 --> 00:15:30.480
+transmission gate is switched off that
+
+301
+00:15:30.480 --> 00:15:33.800
+means B is not connected with
+
+302
+00:15:33.840 --> 00:15:37.110
+so the voltage level on X will start
+
+303
+00:15:37.110 --> 00:15:39.570
+degrading over time let's say you keep
+
+304
+00:15:39.570 --> 00:15:42.690
+block off course um some big amount of
+
+305
+00:15:42.690 --> 00:15:45.420
+time the voltage value 1x will start
+
+306
+00:15:45.420 --> 00:15:48.540
+degrading across the capacitance with
+
+307
+00:15:48.540 --> 00:15:53.730
+the one with this is the case where we
+
+308
+00:15:53.730 --> 00:15:55.800
+say that the circuit is dynamic in
+
+309
+00:15:55.800 --> 00:15:58.920
+nature that is X the node X is dynamic
+
+310
+00:15:58.920 --> 00:16:01.589
+emitter it may show some deepening of
+
+311
+00:16:01.589 --> 00:16:06.660
+inaudible now in this circuit what we do
+
+312
+00:16:06.660 --> 00:16:10.490
+is we take this feedback compute
+
+313
+00:16:10.490 --> 00:16:13.310
+we take the feedback compute and feed it
+
+314
+00:16:13.310 --> 00:16:15.800
+back into X
+
+315
+00:16:15.800 --> 00:16:19.370
+when does this happen so they can be one
+
+316
+00:16:19.370 --> 00:16:22.610
+one case at a time when everything is
+
+317
+00:16:22.610 --> 00:16:26.380
+driving this does not exist
+
+318
+00:16:26.380 --> 00:16:29.240
+this feedback part does not exist
+
+319
+00:16:29.240 --> 00:16:31.640
+because the connection of transmission
+
+320
+00:16:31.640 --> 00:16:34.760
+gate is complementary so whenever clock
+
+321
+00:16:34.760 --> 00:16:39.770
+is one this this transmission gate is
+
+322
+00:16:39.770 --> 00:16:43.340
+active this is an active if you see the
+
+323
+00:16:43.340 --> 00:16:44.900
+clock is connected to the complement way
+
+324
+00:16:44.900 --> 00:16:50.110
+so deal t drive X in the other case
+
+325
+00:16:50.110 --> 00:16:55.970
+where be a 40-watt so this this grid is
+
+326
+00:16:55.970 --> 00:17:00.800
+off and this is optional the queue is
+
+327
+00:17:00.800 --> 00:17:05.209
+driving it so at all times X is being
+
+328
+00:17:05.209 --> 00:17:09.200
+driven so that means that we try to
+
+329
+00:17:09.200 --> 00:17:13.940
+restore the value on its own organs so
+
+330
+00:17:13.940 --> 00:17:16.040
+this circuit a static imager that means
+
+331
+00:17:16.040 --> 00:17:21.079
+it is not dynamic it is fat it the bank
+
+332
+00:17:21.079 --> 00:17:24.589
+driving it is negative it is die driving
+
+333
+00:17:24.589 --> 00:17:27.770
+this because you will you being a head
+
+334
+00:17:27.770 --> 00:17:30.740
+in the circuit is dying by X but still
+
+335
+00:17:30.740 --> 00:17:32.860
+it is and doing the working or getting
+
+336
+00:17:32.860 --> 00:17:38.150
+static laughter now attention we must
+
+337
+00:17:38.150 --> 00:17:41.630
+make sure that the voltage levels do not
+
+338
+00:17:41.630 --> 00:17:44.510
+fit if the voltage levels are degraded
+
+339
+00:17:44.510 --> 00:17:47.990
+is very very disadvantageous that any
+
+340
+00:17:47.990 --> 00:17:53.300
+small noise is a becomes an idea so next
+
+341
+00:17:53.300 --> 00:17:56.700
+improvement we buffer the input
+
+342
+00:17:56.700 --> 00:17:59.850
+muttering the input will obviously fix
+
+343
+00:17:59.850 --> 00:18:02.700
+the dictation input it is an it is
+
+344
+00:18:02.700 --> 00:18:04.850
+non-invertible
+
+345
+00:18:04.850 --> 00:18:07.620
+within one more tiny improvement is that
+
+346
+00:18:07.620 --> 00:18:10.650
+what we do is instead of compared to the
+
+347
+00:18:10.650 --> 00:18:14.460
+PDF instead of taking to come now Q is
+
+348
+00:18:14.460 --> 00:18:15.870
+feeding back into Excel
+
+349
+00:18:15.870 --> 00:18:18.960
+instead of taking Q output here the next
+
+350
+00:18:18.960 --> 00:18:22.510
+control mind we take Q from X
+
+351
+00:18:22.510 --> 00:18:25.690
+what does this do now is that experience
+
+352
+00:18:25.690 --> 00:18:31.690
+the case of back ready so Q is Q Excel
+
+353
+00:18:31.690 --> 00:18:33.790
+the output itself is not driving back
+
+354
+00:18:33.790 --> 00:18:36.160
+anything into the circle this is very
+
+355
+00:18:36.160 --> 00:18:38.980
+very desirable from the knowledge point
+
+356
+00:18:38.980 --> 00:18:41.860
+of view again so this is the most widely
+
+357
+00:18:41.860 --> 00:18:44.740
+used larger than this is very very
+
+358
+00:18:44.740 --> 00:18:48.670
+robust obviously since we added about
+
+359
+00:18:48.670 --> 00:18:50.500
+poor inverters with a basic function
+
+360
+00:18:50.500 --> 00:18:54.070
+great design with a very large it is a
+
+361
+00:18:54.070 --> 00:18:59.070
+slope F over here means with an output
+
+362
+00:18:59.070 --> 00:19:02.320
+it has height of the link now note here
+
+363
+00:19:02.320 --> 00:19:07.840
+that top here goes to this goes to spot
+
+364
+00:19:07.840 --> 00:19:13.180
+which opens so the loading is both go
+
+365
+00:19:13.180 --> 00:19:15.600
+here just we need a notice for put
+
+366
+00:19:15.600 --> 00:19:18.310
+considering all the disadvantages also
+
+367
+00:19:18.310 --> 00:19:27.310
+this circuit is now this is one example
+
+368
+00:19:27.310 --> 00:19:31.510
+of this loaded with less repetition
+
+369
+00:19:31.510 --> 00:19:36.580
+where we remove the inverter from T so
+
+370
+00:19:36.580 --> 00:19:39.970
+to put it in D this can be one if we
+
+371
+00:19:39.970 --> 00:19:43.360
+want we desire that between that if you
+
+372
+00:19:43.360 --> 00:19:46.120
+can input the not problem in smaller
+
+373
+00:19:46.120 --> 00:19:47.950
+designs or an older technology we could
+
+374
+00:19:47.950 --> 00:19:51.490
+remove the uniformity and make it a bit
+
+375
+00:19:51.490 --> 00:19:56.980
+small obviously in this case we do let's
+
+376
+00:19:56.980 --> 00:19:59.650
+look at this or again going back to
+
+377
+00:19:59.650 --> 00:20:02.890
+what is mono they fit into the 10 pin
+
+378
+00:20:02.890 --> 00:20:06.910
+top is big moving two latches connected
+
+379
+00:20:06.910 --> 00:20:07.950
+back to back together
+
+380
+00:20:07.950 --> 00:20:11.080
+it's clock being inverted to D be first
+
+381
+00:20:11.080 --> 00:20:12.580
+one this is called a mass displacement
+
+382
+00:20:12.580 --> 00:20:17.110
+position so this is an example of that
+
+383
+00:20:17.110 --> 00:20:22.170
+so in the power circuit in this circuit
+
+384
+00:20:22.170 --> 00:20:28.980
+what we do is we connect so this is a
+
+385
+00:20:28.980 --> 00:20:33.700
+this is my lash this D 2 X this is the Q
+
+386
+00:20:33.700 --> 00:20:35.960
+of first ash and this is a game
+
+387
+00:20:35.960 --> 00:20:39.040
+this part is effectiveness
+
+388
+00:20:39.040 --> 00:20:41.590
+they are both connected together the
+
+389
+00:20:41.590 --> 00:20:45.370
+thing to note here is that cloth this
+
+390
+00:20:45.370 --> 00:20:48.210
+clock here and
+
+391
+00:20:49.810 --> 00:20:52.920
+clock here they're both our inverter so
+
+392
+00:20:52.920 --> 00:20:57.220
+we burst the first latch gets a
+
+393
+00:20:57.220 --> 00:20:58.930
+complimentary clock when compared to the
+
+394
+00:20:58.930 --> 00:21:01.990
+second action now let's try to analyze
+
+395
+00:21:01.990 --> 00:21:05.440
+the functionality of this then we are
+
+396
+00:21:05.440 --> 00:21:07.660
+comfortable with the understanding of
+
+397
+00:21:07.660 --> 00:21:10.300
+the functionality of the first 30 second
+
+398
+00:21:10.300 --> 00:21:11.890
+circuit is not much different on the
+
+399
+00:21:11.890 --> 00:21:15.610
+contracted whatever consumption is
+
+400
+00:21:15.610 --> 00:21:17.320
+applied earlier that is how to make a
+
+401
+00:21:17.320 --> 00:21:19.900
+robust latch we have just converted we
+
+402
+00:21:19.900 --> 00:21:22.510
+do not adhere to the more robust shown
+
+403
+00:21:22.510 --> 00:21:24.790
+otherwise for 10 seconds as the path is
+
+404
+00:21:24.790 --> 00:21:29.110
+actually same now let's see whenever
+
+405
+00:21:29.110 --> 00:21:31.000
+torch is low what happens when poor
+
+406
+00:21:31.000 --> 00:21:33.190
+people or what happens when the clock is
+
+407
+00:21:33.190 --> 00:21:35.010
+they will lower stable home
+
+408
+00:21:35.010 --> 00:21:39.630
+so then clock this stable loop table 0
+
+409
+00:21:39.630 --> 00:21:43.170
+that means Oh
+
+410
+00:21:44.500 --> 00:21:49.000
+this our this particular transmission
+
+411
+00:21:49.000 --> 00:21:56.310
+gate oh so when when electric field
+
+412
+00:21:57.280 --> 00:22:00.790
+for hit let's see the first case from D
+
+413
+00:22:00.790 --> 00:22:04.090
+to X what happens from D to it so then
+
+414
+00:22:04.090 --> 00:22:09.520
+PI that is cloth is you this part
+
+415
+00:22:09.520 --> 00:22:12.160
+becomes active D - D - X is connected
+
+416
+00:22:12.160 --> 00:22:15.460
+but complementary xqq is not connected
+
+417
+00:22:15.460 --> 00:22:18.280
+so another clock is low there is no
+
+418
+00:22:18.280 --> 00:22:21.010
+direct connection from D to you this
+
+419
+00:22:21.010 --> 00:22:24.130
+isn't our district of functionality when
+
+420
+00:22:24.130 --> 00:22:27.940
+clock is 1 extra Q's connected or Cuba
+
+421
+00:22:27.940 --> 00:22:30.100
+is connected and D 2 s is open it
+
+422
+00:22:30.100 --> 00:22:32.560
+so whenever the clock is either active
+
+423
+00:22:32.560 --> 00:22:36.070
+low or active voice is able T there is
+
+424
+00:22:36.070 --> 00:22:38.590
+no direct path from B to C now what
+
+425
+00:22:38.590 --> 00:22:43.230
+happens when clock goes from 0 to 1
+
+426
+00:22:43.320 --> 00:22:45.930
+so then our club goes from zero to one
+
+427
+00:22:45.930 --> 00:22:49.020
+so then when it was zero
+
+428
+00:22:49.020 --> 00:22:51.090
+this was our active this particular part
+
+429
+00:22:51.090 --> 00:22:52.440
+was not tips will be was connected to it
+
+430
+00:22:52.440 --> 00:22:56.160
+so whatever is on D is on X now when it
+
+431
+00:22:56.160 --> 00:22:58.420
+goes to one
+
+432
+00:22:58.420 --> 00:23:03.470
+this latch closes and this latch starts
+
+433
+00:23:03.470 --> 00:23:07.310
+turning on so during the closure of this
+
+434
+00:23:07.310 --> 00:23:10.760
+latch whatever the value of was an ex
+
+435
+00:23:10.760 --> 00:23:13.520
+will retain until this latch is turned
+
+436
+00:23:13.520 --> 00:23:19.430
+on X stands for the 200 that is compared
+
+437
+00:23:19.430 --> 00:23:20.450
+with a timing diagram
+
+438
+00:23:20.450 --> 00:23:22.070
+whenever clock goes from zero to one
+
+439
+00:23:22.070 --> 00:23:24.590
+whatever is on d appears on T which is
+
+440
+00:23:24.590 --> 00:23:27.830
+what happens in this case so whenever it
+
+441
+00:23:27.830 --> 00:23:31.460
+goes to 1 whatever is on B was
+
+442
+00:23:31.460 --> 00:23:34.610
+transferred to X we top goes to 1 the
+
+443
+00:23:34.610 --> 00:23:37.970
+value of x is a then cop goes to 1 this
+
+444
+00:23:37.970 --> 00:23:41.300
+part turns on and exocomp of the key
+
+445
+00:23:41.300 --> 00:23:43.880
+exactly same thing happens in the second
+
+446
+00:23:43.880 --> 00:23:46.340
+circuit the only difference being we
+
+447
+00:23:46.340 --> 00:23:49.550
+added a couple of feedbacks here to
+
+448
+00:23:49.550 --> 00:23:52.940
+restore the value we took the two bar
+
+449
+00:23:52.940 --> 00:23:56.450
+form from the intermediate stage we took
+
+450
+00:23:56.450 --> 00:23:59.540
+two here we made sure that there is no
+
+451
+00:23:59.540 --> 00:24:02.060
+queue or two bar does not write anything
+
+452
+00:24:02.060 --> 00:24:04.310
+back into this process so the second
+
+453
+00:24:04.310 --> 00:24:06.260
+circuit is a more robust more practical
+
+454
+00:24:06.260 --> 00:24:08.300
+focus but to understand the
+
+455
+00:24:08.300 --> 00:24:13.040
+functionality the first activity now
+
+456
+00:24:13.040 --> 00:24:15.950
+there's one more how now we we saw a
+
+457
+00:24:15.950 --> 00:24:18.950
+basic lack basic before what we do is we
+
+458
+00:24:18.950 --> 00:24:22.160
+start adding displaying pin shook the
+
+459
+00:24:22.160 --> 00:24:25.730
+table and see what happens so another
+
+460
+00:24:25.730 --> 00:24:28.220
+more most famous Finnish clock enable on
+
+461
+00:24:28.220 --> 00:24:30.800
+a date an angle P so what enable means
+
+462
+00:24:30.800 --> 00:24:34.550
+is that whenever a label is 0 we ignore
+
+463
+00:24:34.550 --> 00:24:37.550
+the clock let me know what ignoring the
+
+464
+00:24:37.550 --> 00:24:40.210
+clock means we know what is will be
+
+465
+00:24:40.210 --> 00:24:42.800
+there two ways of implementing enable
+
+466
+00:24:42.800 --> 00:24:45.800
+you know in a larger up to stop VI the
+
+467
+00:24:45.800 --> 00:24:46.370
+MUX
+
+468
+00:24:46.370 --> 00:24:49.520
+so this is the month when enable is zero
+
+469
+00:24:49.520 --> 00:24:53.090
+we latch or v clock the to inversion
+
+470
+00:24:53.090 --> 00:24:56.840
+whenever enable in zero this drop input
+
+471
+00:24:56.840 --> 00:24:59.630
+will get whatever is on Q so Q will
+
+472
+00:24:59.630 --> 00:25:02.630
+maintain x value whenever enable is 1 if
+
+473
+00:25:02.630 --> 00:25:04.010
+there is at a normal system that is
+
+474
+00:25:04.010 --> 00:25:05.870
+stable we will type you wanna pop
+
+475
+00:25:05.870 --> 00:25:09.020
+trigger anything will last this last the
+
+476
+00:25:09.020 --> 00:25:12.530
+second implementation is adding the
+
+477
+00:25:12.530 --> 00:25:16.340
+gating the enable good flow so when we
+
+478
+00:25:16.340 --> 00:25:18.050
+give been able to the cloth and enable
+
+479
+00:25:18.050 --> 00:25:19.790
+is video this is an angle and it will be
+
+480
+00:25:19.790 --> 00:25:21.620
+the clock is always be going to latch at
+
+481
+00:25:21.620 --> 00:25:23.600
+a flip up to do nothing happens to the
+
+482
+00:25:23.600 --> 00:25:26.630
+path from D to build off whenever clock
+
+483
+00:25:26.630 --> 00:25:29.510
+is 1 it behaves like a normal action of
+
+484
+00:25:29.510 --> 00:25:32.570
+this pot it one advantages of a MUX
+
+485
+00:25:32.570 --> 00:25:35.210
+design or let's say disadvantage for
+
+486
+00:25:35.210 --> 00:25:39.050
+much will so this MUX is having filling
+
+487
+00:25:39.050 --> 00:25:41.150
+in the data
+
+488
+00:25:41.150 --> 00:25:45.320
+so it it so in case of a large physical
+
+489
+00:25:45.320 --> 00:25:50.360
+at the d2q delays increased however for
+
+490
+00:25:50.360 --> 00:25:52.970
+a chocolate in case of the D to Cuba
+
+491
+00:25:52.970 --> 00:25:55.120
+remains same but for a flip-flop eight
+
+492
+00:25:55.120 --> 00:25:58.580
+so the set-up time will increase
+
+493
+00:25:58.580 --> 00:26:02.390
+quad-core enable enable will be one open
+
+494
+00:26:02.390 --> 00:26:04.490
+we will see what our setup voltage and
+
+495
+00:26:04.490 --> 00:26:07.400
+weight of the platform lattice but just
+
+496
+00:26:07.400 --> 00:26:10.310
+remember for now that the addition of an
+
+497
+00:26:10.310 --> 00:26:13.250
+a between on clock will increase the set
+
+498
+00:26:13.250 --> 00:26:15.170
+of thing and it will imitate the clock
+
+499
+00:26:15.170 --> 00:26:16.640
+skew because we are adding one more gate
+
+500
+00:26:16.640 --> 00:26:19.280
+at the clock however the second
+
+501
+00:26:19.280 --> 00:26:20.780
+implementation that is the job getting
+
+502
+00:26:20.780 --> 00:26:23.990
+we will see not mood of this explore
+
+503
+00:26:23.990 --> 00:26:26.750
+gating is the most famous way to save
+
+504
+00:26:26.750 --> 00:26:35.210
+power you'll see how now we I am some
+
+505
+00:26:35.210 --> 00:26:39.860
+coil head for a latch detect means that
+
+506
+00:26:39.860 --> 00:26:43.790
+we want to reset the value on the output
+
+507
+00:26:43.790 --> 00:26:46.190
+value we want to reset all these blocks
+
+508
+00:26:46.190 --> 00:26:48.020
+and all the notches in the Devon and
+
+509
+00:26:48.020 --> 00:26:51.020
+what do we do so let me type something
+
+510
+00:26:51.020 --> 00:26:54.280
+set reset synchronous or asynchronous
+
+511
+00:26:54.280 --> 00:26:56.960
+means that our inside will behave
+
+512
+00:26:56.960 --> 00:27:00.380
+exactly like the sense that each I can
+
+513
+00:27:00.380 --> 00:27:01.580
+only affect the output
+
+514
+00:27:01.580 --> 00:27:04.850
+whenever clock gets triggered in case of
+
+515
+00:27:04.850 --> 00:27:07.610
+this system however an async mass will
+
+516
+00:27:07.610 --> 00:27:09.920
+behave as an implicit whenever we assert
+
+517
+00:27:09.920 --> 00:27:13.070
+reset DQ will go to 0 if this filter of
+
+518
+00:27:13.070 --> 00:27:16.660
+the state of the clock so
+
+519
+00:27:17.080 --> 00:27:18.999
+let's see how do we implement a reset
+
+520
+00:27:18.999 --> 00:27:22.860
+for a large and epic clock so
+
+521
+00:27:22.860 --> 00:27:26.259
+synchronous case is very very simple
+
+522
+00:27:26.259 --> 00:27:29.200
+since reset behaves exactly like we we
+
+523
+00:27:29.200 --> 00:27:32.559
+just gave dv3 tip so whenever instant
+
+524
+00:27:32.559 --> 00:27:37.239
+becomes 1 this node here becomes 0 and Q
+
+525
+00:27:37.239 --> 00:27:39.159
+becomes 0 whenever that is transferred
+
+526
+00:27:39.159 --> 00:27:43.869
+so we see that similarly for the top we
+
+527
+00:27:43.869 --> 00:27:46.179
+just add reset we get it pretty that's
+
+528
+00:27:46.179 --> 00:27:46.720
+it
+
+529
+00:27:46.720 --> 00:27:48.539
+so whenever the clock trigger happens
+
+530
+00:27:48.539 --> 00:27:50.950
+this node will get transferred on the
+
+531
+00:27:50.950 --> 00:27:52.809
+queue and the keywords become 0 Q Bar
+
+532
+00:27:52.809 --> 00:27:54.740
+will become off
+
+533
+00:27:54.740 --> 00:27:57.080
+for a sequel this case is a bit
+
+534
+00:27:57.080 --> 00:27:59.779
+complicated more complex to a spiral
+
+535
+00:27:59.779 --> 00:28:03.220
+implementation boost so we'll have to
+
+536
+00:28:03.220 --> 00:28:08.330
+reset D and we will also have to reset
+
+537
+00:28:08.330 --> 00:28:11.659
+the intermediate move why because we
+
+538
+00:28:11.659 --> 00:28:14.480
+want to make sure that this still goes
+
+539
+00:28:14.480 --> 00:28:16.760
+to 0 in respective of the state of the
+
+540
+00:28:16.760 --> 00:28:21.890
+term and whenever the clock the large is
+
+541
+00:28:21.890 --> 00:28:24.470
+transparent this also this node also
+
+542
+00:28:24.470 --> 00:28:26.659
+should not affect me so we add retied
+
+543
+00:28:26.659 --> 00:28:28.370
+year ago when what happens and you get
+
+544
+00:28:28.370 --> 00:28:31.309
+both perform research goes to lunch this
+
+545
+00:28:31.309 --> 00:28:34.279
+node becomes 0 and this node becomes 0
+
+546
+00:28:34.279 --> 00:28:37.370
+so cube becomes 0 even then the effect
+
+547
+00:28:37.370 --> 00:28:41.360
+of reset codes and the clock is 1 we
+
+548
+00:28:41.360 --> 00:28:43.330
+need D to become one to make you one if
+
+549
+00:28:43.330 --> 00:28:46.850
+let's say this node was not reset then
+
+550
+00:28:46.850 --> 00:28:47.899
+what would have happened is that
+
+551
+00:28:47.899 --> 00:28:50.809
+whenever clock comes to this
+
+552
+00:28:50.809 --> 00:28:52.700
+intermediate value it can get
+
+553
+00:28:52.700 --> 00:28:54.890
+transferred to Q so to prevent this we
+
+554
+00:28:54.890 --> 00:28:57.640
+make this node
+
+555
+00:29:00.790 --> 00:29:04.190
+so to make to make sure that reset the
+
+556
+00:29:04.190 --> 00:29:06.680
+work properly asynchronously you have to
+
+557
+00:29:06.680 --> 00:29:09.590
+make sure that this node here and this
+
+558
+00:29:09.590 --> 00:29:11.660
+node here these two nodes have to be
+
+559
+00:29:11.660 --> 00:29:14.630
+reset so we are we get these two points
+
+560
+00:29:14.630 --> 00:29:16.730
+with the result same thing happens in a
+
+561
+00:29:16.730 --> 00:29:19.310
+block clock cop is nothing but master
+
+562
+00:29:19.310 --> 00:29:23.140
+tape integration so exactly the moment
+
+563
+00:29:23.140 --> 00:29:25.850
+there is a one more signal a very famous
+
+564
+00:29:25.850 --> 00:29:27.800
+in a pulpit so now we want to make sure
+
+565
+00:29:27.800 --> 00:29:30.160
+that queue is one should have view
+
+566
+00:29:30.160 --> 00:29:33.200
+exactly same concept as reset only the
+
+567
+00:29:33.200 --> 00:29:36.200
+gating maintained so this design is
+
+568
+00:29:36.200 --> 00:29:39.590
+implements both be patented you flip it
+
+569
+00:29:39.590 --> 00:29:44.300
+up I would urge all of you to go to
+
+570
+00:29:44.300 --> 00:29:47.840
+slice implement this and see the
+
+571
+00:29:47.840 --> 00:29:50.570
+functionality for yourself because this
+
+572
+00:29:50.570 --> 00:29:52.580
+is an asynchronous case so you have to
+
+573
+00:29:52.580 --> 00:29:55.250
+verify the functionality that whenever
+
+574
+00:29:55.250 --> 00:29:57.860
+set or reset one of the set or e-theta
+
+575
+00:29:57.860 --> 00:30:00.440
+deserted you goes to the correct value
+
+576
+00:30:00.440 --> 00:30:02.830
+irrespective of the state of the clock
+
+577
+00:30:02.830 --> 00:30:06.530
+please note that it is invalid for both
+
+578
+00:30:06.530 --> 00:30:08.800
+set and reset to be a circuit together
+
+579
+00:30:08.800 --> 00:30:11.480
+it is not a valid case since you would
+
+580
+00:30:11.480 --> 00:30:14.780
+want the only one to happen and you can
+
+581
+00:30:14.780 --> 00:30:16.430
+also verify what happens in this what
+
+582
+00:30:16.430 --> 00:30:19.000
+happens for two
+
+583
+00:30:19.910 --> 00:30:24.030
+okay so now we saw the designer block we
+
+584
+00:30:24.030 --> 00:30:25.920
+saw the design of the latch of this
+
+585
+00:30:25.920 --> 00:30:30.390
+happen now let us look at the sequencing
+
+586
+00:30:30.390 --> 00:30:34.440
+method that is how are these an image
+
+587
+00:30:34.440 --> 00:30:36.150
+connected together to make sure that
+
+588
+00:30:36.150 --> 00:30:37.200
+sequencing is correct
+
+589
+00:30:37.200 --> 00:30:40.350
+Plus what happens to the clock now there
+
+590
+00:30:40.350 --> 00:30:44.540
+are three methods first is flip-flops
+
+591
+00:30:44.540 --> 00:30:47.880
+take in clips using to fill that is
+
+592
+00:30:47.880 --> 00:30:51.140
+where it is you think pilot's license
+
+593
+00:30:51.140 --> 00:30:54.120
+now design also design wise that is a
+
+594
+00:30:54.120 --> 00:30:56.700
+simpler in the sense of construction
+
+595
+00:30:56.700 --> 00:31:01.050
+wise they are smaller but when this when
+
+596
+00:31:01.050 --> 00:31:03.930
+we want to use certain amount in nine
+
+597
+00:31:03.930 --> 00:31:06.870
+days I'm the sloths are much more
+
+598
+00:31:06.870 --> 00:31:09.480
+simpler to handle the timing
+
+599
+00:31:09.480 --> 00:31:12.540
+relationships are much more clear the
+
+600
+00:31:12.540 --> 00:31:15.240
+clock network is much more simpler and
+
+601
+00:31:15.240 --> 00:31:18.990
+pipe adapted that is why the first
+
+602
+00:31:18.990 --> 00:31:22.320
+method that is using the clocks will be
+
+603
+00:31:22.320 --> 00:31:26.340
+using this this type of design is the
+
+604
+00:31:26.340 --> 00:31:30.720
+most popular way or sequencing two and
+
+605
+00:31:30.720 --> 00:31:34.260
+three from this force course point of
+
+606
+00:31:34.260 --> 00:31:36.380
+view either the cationic lipid in naked
+
+607
+00:31:36.380 --> 00:31:40.320
+D will never use compares artists or
+
+608
+00:31:40.320 --> 00:31:42.840
+pulsated in our design in the school
+
+609
+00:31:42.840 --> 00:31:46.680
+maybe maybe some of the design people
+
+610
+00:31:46.680 --> 00:31:49.290
+maybe thumb product companies use this
+
+611
+00:31:49.290 --> 00:31:51.120
+kind of design very very specific cases
+
+612
+00:31:51.120 --> 00:31:55.770
+but otherwise almost almost 100% of
+
+613
+00:31:55.770 --> 00:31:58.500
+Industry you will be possible so I'll
+
+614
+00:31:58.500 --> 00:32:01.110
+focus a lot on birth weight compared to
+
+615
+00:32:01.110 --> 00:32:06.630
+method to NP now let's look at a few
+
+616
+00:32:06.630 --> 00:32:09.270
+things here let's look at the timing
+
+617
+00:32:09.270 --> 00:32:13.400
+diagrams what all timing is insulted
+
+618
+00:32:13.400 --> 00:32:17.630
+then we'll go into the sequencing so
+
+619
+00:32:17.630 --> 00:32:22.400
+combination logic as only has two types
+
+620
+00:32:22.400 --> 00:32:25.640
+of delays one is the maxilla other is
+
+621
+00:32:25.640 --> 00:32:26.680
+the middle attracted
+
+622
+00:32:26.680 --> 00:32:30.890
+how much time so the time it takes from
+
+623
+00:32:30.890 --> 00:32:34.520
+input to these the output this is delay
+
+624
+00:32:34.520 --> 00:32:37.610
+value can be of two types one is the
+
+625
+00:32:37.610 --> 00:32:38.990
+propagation delay as a result and
+
+626
+00:32:38.990 --> 00:32:42.650
+domination when we go back we have to go
+
+627
+00:32:42.650 --> 00:32:44.840
+back to vectors and see what has
+
+628
+00:32:44.840 --> 00:32:46.940
+contamination today all this quickly
+
+629
+00:32:46.940 --> 00:32:49.280
+tell the termination today is the gates
+
+630
+00:32:49.280 --> 00:32:51.750
+where
+
+631
+00:32:51.750 --> 00:32:54.960
+the delay of the combinational circuits
+
+632
+00:32:54.960 --> 00:32:59.519
+is less compared to the usual pips this
+
+633
+00:32:59.519 --> 00:33:01.500
+is the case where the chatter to input
+
+634
+00:33:01.500 --> 00:33:03.929
+NAND gate both a and B are transitioning
+
+635
+00:33:03.929 --> 00:33:08.639
+so the the effect is that the output it
+
+636
+00:33:08.639 --> 00:33:11.940
+gets p-value much more sooner than the
+
+637
+00:33:11.940 --> 00:33:13.730
+case where only one of the less formal
+
+638
+00:33:13.730 --> 00:33:17.759
+of course for this for this course what
+
+639
+00:33:17.759 --> 00:33:20.580
+I would request is that
+
+640
+00:33:20.580 --> 00:33:23.230
+this assumes it allows the logic
+
+641
+00:33:23.230 --> 00:33:25.240
+propagation delay to be a type of a
+
+642
+00:33:25.240 --> 00:33:27.610
+maximum that means it is the maximum
+
+643
+00:33:27.610 --> 00:33:30.270
+delay this combination as it can help
+
+644
+00:33:30.270 --> 00:33:33.070
+considerably ski be the contamination
+
+645
+00:33:33.070 --> 00:33:36.370
+relativism to be the minimum delay that
+
+646
+00:33:36.370 --> 00:33:37.630
+is it is a minimum delay this
+
+647
+00:33:37.630 --> 00:33:40.420
+combination logical home apart from the
+
+648
+00:33:40.420 --> 00:33:43.840
+so-called a still shot is the flip flop
+
+649
+00:33:43.840 --> 00:33:48.370
+film the trigger point is the cloth so
+
+650
+00:33:48.370 --> 00:33:49.840
+that the propagation delay of the
+
+651
+00:33:49.840 --> 00:33:53.530
+flip-flop is calculated from whenever
+
+652
+00:33:53.530 --> 00:33:55.930
+the clock rises whenever the queue gets
+
+653
+00:33:55.930 --> 00:34:02.110
+affected so for the flip clock the delay
+
+654
+00:34:02.110 --> 00:34:04.360
+reference point is always a clock so
+
+655
+00:34:04.360 --> 00:34:06.660
+this
+
+656
+00:34:06.950 --> 00:34:11.089
+you have a flop propagation delay talk
+
+657
+00:34:11.089 --> 00:34:13.190
+to you when you have so this is max
+
+658
+00:34:13.190 --> 00:34:14.929
+delay again and you have crossed
+
+659
+00:34:14.929 --> 00:34:16.219
+equipment a Malaysian generated
+
+660
+00:34:16.219 --> 00:34:19.668
+bilingual for latch apart from the clock
+
+661
+00:34:19.668 --> 00:34:22.699
+affecting to the data also affects you
+
+662
+00:34:22.699 --> 00:34:24.530
+whenever that is transparent so you have
+
+663
+00:34:24.530 --> 00:34:27.290
+four types of delays to our same as
+
+664
+00:34:27.290 --> 00:34:29.629
+flops that is clock the blue propagation
+
+665
+00:34:29.629 --> 00:34:31.940
+is occupant and anything apart from
+
+666
+00:34:31.940 --> 00:34:33.829
+there they are two extra days which are
+
+667
+00:34:33.829 --> 00:34:35.480
+due to Q propagation and d2 to
+
+668
+00:34:35.480 --> 00:34:38.799
+contamination we see
+
+669
+00:34:39.699 --> 00:34:44.989
+so but the AUSA lodges have few
+
+670
+00:34:44.989 --> 00:34:47.540
+extraordinary values these are not
+
+671
+00:34:47.540 --> 00:34:50.570
+exactly laser restriction so a flop
+
+672
+00:34:50.570 --> 00:34:54.760
+let's say a cloth is guaranteed to work
+
+673
+00:34:54.760 --> 00:34:59.240
+only if data does not change in a window
+
+674
+00:34:59.240 --> 00:35:01.970
+around this log so let's say the clock
+
+675
+00:35:01.970 --> 00:35:05.600
+transitions here so there is a window on
+
+676
+00:35:05.600 --> 00:35:07.970
+both sides
+
+677
+00:35:07.970 --> 00:35:12.230
+during which detects emerging Oh Polly
+
+678
+00:35:12.230 --> 00:35:14.869
+then it is guaranteed that you will get
+
+679
+00:35:14.869 --> 00:35:17.510
+a degree so this window is called as a
+
+680
+00:35:17.510 --> 00:35:20.060
+double window
+
+681
+00:35:20.060 --> 00:35:24.890
+data should be stable at least some time
+
+682
+00:35:24.890 --> 00:35:29.570
+before the package this minimum time
+
+683
+00:35:29.570 --> 00:35:33.400
+constraint is called set a time that is
+
+684
+00:35:33.400 --> 00:35:38.570
+data should be set up before the clock
+
+685
+00:35:38.570 --> 00:35:40.220
+period before the clock breakage come
+
+686
+00:35:40.220 --> 00:35:43.340
+and this restrictive time is called at a
+
+687
+00:35:43.340 --> 00:35:46.820
+time similarly they should be held for
+
+688
+00:35:46.820 --> 00:35:49.090
+some time after the clock and his pals
+
+689
+00:35:49.090 --> 00:35:53.470
+this is session is called the whole time
+
+690
+00:35:53.470 --> 00:35:57.290
+so for a pace of a block the whole time
+
+691
+00:35:57.290 --> 00:36:00.070
+and set of time are calculated from the
+
+692
+00:36:00.070 --> 00:36:02.870
+the the trigger edge that is the clock
+
+693
+00:36:02.870 --> 00:36:05.810
+edge that triggers viewing for large it
+
+694
+00:36:05.810 --> 00:36:08.540
+is always a closing you that means the
+
+695
+00:36:08.540 --> 00:36:13.370
+edge that closes is that latches d2q the
+
+696
+00:36:13.370 --> 00:36:16.340
+D has to meet a setup and a hold window
+
+697
+00:36:16.340 --> 00:36:21.350
+from that edge so a combinational logic
+
+698
+00:36:21.350 --> 00:36:22.610
+does not have such a template
+
+699
+00:36:22.610 --> 00:36:24.470
+combination logic is purely a technical
+
+700
+00:36:24.470 --> 00:36:27.560
+tip whatever happens on input appears
+
+701
+00:36:27.560 --> 00:36:30.080
+sometimes a fun time offset on the album
+
+702
+00:36:30.080 --> 00:36:33.320
+for a sequential element however the
+
+703
+00:36:33.320 --> 00:36:36.200
+input should be stable before they
+
+704
+00:36:36.200 --> 00:36:39.680
+trigger it for a clip-clop it's always d
+
+705
+00:36:39.680 --> 00:36:41.930
+for a positive edge triggered fill top
+
+706
+00:36:41.930 --> 00:36:45.260
+it is always a clock positive edge
+
+707
+00:36:45.260 --> 00:36:47.720
+for a label sensitive latch that means
+
+708
+00:36:47.720 --> 00:36:50.450
+which is transparent and high edge it is
+
+709
+00:36:50.450 --> 00:36:55.310
+always a negative now let's see how do
+
+710
+00:36:55.310 --> 00:36:58.730
+we use these these figures these these
+
+711
+00:36:58.730 --> 00:37:02.170
+delay numbers these deliverables to
+
+712
+00:37:02.170 --> 00:37:06.619
+estimate the frequency of a design or in
+
+713
+00:37:06.619 --> 00:37:08.750
+other words to see what is what will be
+
+714
+00:37:08.750 --> 00:37:11.380
+the sequencing over
+
+715
+00:37:11.380 --> 00:37:13.330
+now let's look at the slip off this the
+
+716
+00:37:13.330 --> 00:37:17.560
+maxilla now this type of diagram and
+
+717
+00:37:17.560 --> 00:37:19.630
+these equations you'll encounter a lot
+
+718
+00:37:19.630 --> 00:37:22.930
+of times in the next next units because
+
+719
+00:37:22.930 --> 00:37:26.740
+this is the basis of calculating the
+
+720
+00:37:26.740 --> 00:37:28.840
+frequency by design
+
+721
+00:37:28.840 --> 00:37:30.820
+now let's say there were there was no
+
+722
+00:37:30.820 --> 00:37:33.100
+sequence irrelevant here so this
+
+723
+00:37:33.100 --> 00:37:35.170
+combination logic is the only thing
+
+724
+00:37:35.170 --> 00:37:37.600
+present here to the delay we say that
+
+725
+00:37:37.600 --> 00:37:38.920
+the delay of this combination was it
+
+726
+00:37:38.920 --> 00:37:42.730
+let's call it let's call it call it PPD
+
+727
+00:37:42.730 --> 00:37:48.090
+so without any so this without any
+
+728
+00:37:48.090 --> 00:37:50.800
+sequential elements present the delay
+
+729
+00:37:50.800 --> 00:37:54.910
+would have been TBD right now we are we
+
+730
+00:37:54.910 --> 00:37:57.040
+are added one stop here man puppet
+
+731
+00:37:57.040 --> 00:37:58.930
+we added some sequential elements now
+
+732
+00:37:58.930 --> 00:38:00.700
+what happens
+
+733
+00:38:00.700 --> 00:38:04.940
+so whenever let's say we frequency that
+
+734
+00:38:04.940 --> 00:38:07.190
+the time period of box TV weekly the
+
+735
+00:38:07.190 --> 00:38:08.840
+time between the first I will be
+
+736
+00:38:08.840 --> 00:38:11.390
+cognizable now everything should happen
+
+737
+00:38:11.390 --> 00:38:14.360
+within this period everything should
+
+738
+00:38:14.360 --> 00:38:17.170
+happen within this Vedic
+
+739
+00:38:17.700 --> 00:38:22.260
+so now now let's say whenever the clocks
+
+740
+00:38:22.260 --> 00:38:26.040
+where this comes it takes some time that
+
+741
+00:38:26.040 --> 00:38:27.720
+is the since we are talking about
+
+742
+00:38:27.720 --> 00:38:30.690
+maxilla you will take all the math
+
+743
+00:38:30.690 --> 00:38:32.460
+delays in the previous small the match
+
+744
+00:38:32.460 --> 00:38:34.260
+delays are always the propagation delay
+
+745
+00:38:34.260 --> 00:38:36.630
+the mingle in the end contamination is
+
+746
+00:38:36.630 --> 00:38:39.630
+so calm and collected we wish for the
+
+747
+00:38:39.630 --> 00:38:42.329
+maximum delay this block will have is P
+
+748
+00:38:42.329 --> 00:38:46.109
+P P Q so after let's say clock arrives
+
+749
+00:38:46.109 --> 00:38:51.329
+on zero time t1 changes at TPC pd-2
+
+750
+00:38:51.329 --> 00:38:55.220
+changes to add P P D plus TP c2 and
+
+751
+00:38:55.220 --> 00:39:00.780
+since this this change here at d2 should
+
+752
+00:39:00.780 --> 00:39:04.050
+be at least the whole set of Pioneer
+
+753
+00:39:04.050 --> 00:39:07.470
+so what I would say is that the total
+
+754
+00:39:07.470 --> 00:39:14.490
+delay of this circuit is EP c q+ TPD
+
+755
+00:39:14.490 --> 00:39:19.440
+let's t setup and this total delay
+
+756
+00:39:19.440 --> 00:39:21.570
+should obviously be d less than their
+
+757
+00:39:21.570 --> 00:39:25.710
+the time period of the clock this
+
+758
+00:39:25.710 --> 00:39:28.140
+condition will make sure that your
+
+759
+00:39:28.140 --> 00:39:32.340
+circuit work now let's see what the
+
+760
+00:39:32.340 --> 00:39:36.840
+equation is so take take T set the plus
+
+761
+00:39:36.840 --> 00:39:39.360
+T PC to be decidin and confirm that
+
+762
+00:39:39.360 --> 00:39:41.520
+whatever we went as fit is inside this
+
+763
+00:39:41.520 --> 00:39:44.850
+equation with T set up plus TP C cube
+
+764
+00:39:44.850 --> 00:39:48.420
+with epd all these three combined
+
+765
+00:39:48.420 --> 00:39:50.970
+together should be less than people now
+
+766
+00:39:50.970 --> 00:39:53.400
+TPD was the original combination or the
+
+767
+00:39:53.400 --> 00:39:55.470
+villain should we say that we realize
+
+768
+00:39:55.470 --> 00:39:59.610
+the equation and take P set up and T PC
+
+769
+00:39:59.610 --> 00:40:03.480
+to to this time now we see that the T
+
+770
+00:40:03.480 --> 00:40:07.800
+feeding will added these two the three
+
+771
+00:40:07.800 --> 00:40:10.590
+set up and T PC tube are only there
+
+772
+00:40:10.590 --> 00:40:12.870
+because we are in sequential elements
+
+773
+00:40:12.870 --> 00:40:16.770
+therefore F is purple so they say that
+
+774
+00:40:16.770 --> 00:40:18.780
+we are adding a sequencing over Parador
+
+775
+00:40:18.780 --> 00:40:21.480
+T set up this TB see this equation is
+
+776
+00:40:21.480 --> 00:40:23.820
+very very important we will revisit this
+
+777
+00:40:23.820 --> 00:40:26.250
+many many times we'll revisit this when
+
+778
+00:40:26.250 --> 00:40:27.780
+we start synthesis in static timing
+
+779
+00:40:27.780 --> 00:40:29.970
+analysis so please take some time in
+
+780
+00:40:29.970 --> 00:40:33.780
+understanding this or even if it is not
+
+781
+00:40:33.780 --> 00:40:37.200
+clear here I am sure that it will be
+
+782
+00:40:37.200 --> 00:40:41.130
+clear in unit puddin pie now let's look
+
+783
+00:40:41.130 --> 00:40:43.950
+at what happens when during through page
+
+784
+00:40:43.950 --> 00:40:45.630
+that is I'll not spend too much time
+
+785
+00:40:45.630 --> 00:40:48.900
+here on this last case intuitive model
+
+786
+00:40:48.900 --> 00:40:51.540
+this is the critical case so what you
+
+787
+00:40:51.540 --> 00:40:54.180
+could do is you could go back and write
+
+788
+00:40:54.180 --> 00:40:55.830
+the equations on paper and then the time
+
+789
+00:40:55.830 --> 00:40:58.800
+house books so the two phases are is
+
+790
+00:40:58.800 --> 00:41:00.510
+that is the contact is something like
+
+791
+00:41:00.510 --> 00:41:06.200
+this the clock of large one and large -
+
+792
+00:41:06.200 --> 00:41:10.290
+so you have large one and lastly a
+
+793
+00:41:10.290 --> 00:41:14.160
+connected by simple latch to two
+
+794
+00:41:14.160 --> 00:41:17.220
+is does not overlap the light one
+
+795
+00:41:17.220 --> 00:41:20.670
+o'clock so they are too perfect if you
+
+796
+00:41:20.670 --> 00:41:25.500
+have pi-1 and pi2 now what happens now
+
+797
+00:41:25.500 --> 00:41:29.250
+let's say i1 goes after so l1 becomes
+
+798
+00:41:29.250 --> 00:41:32.250
+transparent the data at q1 changes after
+
+799
+00:41:32.250 --> 00:41:36.810
+PDQ this PDQ data is d 2 to n disaster
+
+800
+00:41:36.810 --> 00:41:42.570
+TPD one now large to again latch 2
+
+801
+00:41:42.570 --> 00:41:47.400
+becomes active here so this TPD - again
+
+802
+00:41:47.400 --> 00:41:50.910
+/ - - and again you have CCPD - of this
+
+803
+00:41:50.910 --> 00:41:54.180
+combination legacy so data after DB they
+
+804
+00:41:54.180 --> 00:41:59.210
+died d3 changes after equally one less
+
+805
+00:41:59.210 --> 00:42:03.090
+PPD t 1 plus t pd 1 plus t p DQ 2 plus
+
+806
+00:42:03.090 --> 00:42:06.480
+TP degree without the latches the delay
+
+807
+00:42:06.480 --> 00:42:09.690
+would have been PPD 1 plus t VD 2 so
+
+808
+00:42:09.690 --> 00:42:13.230
+whatever we add here but so what is
+
+809
+00:42:13.230 --> 00:42:15.900
+extra here nothing but the propagation
+
+810
+00:42:15.900 --> 00:42:18.450
+delay of natural large group in fact
+
+811
+00:42:18.450 --> 00:42:19.860
+this is the sequencing overhead with
+
+812
+00:42:19.860 --> 00:42:23.850
+this group we add two times do delay up
+
+813
+00:42:23.850 --> 00:42:24.930
+or latch
+
+814
+00:42:24.930 --> 00:42:27.450
+now please note here that there is no
+
+815
+00:42:27.450 --> 00:42:31.020
+set of times incentive why because the
+
+816
+00:42:31.020 --> 00:42:33.840
+set-up time for the latch is calculated
+
+817
+00:42:33.840 --> 00:42:36.360
+from the closing is there this closing
+
+818
+00:42:36.360 --> 00:42:39.540
+edge is not important at all by again
+
+819
+00:42:39.540 --> 00:42:44.120
+because we made five and pipe is no no
+
+820
+00:42:44.320 --> 00:42:47.910
+we are make sure that the data d2
+
+821
+00:42:47.910 --> 00:42:53.470
+changes before pi/2 opens
+
+822
+00:42:53.470 --> 00:42:56.890
+so we are not changing data on the only
+
+823
+00:42:56.890 --> 00:42:58.750
+clothing it so there is no point of
+
+824
+00:42:58.750 --> 00:43:00.280
+there is no conceptus at that point you
+
+825
+00:43:00.280 --> 00:43:03.910
+in this in that case right so let's go
+
+826
+00:43:03.910 --> 00:43:06.610
+to again this type of design is very
+
+827
+00:43:06.610 --> 00:43:09.430
+very they're using on the notches this
+
+828
+00:43:09.430 --> 00:43:12.280
+graphs are multiplied since sequencing
+
+829
+00:43:12.280 --> 00:43:15.280
+is much more in control there as you see
+
+830
+00:43:15.280 --> 00:43:18.520
+that we use two blocks here and in a big
+
+831
+00:43:18.520 --> 00:43:23.380
+design that say how design has a hundred
+
+832
+00:43:23.380 --> 00:43:25.840
+thousand sequential element one hundred
+
+833
+00:43:25.840 --> 00:43:27.520
+thousand and sequential element each of
+
+834
+00:43:27.520 --> 00:43:29.470
+that says either by a single clock this
+
+835
+00:43:29.470 --> 00:43:30.970
+is a very very common place where a
+
+836
+00:43:30.970 --> 00:43:33.340
+single clogged pipes on thousands of
+
+837
+00:43:33.340 --> 00:43:35.380
+clocks in its time
+
+838
+00:43:35.380 --> 00:43:37.900
+so there is a lot of clock overhead now
+
+839
+00:43:37.900 --> 00:43:41.230
+compared this to let a flip-flop will
+
+840
+00:43:41.230 --> 00:43:42.730
+have the power based design you'll just
+
+841
+00:43:42.730 --> 00:43:44.830
+have one cup so one clock goes till it's
+
+842
+00:43:44.830 --> 00:43:46.900
+in multiple housing forms if you replace
+
+843
+00:43:46.900 --> 00:43:49.600
+that by latches and this scheme will
+
+844
+00:43:49.600 --> 00:43:51.760
+have to make we have to have two clocks
+
+845
+00:43:51.760 --> 00:43:56.020
+so adding one more cloth adds again
+
+846
+00:43:56.020 --> 00:43:59.290
+multiple thousand over it right yes you
+
+847
+00:43:59.290 --> 00:44:01.870
+have to make sure too that PI 2 and PI 1
+
+848
+00:44:01.870 --> 00:44:03.550
+oh no no non overlapping and that is not
+
+849
+00:44:03.550 --> 00:44:07.090
+very easy being able to go into like
+
+850
+00:44:07.090 --> 00:44:08.980
+cloth goes to so many buffers there is
+
+851
+00:44:08.980 --> 00:44:10.750
+all of you so it is not easy to make
+
+852
+00:44:10.750 --> 00:44:13.360
+sure that Phi 2 and 5 and all always non
+
+853
+00:44:13.360 --> 00:44:16.300
+overlapping this is why this this scheme
+
+854
+00:44:16.300 --> 00:44:18.100
+is not very very popular I put a big
+
+855
+00:44:18.100 --> 00:44:22.840
+label now this is the third case which
+
+856
+00:44:22.840 --> 00:44:25.930
+is a pump that is so then just note that
+
+857
+00:44:25.930 --> 00:44:28.270
+we are looking at the Magdala capable so
+
+858
+00:44:28.270 --> 00:44:30.940
+all we are looking at is the propagation
+
+859
+00:44:30.940 --> 00:44:34.750
+delays and not the contamination let's
+
+860
+00:44:34.750 --> 00:44:37.360
+look at well that is again we have two
+
+861
+00:44:37.360 --> 00:44:39.010
+pulses here so there will be a pulse
+
+862
+00:44:39.010 --> 00:44:41.650
+here and there will be a pulse here so
+
+863
+00:44:41.650 --> 00:44:43.540
+there are two cases the pulse rate is
+
+864
+00:44:43.540 --> 00:44:45.580
+greater than the set of time or pulse is
+
+865
+00:44:45.580 --> 00:44:46.660
+less than the set-up time
+
+866
+00:44:46.660 --> 00:44:48.640
+now here the closing edge becomes
+
+867
+00:44:48.640 --> 00:44:50.530
+important because this clothing is
+
+868
+00:44:50.530 --> 00:44:52.690
+becomes important because it's not it's
+
+869
+00:44:52.690 --> 00:44:57.310
+just a pulse so now let's say the pulse
+
+870
+00:44:57.310 --> 00:45:00.880
+width is more than a set of time so you
+
+871
+00:45:00.880 --> 00:45:05.650
+will have D 2 2 we have T PDQ it is rock
+
+872
+00:45:05.650 --> 00:45:08.560
+with you so you get a 2 Q plus you have
+
+873
+00:45:08.560 --> 00:45:11.740
+the CPD and this should be this should
+
+874
+00:45:11.740 --> 00:45:14.830
+be before happen before the EP and the
+
+875
+00:45:14.830 --> 00:45:17.850
+next edge is the next pulse happens so
+
+876
+00:45:17.850 --> 00:45:20.470
+combine these two cases if we say that B
+
+877
+00:45:20.470 --> 00:45:23.100
+we can times the sequencing overhead is
+
+878
+00:45:23.100 --> 00:45:29.200
+maxed of these PD or TT sequel that is
+
+879
+00:45:29.200 --> 00:45:30.670
+either contamination of the propagation
+
+880
+00:45:30.670 --> 00:45:35.350
+delay plus T set up the set a time of
+
+881
+00:45:35.350 --> 00:45:37.480
+this comes into picture the closing is
+
+882
+00:45:37.480 --> 00:45:40.720
+constant the picture is and - the pulse
+
+883
+00:45:40.720 --> 00:45:43.120
+width of 1 because here the pulse width
+
+884
+00:45:43.120 --> 00:45:45.970
+is this pulse width whispers which is
+
+885
+00:45:45.970 --> 00:45:48.160
+actually eating into the siphon angle so
+
+886
+00:45:48.160 --> 00:45:49.030
+everything should happen
+
+887
+00:45:49.030 --> 00:45:50.680
+for that I don't worry too much about
+
+888
+00:45:50.680 --> 00:45:52.120
+the pulse status page that will be
+
+889
+00:45:52.120 --> 00:45:54.580
+rarely use it will you'll never see this
+
+890
+00:45:54.580 --> 00:45:58.540
+name obtained before now let's let's
+
+891
+00:45:58.540 --> 00:46:01.090
+look at or the min delay that is what
+
+892
+00:46:01.090 --> 00:46:01.990
+happens
+
+893
+00:46:01.990 --> 00:46:05.230
+so when after also off clock has an
+
+894
+00:46:05.230 --> 00:46:07.030
+accidental vindaloo these are the
+
+895
+00:46:07.030 --> 00:46:10.780
+maxilla it is we stop let's go back to
+
+896
+00:46:10.780 --> 00:46:16.420
+the Immaculate Delano let's spend some
+
+897
+00:46:16.420 --> 00:46:18.630
+time here
+
+898
+00:46:19.540 --> 00:46:25.190
+so let's look at this equation here this
+
+899
+00:46:25.190 --> 00:46:27.430
+equation
+
+900
+00:46:28.170 --> 00:46:31.380
+or what what this does is equation
+
+901
+00:46:31.380 --> 00:46:34.590
+valuing it places a maximum timing
+
+902
+00:46:34.590 --> 00:46:39.090
+campaign on this oil design this so what
+
+903
+00:46:39.090 --> 00:46:41.970
+it say is here is that
+
+904
+00:46:41.970 --> 00:46:44.849
+the combination the addition of the
+
+905
+00:46:44.849 --> 00:46:47.160
+propagation delay of the block plus the
+
+906
+00:46:47.160 --> 00:46:49.020
+combination of it there is a set of time
+
+907
+00:46:49.020 --> 00:46:52.200
+at a time is kind of able to delay in
+
+908
+00:46:52.200 --> 00:46:55.980
+this case this can not be greater than
+
+909
+00:46:55.980 --> 00:46:59.720
+the period or the frequency of the block
+
+910
+00:46:59.720 --> 00:47:04.260
+what it means is that that the Yerba
+
+911
+00:47:04.260 --> 00:47:06.789
+combination logic
+
+912
+00:47:06.789 --> 00:47:08.739
+and plus you have some delay of the
+
+913
+00:47:08.739 --> 00:47:13.029
+clock what this does is it replaces the
+
+914
+00:47:13.029 --> 00:47:16.179
+design it tells us that there is a
+
+915
+00:47:16.179 --> 00:47:17.949
+natural sequence e at which I design
+
+916
+00:47:17.949 --> 00:47:18.609
+benefit
+
+917
+00:47:18.609 --> 00:47:21.489
+you cannot decrease TC without any
+
+918
+00:47:21.489 --> 00:47:24.400
+limits the maximum limit of TC the
+
+919
+00:47:24.400 --> 00:47:26.109
+maximum frequency at which you can
+
+920
+00:47:26.109 --> 00:47:31.689
+operate or design is 1 / T P D + P set
+
+921
+00:47:31.689 --> 00:47:35.079
+up plus T 2 T so we call this as a match
+
+922
+00:47:35.079 --> 00:47:38.349
+silicate then it applies a maximum
+
+923
+00:47:38.349 --> 00:47:43.329
+constraint on your frequency now keeping
+
+924
+00:47:43.329 --> 00:47:46.520
+that in mind that look at the middle
+
+925
+00:47:46.520 --> 00:47:51.020
+now the minimal delay of a block now in
+
+926
+00:47:51.020 --> 00:47:53.960
+this case we take TC 2 so the Q 1
+
+927
+00:47:53.960 --> 00:47:58.900
+changes after T C 2 D 2 changes after
+
+928
+00:47:59.329 --> 00:48:01.250
+the minimum delay of combination of
+
+929
+00:48:01.250 --> 00:48:04.059
+kinetic which is the TCD in this case
+
+930
+00:48:04.059 --> 00:48:09.490
+now a CD plus TC q should be such that
+
+931
+00:48:09.490 --> 00:48:12.349
+they do so this cloth is actually the
+
+932
+00:48:12.349 --> 00:48:15.950
+figure of people typical F to the delay
+
+933
+00:48:15.950 --> 00:48:20.359
+change at d2 should have famous as I it
+
+934
+00:48:20.359 --> 00:48:22.190
+means the whole time requirement of this
+
+935
+00:48:22.190 --> 00:48:27.430
+form so you have
+
+936
+00:48:30.070 --> 00:48:34.210
+so what it means is that they say cube
+
+937
+00:48:34.210 --> 00:48:36.370
+the facility should be better than the
+
+938
+00:48:36.370 --> 00:48:41.170
+evil data should be held kept held after
+
+939
+00:48:41.170 --> 00:48:44.530
+T hold when does it a day since they
+
+940
+00:48:44.530 --> 00:48:46.930
+doesn't exactly see decontamination
+
+941
+00:48:46.930 --> 00:48:49.090
+denier the flop less GCD of the
+
+942
+00:48:49.090 --> 00:48:52.420
+combination on it so theta D plus T city
+
+943
+00:48:52.420 --> 00:48:53.770
+pool could be greater than two holes
+
+944
+00:48:53.770 --> 00:48:57.130
+which is a quick hint we arrays an equal
+
+945
+00:48:57.130 --> 00:48:59.670
+equation
+
+946
+00:49:00.680 --> 00:49:02.990
+and come up with this so TC did the
+
+947
+00:49:02.990 --> 00:49:05.270
+species DQ is greater than P who is
+
+948
+00:49:05.270 --> 00:49:07.579
+greater than or equal to these people we
+
+949
+00:49:07.579 --> 00:49:09.069
+rearrange the equation and get this
+
+950
+00:49:09.069 --> 00:49:14.930
+again the sequencing overhead is nothing
+
+951
+00:49:14.930 --> 00:49:17.660
+but this TC - it is actually not a
+
+952
+00:49:17.660 --> 00:49:19.790
+sequencing overhead but what it does it
+
+953
+00:49:19.790 --> 00:49:21.500
+places a min timing requirement only
+
+954
+00:49:21.500 --> 00:49:23.809
+only totally so what is the total delay
+
+955
+00:49:23.809 --> 00:49:26.180
+here the total delay is TC d + T to
+
+956
+00:49:26.180 --> 00:49:30.079
+people and it should as every time all
+
+957
+00:49:30.079 --> 00:49:31.760
+other times it should be greater than
+
+958
+00:49:31.760 --> 00:49:35.390
+the T whole so now we see that the total
+
+959
+00:49:35.390 --> 00:49:38.839
+delayed that is the delay is actually
+
+960
+00:49:38.839 --> 00:49:40.339
+nothing but the combination delay
+
+961
+00:49:40.339 --> 00:49:44.510
+position constantly should be at all
+
+962
+00:49:44.510 --> 00:49:49.369
+times greater than the table or and less
+
+963
+00:49:49.369 --> 00:49:53.630
+than the time period of the clock a
+
+964
+00:49:53.630 --> 00:49:56.150
+destroyed by the set of thing so in fact
+
+965
+00:49:56.150 --> 00:49:58.579
+now the delay of the circuit is limited
+
+966
+00:49:58.579 --> 00:50:00.260
+by two gate which is one is the max
+
+967
+00:50:00.260 --> 00:50:03.230
+whether there is the mill you also know
+
+968
+00:50:03.230 --> 00:50:05.720
+that there is no the clock frequency
+
+969
+00:50:05.720 --> 00:50:08.630
+does not come into picked in here we go
+
+970
+00:50:08.630 --> 00:50:11.990
+into depth in in in unit five on this
+
+971
+00:50:11.990 --> 00:50:13.250
+equation this equation is very very
+
+972
+00:50:13.250 --> 00:50:14.839
+important again a mass at a time
+
+973
+00:50:14.839 --> 00:50:17.230
+occlusion
+
+974
+00:50:20.289 --> 00:50:22.940
+similarly we have the amended a case for
+
+975
+00:50:22.940 --> 00:50:26.539
+two-phase watches and we have the Middle
+
+976
+00:50:26.539 --> 00:50:29.089
+Ages for the pulp so there is an
+
+977
+00:50:29.089 --> 00:50:31.490
+indelicate of people that is again it's
+
+978
+00:50:31.490 --> 00:50:33.710
+very slow to the earlier case where we
+
+979
+00:50:33.710 --> 00:50:39.020
+say that the V delay here PT d 1 t CD
+
+980
+00:50:39.020 --> 00:50:44.150
+with the CDP and plus TC c q+ be non
+
+981
+00:50:44.150 --> 00:50:46.250
+over plus should be greater than the t1
+
+982
+00:50:46.250 --> 00:50:52.880
+requirement the paradox here is that the
+
+983
+00:50:52.880 --> 00:50:56.109
+volt time is reduced by the non overlap
+
+984
+00:50:56.109 --> 00:51:01.270
+the whole time applies to IC cycle but
+
+985
+00:51:01.270 --> 00:51:04.609
+only once for flops but again inside
+
+986
+00:51:04.609 --> 00:51:06.049
+this block is made up of two lightest
+
+987
+00:51:06.049 --> 00:51:08.990
+you can verify this no need to go deep
+
+988
+00:51:08.990 --> 00:51:10.970
+into the salad of it might be bit
+
+989
+00:51:10.970 --> 00:51:13.520
+confusing but we be clear that the one
+
+990
+00:51:13.520 --> 00:51:15.859
+thing is clear that the equation of
+
+991
+00:51:15.859 --> 00:51:18.049
+clocks are similar the template compared
+
+992
+00:51:18.049 --> 00:51:20.450
+to that it's the crossing me modulations
+
+993
+00:51:20.450 --> 00:51:23.900
+left you have known this disadvantage we
+
+994
+00:51:23.900 --> 00:51:26.059
+don't have to worry about overlapping
+
+995
+00:51:26.059 --> 00:51:29.990
+Natomas cross so that is why of clips
+
+996
+00:51:29.990 --> 00:51:32.650
+off base design
+
+997
+00:51:34.070 --> 00:51:37.790
+this is a case of pulse gadgets of a lot
+
+998
+00:51:37.790 --> 00:51:41.150
+void in code peep into it or there is no
+
+999
+00:51:41.150 --> 00:51:43.900
+no need for it now
+
+1000
+00:51:45.110 --> 00:51:47.120
+now let's touch upon it and search by
+
+1001
+00:51:47.120 --> 00:51:51.940
+time bottom now in a cloud-based system
+
+1002
+00:51:51.940 --> 00:51:57.170
+the data a imagine imagine a design like
+
+1003
+00:51:57.170 --> 00:51:59.350
+this
+
+1004
+00:52:01.040 --> 00:52:04.140
+let's go back to face
+
+1005
+00:52:04.140 --> 00:52:08.730
+so a design like this they play
+
+1006
+00:52:08.730 --> 00:52:12.840
+knowledge on to the rising finish from
+
+1007
+00:52:12.840 --> 00:52:14.910
+the power one
+
+1008
+00:52:14.910 --> 00:52:18.930
+engage staff third d2 gets captured at
+
+1009
+00:52:18.930 --> 00:52:21.809
+an f2 on this edge
+
+1010
+00:52:21.809 --> 00:52:24.709
+this place is constrained here that
+
+1011
+00:52:24.709 --> 00:52:27.119
+everything that has to happen has to
+
+1012
+00:52:27.119 --> 00:52:30.410
+happen between these waited
+
+1013
+00:52:32.950 --> 00:52:38.660
+so so data bounces on one rising edge
+
+1014
+00:52:38.660 --> 00:52:41.300
+must set up that is it should become
+
+1015
+00:52:41.300 --> 00:52:44.480
+stable the poor set of time before the
+
+1016
+00:52:44.480 --> 00:52:47.600
+next rising it is this the data arise
+
+1017
+00:52:47.600 --> 00:52:49.970
+dead system field of the sleep you need
+
+1018
+00:52:49.970 --> 00:52:51.770
+is to capture the new meta but it is
+
+1019
+00:52:51.770 --> 00:52:54.590
+rail you could not capture it if it
+
+1020
+00:52:54.590 --> 00:52:58.310
+arrives early that means if it arrives
+
+1021
+00:52:58.310 --> 00:53:00.920
+feel it earlier then the whole time
+
+1022
+00:53:00.920 --> 00:53:04.340
+requirement of the next stop then again
+
+1023
+00:53:04.340 --> 00:53:06.690
+the system pain
+
+1024
+00:53:06.690 --> 00:53:08.940
+of call second case with a knife
+
+1025
+00:53:08.940 --> 00:53:10.410
+somewhere in the menu button it means
+
+1026
+00:53:10.410 --> 00:53:12.599
+owns the whole time with Hammond and the
+
+1027
+00:53:12.599 --> 00:53:15.030
+second time requirement so that that
+
+1028
+00:53:15.030 --> 00:53:17.030
+time you have that in any time you are
+
+1029
+00:53:17.030 --> 00:53:21.390
+it's actually registered it in the sense
+
+1030
+00:53:21.390 --> 00:53:25.740
+that what it again tells us that these
+
+1031
+00:53:25.740 --> 00:53:28.560
+past tokens you you slowed them but then
+
+1032
+00:53:28.560 --> 00:53:29.880
+you had some margin available that
+
+1033
+00:53:29.880 --> 00:53:32.160
+margin assistance so what is the what it
+
+1034
+00:53:32.160 --> 00:53:33.810
+compares it we compared the clock based
+
+1035
+00:53:33.810 --> 00:53:36.030
+system of the knife that system in Delta
+
+1036
+00:53:36.030 --> 00:53:39.839
+dash is a data arise early but it still
+
+1037
+00:53:39.839 --> 00:53:41.760
+beats hold on retirement time invasive
+
+1038
+00:53:41.760 --> 00:53:44.280
+plots have harder this vendôme
+
+1039
+00:53:44.280 --> 00:53:47.190
+importantly you will notice and they are
+
+1040
+00:53:47.190 --> 00:53:49.650
+they design that since the clock works
+
+1041
+00:53:49.650 --> 00:53:51.780
+on it is nothing happens between the
+
+1042
+00:53:51.780 --> 00:53:54.150
+edges in the block so God has high
+
+1043
+00:53:54.150 --> 00:53:57.359
+degrees now compared to this in a large
+
+1044
+00:53:57.359 --> 00:53:59.910
+plate system a data can pass through
+
+1045
+00:53:59.910 --> 00:54:02.200
+Latin transform
+
+1046
+00:54:02.200 --> 00:54:06.940
+what it is is that by May with the clock
+
+1047
+00:54:06.940 --> 00:54:09.310
+overlapping or non-overlapping of the
+
+1048
+00:54:09.310 --> 00:54:11.980
+clocks we can actually make sure that
+
+1049
+00:54:11.980 --> 00:54:13.930
+time is what we will the fish soil time
+
+1050
+00:54:13.930 --> 00:54:17.410
+bottle but if we take the time from a
+
+1051
+00:54:17.410 --> 00:54:19.840
+past present and give the time that much
+
+1052
+00:54:19.840 --> 00:54:22.400
+lower subject
+
+1053
+00:54:22.400 --> 00:54:25.880
+only if the only condition is that each
+
+1054
+00:54:25.880 --> 00:54:28.430
+loop should complete in one cycle let's
+
+1055
+00:54:28.430 --> 00:54:30.880
+look at one example this is again I will
+
+1056
+00:54:30.880 --> 00:54:36.100
+this is now common design feature where
+
+1057
+00:54:36.100 --> 00:54:40.850
+so what happens is that your Phi 1 and
+
+1058
+00:54:40.850 --> 00:54:43.850
+Phi 2 again engage now in this case Phi
+
+1059
+00:54:43.850 --> 00:54:45.590
+1 and Phi 2 are complement working with
+
+1060
+00:54:45.590 --> 00:54:47.450
+it so there is actually only one plus
+
+1061
+00:54:47.450 --> 00:54:51.260
+Phi 1 and this complementary and it is
+
+1062
+00:54:51.260 --> 00:54:54.010
+inverted and given to that in the middle
+
+1063
+00:54:54.010 --> 00:55:00.470
+so this the slash launch data there will
+
+1064
+00:55:00.470 --> 00:55:02.560
+be this powerful combination video and
+
+1065
+00:55:02.560 --> 00:55:07.820
+then we could borrow time from this
+
+1066
+00:55:07.820 --> 00:55:10.670
+circuit to this sir this time
+
+1067
+00:55:10.670 --> 00:55:14.150
+why because let's say this is a slow
+
+1068
+00:55:14.150 --> 00:55:16.880
+circuit this part is the source of it so
+
+1069
+00:55:16.880 --> 00:55:19.220
+it takes a lot of time and it if the
+
+1070
+00:55:19.220 --> 00:55:21.440
+data becomes stable somewhere here and
+
+1071
+00:55:21.440 --> 00:55:23.240
+there here but now the light is
+
+1072
+00:55:23.240 --> 00:55:26.840
+transparent so there is no inter does
+
+1073
+00:55:26.840 --> 00:55:29.530
+not smoke near data directly goes to
+
+1074
+00:55:29.530 --> 00:55:33.970
+this third lash and
+
+1075
+00:55:33.970 --> 00:55:37.960
+and let's play this when it wants to
+
+1076
+00:55:37.960 --> 00:55:41.410
+capture this today - it should remain
+
+1077
+00:55:41.410 --> 00:55:44.920
+stable should come let us somewhere
+
+1078
+00:55:44.920 --> 00:55:47.050
+around here even if it is circuit this
+
+1079
+00:55:47.050 --> 00:55:49.300
+part of circuit is slow and it is called
+
+1080
+00:55:49.300 --> 00:55:51.910
+a circuit ISM is passed we make sure
+
+1081
+00:55:51.910 --> 00:55:55.210
+that the data the time is not wasted and
+
+1082
+00:55:55.210 --> 00:55:58.270
+in that was spoken to utilize the only
+
+1083
+00:55:58.270 --> 00:56:00.310
+requirement the only constraint here is
+
+1084
+00:56:00.310 --> 00:56:06.540
+that the only constraint is that the
+
+1085
+00:56:06.540 --> 00:56:08.859
+combined array of combinational logic 1
+
+1086
+00:56:08.859 --> 00:56:11.470
+and combination of the two should I fall
+
+1087
+00:56:11.470 --> 00:56:15.460
+cause the less than this this time
+
+1088
+00:56:15.460 --> 00:56:17.740
+people this time period will again look
+
+1089
+00:56:17.740 --> 00:56:20.230
+more integrated we look at a case where
+
+1090
+00:56:20.230 --> 00:56:22.119
+actually this is a clock this is the
+
+1091
+00:56:22.119 --> 00:56:24.579
+clock and this particle all this very
+
+1092
+00:56:24.579 --> 00:56:27.310
+famous time or anything remember this
+
+1093
+00:56:27.310 --> 00:56:30.490
+the more detail in uniform
+
+1094
+00:56:30.490 --> 00:56:32.730
+this is a game one more example of
+
+1095
+00:56:32.730 --> 00:56:37.930
+fabric minute we can do so see this this
+
+1096
+00:56:37.930 --> 00:56:40.210
+length is more help or affirmation Alec
+
+1097
+00:56:40.210 --> 00:56:41.740
+so this means it's a flavor bit is the
+
+1098
+00:56:41.740 --> 00:56:45.030
+past body again this is B cases came at
+
+1099
+00:56:45.030 --> 00:56:48.030
+spacing
+
+1100
+00:56:48.390 --> 00:56:51.749
+now only in all the previous examples we
+
+1101
+00:56:51.749 --> 00:56:56.609
+were reviewing that clock skew see what
+
+1102
+00:56:56.609 --> 00:56:58.700
+it means is that the clock arrives on
+
+1103
+00:56:58.700 --> 00:57:00.960
+this clock when I need to talk to at the
+
+1104
+00:57:00.960 --> 00:57:03.769
+same time but this is not exactly true
+
+1105
+00:57:03.769 --> 00:57:08.369
+the clocks will block school to
+
+1106
+00:57:08.369 --> 00:57:12.119
+thousands of knots in the design not all
+
+1107
+00:57:12.119 --> 00:57:13.619
+the stocks will get the clock at the
+
+1108
+00:57:13.619 --> 00:57:14.220
+same time
+
+1109
+00:57:14.220 --> 00:57:16.319
+there will be some uncertainty in the
+
+1110
+00:57:16.319 --> 00:57:19.410
+arrival time what it does run certainly
+
+1111
+00:57:19.410 --> 00:57:21.809
+touch to design is that it decreases the
+
+1112
+00:57:21.809 --> 00:57:24.720
+maximum population to make it increases
+
+1113
+00:57:24.720 --> 00:57:27.230
+the venue's contamination billet it
+
+1114
+00:57:27.230 --> 00:57:29.759
+decreases sine bothering so it X
+
+1115
+00:57:29.759 --> 00:57:32.270
+negatively in all the cases
+
+1116
+00:57:32.270 --> 00:57:36.619
+let's see one clip or pop the dogs so
+
+1117
+00:57:36.619 --> 00:57:40.670
+what so now there's a you see this this
+
+1118
+00:57:40.670 --> 00:57:43.520
+figure here and now the clock arrival at
+
+1119
+00:57:43.520 --> 00:57:46.210
+each of the clip drops is actually
+
+1120
+00:57:46.210 --> 00:57:48.950
+entertaining some limiting it is
+
+1121
+00:57:48.950 --> 00:57:51.589
+uncertain in this limit so what it does
+
+1122
+00:57:51.589 --> 00:57:54.830
+is what it reduces the amount of margin
+
+1123
+00:57:54.830 --> 00:57:57.770
+you have so what it does is that with I
+
+1124
+00:57:57.770 --> 00:57:59.660
+to the propagation delay so we saw that
+
+1125
+00:57:59.660 --> 00:58:04.160
+so reading the CPC capacity hitter now
+
+1126
+00:58:04.160 --> 00:58:07.310
+we act a skew with this still these
+
+1127
+00:58:07.310 --> 00:58:10.369
+queue adds to the sequencing overhead
+
+1128
+00:58:10.369 --> 00:58:15.200
+similarly this queue however it's shown
+
+1129
+00:58:15.200 --> 00:58:16.880
+positive here but this you can also be
+
+1130
+00:58:16.880 --> 00:58:18.859
+negative that means it can also affect
+
+1131
+00:58:18.859 --> 00:58:21.950
+the whole time negatively so so what
+
+1132
+00:58:21.950 --> 00:58:23.060
+happens let's say if the blockage
+
+1133
+00:58:23.060 --> 00:58:25.160
+arrived early here it is not good
+
+1134
+00:58:25.160 --> 00:58:28.190
+positive case if the if the clock edge
+
+1135
+00:58:28.190 --> 00:58:30.290
+arrives later here it is not good for
+
+1136
+00:58:30.290 --> 00:58:33.970
+the whole we have anything more detail
+
+1137
+00:58:33.970 --> 00:58:37.100
+for n-type
+
+1138
+00:58:37.100 --> 00:58:40.800
+let this a few things for lattice you
+
+1139
+00:58:40.800 --> 00:58:43.980
+can go to the equation again since it's
+
+1140
+00:58:43.980 --> 00:58:45.840
+not a very popular demand you can even
+
+1141
+00:58:45.840 --> 00:58:47.560
+pick pick
+
+1142
+00:58:47.560 --> 00:58:49.720
+so let's look at what happens it's at a
+
+1143
+00:58:49.720 --> 00:58:51.910
+time and one is in such a time involved
+
+1144
+00:58:51.910 --> 00:58:55.450
+it means we saw that the sector time
+
+1145
+00:58:55.450 --> 00:58:58.030
+poses a maximum performance they can
+
+1146
+00:58:58.030 --> 00:59:00.670
+only depend so checkout time is violated
+
+1147
+00:59:00.670 --> 00:59:03.460
+on a manner actually you can actually
+
+1148
+00:59:03.460 --> 00:59:05.620
+reduce the frequency and when you pet
+
+1149
+00:59:05.620 --> 00:59:08.110
+with the footage looking back at the
+
+1150
+00:59:08.110 --> 00:59:09.850
+whole time knowledge you can do nothing
+
+1151
+00:59:09.850 --> 00:59:14.500
+just will fail at any frequency this
+
+1152
+00:59:14.500 --> 00:59:16.810
+whole time requirement is not the whole
+
+1153
+00:59:16.810 --> 00:59:19.360
+time constrain the militant or depending
+
+1154
+00:59:19.360 --> 00:59:22.270
+on sub sequences so in fact this is the
+
+1155
+00:59:22.270 --> 00:59:25.240
+result will be teaching we will even buy
+
+1156
+00:59:25.240 --> 00:59:26.130
+it
+
+1157
+00:59:26.130 --> 00:59:31.450
+people are designers are more alert more
+
+1158
+00:59:31.450 --> 00:59:33.730
+very of the whole time with this in
+
+1159
+00:59:33.730 --> 00:59:37.210
+context a set of changes so you have to
+
+1160
+00:59:37.210 --> 00:59:40.950
+make sure that hold minutes apologies
+
+1161
+00:59:40.950 --> 00:59:45.160
+what all cases we need such all the
+
+1162
+00:59:45.160 --> 00:59:48.310
+voltage will be voltage base for the
+
+1163
+00:59:48.310 --> 00:59:52.180
+typical specified it means at all the
+
+1164
+00:59:52.180 --> 00:59:54.550
+corners of the temperature range it
+
+1165
+00:59:54.550 --> 00:59:56.830
+means in the slow process as well as
+
+1166
+00:59:56.830 --> 00:59:59.200
+past purpose will be strong it available
+
+1167
+00:59:59.200 --> 01:00:04.330
+so this kind of this mess that camera is
+
+1168
+01:00:04.330 --> 01:00:06.070
+what we saw what we learned in the
+
+1169
+01:00:06.070 --> 01:00:11.170
+liquid we saw the design for the to
+
+1170
+01:00:11.170 --> 01:00:13.120
+visit people beginning will at event at
+
+1171
+01:00:13.120 --> 01:00:16.300
+the pub will drop a very very easy to
+
+1172
+01:00:16.300 --> 01:00:18.240
+use they are supported by all dooms
+
+1173
+01:00:18.240 --> 01:00:21.280
+these all the three sequin things mean
+
+1174
+01:00:21.280 --> 01:00:22.210
+to stop the clocks
+
+1175
+01:00:22.210 --> 01:00:23.800
+who pays transfer matches and perfect
+
+1176
+01:00:23.800 --> 01:00:27.070
+matches who this transfer attaches have
+
+1177
+01:00:27.070 --> 01:00:29.440
+a problem of students you have to have
+
+1178
+01:00:29.440 --> 01:00:33.040
+known overlapping box and my model file
+
+1179
+01:00:33.040 --> 01:00:37.000
+status are I in my experience I have a
+
+1180
+01:00:37.000 --> 01:00:40.260
+new perspective over this vulgar
+
+1181
+01:00:40.260 --> 01:00:43.780
+completely different launching so I form
+
+1182
+01:00:43.780 --> 01:00:45.910
+this place altogether this table gives
+
+1183
+01:00:45.910 --> 01:00:49.980
+the sequence in overhead I'd be
+
+1184
+01:00:49.980 --> 01:00:52.120
+sequencing overhead of the match today
+
+1185
+01:00:52.120 --> 01:00:53.740
+the minimum volume today and the time
+
+1186
+01:00:53.740 --> 01:00:56.110
+but I see so you see for the Smith knobs
+
+1187
+01:00:56.110 --> 01:00:57.250
+there is no such concept that time
+
+1188
+01:00:57.250 --> 01:00:59.140
+bottom-feeder
+
+1189
+01:00:59.140 --> 01:01:00.730
+there are some time boiling equations
+
+1190
+01:01:00.730 --> 01:01:03.190
+for two phase constant that is my static
+
+1191
+01:01:03.190 --> 01:01:08.109
+you conscripted so that is all for this
+
+1192
+01:01:08.109 --> 01:01:12.480
+vector thank you
+

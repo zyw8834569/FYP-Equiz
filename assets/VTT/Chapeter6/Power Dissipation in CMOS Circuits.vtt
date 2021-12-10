@@ -1,0 +1,658 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.770
+hello everyone welcome back to my
+
+2
+00:00:01.770 --> 00:00:04.140
+channel in today's video we are going to
+
+3
+00:00:04.140 --> 00:00:05.700
+see different types of power dissipation
+
+4
+00:00:05.700 --> 00:00:08.790
+in CMOS circuits so without any delay
+
+5
+00:00:08.790 --> 00:00:11.450
+let's get started
+
+6
+00:00:11.450 --> 00:00:18.710
+[Music]
+
+7
+00:00:20.760 --> 00:00:23.980
+the total power that is dissipated can
+
+8
+00:00:23.980 --> 00:00:26.070
+be broadly classified into two types
+
+9
+00:00:26.070 --> 00:00:29.590
+static and dynamic now let's see what is
+
+10
+00:00:29.590 --> 00:00:33.130
+static power static power is the power
+
+11
+00:00:33.130 --> 00:00:35.890
+dissipated by a transistor when it is
+
+12
+00:00:35.890 --> 00:00:38.230
+not switching and when the transistor is
+
+13
+00:00:38.230 --> 00:00:40.960
+not searching when the input at the gate
+
+14
+00:00:40.960 --> 00:00:43.330
+of a transistor is not transitioning
+
+15
+00:00:43.330 --> 00:00:46.720
+either from 0 to 1 or from 1 to zero in
+
+16
+00:00:46.720 --> 00:00:49.540
+that case a transistor is in a static
+
+17
+00:00:49.540 --> 00:00:51.850
+mode and that's why dissipate static
+
+18
+00:00:51.850 --> 00:00:56.559
+power the static power dissipation is
+
+19
+00:00:56.559 --> 00:00:59.199
+mainly in the form of leakage that's why
+
+20
+00:00:59.199 --> 00:01:02.860
+it is also called leakage power now we
+
+21
+00:01:02.860 --> 00:01:05.110
+can have various types of leakage in a
+
+22
+00:01:05.110 --> 00:01:07.720
+CMOS circuit let's look into them one by
+
+23
+00:01:07.720 --> 00:01:11.320
+one so what is a threshold leakage as
+
+24
+00:01:11.320 --> 00:01:13.600
+the name suggests something which
+
+25
+00:01:13.600 --> 00:01:16.150
+happens below threshold so let's
+
+26
+00:01:16.150 --> 00:01:18.400
+understand this with an example let's
+
+27
+00:01:18.400 --> 00:01:21.280
+take an N Mo's we know that n MOS is on
+
+28
+00:01:21.280 --> 00:01:23.560
+when VG's is greater than VT
+
+29
+00:01:23.560 --> 00:01:26.469
+and when vgs drops below the threshold
+
+30
+00:01:26.469 --> 00:01:28.869
+voltage that is when VG's is less than
+
+31
+00:01:28.869 --> 00:01:32.369
+VT and MOS is supposed to be off right
+
+32
+00:01:32.369 --> 00:01:35.380
+but in real transistors the current does
+
+33
+00:01:35.380 --> 00:01:37.990
+not abruptly cut off below threshold but
+
+34
+00:01:37.990 --> 00:01:40.140
+rather she drops off exponentially
+
+35
+00:01:40.140 --> 00:01:42.820
+therefore even when VG's is less than VT
+
+36
+00:01:42.820 --> 00:01:45.399
+for a small amount of time there is a
+
+37
+00:01:45.399 --> 00:01:47.619
+current that flows between drain to
+
+38
+00:01:47.619 --> 00:01:50.229
+source and that current is called sub
+
+39
+00:01:50.229 --> 00:01:54.520
+threshold leakage current now let's move
+
+40
+00:01:54.520 --> 00:01:56.859
+on to gate leakage now as the name
+
+41
+00:01:56.859 --> 00:01:59.049
+suggests it is the leakage that happens
+
+42
+00:01:59.049 --> 00:02:01.390
+through gate so basically when this gate
+
+43
+00:02:01.390 --> 00:02:03.640
+oxide is very thin that it allows the
+
+44
+00:02:03.640 --> 00:02:06.250
+current to pass through it then it leads
+
+45
+00:02:06.250 --> 00:02:09.119
+to leakage current gate leakage current
+
+46
+00:02:09.119 --> 00:02:12.040
+now let's see what is Junction leakage
+
+47
+00:02:12.040 --> 00:02:15.070
+we know that in a CMOS transistor there
+
+48
+00:02:15.070 --> 00:02:18.040
+are so many PN junctions and these PN
+
+49
+00:02:18.040 --> 00:02:20.470
+junctions form diodes and these diodes
+
+50
+00:02:20.470 --> 00:02:23.530
+are in reverse bias and we know that
+
+51
+00:02:23.530 --> 00:02:25.750
+there is still a small amount of current
+
+52
+00:02:25.750 --> 00:02:27.909
+that flows through a reverse bias diode
+
+53
+00:02:27.909 --> 00:02:30.849
+that small amount of current is the
+
+54
+00:02:30.849 --> 00:02:34.319
+major cause of Junction leakage
+
+55
+00:02:34.319 --> 00:02:37.329
+now this was about the static power or
+
+56
+00:02:37.329 --> 00:02:39.549
+leakage power now let's move on to
+
+57
+00:02:39.549 --> 00:02:43.810
+dynamic power now what is dynamic power
+
+58
+00:02:43.810 --> 00:02:46.689
+so dynamic power is dissipated when a
+
+59
+00:02:46.689 --> 00:02:49.719
+circuit is active now when a circuit is
+
+60
+00:02:49.719 --> 00:02:52.689
+active but circuit is said to be active
+
+61
+00:02:52.689 --> 00:02:55.239
+when the voltage on its input net is
+
+62
+00:02:55.239 --> 00:02:57.790
+changing due to some stimulus applied
+
+63
+00:02:57.790 --> 00:03:00.849
+now it is to be noted that the change in
+
+64
+00:03:00.849 --> 00:03:03.219
+the voltage of input net may or may not
+
+65
+00:03:03.219 --> 00:03:05.470
+lead to change in the logic state of
+
+66
+00:03:05.470 --> 00:03:08.260
+output but in both the cases whether
+
+67
+00:03:08.260 --> 00:03:10.359
+there is change in output net or not if
+
+68
+00:03:10.359 --> 00:03:12.939
+there is change in the input net voltage
+
+69
+00:03:12.939 --> 00:03:16.409
+then dynamic power will be dissipated
+
+70
+00:03:16.409 --> 00:03:18.969
+now again dynamic power can be
+
+71
+00:03:18.969 --> 00:03:20.889
+classified in two types which in power
+
+72
+00:03:20.889 --> 00:03:23.349
+and internal power let's look at
+
+73
+00:03:23.349 --> 00:03:26.829
+searching power first now as we saw when
+
+74
+00:03:26.829 --> 00:03:29.469
+the voltage at input net is changing it
+
+75
+00:03:29.469 --> 00:03:31.810
+may or may not lead to the change in
+
+76
+00:03:31.810 --> 00:03:34.569
+logic state of output but let's consider
+
+77
+00:03:34.569 --> 00:03:37.239
+the case that when the change in input
+
+78
+00:03:37.239 --> 00:03:39.120
+is also leading to the change in output
+
+79
+00:03:39.120 --> 00:03:42.040
+that's when the switching power comes
+
+80
+00:03:42.040 --> 00:03:45.489
+into the picture so switching power is
+
+81
+00:03:45.489 --> 00:03:47.889
+the power which is dissipated while
+
+82
+00:03:47.889 --> 00:03:50.169
+charging or discharging the load
+
+83
+00:03:50.169 --> 00:03:53.560
+capacitor at the output of the cell now
+
+84
+00:03:53.560 --> 00:03:56.379
+let's understand this with an example so
+
+85
+00:03:56.379 --> 00:03:58.659
+let's save an input is changing from 1
+
+86
+00:03:58.659 --> 00:04:02.769
+to 0 the PMO's will turn on and when P
+
+87
+00:04:02.769 --> 00:04:05.319
+Mo's will turn on it will charge this
+
+88
+00:04:05.319 --> 00:04:11.139
+output load to VDD when P MOS is on the
+
+89
+00:04:11.139 --> 00:04:13.780
+energy supplied by this power supply is
+
+90
+00:04:13.780 --> 00:04:16.899
+C VDD square and when the P MOS is
+
+91
+00:04:16.899 --> 00:04:19.690
+charging this capacitor to VDD the
+
+92
+00:04:19.690 --> 00:04:22.750
+energy stored in this capacitor is half
+
+93
+00:04:22.750 --> 00:04:26.560
+clvdd square now notice only the half of
+
+94
+00:04:26.560 --> 00:04:28.659
+the energy which has been taken from
+
+95
+00:04:28.659 --> 00:04:30.880
+this power supply is used to charge this
+
+96
+00:04:30.880 --> 00:04:33.039
+charge this capacitor so now the
+
+97
+00:04:33.039 --> 00:04:35.380
+question is very dressed half of the
+
+98
+00:04:35.380 --> 00:04:38.229
+energy go so rest half of the energy is
+
+99
+00:04:38.229 --> 00:04:40.419
+dissipated as heat in the P Mo's
+
+100
+00:04:40.419 --> 00:04:43.210
+transistor and now when the input
+
+101
+00:04:43.210 --> 00:04:46.150
+changes back to one from zero the P Mo's
+
+102
+00:04:46.150 --> 00:04:47.230
+turns off and
+
+103
+00:04:47.230 --> 00:04:50.020
+and mass turns on and the energy which
+
+104
+00:04:50.020 --> 00:04:52.270
+was stored in this output capacitor is
+
+105
+00:04:52.270 --> 00:04:56.380
+discharged to zero through n Mo's so
+
+106
+00:04:56.380 --> 00:04:57.970
+here is the written version of whatever
+
+107
+00:04:57.970 --> 00:05:00.700
+I explained I will give you seconds to
+
+108
+00:05:00.700 --> 00:05:08.050
+read this so now this is the switching
+
+109
+00:05:08.050 --> 00:05:11.530
+power equation so we know that 1/2 clvdd
+
+110
+00:05:11.530 --> 00:05:14.680
+square is the energy and alpha is the
+
+111
+00:05:14.680 --> 00:05:17.520
+switching factor so if input switches
+
+112
+00:05:17.520 --> 00:05:20.680
+alpha x in a cycle then alpha will be
+
+113
+00:05:20.680 --> 00:05:23.860
+such in factor and remember that for
+
+114
+00:05:23.860 --> 00:05:26.020
+switching power not only change in the
+
+115
+00:05:26.020 --> 00:05:28.870
+input is important but that change in
+
+116
+00:05:28.870 --> 00:05:30.490
+input should also lead to change in
+
+117
+00:05:30.490 --> 00:05:33.550
+output so if input is switching alpha
+
+118
+00:05:33.550 --> 00:05:35.760
+times in a cycle and if that input
+
+119
+00:05:35.760 --> 00:05:38.320
+transition is causing output transition
+
+120
+00:05:38.320 --> 00:05:40.930
+as well then we would say that switching
+
+121
+00:05:40.930 --> 00:05:43.900
+factor is alpha and our equation for
+
+122
+00:05:43.900 --> 00:05:47.080
+switching power will be half alpha clvdd
+
+123
+00:05:47.080 --> 00:05:52.120
+square into frequency now as we saw the
+
+124
+00:05:52.120 --> 00:05:54.550
+dynamic power has two components which
+
+125
+00:05:54.550 --> 00:05:57.040
+in power and internal power now we will
+
+126
+00:05:57.040 --> 00:06:00.880
+see what is internal power now as the
+
+127
+00:06:00.880 --> 00:06:02.980
+name suggests internal power is the
+
+128
+00:06:02.980 --> 00:06:05.890
+power which is dissipated internal to
+
+129
+00:06:05.890 --> 00:06:08.110
+the cell that is which is dissipated
+
+130
+00:06:08.110 --> 00:06:11.260
+within the boundary of a cell it can
+
+131
+00:06:11.260 --> 00:06:13.780
+again be divided in two parts short
+
+132
+00:06:13.780 --> 00:06:15.760
+circuit power which we will see in a bi
+
+133
+00:06:15.760 --> 00:06:18.430
+and the power which is needed to charge
+
+134
+00:06:18.430 --> 00:06:21.250
+or discharge the internal nodes of a
+
+135
+00:06:21.250 --> 00:06:23.080
+transistor so basically there will be
+
+136
+00:06:23.080 --> 00:06:24.910
+some internal capacitance in a
+
+137
+00:06:24.910 --> 00:06:26.850
+transistor so to charge or discharge
+
+138
+00:06:26.850 --> 00:06:29.710
+whatever power is needed that is also
+
+139
+00:06:29.710 --> 00:06:31.570
+comes that also comes with an internal
+
+140
+00:06:31.570 --> 00:06:36.040
+power now by definition short circuit
+
+141
+00:06:36.040 --> 00:06:38.200
+power is the power which is dissipated
+
+142
+00:06:38.200 --> 00:06:41.080
+when both P Mo's and n MOS are
+
+143
+00:06:41.080 --> 00:06:43.300
+simultaneously on during input
+
+144
+00:06:43.300 --> 00:06:46.540
+transition now to understand this
+
+145
+00:06:46.540 --> 00:06:49.020
+definition let's consider this scenario
+
+146
+00:06:49.020 --> 00:06:51.610
+let's say the input is switching from
+
+147
+00:06:51.610 --> 00:06:55.060
+VSS to VDD and we know that P MOS is on
+
+148
+00:06:55.060 --> 00:06:58.390
+when the input is between VSS to VDD
+
+149
+00:06:58.390 --> 00:07:00.670
+minus VT and and more
+
+150
+00:07:00.670 --> 00:07:04.480
+is on when the input is from VT to VDD
+
+151
+00:07:04.480 --> 00:07:09.070
+so between this period that is from VT
+
+152
+00:07:09.070 --> 00:07:12.910
+to VDD minus VT both PMO's and NMOS are
+
+153
+00:07:12.910 --> 00:07:15.460
+on that is during this time there is a
+
+154
+00:07:15.460 --> 00:07:19.320
+direct current flow from VDD to ground
+
+155
+00:07:19.320 --> 00:07:22.390
+this direct current flow from VDD to
+
+156
+00:07:22.390 --> 00:07:25.030
+ground leads to short-circuit current
+
+157
+00:07:25.030 --> 00:07:27.900
+and which leads to short-circuit power
+
+158
+00:07:27.900 --> 00:07:31.240
+so this was all from my side please let
+
+159
+00:07:31.240 --> 00:07:32.860
+me know your feedback in the comment
+
+160
+00:07:32.860 --> 00:07:33.520
+section below
+
+161
+00:07:33.520 --> 00:07:35.590
+and if you think video was good don't
+
+162
+00:07:35.590 --> 00:07:37.300
+forget to Like share and subscribe
+
+163
+00:07:37.300 --> 00:07:39.930
+thanks for watching
+
+164
+00:07:39.980 --> 00:07:51.130
+[Music]
+

@@ -1,0 +1,1252 @@
+WEBVTT
+
+1
+00:00:20.689 --> 00:00:27.050
+so in this week we shall be starting with
+some discussions on low power design ah as
+
+2
+00:00:27.050 --> 00:00:33.780
+you know designing a circuits for low power
+has become so much very important in the present
+
+3
+00:00:33.780 --> 00:00:41.219
+day scenario and it also affects the way vlsi
+chips are designed and also in particular
+
+4
+00:00:41.219 --> 00:00:48.510
+the physical design process the so called
+back end design of the vlsi chips the way
+
+5
+00:00:48.510 --> 00:00:55.629
+they are done today some techniques and some
+rules you can say design rules are incorporated
+
+6
+00:00:55.629 --> 00:01:02.969
+at various stages of the design so that out
+final product the chip consumes less power
+
+7
+00:01:02.969 --> 00:01:07.630
+ok
+so that is the topic of our discussion today
+
+8
+00:01:07.630 --> 00:01:17.569
+low power vlsi design so as i said power consumption
+is ah very big challenge perhaps the most
+
+9
+00:01:17.569 --> 00:01:26.390
+important challenge in modern day vlsi design
+which is pushing performance to a secondary
+
+10
+00:01:26.390 --> 00:01:33.860
+level the primary reason is that almost all
+the devices we use today they are portable
+
+11
+00:01:33.860 --> 00:01:40.239
+in nature other then of course the desktops
+which sit on our tables this portable devices
+
+12
+00:01:40.239 --> 00:01:48.700
+all run on battery power ok you think of our
+mobile phones our laptops our notebooks our
+
+13
+00:01:48.700 --> 00:01:56.320
+tabs everything these are the devices which
+we use they all get the energy from the battery
+
+14
+00:01:56.320 --> 00:02:00.740
+that is built inside it
+so if you can design the circuits that get
+
+15
+00:02:00.740 --> 00:02:06.950
+embedded into these devices in a way that
+they consume less power or energy whatever
+
+16
+00:02:06.950 --> 00:02:16.220
+you call so the battery life of the devices
+tend to increase which is extremely desirable
+
+17
+00:02:16.220 --> 00:02:24.500
+from the users prospective ok so there have
+been various works and strategies that have
+
+18
+00:02:24.500 --> 00:02:31.990
+been proposed over the years which try to
+reduce the power dissipation so we sometime
+
+19
+00:02:31.990 --> 00:02:38.630
+say that we have added a fourth dimension
+to the design process what are the other three
+
+20
+00:02:38.630 --> 00:02:47.870
+dimensions lets see you see this is a typical
+picture that will find in several places in
+
+21
+00:02:47.870 --> 00:02:54.980
+some textbooks also traditionally in this
+seventies and eighties area and delay were
+
+22
+00:02:54.980 --> 00:03:02.550
+the most important parameters
+so when someone try to design a circuit a
+
+23
+00:03:02.550 --> 00:03:10.069
+chip the primary emphasis was how much less
+area is occupied by my circuits on the chip
+
+24
+00:03:10.069 --> 00:03:17.900
+on the silicon floor and what is the maximum
+speed so we try to reduce the delay [vocalized-noise]
+
+25
+00:03:17.900 --> 00:03:25.830
+now often this area and delay are mutually
+conflicting so some typical figure of merits
+
+26
+00:03:25.830 --> 00:03:35.920
+were ah proposed and used one of them was
+the product of area and delay square a d square
+
+27
+00:03:35.920 --> 00:03:42.130
+so there there there are number of such have
+a matrix which you are used and proposed so
+
+28
+00:03:42.130 --> 00:03:46.430
+you can have a figure of merit
+but as the circuits started to become more
+
+29
+00:03:46.430 --> 00:03:54.090
+and more complex so what happened was that
+you see area and delay were not the only parameters
+
+30
+00:03:54.090 --> 00:04:01.760
+now after a chip is manufactured mean one
+very important task of the designers or you
+
+31
+00:04:01.760 --> 00:04:08.610
+can say the text engineers was to ensure that
+the chip does not contain any apparent fabrication
+
+32
+00:04:08.610 --> 00:04:16.060
+defects so the chip needs to go through a
+process of testing more the complexity increases
+
+33
+00:04:16.060 --> 00:04:20.940
+in a chip the task of the testing becomes
+more and more difficult
+
+34
+00:04:20.940 --> 00:04:26.940
+so there has to be some design rules like
+the design for testibility techniques that
+
+35
+00:04:26.940 --> 00:04:34.490
+where discussed earlier those have to be incorporated
+or embedded in the design process itself so
+
+36
+00:04:34.490 --> 00:04:40.940
+that whatever circuits we design they are
+easily testable so thats why we say that in
+
+37
+00:04:40.940 --> 00:04:49.440
+the eighties and nineties this third axis
+of this in this diagram testability came into
+
+38
+00:04:49.440 --> 00:04:57.590
+the picture but now two thousand onwards with
+the advent of battery operated mobile devices
+
+39
+00:04:57.590 --> 00:05:05.370
+portable devices power as become a very important
+fourth parameter in this design space
+
+40
+00:05:05.370 --> 00:05:13.350
+so not only we have to address area delay
+and testability also you have to address this
+
+41
+00:05:13.350 --> 00:05:22.030
+power consumption issue ok fine so let us
+look at some of the terminologies so in a
+
+42
+00:05:22.030 --> 00:05:29.850
+typical chip which in todays technology is
+normally built using c mos technology so we
+
+43
+00:05:29.850 --> 00:05:36.030
+say that power is dissipated whenever there
+is a current flowing from the power supply
+
+44
+00:05:36.030 --> 00:05:44.650
+which you called the v dd to the ground so
+power is drawn from the voltage source and
+
+45
+00:05:44.650 --> 00:05:53.740
+this source i mean sources of these currents
+can be various these we shall be seeing subsequently
+
+46
+00:05:53.740 --> 00:05:58.760
+but let us look at how we typically measure
+the power so i shall be explaining this very
+
+47
+00:05:58.760 --> 00:06:07.970
+clearly so we distinguish between instantaneous
+power energy and average power so how are
+
+48
+00:06:07.970 --> 00:06:16.150
+they defined see instantaneous power is defined
+simple by the product of the current and the
+
+49
+00:06:16.150 --> 00:06:23.229
+voltage the current flowing from v dd to ground
+we call it as i dd this is a function of time
+
+50
+00:06:23.229 --> 00:06:32.470
+t multiplied by the voltage v dd now instantaneous
+power does not give us a very clear picture
+
+51
+00:06:32.470 --> 00:06:39.110
+of means how much our battery is getting drain
+because it may so happen that sometimes the
+
+52
+00:06:39.110 --> 00:06:43.880
+instantaneous power is very high but over
+long period of time we are consuming very
+
+53
+00:06:43.880 --> 00:06:47.380
+low power means our currents is very less
+ok
+
+54
+00:06:47.380 --> 00:06:52.820
+so some sort of average is more meaningful
+instead of the power drawn at a particular
+
+55
+00:06:52.820 --> 00:07:02.810
+point in time ok so we talk about energy so
+how is the energy defined so i shall be explaining
+
+56
+00:07:02.810 --> 00:07:07.800
+these terminologies graphically very shortly
+this energy is defined as the integral of
+
+57
+00:07:07.800 --> 00:07:16.100
+the instantaneous power over a period of time
+let say capital t zero to t what is the sum
+
+58
+00:07:16.100 --> 00:07:23.830
+of the instantaneous power drawn that aggregation
+is defined as the energy this is how you define
+
+59
+00:07:23.830 --> 00:07:32.620
+ok and of course you are computing this energy
+over a time period t so if you calculate the
+
+60
+00:07:32.620 --> 00:07:38.759
+average simply divide this e by t you get
+the average power
+
+61
+00:07:38.759 --> 00:07:46.240
+so normally when we evaluate the power consumption
+of a circuit or a device or a chip we talk
+
+62
+00:07:46.240 --> 00:07:52.830
+about the energy or the average power now
+let us see with the help of a diagram how
+
+63
+00:07:52.830 --> 00:08:04.280
+these three things are related so let us show
+a typical diagram this is the access of time
+
+64
+00:08:04.280 --> 00:08:14.389
+and here we show the instantaneous power consumption
+which means the the product of the current
+
+65
+00:08:14.389 --> 00:08:21.930
+and the voltage lets say we [vocalized-noise]
+the value of p t varies with time like this
+
+66
+00:08:21.930 --> 00:08:34.349
+lets say so we are interested to measure the
+power between time zero and capital t
+
+67
+00:08:34.349 --> 00:08:43.250
+now just recalling the definitions for a particular
+value of t lets say here so if we try to see
+
+68
+00:08:43.250 --> 00:08:49.860
+what is the corresponding value of p t it
+is here this is the value of the instantaneous
+
+69
+00:08:49.860 --> 00:09:02.029
+power i p instantaneous power at this particular
+time lets say t i right now if i want to calculate
+
+70
+00:09:02.029 --> 00:09:10.649
+the energy so energy as i said is the integral
+of pt from zero to capital t so so what is
+
+71
+00:09:10.649 --> 00:09:27.390
+the physical interpretation of the integral
+integral means the area under this curve so
+
+72
+00:09:27.390 --> 00:09:39.020
+this total area under the curve this is defined
+as the energy that is integral pt dt between
+
+73
+00:09:39.020 --> 00:09:46.890
+zero and t
+now if you just take the average energy over
+
+74
+00:09:46.890 --> 00:09:52.500
+this time p t [vocalized-noise] it is energy
+is varying so possible the average will be
+
+75
+00:09:52.500 --> 00:10:02.130
+somewhere here you show it as a straight line
+so this will give you the average power p
+
+76
+00:10:02.130 --> 00:10:12.790
+avg now as i said p average can be computed
+by dividing the energy divide with this time
+
+77
+00:10:12.790 --> 00:10:20.120
+t so we understand this p average is this
+level that means the height of this rectangle
+
+78
+00:10:20.120 --> 00:10:26.050
+and energy is the total area height multiplied
+by the width and width is capital t
+
+79
+00:10:26.050 --> 00:10:31.880
+so if we divide this area by capital t you
+will be getting this height that means p average
+
+80
+00:10:31.880 --> 00:10:38.019
+ok so diagrammatically i am showing you the
+difference between instantaneous power the
+
+81
+00:10:38.019 --> 00:10:46.360
+energy and the average power ok so let us
+come back so talking about [vocalized-noise]
+
+82
+00:10:46.360 --> 00:10:53.690
+power dissipation in a typical c mos circuit
+we can classify the power dissipation into
+
+83
+00:10:53.690 --> 00:11:02.760
+three types very broadly dynamic short circuit
+and static so we shall see what are the sources
+
+84
+00:11:02.760 --> 00:11:09.690
+of these different kinds of powers and what
+are the typical methods that are adopted to
+
+85
+00:11:09.690 --> 00:11:19.290
+reduce the effects of these ok
+so we shall see this subsequently let us start
+
+86
+00:11:19.290 --> 00:11:28.300
+with dynamic power well [vocalized-noise]
+as the name implies dynamic power is something
+
+87
+00:11:28.300 --> 00:11:37.360
+which is depending on the dynamics of the
+circuits what is the definition of dynamics
+
+88
+00:11:37.360 --> 00:11:44.810
+something which changes with time so dynamics
+power by its definition means whenever some
+
+89
+00:11:44.810 --> 00:11:53.390
+signals in the circuits are changing those
+changes cause some dissipation of power that
+
+90
+00:11:53.390 --> 00:12:01.110
+is basically what is meant by dynamics power
+dissipation so lets try to understand this
+
+91
+00:12:01.110 --> 00:12:07.180
+so basically dynamics power is required for
+what purpose for charging and discharging
+
+92
+00:12:07.180 --> 00:12:13.550
+load capacitances with transistor switch
+so let us look at very simple example of a
+
+93
+00:12:13.550 --> 00:12:23.600
+c mos inverter
+so here i have a p mos transistor and n mos
+
+94
+00:12:23.600 --> 00:12:31.649
+transistor this is my input let say a and
+this is my output lets say f so f is given
+
+95
+00:12:31.649 --> 00:12:41.250
+by the complement of a and this is v dd now
+what i am saying is that this output as i
+
+96
+00:12:41.250 --> 00:12:47.620
+said earlier may be driving the inputs of
+other gates so we can equivalently assume
+
+97
+00:12:47.620 --> 00:12:58.300
+that it is driving a load capacitance lets
+say the load capacitance is c so lets say
+
+98
+00:12:58.300 --> 00:13:07.269
+when the value of a switches from zero to
+one lets say the value of f will be switching
+
+99
+00:13:07.269 --> 00:13:14.640
+from one to zero
+similarly when a switches back to zero the
+
+100
+00:13:14.640 --> 00:13:24.510
+value of f will again switch to one now whenever
+this output node f changes from high to low
+
+101
+00:13:24.510 --> 00:13:31.740
+and low to high what does this mean whenever
+it is changing from high to low this means
+
+102
+00:13:31.740 --> 00:13:44.769
+c is getting discharged and whenever it is
+rising from low to high we say c is getting
+
+103
+00:13:44.769 --> 00:13:53.720
+charged ok now in this circuits the discharging
+path of the capacitor is this through the
+
+104
+00:13:53.720 --> 00:13:59.100
+pull down transistor and the charging path
+of the capacitor is this through the pull
+
+105
+00:13:59.100 --> 00:14:03.920
+up transistor
+so as you know in a c mos circuit depending
+
+106
+00:14:03.920 --> 00:14:10.540
+on the value of a so either the pull up or
+the pull down one of the networks is conducting
+
+107
+00:14:10.540 --> 00:14:16.529
+so depending on that this c will be either
+discharging or it will be charging now every
+
+108
+00:14:16.529 --> 00:14:23.149
+time there is a charging discharging of a
+capacitor it will consume ah power because
+
+109
+00:14:23.149 --> 00:14:32.350
+you recall the basic definition from circuit
+theory current is defined as c dv d t so you
+
+110
+00:14:32.350 --> 00:14:41.970
+can define the current flowing as the product
+of the capacitor and the rate of change of
+
+111
+00:14:41.970 --> 00:14:44.930
+voltage
+so whenever there is a this kind of charging
+
+112
+00:14:44.930 --> 00:14:51.050
+discharging going on there will be a current
+flowing and the product of currents and voltage
+
+113
+00:14:51.050 --> 00:15:01.110
+will be the power consumption ok fine so let
+us come back to this slide [vocalized-noise]
+
+114
+00:15:01.110 --> 00:15:06.670
+so i have ah just shown in one cycle we can
+have a rising output and also falling output
+
+115
+00:15:06.670 --> 00:15:14.570
+right so whenever there is a rising output
+that means the output node is getting charged
+
+116
+00:15:14.570 --> 00:15:20.639
+charge means what the capacitor is getting
+charge to v dd so what is the total charge
+
+117
+00:15:20.639 --> 00:15:28.389
+charge is the product of capacitance and voltage
+so c multiplied by v dd this much charge is
+
+118
+00:15:28.389 --> 00:15:36.880
+required to charge the output node to v dd
+similarly when the output goes to zero the
+
+119
+00:15:36.880 --> 00:15:45.560
+load capacitor needs to discharge to ground
+right now it can so happen that lets say we
+
+120
+00:15:45.560 --> 00:15:55.290
+are considering a certain time period t right
+now within this time period t the output f
+
+121
+00:15:55.290 --> 00:16:01.890
+may be going up and going down several times
+this may so happen depending on the behavior
+
+122
+00:16:01.890 --> 00:16:09.709
+of the circuit now if this kind of thing happens
+which means in the same interval of time t
+
+123
+00:16:09.709 --> 00:16:15.880
+the capacitor is getting charged and discharged
+multiple number of times see charging discharging
+
+124
+00:16:15.880 --> 00:16:19.750
+charging discharging charging discharging
+ok
+
+125
+00:16:19.750 --> 00:16:38.830
+so if i define a parameter f sw this is the
+frequency of switching then within a time
+
+126
+00:16:38.830 --> 00:16:51.079
+period t so if you multiple t with f sw this
+will be number of switching that is taking
+
+127
+00:16:51.079 --> 00:17:01.170
+place within this time period t the product
+of the time and the frequency of switching
+
+128
+00:17:01.170 --> 00:17:14.250
+this you can call as the frequency of switching
+sw right fine so this already i have ah explained
+
+129
+00:17:14.250 --> 00:17:21.490
+that if the frequency of output switching
+is f sw that charging and discharging cycle
+
+130
+00:17:21.490 --> 00:17:31.440
+will be repeating so many times over a time
+interval t ok
+
+131
+00:17:31.440 --> 00:17:38.779
+now let us see that how we can calculate the
+average dynamic power in a circuit now our
+
+132
+00:17:38.779 --> 00:17:47.309
+assumption is that we have a circuit like
+this where there is a period time t and the
+
+133
+00:17:47.309 --> 00:17:55.859
+inputs are changing at some rate so i am again
+showing that picture that i am concentrating
+
+134
+00:17:55.859 --> 00:18:03.369
+my calculation within a time period of t and
+within the time period t the input or the
+
+135
+00:18:03.369 --> 00:18:07.710
+output [vocalized-noise] whatever we call
+in inverter both will be the same will be
+
+136
+00:18:07.710 --> 00:18:16.960
+changing certain number of times so i am calling
+it as the frequency of switch right fine
+
+137
+00:18:16.960 --> 00:18:23.700
+now let us look at this calculation so how
+do we calculate the dynamic power this is
+
+138
+00:18:23.700 --> 00:18:33.429
+actually the average power consumption so
+whenever the output ah is switching so between
+
+139
+00:18:33.429 --> 00:18:39.210
+time zero and t i simple multiple the current
+with the voltages this is the definition of
+
+140
+00:18:39.210 --> 00:18:45.489
+the instantaneous power you integrate it over
+a time t you get the energy take the average
+
+141
+00:18:45.489 --> 00:18:51.830
+you get the average power ok since v dd is
+a constant you take it out so you have an
+
+142
+00:18:51.830 --> 00:18:57.489
+expression like this so let us see how from
+here i get this so we get an expression like
+
+143
+00:18:57.489 --> 00:19:12.559
+this i am just to working this out so you
+get v dd divided by t integral zero to t current
+
+144
+00:19:12.559 --> 00:19:18.080
+d t fine
+now let us make an observation so our observation
+
+145
+00:19:18.080 --> 00:19:26.679
+is the value of current is defined as the
+product of the capacitance and the rate of
+
+146
+00:19:26.679 --> 00:19:38.409
+change of voltage so if you take this into
+account so i dd tdt becomes c dv so i can
+
+147
+00:19:38.409 --> 00:19:51.479
+write it as v dd by t integral c dv now the
+independent variable is v so what will be
+
+148
+00:19:51.479 --> 00:19:58.720
+the range of v see i am working from zero
+to t so this will be from zero to what something
+
+149
+00:19:58.720 --> 00:20:04.850
+i am writing a question mark here because
+you see a within this time t as i said charging
+
+150
+00:20:04.850 --> 00:20:11.779
+and discharging will take place multiple number
+of times right multiple number of [vocalized-noise]
+
+151
+00:20:11.779 --> 00:20:21.480
+so far each charging i can say each charging
+the voltages is going from zero to approximately
+
+152
+00:20:21.480 --> 00:20:34.229
+v dd in the load capacitor and for discharging
+it is the reverse v dd back to zero
+
+153
+00:20:34.229 --> 00:20:45.039
+now in each such cycle i can write it like
+this v dd by t see c dv is nothing but c into
+
+154
+00:20:45.039 --> 00:20:56.029
+v now since this charging upto v dd so for
+every charging it will be c into v dd not
+
+155
+00:20:56.029 --> 00:21:02.729
+only this how many times it is charging within
+this period t it is charging if s w multiplied
+
+156
+00:21:02.729 --> 00:21:12.279
+by t times as i said so f sw multiplied by
+t this will give you at how many times this
+
+157
+00:21:12.279 --> 00:21:17.909
+charging and discharging is taking place within
+this time period t so you will have to multiple
+
+158
+00:21:17.909 --> 00:21:27.239
+this by this t into f sw this will give you
+the total value of the integrate see here
+
+159
+00:21:27.239 --> 00:21:34.009
+basically this integral you are separating
+out between these each of these segments one
+
+160
+00:21:34.009 --> 00:21:40.899
+two three so thats why if you just add them
+out there are so many such segments you multiple
+
+161
+00:21:40.899 --> 00:21:48.200
+this by this right
+so how much this comes to if you make a simplification
+
+162
+00:21:48.200 --> 00:21:59.009
+c v dd square capital t cancels out and f
+sw this is the final expression for dynamics
+
+163
+00:21:59.009 --> 00:22:08.659
+power right ok so in this expression also
+this same thing is shown finally the value
+
+164
+00:22:08.659 --> 00:22:13.630
+of the dynamics power is this and the point
+to observe here is that the dynamics power
+
+165
+00:22:13.630 --> 00:22:20.720
+is proportional to load capacitance so to
+reduce it you can try and reduce the value
+
+166
+00:22:20.720 --> 00:22:26.809
+of c proportional to square of v dd so if
+it is possible to reduce the supply voltage
+
+167
+00:22:26.809 --> 00:22:32.639
+that will also be good and of course proportional
+to the signal switching frequency
+
+168
+00:22:32.639 --> 00:22:42.470
+so if you can reduce the frequency that will
+also result in less dynamics power ok now
+
+169
+00:22:42.470 --> 00:22:47.889
+taking the concept of dynamic power one step
+forward let us define something called an
+
+170
+00:22:47.889 --> 00:22:57.200
+activity factor now see in the previous expression
+we talked about this f sw which was the frequency
+
+171
+00:22:57.200 --> 00:23:04.490
+of switching of the input or the output signals
+right now here we are talking about the clock
+
+172
+00:23:04.490 --> 00:23:14.359
+frequency f is our clock frequency now we
+are trying to relate this f sw with f by multiplying
+
+173
+00:23:14.359 --> 00:23:19.259
+it with the parameter alpha which is defined
+as the activity factor
+
+174
+00:23:19.259 --> 00:23:26.609
+you see some signal can change state at a
+rate which is at most equal to the clock frequency
+
+175
+00:23:26.609 --> 00:23:33.070
+because it is the clock the edges of the clock
+that defines the various events in a circuits
+
+176
+00:23:33.070 --> 00:23:40.379
+but all edges of the clock need not result
+in a change in the signal state so only a
+
+177
+00:23:40.379 --> 00:23:47.960
+fraction of the clock edges will actually
+result in an activity that will result in
+
+178
+00:23:47.960 --> 00:23:54.309
+consumption of dynamics power so we define
+something called an activity factor which
+
+179
+00:23:54.309 --> 00:24:04.269
+if we multiplied by the frequency we get f
+sw this is how we just estimate f sw now if
+
+180
+00:24:04.269 --> 00:24:10.170
+you are directly connecting the clock with
+the gate input so the input as well as the
+
+181
+00:24:10.170 --> 00:24:13.059
+output will be changing at every edge of the
+clock
+
+182
+00:24:13.059 --> 00:24:21.139
+so there we say alpha equal to one but if
+the gate output switches once per clock cycles
+
+183
+00:24:21.139 --> 00:24:26.609
+see once per clock cycle means or in every
+clock cycle the clock is transiting twice
+
+184
+00:24:26.609 --> 00:24:32.749
+low to high and high to low i am saying that
+the output is changing once for every two
+
+185
+00:24:32.749 --> 00:24:41.830
+transitions of the clock so here the activity
+factor is defined as half and we have something
+
+186
+00:24:41.830 --> 00:24:47.700
+was c mos dynamics gates i have not talked
+about it c mos dynamics gates are something
+
+187
+00:24:47.700 --> 00:25:13.019
+like this say you can implement ah [vocalized-noise]
+this is a p type transistor
+
+188
+00:25:13.019 --> 00:25:20.309
+so you see in a dynamics c mos dynamics logic
+we are not using many transistors in the pull
+
+189
+00:25:20.309 --> 00:25:32.440
+up this is the output this is a nor nor gate
+so here in the [vocalized-noise] pull up network
+
+190
+00:25:32.440 --> 00:25:37.210
+we are using very few number of time here
+only one and you see you are using a clock
+
+191
+00:25:37.210 --> 00:25:43.460
+phi one and phi two it is like a two face
+clock so how it works let me just briefly
+
+192
+00:25:43.460 --> 00:25:54.799
+tell you lets say phi one s running like this
+and phi two is running like this they are
+
+193
+00:25:54.799 --> 00:26:04.309
+non overlapping right so when phi one equal
+to one phi one bar will be zero and this will
+
+194
+00:26:04.309 --> 00:26:10.850
+be conducting so it is here so the output
+load capacitance will be here this is your
+
+195
+00:26:10.850 --> 00:26:19.899
+c so it is during this period when phi one
+is high you call this stage as the precharge
+
+196
+00:26:19.899 --> 00:26:26.119
+stage during this period phi two is zero so
+this transistor is off
+
+197
+00:26:26.119 --> 00:26:34.229
+so capacitance if getting charged through
+v dd this is the precharge state but when
+
+198
+00:26:34.229 --> 00:26:40.619
+phi is two this part then phi one is back
+to zero so this transistors is off the capacitor
+
+199
+00:26:40.619 --> 00:26:46.429
+was already charged the phi two is high means
+this is conducting now depending on a and
+
+200
+00:26:46.429 --> 00:26:56.519
+b this capacitor can discharge or may not
+discharge so we call this as the compute phase
+
+201
+00:26:56.519 --> 00:27:00.739
+so depending on the phases of phi one and
+phi two you can alternate so depending on
+
+202
+00:27:00.739 --> 00:27:06.889
+the value of a and b the output value may
+change it may not change while [vocalized-noise]
+
+203
+00:27:06.889 --> 00:27:12.109
+in every cycle worst case it can change twice
+during precharge state it can go from zero
+
+204
+00:27:12.109 --> 00:27:18.590
+to high again during compute state it can
+go back to from high to low right
+
+205
+00:27:18.590 --> 00:27:25.869
+so this is actually mentioned here that for
+a c mos dynamics gate switching takes place
+
+206
+00:27:25.869 --> 00:27:34.809
+either zero to two times for an average of
+alpha equal to half because two times per
+
+207
+00:27:34.809 --> 00:27:40.779
+cycle means alpha equal to one zero means
+zero so average is half but for c mos static
+
+208
+00:27:40.779 --> 00:27:47.129
+gates conventional c mos gates ah the activity
+factor is very much dependent on the design
+
+209
+00:27:47.129 --> 00:27:56.080
+the typical value is around point one so if
+you take the activity factor into account
+
+210
+00:27:56.080 --> 00:28:04.610
+our dynamics power equation changes to this
+square you replace f sw by alpha into f right
+
+211
+00:28:04.610 --> 00:28:13.009
+so alpha is also a factor here
+now we look at short circuit power short circuit
+
+212
+00:28:13.009 --> 00:28:20.580
+power this is some kind of power dissipation
+in a c mos gate when the signals transitions
+
+213
+00:28:20.580 --> 00:28:27.230
+are taking place because they are periodically
+for very small amount of time both n mos and
+
+214
+00:28:27.230 --> 00:28:34.999
+p mos networks can be conducting this is also
+called as the crowbar current and in modern
+
+215
+00:28:34.999 --> 00:28:43.679
+day designs this short circuit power can consume
+so means of the tune of ah twenty percent
+
+216
+00:28:43.679 --> 00:28:49.359
+of the total power dissipation right and faster
+is the frequency of switching more will be
+
+217
+00:28:49.359 --> 00:28:55.239
+the short circuits power ok because as you
+increases the clock frequency the transitions
+
+218
+00:28:55.239 --> 00:28:58.799
+frequency will also increase
+so let us see how it [vocalized-noise] how
+
+219
+00:28:58.799 --> 00:29:08.950
+this happens ah we take ah simple c mos inverter
+where you say that the input is going from
+
+220
+00:29:08.950 --> 00:29:14.809
+zero to high and high and low you see the
+input zero to one and one to zero cannot be
+
+221
+00:29:14.809 --> 00:29:20.009
+instantaneous they will be a rise time and
+a fall time ok and this is a typical input
+
+222
+00:29:20.009 --> 00:29:26.240
+output characteristic curve of the inverter
+there is a region where the p mos transistor
+
+223
+00:29:26.240 --> 00:29:31.839
+is either fully on or partially on and there
+is a region where the n mos transistor is
+
+224
+00:29:31.839 --> 00:29:38.210
+either fully on or partially on there is an
+intermediate region where the transitions
+
+225
+00:29:38.210 --> 00:29:44.700
+is very fast a short range of voltage during
+which both the n mos and p mos transistors
+
+226
+00:29:44.700 --> 00:29:50.599
+may be conducting
+so what might happen is that ah suppose the
+
+227
+00:29:50.599 --> 00:29:58.960
+output of the circuit so it is changing from
+zero to one it is changing from one to zero
+
+228
+00:29:58.960 --> 00:30:04.999
+so if i also plot the value of currents drawn
+from v dd normally in a c mos currents currents
+
+229
+00:30:04.999 --> 00:30:12.429
+drawn in very low but during transitions will
+find that they will be a small spike here
+
+230
+00:30:12.429 --> 00:30:17.320
+because momentarily both the pull up and pull
+downs are conducting and higher the value
+
+231
+00:30:17.320 --> 00:30:24.169
+of the frequency more will be the spikes coming
+in right this is the source of the so called
+
+232
+00:30:24.169 --> 00:30:33.859
+short circuits current ok and lastly we talk
+about static power static power is something
+
+233
+00:30:33.859 --> 00:30:39.499
+which is dissipated even when no signal transitions
+are occurring
+
+234
+00:30:39.499 --> 00:30:47.419
+these occur mainly due to the leakage effects
+so even if he transistors are off non conducting
+
+235
+00:30:47.419 --> 00:30:52.440
+due to some see the junctions can be modulus
+some reverse bias diodes which are [vocalized-noise]
+
+236
+00:30:52.440 --> 00:30:57.979
+not conducting there can be drain junction
+leakage sub threshold current many such sources
+
+237
+00:30:57.979 --> 00:31:04.369
+are their gate leakage because of this kind
+of effects a small amount of current will
+
+238
+00:31:04.369 --> 00:31:09.909
+continuously be flowing ok so this leakage
+power will always be there this cannot be
+
+239
+00:31:09.909 --> 00:31:19.019
+avoided but of course you can reduce it by
+using some techniques so so as the transistors
+
+240
+00:31:19.019 --> 00:31:24.349
+becoming smaller larger and larger number
+of transistor have been packed into a chip
+
+241
+00:31:24.349 --> 00:31:29.929
+the total contributions of static power dissipation
+is becoming more important because now in
+
+242
+00:31:29.929 --> 00:31:34.610
+a chip we have of the order of a billion of
+transistor billions of transistors and each
+
+243
+00:31:34.610 --> 00:31:40.129
+of the transistor is consuming little bit
+of energy or power so the sum total if you
+
+244
+00:31:40.129 --> 00:31:45.529
+take over all billions transistors it can
+become significant right
+
+245
+00:31:45.529 --> 00:31:51.019
+so i am not going to the detail there can
+be several sources of these leakage currents
+
+246
+00:31:51.019 --> 00:31:56.479
+sub threshold leakage reversed bias junctions
+channel punch through oxide leakage etcetera
+
+247
+00:31:56.479 --> 00:32:06.440
+ok so by doing some design manipulations you
+can control some of these so we shall see
+
+248
+00:32:06.440 --> 00:32:13.259
+some of these techniques later so with this
+we come to the end of this introductory introductory
+
+249
+00:32:13.259 --> 00:32:19.099
+lecture on low power design in our next lectures
+we shall be moving in to some more details
+
+250
+00:32:19.099 --> 00:32:25.669
+about how we can actually control power dissipations
+by some design techniques
+

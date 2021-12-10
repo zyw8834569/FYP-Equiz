@@ -1,0 +1,678 @@
+WEBVTT
+
+1
+00:00:04.400 --> 00:00:07.049
+in this presentation we will study about
+
+2
+00:00:07.049 --> 00:00:09.540
+the sequential circuits a very very
+
+3
+00:00:09.540 --> 00:00:11.790
+important presentation in the digital
+
+4
+00:00:11.790 --> 00:00:14.670
+electronics course because this is the
+
+5
+00:00:14.670 --> 00:00:23.970
+base for your flip-flops counters and it
+
+6
+00:00:23.970 --> 00:00:26.730
+registers all these three topics very
+
+7
+00:00:26.730 --> 00:00:28.230
+important and there are so many
+
+8
+00:00:28.230 --> 00:00:30.119
+questions being asked from these three
+
+9
+00:00:30.119 --> 00:00:32.369
+topics only so if you want to master
+
+10
+00:00:32.369 --> 00:00:34.140
+these three topics you have to
+
+11
+00:00:34.140 --> 00:00:36.840
+understand what is sequential circuits
+
+12
+00:00:36.840 --> 00:00:38.670
+first that we will study in this
+
+13
+00:00:38.670 --> 00:00:41.250
+presentation only there is also a small
+
+14
+00:00:41.250 --> 00:00:43.290
+change that you will find in the coming
+
+15
+00:00:43.290 --> 00:00:45.989
+videos and this presentation is the
+
+16
+00:00:45.989 --> 00:00:47.940
+lecture number I am mentioning the
+
+17
+00:00:47.940 --> 00:00:51.390
+lecture number like this is 118 flexure
+
+18
+00:00:51.390 --> 00:00:53.879
+in the digital electronics course this
+
+19
+00:00:53.879 --> 00:00:56.160
+will help the students who are learning
+
+20
+00:00:56.160 --> 00:00:58.590
+the digital electronics first time okay
+
+21
+00:00:58.590 --> 00:01:01.289
+so let's move to the sequential circuits
+
+22
+00:01:01.289 --> 00:01:04.170
+what it is when we talk about the
+
+23
+00:01:04.170 --> 00:01:06.450
+sequential circuit it becomes important
+
+24
+00:01:06.450 --> 00:01:08.490
+for us to talk about the combinational
+
+25
+00:01:08.490 --> 00:01:10.799
+circuits at the same time okay because
+
+26
+00:01:10.799 --> 00:01:13.740
+half of the definition of the sequential
+
+27
+00:01:13.740 --> 00:01:15.930
+circuit is the combinational circuit
+
+28
+00:01:15.930 --> 00:01:20.930
+let's see how this is a formal
+
+29
+00:01:21.170 --> 00:01:25.200
+definition for your sequential circuit
+
+30
+00:01:25.200 --> 00:01:27.270
+you can use this definition if someone
+
+31
+00:01:27.270 --> 00:01:29.070
+asks you what a sequential circuit in
+
+32
+00:01:29.070 --> 00:01:32.130
+your exams as well so in sequential
+
+33
+00:01:32.130 --> 00:01:35.280
+circuits the present output okay the
+
+34
+00:01:35.280 --> 00:01:37.350
+first important thing is the present
+
+35
+00:01:37.350 --> 00:01:40.500
+output depends upon the present input
+
+36
+00:01:40.500 --> 00:01:43.860
+okay now this two things when combined
+
+37
+00:01:43.860 --> 00:01:46.259
+together makes your combinational
+
+38
+00:01:46.259 --> 00:01:48.630
+circuit in combinational circuit the
+
+39
+00:01:48.630 --> 00:01:50.549
+present output depends only on the
+
+40
+00:01:50.549 --> 00:01:53.070
+present input okay we have to use word
+
+41
+00:01:53.070 --> 00:01:55.380
+only here for the combinational circuit
+
+42
+00:01:55.380 --> 00:01:58.530
+because if I say I am having a
+
+43
+00:01:58.530 --> 00:02:00.180
+combinational circuit that takes two
+
+44
+00:02:00.180 --> 00:02:02.520
+input the first input is let us say 1
+
+45
+00:02:02.520 --> 00:02:05.100
+and the second input is also 1 and the
+
+46
+00:02:05.100 --> 00:02:07.829
+combinational circuit here here adds
+
+47
+00:02:07.829 --> 00:02:13.030
+this two numbers so 1 plus 1 gives you
+
+48
+00:02:13.030 --> 00:02:16.750
+zero as the some and one is the carry
+
+49
+00:02:16.750 --> 00:02:19.960
+okay so this is the result that we are
+
+50
+00:02:19.960 --> 00:02:22.650
+having again you are using this same
+
+51
+00:02:22.650 --> 00:02:26.140
+same adder and you want to add zero and
+
+52
+00:02:26.140 --> 00:02:28.390
+one then the result will be what one
+
+53
+00:02:28.390 --> 00:02:31.630
+zero it has nothing to do with this
+
+54
+00:02:31.630 --> 00:02:34.570
+output okay what was the previous output
+
+55
+00:02:34.570 --> 00:02:36.940
+let me explain you once more you are
+
+56
+00:02:36.940 --> 00:02:39.910
+adding one one okay so you are getting
+
+57
+00:02:39.910 --> 00:02:42.550
+the result 0 1 this is your output okay
+
+58
+00:02:42.550 --> 00:02:45.160
+now again you are adding different
+
+59
+00:02:45.160 --> 00:02:48.160
+number let's say 0 1 then the output is
+
+60
+00:02:48.160 --> 00:02:51.100
+1 0 now this output this is your present
+
+61
+00:02:51.100 --> 00:02:53.170
+output that we are talking about this
+
+62
+00:02:53.170 --> 00:02:55.150
+present output is only depending upon
+
+63
+00:02:55.150 --> 00:02:58.290
+this present input this is your present
+
+64
+00:02:58.290 --> 00:03:01.510
+input this one is your past input and
+
+65
+00:03:01.510 --> 00:03:06.340
+this one is your past output fine so
+
+66
+00:03:06.340 --> 00:03:09.040
+this output the present output has
+
+67
+00:03:09.040 --> 00:03:12.910
+nothing to do with the past input or the
+
+68
+00:03:12.910 --> 00:03:15.900
+past output does we call it as the
+
+69
+00:03:15.900 --> 00:03:19.269
+combinational circuit ok I hope you are
+
+70
+00:03:19.269 --> 00:03:21.760
+getting this but in case of sequential
+
+71
+00:03:21.760 --> 00:03:24.970
+circuit the present output depends upon
+
+72
+00:03:24.970 --> 00:03:28.180
+the present input as well as as well as
+
+73
+00:03:28.180 --> 00:03:31.750
+it depends upon the past output or
+
+74
+00:03:31.750 --> 00:03:33.970
+outputs okay like in this case we are
+
+75
+00:03:33.970 --> 00:03:35.980
+having two outputs so it depends upon
+
+76
+00:03:35.980 --> 00:03:40.060
+the past output or outputs as well so
+
+77
+00:03:40.060 --> 00:03:41.920
+this is the major difference between
+
+78
+00:03:41.920 --> 00:03:43.780
+your sequential circuit and the
+
+79
+00:03:43.780 --> 00:03:47.019
+combinational circuit let's see how it
+
+80
+00:03:47.019 --> 00:03:50.400
+works for example this is my
+
+81
+00:03:50.400 --> 00:03:53.560
+combinational circuit this is my input
+
+82
+00:03:53.560 --> 00:03:55.900
+present input and this is my present
+
+83
+00:03:55.900 --> 00:03:58.269
+output so the present output depends
+
+84
+00:03:58.269 --> 00:04:01.329
+only on the present input now if I say I
+
+85
+00:04:01.329 --> 00:04:03.400
+want to convert this combinational
+
+86
+00:04:03.400 --> 00:04:05.110
+circuit to the sequential circuit then
+
+87
+00:04:05.110 --> 00:04:10.090
+what I have to do let's see I have to
+
+88
+00:04:10.090 --> 00:04:14.620
+take this output there are all the three
+
+89
+00:04:14.620 --> 00:04:17.470
+outputs actually and then store it I
+
+90
+00:04:17.470 --> 00:04:20.560
+have to store it now let me explain you
+
+91
+00:04:20.560 --> 00:04:25.000
+why I need to store it counter is the
+
+92
+00:04:25.000 --> 00:04:26.750
+sequential circuit and you
+
+93
+00:04:26.750 --> 00:04:28.580
+already know that how counter works
+
+94
+00:04:28.580 --> 00:04:30.710
+let's say if it is a decimal counter it
+
+95
+00:04:30.710 --> 00:04:34.640
+comes from zero to nine every time it
+
+96
+00:04:34.640 --> 00:04:37.970
+adds one to zero then we will get one
+
+97
+00:04:37.970 --> 00:04:42.110
+then again it adds 1 to 1 we get 2 then
+
+98
+00:04:42.110 --> 00:04:48.320
+2 plus 1 3 then 4 5 6 7 8 9 so every
+
+99
+00:04:48.320 --> 00:04:50.180
+time it is adding adding 1 to the
+
+100
+00:04:50.180 --> 00:04:53.540
+previous output because 0 plus 1 gives
+
+101
+00:04:53.540 --> 00:04:58.550
+us 1 now when you add 1 to 1 we must
+
+102
+00:04:58.550 --> 00:05:00.260
+know that this one was the previous
+
+103
+00:05:00.260 --> 00:05:02.510
+output because until and unless you know
+
+104
+00:05:02.510 --> 00:05:04.340
+what was the previous output how we are
+
+105
+00:05:04.340 --> 00:05:07.240
+going to add 1 for example if I'm at 5
+
+106
+00:05:07.240 --> 00:05:11.210
+then the counter will count 6 it will
+
+107
+00:05:11.210 --> 00:05:14.090
+count 6 only if it knows that the
+
+108
+00:05:14.090 --> 00:05:16.820
+previous output was 5 until and unless
+
+109
+00:05:16.820 --> 00:05:18.830
+it knows what was the previous output
+
+110
+00:05:18.830 --> 00:05:22.070
+how it is going to add 1 so we require
+
+111
+00:05:22.070 --> 00:05:27.760
+to store we require to store previous
+
+112
+00:05:27.760 --> 00:05:30.919
+output this is the very important point
+
+113
+00:05:30.919 --> 00:05:33.979
+in the sequential circuit we require to
+
+114
+00:05:33.979 --> 00:05:36.470
+store the previous output so what we
+
+115
+00:05:36.470 --> 00:05:42.290
+need we need a memory ok so what I am
+
+116
+00:05:42.290 --> 00:05:44.840
+actually doing here I am giving inputs I
+
+117
+00:05:44.840 --> 00:05:47.390
+am getting the output and also at the
+
+118
+00:05:47.390 --> 00:05:50.030
+same time and storing that particular
+
+119
+00:05:50.030 --> 00:05:53.780
+output on outputs in my memory block we
+
+120
+00:05:53.780 --> 00:05:55.190
+will talk about this memory very
+
+121
+00:05:55.190 --> 00:05:58.490
+important point this memory will keep
+
+122
+00:05:58.490 --> 00:06:01.280
+the output till the time I am again
+
+123
+00:06:01.280 --> 00:06:03.860
+going to use it let's say time came and
+
+124
+00:06:03.860 --> 00:06:07.940
+we have to use the values stored in this
+
+125
+00:06:07.940 --> 00:06:13.990
+memory and this values will be used as
+
+126
+00:06:13.990 --> 00:06:20.360
+the inputs so let's see what we got here
+
+127
+00:06:20.360 --> 00:06:22.280
+we are having 3 inputs and these are our
+
+128
+00:06:22.280 --> 00:06:24.530
+present input then we are having the
+
+129
+00:06:24.530 --> 00:06:27.380
+output and also we are having the memory
+
+130
+00:06:27.380 --> 00:06:29.630
+element which has already stored the
+
+131
+00:06:29.630 --> 00:06:32.060
+output from the previous inputs so this
+
+132
+00:06:32.060 --> 00:06:36.020
+will become our past output and this
+
+133
+00:06:36.020 --> 00:06:38.230
+past output will go
+
+134
+00:06:38.230 --> 00:06:41.290
+the input and you can call it as the
+
+135
+00:06:41.290 --> 00:06:45.960
+feedback will go as the feedback and the
+
+136
+00:06:45.960 --> 00:06:49.000
+present output will depend upon this
+
+137
+00:06:49.000 --> 00:06:52.360
+present input and the past output so
+
+138
+00:06:52.360 --> 00:06:55.540
+this is our sequential circuit now let
+
+139
+00:06:55.540 --> 00:06:57.940
+me explain you the important point
+
+140
+00:06:57.940 --> 00:07:01.450
+what is this memory okay because in
+
+141
+00:07:01.450 --> 00:07:03.610
+sequential circuit everything is
+
+142
+00:07:03.610 --> 00:07:05.140
+combinational you can see everything is
+
+143
+00:07:05.140 --> 00:07:07.510
+combinational except this memory and the
+
+144
+00:07:07.510 --> 00:07:10.000
+feedback so we have to focus on this
+
+145
+00:07:10.000 --> 00:07:11.950
+memory that what is this memory and how
+
+146
+00:07:11.950 --> 00:07:14.230
+we are going to store the output and as
+
+147
+00:07:14.230 --> 00:07:16.090
+we are in the digital world the output
+
+148
+00:07:16.090 --> 00:07:18.880
+will be 0 or 1 bits you can say so we
+
+149
+00:07:18.880 --> 00:07:20.650
+have to store the bits how we are going
+
+150
+00:07:20.650 --> 00:07:23.470
+to do that if we know how to store a
+
+151
+00:07:23.470 --> 00:07:26.350
+single bit we later can store multi bits
+
+152
+00:07:26.350 --> 00:07:29.920
+also so the first thing that came in the
+
+153
+00:07:29.920 --> 00:07:32.800
+mind of the people is to use cascaded
+
+154
+00:07:32.800 --> 00:07:35.620
+not gate okay before that let me tell
+
+155
+00:07:35.620 --> 00:07:37.840
+you this memory is nothing but your
+
+156
+00:07:37.840 --> 00:07:40.390
+flip-flops okay I have raised the
+
+157
+00:07:40.390 --> 00:07:43.270
+curtains the suspense is over this
+
+158
+00:07:43.270 --> 00:07:45.880
+memory is your flip-flops okay but
+
+159
+00:07:45.880 --> 00:07:47.950
+people didn't get to the flip-flops
+
+160
+00:07:47.950 --> 00:07:50.740
+directly but they have thought different
+
+161
+00:07:50.740 --> 00:07:52.690
+methods to store a single bit number
+
+162
+00:07:52.690 --> 00:07:57.490
+earlier it was the Cascade it not gate
+
+163
+00:07:57.490 --> 00:08:00.160
+arrangement that can be used to store a
+
+164
+00:08:00.160 --> 00:08:07.450
+single bit okay let's see how these are
+
+165
+00:08:07.450 --> 00:08:10.720
+your two not gates and if the input is
+
+166
+00:08:10.720 --> 00:08:14.890
+one or high the output of your first not
+
+167
+00:08:14.890 --> 00:08:17.590
+gate is 0 and then the output of a
+
+168
+00:08:17.590 --> 00:08:20.680
+second not gate is 1 so you can see that
+
+169
+00:08:20.680 --> 00:08:25.230
+this one is stored
+

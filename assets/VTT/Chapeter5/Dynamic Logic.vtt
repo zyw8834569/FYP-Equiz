@@ -1,0 +1,5170 @@
+WEBVTT
+
+1
+00:00:00.530 --> 00:00:03.780
+welcome to ECE 165 this is a lecture on
+
+2
+00:00:03.780 --> 00:00:07.680
+dynamic logic so we're going to consider
+
+3
+00:00:07.680 --> 00:00:09.660
+this a new section title so let's go
+
+4
+00:00:09.660 --> 00:00:13.940
+ahead and write that down dynamic logic
+
+5
+00:00:16.070 --> 00:00:18.930
+let me go ahead and double box that it's
+
+6
+00:00:18.930 --> 00:00:20.580
+a section title and if you're following
+
+7
+00:00:20.580 --> 00:00:23.189
+along at home the west and harris book
+
+8
+00:00:23.189 --> 00:00:24.990
+has a section on dynamic logic that
+
+9
+00:00:24.990 --> 00:00:27.660
+would be in section nine point two point
+
+10
+00:00:27.660 --> 00:00:30.060
+four and the revised two cost a nickel
+
+11
+00:00:30.060 --> 00:00:32.308
+each book if you want to read that for
+
+12
+00:00:32.308 --> 00:00:35.910
+more information would be section 6.3 ok
+
+13
+00:00:35.910 --> 00:00:38.309
+so what is dynamic logic well I'm going
+
+14
+00:00:38.309 --> 00:00:39.809
+to say what it's not
+
+15
+00:00:39.809 --> 00:00:47.910
+so unlike static CMOS which is what
+
+16
+00:00:47.910 --> 00:00:52.550
+we've been studying all along which has
+
+17
+00:00:53.239 --> 00:01:04.709
+direct connections to VDD or ground so
+
+18
+00:01:04.709 --> 00:01:07.409
+unlike normal static CMOS which is what
+
+19
+00:01:07.409 --> 00:01:09.810
+we've been discussing all along dynamic
+
+20
+00:01:09.810 --> 00:01:19.500
+logic as the name may imply relies no
+
+21
+00:01:19.500 --> 00:01:24.049
+comma there dynamic logic relies on
+
+22
+00:01:24.049 --> 00:01:33.650
+temporary or dynamic hence the word
+
+23
+00:01:33.650 --> 00:01:37.549
+storage of logic values
+
+24
+00:01:42.610 --> 00:01:51.370
+on capacitors so what does this mean
+
+25
+00:01:51.370 --> 00:01:52.750
+the best way to understand what this
+
+26
+00:01:52.750 --> 00:01:54.460
+means is let's go ahead and look at an
+
+27
+00:01:54.460 --> 00:01:57.190
+example okay so let's imagine we had
+
+28
+00:01:57.190 --> 00:02:01.390
+some voltage source and it is connecting
+
+29
+00:02:01.390 --> 00:02:04.720
+via some sort of switch namely a
+
+30
+00:02:04.720 --> 00:02:09.460
+transistor and this connects to some
+
+31
+00:02:09.460 --> 00:02:10.479
+sort of capacitor
+
+32
+00:02:10.479 --> 00:02:12.640
+okay so let's call this capacitor C this
+
+33
+00:02:12.640 --> 00:02:15.490
+is V out over here now
+
+34
+00:02:15.490 --> 00:02:17.440
+what I'd like to do is is leave a little
+
+35
+00:02:17.440 --> 00:02:19.060
+bit of space next to the C we're going
+
+36
+00:02:19.060 --> 00:02:20.890
+to draw something there in a minute in a
+
+37
+00:02:20.890 --> 00:02:23.350
+minute okay so bear with me so in the
+
+38
+00:02:23.350 --> 00:02:24.670
+mean time let's go ahead and draw the
+
+39
+00:02:24.670 --> 00:02:26.820
+timing diagram for what happens here
+
+40
+00:02:26.820 --> 00:02:31.209
+okay so we have T this is the position
+
+41
+00:02:31.209 --> 00:02:33.370
+of the switch if we're drawing a zero
+
+42
+00:02:33.370 --> 00:02:35.950
+then nothing's happening and if we're
+
+43
+00:02:35.950 --> 00:02:37.690
+drawing something high then the switch
+
+44
+00:02:37.690 --> 00:02:40.540
+is on and then we go back to zero so the
+
+45
+00:02:40.540 --> 00:02:42.190
+switch is open and that's a situation
+
+46
+00:02:42.190 --> 00:02:45.730
+okay so we say the switch is closed when
+
+47
+00:02:45.730 --> 00:02:49.090
+the value of this logic here is positive
+
+48
+00:02:49.090 --> 00:02:54.190
+or high in this timing diagram so what
+
+49
+00:02:54.190 --> 00:02:58.390
+happens to V out okay so this is V out
+
+50
+00:02:58.390 --> 00:02:59.800
+all right
+
+51
+00:02:59.800 --> 00:03:03.190
+so prior to when the switch is open
+
+52
+00:03:03.190 --> 00:03:05.200
+prior to this all happening we actually
+
+53
+00:03:05.200 --> 00:03:06.700
+don't know what the value of V out is
+
+54
+00:03:06.700 --> 00:03:08.980
+okay so I'm in fact I'm not even going
+
+55
+00:03:08.980 --> 00:03:11.200
+to bother drawing it we don't know what
+
+56
+00:03:11.200 --> 00:03:13.000
+what the value is it turns out we will
+
+57
+00:03:13.000 --> 00:03:15.820
+have a way to do this moving forward but
+
+58
+00:03:15.820 --> 00:03:18.370
+let's just say we don't know all right
+
+59
+00:03:18.370 --> 00:03:21.760
+now when the switch closes we know that
+
+60
+00:03:21.760 --> 00:03:24.640
+the voltage will rise up to whatever
+
+61
+00:03:24.640 --> 00:03:27.280
+that input voltage happens to be okay so
+
+62
+00:03:27.280 --> 00:03:30.010
+if this is you know V in then this will
+
+63
+00:03:30.010 --> 00:03:33.820
+rise to the N all right now what happens
+
+64
+00:03:33.820 --> 00:03:37.720
+when the switch closes or I'm sorry when
+
+65
+00:03:37.720 --> 00:03:40.180
+the switch opens back up when this
+
+66
+00:03:40.180 --> 00:03:42.340
+switch opens back up well there's
+
+67
+00:03:42.340 --> 00:03:43.600
+nowhere for the charge on the capacitor
+
+68
+00:03:43.600 --> 00:03:46.989
+to go so it should just you know sit
+
+69
+00:03:46.989 --> 00:03:50.380
+there like so okay and this is really
+
+70
+00:03:50.380 --> 00:03:53.590
+the basis of dynamic logic it's that
+
+71
+00:03:53.590 --> 00:03:55.390
+once you charge a capacitor
+
+72
+00:03:55.390 --> 00:03:58.550
+unless there's some mechanism by which
+
+73
+00:03:58.550 --> 00:04:01.819
+charge will leak away that logic level
+
+74
+00:04:01.819 --> 00:04:05.240
+will stay there for you know forever
+
+75
+00:04:05.240 --> 00:04:07.100
+unless there's a path to leak that way
+
+76
+00:04:07.100 --> 00:04:10.160
+okay so unfortunately there is a path
+
+77
+00:04:10.160 --> 00:04:11.959
+for this to leak away so we never have
+
+78
+00:04:11.959 --> 00:04:13.400
+capacitors just sitting there in the
+
+79
+00:04:13.400 --> 00:04:16.160
+ether not connected to anything there's
+
+80
+00:04:16.160 --> 00:04:19.040
+going to be some degree of parasitic
+
+81
+00:04:19.040 --> 00:04:21.709
+resistance through sub-threshold
+
+82
+00:04:21.709 --> 00:04:23.990
+conduction gate leakage and so on let's
+
+83
+00:04:23.990 --> 00:04:27.020
+call this our leak okay actually that
+
+84
+00:04:27.020 --> 00:04:29.090
+should if I'm following my own color
+
+85
+00:04:29.090 --> 00:04:32.800
+code that should be in red our leak okay
+
+86
+00:04:32.800 --> 00:04:35.600
+so what ends up happening if we kind of
+
+87
+00:04:35.600 --> 00:04:39.140
+extend this timing diagram out to a long
+
+88
+00:04:39.140 --> 00:04:41.560
+time as eventually this will slowly
+
+89
+00:04:41.560 --> 00:04:45.230
+start to decay until it reaches zero in
+
+90
+00:04:45.230 --> 00:04:47.960
+this scenario okay so we say here is
+
+91
+00:04:47.960 --> 00:04:57.229
+that this would expect to stay
+
+92
+00:04:57.229 --> 00:05:07.090
+indefinitely except
+
+93
+00:05:07.580 --> 00:05:11.340
+for our leak okay because our leak is
+
+94
+00:05:11.340 --> 00:05:14.240
+there it is going to eventually
+
+95
+00:05:14.240 --> 00:05:17.970
+discharge this this voltage all the way
+
+96
+00:05:17.970 --> 00:05:20.100
+to zero if our leak is indeed connected
+
+97
+00:05:20.100 --> 00:05:22.169
+to zero so this turns out to be the
+
+98
+00:05:22.169 --> 00:05:24.630
+biggest challenge or rather one of the
+
+99
+00:05:24.630 --> 00:05:26.190
+biggest challenges at an in dynamic
+
+100
+00:05:26.190 --> 00:05:29.300
+logic is that the logic values are only
+
+101
+00:05:29.300 --> 00:05:32.790
+valid at certain instances in time and
+
+102
+00:05:32.790 --> 00:05:34.980
+when we're designing a digital system we
+
+103
+00:05:34.980 --> 00:05:37.410
+have to be aware of when these instances
+
+104
+00:05:37.410 --> 00:05:40.140
+in time are in order to to design these
+
+105
+00:05:40.140 --> 00:05:43.110
+circuits correctly so now that we
+
+106
+00:05:43.110 --> 00:05:44.640
+understand the basic principles of
+
+107
+00:05:44.640 --> 00:05:47.760
+dynamic logic we're storing logic values
+
+108
+00:05:47.760 --> 00:05:49.590
+on parasitic capacitors let's go ahead
+
+109
+00:05:49.590 --> 00:05:52.020
+and draw a general dynamic logic gate
+
+110
+00:05:52.020 --> 00:06:00.590
+okay so a general dynamic logic gate
+
+111
+00:06:04.010 --> 00:06:06.570
+okay so it turns out a general dynamic
+
+112
+00:06:06.570 --> 00:06:09.330
+logic gate is fairly straightforward
+
+113
+00:06:09.330 --> 00:06:13.410
+we have ap Moss at the top not
+
+114
+00:06:13.410 --> 00:06:17.430
+surprising our output comes out here
+
+115
+00:06:17.430 --> 00:06:20.820
+output is say equal to Y we have some
+
+116
+00:06:20.820 --> 00:06:23.390
+function which will describe later and
+
+117
+00:06:23.390 --> 00:06:26.940
+then an additional and Moss transistor
+
+118
+00:06:26.940 --> 00:06:30.570
+on the bottom here okay now these n moss
+
+119
+00:06:30.570 --> 00:06:33.000
+and this P Moss are connected together
+
+120
+00:06:33.000 --> 00:06:34.919
+or the gates are connected together and
+
+121
+00:06:34.919 --> 00:06:36.990
+the input signal here is what we call
+
+122
+00:06:36.990 --> 00:06:39.090
+Phi all right we'll get into what that
+
+123
+00:06:39.090 --> 00:06:40.350
+means momentarily
+
+124
+00:06:40.350 --> 00:06:43.169
+now the logical inputs into this
+
+125
+00:06:43.169 --> 00:06:46.560
+function are given into this function f
+
+126
+00:06:46.560 --> 00:06:49.800
+here okay so what's going on here so
+
+127
+00:06:49.800 --> 00:06:52.020
+first of all let's call this function f
+
+128
+00:06:52.020 --> 00:06:53.850
+this is actually going to be the same
+
+129
+00:06:53.850 --> 00:06:59.910
+pull down network as before okay so if
+
+130
+00:06:59.910 --> 00:07:01.590
+we we know how to design a pulldown
+
+131
+00:07:01.590 --> 00:07:04.080
+network and static complementary CMOS
+
+132
+00:07:04.080 --> 00:07:06.990
+logic this will be exactly that except
+
+133
+00:07:06.990 --> 00:07:10.169
+only the pulldown not to pull up on the
+
+134
+00:07:10.169 --> 00:07:11.940
+PMO side of things we have this device
+
+135
+00:07:11.940 --> 00:07:16.280
+here called a pre charge switch
+
+136
+00:07:17.880 --> 00:07:21.150
+or pre-charge transistor I suppose and
+
+137
+00:07:21.150 --> 00:07:24.430
+on the end mas below this function we
+
+138
+00:07:24.430 --> 00:07:28.600
+have what we call and evaluate switch or
+
+139
+00:07:28.600 --> 00:07:33.100
+transistor ok so how does this circuit
+
+140
+00:07:33.100 --> 00:07:37.890
+work the circuit works in two phases
+
+141
+00:07:39.330 --> 00:07:43.210
+okay the first phase is what we call the
+
+142
+00:07:43.210 --> 00:07:49.930
+pre-charge phase this is when Phi is
+
+143
+00:07:49.930 --> 00:07:54.850
+equal to zero okay when Phi is equal to
+
+144
+00:07:54.850 --> 00:07:57.790
+zero the bottom evaluates which is off
+
+145
+00:07:57.790 --> 00:08:01.810
+the top P MOS is on okay so what this
+
+146
+00:08:01.810 --> 00:08:06.780
+means is that the pulldown network is
+
+147
+00:08:06.780 --> 00:08:11.260
+off because that bottom evaluate switch
+
+148
+00:08:11.260 --> 00:08:14.620
+is off and the pull-up network which is
+
+149
+00:08:14.620 --> 00:08:18.450
+just that p MOS is on and therefore Y is
+
+150
+00:08:18.450 --> 00:08:31.390
+pre charged to VDD now we should note
+
+151
+00:08:31.390 --> 00:08:35.650
+during this case that the output in this
+
+152
+00:08:35.650 --> 00:08:38.589
+case Y is pre charged to VDD so other
+
+153
+00:08:38.589 --> 00:08:47.410
+nodes in the pulldown network may be pre
+
+154
+00:08:47.410 --> 00:08:54.490
+charged because they're comprising of n
+
+155
+00:08:54.490 --> 00:09:00.250
+MOS transistors to VDD minus VT n okay
+
+156
+00:09:00.250 --> 00:09:01.720
+so that would be the case if say for
+
+157
+00:09:01.720 --> 00:09:03.850
+example the gate inputs into the n Mo's
+
+158
+00:09:03.850 --> 00:09:05.589
+transistors in the pulldown network
+
+159
+00:09:05.589 --> 00:09:09.070
+we're on because Y is on that's going to
+
+160
+00:09:09.070 --> 00:09:10.720
+in charge some of these charge some of
+
+161
+00:09:10.720 --> 00:09:14.080
+these internal nodes to VDD minus VT n
+
+162
+00:09:14.080 --> 00:09:17.160
+ignoring sub-threshold leakage of course
+
+163
+00:09:17.160 --> 00:09:20.290
+so that's phase one the next phase if
+
+164
+00:09:20.290 --> 00:09:22.240
+that the P MOS which was called the pre
+
+165
+00:09:22.240 --> 00:09:23.800
+charge switch then the next phase ought
+
+166
+00:09:23.800 --> 00:09:26.200
+to be called the evaluate phase and
+
+167
+00:09:26.200 --> 00:09:29.570
+indeed that's the case evaluate
+
+168
+00:09:29.570 --> 00:09:32.720
+this is when Phi is equal to one okay so
+
+169
+00:09:32.720 --> 00:09:38.330
+in this phase here one of two things
+
+170
+00:09:38.330 --> 00:09:54.950
+happens okay option a I suppose if the
+
+171
+00:09:54.950 --> 00:10:02.780
+pulldown network is on then Y is driven
+
+172
+00:10:02.780 --> 00:10:08.060
+low just like it would in a static
+
+173
+00:10:08.060 --> 00:10:12.760
+complementary CMOS circuit all right
+
+174
+00:10:12.760 --> 00:10:16.670
+option B is otherwise if the pulldown
+
+175
+00:10:16.670 --> 00:10:21.500
+network is not on then there is no DC
+
+176
+00:10:21.500 --> 00:10:26.510
+path to the output right the P MOSFET
+
+177
+00:10:26.510 --> 00:10:28.160
+pre-charge switch that's no longer on
+
+178
+00:10:28.160 --> 00:10:30.800
+the pulldown network is not on even
+
+179
+00:10:30.800 --> 00:10:32.600
+though the evaluate switch is on the
+
+180
+00:10:32.600 --> 00:10:34.430
+pulldown network creating function f is
+
+181
+00:10:34.430 --> 00:10:37.070
+not so there's no way to pull it down to
+
+182
+00:10:37.070 --> 00:10:39.920
+the out pull the output down to ground
+
+183
+00:10:39.920 --> 00:10:42.320
+there's no DC path to the output in this
+
+184
+00:10:42.320 --> 00:10:43.280
+configuration
+
+185
+00:10:43.280 --> 00:10:50.860
+so therefore the charge stored on Y
+
+186
+00:10:50.860 --> 00:10:59.060
+remains there okay noting that there's
+
+187
+00:10:59.060 --> 00:11:01.460
+always a little bit of parasitic
+
+188
+00:11:01.460 --> 00:11:05.210
+capacitance on every node here okay so
+
+189
+00:11:05.210 --> 00:11:07.460
+in a general dynamic gate what we do is
+
+190
+00:11:07.460 --> 00:11:10.850
+we pre charge the output to VDD during
+
+191
+00:11:10.850 --> 00:11:14.210
+this phase the logic function is not
+
+192
+00:11:14.210 --> 00:11:16.100
+operating there's no function being
+
+193
+00:11:16.100 --> 00:11:19.490
+evaluated here okay it's only during the
+
+194
+00:11:19.490 --> 00:11:22.400
+evaluate phase when Phi goes high the
+
+195
+00:11:22.400 --> 00:11:24.920
+pre-charge switch turns off if the
+
+196
+00:11:24.920 --> 00:11:26.840
+pulldown network is active then Y will
+
+197
+00:11:26.840 --> 00:11:29.300
+be pulled down if the pulldown network
+
+198
+00:11:29.300 --> 00:11:31.660
+is not active then Y will remain high
+
+199
+00:11:31.660 --> 00:11:34.130
+okay so this is the way that we compute
+
+200
+00:11:34.130 --> 00:11:37.120
+logic functions using dynamic logic
+
+201
+00:11:37.120 --> 00:11:42.320
+noting that the output is only valid
+
+202
+00:11:42.320 --> 00:11:43.550
+during the
+
+203
+00:11:43.550 --> 00:11:45.500
+evaluate phase during the pre-charge
+
+204
+00:11:45.500 --> 00:11:49.820
+phase the output is not valid so now
+
+205
+00:11:49.820 --> 00:11:53.000
+that we understand how a normal or a
+
+206
+00:11:53.000 --> 00:11:55.220
+general dynamic logic gate works let's
+
+207
+00:11:55.220 --> 00:11:57.110
+go ahead and talk about the simplest
+
+208
+00:11:57.110 --> 00:12:01.390
+possible gate that would be a dynamic
+
+209
+00:12:01.390 --> 00:12:09.290
+inverter okay so a dynamic inverter
+
+210
+00:12:09.290 --> 00:12:10.910
+looks something as follows we have our
+
+211
+00:12:10.910 --> 00:12:14.150
+pre-charge PMO's transistor this creates
+
+212
+00:12:14.150 --> 00:12:17.180
+our output Y and then on the bottom we
+
+213
+00:12:17.180 --> 00:12:22.340
+have two n MOS transistors one is the
+
+214
+00:12:22.340 --> 00:12:26.560
+input and the other is connected to this
+
+215
+00:12:26.560 --> 00:12:30.080
+clock signal that we are calling still
+
+216
+00:12:30.080 --> 00:12:32.210
+in this case Phi okay so this is what a
+
+217
+00:12:32.210 --> 00:12:35.420
+dynamic inverter looks like now the best
+
+218
+00:12:35.420 --> 00:12:36.740
+way to understand how this dynamic
+
+219
+00:12:36.740 --> 00:12:38.780
+inverter works and frankly the best way
+
+220
+00:12:38.780 --> 00:12:40.940
+to understand any dynamic logic circuit
+
+221
+00:12:40.940 --> 00:12:48.560
+is to draw a timing diagram so get used
+
+222
+00:12:48.560 --> 00:12:50.240
+to drawing timing diagrams because we
+
+223
+00:12:50.240 --> 00:12:52.690
+are going to be doing it all the time so
+
+224
+00:12:52.690 --> 00:12:57.110
+first we'll start with clock Phi it'll
+
+225
+00:12:57.110 --> 00:12:59.030
+look something like this goes high for a
+
+226
+00:12:59.030 --> 00:13:03.050
+little while and low high low this is
+
+227
+00:13:03.050 --> 00:13:05.090
+just a normal clock signal so it goes
+
+228
+00:13:05.090 --> 00:13:08.300
+high and low alternately with a 50% duty
+
+229
+00:13:08.300 --> 00:13:14.840
+cycle now when I'm evaluating a dynamic
+
+230
+00:13:14.840 --> 00:13:17.360
+logic circuit I like to be very clear
+
+231
+00:13:17.360 --> 00:13:19.130
+with myself when I'm doing so and just
+
+232
+00:13:19.130 --> 00:13:23.390
+very clearly indicate what region or
+
+233
+00:13:23.390 --> 00:13:25.760
+what mode of operation that device is in
+
+234
+00:13:25.760 --> 00:13:27.830
+when Phi is low we're in the pre-charge
+
+235
+00:13:27.830 --> 00:13:29.540
+phase when Phi is high we're in the
+
+236
+00:13:29.540 --> 00:13:32.450
+evaluate phase okay now this is perhaps
+
+237
+00:13:32.450 --> 00:13:34.910
+obvious but I like to just indicate this
+
+238
+00:13:34.910 --> 00:13:36.590
+when I'm doing homework problems and
+
+239
+00:13:36.590 --> 00:13:38.900
+exam problems and so on to help make
+
+240
+00:13:38.900 --> 00:13:41.720
+things extra clear for me so I don't get
+
+241
+00:13:41.720 --> 00:13:46.070
+confused alright so what we interested
+
+242
+00:13:46.070 --> 00:13:49.640
+in doing is trying to analyze basically
+
+243
+00:13:49.640 --> 00:13:54.730
+the behavior between these important
+
+244
+00:13:54.730 --> 00:13:55.790
+interval
+
+245
+00:13:55.790 --> 00:13:58.490
+here okay so let's just put some dotted
+
+246
+00:13:58.490 --> 00:14:00.260
+lines this helps with our with our
+
+247
+00:14:00.260 --> 00:14:02.210
+timing diagram analysis
+
+248
+00:14:02.210 --> 00:14:06.310
+okay now let's further say that input a
+
+249
+00:14:06.310 --> 00:14:08.660
+looks something like this it's zero
+
+250
+00:14:08.660 --> 00:14:12.290
+initially and then it goes high Oh
+
+251
+00:14:12.290 --> 00:14:14.090
+somewhere over here and then it stays
+
+252
+00:14:14.090 --> 00:14:18.440
+high for the rest of the cycle okay so
+
+253
+00:14:18.440 --> 00:14:21.980
+what does output Y look like all right
+
+254
+00:14:21.980 --> 00:14:24.320
+so one thing we can do because I've
+
+255
+00:14:24.320 --> 00:14:27.050
+indicated where the pre-charge phases
+
+256
+00:14:27.050 --> 00:14:28.820
+are we can just directly draw in the
+
+257
+00:14:28.820 --> 00:14:30.830
+pre-charge results we know during the
+
+258
+00:14:30.830 --> 00:14:33.560
+pre-charge phase Y should be equal to
+
+259
+00:14:33.560 --> 00:14:35.780
+logic 1 so we can just directly draw
+
+260
+00:14:35.780 --> 00:14:39.230
+that in alright now all we have to do is
+
+261
+00:14:39.230 --> 00:14:40.940
+fill in what happens during the evaluate
+
+262
+00:14:40.940 --> 00:14:44.000
+phase all right in the first evaluate
+
+263
+00:14:44.000 --> 00:14:47.960
+phase we see that a is equal to zero so
+
+264
+00:14:47.960 --> 00:14:51.080
+that n MOS transistor is off the
+
+265
+00:14:51.080 --> 00:14:53.720
+evaluate transistor is on but transistor
+
+266
+00:14:53.720 --> 00:14:55.910
+a is off and so therefore there's no way
+
+267
+00:14:55.910 --> 00:14:59.360
+for Y to be pulled down so therefore Y
+
+268
+00:14:59.360 --> 00:15:01.610
+is just going to hang out where it was
+
+269
+00:15:01.610 --> 00:15:06.440
+before okay so we call this dynamic
+
+270
+00:15:06.440 --> 00:15:18.110
+storage of logic one okay all right so
+
+271
+00:15:18.110 --> 00:15:20.390
+that's one third of the battle let's now
+
+272
+00:15:20.390 --> 00:15:23.870
+look at the next pre-charge phase so
+
+273
+00:15:23.870 --> 00:15:25.490
+you'll note interestingly during this
+
+274
+00:15:25.490 --> 00:15:28.220
+next pre-charge phase that a goes high
+
+275
+00:15:28.220 --> 00:15:30.500
+during this pre-charge phase but that
+
+276
+00:15:30.500 --> 00:15:32.450
+doesn't matter to the output because the
+
+277
+00:15:32.450 --> 00:15:35.390
+output is well pre charging right so a
+
+278
+00:15:35.390 --> 00:15:37.550
+goes high but that evaluate and mas
+
+279
+00:15:37.550 --> 00:15:39.890
+transistor is off so there's no way for
+
+280
+00:15:39.890 --> 00:15:43.970
+Y to go low that is until the circuit
+
+281
+00:15:43.970 --> 00:15:47.420
+ends up in the evaluate phase in the
+
+282
+00:15:47.420 --> 00:15:50.180
+evaluate phase that evaluate an MOS
+
+283
+00:15:50.180 --> 00:15:52.670
+transistor is going to turn on a is now
+
+284
+00:15:52.670 --> 00:15:55.280
+on so now there is a direct path to
+
+285
+00:15:55.280 --> 00:15:59.630
+connect the output to ground okay so
+
+286
+00:15:59.630 --> 00:16:04.010
+this goes low after some delay and then
+
+287
+00:16:04.010 --> 00:16:05.920
+in the pre-charge phase it goes back up
+
+288
+00:16:05.920 --> 00:16:09.080
+okay now it is still low in the next
+
+289
+00:16:09.080 --> 00:16:09.440
+value
+
+290
+00:16:09.440 --> 00:16:13.060
+Faye's so it's gonna go down back up
+
+291
+00:16:13.060 --> 00:16:16.160
+down and assuming that we go into
+
+292
+00:16:16.160 --> 00:16:18.110
+another evaluate phase over here and so
+
+293
+00:16:18.110 --> 00:16:21.440
+on and so forth okay so again let's just
+
+294
+00:16:21.440 --> 00:16:26.860
+be extra clear here this is driven low
+
+295
+00:16:28.390 --> 00:16:35.110
+by the pulled down network okay so a
+
+296
+00:16:35.110 --> 00:16:37.970
+couple things to observe here one is
+
+297
+00:16:37.970 --> 00:16:40.310
+that when the output of a dynamic
+
+298
+00:16:40.310 --> 00:16:42.530
+inverter is supposed to be one the node
+
+299
+00:16:42.530 --> 00:16:44.090
+doesn't switch at all it just stays
+
+300
+00:16:44.090 --> 00:16:46.130
+there just like it normally would in a
+
+301
+00:16:46.130 --> 00:16:49.070
+normal static CMOS inverter however if
+
+302
+00:16:49.070 --> 00:16:51.200
+the output is supposed to be zero
+
+303
+00:16:51.200 --> 00:16:53.420
+because we have this pre-charge phase
+
+304
+00:16:53.420 --> 00:16:55.520
+what this effectively means is that the
+
+305
+00:16:55.520 --> 00:16:58.280
+output now toggles between zero and one
+
+306
+00:16:58.280 --> 00:17:01.070
+as we go through the evaluate phase back
+
+307
+00:17:01.070 --> 00:17:02.660
+to the pre-charge phase back to the
+
+308
+00:17:02.660 --> 00:17:04.310
+evaluate phase and so on and so forth
+
+309
+00:17:04.310 --> 00:17:08.770
+okay so if you are concerned about
+
+310
+00:17:08.770 --> 00:17:12.709
+dynamic power CV squared F times alpha
+
+311
+00:17:12.709 --> 00:17:15.949
+alpha in this case is rather high if the
+
+312
+00:17:15.949 --> 00:17:19.520
+output is constantly a zero so that may
+
+313
+00:17:19.520 --> 00:17:21.589
+not be desirable depending on the
+
+314
+00:17:21.589 --> 00:17:24.230
+application you are working in in fact I
+
+315
+00:17:24.230 --> 00:17:26.869
+would say that under most scenarios
+
+316
+00:17:26.869 --> 00:17:30.890
+dynamic logic is rather power expensive
+
+317
+00:17:30.890 --> 00:17:33.350
+because of this high activity factor so
+
+318
+00:17:33.350 --> 00:17:34.850
+you might be asking yourselves why the
+
+319
+00:17:34.850 --> 00:17:36.170
+heck would we use it if it has higher
+
+320
+00:17:36.170 --> 00:17:37.910
+power well it turns out there's a very
+
+321
+00:17:37.910 --> 00:17:39.680
+good reason to use this and we will
+
+322
+00:17:39.680 --> 00:17:42.980
+discuss this momentarily so before we
+
+323
+00:17:42.980 --> 00:17:46.070
+get into the analysis of how effectively
+
+324
+00:17:46.070 --> 00:17:48.350
+dynamic logic works I want to make sure
+
+325
+00:17:48.350 --> 00:17:51.710
+that we all know about the one rule we
+
+326
+00:17:51.710 --> 00:17:56.600
+must follow okay so there's one rule you
+
+327
+00:17:56.600 --> 00:18:05.320
+must follow about dynamic logic
+
+328
+00:18:08.249 --> 00:18:10.779
+okay and it's it's important we wouldn't
+
+329
+00:18:10.779 --> 00:18:14.379
+emphasize it as the one rule if it
+
+330
+00:18:14.379 --> 00:18:15.129
+weren't important
+
+331
+00:18:15.129 --> 00:18:17.440
+okay so during this rule says that
+
+332
+00:18:17.440 --> 00:18:32.799
+during the evaluate phase the inputs to
+
+333
+00:18:32.799 --> 00:18:40.139
+the pulldown network are only allowed to
+
+334
+00:18:40.139 --> 00:18:46.779
+do the following they can either a go
+
+335
+00:18:46.779 --> 00:18:51.879
+from zero to one it's rather
+
+336
+00:18:51.879 --> 00:18:58.709
+straightforward or option B is be stable
+
+337
+00:18:58.709 --> 00:19:03.159
+okay so in other words ie there's one
+
+338
+00:19:03.159 --> 00:19:07.799
+missing condition here they are not
+
+339
+00:19:10.019 --> 00:19:20.919
+permitted to go from one to zero and you
+
+340
+00:19:20.919 --> 00:19:24.119
+might say well that's kind of a rather
+
+341
+00:19:24.119 --> 00:19:27.699
+imposing rule you know when we build
+
+342
+00:19:27.699 --> 00:19:29.709
+logic we'd certainly like the logic to
+
+343
+00:19:29.709 --> 00:19:31.749
+go from one to zero sometimes right
+
+344
+00:19:31.749 --> 00:19:33.639
+otherwise how do you do computation so
+
+345
+00:19:33.639 --> 00:19:35.559
+we'll address that in a moment but
+
+346
+00:19:35.559 --> 00:19:38.459
+before we do that let's understand why
+
+347
+00:19:38.459 --> 00:19:41.349
+this is an important rule so here's why
+
+348
+00:19:41.349 --> 00:19:43.209
+okay
+
+349
+00:19:43.209 --> 00:19:47.349
+and again as I you know suggested we are
+
+350
+00:19:47.349 --> 00:19:48.759
+going to draw a timing diagram to
+
+351
+00:19:48.759 --> 00:19:50.799
+understand this okay so let's imagine
+
+352
+00:19:50.799 --> 00:19:59.489
+that this is Phi over zero one zero one
+
+353
+00:19:59.489 --> 00:20:03.789
+back to zero okay and let's imagine we
+
+354
+00:20:03.789 --> 00:20:07.679
+have an input a and it goes like so and
+
+355
+00:20:07.679 --> 00:20:10.839
+then it does something like this okay so
+
+356
+00:20:10.839 --> 00:20:14.019
+that's actually breaking a rule so
+
+357
+00:20:14.019 --> 00:20:19.160
+remember I'm just going to
+
+358
+00:20:19.160 --> 00:20:22.880
+know how that happened
+
+359
+00:20:26.530 --> 00:20:30.700
+I'm just going to go ahead and draw in
+
+360
+00:20:30.700 --> 00:20:33.610
+where the evaluate phases are happening
+
+361
+00:20:33.610 --> 00:20:36.340
+here so let's go ahead and compute what
+
+362
+00:20:36.340 --> 00:20:38.470
+happens to output Y in a dynamic
+
+363
+00:20:38.470 --> 00:20:41.310
+inverter as an example okay so when a is
+
+364
+00:20:41.310 --> 00:20:44.290
+zero we expect the output to be high in
+
+365
+00:20:44.290 --> 00:20:45.940
+fact it should be high because of the
+
+366
+00:20:45.940 --> 00:20:49.630
+pre-charge phase here okay now when we
+
+367
+00:20:49.630 --> 00:20:52.600
+get into the evaluate phase a is still
+
+368
+00:20:52.600 --> 00:20:55.240
+zero so therefore the output remains
+
+369
+00:20:55.240 --> 00:21:00.490
+high all right but at some point during
+
+370
+00:21:00.490 --> 00:21:04.090
+this evaluate phase a goes high all
+
+371
+00:21:04.090 --> 00:21:06.910
+right that's going to drop the output to
+
+372
+00:21:06.910 --> 00:21:09.820
+zero and then back up when we re-enter
+
+373
+00:21:09.820 --> 00:21:13.120
+the pre-charge phase okay so this is
+
+374
+00:21:13.120 --> 00:21:20.010
+outputting a zero which is correct okay
+
+375
+00:21:20.010 --> 00:21:21.970
+so so far so good
+
+376
+00:21:21.970 --> 00:21:23.830
+alright now what happens in the next
+
+377
+00:21:23.830 --> 00:21:25.540
+phase as soon as we hit the evaluate
+
+378
+00:21:25.540 --> 00:21:28.300
+phase our output goes to zero and that's
+
+379
+00:21:28.300 --> 00:21:30.790
+good that that's that's correct okay so
+
+380
+00:21:30.790 --> 00:21:34.930
+far so good but now input a goes from
+
+381
+00:21:34.930 --> 00:21:37.630
+logic one to logic zero okay so that
+
+382
+00:21:37.630 --> 00:21:39.700
+pulldown network is turning off during
+
+383
+00:21:39.700 --> 00:21:43.120
+the evaluate phase in normal static CMOS
+
+384
+00:21:43.120 --> 00:21:46.060
+if the pulldown network turns off then
+
+385
+00:21:46.060 --> 00:21:48.970
+the pull-up network should turn on and
+
+386
+00:21:48.970 --> 00:21:52.090
+that should pull the logic level up okay
+
+387
+00:21:52.090 --> 00:21:54.820
+however this is a dynamic logic circuit
+
+388
+00:21:54.820 --> 00:21:59.680
+and that does not happen okay it stays
+
+389
+00:21:59.680 --> 00:22:01.390
+low because there's nothing to pull it
+
+390
+00:22:01.390 --> 00:22:05.440
+back up alright so this is the reason
+
+391
+00:22:05.440 --> 00:22:10.240
+why we don't do this okay so this here
+
+392
+00:22:10.240 --> 00:22:17.280
+is incorrect this is not a valid
+
+393
+00:22:17.280 --> 00:22:20.710
+computation that we're doing here all
+
+394
+00:22:20.710 --> 00:22:23.950
+right so this poses a bit of a problem
+
+395
+00:22:23.950 --> 00:22:26.650
+and to understand this problem let's
+
+396
+00:22:26.650 --> 00:22:31.690
+consider an example does the following
+
+397
+00:22:31.690 --> 00:22:37.370
+circuit work does this circuit work
+
+398
+00:22:37.370 --> 00:22:40.740
+okay all I'm going to do something very
+
+399
+00:22:40.740 --> 00:22:44.910
+simple is I'm going to take a dynamic
+
+400
+00:22:44.910 --> 00:22:50.309
+logic inverter okay so this is just a
+
+401
+00:22:50.309 --> 00:22:56.940
+normal dynamic logic inverter this is
+
+402
+00:22:56.940 --> 00:23:00.360
+gate five this is input a okay so I
+
+403
+00:23:00.360 --> 00:23:02.490
+haven't done anything crazy here and I'm
+
+404
+00:23:02.490 --> 00:23:05.820
+going to connect it to another dynamic
+
+405
+00:23:05.820 --> 00:23:08.940
+logic inverter in cascade so all I'm
+
+406
+00:23:08.940 --> 00:23:15.419
+doing here is I'm putting two inverters
+
+407
+00:23:15.419 --> 00:23:18.929
+in cascade okay and so when I when I
+
+408
+00:23:18.929 --> 00:23:20.490
+draw the clock signal going through here
+
+409
+00:23:20.490 --> 00:23:21.960
+I don't mean that as connecting to the
+
+410
+00:23:21.960 --> 00:23:23.429
+bulk I just mean that it's the clock
+
+411
+00:23:23.429 --> 00:23:25.710
+signal going through here so what I'm
+
+412
+00:23:25.710 --> 00:23:26.700
+going to do is I'm going to take this
+
+413
+00:23:26.700 --> 00:23:30.809
+guy call that B and take that to the
+
+414
+00:23:30.809 --> 00:23:33.030
+output Y okay so the question is does
+
+415
+00:23:33.030 --> 00:23:35.940
+the circuit work as I mentioned the best
+
+416
+00:23:35.940 --> 00:23:37.830
+way to try and understand this is to
+
+417
+00:23:37.830 --> 00:23:40.740
+draw a timing diagram so let's say we
+
+418
+00:23:40.740 --> 00:23:46.919
+have a pre-charge phase here pre-charge
+
+419
+00:23:46.919 --> 00:23:48.840
+phase and then we entered the evaluate
+
+420
+00:23:48.840 --> 00:23:51.900
+phase and then back down to the
+
+421
+00:23:51.900 --> 00:23:53.990
+pre-charge phase okay so let's just
+
+422
+00:23:53.990 --> 00:23:56.370
+again to be very clear about what's
+
+423
+00:23:56.370 --> 00:23:58.290
+going on here labeled that as the
+
+424
+00:23:58.290 --> 00:24:01.799
+evaluate phase I'm just going to draw
+
+425
+00:24:01.799 --> 00:24:04.350
+some dotted lines here to make a
+
+426
+00:24:04.350 --> 00:24:06.090
+counting of when things happen a little
+
+427
+00:24:06.090 --> 00:24:08.940
+easier so let's imagine that a does
+
+428
+00:24:08.940 --> 00:24:10.679
+obeys the rule okay
+
+429
+00:24:10.679 --> 00:24:14.280
+a goes high during the evaluate phase it
+
+430
+00:24:14.280 --> 00:24:16.620
+goes from zero to one that's okay by the
+
+431
+00:24:16.620 --> 00:24:19.950
+rules that we've established okay so
+
+432
+00:24:19.950 --> 00:24:26.040
+what does B do well B is initially pre
+
+433
+00:24:26.040 --> 00:24:30.480
+charged and I suppose actually I should
+
+434
+00:24:30.480 --> 00:24:34.020
+I this is actually a mistake here a oh
+
+435
+00:24:34.020 --> 00:24:36.120
+yeah we don't know where a is coming
+
+436
+00:24:36.120 --> 00:24:38.070
+from so it could be from some non non
+
+437
+00:24:38.070 --> 00:24:40.860
+dynamic logic circuit as an example okay
+
+438
+00:24:40.860 --> 00:24:45.350
+so in this case B is pre charged when
+
+439
+00:24:45.350 --> 00:24:48.540
+the evaluate phase happens B will hold
+
+440
+00:24:48.540 --> 00:24:50.650
+steady at logic one
+
+441
+00:24:50.650 --> 00:24:52.540
+and then after a short delay it's going
+
+442
+00:24:52.540 --> 00:24:56.380
+to fall okay and then when we re-entered
+
+443
+00:24:56.380 --> 00:24:59.710
+the pre-charge phase it goes back up all
+
+444
+00:24:59.710 --> 00:25:01.900
+right now let me just annotate where
+
+445
+00:25:01.900 --> 00:25:03.960
+this happens so we have a delay from a
+
+446
+00:25:03.960 --> 00:25:07.000
+heading into B through that inverter
+
+447
+00:25:07.000 --> 00:25:09.070
+structure all right so so far so good
+
+448
+00:25:09.070 --> 00:25:11.410
+everything is working fine now what
+
+449
+00:25:11.410 --> 00:25:14.410
+about why well why was pre charge during
+
+450
+00:25:14.410 --> 00:25:17.920
+the pre-charge phase so that's good B is
+
+451
+00:25:17.920 --> 00:25:21.520
+high so after a small delay in this case
+
+452
+00:25:21.520 --> 00:25:23.230
+it's actually coming from the edge of
+
+453
+00:25:23.230 --> 00:25:27.730
+the value of the clock to the output Y Y
+
+454
+00:25:27.730 --> 00:25:31.660
+will go down but now wat now that Y's
+
+455
+00:25:31.660 --> 00:25:33.760
+down there's no way for Y to come back
+
+456
+00:25:33.760 --> 00:25:36.430
+up during the evaluate phase it only can
+
+457
+00:25:36.430 --> 00:25:39.070
+come up during the pre-charge phase and
+
+458
+00:25:39.070 --> 00:25:44.740
+so there's an instant in time here when
+
+459
+00:25:44.740 --> 00:25:46.900
+we are getting the incorrect value in
+
+460
+00:25:46.900 --> 00:25:50.020
+fact we're violating our rule okay so
+
+461
+00:25:50.020 --> 00:25:53.640
+does this circuit work the answer is no
+
+462
+00:25:53.640 --> 00:26:01.150
+okay it violates our one rule you know
+
+463
+00:26:01.150 --> 00:26:02.710
+we're not asking much it's just one rule
+
+464
+00:26:02.710 --> 00:26:05.560
+just to Bay by this rule but this
+
+465
+00:26:05.560 --> 00:26:07.540
+circuit taking two dynamic inverters
+
+466
+00:26:07.540 --> 00:26:08.650
+putting them back-to-back
+
+467
+00:26:08.650 --> 00:26:15.810
+fails okay so what we require is
+
+468
+00:26:15.810 --> 00:26:22.750
+monotonicity and we're not getting it
+
+469
+00:26:22.750 --> 00:26:27.280
+with baseline dynamic logic okay so we
+
+470
+00:26:27.280 --> 00:26:29.230
+spend a lot of time thinking and working
+
+471
+00:26:29.230 --> 00:26:31.570
+on dynamic logic only to find out it
+
+472
+00:26:31.570 --> 00:26:33.880
+doesn't work at least it doesn't work
+
+473
+00:26:33.880 --> 00:26:37.930
+without some important modifications so
+
+474
+00:26:37.930 --> 00:26:39.460
+we just finished saying that dynamic
+
+475
+00:26:39.460 --> 00:26:41.710
+logic in its nominal form doesn't
+
+476
+00:26:41.710 --> 00:26:44.740
+actually work because if we take one
+
+477
+00:26:44.740 --> 00:26:46.870
+dynamic gate and we attach the output of
+
+478
+00:26:46.870 --> 00:26:48.190
+that dynamic gate to the input of
+
+479
+00:26:48.190 --> 00:26:50.650
+another dynamic gate it violates our one
+
+480
+00:26:50.650 --> 00:26:54.010
+rule okay so obviously we're not talking
+
+481
+00:26:54.010 --> 00:26:56.110
+about dynamic logic for no reason there
+
+482
+00:26:56.110 --> 00:26:59.880
+is a solution to this so the solution is
+
+483
+00:26:59.880 --> 00:27:04.290
+something called Domino logic
+
+484
+00:27:07.270 --> 00:27:10.130
+okay so how does this work so first we
+
+485
+00:27:10.130 --> 00:27:21.100
+notice that we can only have zero to one
+
+486
+00:27:21.100 --> 00:27:31.190
+transitions at the input to our dynamic
+
+487
+00:27:31.190 --> 00:27:42.490
+logic gates and we only have one to zero
+
+488
+00:27:42.490 --> 00:27:49.070
+transitions at the output recalling that
+
+489
+00:27:49.070 --> 00:27:52.160
+at the output of a dynamic logic gate
+
+490
+00:27:52.160 --> 00:27:54.590
+the the value either stays high it stays
+
+491
+00:27:54.590 --> 00:27:57.380
+pre-charged or it falls to zero it never
+
+492
+00:27:57.380 --> 00:28:00.830
+goes from 0 to 1 at the output ok so
+
+493
+00:28:00.830 --> 00:28:02.630
+there's a very simple solution here the
+
+494
+00:28:02.630 --> 00:28:10.450
+solution is to put an inverter a static
+
+495
+00:28:10.450 --> 00:28:14.810
+inverter between the outputs of your
+
+496
+00:28:14.810 --> 00:28:18.290
+gates ok so it would look something like
+
+497
+00:28:18.290 --> 00:28:20.680
+like the following
+
+498
+00:28:20.680 --> 00:28:25.070
+we have our normal dynamic logic gate we
+
+499
+00:28:25.070 --> 00:28:27.290
+have some pulldown network function that
+
+500
+00:28:27.290 --> 00:28:30.020
+we're computing down here and then we
+
+501
+00:28:30.020 --> 00:28:35.750
+have our an mas footer device here so
+
+502
+00:28:35.750 --> 00:28:38.690
+again this is the clock signal 5 we have
+
+503
+00:28:38.690 --> 00:28:43.550
+some inputs into our function in this
+
+504
+00:28:43.550 --> 00:28:47.570
+pulldown network here and we note that
+
+505
+00:28:47.570 --> 00:28:54.140
+these inputs only go from I guess 0 to 1
+
+506
+00:28:54.140 --> 00:28:56.540
+at the input here which means that our
+
+507
+00:28:56.540 --> 00:29:00.740
+outputs can only go from 1 to 0 at the
+
+508
+00:29:00.740 --> 00:29:04.180
+output so the idea here is we take a
+
+509
+00:29:04.180 --> 00:29:08.300
+normal static CMOS inverter and use this
+
+510
+00:29:08.300 --> 00:29:10.940
+as the inputs to some other pulldown
+
+511
+00:29:10.940 --> 00:29:13.640
+network ok
+
+512
+00:29:13.640 --> 00:29:16.340
+in a dynamic logic circuit that
+
+513
+00:29:16.340 --> 00:29:19.700
+is largely the same or is the same
+
+514
+00:29:19.700 --> 00:29:22.789
+overall structure as the previous stage
+
+515
+00:29:22.789 --> 00:29:26.179
+here and again when I draw the the input
+
+516
+00:29:26.179 --> 00:29:27.919
+going through here that doesn't mean
+
+517
+00:29:27.919 --> 00:29:30.140
+it's connecting to the bulk I'm ignoring
+
+518
+00:29:30.140 --> 00:29:33.169
+the bulk in this drawing assuming it's
+
+519
+00:29:33.169 --> 00:29:35.059
+just connecting through okay so what
+
+520
+00:29:35.059 --> 00:29:37.309
+this will do is going through the static
+
+521
+00:29:37.309 --> 00:29:39.470
+CMOS inverter it'll create a signal that
+
+522
+00:29:39.470 --> 00:29:42.650
+goes from 0 to 1 which indeed abides by
+
+523
+00:29:42.650 --> 00:29:45.500
+our one rule okay and then of course at
+
+524
+00:29:45.500 --> 00:29:47.510
+the output here we have another inverter
+
+525
+00:29:47.510 --> 00:29:50.240
+which means that this signal is falling
+
+526
+00:29:50.240 --> 00:29:53.720
+from 1 to 0 and this signal is rising
+
+527
+00:29:53.720 --> 00:29:55.730
+from 0 to 1 and so on and so forth
+
+528
+00:29:55.730 --> 00:29:59.630
+everything is perfect ok here perhaps
+
+529
+00:29:59.630 --> 00:30:02.210
+some other inputs that satisfy these
+
+530
+00:30:02.210 --> 00:30:06.950
+same rules so here what we say is that
+
+531
+00:30:06.950 --> 00:30:21.860
+dynamic outputs fall in succession just
+
+532
+00:30:21.860 --> 00:30:24.460
+like dominoes
+
+533
+00:30:28.250 --> 00:30:30.470
+okay so so in other words what we're
+
+534
+00:30:30.470 --> 00:30:35.630
+saying here is that all of the all of
+
+535
+00:30:35.630 --> 00:30:37.909
+the dynamic logic gates will get pre
+
+536
+00:30:37.909 --> 00:30:43.970
+charged to VDD and then if a gate ends
+
+537
+00:30:43.970 --> 00:30:50.320
+up falling or rather if the if the
+
+538
+00:30:50.320 --> 00:30:53.330
+output of a dynamic gate changes the
+
+539
+00:30:53.330 --> 00:30:54.980
+only way it can change is it's going to
+
+540
+00:30:54.980 --> 00:30:58.039
+fall okay so if it falls then that will
+
+541
+00:30:58.039 --> 00:30:59.840
+go through an inverter and create a
+
+542
+00:30:59.840 --> 00:31:03.740
+rising edge and then after that rising
+
+543
+00:31:03.740 --> 00:31:06.559
+edge will go into another dynamic logic
+
+544
+00:31:06.559 --> 00:31:07.940
+gate which will create another falling
+
+545
+00:31:07.940 --> 00:31:11.120
+edge and so on and so forth okay and I
+
+546
+00:31:11.120 --> 00:31:13.850
+just realized that I believe I spelt the
+
+547
+00:31:13.850 --> 00:31:16.760
+Domino's here like the pizza chain not
+
+548
+00:31:16.760 --> 00:31:21.770
+as actual Domino's okay there we go so
+
+549
+00:31:21.770 --> 00:31:26.270
+I'll make another note here note there's
+
+550
+00:31:26.270 --> 00:31:27.590
+some interesting things we can do here
+
+551
+00:31:27.590 --> 00:31:32.630
+the static inverter use between the
+
+552
+00:31:32.630 --> 00:31:36.620
+Domino gates is usually designed to be a
+
+553
+00:31:36.620 --> 00:31:44.360
+high schoo inverter okay why well we
+
+554
+00:31:44.360 --> 00:31:47.000
+only have one type of edge coming in we
+
+555
+00:31:47.000 --> 00:31:48.740
+have a falling edge at the input coming
+
+556
+00:31:48.740 --> 00:31:51.380
+in and therefore we only have a rising
+
+557
+00:31:51.380 --> 00:31:54.740
+edge at the output coming out okay so we
+
+558
+00:31:54.740 --> 00:31:56.299
+usually use a high schoo inverter for
+
+559
+00:31:56.299 --> 00:32:02.500
+better rising edges
+
+560
+00:32:04.750 --> 00:32:09.520
+okay now to be fair we will enter the
+
+561
+00:32:09.520 --> 00:32:11.710
+pre-charge phase and at which point we
+
+562
+00:32:11.710 --> 00:32:13.960
+could have a falling edge but it turns
+
+563
+00:32:13.960 --> 00:32:16.210
+out that for Domino logic we care less
+
+564
+00:32:16.210 --> 00:32:17.910
+about the timing of the pre-charge phase
+
+565
+00:32:17.910 --> 00:32:20.380
+because everything kind of happens in in
+
+566
+00:32:20.380 --> 00:32:22.140
+in parallel with the pre-charge phase
+
+567
+00:32:22.140 --> 00:32:24.640
+whereas in the evaluate phase things
+
+568
+00:32:24.640 --> 00:32:26.590
+fall down like dominoes and so we we
+
+569
+00:32:26.590 --> 00:32:28.060
+care much more about the timing of
+
+570
+00:32:28.060 --> 00:32:31.750
+things during the evaluate phase so one
+
+571
+00:32:31.750 --> 00:32:33.550
+question you might be asking yourself as
+
+572
+00:32:33.550 --> 00:32:34.660
+we've been going through this whole
+
+573
+00:32:34.660 --> 00:32:37.180
+process of dynamic circuits is why the
+
+574
+00:32:37.180 --> 00:32:40.330
+heck are we doing this you know we
+
+575
+00:32:40.330 --> 00:32:42.100
+started with this dynamic concept it
+
+576
+00:32:42.100 --> 00:32:44.230
+seemed interesting and then we said it
+
+577
+00:32:44.230 --> 00:32:45.580
+didn't work and so we have to introduce
+
+578
+00:32:45.580 --> 00:32:47.860
+Domino logic and now with Domino logic
+
+579
+00:32:47.860 --> 00:32:50.620
+we need to create a dynamic gate plus a
+
+580
+00:32:50.620 --> 00:32:53.340
+static gate it seems like we're really
+
+581
+00:32:53.340 --> 00:32:56.080
+you know making things more complicated
+
+582
+00:32:56.080 --> 00:32:58.360
+than they ought to be so it of course
+
+583
+00:32:58.360 --> 00:32:59.890
+turns out there's a good reason that we
+
+584
+00:32:59.890 --> 00:33:02.500
+are studying and talking about this but
+
+585
+00:33:02.500 --> 00:33:07.090
+let's discuss this so why bother with
+
+586
+00:33:07.090 --> 00:33:10.230
+dynamic circuits
+
+587
+00:33:17.539 --> 00:33:20.090
+all right so again there are good
+
+588
+00:33:20.090 --> 00:33:23.359
+reasons why we're doing this okay so let
+
+589
+00:33:23.359 --> 00:33:26.210
+me write the good reasons in green so
+
+590
+00:33:26.210 --> 00:33:29.629
+first of all we only require or it
+
+591
+00:33:29.629 --> 00:33:35.830
+requires n plus two transistors per
+
+592
+00:33:35.830 --> 00:33:41.299
+logic function okay now that that's true
+
+593
+00:33:41.299 --> 00:33:45.129
+for purely dynamic logic of course for
+
+594
+00:33:45.129 --> 00:33:47.869
+Domino logic that becomes n plus 4
+
+595
+00:33:47.869 --> 00:33:49.729
+transistors where of course n is the
+
+596
+00:33:49.729 --> 00:33:51.830
+number of inputs but this is much better
+
+597
+00:33:51.830 --> 00:33:56.239
+in some cases than for static CMOS which
+
+598
+00:33:56.239 --> 00:33:59.090
+requires 2 n transistors if you have n
+
+599
+00:33:59.090 --> 00:34:01.759
+inputs you need n n Mo's devices and n P
+
+600
+00:34:01.759 --> 00:34:05.359
+Mo's devices note in contrast pseudo n
+
+601
+00:34:05.359 --> 00:34:09.799
+MOS still actually wins it only requires
+
+602
+00:34:09.799 --> 00:34:12.020
+n plus 1 transistors but of course
+
+603
+00:34:12.020 --> 00:34:13.549
+pseudo n MOS has all sorts of problems
+
+604
+00:34:13.549 --> 00:34:17.168
+with static power consumption and so on
+
+605
+00:34:17.168 --> 00:34:20.929
+in addition the load parasitic
+
+606
+00:34:20.929 --> 00:34:24.230
+capacitance is small because we have
+
+607
+00:34:24.230 --> 00:34:26.329
+fewer transistors we have less load
+
+608
+00:34:26.329 --> 00:34:29.049
+capacitance this is great
+
+609
+00:34:29.049 --> 00:34:33.230
+unlike pseudo n MOS there is no static
+
+610
+00:34:33.230 --> 00:34:37.699
+power here ok
+
+611
+00:34:37.699 --> 00:34:40.040
+so recall that during the pre-charge
+
+612
+00:34:40.040 --> 00:34:42.889
+phase when the p MOS device is on the n
+
+613
+00:34:42.889 --> 00:34:46.069
+MOS footer is off and therefore there's
+
+614
+00:34:46.069 --> 00:34:47.750
+no current flowing through that that's
+
+615
+00:34:47.750 --> 00:34:50.659
+unlike pseudo n MOS where the p MOS is
+
+616
+00:34:50.659 --> 00:34:52.579
+always on and whenever the pulldown
+
+617
+00:34:52.579 --> 00:34:54.649
+network turns on there's static current
+
+618
+00:34:54.649 --> 00:34:58.130
+flowing through the circuit okay in
+
+619
+00:34:58.130 --> 00:35:04.099
+addition this is non ratioed logic so
+
+620
+00:35:04.099 --> 00:35:05.299
+that means it doesn't matter how you
+
+621
+00:35:05.299 --> 00:35:07.250
+size it the circuit will still be
+
+622
+00:35:07.250 --> 00:35:09.770
+functional okay it may not be optimal in
+
+623
+00:35:09.770 --> 00:35:12.230
+terms of performance and and you know
+
+624
+00:35:12.230 --> 00:35:15.049
+timing and energy and so on but it will
+
+625
+00:35:15.049 --> 00:35:21.130
+be functional ok and most importantly
+
+626
+00:35:21.130 --> 00:35:26.910
+dynamic logic is fast ok
+
+627
+00:35:26.910 --> 00:35:28.380
+let's try to understand this for a bit
+
+628
+00:35:28.380 --> 00:35:30.770
+so that the propagation delay
+
+629
+00:35:30.770 --> 00:35:31.950
+low-to-high
+
+630
+00:35:31.950 --> 00:35:36.660
+is well we have this pre-charge phase so
+
+631
+00:35:36.660 --> 00:35:38.099
+if we ignore the pre-charge phase for
+
+632
+00:35:38.099 --> 00:35:40.049
+just a moment the propagation delay from
+
+633
+00:35:40.049 --> 00:35:42.780
+low to high is zero because we're
+
+634
+00:35:42.780 --> 00:35:44.420
+already pre charged there's no
+
+635
+00:35:44.420 --> 00:35:46.859
+computation that needs to happen we
+
+636
+00:35:46.859 --> 00:35:50.609
+already have the right answer okay
+
+637
+00:35:50.609 --> 00:35:52.349
+that's of course ignoring the pre-charge
+
+638
+00:35:52.349 --> 00:35:54.119
+phase which you do have to consider as
+
+639
+00:35:54.119 --> 00:35:55.589
+part of your you know timing analysis
+
+640
+00:35:55.589 --> 00:35:56.640
+here and so on
+
+641
+00:35:56.640 --> 00:36:00.390
+but anyways if you ignore that this is
+
+642
+00:36:00.390 --> 00:36:03.539
+fast the propagation delay from high to
+
+643
+00:36:03.539 --> 00:36:08.609
+low we're gonna say is well small okay
+
+644
+00:36:08.609 --> 00:36:12.270
+smaller than static CMOS okay so we say
+
+645
+00:36:12.270 --> 00:36:16.170
+in the end overall when you factor in
+
+646
+00:36:16.170 --> 00:36:19.410
+all of the overhead we say it's say
+
+647
+00:36:19.410 --> 00:36:25.670
+something like 1.3 to 2x faster than
+
+648
+00:36:25.670 --> 00:36:31.349
+static CMOS okay and that's the main
+
+649
+00:36:31.349 --> 00:36:35.430
+reason why we use dynamic logic is
+
+650
+00:36:35.430 --> 00:36:38.670
+because it's faster okay but there is no
+
+651
+00:36:38.670 --> 00:36:41.430
+free lunch so we have some downsides so
+
+652
+00:36:41.430 --> 00:36:44.130
+let's make a little sad face so first
+
+653
+00:36:44.130 --> 00:36:46.470
+downside is we have high activity
+
+654
+00:36:46.470 --> 00:36:53.010
+factors okay
+
+655
+00:36:53.010 --> 00:36:56.880
+this results in high power so dynamic
+
+656
+00:36:56.880 --> 00:37:00.359
+logic is fast however there's a price
+
+657
+00:37:00.359 --> 00:37:02.549
+you pay for that speed and that's in
+
+658
+00:37:02.549 --> 00:37:05.880
+terms of power consumption in addition
+
+659
+00:37:05.880 --> 00:37:09.770
+we have a downside related to noise
+
+660
+00:37:09.770 --> 00:37:12.720
+leakage is a problem we can't we have to
+
+661
+00:37:12.720 --> 00:37:14.700
+refresh logic values and so on
+
+662
+00:37:14.700 --> 00:37:16.980
+there's charge sharing issues that we're
+
+663
+00:37:16.980 --> 00:37:21.059
+going to talk about momentarily etc so
+
+664
+00:37:21.059 --> 00:37:22.770
+there's a whole host of problems if you
+
+665
+00:37:22.770 --> 00:37:27.900
+want the most robust computation static
+
+666
+00:37:27.900 --> 00:37:29.640
+CMOS is the way to go and in fact it's
+
+667
+00:37:29.640 --> 00:37:31.289
+pretty energy efficient it's pretty fast
+
+668
+00:37:31.289 --> 00:37:36.990
+most designs today use static CMOS
+
+669
+00:37:36.990 --> 00:37:40.860
+however there is utility here
+
+670
+00:37:40.860 --> 00:37:45.130
+the main utility of dynamic logic is
+
+671
+00:37:45.130 --> 00:37:47.110
+that it's fast right so this was
+
+672
+00:37:47.110 --> 00:37:51.520
+previously and you know a variant of
+
+673
+00:37:51.520 --> 00:37:55.810
+domino logic was used in microprocessors
+
+674
+00:37:55.810 --> 00:38:08.680
+in the 90s and early 2000s ok so that
+
+675
+00:38:08.680 --> 00:38:10.420
+was true when those computers were
+
+676
+00:38:10.420 --> 00:38:12.550
+trying to you know get as many megahertz
+
+677
+00:38:12.550 --> 00:38:14.650
+as they could and power consumption
+
+678
+00:38:14.650 --> 00:38:16.620
+wasn't as large of a concern and so on
+
+679
+00:38:16.620 --> 00:38:25.320
+so now a days this is largely replaced
+
+680
+00:38:26.010 --> 00:38:31.690
+with or by static CMOS so most
+
+681
+00:38:31.690 --> 00:38:34.060
+microprocessors today are implemented
+
+682
+00:38:34.060 --> 00:38:37.510
+using static complimentary CMOS however
+
+683
+00:38:37.510 --> 00:38:39.400
+again if you're designing something and
+
+684
+00:38:39.400 --> 00:38:41.380
+you need to get to have the best energy
+
+685
+00:38:41.380 --> 00:38:43.450
+efficiency possible or sorry the best
+
+686
+00:38:43.450 --> 00:38:47.140
+speed possible dynamic and Domino logic
+
+687
+00:38:47.140 --> 00:38:49.090
+or family of Domino logic is still
+
+688
+00:38:49.090 --> 00:38:51.580
+possibly the right choice with all of
+
+689
+00:38:51.580 --> 00:38:54.970
+that being said this style of dynamic
+
+690
+00:38:54.970 --> 00:39:03.150
+logic is still used in memories and
+
+691
+00:39:04.200 --> 00:39:14.740
+specialized applications mostly for area
+
+692
+00:39:14.740 --> 00:39:20.670
+efficiency as we'll get
+
+693
+00:39:20.670 --> 00:39:23.130
+discussing in memories it turns out that
+
+694
+00:39:23.130 --> 00:39:26.130
+area is the number one criteria when we
+
+695
+00:39:26.130 --> 00:39:28.829
+get into those designs so as we alluded
+
+696
+00:39:28.829 --> 00:39:30.420
+to in the last slide there's there's a
+
+697
+00:39:30.420 --> 00:39:32.250
+lot of good reasons to build with
+
+698
+00:39:32.250 --> 00:39:33.960
+dynamic logic circuits but there are
+
+699
+00:39:33.960 --> 00:39:39.089
+also several issues okay so let's
+
+700
+00:39:39.089 --> 00:39:41.970
+discuss these now the first issue I want
+
+701
+00:39:41.970 --> 00:39:44.280
+to discuss is one that we've actually
+
+702
+00:39:44.280 --> 00:39:46.770
+already alluded to earlier and that is
+
+703
+00:39:46.770 --> 00:39:50.599
+leakage okay so let's just say already
+
+704
+00:39:50.599 --> 00:39:57.030
+introduced just to be clear all right so
+
+705
+00:39:57.030 --> 00:39:58.920
+this is happening from sub-threshold
+
+706
+00:39:58.920 --> 00:40:02.220
+leakage diode leakage and so on let's
+
+707
+00:40:02.220 --> 00:40:05.780
+just say it's most mostly from
+
+708
+00:40:05.780 --> 00:40:11.099
+sub-threshold leakage but it could be
+
+709
+00:40:11.099 --> 00:40:12.750
+gate leakage leakage and so on
+
+710
+00:40:12.750 --> 00:40:15.200
+ultimately what this does is it limits
+
+711
+00:40:15.200 --> 00:40:21.750
+the minimum frequency of our circuit
+
+712
+00:40:21.750 --> 00:40:24.329
+this is a strange concept to think about
+
+713
+00:40:24.329 --> 00:40:28.440
+in relation to our previous discussions
+
+714
+00:40:28.440 --> 00:40:29.730
+where we're always focused on the
+
+715
+00:40:29.730 --> 00:40:31.589
+maximum possible frequency we can
+
+716
+00:40:31.589 --> 00:40:35.040
+operate our circuit at but with with
+
+717
+00:40:35.040 --> 00:40:37.109
+dynamic logic we also have a minimum
+
+718
+00:40:37.109 --> 00:40:39.930
+frequency so let's just take a look at a
+
+719
+00:40:39.930 --> 00:40:44.819
+small example here so let's plot as we
+
+720
+00:40:44.819 --> 00:40:47.220
+are tending to do now a timing diagram
+
+721
+00:40:47.220 --> 00:40:50.240
+so let's say that we have a clock signal
+
+722
+00:40:50.240 --> 00:40:55.740
+looks something like this something like
+
+723
+00:40:55.740 --> 00:40:57.510
+that okay
+
+724
+00:40:57.510 --> 00:40:59.130
+this is perhaps not how we would
+
+725
+00:40:59.130 --> 00:41:01.260
+normally build a clock signal but for
+
+726
+00:41:01.260 --> 00:41:05.130
+the purposes of this example it'll do
+
+727
+00:41:05.130 --> 00:41:08.069
+all right and then let's go ahead and
+
+728
+00:41:08.069 --> 00:41:11.160
+plot the out of a dynamic logic gate
+
+729
+00:41:11.160 --> 00:41:14.040
+okay so let's just imagine in the prior
+
+730
+00:41:14.040 --> 00:41:17.250
+clock cycle we had totally discharged
+
+731
+00:41:17.250 --> 00:41:22.559
+our totally discharged our output so
+
+732
+00:41:22.559 --> 00:41:25.829
+we're at zero here and then when the
+
+733
+00:41:25.829 --> 00:41:28.589
+clock goes low we enter the pre-charge
+
+734
+00:41:28.589 --> 00:41:30.660
+phase so we charge all the way up to VDD
+
+735
+00:41:30.660 --> 00:41:33.990
+everything is good and then
+
+736
+00:41:33.990 --> 00:41:36.330
+when the clock gets released and the
+
+737
+00:41:36.330 --> 00:41:38.640
+pulldown network is not active because
+
+738
+00:41:38.640 --> 00:41:40.200
+of leakage we're gonna start trending
+
+739
+00:41:40.200 --> 00:41:43.110
+downwards here okay and so I'm gonna say
+
+740
+00:41:43.110 --> 00:41:46.230
+that we want to make sure that you know
+
+741
+00:41:46.230 --> 00:41:49.290
+we don't pass some threshold limit this
+
+742
+00:41:49.290 --> 00:41:50.670
+is debatable what this should be
+
+743
+00:41:50.670 --> 00:41:53.250
+but for let's just say for this example
+
+744
+00:41:53.250 --> 00:41:55.310
+we don't want to cross a VDD over two
+
+745
+00:41:55.310 --> 00:41:58.020
+because if we cross paths VDD over to
+
+746
+00:41:58.020 --> 00:41:59.760
+then we've definitely lost our logic
+
+747
+00:41:59.760 --> 00:42:02.369
+value for more robustness this threshold
+
+748
+00:42:02.369 --> 00:42:04.380
+should probably be larger than VDD over
+
+749
+00:42:04.380 --> 00:42:07.410
+two but I think it's a a reasonable
+
+750
+00:42:07.410 --> 00:42:10.380
+baseline case for us okay so we say the
+
+751
+00:42:10.380 --> 00:42:14.940
+point where we hit this VDD over two
+
+752
+00:42:14.940 --> 00:42:17.880
+threshold is going to be defined is
+
+753
+00:42:17.880 --> 00:42:22.940
+going to define the maximum period or
+
+754
+00:42:22.940 --> 00:42:26.369
+alternatively the minimum frequency that
+
+755
+00:42:26.369 --> 00:42:29.640
+we can operate at okay and then this
+
+756
+00:42:29.640 --> 00:42:33.270
+process will will continue as as shown
+
+757
+00:42:33.270 --> 00:42:37.920
+here okay so if we were to clock our
+
+758
+00:42:37.920 --> 00:42:41.030
+circuit at a slower frequency than this
+
+759
+00:42:41.030 --> 00:42:44.310
+leakage would basically totally disrupt
+
+760
+00:42:44.310 --> 00:42:47.460
+the logic stored on the capacitors in
+
+761
+00:42:47.460 --> 00:42:49.380
+our dynamic circuit okay
+
+762
+00:42:49.380 --> 00:42:51.900
+so therefore this means we effectively
+
+763
+00:42:51.900 --> 00:42:55.140
+need to recharge or refresh every node
+
+764
+00:42:55.140 --> 00:42:57.810
+in our circuit you know once a clock
+
+765
+00:42:57.810 --> 00:43:00.150
+period that's setting our minimum
+
+766
+00:43:00.150 --> 00:43:01.770
+frequency now of course they're still
+
+767
+00:43:01.770 --> 00:43:04.380
+also a maximum frequency we can't clock
+
+768
+00:43:04.380 --> 00:43:08.490
+the circuit too fast otherwise we get in
+
+769
+00:43:08.490 --> 00:43:12.630
+to propagation delay issues okay so this
+
+770
+00:43:12.630 --> 00:43:15.840
+is an issue is there solution well of
+
+771
+00:43:15.840 --> 00:43:16.980
+course there's a solution there's always
+
+772
+00:43:16.980 --> 00:43:19.820
+something we can do one possible
+
+773
+00:43:19.820 --> 00:43:22.260
+solution to this problem is something
+
+774
+00:43:22.260 --> 00:43:28.440
+called a keeper transistor and this is
+
+775
+00:43:28.440 --> 00:43:30.810
+actually something that should look
+
+776
+00:43:30.810 --> 00:43:33.090
+familiar to you
+
+777
+00:43:33.090 --> 00:43:34.920
+so what we do is we have our normal
+
+778
+00:43:34.920 --> 00:43:38.310
+dynamic logic circuit we have our
+
+779
+00:43:38.310 --> 00:43:42.330
+pulldown network then we have our an
+
+780
+00:43:42.330 --> 00:43:45.930
+Moss footer' device
+
+781
+00:43:45.930 --> 00:43:48.180
+P moss and the n Moss are connected
+
+782
+00:43:48.180 --> 00:43:50.670
+together this is the clock signal Phi
+
+783
+00:43:50.670 --> 00:43:51.840
+all right
+
+784
+00:43:51.840 --> 00:43:53.970
+there's some inputs into this pulldown
+
+785
+00:43:53.970 --> 00:43:57.180
+network okay so the issue with our
+
+786
+00:43:57.180 --> 00:44:00.450
+Domino logic is that this dynamic node
+
+787
+00:44:00.450 --> 00:44:06.150
+let's call this Y here can fall because
+
+788
+00:44:06.150 --> 00:44:09.840
+of leakage through the pulldown path
+
+789
+00:44:09.840 --> 00:44:14.760
+here okay so I leak we don't like that
+
+790
+00:44:14.760 --> 00:44:18.240
+it's Y is supposed to stay high if the
+
+791
+00:44:18.240 --> 00:44:20.820
+pulldown network is not active okay so
+
+792
+00:44:20.820 --> 00:44:25.680
+the solution is actually very clever
+
+793
+00:44:25.680 --> 00:44:27.150
+okay
+
+794
+00:44:27.150 --> 00:44:29.820
+so let's say that's output Y this is
+
+795
+00:44:29.820 --> 00:44:31.950
+output y bar here okay
+
+796
+00:44:31.950 --> 00:44:35.730
+so let's take this output here and what
+
+797
+00:44:35.730 --> 00:44:39.050
+we do is we feed it back through a PMO's
+
+798
+00:44:39.050 --> 00:44:42.780
+transistor this is called the keeper
+
+799
+00:44:42.780 --> 00:44:44.970
+transistor okay so let's just put an
+
+800
+00:44:44.970 --> 00:44:47.310
+arrow here keeper transistor alright now
+
+801
+00:44:47.310 --> 00:44:48.810
+this should look very familiar to you
+
+802
+00:44:48.810 --> 00:44:51.480
+when we discussed pass transistor logic
+
+803
+00:44:51.480 --> 00:44:55.440
+we suggested this as a way to get rid of
+
+804
+00:44:55.440 --> 00:44:58.950
+that VT drop across the in Moss pass
+
+805
+00:44:58.950 --> 00:45:02.940
+transistor so what happens in in this
+
+806
+00:45:02.940 --> 00:45:09.240
+case so if y is equal to zero and y bar
+
+807
+00:45:09.240 --> 00:45:14.430
+is equal to 1 then what happens so Y is
+
+808
+00:45:14.430 --> 00:45:17.580
+equal to 0 so the output Y bar is equal
+
+809
+00:45:17.580 --> 00:45:23.940
+to 1 that PMO's transistor is off is off
+
+810
+00:45:23.940 --> 00:45:37.560
+and the output stays at zero through the
+
+811
+00:45:37.560 --> 00:45:40.590
+pulldown network okay so the pulldown
+
+812
+00:45:40.590 --> 00:45:43.500
+network is pulling Y to zero that's a
+
+813
+00:45:43.500 --> 00:45:45.360
+strong low impedance connection to
+
+814
+00:45:45.360 --> 00:45:47.250
+ground it's going through the inverter
+
+815
+00:45:47.250 --> 00:45:50.670
+which is causing y bar to be at 1
+
+816
+00:45:50.670 --> 00:45:52.500
+everything is good in this scenario
+
+817
+00:45:52.500 --> 00:45:55.009
+there's no problems
+
+818
+00:45:55.009 --> 00:45:59.700
+situation two is if y is equal to 1 and
+
+819
+00:45:59.700 --> 00:46:04.589
+y bar is equal to 0 then at this point
+
+820
+00:46:04.589 --> 00:46:07.079
+so so y is equal to 1 it's supposed to
+
+821
+00:46:07.079 --> 00:46:08.609
+be staying high but the pulldown network
+
+822
+00:46:08.609 --> 00:46:11.160
+through leakage mechanisms might be
+
+823
+00:46:11.160 --> 00:46:13.380
+pulling Y low and we don't want that to
+
+824
+00:46:13.380 --> 00:46:14.150
+happen
+
+825
+00:46:14.150 --> 00:46:17.519
+however Y is 1 but Y bar as needed in
+
+826
+00:46:17.519 --> 00:46:20.130
+our dominant logic circuit is 0 that
+
+827
+00:46:20.130 --> 00:46:25.079
+turns on the pima's P Moss is on now
+
+828
+00:46:25.079 --> 00:46:31.589
+which combats the leakage from the
+
+829
+00:46:31.589 --> 00:46:39.599
+pulldown network keeping Y in the logic
+
+830
+00:46:39.599 --> 00:46:43.309
+high state ok this is excellent alright
+
+831
+00:46:43.309 --> 00:46:45.599
+so this totally solves the problem
+
+832
+00:46:45.599 --> 00:46:48.779
+however note let's just make a little
+
+833
+00:46:48.779 --> 00:46:57.170
+note here that this is now ratioed logic
+
+834
+00:47:00.829 --> 00:47:07.140
+since the pulldown network must be
+
+835
+00:47:07.140 --> 00:47:20.569
+strong enough to overpower the p MOS
+
+836
+00:47:20.569 --> 00:47:24.059
+when it wants to turn back on so the
+
+837
+00:47:24.059 --> 00:47:28.289
+solution to this issue is we make the p
+
+838
+00:47:28.289 --> 00:47:31.880
+MOS weak
+
+839
+00:47:31.880 --> 00:47:35.130
+remember that p MOS only needs to combat
+
+840
+00:47:35.130 --> 00:47:37.619
+the leakage so the p MOS has to be
+
+841
+00:47:37.619 --> 00:47:39.719
+stronger than the leakage path through
+
+842
+00:47:39.719 --> 00:47:41.819
+the pulldown network which is going to
+
+843
+00:47:41.819 --> 00:47:43.559
+be you know admittedly a rather low
+
+844
+00:47:43.559 --> 00:47:47.759
+amount of current all right so if we we
+
+845
+00:47:47.759 --> 00:47:49.140
+generally want to make that keeper
+
+846
+00:47:49.140 --> 00:47:52.109
+transistor a minimum size p MOS not even
+
+847
+00:47:52.109 --> 00:47:54.359
+size 2 per the class sizing convention a
+
+848
+00:47:54.359 --> 00:47:58.410
+size 1 p MOS okay that's as weak as
+
+849
+00:47:58.410 --> 00:48:01.170
+possible and the pulldown network if
+
+850
+00:48:01.170 --> 00:48:03.869
+it's properly designed to to have an
+
+851
+00:48:03.869 --> 00:48:06.210
+effective resistance of our should be
+
+852
+00:48:06.210 --> 00:48:08.160
+able to overpower the
+
+853
+00:48:08.160 --> 00:48:11.160
+peat moss and bring why low when it
+
+854
+00:48:11.160 --> 00:48:13.470
+needs to on the next cycle okay so this
+
+855
+00:48:13.470 --> 00:48:16.230
+is a very nice solution to this leakage
+
+856
+00:48:16.230 --> 00:48:19.500
+problem so let's discuss the next issue
+
+857
+00:48:19.500 --> 00:48:23.280
+and that's a little nefarious one called
+
+858
+00:48:23.280 --> 00:48:31.950
+charge sharing alright so the best way
+
+859
+00:48:31.950 --> 00:48:36.360
+to understand how this manifests is to
+
+860
+00:48:36.360 --> 00:48:37.860
+look at an example let's look at a
+
+861
+00:48:37.860 --> 00:48:42.990
+dynamic two input NAND gate and and a
+
+862
+00:48:42.990 --> 00:48:45.240
+two gate okay so let's just go ahead and
+
+863
+00:48:45.240 --> 00:48:47.480
+draw it first
+
+864
+00:48:47.480 --> 00:48:52.620
+so we have our p MOS header we have our
+
+865
+00:48:52.620 --> 00:48:54.500
+pulldown network which is just two
+
+866
+00:48:54.500 --> 00:48:57.660
+series and Moss's followed by our our n
+
+867
+00:48:57.660 --> 00:49:00.210
+Moss footer alright so the gate looks
+
+868
+00:49:00.210 --> 00:49:04.050
+something like this this is our clock
+
+869
+00:49:04.050 --> 00:49:08.360
+input Phi this is input a this is input
+
+870
+00:49:08.360 --> 00:49:14.670
+B and our output here is why okay
+
+871
+00:49:14.670 --> 00:49:16.800
+let's ignore the inverter after this we
+
+872
+00:49:16.800 --> 00:49:19.410
+can we can analyze this without looking
+
+873
+00:49:19.410 --> 00:49:22.530
+at that inverter so what I'd like to do
+
+874
+00:49:22.530 --> 00:49:26.310
+is I want to point out that on node Y we
+
+875
+00:49:26.310 --> 00:49:28.320
+have some parasitic capacitance we'll
+
+876
+00:49:28.320 --> 00:49:30.570
+call that C Y okay
+
+877
+00:49:30.570 --> 00:49:32.550
+but we also have some parasitic
+
+878
+00:49:32.550 --> 00:49:34.230
+capacitance at an internal node in this
+
+879
+00:49:34.230 --> 00:49:37.980
+circuit here let's call this node X and
+
+880
+00:49:37.980 --> 00:49:42.270
+this capacitance C X okay now let's
+
+881
+00:49:42.270 --> 00:49:45.960
+imagine that during this example B input
+
+882
+00:49:45.960 --> 00:49:50.040
+B is equal to zero alright and let's say
+
+883
+00:49:50.040 --> 00:49:59.730
+that V X was equal to zero initially so
+
+884
+00:49:59.730 --> 00:50:02.160
+perhaps in the prior phase of the clock
+
+885
+00:50:02.160 --> 00:50:04.950
+the pulldown network had had pulled
+
+886
+00:50:04.950 --> 00:50:08.790
+everything down and the X was equal to
+
+887
+00:50:08.790 --> 00:50:14.820
+zero in this example then we say a goes
+
+888
+00:50:14.820 --> 00:50:18.450
+from zero to one all right so what
+
+889
+00:50:18.450 --> 00:50:20.070
+happens let's take a look at our timing
+
+890
+00:50:20.070 --> 00:50:21.630
+diagram so let's say
+
+891
+00:50:21.630 --> 00:50:24.539
+five here let me do my timing diagram
+
+892
+00:50:24.539 --> 00:50:25.410
+I'm in a different color
+
+893
+00:50:25.410 --> 00:50:31.289
+fie let's say it goes like this okay
+
+894
+00:50:31.289 --> 00:50:37.349
+an a we say goes zero to one somewhere
+
+895
+00:50:37.349 --> 00:50:41.460
+over here B we've said is just zero all
+
+896
+00:50:41.460 --> 00:50:48.390
+the time hasn't changed now let's look
+
+897
+00:50:48.390 --> 00:50:53.549
+at node V X okay so we said that V X was
+
+898
+00:50:53.549 --> 00:50:56.160
+zero initially all right let me just
+
+899
+00:50:56.160 --> 00:50:57.839
+draw a little vertical line here to help
+
+900
+00:50:57.839 --> 00:51:02.519
+us we said that V X was zero and when
+
+901
+00:51:02.519 --> 00:51:05.160
+the clock turns on that will continue to
+
+902
+00:51:05.160 --> 00:51:08.670
+be true because a is 0 B is zero so if
+
+903
+00:51:08.670 --> 00:51:11.549
+so node X here is not changed at all
+
+904
+00:51:11.549 --> 00:51:13.890
+when the clock goes high and we entered
+
+905
+00:51:13.890 --> 00:51:17.880
+the evaluate phase however once a goes
+
+906
+00:51:17.880 --> 00:51:21.380
+high what happens the output Y is
+
+907
+00:51:21.380 --> 00:51:25.799
+nominally at at what value let's just
+
+908
+00:51:25.799 --> 00:51:29.160
+draw this down actually V y all right
+
+909
+00:51:29.160 --> 00:51:31.200
+during the pre-charge phase the output Y
+
+910
+00:51:31.200 --> 00:51:36.450
+is at logic one right now as soon as we
+
+911
+00:51:36.450 --> 00:51:39.630
+enter the evaluate phase let me just
+
+912
+00:51:39.630 --> 00:51:41.069
+draw a vertical line here just to be
+
+913
+00:51:41.069 --> 00:51:44.190
+extra precise as soon as we enter the
+
+914
+00:51:44.190 --> 00:51:47.099
+evaluate phase nothing happens to node Y
+
+915
+00:51:47.099 --> 00:51:48.869
+because the pulldown network is not on
+
+916
+00:51:48.869 --> 00:51:50.880
+despite that footer and mas being on
+
+917
+00:51:50.880 --> 00:51:54.769
+okay so as soon as transistor a turns on
+
+918
+00:51:54.769 --> 00:51:58.259
+what happens so so this continues here
+
+919
+00:51:58.259 --> 00:52:01.319
+as soon as transistor a turns on well
+
+920
+00:52:01.319 --> 00:52:05.069
+node Y was charged to VDD node X was
+
+921
+00:52:05.069 --> 00:52:07.019
+charged to zero and we've just turned on
+
+922
+00:52:07.019 --> 00:52:09.990
+a switch that connects these two okay so
+
+923
+00:52:09.990 --> 00:52:11.759
+what's going to happen is there's going
+
+924
+00:52:11.759 --> 00:52:14.220
+to be charge sharing alright so we can
+
+925
+00:52:14.220 --> 00:52:16.380
+draw the circuit that you know models
+
+926
+00:52:16.380 --> 00:52:24.299
+this we have node X and node Y C Y C X
+
+927
+00:52:24.299 --> 00:52:27.839
+the X V Y and we basically just close
+
+928
+00:52:27.839 --> 00:52:31.049
+this switch alright and so what's going
+
+929
+00:52:31.049 --> 00:52:33.750
+to happen is the charge on V Y which was
+
+930
+00:52:33.750 --> 00:52:35.520
+charged to VDD
+
+931
+00:52:35.520 --> 00:52:37.530
+is going to share with the charge on CX
+
+932
+00:52:37.530 --> 00:52:39.270
+so what's going to happen is node VX is
+
+933
+00:52:39.270 --> 00:52:41.340
+going to go up a little bit not all the
+
+934
+00:52:41.340 --> 00:52:45.030
+way likewise V Y is going to go down a
+
+935
+00:52:45.030 --> 00:52:47.430
+little bit not all the way to zero but
+
+936
+00:52:47.430 --> 00:52:49.500
+just a little bit okay and so what we
+
+937
+00:52:49.500 --> 00:52:53.970
+say here is that this distance here if
+
+938
+00:52:53.970 --> 00:53:02.240
+you will is equal to Delta V Delta V
+
+939
+00:53:02.240 --> 00:53:05.220
+okay so let's just write that write that
+
+940
+00:53:05.220 --> 00:53:10.940
+down in words when input a is asserted
+
+941
+00:53:12.680 --> 00:53:15.690
+this the transistor turns on we'll just
+
+942
+00:53:15.690 --> 00:53:17.700
+call it a switch in this example and
+
+943
+00:53:17.700 --> 00:53:19.950
+we're ignoring a V T drop and so on the
+
+944
+00:53:19.950 --> 00:53:30.750
+switch turns on and C X and C Y share
+
+945
+00:53:30.750 --> 00:53:41.750
+charge okay so we can say that after a
+
+946
+00:53:41.750 --> 00:53:46.260
+goes to one we say that the node V X is
+
+947
+00:53:46.260 --> 00:53:51.210
+equal to V Y ignoring our V T drop if
+
+948
+00:53:51.210 --> 00:53:54.030
+that is applicable which is equal to vdd
+
+949
+00:53:54.030 --> 00:53:56.160
+times the charge sharing capacitance
+
+950
+00:53:56.160 --> 00:54:01.980
+formula which is CY over C X plus CY and
+
+951
+00:54:01.980 --> 00:54:03.480
+we're going to say that's equal to Delta
+
+952
+00:54:03.480 --> 00:54:07.260
+V okay let me put a little asterisks
+
+953
+00:54:07.260 --> 00:54:12.260
+here and just say careful
+
+954
+00:54:12.260 --> 00:54:17.280
+if the out ends up becoming less than
+
+955
+00:54:17.280 --> 00:54:19.350
+VTN because then we have a threshold
+
+956
+00:54:19.350 --> 00:54:22.050
+drop across the N Mo's device and this
+
+957
+00:54:22.050 --> 00:54:24.060
+formula isn't totally correct because
+
+958
+00:54:24.060 --> 00:54:27.050
+it's no longer acting as a good switch
+
+959
+00:54:27.050 --> 00:54:36.540
+alright so it turns out that if CX the
+
+960
+00:54:36.540 --> 00:54:38.340
+value of the parasitic capacitance is
+
+961
+00:54:38.340 --> 00:54:42.000
+approximately equal to C Y which is not
+
+962
+00:54:42.000 --> 00:54:46.070
+a crazy assumption then the output drops
+
+963
+00:54:46.070 --> 00:54:49.070
+significantly
+
+964
+00:54:52.839 --> 00:54:54.369
+all right
+
+965
+00:54:54.369 --> 00:54:58.759
+possibly to the point where it may no
+
+966
+00:54:58.759 --> 00:55:04.819
+longer be a logic one at which point we
+
+967
+00:55:04.819 --> 00:55:07.490
+have a disaster okay so we really don't
+
+968
+00:55:07.490 --> 00:55:10.430
+want the output simply because one of
+
+969
+00:55:10.430 --> 00:55:11.750
+the other inputs
+
+970
+00:55:11.750 --> 00:55:14.089
+that's not causing the output to fall
+
+971
+00:55:14.089 --> 00:55:17.299
+you know by the computation of the logic
+
+972
+00:55:17.299 --> 00:55:21.470
+function decreases okay so we really
+
+973
+00:55:21.470 --> 00:55:25.069
+don't want the output to decrease other
+
+974
+00:55:25.069 --> 00:55:27.200
+than when the pulldown network fully
+
+975
+00:55:27.200 --> 00:55:31.670
+turns on okay so this is definitely a
+
+976
+00:55:31.670 --> 00:55:34.009
+problem so there has to be a solution to
+
+977
+00:55:34.009 --> 00:55:39.259
+this so the solution that we're going to
+
+978
+00:55:39.259 --> 00:55:44.329
+suggest here is to use extra pre-charge
+
+979
+00:55:44.329 --> 00:55:55.190
+transistors so what we do is as the name
+
+980
+00:55:55.190 --> 00:55:57.740
+implies we have our normal pre-charge
+
+981
+00:55:57.740 --> 00:56:01.839
+transistor here we have our NAND gate
+
+982
+00:56:01.839 --> 00:56:04.130
+structure down here and then our footer
+
+983
+00:56:04.130 --> 00:56:10.190
+device okay so this is our normal
+
+984
+00:56:10.190 --> 00:56:12.319
+dynamic logic gate so far nothing has
+
+985
+00:56:12.319 --> 00:56:18.019
+changed this is a this is B okay this is
+
+986
+00:56:18.019 --> 00:56:22.910
+the output Y so the idea here is it's
+
+987
+00:56:22.910 --> 00:56:24.950
+the charge sharing at the node between a
+
+988
+00:56:24.950 --> 00:56:27.740
+and B that's the problem so why don't we
+
+989
+00:56:27.740 --> 00:56:30.440
+just go ahead and also pre charge this
+
+990
+00:56:30.440 --> 00:56:36.259
+node to VDD if we pre charge that node
+
+991
+00:56:36.259 --> 00:56:40.250
+to VDD then if the same scenario happens
+
+992
+00:56:40.250 --> 00:56:41.809
+that that we described in the previous
+
+993
+00:56:41.809 --> 00:56:45.230
+slide happens here then when switch a
+
+994
+00:56:45.230 --> 00:56:50.890
+turns on V Y is already charged to VDD
+
+995
+00:56:50.890 --> 00:56:54.440
+VX is also charged to VDD so there's no
+
+996
+00:56:54.440 --> 00:56:55.819
+charge sharing they're both at the same
+
+997
+00:56:55.819 --> 00:56:59.000
+voltage okay so this works it solves the
+
+998
+00:56:59.000 --> 00:57:01.790
+problem completely however
+
+999
+00:57:01.790 --> 00:57:07.910
+but this has more parasitics we're
+
+1000
+00:57:07.910 --> 00:57:10.010
+adding parasitic capacitance onto no tax
+
+1001
+00:57:10.010 --> 00:57:15.160
+here more devices and therefore area
+
+1002
+00:57:15.160 --> 00:57:19.070
+more clock power because we have more
+
+1003
+00:57:19.070 --> 00:57:20.900
+capacitance on our clock napped and so
+
+1004
+00:57:20.900 --> 00:57:23.150
+on so there's some downsides to doing
+
+1005
+00:57:23.150 --> 00:57:25.790
+this now the other solution that we
+
+1006
+00:57:25.790 --> 00:57:27.710
+could have done is let's just make sure
+
+1007
+00:57:27.710 --> 00:57:30.190
+that CY is much larger than C X and
+
+1008
+00:57:30.190 --> 00:57:32.330
+nominally that should be the case right
+
+1009
+00:57:32.330 --> 00:57:35.210
+cy is you know has the extra P mas
+
+1010
+00:57:35.210 --> 00:57:38.810
+attached to it it's driving a load and
+
+1011
+00:57:38.810 --> 00:57:40.820
+so on it turns out that that load is in
+
+1012
+00:57:40.820 --> 00:57:42.410
+Domino logic is usually just one
+
+1013
+00:57:42.410 --> 00:57:44.060
+inverter so it's not you know a huge
+
+1014
+00:57:44.060 --> 00:57:46.100
+load but you know it's definitely a load
+
+1015
+00:57:46.100 --> 00:57:48.560
+nevertheless so usually CY is larger
+
+1016
+00:57:48.560 --> 00:57:51.620
+than CX and we don't have to do this
+
+1017
+00:57:51.620 --> 00:57:53.990
+sort of thing unless in very special
+
+1018
+00:57:53.990 --> 00:57:56.990
+circumstances we are introducing it in
+
+1019
+00:57:56.990 --> 00:57:58.790
+the lecture because this can and does
+
+1020
+00:57:58.790 --> 00:58:01.280
+affect dynamic logic and so if it does
+
+1021
+00:58:01.280 --> 00:58:05.570
+be aware that this is is a problem and B
+
+1022
+00:58:05.570 --> 00:58:08.810
+there are some solutions to it so
+
+1023
+00:58:08.810 --> 00:58:11.360
+there's another nefarious issue that can
+
+1024
+00:58:11.360 --> 00:58:14.180
+crop up in dynamic logic and that has to
+
+1025
+00:58:14.180 --> 00:58:23.810
+do with capacitive coupling okay so
+
+1026
+00:58:23.810 --> 00:58:25.940
+again the best way to understand how
+
+1027
+00:58:25.940 --> 00:58:29.180
+this manifests in dynamic logic circuits
+
+1028
+00:58:29.180 --> 00:58:32.180
+is by means of an example so let's
+
+1029
+00:58:32.180 --> 00:58:37.030
+imagine that we have a dynamic inverter
+
+1030
+00:58:37.030 --> 00:58:40.580
+okay so it's dynamic because we have
+
+1031
+00:58:40.580 --> 00:58:43.190
+this extra clock terminal that's that's
+
+1032
+00:58:43.190 --> 00:58:44.540
+coming in here so we'll call this a
+
+1033
+00:58:44.540 --> 00:58:49.400
+dynamic inverter and let's imagine that
+
+1034
+00:58:49.400 --> 00:58:52.790
+this is driving some long wire somewhere
+
+1035
+00:58:52.790 --> 00:58:56.390
+on the chip it's loaded by some inverter
+
+1036
+00:58:56.390 --> 00:58:58.790
+somewhere else you know actually would
+
+1037
+00:58:58.790 --> 00:59:03.200
+probably be loaded by some logic but we
+
+1038
+00:59:03.200 --> 00:59:05.960
+have some load capacitance associated
+
+1039
+00:59:05.960 --> 00:59:09.170
+with the output of the dynamic inverter
+
+1040
+00:59:09.170 --> 00:59:13.520
+and then somewhere next to this circuit
+
+1041
+00:59:13.520 --> 00:59:15.069
+we have a static
+
+1042
+00:59:15.069 --> 00:59:19.119
+CMOS inverter okay and it's we know that
+
+1043
+00:59:19.119 --> 00:59:21.190
+it's static because there's no clock
+
+1044
+00:59:21.190 --> 00:59:25.170
+coming into it so this is a static CMOS
+
+1045
+00:59:25.170 --> 00:59:28.569
+inv and we're going to call this the
+
+1046
+00:59:28.569 --> 00:59:35.440
+aggressor okay so this is also driving
+
+1047
+00:59:35.440 --> 00:59:40.989
+some long wire on the chip the wire has
+
+1048
+00:59:40.989 --> 00:59:42.969
+some sort of load and so on
+
+1049
+00:59:42.969 --> 00:59:45.640
+now these wires for layout reasons
+
+1050
+00:59:45.640 --> 00:59:49.029
+happened to be very close to each other
+
+1051
+00:59:49.029 --> 00:59:51.969
+so as a result there is parasitic
+
+1052
+00:59:51.969 --> 00:59:55.539
+capacitance between the two wires we'll
+
+1053
+00:59:55.539 --> 01:00:06.059
+call this C C okay so for example from
+
+1054
+01:00:06.059 --> 01:00:13.229
+parallel plate one are in parallel
+
+1055
+01:00:15.940 --> 01:00:20.380
+why are capacitance okay the wires are
+
+1056
+01:00:20.380 --> 01:00:23.019
+routed close to each other okay
+
+1057
+01:00:23.019 --> 01:00:27.400
+so in this scenario let's imagine that V
+
+1058
+01:00:27.400 --> 01:00:32.140
+out is nominally you know being held at
+
+1059
+01:00:32.140 --> 01:00:36.279
+VDD dynamically and then let's imagine
+
+1060
+01:00:36.279 --> 01:00:39.579
+that this aggressor was at VDD and all
+
+1061
+01:00:39.579 --> 01:00:41.680
+of a sudden it switches down to logic
+
+1062
+01:00:41.680 --> 01:00:44.519
+zero so it's one oops
+
+1063
+01:00:44.519 --> 01:00:48.940
+so it was at logic one and now it's at
+
+1064
+01:00:48.940 --> 01:00:52.329
+logic zero so let's go ahead and draw a
+
+1065
+01:00:52.329 --> 01:00:54.759
+circuit model that describes this
+
+1066
+01:00:54.759 --> 01:00:58.869
+scenario so we have we can model our
+
+1067
+01:00:58.869 --> 01:01:05.099
+aggressor as a voltage source that is
+
+1068
+01:01:05.099 --> 01:01:09.039
+driving a capacitor that's driving
+
+1069
+01:01:09.039 --> 01:01:12.959
+another capacitor okay so this is C C
+
+1070
+01:01:12.959 --> 01:01:20.009
+this is CL and this here is the out and
+
+1071
+01:01:20.009 --> 01:01:27.510
+the input here is coming from VDD to 0
+
+1072
+01:01:27.510 --> 01:01:32.100
+okay so just to be clear here this is
+
+1073
+01:01:32.100 --> 01:01:40.220
+describing the scenario so CL we say was
+
+1074
+01:01:40.220 --> 01:01:50.850
+originally floating ad VDD just sitting
+
+1075
+01:01:50.850 --> 01:01:52.320
+there floating you know in its happy
+
+1076
+01:01:52.320 --> 01:01:54.750
+little little space it's a high
+
+1077
+01:01:54.750 --> 01:01:57.420
+impedance node the pulldown network of
+
+1078
+01:01:57.420 --> 01:01:59.220
+that inverter was not on it's just
+
+1079
+01:01:59.220 --> 01:02:01.770
+sitting there okay so what happens here
+
+1080
+01:02:01.770 --> 01:02:05.400
+is the aggressor the static CMOS
+
+1081
+01:02:05.400 --> 01:02:08.400
+inverter is pulling down the line next
+
+1082
+01:02:08.400 --> 01:02:11.640
+to it the wire next to it that capacity
+
+1083
+01:02:11.640 --> 01:02:15.869
+couples into the output of the dynamic
+
+1084
+01:02:15.869 --> 01:02:17.730
+inverter and we can actually write an
+
+1085
+01:02:17.730 --> 01:02:20.040
+equation that describes what would
+
+1086
+01:02:20.040 --> 01:02:23.340
+happen here the voltage on V out after
+
+1087
+01:02:23.340 --> 01:02:25.290
+the switching am an event would be VD D
+
+1088
+01:02:25.290 --> 01:02:29.780
+times VD D minor or minus VD D times C C
+
+1089
+01:02:29.780 --> 01:02:36.300
+over C c plus CL okay so again what
+
+1090
+01:02:36.300 --> 01:02:38.520
+might happen here is you might get a
+
+1091
+01:02:38.520 --> 01:02:41.790
+situation where V out is just hanging
+
+1092
+01:02:41.790 --> 01:02:43.890
+out and then when this when this edge
+
+1093
+01:02:43.890 --> 01:02:46.080
+happens it's going to come down a little
+
+1094
+01:02:46.080 --> 01:02:49.380
+bit okay it's going to come down by an
+
+1095
+01:02:49.380 --> 01:02:54.750
+amount equal to VD D times C C over C c
+
+1096
+01:02:54.750 --> 01:02:59.070
+plus CL okay that's the Delta V so again
+
+1097
+01:02:59.070 --> 01:03:08.070
+if we say that if if C C is
+
+1098
+01:03:08.070 --> 01:03:11.010
+approximately equal to CL this can
+
+1099
+01:03:11.010 --> 01:03:14.600
+affect functionality
+
+1100
+01:03:19.489 --> 01:03:22.019
+right we definitely want don't want this
+
+1101
+01:03:22.019 --> 01:03:25.769
+delta-v to drop too much all right
+
+1102
+01:03:25.769 --> 01:03:28.799
+so therefore the the conclusion here is
+
+1103
+01:03:28.799 --> 01:03:32.489
+that layout particularly when we're
+
+1104
+01:03:32.489 --> 01:03:34.079
+talking about dynamic logic although
+
+1105
+01:03:34.079 --> 01:03:36.959
+it's this applies to all other forms of
+
+1106
+01:03:36.959 --> 01:03:41.489
+logic is very important you really have
+
+1107
+01:03:41.489 --> 01:03:44.099
+to be careful about how you are doing
+
+1108
+01:03:44.099 --> 01:03:46.380
+your layout to make sure that you don't
+
+1109
+01:03:46.380 --> 01:03:50.519
+have any unnecessary you know parallel
+
+1110
+01:03:50.519 --> 01:03:52.769
+plate capacitance that might adversely
+
+1111
+01:03:52.769 --> 01:03:55.859
+affect your dynamic logic circuits okay
+
+1112
+01:03:55.859 --> 01:03:58.380
+this is a very important point now I do
+
+1113
+01:03:58.380 --> 01:04:09.890
+want to make a note static CMOS is more
+
+1114
+01:04:09.890 --> 01:04:21.920
+immune to this due to the resistive a
+
+1115
+01:04:22.160 --> 01:04:30.779
+connection to VDD or ground so the
+
+1116
+01:04:30.779 --> 01:04:34.319
+reason why I nag logic is so affected by
+
+1117
+01:04:34.319 --> 01:04:37.410
+this is because the output is just
+
+1118
+01:04:37.410 --> 01:04:39.900
+floating there in the evaluate phase if
+
+1119
+01:04:39.900 --> 01:04:43.229
+it's set at VDD if the output is at
+
+1120
+01:04:43.229 --> 01:04:45.390
+ground it's being strongly held down by
+
+1121
+01:04:45.390 --> 01:04:47.430
+a pulldown network so this is actually
+
+1122
+01:04:47.430 --> 01:04:48.989
+isn't a problem but in static CMOS
+
+1123
+01:04:48.989 --> 01:04:51.660
+that's that's always the case so let's
+
+1124
+01:04:51.660 --> 01:04:53.009
+just took take a look at a little
+
+1125
+01:04:53.009 --> 01:04:55.680
+example let's imagine we have the same
+
+1126
+01:04:55.680 --> 01:04:59.999
+scenario except in this case we don't
+
+1127
+01:04:59.999 --> 01:05:05.880
+have a dynamic node but we have a static
+
+1128
+01:05:05.880 --> 01:05:08.309
+CMOS node okay so everything's the same
+
+1129
+01:05:08.309 --> 01:05:13.739
+see see CL the input is going from one
+
+1130
+01:05:13.739 --> 01:05:18.180
+to zero okay but now instead of just
+
+1131
+01:05:18.180 --> 01:05:21.029
+having this floating capacitor we now
+
+1132
+01:05:21.029 --> 01:05:25.680
+also have a resistor that's going to VDD
+
+1133
+01:05:25.680 --> 01:05:28.529
+and that resistances are on of the P
+
+1134
+01:05:28.529 --> 01:05:30.840
+Mo's device alright and just to be
+
+1135
+01:05:30.840 --> 01:05:36.390
+this here is V out all right so if we do
+
+1136
+01:05:36.390 --> 01:05:39.570
+have a event where we have this
+
+1137
+01:05:39.570 --> 01:05:41.580
+aggressor here then what's going to
+
+1138
+01:05:41.580 --> 01:05:44.430
+happen is V out you know it's playing
+
+1139
+01:05:44.430 --> 01:05:47.280
+happily at VDD there's going to be some
+
+1140
+01:05:47.280 --> 01:05:49.050
+perturbation it's going to go down just
+
+1141
+01:05:49.050 --> 01:05:51.390
+like it did in the dynamic case but
+
+1142
+01:05:51.390 --> 01:05:53.100
+because that resistor is strongly
+
+1143
+01:05:53.100 --> 01:05:55.380
+pulling things up it's eventually going
+
+1144
+01:05:55.380 --> 01:05:59.070
+to pull it back up to VDD where this
+
+1145
+01:05:59.070 --> 01:06:02.100
+voltage here is VDD okay so in other
+
+1146
+01:06:02.100 --> 01:06:05.610
+words static CMOS is restoring will get
+
+1147
+01:06:05.610 --> 01:06:08.700
+a glitch on the line at V out but it
+
+1148
+01:06:08.700 --> 01:06:11.670
+won't drop and then stay there like it
+
+1149
+01:06:11.670 --> 01:06:14.460
+does in dynamic circuits okay so this is
+
+1150
+01:06:14.460 --> 01:06:17.670
+a big advantage of static CMOS design is
+
+1151
+01:06:17.670 --> 01:06:22.440
+it's indeed much more robust to coupling
+
+1152
+01:06:22.440 --> 01:06:26.670
+and noise and and so on and so forth so
+
+1153
+01:06:26.670 --> 01:06:28.980
+another issue we may want to discuss is
+
+1154
+01:06:28.980 --> 01:06:33.590
+the notion that normal Domino logic has
+
+1155
+01:06:33.590 --> 01:06:41.940
+limited logic styles I guess this isn't
+
+1156
+01:06:41.940 --> 01:06:45.270
+really a downside in the context that we
+
+1157
+01:06:45.270 --> 01:06:46.920
+haven't considered this a downside for
+
+1158
+01:06:46.920 --> 01:06:50.310
+normal static CMOS but I suppose we're
+
+1159
+01:06:50.310 --> 01:06:51.570
+listing it as a downside because
+
+1160
+01:06:51.570 --> 01:06:52.980
+eventually we'll have a solution to this
+
+1161
+01:06:52.980 --> 01:06:57.950
+but the the issue at hand is that Domino
+
+1162
+01:06:57.950 --> 01:07:04.680
+logic only performs non inverting
+
+1163
+01:07:04.680 --> 01:07:07.280
+functions
+
+1164
+01:07:13.090 --> 01:07:15.370
+for example because we have that extra
+
+1165
+01:07:15.370 --> 01:07:16.900
+inverter at the output we're only
+
+1166
+01:07:16.900 --> 01:07:21.280
+building an circuits ORS and so on but
+
+1167
+01:07:21.280 --> 01:07:31.230
+not Nan's or Knorr and so on okay so
+
+1168
+01:07:31.230 --> 01:07:33.490
+this may or may not be a problem
+
+1169
+01:07:33.490 --> 01:07:35.890
+depending on the type of logic that you
+
+1170
+01:07:35.890 --> 01:07:38.950
+are trying to build but if it were there
+
+1171
+01:07:38.950 --> 01:07:44.470
+is a solution to this so a solution is
+
+1172
+01:07:44.470 --> 01:07:51.270
+something called dual rail domino logic
+
+1173
+01:07:51.270 --> 01:07:54.190
+okay sounds fancy let's figure out what
+
+1174
+01:07:54.190 --> 01:07:56.440
+this is so what it looks like is as
+
+1175
+01:07:56.440 --> 01:08:02.290
+follows we have a PMO's header switch we
+
+1176
+01:08:02.290 --> 01:08:04.660
+have our pulldown network I'm going to
+
+1177
+01:08:04.660 --> 01:08:08.910
+describe this as f bar in this case and
+
+1178
+01:08:08.910 --> 01:08:13.690
+then what we do is we have another PMO's
+
+1179
+01:08:13.690 --> 01:08:16.270
+header over here this goes into a
+
+1180
+01:08:16.270 --> 01:08:18.609
+separate pulldown network of function f
+
+1181
+01:08:18.609 --> 01:08:22.240
+and then these two guys combined to
+
+1182
+01:08:22.240 --> 01:08:25.390
+finally have our n MOS footer switch
+
+1183
+01:08:25.390 --> 01:08:27.700
+here okay so this footer switch is
+
+1184
+01:08:27.700 --> 01:08:32.140
+driven by clock Phi same thing for the
+
+1185
+01:08:32.140 --> 01:08:34.420
+these P Mo's devices also driven by
+
+1186
+01:08:34.420 --> 01:08:36.250
+clock v so they're connected together in
+
+1187
+01:08:36.250 --> 01:08:40.810
+other words all of our inputs come in
+
+1188
+01:08:40.810 --> 01:08:43.920
+over here they also go into the other
+
+1189
+01:08:43.920 --> 01:08:47.589
+pulldown network and then we have our
+
+1190
+01:08:47.589 --> 01:08:50.220
+inverter that goes to output Y and
+
+1191
+01:08:50.220 --> 01:08:54.310
+another inverter that goes to output Y
+
+1192
+01:08:54.310 --> 01:08:58.149
+bar here okay so this is what we call a
+
+1193
+01:08:58.149 --> 01:09:02.350
+dual rail Domino logic circuit so the it
+
+1194
+01:09:02.350 --> 01:09:04.630
+actually looks pretty similar to our
+
+1195
+01:09:04.630 --> 01:09:07.870
+kaskell Volta switch logic family that
+
+1196
+01:09:07.870 --> 01:09:10.540
+we introduced a while ago but in this
+
+1197
+01:09:10.540 --> 01:09:12.670
+case this is effectively the dynamic
+
+1198
+01:09:12.670 --> 01:09:16.720
+version of it and the advantage of
+
+1199
+01:09:16.720 --> 01:09:18.630
+building a dual rail Domino circuit is
+
+1200
+01:09:18.630 --> 01:09:21.880
+that we now compute both say if we're
+
+1201
+01:09:21.880 --> 01:09:23.439
+doing an and function we're now
+
+1202
+01:09:23.439 --> 01:09:26.890
+computing both and and NAND okay
+
+1203
+01:09:26.890 --> 01:09:30.640
+and that is possibly of use depending on
+
+1204
+01:09:30.640 --> 01:09:32.529
+the type of computing application that
+
+1205
+01:09:32.529 --> 01:09:35.260
+you're building so I think it's best to
+
+1206
+01:09:35.260 --> 01:09:36.819
+try and understand this logic family
+
+1207
+01:09:36.819 --> 01:09:39.250
+again with an example and in fact let's
+
+1208
+01:09:39.250 --> 01:09:41.020
+go ahead and just build that exact thing
+
+1209
+01:09:41.020 --> 01:09:42.130
+that I was talking about on the previous
+
+1210
+01:09:42.130 --> 01:09:44.859
+slide an and and an and function
+
+1211
+01:09:44.859 --> 01:09:47.380
+together in one gate all right so it's
+
+1212
+01:09:47.380 --> 01:09:48.430
+going to look something like this we
+
+1213
+01:09:48.430 --> 01:09:52.300
+have our PMO's header and then let's go
+
+1214
+01:09:52.300 --> 01:09:57.370
+ahead and build the NAND gate first so
+
+1215
+01:09:57.370 --> 01:10:02.190
+it looks something like this we have a B
+
+1216
+01:10:02.190 --> 01:10:07.330
+this is connected to the clock Phi this
+
+1217
+01:10:07.330 --> 01:10:09.700
+is going the output here goes through an
+
+1218
+01:10:09.700 --> 01:10:12.370
+inverter and this is equal to Y is equal
+
+1219
+01:10:12.370 --> 01:10:15.880
+to a and B so again that's the NAND
+
+1220
+01:10:15.880 --> 01:10:19.030
+function here then we have the other
+
+1221
+01:10:19.030 --> 01:10:21.430
+side of the circuit that's going to do
+
+1222
+01:10:21.430 --> 01:10:24.280
+the complimentary function so this will
+
+1223
+01:10:24.280 --> 01:10:32.890
+be something like this okay and then we
+
+1224
+01:10:32.890 --> 01:10:37.420
+have our single and mas evaluate switch
+
+1225
+01:10:37.420 --> 01:10:41.400
+here these transistors are our B bar and
+
+1226
+01:10:41.400 --> 01:10:46.870
+a bar this p MOS pull-up is connected to
+
+1227
+01:10:46.870 --> 01:10:49.060
+clock Phi and this goes through a static
+
+1228
+01:10:49.060 --> 01:10:52.540
+CMOS inverter to generate Y bar is equal
+
+1229
+01:10:52.540 --> 01:10:59.200
+to a a and B bar okay so how does this
+
+1230
+01:10:59.200 --> 01:11:03.580
+work well if a and B are both equal to
+
+1231
+01:11:03.580 --> 01:11:06.430
+one then the left side of the pulldown
+
+1232
+01:11:06.430 --> 01:11:08.410
+network will turn on during the evaluate
+
+1233
+01:11:08.410 --> 01:11:12.100
+phase which will cause Y to be equal to
+
+1234
+01:11:12.100 --> 01:11:15.940
+logic one because the the internal node
+
+1235
+01:11:15.940 --> 01:11:18.700
+discharges to logic zero if you look on
+
+1236
+01:11:18.700 --> 01:11:20.680
+the other side of the of the circuit if
+
+1237
+01:11:20.680 --> 01:11:23.140
+a and B are both equal to one then a bar
+
+1238
+01:11:23.140 --> 01:11:25.900
+and B bar are both equal to zero and so
+
+1239
+01:11:25.900 --> 01:11:27.850
+that pulldown network doesn't to turn on
+
+1240
+01:11:27.850 --> 01:11:30.910
+and therefore the output of the that
+
+1241
+01:11:30.910 --> 01:11:33.730
+pull-up network will be Y a was pre
+
+1242
+01:11:33.730 --> 01:11:36.700
+charged to VDD and so Y bar in this case
+
+1243
+01:11:36.700 --> 01:11:39.659
+is going to be equal to zero
+
+1244
+01:11:39.659 --> 01:11:42.659
+all right now we do still have this
+
+1245
+01:11:42.659 --> 01:11:48.480
+issue of of charge sharing okay and so
+
+1246
+01:11:48.480 --> 01:11:49.860
+normally we have to go through the
+
+1247
+01:11:49.860 --> 01:11:51.780
+inverter to get the the charge sharing
+
+1248
+01:11:51.780 --> 01:11:53.909
+mechanism kind of sorted out in this
+
+1249
+01:11:53.909 --> 01:11:56.909
+case with our dual rail Domino circuit
+
+1250
+01:11:56.909 --> 01:12:00.270
+we can do something slightly more clever
+
+1251
+01:12:00.270 --> 01:12:05.670
+and that is to build a cross coupled P
+
+1252
+01:12:05.670 --> 01:12:08.969
+mas pair okay so basically what we do is
+
+1253
+01:12:08.969 --> 01:12:11.550
+we take the output of this PMO's connect
+
+1254
+01:12:11.550 --> 01:12:15.300
+it to the gate over there and so on okay
+
+1255
+01:12:15.300 --> 01:12:22.190
+so these are what we refer to as cross
+
+1256
+01:12:22.190 --> 01:12:27.320
+let me just spell it out cross coupled
+
+1257
+01:12:29.030 --> 01:12:34.620
+keepers again looks similar to the casco
+
+1258
+01:12:34.620 --> 01:12:36.239
+voltage switch logic family that we
+
+1259
+01:12:36.239 --> 01:12:39.480
+discussed earlier but in this case it's
+
+1260
+01:12:39.480 --> 01:12:41.550
+doing this through positive feedback
+
+1261
+01:12:41.550 --> 01:12:45.090
+which was the same case before but now
+
+1262
+01:12:45.090 --> 01:12:52.639
+with no static power consumption because
+
+1263
+01:12:52.639 --> 01:12:55.889
+we have the the footer switch and the
+
+1264
+01:12:55.889 --> 01:12:57.480
+header switches that are acting in the
+
+1265
+01:12:57.480 --> 01:13:01.320
+right time okay now you might have
+
+1266
+01:13:01.320 --> 01:13:04.290
+thought that we needed to end mas footer
+
+1267
+01:13:04.290 --> 01:13:07.320
+devices for each branch but it turns out
+
+1268
+01:13:07.320 --> 01:13:07.889
+we don't
+
+1269
+01:13:07.889 --> 01:13:14.639
+since the pulldown networks are mutually
+
+1270
+01:13:14.639 --> 01:13:23.400
+exclusive or in other words what we mean
+
+1271
+01:13:23.400 --> 01:13:31.610
+by that only one is on at a time
+
+1272
+01:13:34.520 --> 01:13:41.680
+we can use one device here instead of
+
+1273
+01:13:41.680 --> 01:13:45.860
+what we would nominally require us to to
+
+1274
+01:13:45.860 --> 01:13:55.190
+save area and power okay so this type of
+
+1275
+01:13:55.190 --> 01:13:57.740
+circuit this dual rail Domino with the
+
+1276
+01:13:57.740 --> 01:14:00.220
+cross couple keepers and so on this
+
+1277
+01:14:00.220 --> 01:14:03.590
+circuit or the logic family that this
+
+1278
+01:14:03.590 --> 01:14:09.140
+circuit represents was used in many
+
+1279
+01:14:09.140 --> 01:14:13.720
+generations of Intel microprocessors
+
+1280
+01:14:13.750 --> 01:14:19.670
+famously in the Pentium 4 actually was
+
+1281
+01:14:19.670 --> 01:14:26.560
+also used in the Core 2 Duo line etc ok
+
+1282
+01:14:26.560 --> 01:14:30.590
+it stopped my understanding anyways is
+
+1283
+01:14:30.590 --> 01:14:38.860
+that it stopped at the core i5 i7 line
+
+1284
+01:14:38.860 --> 01:14:42.710
+okay where they reverted back to static
+
+1285
+01:14:42.710 --> 01:14:45.620
+complimentary CMOS so these circuits are
+
+1286
+01:14:45.620 --> 01:14:50.510
+extremely fast that's why they were used
+
+1287
+01:14:50.510 --> 01:14:52.040
+in a lot of these micro processors
+
+1288
+01:14:52.040 --> 01:14:59.420
+though as we've discussed very costly in
+
+1289
+01:14:59.420 --> 01:15:02.270
+power so just be aware when you're
+
+1290
+01:15:02.270 --> 01:15:04.370
+building any form of dynamic circuit
+
+1291
+01:15:04.370 --> 01:15:07.490
+that power consumption can be rather
+
+1292
+01:15:07.490 --> 01:15:11.800
+high so please just do keep that in mind
+

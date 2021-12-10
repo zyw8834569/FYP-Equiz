@@ -1,0 +1,650 @@
+WEBVTT
+
+1
+00:00:00.480 --> 00:00:02.800
+welcome to vlsi lecture series i
+
+2
+00:00:02.800 --> 00:00:04.240
+professor it is dulakia
+
+3
+00:00:04.240 --> 00:00:06.399
+is going to explain you comparison of
+
+4
+00:00:06.399 --> 00:00:09.599
+static and dynamic cmos in this video
+
+5
+00:00:09.599 --> 00:00:12.880
+so when we talk about static cmos then
+
+6
+00:00:12.880 --> 00:00:15.360
+in its static cmos structure you will be
+
+7
+00:00:15.360 --> 00:00:18.320
+finding here we have vdd
+
+8
+00:00:18.320 --> 00:00:21.520
+after that we have pull
+
+9
+00:00:21.520 --> 00:00:26.080
+up network which is made up of pmos
+
+10
+00:00:26.080 --> 00:00:31.119
+that can have k inputs
+
+11
+00:00:31.119 --> 00:00:35.600
+then we have pull down network
+
+12
+00:00:35.600 --> 00:00:37.520
+and this pull down network that is made
+
+13
+00:00:37.520 --> 00:00:39.680
+up of nmos
+
+14
+00:00:39.680 --> 00:00:43.440
+that can have k inputs this is connected
+
+15
+00:00:43.440 --> 00:00:45.840
+to ground
+
+16
+00:00:45.840 --> 00:00:49.200
+and here we take output
+
+17
+00:00:49.200 --> 00:00:50.879
+so this is the basic structure which is
+
+18
+00:00:50.879 --> 00:00:53.039
+there with static cmos
+
+19
+00:00:53.039 --> 00:00:55.920
+as if we talk about dynamic cmos
+
+20
+00:00:55.920 --> 00:00:56.960
+structure
+
+21
+00:00:56.960 --> 00:01:02.079
+then here we have vdd after that we have
+
+22
+00:01:02.079 --> 00:01:06.559
+pmos with gated clock
+
+23
+00:01:06.560 --> 00:01:12.400
+then we have pull down network
+
+24
+00:01:12.400 --> 00:01:16.159
+and in pull down network we have nmos
+
+25
+00:01:16.159 --> 00:01:20.560
+with n with k inputs
+
+26
+00:01:22.880 --> 00:01:26.320
+after that we have another gated clock
+
+27
+00:01:26.320 --> 00:01:31.200
+and mass then we have ground over here
+
+28
+00:01:31.200 --> 00:01:35.360
+and here we have output and there can be
+
+29
+00:01:35.360 --> 00:01:38.640
+load capacitance cl over here
+
+30
+00:01:38.640 --> 00:01:40.560
+so these are the basic structure which
+
+31
+00:01:40.560 --> 00:01:42.560
+is there with static cmos and dynamic
+
+32
+00:01:42.560 --> 00:01:44.000
+cmos
+
+33
+00:01:44.000 --> 00:01:47.119
+now if you observe how many transistors
+
+34
+00:01:47.119 --> 00:01:48.399
+are there
+
+35
+00:01:48.399 --> 00:01:51.920
+then you see in static cmos if we talk
+
+36
+00:01:51.920 --> 00:01:53.360
+about
+
+37
+00:01:53.360 --> 00:01:57.280
+nmos then nmos is made up of
+
+38
+00:01:57.280 --> 00:01:59.759
+pull down network so that there are k
+
+39
+00:01:59.759 --> 00:02:02.320
+inputs so we can say there can be k
+
+40
+00:02:02.320 --> 00:02:06.399
+number of nmos and if we talk about pmos
+
+41
+00:02:06.399 --> 00:02:09.440
+then pull up network is made up of pmos
+
+42
+00:02:09.440 --> 00:02:12.560
+so with k input there can be k
+
+43
+00:02:12.560 --> 00:02:16.239
+number of pmos and
+
+44
+00:02:16.239 --> 00:02:19.440
+as if we talk about dynamic cmos
+
+45
+00:02:19.440 --> 00:02:21.520
+then in that if we calculate total
+
+46
+00:02:21.520 --> 00:02:23.040
+number of nmos
+
+47
+00:02:23.040 --> 00:02:25.200
+then with this k number of inputs with
+
+48
+00:02:25.200 --> 00:02:27.680
+this pull down network there can be k
+
+49
+00:02:27.680 --> 00:02:31.680
+n mass plus one gated clock
+
+50
+00:02:31.680 --> 00:02:35.920
+nmos is there and if we talk about pmos
+
+51
+00:02:35.920 --> 00:02:39.519
+then only one gated clock pmos is there
+
+52
+00:02:39.519 --> 00:02:42.239
+so number of transistors that is less in
+
+53
+00:02:42.239 --> 00:02:43.440
+dynamic cmos
+
+54
+00:02:43.440 --> 00:02:46.640
+and major effect
+
+55
+00:02:46.640 --> 00:02:49.519
+that is there because of pmos pmos is
+
+56
+00:02:49.519 --> 00:02:50.239
+less as
+
+57
+00:02:50.239 --> 00:02:53.760
+pmos size is more here static cmos
+
+58
+00:02:53.760 --> 00:02:54.400
+circuit
+
+59
+00:02:54.400 --> 00:02:57.440
+is having larger size that one can say
+
+60
+00:02:57.440 --> 00:03:01.200
+right and here you can say
+
+61
+00:03:01.200 --> 00:03:04.000
+in dynamic cmos only one pmos is there
+
+62
+00:03:04.000 --> 00:03:05.040
+so size
+
+63
+00:03:05.040 --> 00:03:10.159
+of dynamic cmos that will be less
+
+64
+00:03:11.920 --> 00:03:13.840
+now when we talk about capacitive
+
+65
+00:03:13.840 --> 00:03:16.560
+loading then capacitive loading
+
+66
+00:03:16.560 --> 00:03:20.000
+that is happening more due to pmos
+
+67
+00:03:20.000 --> 00:03:23.519
+as pmo size is more right so in static
+
+68
+00:03:23.519 --> 00:03:24.080
+cmos
+
+69
+00:03:24.080 --> 00:03:27.120
+capacitive loading will be more and in
+
+70
+00:03:27.120 --> 00:03:28.239
+dynamic cmos
+
+71
+00:03:28.239 --> 00:03:31.360
+only one pmos is there so capacitive
+
+72
+00:03:31.360 --> 00:03:32.000
+loading
+
+73
+00:03:32.000 --> 00:03:34.560
+is less
+
+74
+00:03:37.519 --> 00:03:40.159
+and one more thing that i can say
+
+75
+00:03:40.159 --> 00:03:42.239
+because of more pmos which is there in
+
+76
+00:03:42.239 --> 00:03:42.720
+this
+
+77
+00:03:42.720 --> 00:03:45.440
+static cmos switching characteristic is
+
+78
+00:03:45.440 --> 00:03:46.480
+slower
+
+79
+00:03:46.480 --> 00:03:48.959
+while due to only one pmos is there in
+
+80
+00:03:48.959 --> 00:03:50.239
+dynamic cmos
+
+81
+00:03:50.239 --> 00:03:54.000
+switching characteristic is faster
+
+82
+00:03:56.000 --> 00:03:59.920
+now there are some disadvantages which
+
+83
+00:03:59.920 --> 00:04:02.000
+is there with dynamic cmos
+
+84
+00:04:02.000 --> 00:04:04.400
+see when we connect dynamic cmos in
+
+85
+00:04:04.400 --> 00:04:05.200
+cascading
+
+86
+00:04:05.200 --> 00:04:07.040
+at that time there is a possibility of
+
+87
+00:04:07.040 --> 00:04:08.400
+false operation
+
+88
+00:04:08.400 --> 00:04:10.400
+so there are cascading issues which is
+
+89
+00:04:10.400 --> 00:04:12.319
+there in dynamics
+
+90
+00:04:12.319 --> 00:04:15.120
+cmos and those cascading issues that is
+
+91
+00:04:15.120 --> 00:04:15.760
+not there
+
+92
+00:04:15.760 --> 00:04:18.799
+in static cmos
+
+93
+00:04:20.238 --> 00:04:23.840
+now when we see operation of
+
+94
+00:04:23.840 --> 00:04:26.880
+dynamic cmos then it is compulsory to
+
+95
+00:04:26.880 --> 00:04:29.600
+have pre-charged by this gated clock
+
+96
+00:04:29.600 --> 00:04:32.320
+while that pre-charge is not required in
+
+97
+00:04:32.320 --> 00:04:33.600
+static cmos
+
+98
+00:04:33.600 --> 00:04:35.600
+so in dynamic cmos we need to have
+
+99
+00:04:35.600 --> 00:04:36.720
+pre-charge
+
+100
+00:04:36.720 --> 00:04:39.040
+for operation and in static cmos we
+
+101
+00:04:39.040 --> 00:04:43.840
+don't need pre-charge for operation
+
+102
+00:04:46.160 --> 00:04:48.720
+if you see my previous videos based on
+
+103
+00:04:48.720 --> 00:04:50.880
+dynamic cmos and static cmos
+
+104
+00:04:50.880 --> 00:04:54.479
+then in dynamic cmos i have told
+
+105
+00:04:54.479 --> 00:04:57.120
+when you have output is equals to logic
+
+106
+00:04:57.120 --> 00:04:57.840
+1
+
+107
+00:04:57.840 --> 00:05:00.240
+at that time output stays in high
+
+108
+00:05:00.240 --> 00:05:01.680
+impedance mode
+
+109
+00:05:01.680 --> 00:05:05.120
+right while over here in static cmos
+
+110
+00:05:05.120 --> 00:05:07.919
+as if you have output is equals to logic
+
+111
+00:05:07.919 --> 00:05:08.400
+1
+
+112
+00:05:08.400 --> 00:05:10.160
+then it does not have high impedance
+
+113
+00:05:10.160 --> 00:05:11.680
+mode right and
+
+114
+00:05:11.680 --> 00:05:14.240
+because of that you will be finding
+
+115
+00:05:14.240 --> 00:05:14.880
+output
+
+116
+00:05:14.880 --> 00:05:17.759
+is equals to logic 1 in dynamic cmos
+
+117
+00:05:17.759 --> 00:05:19.039
+affected by
+
+118
+00:05:19.039 --> 00:05:22.639
+noise with larger extent right
+
+119
+00:05:22.639 --> 00:05:26.160
+so noise immunity is lower
+
+120
+00:05:26.160 --> 00:05:28.960
+in case of dynamic cmos compared to
+
+121
+00:05:28.960 --> 00:05:31.919
+static cmos
+
+122
+00:05:35.120 --> 00:05:37.600
+now when we talk about working of
+
+123
+00:05:37.600 --> 00:05:38.160
+dynamic
+
+124
+00:05:38.160 --> 00:05:41.759
+cmos then in its working
+
+125
+00:05:41.759 --> 00:05:44.080
+if you observe my previous videos then i
+
+126
+00:05:44.080 --> 00:05:45.440
+have explained
+
+127
+00:05:45.440 --> 00:05:47.759
+because of charge sharing there is a
+
+128
+00:05:47.759 --> 00:05:48.880
+leakage of charge
+
+129
+00:05:48.880 --> 00:05:52.000
+which happens in dynamic cmos while
+
+130
+00:05:52.000 --> 00:05:54.800
+leakage of charge that does not happens
+
+131
+00:05:54.800 --> 00:05:57.919
+in static cmos
+
+132
+00:06:00.000 --> 00:06:03.919
+so if you see overall comparison
+
+133
+00:06:03.919 --> 00:06:07.440
+then dynamic cmos is faster it is
+
+134
+00:06:07.440 --> 00:06:10.240
+there with lower switching time
+
+135
+00:06:10.240 --> 00:06:11.600
+characteristic
+
+136
+00:06:11.600 --> 00:06:14.240
+as well as capacitive loading effect is
+
+137
+00:06:14.240 --> 00:06:15.199
+less
+
+138
+00:06:15.199 --> 00:06:18.400
+and size of circuit is small as if we
+
+139
+00:06:18.400 --> 00:06:20.319
+talk about static cmos
+
+140
+00:06:20.319 --> 00:06:23.759
+then it is slower in its
+
+141
+00:06:23.759 --> 00:06:26.479
+switching characteristic because of more
+
+142
+00:06:26.479 --> 00:06:27.840
+number of pmos
+
+143
+00:06:27.840 --> 00:06:29.840
+as well as it is having higher loading
+
+144
+00:06:29.840 --> 00:06:32.560
+capacitance because of pmos structure
+
+145
+00:06:32.560 --> 00:06:34.800
+and its size is even large compared to
+
+146
+00:06:34.800 --> 00:06:36.240
+dynamic cmos
+
+147
+00:06:36.240 --> 00:06:39.520
+but this static cmos does not have
+
+148
+00:06:39.520 --> 00:06:42.479
+issues of cascading and leakage of
+
+149
+00:06:42.479 --> 00:06:43.840
+capacitance
+
+150
+00:06:43.840 --> 00:06:46.639
+while that is there with dynamic cmos so
+
+151
+00:06:46.639 --> 00:06:48.400
+this is how comparison is there with
+
+152
+00:06:48.400 --> 00:06:50.639
+static cmos and dynamic cmos
+
+153
+00:06:50.639 --> 00:06:52.160
+i hope that you have understood this
+
+154
+00:06:52.160 --> 00:06:54.319
+video thank you so much for watching
+
+155
+00:06:54.319 --> 00:06:54.880
+this video
+
+156
+00:06:54.880 --> 00:06:56.479
+please do give your valuable suggestions
+
+157
+00:06:56.479 --> 00:06:58.080
+the reason is your suggestions matters
+
+158
+00:06:58.080 --> 00:06:59.680
+to me and based on that in future
+
+159
+00:06:59.680 --> 00:07:01.120
+i'll be making videos which will be
+
+160
+00:07:01.120 --> 00:07:03.199
+solving your queries so please do give
+
+161
+00:07:03.199 --> 00:07:04.880
+your valuable suggestions thank you so
+
+162
+00:07:04.880 --> 00:07:07.199
+much
+

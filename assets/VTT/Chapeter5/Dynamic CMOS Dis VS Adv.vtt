@@ -1,0 +1,1490 @@
+WEBVTT
+
+1
+00:00:00.399 --> 00:00:02.879
+welcome to vlsi lecture series i
+
+2
+00:00:02.879 --> 00:00:04.640
+professor it is dulakia is going to
+
+3
+00:00:04.640 --> 00:00:05.600
+explain you
+
+4
+00:00:05.600 --> 00:00:08.639
+dynamic cmos in this video and there are
+
+5
+00:00:08.639 --> 00:00:10.160
+some advantages which is there with
+
+6
+00:00:10.160 --> 00:00:11.360
+dynamic cmos over
+
+7
+00:00:11.360 --> 00:00:13.679
+static cmos that we will discuss it
+
+8
+00:00:13.679 --> 00:00:14.559
+later
+
+9
+00:00:14.559 --> 00:00:16.400
+let me explain you the basic circuit
+
+10
+00:00:16.400 --> 00:00:18.160
+structure which is there with dynamic
+
+11
+00:00:18.160 --> 00:00:19.359
+cmos first
+
+12
+00:00:19.359 --> 00:00:21.840
+so in its circuit structure first we
+
+13
+00:00:21.840 --> 00:00:24.400
+have vdd supply over here
+
+14
+00:00:24.400 --> 00:00:27.599
+after that there is pmos which is
+
+15
+00:00:27.599 --> 00:00:30.320
+gated clock pmos so here we give clock
+
+16
+00:00:30.320 --> 00:00:32.238
+signal to this pmos
+
+17
+00:00:32.238 --> 00:00:35.680
+after that there is pull down network
+
+18
+00:00:35.680 --> 00:00:38.239
+and this pull down network that is made
+
+19
+00:00:38.239 --> 00:00:38.879
+up of
+
+20
+00:00:38.879 --> 00:00:42.399
+nmos let us say this is having some
+
+21
+00:00:42.399 --> 00:00:44.800
+boolean function which is having
+
+22
+00:00:44.800 --> 00:00:47.920
+inputs and those inputs are k number of
+
+23
+00:00:47.920 --> 00:00:49.120
+inputs
+
+24
+00:00:49.120 --> 00:00:52.399
+after that there is another
+
+25
+00:00:52.399 --> 00:00:55.760
+nmos gated clock and mos so here
+
+26
+00:00:55.760 --> 00:00:58.320
+we have nmos that is of gated clock and
+
+27
+00:00:58.320 --> 00:00:59.359
+mos
+
+28
+00:00:59.359 --> 00:01:02.320
+and in this we take output from this
+
+29
+00:01:02.320 --> 00:01:03.120
+terminal
+
+30
+00:01:03.120 --> 00:01:05.438
+and that we can connect it to any other
+
+31
+00:01:05.438 --> 00:01:06.960
+digital circuit
+
+32
+00:01:06.960 --> 00:01:09.280
+and with that if i say my load
+
+33
+00:01:09.280 --> 00:01:10.799
+capacitance
+
+34
+00:01:10.799 --> 00:01:13.360
+that is cl then this is what basic
+
+35
+00:01:13.360 --> 00:01:15.200
+structure which is there with dynamic
+
+36
+00:01:15.200 --> 00:01:16.640
+cmos
+
+37
+00:01:16.640 --> 00:01:19.920
+now i'll explain you how
+
+38
+00:01:19.920 --> 00:01:22.799
+circuit wise this dynamic cmos is better
+
+39
+00:01:22.799 --> 00:01:24.720
+compared to static cmos
+
+40
+00:01:24.720 --> 00:01:27.600
+so if you observe static cmos structure
+
+41
+00:01:27.600 --> 00:01:28.960
+then
+
+42
+00:01:28.960 --> 00:01:32.240
+in static cmos structure we were been
+
+43
+00:01:32.240 --> 00:01:32.799
+having
+
+44
+00:01:32.799 --> 00:01:36.159
+vdd supply after that
+
+45
+00:01:36.159 --> 00:01:40.799
+there was pull up network
+
+46
+00:01:40.799 --> 00:01:44.799
+that is having pmos let us say
+
+47
+00:01:44.799 --> 00:01:48.640
+inputs are there and those inputs are
+
+48
+00:01:48.640 --> 00:01:52.079
+k number of inputs after that there was
+
+49
+00:01:52.079 --> 00:01:52.479
+pull
+
+50
+00:01:52.479 --> 00:01:56.159
+down network and in pull down network
+
+51
+00:01:56.159 --> 00:02:00.159
+we've been having nmos and again
+
+52
+00:02:00.159 --> 00:02:04.240
+with this pull down network we have
+
+53
+00:02:04.240 --> 00:02:07.759
+k number of inputs and after that we
+
+54
+00:02:07.759 --> 00:02:08.000
+have
+
+55
+00:02:08.000 --> 00:02:10.800
+ground and we were been taking output
+
+56
+00:02:10.800 --> 00:02:12.720
+from this terminal
+
+57
+00:02:12.720 --> 00:02:15.200
+so that is how static cmos structure
+
+58
+00:02:15.200 --> 00:02:16.879
+that we have seen
+
+59
+00:02:16.879 --> 00:02:19.520
+now here let us compare this to
+
+60
+00:02:19.520 --> 00:02:20.720
+structure
+
+61
+00:02:20.720 --> 00:02:23.599
+with respect to number of transistors so
+
+62
+00:02:23.599 --> 00:02:24.560
+if you observe
+
+63
+00:02:24.560 --> 00:02:27.840
+dynamic cmos in that if you calculate
+
+64
+00:02:27.840 --> 00:02:30.239
+total number of pmos
+
+65
+00:02:30.239 --> 00:02:33.360
+then you see in this total
+
+66
+00:02:33.360 --> 00:02:36.720
+one pmos is there and if you calculate
+
+67
+00:02:36.720 --> 00:02:38.879
+total number of nmos
+
+68
+00:02:38.879 --> 00:02:41.680
+then you see k number of input nmos is
+
+69
+00:02:41.680 --> 00:02:43.360
+there plus 1
+
+70
+00:02:43.360 --> 00:02:46.640
+clocked nmos is there so total k
+
+71
+00:02:46.640 --> 00:02:50.080
+plus 1 number of nmos are there right
+
+72
+00:02:50.080 --> 00:02:52.640
+and as if you talk about static cmos
+
+73
+00:02:52.640 --> 00:02:53.360
+number of
+
+74
+00:02:53.360 --> 00:02:56.879
+transistors in that case you see pull up
+
+75
+00:02:56.879 --> 00:02:59.040
+network is there with pmos
+
+76
+00:02:59.040 --> 00:03:03.599
+so as per k inputs total pmos are k
+
+77
+00:03:03.599 --> 00:03:06.080
+and pull down network is having nmos and
+
+78
+00:03:06.080 --> 00:03:06.800
+as per k
+
+79
+00:03:06.800 --> 00:03:10.080
+in mode nmos are
+
+80
+00:03:10.080 --> 00:03:13.360
+k so number of transistors
+
+81
+00:03:13.360 --> 00:03:16.640
+that is way greater in static cmos
+
+82
+00:03:16.640 --> 00:03:18.720
+compared to dynamic cmos that one can
+
+83
+00:03:18.720 --> 00:03:19.599
+say as well as
+
+84
+00:03:19.599 --> 00:03:23.599
+here you see we avoid pmos fabrication
+
+85
+00:03:23.599 --> 00:03:24.640
+in its structure
+
+86
+00:03:24.640 --> 00:03:26.799
+so here less number of pmos are there
+
+87
+00:03:26.799 --> 00:03:28.480
+with dynamic cmos
+
+88
+00:03:28.480 --> 00:03:31.360
+so because of less number of pmos in
+
+89
+00:03:31.360 --> 00:03:32.640
+dynamic cmos
+
+90
+00:03:32.640 --> 00:03:35.120
+here total size as well as capacitive
+
+91
+00:03:35.120 --> 00:03:36.879
+loading will be less as well as you can
+
+92
+00:03:36.879 --> 00:03:37.920
+find
+
+93
+00:03:37.920 --> 00:03:40.400
+switching characteristic is faster in
+
+94
+00:03:40.400 --> 00:03:41.519
+dynamic cmos
+
+95
+00:03:41.519 --> 00:03:43.440
+so that is what the basic case which is
+
+96
+00:03:43.440 --> 00:03:47.040
+there with dynamic cmos now
+
+97
+00:03:47.040 --> 00:03:50.720
+i'll explain you dynamic cmos inverter
+
+98
+00:03:50.720 --> 00:03:54.159
+and then we will see how dynamic cmos
+
+99
+00:03:54.159 --> 00:03:55.280
+functions
+
+100
+00:03:55.280 --> 00:03:58.959
+so as we have seen the basic structure
+
+101
+00:03:58.959 --> 00:04:01.920
+here in dynamic cmos inverter we have
+
+102
+00:04:01.920 --> 00:04:03.439
+vdd supply
+
+103
+00:04:03.439 --> 00:04:06.799
+after that pmos gated clock
+
+104
+00:04:06.799 --> 00:04:08.799
+that we need to have so here we provide
+
+105
+00:04:08.799 --> 00:04:09.840
+clock
+
+106
+00:04:09.840 --> 00:04:12.080
+after that pull down network is there in
+
+107
+00:04:12.080 --> 00:04:14.000
+that there is only
+
+108
+00:04:14.000 --> 00:04:17.918
+1 and mos 4 inverator so here we give
+
+109
+00:04:17.918 --> 00:04:22.639
+input after that we have
+
+110
+00:04:22.960 --> 00:04:26.720
+gated clock nmos over here
+
+111
+00:04:26.720 --> 00:04:28.960
+and then we connect this to ground and
+
+112
+00:04:28.960 --> 00:04:31.520
+we take output from this terminal
+
+113
+00:04:31.520 --> 00:04:35.840
+and here we have load capacitance
+
+114
+00:04:35.840 --> 00:04:38.639
+cl so this is a basic circuit which we
+
+115
+00:04:38.639 --> 00:04:39.840
+have
+
+116
+00:04:39.840 --> 00:04:42.960
+for dynamic cmos inverter
+
+117
+00:04:42.960 --> 00:04:46.560
+now as if we talk about its working
+
+118
+00:04:46.560 --> 00:04:50.160
+then to understand it's working first
+
+119
+00:04:50.160 --> 00:04:52.240
+i'll explain you there are basically two
+
+120
+00:04:52.240 --> 00:04:57.040
+modes in which this circuit functions
+
+121
+00:04:57.040 --> 00:05:02.000
+first mode that is pre-charging mode
+
+122
+00:05:02.000 --> 00:05:07.039
+and second mode that is evaluation mode
+
+123
+00:05:07.280 --> 00:05:09.120
+i'll explain you how these two modes are
+
+124
+00:05:09.120 --> 00:05:10.479
+there for that
+
+125
+00:05:10.479 --> 00:05:14.479
+we will see timing diagram
+
+126
+00:05:14.960 --> 00:05:17.520
+so in timing diagram here we will be
+
+127
+00:05:17.520 --> 00:05:18.320
+having
+
+128
+00:05:18.320 --> 00:05:20.960
+clock signal that we will observe with
+
+129
+00:05:20.960 --> 00:05:22.800
+respect to time
+
+130
+00:05:22.800 --> 00:05:24.960
+after that i will show you timing
+
+131
+00:05:24.960 --> 00:05:26.479
+diagram of input
+
+132
+00:05:26.479 --> 00:05:28.160
+that is even we will evaluate with
+
+133
+00:05:28.160 --> 00:05:30.800
+respect to time
+
+134
+00:05:30.800 --> 00:05:34.160
+and then here we will observe our output
+
+135
+00:05:34.160 --> 00:05:37.360
+with respect to time and i will explain
+
+136
+00:05:37.360 --> 00:05:38.320
+you
+
+137
+00:05:38.320 --> 00:05:42.320
+how these two modes are associated
+
+138
+00:05:44.320 --> 00:05:47.199
+now see here in this clock we will be
+
+139
+00:05:47.199 --> 00:05:47.919
+giving
+
+140
+00:05:47.919 --> 00:05:50.960
+clock signal so clock signal will be
+
+141
+00:05:50.960 --> 00:05:53.840
+like this
+
+142
+00:05:55.199 --> 00:05:58.080
+in that this is what logic zero of clock
+
+143
+00:05:58.080 --> 00:05:59.600
+that one can say
+
+144
+00:05:59.600 --> 00:06:02.160
+this is logic one of clock this is logic
+
+145
+00:06:02.160 --> 00:06:04.080
+zero of clock and this is logic one of
+
+146
+00:06:04.080 --> 00:06:04.960
+clock
+
+147
+00:06:04.960 --> 00:06:08.240
+and here we give input that is logic
+
+148
+00:06:08.240 --> 00:06:09.520
+high
+
+149
+00:06:09.520 --> 00:06:13.840
+for this time period and logic low
+
+150
+00:06:13.840 --> 00:06:17.199
+for this time period right
+
+151
+00:06:17.199 --> 00:06:20.720
+now i'll explain you how this circuit
+
+152
+00:06:20.720 --> 00:06:21.759
+functions
+
+153
+00:06:21.759 --> 00:06:23.840
+in two different modes pre-charging mode
+
+154
+00:06:23.840 --> 00:06:25.759
+and evaluation mode
+
+155
+00:06:25.759 --> 00:06:28.800
+now you see let us consider first case
+
+156
+00:06:28.800 --> 00:06:31.919
+where clock is equals to 0 and input is
+
+157
+00:06:31.919 --> 00:06:33.120
+equals to 1
+
+158
+00:06:33.120 --> 00:06:36.160
+so now you see clock is equals to 0
+
+159
+00:06:36.160 --> 00:06:40.160
+and input is equals to 1 so this
+
+160
+00:06:40.160 --> 00:06:43.360
+pmos that will get on and this pmos that
+
+161
+00:06:43.360 --> 00:06:44.639
+will get off
+
+162
+00:06:44.639 --> 00:06:46.800
+and this pmos that will get on but as
+
+163
+00:06:46.800 --> 00:06:49.199
+this pmos is off
+
+164
+00:06:49.199 --> 00:06:52.800
+this load capacitance that will charge
+
+165
+00:06:52.800 --> 00:06:55.680
+via this pmos like this so this load
+
+166
+00:06:55.680 --> 00:06:56.560
+capacitance
+
+167
+00:06:56.560 --> 00:06:59.840
+that will get charged by voltage vdd
+
+168
+00:06:59.840 --> 00:07:02.000
+right so here load capacitance that is
+
+169
+00:07:02.000 --> 00:07:04.639
+getting charged
+
+170
+00:07:05.599 --> 00:07:09.759
+to voltage vdd and that is referred as
+
+171
+00:07:09.759 --> 00:07:11.360
+pre-charging mode
+
+172
+00:07:11.360 --> 00:07:14.479
+right and you see here
+
+173
+00:07:14.479 --> 00:07:17.840
+why pre-charging is happening so
+
+174
+00:07:17.840 --> 00:07:19.919
+see before we evaluate what is our
+
+175
+00:07:19.919 --> 00:07:20.880
+output
+
+176
+00:07:20.880 --> 00:07:24.240
+first there will be pre-charging
+
+177
+00:07:24.240 --> 00:07:27.440
+that happens right and
+
+178
+00:07:27.440 --> 00:07:29.280
+here we don't evaluate what is our
+
+179
+00:07:29.280 --> 00:07:30.639
+output right
+
+180
+00:07:30.639 --> 00:07:32.560
+the reason is even though if input is
+
+181
+00:07:32.560 --> 00:07:33.759
+zero
+
+182
+00:07:33.759 --> 00:07:36.720
+this output that will get charged right
+
+183
+00:07:36.720 --> 00:07:37.840
+to vdd
+
+184
+00:07:37.840 --> 00:07:40.479
+so here first output voltage that will
+
+185
+00:07:40.479 --> 00:07:41.440
+get charged
+
+186
+00:07:41.440 --> 00:07:45.120
+via pmos like this now you see
+
+187
+00:07:45.120 --> 00:07:48.240
+what will happen as if input is one and
+
+188
+00:07:48.240 --> 00:07:51.360
+clock is equals to one so when input is
+
+189
+00:07:51.360 --> 00:07:52.479
+one
+
+190
+00:07:52.479 --> 00:07:54.879
+so at that time this nmos that will get
+
+191
+00:07:54.879 --> 00:07:56.639
+on and this pmos
+
+192
+00:07:56.639 --> 00:08:00.000
+that will get off and this nmos that
+
+193
+00:08:00.000 --> 00:08:01.280
+will get on
+
+194
+00:08:01.280 --> 00:08:04.240
+so whatever charge which is that in this
+
+195
+00:08:04.240 --> 00:08:05.360
+cl
+
+196
+00:08:05.360 --> 00:08:08.479
+that will get discharged via this loop
+
+197
+00:08:08.479 --> 00:08:11.599
+and it will get grounded over here right
+
+198
+00:08:11.599 --> 00:08:13.919
+so your output that will start to
+
+199
+00:08:13.919 --> 00:08:15.440
+discharge
+
+200
+00:08:15.440 --> 00:08:18.000
+right and that discharging that is
+
+201
+00:08:18.000 --> 00:08:19.840
+depending on the resultant resistance
+
+202
+00:08:19.840 --> 00:08:21.840
+which is there with this circuit
+
+203
+00:08:21.840 --> 00:08:24.960
+and it will be having output which is
+
+204
+00:08:24.960 --> 00:08:28.240
+logic 0 over here right so we can say
+
+205
+00:08:28.240 --> 00:08:31.280
+output is logic 0
+
+206
+00:08:31.280 --> 00:08:33.599
+and input is logic 1 so this is working
+
+207
+00:08:33.599 --> 00:08:36.080
+as inverter
+
+208
+00:08:36.080 --> 00:08:39.120
+now you see in third case
+
+209
+00:08:39.120 --> 00:08:41.599
+our clock is equals to zero and input is
+
+210
+00:08:41.599 --> 00:08:43.039
+equals to zero
+
+211
+00:08:43.039 --> 00:08:45.120
+so when clock is equals to zero this
+
+212
+00:08:45.120 --> 00:08:46.399
+will get on
+
+213
+00:08:46.399 --> 00:08:48.560
+and this will get off and input is
+
+214
+00:08:48.560 --> 00:08:51.120
+equals to zero so this will be even off
+
+215
+00:08:51.120 --> 00:08:54.000
+so again this load capacitance that will
+
+216
+00:08:54.000 --> 00:08:54.880
+get start
+
+217
+00:08:54.880 --> 00:08:58.080
+to charge via this pmos like this
+
+218
+00:08:58.080 --> 00:09:01.279
+right so you will be observing your
+
+219
+00:09:01.279 --> 00:09:03.200
+load capacitance that will get start to
+
+220
+00:09:03.200 --> 00:09:05.120
+charge so output will
+
+221
+00:09:05.120 --> 00:09:08.240
+increase with respect to charging time
+
+222
+00:09:08.240 --> 00:09:10.080
+constant which is associated with this
+
+223
+00:09:10.080 --> 00:09:11.279
+pmos
+
+224
+00:09:11.279 --> 00:09:15.360
+and it will acquire vdd voltage
+
+225
+00:09:15.360 --> 00:09:18.560
+right and here you see again
+
+226
+00:09:18.560 --> 00:09:21.279
+what we do here we don't evaluate our
+
+227
+00:09:21.279 --> 00:09:22.160
+output
+
+228
+00:09:22.160 --> 00:09:24.560
+right here we are just charging load
+
+229
+00:09:24.560 --> 00:09:26.800
+capacitance so here again three charging
+
+230
+00:09:26.800 --> 00:09:28.399
+is happening
+
+231
+00:09:28.399 --> 00:09:31.760
+and now in fourth case
+
+232
+00:09:31.760 --> 00:09:34.080
+we have clock that is equals to one and
+
+233
+00:09:34.080 --> 00:09:35.839
+input is equals to 0
+
+234
+00:09:35.839 --> 00:09:37.920
+so when clock is equals to 1 this will
+
+235
+00:09:37.920 --> 00:09:39.440
+get off
+
+236
+00:09:39.440 --> 00:09:42.720
+and this will get on and
+
+237
+00:09:42.720 --> 00:09:44.640
+input is equals to 0 so this will get
+
+238
+00:09:44.640 --> 00:09:46.480
+off so as this is off
+
+239
+00:09:46.480 --> 00:09:49.760
+this load capacitance does not find
+
+240
+00:09:49.760 --> 00:09:52.399
+a path to get discharge so that will
+
+241
+00:09:52.399 --> 00:09:54.080
+acquire
+
+242
+00:09:54.080 --> 00:09:57.360
+its voltage vdd only right during this
+
+243
+00:09:57.360 --> 00:09:58.480
+state
+
+244
+00:09:58.480 --> 00:10:02.160
+but here if you observe our output
+
+245
+00:10:02.160 --> 00:10:06.160
+is having that open circuit
+
+246
+00:10:06.160 --> 00:10:08.480
+at input side over here so it will stay
+
+247
+00:10:08.480 --> 00:10:09.760
+in high impedance mode
+
+248
+00:10:09.760 --> 00:10:12.399
+so here you will be having output logic
+
+249
+00:10:12.399 --> 00:10:13.040
+one
+
+250
+00:10:13.040 --> 00:10:16.079
+but output logic one
+
+251
+00:10:16.079 --> 00:10:19.279
+that is there along with high
+
+252
+00:10:19.279 --> 00:10:23.040
+impedance mode so output
+
+253
+00:10:23.040 --> 00:10:26.160
+is there
+
+254
+00:10:26.160 --> 00:10:32.480
+with high impedance
+
+255
+00:10:32.480 --> 00:10:34.399
+why output is there with high impedance
+
+256
+00:10:34.399 --> 00:10:36.480
+the reason is this is there in open
+
+257
+00:10:36.480 --> 00:10:37.519
+circuit
+
+258
+00:10:37.519 --> 00:10:40.880
+so this cl that does not find a part to
+
+259
+00:10:40.880 --> 00:10:42.160
+get discharge
+
+260
+00:10:42.160 --> 00:10:46.560
+right so it will be there in
+
+261
+00:10:46.560 --> 00:10:49.680
+high impedance mode and logic 1
+
+262
+00:10:49.680 --> 00:10:52.800
+so here you see what we do
+
+263
+00:10:52.800 --> 00:10:56.079
+here input is 0
+
+264
+00:10:56.240 --> 00:10:59.200
+and output is 1 and here input is 1
+
+265
+00:10:59.200 --> 00:11:00.959
+output is zero so here we do
+
+266
+00:11:00.959 --> 00:11:03.680
+evaluation
+
+267
+00:11:04.640 --> 00:11:07.839
+so basically pre-charging that happens
+
+268
+00:11:07.839 --> 00:11:11.440
+when clock is equals to zero
+
+269
+00:11:12.399 --> 00:11:16.000
+and evaluation that is done when
+
+270
+00:11:16.000 --> 00:11:20.880
+clock is equals to 1
+
+271
+00:11:21.839 --> 00:11:25.440
+so that is how dynamic cmos is working
+
+272
+00:11:25.440 --> 00:11:27.760
+but here if you observe there are some
+
+273
+00:11:27.760 --> 00:11:29.839
+issues which is there with this circuit
+
+274
+00:11:29.839 --> 00:11:32.079
+see issue number one is when output is
+
+275
+00:11:32.079 --> 00:11:33.360
+logic high
+
+276
+00:11:33.360 --> 00:11:35.200
+at a time it is there in high impedance
+
+277
+00:11:35.200 --> 00:11:37.839
+mode and high impedance mode
+
+278
+00:11:37.839 --> 00:11:41.440
+is more prone to noise
+
+279
+00:11:41.440 --> 00:11:44.160
+immunity right so noise immunity that
+
+280
+00:11:44.160 --> 00:11:45.040
+will be less
+
+281
+00:11:45.040 --> 00:11:46.720
+in case of high impedance mode which is
+
+282
+00:11:46.720 --> 00:11:48.320
+there at output side
+
+283
+00:11:48.320 --> 00:11:50.720
+so this is one issue which is there with
+
+284
+00:11:50.720 --> 00:11:51.920
+dynamic cmos
+
+285
+00:11:51.920 --> 00:11:54.800
+but if you observe as per the basic
+
+286
+00:11:54.800 --> 00:11:56.320
+discussion which we have done
+
+287
+00:11:56.320 --> 00:11:59.440
+earlier total number of pmos
+
+288
+00:11:59.440 --> 00:12:02.560
+that is less compared to this static
+
+289
+00:12:02.560 --> 00:12:04.639
+cmos circuit here only one pmos
+
+290
+00:12:04.639 --> 00:12:07.200
+is there right so that is one basic
+
+291
+00:12:07.200 --> 00:12:08.959
+advantage which is there with dynamic
+
+292
+00:12:08.959 --> 00:12:09.760
+cmos
+
+293
+00:12:09.760 --> 00:12:13.440
+now what i'll do is i'll explain you
+
+294
+00:12:13.440 --> 00:12:16.160
+the basic advantages and disadvantages
+
+295
+00:12:16.160 --> 00:12:19.760
+which is there with dynamic cmos
+
+296
+00:12:20.560 --> 00:12:22.800
+so when we talk about advantages then
+
+297
+00:12:22.800 --> 00:12:23.600
+you see
+
+298
+00:12:23.600 --> 00:12:27.440
+for one stage of dynamic cmos
+
+299
+00:12:27.440 --> 00:12:30.480
+maximum output is vdd and minimum output
+
+300
+00:12:30.480 --> 00:12:31.600
+is ground
+
+301
+00:12:31.600 --> 00:12:36.240
+right so we can say voh that is vdd
+
+302
+00:12:36.240 --> 00:12:40.320
+and vol that is 0 so it has
+
+303
+00:12:40.320 --> 00:12:45.279
+maximum voltage swing at output side
+
+304
+00:12:46.240 --> 00:12:49.680
+now if you observe it's working then in
+
+305
+00:12:49.680 --> 00:12:51.040
+its working you find
+
+306
+00:12:51.040 --> 00:12:54.639
+that in on and off state at output side
+
+307
+00:12:54.639 --> 00:12:55.920
+you will be finding
+
+308
+00:12:55.920 --> 00:12:59.600
+there is no steady state current
+
+309
+00:13:00.240 --> 00:13:03.839
+so steady state current that is 0
+
+310
+00:13:03.839 --> 00:13:06.880
+in output is equals to zero as well as
+
+311
+00:13:06.880 --> 00:13:08.880
+one
+
+312
+00:13:08.880 --> 00:13:12.160
+now if you observe in its structure
+
+313
+00:13:12.160 --> 00:13:13.519
+in that case you will be finding
+
+314
+00:13:13.519 --> 00:13:15.519
+compared to static cmos
+
+315
+00:13:15.519 --> 00:13:18.800
+number of pmos are very less it has only
+
+316
+00:13:18.800 --> 00:13:21.839
+one pmos
+
+317
+00:13:22.240 --> 00:13:25.279
+and because of it has only one pmos its
+
+318
+00:13:25.279 --> 00:13:26.320
+switching speed
+
+319
+00:13:26.320 --> 00:13:29.760
+is fast and
+
+320
+00:13:29.760 --> 00:13:33.120
+you will be finding as pmos is larger in
+
+321
+00:13:33.120 --> 00:13:35.519
+size and it has only one pmos
+
+322
+00:13:35.519 --> 00:13:38.079
+so circuit size of dynamic cmos that
+
+323
+00:13:38.079 --> 00:13:38.880
+will be
+
+324
+00:13:38.880 --> 00:13:42.639
+small so these are
+
+325
+00:13:42.639 --> 00:13:44.800
+the advantages which is there with
+
+326
+00:13:44.800 --> 00:13:47.360
+dynamic cmos one more advantage that one
+
+327
+00:13:47.360 --> 00:13:48.240
+can say
+
+328
+00:13:48.240 --> 00:13:51.519
+it has less capacitance loading compared
+
+329
+00:13:51.519 --> 00:13:51.920
+to
+
+330
+00:13:51.920 --> 00:13:54.800
+static cmos
+
+331
+00:13:55.680 --> 00:13:58.480
+now i'll discuss disadvantages which is
+
+332
+00:13:58.480 --> 00:13:59.199
+there
+
+333
+00:13:59.199 --> 00:14:03.120
+with dynamic cmos so when we talk about
+
+334
+00:14:03.120 --> 00:14:04.320
+disadvantages
+
+335
+00:14:04.320 --> 00:14:07.440
+then in its working i have explained
+
+336
+00:14:07.440 --> 00:14:11.040
+when you have output at logic 1
+
+337
+00:14:11.040 --> 00:14:13.519
+it is there in high impedance mode which
+
+338
+00:14:13.519 --> 00:14:14.959
+is more
+
+339
+00:14:14.959 --> 00:14:18.959
+affected by noise
+
+340
+00:14:20.959 --> 00:14:24.079
+and if you observe it's working
+
+341
+00:14:24.079 --> 00:14:27.360
+then here this dynamic cmos that cannot
+
+342
+00:14:27.360 --> 00:14:30.000
+work without having pre-charging so
+
+343
+00:14:30.000 --> 00:14:31.279
+pre-charging
+
+344
+00:14:31.279 --> 00:14:35.040
+is compulsory to have a working
+
+345
+00:14:35.040 --> 00:14:38.160
+of dynamic cmos
+
+346
+00:14:38.160 --> 00:14:40.399
+now there are some more issues that i'll
+
+347
+00:14:40.399 --> 00:14:41.920
+be going to discuss in
+
+348
+00:14:41.920 --> 00:14:45.040
+my future videos dynamic cmos
+
+349
+00:14:45.040 --> 00:14:48.480
+is having a problem of cascading
+
+350
+00:14:48.480 --> 00:14:50.320
+so that i'll explain you in my next
+
+351
+00:14:50.320 --> 00:14:52.320
+video it has a problem regarding
+
+352
+00:14:52.320 --> 00:14:54.959
+cascading
+
+353
+00:14:55.519 --> 00:14:58.720
+and dynamic cmos faces
+
+354
+00:14:58.720 --> 00:15:01.120
+a problem of race so that even i'll
+
+355
+00:15:01.120 --> 00:15:03.199
+explain you in my future videos
+
+356
+00:15:03.199 --> 00:15:07.120
+so it has a race problem
+
+357
+00:15:07.680 --> 00:15:10.079
+so these are the disadvantages and
+
+358
+00:15:10.079 --> 00:15:11.920
+advantages which is there with dynamic
+
+359
+00:15:11.920 --> 00:15:12.639
+cmos
+
+360
+00:15:12.639 --> 00:15:14.720
+i hope that you have understood this
+
+361
+00:15:14.720 --> 00:15:16.000
+this cascading issue
+
+362
+00:15:16.000 --> 00:15:18.079
+and race problem that i'll be going to
+
+363
+00:15:18.079 --> 00:15:19.920
+explain you in my next video so just
+
+364
+00:15:19.920 --> 00:15:21.440
+stay tuned with this channel
+
+365
+00:15:21.440 --> 00:15:22.639
+thank you so much for watching this
+
+366
+00:15:22.639 --> 00:15:24.639
+video please do give your valuable
+
+367
+00:15:24.639 --> 00:15:25.839
+suggestions the reason is your
+
+368
+00:15:25.839 --> 00:15:27.519
+suggestions matters to me and based on
+
+369
+00:15:27.519 --> 00:15:29.120
+that in future i'll be making videos
+
+370
+00:15:29.120 --> 00:15:30.560
+which will be solving your queries so
+
+371
+00:15:30.560 --> 00:15:32.160
+please do give your valuable suggestions
+
+372
+00:15:32.160 --> 00:15:35.519
+thank you so much
+

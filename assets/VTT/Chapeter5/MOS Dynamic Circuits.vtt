@@ -1,0 +1,2016 @@
+WEBVTT
+
+1
+00:00:17.369 --> 00:00:23.800
+Hello and welcome to today’s lecture, on
+MOS dynamic circuits. It is the first lecture
+
+2
+00:00:23.800 --> 00:00:31.689
+on this topic, and in two lectures, I shall
+consider different aspects of dynamic circuits
+
+3
+00:00:31.689 --> 00:00:39.280
+that are the MOS dynamic circuits. And here
+is the agenda of today’s lecture, after
+
+4
+00:00:39.280 --> 00:00:46.809
+a brief introduction about what we have discussed
+in my earlier lectures. I shall discuss about
+
+5
+00:00:46.809 --> 00:00:54.809
+single-phase nMOS dynamic circuits although
+these are not in wide use, but for the sake
+
+6
+00:00:54.809 --> 00:01:01.660
+of completeness, we have to discuss it. Then
+we shall see discuss about two-phase two-phase
+
+7
+00:01:01.660 --> 00:01:10.200
+MOS nMOS dynamic circuits, and also we shall
+discuss about two-phase clock generation technique
+
+8
+00:01:10.200 --> 00:01:16.909
+followed by two-phase CMOS dynamic circuits.
+Then finally, I shall conclude our lecture
+
+9
+00:01:16.909 --> 00:01:20.479
+by discussing the advantages and limitation
+of dynamic circuits.
+
+10
+00:01:20.479 --> 00:01:29.210
+Coming to the introduction, we have seen that
+pseudo-nMOS static circuits have two disadvantages.
+
+11
+00:01:29.210 --> 00:01:35.000
+So, they draw static current as long as power
+remains on and, because of ratioed logic,
+
+12
+00:01:35.000 --> 00:01:42.129
+low-level output is not strong. On the other
+hand, there is no static power dissipation
+
+13
+00:01:42.129 --> 00:01:46.700
+in CMOS circuits, but logic function is implemented
+twice.
+
+14
+00:01:46.700 --> 00:01:58.340
+Let me consider a very simple function say
+you have to realize y is equal to x 1 plus
+
+15
+00:01:58.340 --> 00:02:14.110
+x 2 x 3. So, using static CMOS, what will
+you do? You will realize this function you
+
+16
+00:02:14.110 --> 00:02:21.750
+have to take compliment of this; that means,
+this will be the compliment of this is x bar
+
+17
+00:02:21.750 --> 00:02:35.120
+dot x 2 bar x 3 bar. So, this is your y bar.
+So, the network will correspond to this this
+
+18
+00:02:35.120 --> 00:02:46.799
+x bar x 1 bar dot x 2 bar plus x 3 bar. So,
+the circuit will be like this. So, it will
+
+19
+00:02:46.799 --> 00:03:06.560
+have x 1 x 1 dash and then x 2 dash x 3 dash
+and these are connected to ground, and the
+
+20
+00:03:06.560 --> 00:03:13.640
+pMOS network will be dual of that; that means,
+here you will have these are parallel. So,
+
+21
+00:03:13.640 --> 00:03:32.310
+they will be in series. So, x 1 dash and x
+2 dash x 3 dash. And you will take the output
+
+22
+00:03:32.310 --> 00:03:43.819
+from here, but if you realize the is the static
+CMOS and if you realize by using pseudo-nMOS
+
+23
+00:03:43.819 --> 00:03:53.799
+then you do not require. So, many pMOS transistors
+you require only one pMOS transistor and then
+
+24
+00:03:53.799 --> 00:04:09.999
+the n MOS network part is identical x 1 dash
+and you will have x 2 dash x 3 dash.
+
+25
+00:04:09.999 --> 00:04:16.089
+So, we if let us compare the advantages and
+disadvantages which we have discussed in detail
+
+26
+00:04:16.089 --> 00:04:22.210
+in the last two lectures. So, static CMOS
+circuits as we can see same functionality
+
+27
+00:04:22.210 --> 00:04:36.360
+is implemented twice in the pMOS network and
+the nMOS network. So, it requires large area
+
+28
+00:04:36.360 --> 00:04:47.259
+and here you can say smaller area and, because
+of large area and next stage we will drive
+
+29
+00:04:47.259 --> 00:04:57.270
+both to a p MOS transistor and n MOS transistor,
+because of that the capacitance is large.
+
+30
+00:04:57.270 --> 00:05:07.210
+So, delay is long longer delay long delay
+primary primarily, because of larger area
+
+31
+00:05:07.210 --> 00:05:14.129
+and you have to drive two transistors simultaneously
+and also; however, the main advantage of this
+
+32
+00:05:14.129 --> 00:05:25.650
+is the power dissipation is there is no static
+power dissipation. So, no static power dissipation.
+
+33
+00:05:25.650 --> 00:05:32.960
+On the other hand is in case of pseudo small
+nMOS circuit it has occupies smaller area
+
+34
+00:05:32.960 --> 00:05:45.120
+smaller small delay smaller delay, but there
+is static power dissipation static power dissipation
+
+35
+00:05:45.120 --> 00:05:56.520
+is there. And it has been found that the pseudo-nMOS
+circuits can be 5 times faster than that of
+
+36
+00:05:56.520 --> 00:06:05.199
+static CMOS circuits. So, as I mention in
+my last lecture, we have to combine the advantages
+
+37
+00:06:05.199 --> 00:06:11.800
+of both pseudo-nMOS and static CMOS and we
+have seen, because of extra area and extra
+
+38
+00:06:11.800 --> 00:06:17.740
+number of transistors the load capacitance
+of on gates of static CMOS circuits is considerably
+
+39
+00:06:17.740 --> 00:06:21.130
+higher.
+So, speeds of operation of static CMOS and
+
+40
+00:06:21.130 --> 00:06:29.780
+pseudo-nMOS circuits are not fairly comparable
+as I mention that pseudo-n MOS circuits are
+
+41
+00:06:29.780 --> 00:06:37.669
+faster, because the of course, the static
+CMOS has twice the available current drive,
+
+42
+00:06:37.669 --> 00:06:46.129
+but static CMOS has got twice the capacitance
+of nMOS. So, although current drive is larger
+
+43
+00:06:46.129 --> 00:06:53.990
+and, but because of larger capacitance delay
+is longer. So, whenever you have choice between
+
+44
+00:06:53.990 --> 00:07:00.680
+pseudo-nMOS and static CMOS on what basis
+you will select one from the other if low
+
+45
+00:07:00.680 --> 00:07:13.629
+power is of importance than you will go for
+your static CMOS. On the other hand higher
+
+46
+00:07:13.629 --> 00:07:23.599
+speed is of requirement then you will go for
+pseudo-nMOS. Now what we are interested in
+
+47
+00:07:23.599 --> 00:07:29.100
+we would like to combine the advantages of
+both of them, and that is why as I mentioned
+
+48
+00:07:29.100 --> 00:07:30.819
+in my last lecture.
+
+49
+00:07:30.819 --> 00:07:36.389
+We shall be going for dynamic c MOS; that
+means, the advantage of low power of static
+
+50
+00:07:36.389 --> 00:07:42.169
+CMOS circuits and smaller chip area of n MOS
+circuits or pseudo-n MOS circuits they are
+
+51
+00:07:42.169 --> 00:07:49.060
+same are combined in dynamic circuits leading
+to circuits of smaller area lower and lower
+
+52
+00:07:49.060 --> 00:07:55.760
+power dissipation; that means, you are achieving
+both. And also as I mentioned MOS dynamic
+
+53
+00:07:55.760 --> 00:08:03.860
+circuits are also faster in speed. And in
+the static combinational circuits the capacitance
+
+54
+00:08:03.860 --> 00:08:10.379
+is regard as a parameter responsible for poor
+performance of the circuit and therefore,
+
+55
+00:08:10.379 --> 00:08:15.590
+considered as an undesirable circuit element.
+We have seen that while discussing static
+
+56
+00:08:15.590 --> 00:08:23.949
+CMOS circuit that delay is large, because
+of larger capacitance. So, the capacitance
+
+57
+00:08:23.949 --> 00:08:32.419
+larger capacitances or presence of capacitances
+is to be a menace, because of capacitance
+
+58
+00:08:32.419 --> 00:08:38.100
+there is delay and delay is longer if the
+capacitance is larger.
+
+59
+00:08:38.100 --> 00:08:44.830
+Now, the question arises can the capacitance
+I am talking about the parasitic capacitances
+
+60
+00:08:44.830 --> 00:08:52.510
+that is present in the circuit, can be used
+fruitfully can be used can it be used for
+
+61
+00:08:52.510 --> 00:08:59.670
+good cause. So, far it is associated with
+with delay of a circuit, but is there any
+
+62
+00:08:59.670 --> 00:09:07.680
+way by which the capacitances can be utilized
+to achieve functionality of the circuit which
+
+63
+00:09:07.680 --> 00:09:13.480
+is superior in performance. In fact, that
+is where the dynamic CMOS comes in in dynamic
+
+64
+00:09:13.480 --> 00:09:23.910
+CMOS the capacitator which is present within
+the MOS circuits we have seen that the that
+
+65
+00:09:23.910 --> 00:09:32.160
+get to substrate or get to channel capacitance.
+That capacitance is of very good quality,
+
+66
+00:09:32.160 --> 00:09:37.740
+because of good quality silicon dioxide layer
+that is created thin oxide layer that is created
+
+67
+00:09:37.740 --> 00:09:44.580
+and that capacitance we shall exploit or utilize
+how.
+
+68
+00:09:44.580 --> 00:09:51.740
+We know that a capacitor can be used to store
+charge. So, since a capacitor can be used
+
+69
+00:09:51.740 --> 00:10:00.250
+to store charge can we develop circuit for
+the capacitor intrinsic capacitor should be
+
+70
+00:10:00.250 --> 00:10:07.910
+used to store charge and that will be used
+for implementing circuit operation. And in
+
+71
+00:10:07.910 --> 00:10:15.240
+fact, we shall see that dynamic circuits exactly
+does that dynamic MOS circuits are realized
+
+72
+00:10:15.240 --> 00:10:23.790
+by using parasitic capacitors to store information.
+This is also done in a in a memory elements
+
+73
+00:10:23.790 --> 00:10:32.420
+as you know dynamic ram that is used in almost
+all systems, they are also these the capacitors
+
+74
+00:10:32.420 --> 00:10:38.820
+are utilized to store information, but here
+we are talking about realizing combinational
+
+75
+00:10:38.820 --> 00:10:45.519
+circuit, by storing information in those parasitic
+capacitors.
+
+76
+00:10:45.519 --> 00:10:53.480
+Question naturally arises are they free from
+any disadvantages; obviously, in this world
+
+77
+00:10:53.480 --> 00:11:00.600
+nothing is one sided we shall as we shall
+see, it will be dynamic CMOS circuits have
+
+78
+00:11:00.600 --> 00:11:06.560
+many advantages there will be many limitations
+as well. So, our objective will be to design
+
+79
+00:11:06.560 --> 00:11:14.680
+circuits which will overcome the limitations
+and utilize the good features.
+
+80
+00:11:14.680 --> 00:11:21.139
+So, let us proceed to discuss about dynamic
+circuits to start with we shall discuss about
+
+81
+00:11:21.139 --> 00:11:30.300
+single-phase dynamic circuits although single-phase
+dynamic circuits are not not very common,
+
+82
+00:11:30.300 --> 00:11:38.079
+but for the sake of completeness and for pedagogical
+purposes. I shall start our discussion we
+
+83
+00:11:38.079 --> 00:11:45.329
+shall start our discussions about single-phase
+dynamic circuits. One very important point
+
+84
+00:11:45.329 --> 00:11:52.800
+to be noticed at the outset that a dynamic
+circuit will require some clock. So, far we
+
+85
+00:11:52.800 --> 00:12:01.829
+have seen that either nMOS or pseudo-nMOS
+or static CMOS circuits do not require any
+
+86
+00:12:01.829 --> 00:12:07.710
+clock for their operation. So, clock was not
+present particularly when we are realizing
+
+87
+00:12:07.710 --> 00:12:12.820
+combinational circuit, but as we shall see
+dynamic circuits will always require some
+
+88
+00:12:12.820 --> 00:12:13.820
+clock.
+
+89
+00:12:13.820 --> 00:12:34.560
+So, if an in case of your single-phase
+dynamic MOS circuit you will require some
+
+90
+00:12:34.560 --> 00:12:43.009
+clock. What do you really mean, by clock or
+how do you characterize a clock. You will
+
+91
+00:12:43.009 --> 00:12:49.290
+be encountering a clock in any digital circuits
+how do you characterize it you will see that
+
+92
+00:12:49.290 --> 00:13:01.440
+clock is essentially, a train of pulses like
+this
+
+93
+00:13:01.440 --> 00:13:13.790
+one important feature is the or parameter
+is the time period t. So, time period is one
+
+94
+00:13:13.790 --> 00:13:21.920
+parameter time period T or it there is another
+parameter associated with time period that
+
+95
+00:13:21.920 --> 00:13:28.940
+is your frequency frequency is equal to 1
+by T. So, a clock is characterized by by its
+
+96
+00:13:28.940 --> 00:13:35.940
+clock frequency. Now, in addition to that
+within each cycle. So, this time period is
+
+97
+00:13:35.940 --> 00:13:45.589
+consider a single cycle and this is repeated
+uh repeated continuously. So, if you look
+
+98
+00:13:45.589 --> 00:13:53.990
+at one particular time period you see that
+there are two states associated with it one
+
+99
+00:13:53.990 --> 00:14:07.149
+is your high, and another is low so; that
+means, there are two states what are the two
+
+100
+00:14:07.149 --> 00:14:15.430
+states high and low.
+So, these are the two important states which
+
+101
+00:14:15.430 --> 00:14:21.389
+are used to activate circuits. And whenever
+it is associated with these voltage levels
+
+102
+00:14:21.389 --> 00:14:30.110
+high voltage level and and low voltage level
+we call it level sensitive; that means, the
+
+103
+00:14:30.110 --> 00:14:37.050
+circuit is level sensitive whenever it is
+a change occurs whenever the circuit is high
+
+104
+00:14:37.050 --> 00:14:44.240
+level or low level depending on that the operation
+changes. Another characteristic parameter
+
+105
+00:14:44.240 --> 00:14:52.830
+is also there you know there is you can see
+each period has got two transitions low to
+
+106
+00:14:52.830 --> 00:15:02.060
+high and high to low. And these are called
+edge sensitive. They are circuits which are
+
+107
+00:15:02.060 --> 00:15:16.940
+sensitive to edge; that means, here low to
+high and high to low. So, there are two edges
+
+108
+00:15:16.940 --> 00:15:26.480
+in each period. So, the events can occur or
+can be initiated either by changing level
+
+109
+00:15:26.480 --> 00:15:32.910
+or by changing edges. So, for as the MOS dynamic
+circuits are concern as we shall see these
+
+110
+00:15:32.910 --> 00:15:38.649
+are level sensitive; that means, based on
+level the operation of the circuit changes.
+
+111
+00:15:38.649 --> 00:15:51.139
+Let us draw a very simple single-phase dynamic
+MOS inverter. How do you realize an inverter,
+
+112
+00:15:51.139 --> 00:16:01.649
+actually you realize you require two transistors
+connected in this phone, and here you apply
+
+113
+00:16:01.649 --> 00:16:11.500
+a clock say this clock in simple form we usually
+write is c l clock clock is applied and here
+
+114
+00:16:11.500 --> 00:16:19.339
+we apply Vdd then we have the traditional
+pull down transistor present here, this is
+
+115
+00:16:19.339 --> 00:16:25.980
+your pull down transistor and we apply an
+input here, and we take the output not from
+
+116
+00:16:25.980 --> 00:16:32.990
+here, but from this point.
+So, here is the output point. So, V out and
+
+117
+00:16:32.990 --> 00:16:38.000
+of course, it will have some associated capacitance
+as you know, because it is feeding to a next
+
+118
+00:16:38.000 --> 00:16:50.690
+stage and which may be a MOS transistor. So,
+it is it is going to the next stage. How it
+
+119
+00:16:50.690 --> 00:16:58.279
+works based on the single-phase clock you
+have applied a clock here, and you have applied
+
+120
+00:16:58.279 --> 00:17:03.560
+input here, and you are taking the output
+from here. How it works when this clock is
+
+121
+00:17:03.560 --> 00:17:16.220
+high these transistors q 1 and q 2 both are
+on. So, when the clock is high both the transistors
+
+122
+00:17:16.220 --> 00:17:23.200
+run, and an as a consequence what will happen
+what get at the output.
+
+123
+00:17:23.200 --> 00:17:32.450
+Whenever clock is high and input let us assume
+there are two conditions your V in is equal
+
+124
+00:17:32.450 --> 00:17:40.750
+to 0 volt. Whenever V in is equal to 0 this
+transistor is off, as a consequence what will
+
+125
+00:17:40.750 --> 00:17:49.720
+happen this capacitor this load capacitor
+c l will charge to Vdd through these two transistors
+
+126
+00:17:49.720 --> 00:17:55.250
+and you have applied a clock here. So, these
+two transistors will remain on. Of course
+
+127
+00:17:55.250 --> 00:18:04.039
+here you will get a voltage which is equal
+to Vdd minus V t not Vdd, because you know
+
+128
+00:18:04.039 --> 00:18:13.070
+the transistor will go off as the voltage
+goes above Vdd minus V t V t is the threshold
+
+129
+00:18:13.070 --> 00:18:17.850
+voltage of the n MOS transistor. So, you are
+getting a high level voltage which is Vdd
+
+130
+00:18:17.850 --> 00:18:27.360
+minus V t. Now what about the case now if
+you whenever the clock is going down; that
+
+131
+00:18:27.360 --> 00:18:32.890
+means, whenever it is in the low level then
+what happens, then what happens the voltage
+
+132
+00:18:32.890 --> 00:18:39.350
+which is the capacitor which is charged to
+Vdd minus V t that remains there.
+
+133
+00:18:39.350 --> 00:18:43.830
+That remains that is available here which
+we will feed to the next stage; that means,
+
+134
+00:18:43.830 --> 00:18:49.710
+next stage we utilize this logic level; that
+means, it is assumed that output is now Vdd
+
+135
+00:18:49.710 --> 00:18:59.950
+minus V t; that means, V out is equal to Vdd
+minus V t which is consider to be high because
+
+136
+00:18:59.950 --> 00:19:09.120
+input is low. Now, let us consider the situation
+when V in is equal to say 5 volt or Vdd then
+
+137
+00:19:09.120 --> 00:19:14.460
+what will happen whenever it is Vdd. Then
+you can see these transistors are on this
+
+138
+00:19:14.460 --> 00:19:18.720
+transistor is also non on what will be the
+voltage here, voltage will be dependent on
+
+139
+00:19:18.720 --> 00:19:26.110
+the ratio of the w y l of this transistor
+and w y l of this transistor. So, the behavior
+
+140
+00:19:26.110 --> 00:19:37.960
+is identical to that of you know static n
+MOS circuits. So, we get a V out which is
+
+141
+00:19:37.960 --> 00:19:45.020
+equal to V low of course, this is not zero
+which will be dependent on the ratio of the
+
+142
+00:19:45.020 --> 00:19:51.270
+l by w ratio of these transistor and that
+is why we can say that this is a this is a
+
+143
+00:19:51.270 --> 00:19:56.870
+this is ratioed logic.
+Now, what is the gain that we have achieved
+
+144
+00:19:56.870 --> 00:20:02.760
+in this case, gain is that what you can do
+you can make this period; that means, high
+
+145
+00:20:02.760 --> 00:20:08.450
+level very small. I mean, this period can
+be small this this I mean high level small
+
+146
+00:20:08.450 --> 00:20:14.910
+and low level longer, by that what will what
+will you achieve you will achieve that power
+
+147
+00:20:14.910 --> 00:20:20.860
+dissipation will occur; that means, this power
+dissipation can occur only when this clock
+
+148
+00:20:20.860 --> 00:20:28.450
+is high. Earlier respective of the presence
+of clock as long as output was low, there
+
+149
+00:20:28.450 --> 00:20:33.230
+was power dissipation in static CMOS a static
+n MOS circuits, but in this particular case
+
+150
+00:20:33.230 --> 00:20:38.809
+only when the output is high. I mean, clock
+is high and the output is low then there is
+
+151
+00:20:38.809 --> 00:20:44.530
+static power dissipation. So, the static power
+dissipation is reduced to a great extent,
+
+152
+00:20:44.530 --> 00:20:50.460
+but there is static power dissipation and
+it is ratioed logic, but the static power
+
+153
+00:20:50.460 --> 00:20:57.919
+dissipation is much lower compared to your
+static nMOS circuits or pseudo-nMOS circuits;
+
+154
+00:20:57.919 --> 00:21:04.190
+however, you do not get good quality high
+level and good quality low level both the
+
+155
+00:21:04.190 --> 00:21:10.890
+levels are you know are weak not strong high
+or strong low.
+
+156
+00:21:10.890 --> 00:21:18.950
+So, these circuits are not very popular, because
+of these limitations and although for this
+
+157
+00:21:18.950 --> 00:21:24.130
+say sake of completeness we are discussing
+it. And In fact, not only inverter you can
+
+158
+00:21:24.130 --> 00:21:30.120
+realized NAND gate as you can see only requirement
+is that you will require additional transistors
+
+159
+00:21:30.120 --> 00:21:36.039
+in the pMOS nMOS network pull down network.
+So, to input NAND gate we will require two
+
+160
+00:21:36.039 --> 00:21:41.770
+transistors to neither input nor gate we will
+require two transistors in this way the number
+
+161
+00:21:41.770 --> 00:21:55.070
+of transistors that is required is equal to
+n plus 2. So, n number of transistors for
+
+162
+00:21:55.070 --> 00:22:02.240
+the n inputs, and two transistors are required
+these two transistors q 1 and q 2. So, these
+
+163
+00:22:02.240 --> 00:22:07.120
+two additional transistors are required apart
+from n transistors where primary inputs are
+
+164
+00:22:07.120 --> 00:22:12.960
+applied. So, you see the number of transistors
+is reduced. So, these circuits will be faster
+
+165
+00:22:12.960 --> 00:22:23.710
+than static cMOS; however, we have discussed
+various limitations of this.
+
+166
+00:22:23.710 --> 00:22:29.470
+As I mentioned circuits realized using single-phase
+clock scheme, clocking scheme has the disadvantage
+
+167
+00:22:29.470 --> 00:22:35.140
+that the output voltage level is dependent
+on the inverter ratio. And the number of transistors
+
+168
+00:22:35.140 --> 00:22:40.860
+in the current part to ground moreover. The
+circuit dissipates power when the output is
+
+169
+00:22:40.860 --> 00:22:47.559
+low and the clock is high as I mention and
+as current flows only when the clock is high
+
+170
+00:22:47.559 --> 00:22:53.700
+the power consumption is reduced and it depends
+on the duty cycle ratio of the high high time
+
+171
+00:22:53.700 --> 00:22:59.029
+to the time period as I mentioned here. So,
+this is the time period T and this is let
+
+172
+00:22:59.029 --> 00:23:05.309
+us assume this is the this is T 1. So, power
+dissipation will be dependent on the ratio
+
+173
+00:23:05.309 --> 00:23:14.570
+of T 1 by T and if T 1 is small compared to
+T 1 by T then power dissipation will be smaller.
+
+174
+00:23:14.570 --> 00:23:20.900
+Another problem arising out of single-phase
+clocked logic is known as clock skew problem
+
+175
+00:23:20.900 --> 00:23:25.820
+for the timing we are not discussing clock
+skew problem later on we shall discuss about
+
+176
+00:23:25.820 --> 00:23:32.039
+it in more detail, and let us now switch to
+two-phase dynamic circuits.
+
+177
+00:23:32.039 --> 00:23:44.190
+Now, before we discuss about two-phase dynamic
+circuits two-phase. What do you really mean
+
+178
+00:23:44.190 --> 00:23:48.880
+by two-phase, before we come to the dynamic
+circuits let us discuss about what do you
+
+179
+00:23:48.880 --> 00:23:55.539
+really mean by two-phase. In two-phase you
+will find that there are two clocks not one.
+
+180
+00:23:55.539 --> 00:24:03.210
+So; that means, you will be having a clock
+phi one another clock phi two. So, and they
+
+181
+00:24:03.210 --> 00:24:13.500
+will have some this kind of relationship phi
+1 this is phi 1 and phi 2 will be like this
+
+182
+00:24:13.500 --> 00:24:24.890
+they are called non overlapping. By non overlapping
+we mean, they are never simultaneously on;
+
+183
+00:24:24.890 --> 00:24:34.880
+that means, phi one bar phi 2 is always 0
+as you can see; that means, when phi 1 is
+
+184
+00:24:34.880 --> 00:24:43.120
+1 phi 2 is 0 and when phi 2 is 1 phi 1 is
+0. So, what are the different states it can
+
+185
+00:24:43.120 --> 00:24:50.419
+have of course, it will have the time period
+and frequency like single-phase, but in addition
+
+186
+00:24:50.419 --> 00:24:57.120
+to that what are the other features of a two-phase
+dynamic two-phase clock number one it has
+
+187
+00:24:57.120 --> 00:25:08.190
+got three states.
+Normally whenever you have got two clocks
+
+188
+00:25:08.190 --> 00:25:19.390
+you are supposed to get four states 0 0 1
+1 1 0 and 0 1, but here you can see you cannot
+
+189
+00:25:19.390 --> 00:25:27.340
+really have the state when both of them are
+one; that means, here you will have 1 and
+
+190
+00:25:27.340 --> 00:25:41.190
+0; that means, phi 1 is 1 phi 2 is 0. You
+can have phi 2 1 sorry phi 2 0 phi 1 phi phi
+
+191
+00:25:41.190 --> 00:25:48.580
+1 0 phi 2 1, you can have both of them 0 as
+well for the during this the period both of
+
+192
+00:25:48.580 --> 00:25:57.110
+them 0, but in this case you will never get
+1 1; that means, this is not allowed in dynamic
+
+193
+00:25:57.110 --> 00:26:01.780
+in two-phase clock, and that is the reason
+why it is called two-phase clock.
+
+194
+00:26:01.780 --> 00:26:07.309
+So, two-phase clock is associated with three
+states, it is characterize by three states
+
+195
+00:26:07.309 --> 00:26:17.080
+and a and this can be used to realize two-phase
+dynamic circuits. Question naturally arises
+
+196
+00:26:17.080 --> 00:26:25.250
+how do you realize two-phase clock, because
+how do you ensure that both of them will never
+
+197
+00:26:25.250 --> 00:26:33.100
+be 1. So, you will require some circuit special
+type of circuit which can be used to realize
+
+198
+00:26:33.100 --> 00:26:40.429
+a dynamic to realize two-phase clock. Let
+me draw a very simple diagram which can be
+
+199
+00:26:40.429 --> 00:26:53.990
+used to realize two-phase clock. You will
+require
+
+200
+00:26:53.990 --> 00:27:13.529
+two NAND gates and several several inverters
+and this is connected to this point and this
+
+201
+00:27:13.529 --> 00:27:22.309
+is connected to this point.
+So, here if you apply clock here you will
+
+202
+00:27:22.309 --> 00:27:29.550
+get phi 1 and here you will get phi 2 let
+me briefly explain the operation of this circuit.
+
+203
+00:27:29.550 --> 00:27:45.019
+Let us assume this is the clock this is the
+clock and with respect to with the help of
+
+204
+00:27:45.019 --> 00:27:50.860
+this clock we have generated phi 1 and phi
+2 which are non overlapping in nature. And
+
+205
+00:27:50.860 --> 00:27:57.880
+how they are becoming non overlapping and
+what will be the gap between this time and
+
+206
+00:27:57.880 --> 00:28:02.840
+this time; that means, when it is going low
+it is going high or whenever it is going high
+
+207
+00:28:02.840 --> 00:28:07.529
+and this one is going low, these durations
+these durations are important. So, they should
+
+208
+00:28:07.529 --> 00:28:14.220
+be separated by some gap called band gap.
+And let us see how it really happens lets
+
+209
+00:28:14.220 --> 00:28:19.390
+such initially let’s say here we have assumed
+that the clock is 0. So, whenever this is
+
+210
+00:28:19.390 --> 00:28:26.820
+0 what will be the output here, for a NAND
+gate as you know respective of the number
+
+211
+00:28:26.820 --> 00:28:30.340
+of inputs if any one of the input is 0 output
+will be 1.
+
+212
+00:28:30.340 --> 00:28:38.120
+So, since this is 0 this will be 1 this will
+be 0 this will be 1 and this will be zero;
+
+213
+00:28:38.120 --> 00:28:45.230
+that means, we are getting that it phi one
+is also 0 when clock is 0 phi one is also
+
+214
+00:28:45.230 --> 00:28:55.850
+0. What about phi 2 here this since this is
+0 this is 1, and here also it is 1. So, 1
+
+215
+00:28:55.850 --> 00:29:07.620
+makes it 0 this is one this is 0 and this
+is 1. So, as expected the phi 2 is high. So,
+
+216
+00:29:07.620 --> 00:29:18.300
+here it is low and here it is high. Now, at
+this point it has switched from low to high.
+
+217
+00:29:18.300 --> 00:29:27.860
+So, as it switches from low to high that is
+1. What happens whenever it switches to 0
+
+218
+00:29:27.860 --> 00:29:35.039
+to 1 this will switch to 1 to 0 after 1 gate
+delay, and as you know for a non gate a NAND
+
+219
+00:29:35.039 --> 00:29:39.950
+gate whenever any one of the input is 0 output
+will immediately change. So, this will change
+
+220
+00:29:39.950 --> 00:29:48.700
+to 0 to 1 this will change to 1 to 0, this
+will change to 0 to 1, this will change to
+
+221
+00:29:48.700 --> 00:29:57.410
+1 to 0 after how much time say how many got
+gate delays 1, 2, 3, 4, 5 after 5 gate delays
+
+222
+00:29:57.410 --> 00:30:02.070
+phi 2 is become phi 2 is going phi 2 is becoming
+low.
+
+223
+00:30:02.070 --> 00:30:15.980
+So, let us assume this is the 5 gate delay
+after 5 gate delay this will go low. Then
+
+224
+00:30:15.980 --> 00:30:23.340
+as you can see here, this is now 1 and this
+is also 1 these two will make it 0 this will
+
+225
+00:30:23.340 --> 00:30:30.840
+make it one this will make it 0 and this will
+make it 1. So, this will switch to 1, but
+
+226
+00:30:30.840 --> 00:30:39.700
+how after how much time after this has become
+say this has become 1 and this is already
+
+227
+00:30:39.700 --> 00:30:45.390
+1. So, when both of them becomes one after
+that one two three four; that means, here
+
+228
+00:30:45.390 --> 00:30:57.010
+it will be 1, 2, 3, 4, 5, 6, 7, 8 after 8
+gate delays this will switch from 1 to 0 earlier
+
+229
+00:30:57.010 --> 00:31:03.760
+it was one now it will become it has become
+0. So, it will become 8 gate delays. So, this
+
+230
+00:31:03.760 --> 00:31:15.679
+is 5 delta and here will be another 3 delta
+when it will go from low to high.
+
+231
+00:31:15.679 --> 00:31:25.059
+And this will continue until another change
+occurs here. So, whenever again it switches
+
+232
+00:31:25.059 --> 00:31:33.960
+from 1 to 0 I mean, 1 to 0 it is switching
+now to 0. And as it switches to 0 this will
+
+233
+00:31:33.960 --> 00:31:40.799
+now change from 0 to 1 since this is 0 it
+will become 1 again this will become 0 this
+
+234
+00:31:40.799 --> 00:31:47.600
+will become 1 this will become 0, but after
+how much time. So, we can see as it is changing
+
+235
+00:31:47.600 --> 00:31:57.010
+from this input is changing from 1 to 0 here
+1, 2, 3, 4 after 4 gate delays it will become
+
+236
+00:31:57.010 --> 00:32:10.510
+0; that means, phi 1 will become 0 from this
+edge after 4 gate delays. And as it has happen
+
+237
+00:32:10.510 --> 00:32:17.470
+this becomes 1 this is also 1, again after
+three gate delays up from that it will become
+
+238
+00:32:17.470 --> 00:32:26.990
+switch it will switch to 1; that means, this
+will switch to 1 after 3 gate delays from
+
+239
+00:32:26.990 --> 00:32:34.221
+this 3 gate delays and this will continue.
+So, we can see here we have got 5 gate delay
+
+240
+00:32:34.221 --> 00:32:44.429
+here 3 gate delay here 4 gate delay here and
+this to this it is sorry not this 1, this
+
+241
+00:32:44.429 --> 00:32:52.471
+to this 4 gate delay and from this edge to
+actually it should be here 3 delta. So, we
+
+242
+00:32:52.471 --> 00:33:01.179
+find that in this particular case here, there
+is a gap of 3 gate delay here also there is
+
+243
+00:33:01.179 --> 00:33:06.039
+gap of 3 gate delay here. Similarly, for the
+other case also there will be 3 gate delay;
+
+244
+00:33:06.039 --> 00:33:14.080
+that means, this part this one the gap between
+these two edges will be 3 delta gap between
+
+245
+00:33:14.080 --> 00:33:18.789
+these two edges will be 3 delta gap between
+these two edges will be three delta gap between
+
+246
+00:33:18.789 --> 00:33:23.730
+these two edges will be 3 delta.
+So, this is how you can realize a two-phase
+
+247
+00:33:23.730 --> 00:33:32.139
+clock with the help of few inverters two NAND
+gates from a single-phase clock. You may say
+
+248
+00:33:32.139 --> 00:33:39.279
+say you may ask that suppose we are not satisfied
+with a 3 delta band gap between the two-phase
+
+249
+00:33:39.279 --> 00:33:45.330
+clocks. Then what you can do you can insert
+more number of inverters here, say instead
+
+250
+00:33:45.330 --> 00:33:52.170
+of 3 you can have 5 here then this will become
+this gap will be 5 delta 5 delta 5 delta and
+
+251
+00:33:52.170 --> 00:33:59.120
+so on. So, depending on your requirement you
+can increase the gap between the two-phase
+
+252
+00:33:59.120 --> 00:34:05.269
+clocks, but that non overlapping property
+will be always maintained whenever you will
+
+253
+00:34:05.269 --> 00:34:12.649
+generate two-phase clock by using this technique.
+So, much about two-phase clock. So, here we
+
+254
+00:34:12.649 --> 00:34:19.760
+have shown the same thing and how continuously
+you will get two-phase clock phi 1 and phi
+
+255
+00:34:19.760 --> 00:34:25.168
+2 maintaining 3 gate delays at both edges
+here also 3 get delay three get delay and
+
+256
+00:34:25.168 --> 00:34:26.168
+so on.
+
+257
+00:34:26.168 --> 00:34:37.029
+Now, let us see how we can use this two-phase
+clock to realize a two-phase dynamic circuit
+
+258
+00:34:37.030 --> 00:34:50.590
+let us consider a two-phase dynamic nMOS inverter.
+
+259
+00:34:50.590 --> 00:35:05.350
+So, this will require 3 transistors; that
+means, here you will apply phi 2 here, you
+
+260
+00:35:05.350 --> 00:35:12.180
+will apply phi 1 this is connected to ground,
+this is connected to Vdd and V into input
+
+261
+00:35:12.180 --> 00:35:19.020
+is applied here, and you will be taking output
+from here V out. And as usual to explain the
+
+262
+00:35:19.020 --> 00:35:24.290
+operation of the circuit we shall assume that
+there is a load capacitance associated with
+
+263
+00:35:24.290 --> 00:35:32.401
+it. Now, let us try to explain the operation
+of the circuit. The operation of the circuit
+
+264
+00:35:32.401 --> 00:35:40.000
+can be explained with the help of what is
+known as precharged logic precharged logic.
+
+265
+00:35:40.000 --> 00:35:56.260
+So, when phi 2 is 1 the output and; obviously,
+that time phi 1 is phi 1 phi 1 is 0, when
+
+266
+00:35:56.260 --> 00:36:03.130
+phi 2 is 1 phi 1 is 0 that we have that we
+have ensured, both of them can never be simultaneously
+
+267
+00:36:03.130 --> 00:36:06.980
+1.
+So, when this is the case what happens this
+
+268
+00:36:06.980 --> 00:36:18.230
+out this transistor is on. So, this will charge
+to the output will charge to Vdd minus V t
+
+269
+00:36:18.230 --> 00:36:36.860
+high level output will charge to high level.
+So, this is called precharged phase. So, during
+
+270
+00:36:36.860 --> 00:36:43.860
+the precharged phase when phi is phi 2 is
+1; that means, when phi 2 is 1 the output
+
+271
+00:36:43.860 --> 00:36:57.740
+is charging to high level this is high. Now
+whenever it switches to phi 2 to 0 and phi
+
+272
+00:36:57.740 --> 00:37:07.400
+1 is equal to 1 in this condition this transistor
+is off, and this transistor is on. When this
+
+273
+00:37:07.400 --> 00:37:15.121
+is this is, so what will happen to this capacitor
+this if V in depending on V that now you can
+
+274
+00:37:15.121 --> 00:37:25.080
+have two conditions this is this is known
+as evaluation phase evaluation phase.
+
+275
+00:37:25.080 --> 00:37:31.630
+In this evaluation phase there are two possibilities
+one possibility is that V in is equal to 0,
+
+276
+00:37:31.630 --> 00:37:37.920
+and another possibility is V in is equal to
+Vdd. Let us consider when V in is equal to
+
+277
+00:37:37.920 --> 00:37:43.890
+0 when V in is equal to 0 this transistor
+is off and although phi 2 is 1 this transistor
+
+278
+00:37:43.890 --> 00:37:56.070
+is on there is no path to dispatch this capacitor
+so; that means, V out is equal to Vdd I mean
+
+279
+00:37:56.070 --> 00:38:04.940
+is high V out is equal to high why it is high,
+because which the capacitor has is already
+
+280
+00:38:04.940 --> 00:38:10.860
+charged to high level during the precharged
+phase. And the evaluation phase follows the
+
+281
+00:38:10.860 --> 00:38:16.330
+precharged phase and as a consequence the
+high level is maintained during evaluation
+
+282
+00:38:16.330 --> 00:38:22.280
+phase and which will be used by the next stage.
+So, after evaluation after the evaluation
+
+283
+00:38:22.280 --> 00:38:26.780
+is done a valued output is available which
+will be used by the next stage.
+
+284
+00:38:26.780 --> 00:38:33.180
+Now, let us assume V in is equal to Vdd. When
+V in is equal to Vdd both the transistors
+
+285
+00:38:33.180 --> 00:38:41.200
+are on and capacitor will discharge to 0 logic
+level so; that means, in that case V out will
+
+286
+00:38:41.200 --> 00:38:48.180
+be equal to 0 or low logic level. So, here
+of course, you will get strong low logic level.
+
+287
+00:38:48.180 --> 00:38:56.140
+So, what is the advantage of this circuit
+we are able to get two possible outputs and
+
+288
+00:38:56.140 --> 00:39:01.700
+of course, high logic level is not very good,
+but low logic level is good, because it is
+
+289
+00:39:01.700 --> 00:39:09.691
+not ratioed logic. Number one this two-phase
+dynamic circuit is not ratioed logic. There
+
+290
+00:39:09.691 --> 00:39:18.350
+is no static power dissipation. So, let us
+list the advantages and disadvantages.
+
+291
+00:39:18.350 --> 00:39:28.330
+So, maybe we can discuss about the advantages
+and disadvantages very quickly before we come
+
+292
+00:39:28.330 --> 00:39:42.030
+to other circuits advantages it is not ratioed
+logic. So, disadvantages associated with ratioed
+
+293
+00:39:42.030 --> 00:40:03.510
+logic is overcome no static power dissipation.
+Third is faster much faster than either pseudo-n
+
+294
+00:40:03.510 --> 00:40:14.600
+MOS or static CMOS and number of transistors
+as we have seen is equal to n plus two number
+
+295
+00:40:14.600 --> 00:40:25.990
+of transistors is equal to n plus 2.
+So, these are the advantages of this two-phase
+
+296
+00:40:25.990 --> 00:40:31.610
+dynamics n MOS circuit. So, we find that it
+has got very good features and that is the
+
+297
+00:40:31.610 --> 00:40:45.320
+reason why it is called powerless ratio less
+powerless, because there is no static power
+
+298
+00:40:45.320 --> 00:40:51.150
+dissipation and ratio less, because it is
+not rationed logic and of course, it is faster
+
+299
+00:40:51.150 --> 00:40:58.540
+in operation. So, these two-phase dynamic
+n MOS inverter is has got very good features
+
+300
+00:40:58.540 --> 00:41:04.290
+and it is widely used; however, you are more
+interested in u h CMOS circuits.
+
+301
+00:41:04.290 --> 00:41:10.760
+So, we can realize dynamic CMOS circuits by
+extending the idea of static CMOS and here,
+
+302
+00:41:10.760 --> 00:41:21.070
+as you can see how we can do that. Whenever
+we are using uh statics I mean, by dynamic
+
+303
+00:41:21.070 --> 00:41:29.520
+circuits by using CMOS instead of the nMOS
+transistor let me redraw it again.
+
+304
+00:41:29.520 --> 00:41:42.530
+Instead of using dynamic CMOS inverter let
+me draw inverter before we can draw the other
+
+305
+00:41:42.530 --> 00:41:47.430
+cycles. So, in case of dynamic inverter what
+you will require you will require a pMOS transistor
+
+306
+00:41:47.430 --> 00:41:54.860
+as pull up a pull down transistor nMOS transistor
+for inverter where you will apply input voltage,
+
+307
+00:41:54.860 --> 00:42:08.220
+and a nMOS transistor in the path to 0. So,
+and what you can do you can apply a clock
+
+308
+00:42:08.220 --> 00:42:16.340
+you do not really require two-phase clock
+whenever you are realizing dynamic CMOS circuit
+
+309
+00:42:16.340 --> 00:42:21.900
+the reason for that is you can see the same
+if we apply the same signal to the pMOS and
+
+310
+00:42:21.900 --> 00:42:29.130
+nMOS transistor, when p this phi is 0 this
+transistor is on and when phi is 1 this transistor
+
+311
+00:42:29.130 --> 00:42:34.000
+is on.
+So, that the requirement for that that phi
+
+312
+00:42:34.000 --> 00:42:40.570
+1 and phi 2 should not be simultaneously on
+is satisfied very easily. So, we do not really
+
+313
+00:42:40.570 --> 00:42:47.750
+require two-phase clock in realizing dynamic
+CMOS circuit. The operation is identical to
+
+314
+00:42:47.750 --> 00:42:53.460
+the inverter that we have discussed two-phase
+dynamic n MOS inverter here, what happens
+
+315
+00:42:53.460 --> 00:43:06.060
+when when phi 2 when phi is equal to 0, it
+is in the precharge phase
+
+316
+00:43:06.060 --> 00:43:15.740
+this output charges to high logic level. And
+when phi phi is equal to 1 then it is called
+
+317
+00:43:15.740 --> 00:43:29.710
+evaluation phase.
+The output is evaluated depending on the input
+
+318
+00:43:29.710 --> 00:43:37.770
+this V in. So, this is how you can realize
+a dynamic CMOS inverter and all the advantages
+
+319
+00:43:37.770 --> 00:43:46.490
+that I mention in the context of this two-phase
+dynamic n MOS inverter are applicable to dynamic
+
+320
+00:43:46.490 --> 00:43:51.220
+CMOS inverter. It is not ratioed logic there
+is no static power dissipation it is faster
+
+321
+00:43:51.220 --> 00:43:55.870
+number of transistor required is equal to
+n plus 2 and it is also powerless and ratio
+
+322
+00:43:55.870 --> 00:44:01.610
+less. So, all the advantages are carried to
+this dynamic CMOS inverter.
+
+323
+00:44:01.610 --> 00:44:09.210
+You can realize dynamic CMOS inverter I mean,
+extend this concept to realize more complex
+
+324
+00:44:09.210 --> 00:44:21.280
+gates. Let us consider a first of all static
+CMOS and we shall see real we shall consider
+
+325
+00:44:21.280 --> 00:44:29.070
+the realization dynamic CMOS circuits corresponding
+to that. Let us assume that it is little complex
+
+326
+00:44:29.070 --> 00:44:56.280
+circuit. So, you have got say x 1, x 2, x
+3 and then you have got x 1, x 2, x 3 connected
+
+327
+00:44:56.280 --> 00:45:06.350
+to down. So, this is your static CMOS circuits
+we want a dynamic CMOS circuit which is which
+
+328
+00:45:06.350 --> 00:45:12.530
+performs the same function. What we can do
+you will you may use you can see as I mentioned
+
+329
+00:45:12.530 --> 00:45:20.421
+earlier you are repeating two logic circuits
+to realize the function we shall see we can
+
+330
+00:45:20.421 --> 00:45:26.020
+use only one of them to realize a dynamic
+CMOS circuit
+
+331
+00:45:26.020 --> 00:45:33.130
+Let us see how we can realize this function
+by using only the n MOS network circuit. So,
+
+332
+00:45:33.130 --> 00:45:50.620
+what will you do you can realize the dynamic
+CMOS circuits x 1, x 2, x 3 and here you will
+
+333
+00:45:50.620 --> 00:45:56.380
+put one nMOS transistor and here you will
+put one p MOS transistor and you will apply
+
+334
+00:45:56.380 --> 00:46:03.960
+clock here. So, you can see you do not have
+really duplicate the logic function here you
+
+335
+00:46:03.960 --> 00:46:10.950
+will require only the nMOS network part which
+is present here to realize the dynamic CMOS
+
+336
+00:46:10.950 --> 00:46:15.660
+circuit. Of course, you will require two additional
+transistor that is here you will require n
+
+337
+00:46:15.660 --> 00:46:23.330
+plus two transistors instead of two n as you
+require in static CMOS. Now is it the only
+
+338
+00:46:23.330 --> 00:46:34.000
+way to realize dynamic CMOS circuit, actually
+you can use either the n MOS network or the
+
+339
+00:46:34.000 --> 00:46:43.410
+p MOS network here. The circuit that has been
+realized is using the n MOS network.
+
+340
+00:46:43.410 --> 00:46:52.380
+What you can do you can use the same you can
+realize the same circuit by using the p MOS
+
+341
+00:46:52.380 --> 00:47:03.910
+network. So, in that case the topology will
+be like this
+
+342
+00:47:03.910 --> 00:47:22.800
+same network x 1, then x 2, x 3, but you will
+require again two transistors one at the bottom
+
+343
+00:47:22.800 --> 00:47:32.520
+and another the top. So, you will apply phi
+bar you will apply phi or you can apply phi
+
+344
+00:47:32.520 --> 00:47:38.000
+bar actually. Now, where from you will take
+the output here you were taking the output
+
+345
+00:47:38.000 --> 00:47:45.290
+from here. So, this was your V out, but whenever
+used pMOS network in that case you have to
+
+346
+00:47:45.290 --> 00:47:51.250
+take the output from the this point bottom;
+that means, V out is from here how this circuit
+
+347
+00:47:51.250 --> 00:47:59.180
+operates here actually again it is based on
+precharge approach, but instead of precharging
+
+348
+00:47:59.180 --> 00:48:05.310
+the output to high level as you do it here
+you are actually predischarging the output
+
+349
+00:48:05.310 --> 00:48:12.500
+to low level in this particular case; that
+means, whenever you are using the pMOS network
+
+350
+00:48:12.500 --> 00:48:20.230
+then the output is predischarged during the
+precharged phase; that means, this transistor
+
+351
+00:48:20.230 --> 00:48:26.130
+is on you have applied phi bar. So, this transistor
+will be on when this is high.
+
+352
+00:48:26.130 --> 00:48:33.520
+Or phi is equal to 0. So, when this is high
+this transistor will be discharged during
+
+353
+00:48:33.520 --> 00:48:38.520
+precharged phase that is being done. So, this
+is discharged to 0 and during evaluation what
+
+354
+00:48:38.520 --> 00:48:45.700
+will happen depending on the input combinations
+input vector; that means, depending on the
+
+355
+00:48:45.700 --> 00:48:55.320
+values of x 1, x 2 and x 3, you can uh this
+output will be charged to high level if the
+
+356
+00:48:55.320 --> 00:48:59.710
+input combination is such the output should
+be high in that case if there’ll be a path
+
+357
+00:48:59.710 --> 00:49:05.180
+through this through this network during the
+evaluation phase when this transistor is on
+
+358
+00:49:05.180 --> 00:49:10.230
+and the there will be path through this pMOS
+network. So, this will in the during evaluation
+
+359
+00:49:10.230 --> 00:49:18.840
+phase it will charged to Vdd level.
+But if the if the output is 0 then it will
+
+360
+00:49:18.840 --> 00:49:24.220
+remain in that pre-discharged condition, it
+will not charged to V v d level. So, you can
+
+361
+00:49:24.220 --> 00:49:31.430
+see we have two possible alternatives whenever
+we realize circuits using dynamic CMOS approach
+
+362
+00:49:31.430 --> 00:49:38.400
+either you can use the n MOS network or you
+can use the p MOS network, but you do not
+
+363
+00:49:38.400 --> 00:49:45.530
+have to duplicate; that means, use this as
+well as that as you do in case of static CMOS
+
+364
+00:49:45.530 --> 00:49:54.200
+and you may have been asking which one will
+be faster and of course, the network I mean
+
+365
+00:49:54.200 --> 00:50:01.470
+the topology using nMOS network could be faster
+with the same area, because as you know the
+
+366
+00:50:01.470 --> 00:50:08.040
+pMOS transistors will take uh will take longer
+time, because of higher resistance and lower
+
+367
+00:50:08.040 --> 00:50:13.990
+mobility of the holes compared to electrons
+an as a consequence for the same area the
+
+368
+00:50:13.990 --> 00:50:20.860
+this particular topology will be requiring
+larger time it will be slower than this one.
+
+369
+00:50:20.860 --> 00:50:26.590
+However both are used later on we shall see
+both can be combined in realizing a special
+
+370
+00:50:26.590 --> 00:50:34.660
+type of circuit there later on we shall discuss
+about it for the time being let us restrict
+
+371
+00:50:34.660 --> 00:50:37.030
+to this now very quickly.
+
+372
+00:50:37.030 --> 00:50:45.510
+Let us have a look at the disadvantages advantages
+and disadvantages. As I have already mentioned,
+
+373
+00:50:45.510 --> 00:50:51.970
+the number of transistors required for a circuit
+with fan-in N is N plus 2 in contrast to 2N
+
+374
+00:50:51.970 --> 00:50:57.750
+in case of static CMOS circuits. The load
+capacitance is more than 50 percent less than
+
+375
+00:50:57.750 --> 00:51:03.260
+static CMOS and is closer to that of nMOS
+circuits as a consequence it is faster. So,
+
+376
+00:51:03.260 --> 00:51:08.180
+the speed of operation is faster than that
+of static CMOS circuits about 4 to 5 times
+
+377
+00:51:08.180 --> 00:51:14.140
+faster as we have we have found that; and
+there is no static power dissipation and another
+
+378
+00:51:14.140 --> 00:51:18.460
+important point is there is no short circuit
+power dissipation, why there is no short circuit
+
+379
+00:51:18.460 --> 00:51:24.320
+power dissipation, because at no point of
+time there is path from Vdd to ground even
+
+380
+00:51:24.320 --> 00:51:30.670
+when the input changes, because it is controlled
+by clock and as a consequence it is since
+
+381
+00:51:30.670 --> 00:51:37.270
+it is controlled by clock, there will be no
+path from V d to would to V d to ground at
+
+382
+00:51:37.270 --> 00:51:42.380
+any point of time, and as consequence there
+is no short circuit power dissipation.
+
+383
+00:51:42.380 --> 00:51:46.880
+And later on we shall see that it has got
+no glitching power dissipation why it has
+
+384
+00:51:46.880 --> 00:51:52.330
+got no glitching power dissipation. As you
+know glitching power dissipation occurs because
+
+385
+00:51:52.330 --> 00:51:58.510
+of you know changes at the output within the
+circuit, because of the delay of the circuit,
+
+386
+00:51:58.510 --> 00:52:05.020
+but here it is more or less synchronized by
+clock and only one transition is possible
+
+387
+00:52:05.020 --> 00:52:09.350
+you know after it has been precharged only
+transition that can occur is from high to
+
+388
+00:52:09.350 --> 00:52:15.620
+low no other transition is possible, but in
+case of static CMOS circuits the particular
+
+389
+00:52:15.620 --> 00:52:22.690
+node can go through number of charging and
+discharging before attempting the final value
+
+390
+00:52:22.690 --> 00:52:32.740
+and as a consequence the glitching power dissipation
+is not present in dynamic CMOS circuits.
+
+391
+00:52:32.740 --> 00:52:38.900
+And as a consequence the dynamic CMOS circuits
+have been found to be very suitable, because
+
+392
+00:52:38.900 --> 00:52:48.310
+of theirs higher speed of operation and lower
+area. In fact, one of the very important processor
+
+393
+00:52:48.310 --> 00:52:54.460
+dekalpha chip you may have heard of it that
+dekalpha processor was one of the fastest
+
+394
+00:52:54.460 --> 00:53:02.920
+processor I mean introduced long back and
+there they have used about 30 percent of their
+
+395
+00:53:02.920 --> 00:53:09.190
+circuits using dynamic CMOS. Essentially the
+critical parts of the circuits were implemented
+
+396
+00:53:09.190 --> 00:53:15.240
+by using dynamic CMOS circuit. So, that they
+can achieve very high speed of operation any
+
+397
+00:53:15.240 --> 00:53:21.240
+way those are the advantages and based on
+those advantages this is done, but there are
+
+398
+00:53:21.240 --> 00:53:23.410
+several disadvantages.
+
+399
+00:53:23.410 --> 00:53:29.260
+Number one is charge leakage problem, number
+two is charge sharing problem and third is
+
+400
+00:53:29.260 --> 00:53:37.210
+clock skew problem. So, these are the three
+problems associated with dynamic CMOS circuits.
+
+401
+00:53:37.210 --> 00:53:45.310
+And in my next lecture, I shall discuss about
+these disadvantages, and also we shall discuss
+
+402
+00:53:45.310 --> 00:53:51.280
+about how they can be overcome. Obviously,
+if we accept the disadvantages, then we cannot
+
+403
+00:53:51.280 --> 00:53:56.780
+realize a circuit, we have to develop technique
+by which these limitations and disadvantages
+
+404
+00:53:56.780 --> 00:54:00.690
+can be overcome, and which we shall discuss
+in my next lecture thank you.
+

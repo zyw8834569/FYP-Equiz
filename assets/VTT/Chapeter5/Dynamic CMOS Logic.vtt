@@ -1,0 +1,298 @@
+WEBVTT
+
+1
+00:00:00.399 --> 00:00:02.639
+hello everyone welcome to this video
+
+2
+00:00:02.639 --> 00:00:03.520
+lecture
+
+3
+00:00:03.520 --> 00:00:06.720
+on dynamic cmos logic
+
+4
+00:00:06.720 --> 00:00:09.679
+here the circuit is showing the dynamic
+
+5
+00:00:09.679 --> 00:00:10.400
+cmos
+
+6
+00:00:10.400 --> 00:00:13.920
+general structure the dynamic cmas
+
+7
+00:00:13.920 --> 00:00:17.039
+will be having a clock signal as input
+
+8
+00:00:17.039 --> 00:00:19.840
+to the pre-charge p mass transistor and
+
+9
+00:00:19.840 --> 00:00:20.960
+to the gate of
+
+10
+00:00:20.960 --> 00:00:24.560
+evaluate transistor of n mass
+
+11
+00:00:24.560 --> 00:00:26.960
+so the logical circuit we are going to
+
+12
+00:00:26.960 --> 00:00:28.000
+write by using n
+
+13
+00:00:28.000 --> 00:00:31.039
+transistors network it will be acting as
+
+14
+00:00:31.039 --> 00:00:34.079
+a pull down network and
+
+15
+00:00:34.079 --> 00:00:36.000
+we will be having a single pmos
+
+16
+00:00:36.000 --> 00:00:37.200
+transistor
+
+17
+00:00:37.200 --> 00:00:39.280
+and we are calling it as a pre-charge
+
+18
+00:00:39.280 --> 00:00:40.559
+transistor
+
+19
+00:00:40.559 --> 00:00:43.280
+and one more n transistor under n
+
+20
+00:00:43.280 --> 00:00:45.039
+transistor network
+
+21
+00:00:45.039 --> 00:00:48.079
+to evaluate the logic now we will see
+
+22
+00:00:48.079 --> 00:00:48.399
+how
+
+23
+00:00:48.399 --> 00:00:50.960
+actually this circuit is going to behave
+
+24
+00:00:50.960 --> 00:00:52.640
+when we are going to provide
+
+25
+00:00:52.640 --> 00:00:56.480
+the clock signal here you can observe
+
+26
+00:00:56.480 --> 00:01:00.640
+the timing diagram when clock is 0
+
+27
+00:01:00.640 --> 00:01:03.760
+the output is vdd means
+
+28
+00:01:03.760 --> 00:01:06.720
+output is logic 1 when clock is equal to
+
+29
+00:01:06.720 --> 00:01:07.600
+1
+
+30
+00:01:07.600 --> 00:01:10.640
+it is evaluate state and output will be
+
+31
+00:01:10.640 --> 00:01:12.880
+evaluated as per the logic
+
+32
+00:01:12.880 --> 00:01:16.320
+if if there is any path from the output
+
+33
+00:01:16.320 --> 00:01:19.280
+reaches ground if any of the input is
+
+34
+00:01:19.280 --> 00:01:19.680
+high
+
+35
+00:01:19.680 --> 00:01:23.040
+so that output will be zero
+
+36
+00:01:23.040 --> 00:01:25.360
+if any path reaches to the ground in the
+
+37
+00:01:25.360 --> 00:01:27.040
+pull down network
+
+38
+00:01:27.040 --> 00:01:29.680
+it will be the output will be reaches to
+
+39
+00:01:29.680 --> 00:01:30.400
+zero
+
+40
+00:01:30.400 --> 00:01:32.320
+there will be a chance of getting zero
+
+41
+00:01:32.320 --> 00:01:34.880
+output only in the evaluate state
+
+42
+00:01:34.880 --> 00:01:38.720
+in the pre-charge state output will be
+
+43
+00:01:38.720 --> 00:01:41.520
+one that's why the output is pre-charged
+
+44
+00:01:41.520 --> 00:01:42.159
+to 1
+
+45
+00:01:42.159 --> 00:01:45.600
+when clock is equal to 0 we can say
+
+46
+00:01:45.600 --> 00:01:48.560
+how that output is going to be 1 in
+
+47
+00:01:48.560 --> 00:01:49.680
+pre-charge
+
+48
+00:01:49.680 --> 00:01:52.880
+state because of clock is equal to 0
+
+49
+00:01:52.880 --> 00:01:56.000
+this pmos transistor is turning on
+
+50
+00:01:56.000 --> 00:01:58.960
+and this evaluate transistor is turning
+
+51
+00:01:58.960 --> 00:02:00.000
+off
+
+52
+00:02:00.000 --> 00:02:01.600
+even if we are going to provide the
+
+53
+00:02:01.600 --> 00:02:04.000
+different kind of inputs over here
+
+54
+00:02:04.000 --> 00:02:06.960
+there is no direct path from output to
+
+55
+00:02:06.960 --> 00:02:07.600
+ground
+
+56
+00:02:07.600 --> 00:02:10.080
+because of this evaluate transistor is
+
+57
+00:02:10.080 --> 00:02:11.360
+in off state
+
+58
+00:02:11.360 --> 00:02:13.120
+there will be an open circuit between
+
+59
+00:02:13.120 --> 00:02:15.520
+the ground terminal and the output
+
+60
+00:02:15.520 --> 00:02:18.080
+and this pre-charged pmos transistor is
+
+61
+00:02:18.080 --> 00:02:19.520
+on
+
+62
+00:02:19.520 --> 00:02:23.840
+it will make the contact to vdd terminal
+
+63
+00:02:23.840 --> 00:02:26.160
+and the output terminal so that the
+
+64
+00:02:26.160 --> 00:02:28.239
+output capacitor is going to
+
+65
+00:02:28.239 --> 00:02:32.160
+charge this is how the dynamic cmos
+
+66
+00:02:32.160 --> 00:02:34.239
+logic is going to work
+
+67
+00:02:34.239 --> 00:02:37.040
+so in place of n transistor network that
+
+68
+00:02:37.040 --> 00:02:38.640
+is the pull down network
+
+69
+00:02:38.640 --> 00:02:40.879
+if you put the transistor connections as
+
+70
+00:02:40.879 --> 00:02:42.160
+per our logic
+
+71
+00:02:42.160 --> 00:02:45.040
+this dynamic cmas logic is going to work
+
+72
+00:02:45.040 --> 00:02:45.760
+as per
+
+73
+00:02:45.760 --> 00:02:48.319
+the logic what we are going to write
+
+74
+00:02:48.319 --> 00:02:51.200
+thank you
+

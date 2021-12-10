@@ -1,0 +1,570 @@
+WEBVTT
+
+1
+00:00:00.110 --> 00:00:03.060
+welcome to in five minutes the agenda of
+
+2
+00:00:03.060 --> 00:00:05.940
+this clip is to understand how to make a
+
+3
+00:00:05.940 --> 00:00:08.910
+two input CMOS NAND in different styles
+
+4
+00:00:08.910 --> 00:00:11.429
+we have seen in the previous clip for
+
+5
+00:00:11.429 --> 00:00:14.429
+CMOS inverter and we also saw how an
+
+6
+00:00:14.429 --> 00:00:16.350
+inverter can be implemented in different
+
+7
+00:00:16.350 --> 00:00:18.779
+styles of logic here we'll start with
+
+8
+00:00:18.779 --> 00:00:21.480
+the static CMOS style first thing we saw
+
+9
+00:00:21.480 --> 00:00:22.980
+an inverter when we wanted to implement
+
+10
+00:00:22.980 --> 00:00:25.529
+a static CMOS circuit was that we need
+
+11
+00:00:25.529 --> 00:00:26.939
+to write down the expression and the
+
+12
+00:00:26.939 --> 00:00:29.039
+truth table and two input nor gate i'll
+
+13
+00:00:29.039 --> 00:00:31.590
+show you how to make a static CMOS
+
+14
+00:00:31.590 --> 00:00:33.840
+circuit using the truth table but here i
+
+15
+00:00:33.840 --> 00:00:36.329
+want to teach you a shortcut trick the
+
+16
+00:00:36.329 --> 00:00:38.489
+shorter trick is whatever expression is
+
+17
+00:00:38.489 --> 00:00:40.649
+given to us here in this case y equal to
+
+18
+00:00:40.649 --> 00:00:43.260
+a be the whole bar hide the bag whatever
+
+19
+00:00:43.260 --> 00:00:45.600
+is underneath the bar in this case it's
+
+20
+00:00:45.600 --> 00:00:49.500
+a and B whatever is underneath the bar
+
+21
+00:00:49.500 --> 00:00:52.350
+that is nothing but Apple down circuit
+
+22
+00:00:52.350 --> 00:00:56.039
+or a combination of n Mo's transistors
+
+23
+00:00:56.039 --> 00:00:58.020
+which will be used to be put as a
+
+24
+00:00:58.020 --> 00:01:00.809
+pulldown network so here under the bar
+
+25
+00:01:00.809 --> 00:01:02.879
+is nothing but a and B so my pulldown
+
+26
+00:01:02.879 --> 00:01:05.369
+network comprises of a one transistor
+
+27
+00:01:05.369 --> 00:01:08.640
+for one input in series with be the
+
+28
+00:01:08.640 --> 00:01:10.770
+trick here is if this is my pulldown
+
+29
+00:01:10.770 --> 00:01:13.229
+network my pull-up network will always
+
+30
+00:01:13.229 --> 00:01:16.350
+be a complement of pulldown network
+
+31
+00:01:16.350 --> 00:01:18.600
+which means for pulldown network if I
+
+32
+00:01:18.600 --> 00:01:21.659
+have connected a and B in CDs for pull
+
+33
+00:01:21.659 --> 00:01:24.240
+up network my a and B will be connected
+
+34
+00:01:24.240 --> 00:01:26.610
+in parallel and my pull-up is nothing
+
+35
+00:01:26.610 --> 00:01:29.790
+but my P Mo's so this is a parallel to B
+
+36
+00:01:29.790 --> 00:01:31.650
+and you have seen that the output is
+
+37
+00:01:31.650 --> 00:01:34.200
+taken from pull-up and pull-down network
+
+38
+00:01:34.200 --> 00:01:35.939
+together and this is nothing but my via
+
+39
+00:01:35.939 --> 00:01:38.939
+if you put the truth table values for a
+
+40
+00:01:38.939 --> 00:01:41.610
+and B you will see that it satisfies the
+
+41
+00:01:41.610 --> 00:01:43.470
+truth table and this is nothing but a
+
+42
+00:01:43.470 --> 00:01:46.860
+two input static CMOS NAND as i
+
+43
+00:01:46.860 --> 00:01:48.930
+mentioned i will show you how to make
+
+44
+00:01:48.930 --> 00:01:50.820
+the same circuit using the truth table
+
+45
+00:01:50.820 --> 00:01:52.740
+but i will show you with nor remember
+
+46
+00:01:52.740 --> 00:01:55.110
+the shortcut trick hide the bar whatever
+
+47
+00:01:55.110 --> 00:01:56.399
+is underneath the bar that's your
+
+48
+00:01:56.399 --> 00:01:58.710
+pulldown network complementary to that
+
+49
+00:01:58.710 --> 00:02:00.329
+is your pull-up network and that
+
+50
+00:02:00.329 --> 00:02:02.909
+completes my static CMOS type let's go
+
+51
+00:02:02.909 --> 00:02:05.219
+ahead let's make a two input NAND gate
+
+52
+00:02:05.219 --> 00:02:06.650
+using
+
+53
+00:02:06.650 --> 00:02:09.080
+euro n Mo's here I have shown you the
+
+54
+00:02:09.080 --> 00:02:11.540
+static CMOS NAND again for your
+
+55
+00:02:11.540 --> 00:02:13.460
+reference and this is nothing but my
+
+56
+00:02:13.460 --> 00:02:16.550
+zero style general representation we
+
+57
+00:02:16.550 --> 00:02:18.590
+know that the pulldown remains the same
+
+58
+00:02:18.590 --> 00:02:20.540
+so let's quickly draw the pull down for
+
+59
+00:02:20.540 --> 00:02:23.210
+a zero two input NAND so this is I beg
+
+60
+00:02:23.210 --> 00:02:24.740
+your pardon it's not a FEMA's it's an N
+
+61
+00:02:24.740 --> 00:02:27.620
+Mo's so this is my input a same like
+
+62
+00:02:27.620 --> 00:02:31.010
+static CMOS input be rounded the pull-up
+
+63
+00:02:31.010 --> 00:02:33.590
+will not be like static CMOS it will be
+
+64
+00:02:33.590 --> 00:02:36.620
+replaced by a single p MOS transistor so
+
+65
+00:02:36.620 --> 00:02:38.690
+let's quickly draw that single p MOS
+
+66
+00:02:38.690 --> 00:02:41.420
+with its Kate grounded the gate is
+
+67
+00:02:41.420 --> 00:02:43.700
+grounded and the output is taken between
+
+68
+00:02:43.700 --> 00:02:46.850
+the P Mo's and the pulldown circuit so
+
+69
+00:02:46.850 --> 00:02:50.959
+this is my output V out and this is VDD
+
+70
+00:02:50.959 --> 00:02:53.450
+so this is nothing but my two input NAND
+
+71
+00:02:53.450 --> 00:02:55.490
+gate in zero and more style again you
+
+72
+00:02:55.490 --> 00:02:57.500
+can verify the truth table let's go
+
+73
+00:02:57.500 --> 00:02:59.600
+ahead and quickly do a two input NAND
+
+74
+00:02:59.600 --> 00:03:02.420
+gate using dynamic style and dynamics
+
+75
+00:03:02.420 --> 00:03:03.830
+channel again we saw that the enfance
+
+76
+00:03:03.830 --> 00:03:06.110
+will remain same like static so let's
+
+77
+00:03:06.110 --> 00:03:09.050
+first draw the infect object of static
+
+78
+00:03:09.050 --> 00:03:11.480
+CMOS again that is transistor a in
+
+79
+00:03:11.480 --> 00:03:13.910
+series with transistor be you also saw
+
+80
+00:03:13.910 --> 00:03:15.500
+that that has to be a photo transistor
+
+81
+00:03:15.500 --> 00:03:17.570
+which is nothing but a P Mo's let's do
+
+82
+00:03:17.570 --> 00:03:20.209
+that P Mo's transistor I beg your pardon
+
+83
+00:03:20.209 --> 00:03:21.739
+a header transistor which is nothing but
+
+84
+00:03:21.739 --> 00:03:23.390
+a peat moss and the photo transistor
+
+85
+00:03:23.390 --> 00:03:25.550
+which is nothing but an N moss and both
+
+86
+00:03:25.550 --> 00:03:27.980
+of them needs to be shorted and given a
+
+87
+00:03:27.980 --> 00:03:30.800
+signal called as Phi this n moss will be
+
+88
+00:03:30.800 --> 00:03:32.239
+connected in series with the enfant
+
+89
+00:03:32.239 --> 00:03:34.310
+logic and this p moss will be connected
+
+90
+00:03:34.310 --> 00:03:37.130
+to the pulldown circuit logic so this is
+
+91
+00:03:37.130 --> 00:03:39.320
+what I'm talking about and this is
+
+92
+00:03:39.320 --> 00:03:42.080
+nothing but might be out this is VDD and
+
+93
+00:03:42.080 --> 00:03:44.959
+this is ground this is nothing but my
+
+94
+00:03:44.959 --> 00:03:47.900
+two input NAND gate in dynamic style you
+
+95
+00:03:47.900 --> 00:03:50.330
+can verify the truth table just remember
+
+96
+00:03:50.330 --> 00:03:52.130
+that whenever we are drawing a dynamic
+
+97
+00:03:52.130 --> 00:03:53.780
+style we should always represent a
+
+98
+00:03:53.780 --> 00:03:56.030
+capacitor and output in the general
+
+99
+00:03:56.030 --> 00:03:57.380
+style also that it needs to be a
+
+100
+00:03:57.380 --> 00:03:59.540
+capacitor we need to be represented so
+
+101
+00:03:59.540 --> 00:04:01.250
+that completes the two input NAND gate
+
+102
+00:04:01.250 --> 00:04:03.739
+in dynamic style let's quickly board and
+
+103
+00:04:03.739 --> 00:04:04.380
+do
+
+104
+00:04:04.380 --> 00:04:07.440
+NAND gate in C square moss or clock CMOS
+
+105
+00:04:07.440 --> 00:04:09.240
+logic here we saw that the static
+
+106
+00:04:09.240 --> 00:04:12.000
+circuit will be replicated 4p fetes and
+
+107
+00:04:12.000 --> 00:04:15.000
+also for n fits with an additional two
+
+108
+00:04:15.000 --> 00:04:17.040
+transistors so let's quickly do that so
+
+109
+00:04:17.040 --> 00:04:19.589
+my pull-up will have to pee mosses for
+
+110
+00:04:19.589 --> 00:04:22.260
+sure in addition to this it will be a p
+
+111
+00:04:22.260 --> 00:04:23.850
+moss which will be connected in series
+
+112
+00:04:23.850 --> 00:04:26.100
+this is nothing but this peat moss for a
+
+113
+00:04:26.100 --> 00:04:28.380
+pulldown circuit again we'll have the
+
+114
+00:04:28.380 --> 00:04:31.320
+same style what we have it for static so
+
+115
+00:04:31.320 --> 00:04:34.290
+a in series with B this is my infant
+
+116
+00:04:34.290 --> 00:04:36.360
+logic which is entirely in series with
+
+117
+00:04:36.360 --> 00:04:38.220
+another n MOS transistor which is
+
+118
+00:04:38.220 --> 00:04:40.350
+nothing but my file and this is nothing
+
+119
+00:04:40.350 --> 00:04:44.160
+but my Phi bar and this is a and B so
+
+120
+00:04:44.160 --> 00:04:45.900
+this needs to be connected in series to
+
+121
+00:04:45.900 --> 00:04:49.950
+this both my P Mo's m1 and m2 are
+
+122
+00:04:49.950 --> 00:04:51.990
+connected and in between that the output
+
+123
+00:04:51.990 --> 00:04:54.780
+would be taken so this is connected and
+
+124
+00:04:54.780 --> 00:04:56.640
+this is my out would be out and this is
+
+125
+00:04:56.640 --> 00:04:58.650
+nothing but ground again you can verify
+
+126
+00:04:58.650 --> 00:05:00.330
+it with the truth table this is nothing
+
+127
+00:05:00.330 --> 00:05:03.150
+but a C square most logic in summary we
+
+128
+00:05:03.150 --> 00:05:05.760
+drew the static to input CMOS NAND they
+
+129
+00:05:05.760 --> 00:05:08.010
+replace the pull-up network with a PMO's
+
+130
+00:05:08.010 --> 00:05:09.600
+transistor it was grounded which was
+
+131
+00:05:09.600 --> 00:05:12.120
+nothing but y0 and moss we replace the
+
+132
+00:05:12.120 --> 00:05:14.190
+grounded p MOS transistor with a header
+
+133
+00:05:14.190 --> 00:05:15.900
+transistor connected to phi and a
+
+134
+00:05:15.900 --> 00:05:17.970
+phototransistor n Mo's also connected to
+
+135
+00:05:17.970 --> 00:05:20.490
+phi and in between we substituted their
+
+136
+00:05:20.490 --> 00:05:22.020
+inmost Rajic circuitry and we got the
+
+137
+00:05:22.020 --> 00:05:25.470
+dynamic circuit and we also saw the c
+
+138
+00:05:25.470 --> 00:05:27.450
+square most erotic circuit hope your
+
+139
+00:05:27.450 --> 00:05:29.400
+followed two input NAND gate and its
+
+140
+00:05:29.400 --> 00:05:31.620
+representation in different styles stay
+
+141
+00:05:31.620 --> 00:05:33.450
+tuned for further cliffs thank you very
+
+142
+00:05:33.450 --> 00:05:35.630
+much
+

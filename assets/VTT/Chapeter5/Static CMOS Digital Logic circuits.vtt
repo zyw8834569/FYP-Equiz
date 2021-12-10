@@ -1,0 +1,3626 @@
+WEBVTT
+
+1
+00:00:00.880 --> 00:00:04.960
+this conference will now be recorded
+
+2
+00:00:07.680 --> 00:00:11.920
+okay so fine so today we discussed the
+
+3
+00:00:11.920 --> 00:00:14.240
+some digital technique how to design
+
+4
+00:00:14.240 --> 00:00:16.560
+some digital circuits based on
+
+5
+00:00:16.560 --> 00:00:20.160
+the static cmos what is the static cmos
+
+6
+00:00:20.160 --> 00:00:22.480
+i will discuss on today so now suppose
+
+7
+00:00:22.480 --> 00:00:23.199
+that
+
+8
+00:00:23.199 --> 00:00:25.439
+actually one expression is there one is
+
+9
+00:00:25.439 --> 00:00:28.640
+expression is suppose that
+
+10
+00:00:28.640 --> 00:00:30.240
+okay very simple expression i taken
+
+11
+00:00:30.240 --> 00:00:32.558
+first and then we go for some higher
+
+12
+00:00:32.558 --> 00:00:35.520
+level uh suppose that i design the
+
+13
+00:00:35.520 --> 00:00:36.559
+circuit in
+
+14
+00:00:36.559 --> 00:00:39.600
+that is a nand so
+
+15
+00:00:39.600 --> 00:00:42.640
+how to design this nand gate circuit at
+
+16
+00:00:42.640 --> 00:00:44.879
+the cmos level
+
+17
+00:00:44.879 --> 00:00:48.239
+so the only uh three uh
+
+18
+00:00:48.239 --> 00:00:50.160
+two step is there in the two step you
+
+19
+00:00:50.160 --> 00:00:51.920
+have to design
+
+20
+00:00:51.920 --> 00:00:55.360
+any type of digital circuits
+
+21
+00:00:55.360 --> 00:00:57.680
+so the first step is suppose that the
+
+22
+00:00:57.680 --> 00:00:58.879
+first step is
+
+23
+00:00:58.879 --> 00:01:00.399
+your boolean expression must be
+
+24
+00:01:00.399 --> 00:01:02.800
+available suppose that in case of
+
+25
+00:01:02.800 --> 00:01:06.080
+land gate your logic is a b whole bar
+
+26
+00:01:06.080 --> 00:01:07.920
+okay so so this is a available
+
+27
+00:01:07.920 --> 00:01:10.240
+expression this is expression
+
+28
+00:01:10.240 --> 00:01:14.320
+label so now how to convert this
+
+29
+00:01:14.320 --> 00:01:17.200
+boolean expression to this logic to this
+
+30
+00:01:17.200 --> 00:01:18.000
+uh
+
+31
+00:01:18.000 --> 00:01:21.119
+transistor level design okay so what is
+
+32
+00:01:21.119 --> 00:01:22.080
+the process
+
+33
+00:01:22.080 --> 00:01:25.360
+uh what process so now we go for the
+
+34
+00:01:25.360 --> 00:01:28.400
+fundamentals and we have to design this
+
+35
+00:01:28.400 --> 00:01:32.079
+type of architecture
+
+36
+00:01:32.079 --> 00:01:34.320
+okay just to remember this concept i
+
+37
+00:01:34.320 --> 00:01:36.400
+just uh tell you
+
+38
+00:01:36.400 --> 00:01:40.159
+in k actually the static cmos
+
+39
+00:01:40.159 --> 00:01:43.360
+is a two block one block and another
+
+40
+00:01:43.360 --> 00:01:44.720
+block
+
+41
+00:01:44.720 --> 00:01:48.320
+okay so this block is connected to bdt
+
+42
+00:01:48.320 --> 00:01:52.240
+and this block is connected to ground
+
+43
+00:01:52.240 --> 00:01:53.680
+okay this is the first block this is the
+
+44
+00:01:53.680 --> 00:01:56.240
+second block and now here the gate is
+
+45
+00:01:56.240 --> 00:01:59.360
+common if suppose that this is a gate
+
+46
+00:01:59.360 --> 00:02:02.240
+and here you take the output okay so the
+
+47
+00:02:02.240 --> 00:02:04.719
+output is denoted by y
+
+48
+00:02:04.719 --> 00:02:07.759
+so so this is a general architecture
+
+49
+00:02:07.759 --> 00:02:12.480
+available in all that cmos circuit
+
+50
+00:02:12.480 --> 00:02:15.920
+okay so this is a general architecture
+
+51
+00:02:15.920 --> 00:02:17.920
+architecture is available in all the
+
+52
+00:02:17.920 --> 00:02:18.959
+digital
+
+53
+00:02:18.959 --> 00:02:21.280
+or all cmos level circuits if you talk
+
+54
+00:02:21.280 --> 00:02:22.319
+about the cmos
+
+55
+00:02:22.319 --> 00:02:26.560
+so cmos is a combination pmos and nmos
+
+56
+00:02:26.560 --> 00:02:31.120
+so now block
+
+57
+00:02:31.120 --> 00:02:34.319
+is known as a pull-up network this
+
+58
+00:02:34.319 --> 00:02:37.519
+block is known as a pull up and this
+
+59
+00:02:37.519 --> 00:02:39.519
+lower side block if you talk about the
+
+60
+00:02:39.519 --> 00:02:41.360
+lower side block
+
+61
+00:02:41.360 --> 00:02:44.800
+this is the pull down okay
+
+62
+00:02:44.800 --> 00:02:48.160
+this is a pull down so so you know
+
+63
+00:02:48.160 --> 00:02:50.720
+very very well the pmos the pull-up
+
+64
+00:02:50.720 --> 00:02:54.319
+transistor is designed by pmos
+
+65
+00:02:54.319 --> 00:02:58.800
+the pmos is the sample is like this
+
+66
+00:02:58.800 --> 00:03:01.440
+okay now here what is pull down pull
+
+67
+00:03:01.440 --> 00:03:01.920
+down is
+
+68
+00:03:01.920 --> 00:03:05.680
+actually is a and mos transistor
+
+69
+00:03:05.680 --> 00:03:08.000
+in all in all the case your nmos is
+
+70
+00:03:08.000 --> 00:03:09.120
+connected to ground
+
+71
+00:03:09.120 --> 00:03:11.120
+source is connected to ground in case of
+
+72
+00:03:11.120 --> 00:03:14.159
+nmos transistor
+
+73
+00:03:14.480 --> 00:03:16.480
+okay but here if you talked about the
+
+74
+00:03:16.480 --> 00:03:18.400
+pull up network pull-up network is a
+
+75
+00:03:18.400 --> 00:03:19.840
+pmos
+
+76
+00:03:19.840 --> 00:03:21.920
+this is your pmos and this source is
+
+77
+00:03:21.920 --> 00:03:24.879
+connected to vdd
+
+78
+00:03:25.120 --> 00:03:27.280
+source is connected to vdd so these are
+
+79
+00:03:27.280 --> 00:03:29.200
+the fundamental
+
+80
+00:03:29.200 --> 00:03:32.720
+fundamental things you already know the
+
+81
+00:03:32.720 --> 00:03:34.239
+pull-up network is a pmos
+
+82
+00:03:34.239 --> 00:03:37.360
+and the pull down network is a
+
+83
+00:03:37.360 --> 00:03:41.120
+transistor but now my objective is we
+
+84
+00:03:41.120 --> 00:03:41.599
+design
+
+85
+00:03:41.599 --> 00:03:44.640
+a digital circuit based on the cmos
+
+86
+00:03:44.640 --> 00:03:45.680
+logic
+
+87
+00:03:45.680 --> 00:03:47.680
+so all the cmos logic circuits is
+
+88
+00:03:47.680 --> 00:03:49.440
+actually based on this type of
+
+89
+00:03:49.440 --> 00:03:51.120
+architecture
+
+90
+00:03:51.120 --> 00:03:54.480
+in this block you design some circuit
+
+91
+00:03:54.480 --> 00:03:56.319
+may be series connection or maybe
+
+92
+00:03:56.319 --> 00:03:58.239
+parallel connection
+
+93
+00:03:58.239 --> 00:04:01.280
+and also in the blog two you design some
+
+94
+00:04:01.280 --> 00:04:02.159
+circuit
+
+95
+00:04:02.159 --> 00:04:05.360
+may be nmos maybe series or parallel
+
+96
+00:04:05.360 --> 00:04:09.200
+so we discuss later how to
+
+97
+00:04:09.200 --> 00:04:11.599
+how to consider this is a series
+
+98
+00:04:11.599 --> 00:04:13.040
+connection and this is a parallel
+
+99
+00:04:13.040 --> 00:04:14.640
+connection
+
+100
+00:04:14.640 --> 00:04:17.839
+what is the concept behind that but now
+
+101
+00:04:17.839 --> 00:04:18.399
+you just
+
+102
+00:04:18.399 --> 00:04:22.160
+understand in all the cmos circuits
+
+103
+00:04:22.160 --> 00:04:24.880
+it actually design this type of
+
+104
+00:04:24.880 --> 00:04:26.080
+architecture
+
+105
+00:04:26.080 --> 00:04:28.160
+what is a pull-up and there is a
+
+106
+00:04:28.160 --> 00:04:29.440
+pull-down
+
+107
+00:04:29.440 --> 00:04:31.280
+and the pull network pull-up network is
+
+108
+00:04:31.280 --> 00:04:32.800
+connected to vdd
+
+109
+00:04:32.800 --> 00:04:34.720
+and the pull-down network is connected
+
+110
+00:04:34.720 --> 00:04:37.040
+ground and this is a common connection
+
+111
+00:04:37.040 --> 00:04:38.400
+this is a gate
+
+112
+00:04:38.400 --> 00:04:42.560
+and this is output okay
+
+113
+00:04:42.560 --> 00:04:45.919
+so that is clear it is no any issue
+
+114
+00:04:45.919 --> 00:04:48.960
+but now we go for the pull up
+
+115
+00:04:48.960 --> 00:04:51.520
+and pull down network how to design the
+
+116
+00:04:51.520 --> 00:04:53.759
+pull up and pull down network
+
+117
+00:04:53.759 --> 00:04:55.919
+based on the boolean expression based on
+
+118
+00:04:55.919 --> 00:04:58.639
+the available boolean expression
+
+119
+00:04:58.639 --> 00:05:02.320
+so here in this logic land logic your
+
+120
+00:05:02.320 --> 00:05:04.479
+boolean expression is available a b
+
+121
+00:05:04.479 --> 00:05:07.680
+whole bar whole bar
+
+122
+00:05:07.680 --> 00:05:10.320
+so this is my expression and the my
+
+123
+00:05:10.320 --> 00:05:13.440
+architecture is only
+
+124
+00:05:13.440 --> 00:05:15.199
+if you divide this circuit in a two
+
+125
+00:05:15.199 --> 00:05:16.479
+block
+
+126
+00:05:16.479 --> 00:05:20.240
+this is a pull up okay i i
+
+127
+00:05:20.240 --> 00:05:23.600
+designed two circuit only i designed two
+
+128
+00:05:23.600 --> 00:05:24.560
+model rule on
+
+129
+00:05:24.560 --> 00:05:27.840
+one module is a pull-up
+
+130
+00:05:28.479 --> 00:05:32.560
+in in this down i design pull down
+
+131
+00:05:33.680 --> 00:05:37.759
+okay so so uh so that is okay
+
+132
+00:05:37.759 --> 00:05:40.400
+in the upside we design the pull up and
+
+133
+00:05:40.400 --> 00:05:42.479
+in the downside we design the pull
+
+134
+00:05:42.479 --> 00:05:45.919
+down network
+
+135
+00:05:46.639 --> 00:05:51.440
+okay so that is clear but now we design
+
+136
+00:05:51.440 --> 00:05:53.759
+what is the action type maybe series
+
+137
+00:05:53.759 --> 00:05:55.039
+connection
+
+138
+00:05:55.039 --> 00:05:57.840
+or maybe parallel connection may be
+
+139
+00:05:57.840 --> 00:05:59.919
+series connection or maybe parallel
+
+140
+00:05:59.919 --> 00:06:03.360
+connection so based on the availability
+
+141
+00:06:03.360 --> 00:06:04.560
+of the boolean
+
+142
+00:06:04.560 --> 00:06:07.840
+boolean expression
+
+143
+00:06:08.160 --> 00:06:09.840
+so based on the availability of the
+
+144
+00:06:09.840 --> 00:06:12.800
+boolean expression
+
+145
+00:06:14.479 --> 00:06:18.840
+we have to decide the pull-up pull-down
+
+146
+00:06:18.840 --> 00:06:21.120
+network
+
+147
+00:06:21.120 --> 00:06:24.160
+so now we go for the designing part
+
+148
+00:06:24.160 --> 00:06:26.960
+how to design the pull-up and how to
+
+149
+00:06:26.960 --> 00:06:28.479
+design the pull-down
+
+150
+00:06:28.479 --> 00:06:32.240
+network so you know in this side
+
+151
+00:06:32.240 --> 00:06:34.319
+if you divide the circuit in two part
+
+152
+00:06:34.319 --> 00:06:36.240
+two part in this side
+
+153
+00:06:36.240 --> 00:06:39.280
+we design some circuit in this side
+
+154
+00:06:39.280 --> 00:06:42.400
+is also design some circuit
+
+155
+00:06:42.400 --> 00:06:45.360
+so in this side that is pull up network
+
+156
+00:06:45.360 --> 00:06:46.560
+in this side this is a
+
+157
+00:06:46.560 --> 00:06:50.639
+down network so that means here all the
+
+158
+00:06:50.639 --> 00:06:53.840
+all the devices all the or whatever the
+
+159
+00:06:53.840 --> 00:06:54.560
+device
+
+160
+00:06:54.560 --> 00:06:56.720
+you are using in this side that is pull
+
+161
+00:06:56.720 --> 00:06:58.160
+up
+
+162
+00:06:58.160 --> 00:07:00.840
+so that means here pmos he required only
+
+163
+00:07:00.840 --> 00:07:03.840
+pmos
+
+164
+00:07:04.720 --> 00:07:07.520
+similarly in the sound network in this
+
+165
+00:07:07.520 --> 00:07:08.960
+side
+
+166
+00:07:08.960 --> 00:07:11.840
+in the downside you require pull down
+
+167
+00:07:11.840 --> 00:07:14.840
+the pull down network is designed by
+
+168
+00:07:14.840 --> 00:07:17.360
+nmos
+
+169
+00:07:17.360 --> 00:07:20.800
+okay so the design way and
+
+170
+00:07:20.800 --> 00:07:24.400
+moss so that that logic
+
+171
+00:07:24.400 --> 00:07:27.759
+we have to fix first in our mind
+
+172
+00:07:27.759 --> 00:07:30.800
+now then you decide number of
+
+173
+00:07:30.800 --> 00:07:31.759
+transistors
+
+174
+00:07:31.759 --> 00:07:33.759
+in case of pull up or in case of pull
+
+175
+00:07:33.759 --> 00:07:36.800
+down how many times are required
+
+176
+00:07:36.800 --> 00:07:38.560
+and what is the connection whatever what
+
+177
+00:07:38.560 --> 00:07:40.240
+is the connection maybe there is or may
+
+178
+00:07:40.240 --> 00:07:40.800
+be
+
+179
+00:07:40.800 --> 00:07:44.000
+parallel okay so
+
+180
+00:07:44.000 --> 00:07:46.560
+now first we decide number of
+
+181
+00:07:46.560 --> 00:07:47.599
+transistors in
+
+182
+00:07:47.599 --> 00:07:50.639
+in in my circuit designing my nand logic
+
+183
+00:07:50.639 --> 00:07:51.759
+is available that
+
+184
+00:07:51.759 --> 00:07:55.199
+none logic is a b whole bar
+
+185
+00:07:55.440 --> 00:07:58.319
+okay so this is this logic we have to
+
+186
+00:07:58.319 --> 00:07:58.960
+design
+
+187
+00:07:58.960 --> 00:08:03.680
+in case of cmos level okay so that is
+
+188
+00:08:03.680 --> 00:08:06.800
+that is clear only so first we decide to
+
+189
+00:08:06.800 --> 00:08:07.680
+part
+
+190
+00:08:07.680 --> 00:08:09.520
+one part is how many number of
+
+191
+00:08:09.520 --> 00:08:11.280
+transistors
+
+192
+00:08:11.280 --> 00:08:13.759
+and and what is the what is a type maybe
+
+193
+00:08:13.759 --> 00:08:14.400
+series
+
+194
+00:08:14.400 --> 00:08:17.599
+or maybe panel so two thing we have to
+
+195
+00:08:17.599 --> 00:08:20.160
+solve here
+
+196
+00:08:22.080 --> 00:08:25.280
+okay so just to understand in this
+
+197
+00:08:25.280 --> 00:08:27.840
+boolean expressions there is a two input
+
+198
+00:08:27.840 --> 00:08:29.199
+only your input is only a
+
+199
+00:08:29.199 --> 00:08:32.320
+and b so at least you require
+
+200
+00:08:32.320 --> 00:08:35.599
+transistors uh means in the pull-up
+
+201
+00:08:35.599 --> 00:08:36.640
+network or
+
+202
+00:08:36.640 --> 00:08:40.479
+network is equal number of transistors
+
+203
+00:08:40.479 --> 00:08:42.880
+in case of a sigma circuit design or
+
+204
+00:08:42.880 --> 00:08:45.040
+static cmos circuit design
+
+205
+00:08:45.040 --> 00:08:48.480
+pull up this is a pull down
+
+206
+00:08:48.480 --> 00:08:52.080
+so in the pull up network how many
+
+207
+00:08:52.080 --> 00:08:55.360
+because in pull down network
+
+208
+00:08:55.360 --> 00:08:58.959
+we are using equal number of
+
+209
+00:08:59.040 --> 00:09:02.480
+the transistor is same okay
+
+210
+00:09:02.480 --> 00:09:05.680
+so now here in this
+
+211
+00:09:05.680 --> 00:09:08.880
+upside if we talk about the upside
+
+212
+00:09:08.880 --> 00:09:12.000
+i require two transistor and in the
+
+213
+00:09:12.000 --> 00:09:13.360
+downside
+
+214
+00:09:13.360 --> 00:09:16.959
+i also require two dimensions
+
+215
+00:09:16.959 --> 00:09:19.279
+okay so that is clear why because in the
+
+216
+00:09:19.279 --> 00:09:20.959
+nand logic
+
+217
+00:09:20.959 --> 00:09:23.040
+two input is there so that means you
+
+218
+00:09:23.040 --> 00:09:24.240
+require only
+
+219
+00:09:24.240 --> 00:09:27.839
+two dimensions okay so now
+
+220
+00:09:27.839 --> 00:09:32.000
+we have to we have solved this problem
+
+221
+00:09:32.000 --> 00:09:35.920
+and second issue how to decide the
+
+222
+00:09:35.920 --> 00:09:36.720
+connection
+
+223
+00:09:36.720 --> 00:09:40.320
+if if the true transistor is there
+
+224
+00:09:40.640 --> 00:09:42.720
+what is the connection maybe series or
+
+225
+00:09:42.720 --> 00:09:44.560
+may be parallel
+
+226
+00:09:44.560 --> 00:09:47.680
+so so what concept how to how to arrange
+
+227
+00:09:47.680 --> 00:09:48.080
+this
+
+228
+00:09:48.080 --> 00:09:51.360
+uh how do i take the transistors maybe
+
+229
+00:09:51.360 --> 00:09:53.600
+in series type or maybe in parallel
+
+230
+00:09:53.600 --> 00:09:55.839
+what is the logic or what is the concept
+
+231
+00:09:55.839 --> 00:09:57.680
+behind this
+
+232
+00:09:57.680 --> 00:09:59.600
+okay so now we go for here for the
+
+233
+00:09:59.600 --> 00:10:03.440
+concept how to design the
+
+234
+00:10:03.440 --> 00:10:06.560
+series of parallel connection okay so
+
+235
+00:10:06.560 --> 00:10:08.000
+please understand if
+
+236
+00:10:08.000 --> 00:10:11.519
+the logic is a b whole bar
+
+237
+00:10:11.839 --> 00:10:16.240
+here first we concentrate this side
+
+238
+00:10:16.240 --> 00:10:19.760
+this is a pull down and this is designed
+
+239
+00:10:19.760 --> 00:10:22.880
+by only nmos transistors
+
+240
+00:10:22.880 --> 00:10:26.000
+so here just you observe carefully
+
+241
+00:10:26.000 --> 00:10:29.200
+here you observe carefully
+
+242
+00:10:29.200 --> 00:10:32.320
+in case of n mass okay just i just you
+
+243
+00:10:32.320 --> 00:10:32.800
+use this
+
+244
+00:10:32.800 --> 00:10:37.440
+table in case of cmos
+
+245
+00:10:37.440 --> 00:10:39.839
+you just observe in my boolean
+
+246
+00:10:39.839 --> 00:10:40.560
+expression
+
+247
+00:10:40.560 --> 00:10:43.920
+in the available boolean expressions
+
+248
+00:10:43.920 --> 00:10:49.360
+what is this is a plus sign or dot sign
+
+249
+00:10:49.360 --> 00:10:53.040
+if it is plus sign then you consider
+
+250
+00:10:53.040 --> 00:10:56.399
+this is the parallel connection
+
+251
+00:10:56.399 --> 00:10:59.760
+if it is dot sign
+
+252
+00:10:59.760 --> 00:11:04.079
+then you consider the device
+
+253
+00:11:04.079 --> 00:11:07.120
+in the series mode
+
+254
+00:11:08.000 --> 00:11:11.120
+and now in case of pmos
+
+255
+00:11:11.120 --> 00:11:14.720
+this operation is opposite
+
+256
+00:11:14.720 --> 00:11:17.839
+the plane is denoted here series and the
+
+257
+00:11:17.839 --> 00:11:18.560
+dot
+
+258
+00:11:18.560 --> 00:11:22.000
+sign is denoted the parallel
+
+259
+00:11:22.000 --> 00:11:24.000
+why because the pmos is a compliment of
+
+260
+00:11:24.000 --> 00:11:25.760
+nmos
+
+261
+00:11:25.760 --> 00:11:28.160
+what is the rule in nmos if the opposite
+
+262
+00:11:28.160 --> 00:11:29.440
+rule are
+
+263
+00:11:29.440 --> 00:11:33.600
+the opposite rules are available on the
+
+264
+00:11:34.560 --> 00:11:38.399
+the rules are available on the pmos
+
+265
+00:11:38.399 --> 00:11:42.560
+so in my endless logic in my nmos logic
+
+266
+00:11:42.560 --> 00:11:45.200
+my dots dots a plus sign represent the
+
+267
+00:11:45.200 --> 00:11:47.040
+parallel
+
+268
+00:11:47.040 --> 00:11:49.519
+and the dot sign and the dot sign
+
+269
+00:11:49.519 --> 00:11:52.639
+represent the series
+
+270
+00:11:53.600 --> 00:11:56.000
+but here in case of p mod the plus sign
+
+271
+00:11:56.000 --> 00:11:57.120
+represent the series
+
+272
+00:11:57.120 --> 00:12:00.320
+opposite opposite behavior
+
+273
+00:12:00.320 --> 00:12:04.880
+okay so so that is clear it is okay
+
+274
+00:12:04.880 --> 00:12:07.920
+now if suppose that if the
+
+275
+00:12:07.920 --> 00:12:12.160
+if this logic in this downside
+
+276
+00:12:12.160 --> 00:12:15.760
+just you observe here in this expression
+
+277
+00:12:15.760 --> 00:12:18.800
+the sign is there so what is the meaning
+
+278
+00:12:18.800 --> 00:12:20.800
+of dot here
+
+279
+00:12:20.800 --> 00:12:23.839
+just to see just to carefully uh
+
+280
+00:12:23.839 --> 00:12:26.079
+observer
+
+281
+00:12:26.079 --> 00:12:29.360
+dot means series connection
+
+282
+00:12:29.440 --> 00:12:32.800
+so series means both the transistors
+
+283
+00:12:32.800 --> 00:12:35.360
+both the tangents are connected in
+
+284
+00:12:35.360 --> 00:12:36.480
+series
+
+285
+00:12:36.480 --> 00:12:38.720
+this is a series connection because here
+
+286
+00:12:38.720 --> 00:12:40.720
+the dot sign is available this dot sign
+
+287
+00:12:40.720 --> 00:12:42.079
+the meaning is
+
+288
+00:12:42.079 --> 00:12:44.959
+it is in series
+
+289
+00:12:46.800 --> 00:12:49.040
+okay because here the plus sign is not
+
+290
+00:12:49.040 --> 00:12:50.079
+there
+
+291
+00:12:50.079 --> 00:12:53.120
+only dot sign so the meaning of dot sign
+
+292
+00:12:53.120 --> 00:12:55.120
+the connection is series
+
+293
+00:12:55.120 --> 00:12:58.240
+this is a series connection
+
+294
+00:12:59.040 --> 00:13:02.079
+okay so now my uh pull down network is
+
+295
+00:13:02.079 --> 00:13:03.120
+complete
+
+296
+00:13:03.120 --> 00:13:05.839
+because we know this block this down
+
+297
+00:13:05.839 --> 00:13:08.880
+block is a pull down
+
+298
+00:13:10.320 --> 00:13:13.920
+now we go for the pull up network design
+
+299
+00:13:13.920 --> 00:13:16.560
+now we go for the pull up network design
+
+300
+00:13:16.560 --> 00:13:19.519
+so this is a pull up network
+
+301
+00:13:19.519 --> 00:13:23.279
+okay so in case of pull out network
+
+302
+00:13:23.279 --> 00:13:26.320
+in case of pull-up network
+
+303
+00:13:26.320 --> 00:13:29.920
+your device
+
+304
+00:13:29.920 --> 00:13:31.839
+using only pmos i think you know very
+
+305
+00:13:31.839 --> 00:13:33.040
+well it is no way
+
+306
+00:13:33.040 --> 00:13:36.240
+you know very well uh
+
+307
+00:13:36.240 --> 00:13:39.040
+okay so just to observe carefully what
+
+308
+00:13:39.040 --> 00:13:40.079
+is my rule
+
+309
+00:13:40.079 --> 00:13:43.279
+our rule is this all the time this rule
+
+310
+00:13:43.279 --> 00:13:44.399
+is applicable
+
+311
+00:13:44.399 --> 00:13:47.519
+to design any type of static
+
+312
+00:13:47.519 --> 00:13:50.320
+logic circuits
+
+313
+00:13:50.720 --> 00:13:52.720
+okay so here this part is complete now
+
+314
+00:13:52.720 --> 00:13:55.920
+we go for this part
+
+315
+00:13:56.079 --> 00:13:58.079
+so just to observe here what is the sign
+
+316
+00:13:58.079 --> 00:13:59.920
+dot sign here what is the dot
+
+317
+00:13:59.920 --> 00:14:04.560
+dot means parallel so now in this
+
+318
+00:14:04.560 --> 00:14:09.199
+case your two transistors are indel
+
+319
+00:14:10.160 --> 00:14:12.959
+to time is starting parallel in case of
+
+320
+00:14:12.959 --> 00:14:16.800
+pull down network
+
+321
+00:14:16.800 --> 00:14:18.959
+okay so so that that so that is clear it
+
+322
+00:14:18.959 --> 00:14:20.399
+is no any problem
+
+323
+00:14:20.399 --> 00:14:24.160
+uh okay so here your again you know
+
+324
+00:14:24.160 --> 00:14:26.320
+if the pull down pull up network is
+
+325
+00:14:26.320 --> 00:14:27.600
+complete
+
+326
+00:14:27.600 --> 00:14:30.160
+then you apply a vdd connection and here
+
+327
+00:14:30.160 --> 00:14:32.639
+ground connection
+
+328
+00:14:32.639 --> 00:14:34.240
+and then you take output here this is
+
+329
+00:14:34.240 --> 00:14:35.839
+your node output y
+
+330
+00:14:35.839 --> 00:14:39.839
+this is your a b whole bar
+
+331
+00:14:40.639 --> 00:14:42.800
+okay so so that architecture if you talk
+
+332
+00:14:42.800 --> 00:14:44.160
+about the architecture
+
+333
+00:14:44.160 --> 00:14:46.800
+if this is complete just to observe the
+
+334
+00:14:46.800 --> 00:14:48.480
+pull up network and pull down network
+
+335
+00:14:48.480 --> 00:14:50.959
+what is your connection type
+
+336
+00:14:50.959 --> 00:14:54.000
+and what is the what is the
+
+337
+00:14:54.000 --> 00:14:56.839
+connection maybe series or maybe
+
+338
+00:14:56.839 --> 00:14:58.399
+parallel
+
+339
+00:14:58.399 --> 00:15:02.240
+okay so now how to verify this circuit
+
+340
+00:15:02.240 --> 00:15:02.720
+is
+
+341
+00:15:02.720 --> 00:15:05.760
+like an and gate
+
+342
+00:15:07.199 --> 00:15:09.279
+okay so now we take example if suppose
+
+343
+00:15:09.279 --> 00:15:10.800
+that this is one this is one
+
+344
+00:15:10.800 --> 00:15:13.839
+my output is zero
+
+345
+00:15:15.199 --> 00:15:18.320
+okay so now we put a is one b is one a
+
+346
+00:15:18.320 --> 00:15:18.880
+is one
+
+347
+00:15:18.880 --> 00:15:22.240
+b is one both are one one
+
+348
+00:15:22.240 --> 00:15:25.040
+so upside if you talk about this side
+
+349
+00:15:25.040 --> 00:15:26.639
+this transistor
+
+350
+00:15:26.639 --> 00:15:29.680
+if the input logic is one the mass is
+
+351
+00:15:29.680 --> 00:15:32.959
+off this transistor is off
+
+352
+00:15:32.959 --> 00:15:36.079
+and this is also off
+
+353
+00:15:37.680 --> 00:15:41.839
+but in case of nmos logic this is nmas
+
+354
+00:15:41.839 --> 00:15:46.800
+this is on and this is also on
+
+355
+00:15:47.120 --> 00:15:50.079
+so it is the meaning that this
+
+356
+00:15:50.079 --> 00:15:51.600
+connection is open
+
+357
+00:15:51.600 --> 00:15:53.600
+this connection is open this is open
+
+358
+00:15:53.600 --> 00:15:55.839
+connection
+
+359
+00:15:55.839 --> 00:15:59.120
+the transistor is off the pmos is on
+
+360
+00:15:59.120 --> 00:16:02.320
+but your nmos is actually working
+
+361
+00:16:02.320 --> 00:16:04.320
+so what is the meaning here if nmos is
+
+362
+00:16:04.320 --> 00:16:05.680
+actually work
+
+363
+00:16:05.680 --> 00:16:08.959
+or nmos is on so here
+
+364
+00:16:08.959 --> 00:16:12.000
+this this is your output node
+
+365
+00:16:12.000 --> 00:16:14.320
+so now here some capital return is there
+
+366
+00:16:14.320 --> 00:16:15.920
+if suppose that capacitor is fully
+
+367
+00:16:15.920 --> 00:16:16.639
+charged
+
+368
+00:16:16.639 --> 00:16:18.880
+or your higher voltage is available
+
+369
+00:16:18.880 --> 00:16:20.320
+maybe one
+
+370
+00:16:20.320 --> 00:16:22.399
+so this is the ground so now connection
+
+371
+00:16:22.399 --> 00:16:25.759
+is available here this connection
+
+372
+00:16:26.240 --> 00:16:28.639
+so the meaning is that your output node
+
+373
+00:16:28.639 --> 00:16:29.279
+voltage
+
+374
+00:16:29.279 --> 00:16:32.560
+is fall down your output node
+
+375
+00:16:32.560 --> 00:16:34.880
+no node voltage is fall down because
+
+376
+00:16:34.880 --> 00:16:35.759
+here
+
+377
+00:16:35.759 --> 00:16:37.920
+this is a ground connection and this is
+
+378
+00:16:37.920 --> 00:16:39.680
+a one this is a higher level
+
+379
+00:16:39.680 --> 00:16:42.720
+so this voltage is again fall down
+
+380
+00:16:42.720 --> 00:16:46.000
+now in this case if it is fall down
+
+381
+00:16:46.000 --> 00:16:50.399
+your output voltage is zero
+
+382
+00:16:50.399 --> 00:16:53.360
+output voltage is zero
+
+383
+00:16:54.000 --> 00:16:56.480
+okay so now we take one more case if
+
+384
+00:16:56.480 --> 00:16:59.199
+suppose that i take one more case
+
+385
+00:16:59.199 --> 00:17:01.040
+then you have to better understanding
+
+386
+00:17:01.040 --> 00:17:03.199
+what is the operation or functionality
+
+387
+00:17:03.199 --> 00:17:04.319
+of the
+
+388
+00:17:04.319 --> 00:17:07.760
+nand gate so now
+
+389
+00:17:07.760 --> 00:17:11.839
+in this case i put 1 is 1 and b is 0
+
+390
+00:17:11.839 --> 00:17:15.439
+so now we put a is 1 b 0
+
+391
+00:17:15.439 --> 00:17:19.280
+is 1 b 0
+
+392
+00:17:19.280 --> 00:17:22.400
+now you decide first what is
+
+393
+00:17:22.400 --> 00:17:26.160
+the behavior of the mass transistor
+
+394
+00:17:26.160 --> 00:17:29.360
+maybe on or maybe
+
+395
+00:17:29.360 --> 00:17:32.320
+so if it is 0 if it is zero this
+
+396
+00:17:32.320 --> 00:17:34.960
+transistor is on
+
+397
+00:17:34.960 --> 00:17:38.240
+i think it is clear transistor is on
+
+398
+00:17:38.240 --> 00:17:40.799
+this is off
+
+399
+00:17:43.360 --> 00:17:46.240
+okay now you check this transistor this
+
+400
+00:17:46.240 --> 00:17:47.039
+one is
+
+401
+00:17:47.039 --> 00:17:50.240
+gate input is one this is on and this is
+
+402
+00:17:50.240 --> 00:17:52.480
+off
+
+403
+00:17:54.400 --> 00:17:58.000
+so now this path is not stabilized this
+
+404
+00:17:58.000 --> 00:18:01.120
+path is not connected anywhere
+
+405
+00:18:01.120 --> 00:18:03.120
+because this transistor is open so here
+
+406
+00:18:03.120 --> 00:18:06.480
+this wire is open
+
+407
+00:18:06.960 --> 00:18:10.240
+so it is good but here if you observe
+
+408
+00:18:10.240 --> 00:18:12.559
+this transistor is on
+
+409
+00:18:12.559 --> 00:18:15.600
+so in this case your output your this is
+
+410
+00:18:15.600 --> 00:18:17.440
+your output
+
+411
+00:18:17.440 --> 00:18:21.120
+okay just type okay just i discuss
+
+412
+00:18:21.120 --> 00:18:23.840
+clearly this is your output and this
+
+413
+00:18:23.840 --> 00:18:24.799
+tiny star is
+
+414
+00:18:24.799 --> 00:18:29.760
+done so now connection is available here
+
+415
+00:18:29.760 --> 00:18:32.000
+in this case your output this supply
+
+416
+00:18:32.000 --> 00:18:33.919
+voltage is one
+
+417
+00:18:33.919 --> 00:18:38.080
+your output is always also one
+
+418
+00:18:38.559 --> 00:18:41.840
+your output is also one so this is the
+
+419
+00:18:41.840 --> 00:18:42.640
+correct output
+
+420
+00:18:42.640 --> 00:18:45.919
+and this is the behavior of the
+
+421
+00:18:45.919 --> 00:18:50.160
+nand this is behavior of the nanda logic
+
+422
+00:18:50.799 --> 00:18:54.240
+okay so i think it is no any problem in
+
+423
+00:18:54.240 --> 00:18:57.280
+the designing and the functionality
+
+424
+00:18:57.280 --> 00:18:58.080
+checking
+
+425
+00:18:58.080 --> 00:19:01.039
+the functionality of this circuits you
+
+426
+00:19:01.039 --> 00:19:01.440
+are
+
+427
+00:19:01.440 --> 00:19:04.720
+checking what are the two table of the
+
+428
+00:19:04.720 --> 00:19:08.080
+nand gate the architecture
+
+429
+00:19:08.080 --> 00:19:11.360
+there is no any problem in upside there
+
+430
+00:19:11.360 --> 00:19:12.640
+is a pull-up network
+
+431
+00:19:12.640 --> 00:19:15.840
+and in the downside the pull-down
+
+432
+00:19:15.840 --> 00:19:19.039
+the pull-up network is based on the pmos
+
+433
+00:19:19.039 --> 00:19:21.919
+and pull-down network is based on the
+
+434
+00:19:21.919 --> 00:19:23.600
+nmos
+
+435
+00:19:23.600 --> 00:19:27.120
+and in case of nmos the plus
+
+436
+00:19:27.120 --> 00:19:29.840
+the parallel and the dots sign denote
+
+437
+00:19:29.840 --> 00:19:31.840
+the series
+
+438
+00:19:31.840 --> 00:19:33.919
+and in case of pmos the plus sign is
+
+439
+00:19:33.919 --> 00:19:36.240
+series and the dot sign is parallel
+
+440
+00:19:36.240 --> 00:19:38.559
+then you observe carefully what are the
+
+441
+00:19:38.559 --> 00:19:40.880
+given boolean expressions
+
+442
+00:19:40.880 --> 00:19:43.919
+maybe plus or maybe dot accordingly you
+
+443
+00:19:43.919 --> 00:19:45.520
+have to your synthesize
+
+444
+00:19:45.520 --> 00:19:49.520
+or design your sigma circuits
+
+445
+00:19:49.520 --> 00:19:51.280
+but the number of transistors must be
+
+446
+00:19:51.280 --> 00:19:53.200
+equal
+
+447
+00:19:53.200 --> 00:19:56.160
+okay so always in a in all the pmos
+
+448
+00:19:56.160 --> 00:19:57.120
+transistor
+
+449
+00:19:57.120 --> 00:19:59.200
+number of pmos transistor is equal to
+
+450
+00:19:59.200 --> 00:20:02.799
+number of and most dimensions
+
+451
+00:20:02.799 --> 00:20:05.679
+okay so that is one way uh now we take
+
+452
+00:20:05.679 --> 00:20:07.039
+one more example
+
+453
+00:20:07.039 --> 00:20:08.799
+then you have a clear picture in your
+
+454
+00:20:08.799 --> 00:20:10.720
+mind
+
+455
+00:20:10.720 --> 00:20:13.840
+of the circuit designing part
+
+456
+00:20:13.840 --> 00:20:21.840
+okay so suppose that
+
+457
+00:20:24.320 --> 00:20:26.799
+okay after five or ten minutes i will
+
+458
+00:20:26.799 --> 00:20:27.840
+take attendance
+
+459
+00:20:27.840 --> 00:20:31.919
+okay if anyone not there please
+
+460
+00:20:31.919 --> 00:20:35.840
+okay so now uh
+
+461
+00:20:37.039 --> 00:20:38.640
+just we complete this one then we take
+
+462
+00:20:38.640 --> 00:20:41.679
+attendance okay
+
+463
+00:20:41.679 --> 00:20:43.600
+because this otherwise flow is not a
+
+464
+00:20:43.600 --> 00:20:45.280
+problem
+
+465
+00:20:45.280 --> 00:20:48.640
+okay so now in this case
+
+466
+00:20:48.640 --> 00:20:52.400
+i design the cmos
+
+467
+00:20:52.400 --> 00:20:54.720
+star logic what is the nor you know the
+
+468
+00:20:54.720 --> 00:20:56.240
+boolean expression
+
+469
+00:20:56.240 --> 00:20:59.360
+a plus b whole bar
+
+470
+00:20:59.760 --> 00:21:02.000
+clear this is an available boolean
+
+471
+00:21:02.000 --> 00:21:03.760
+expression
+
+472
+00:21:03.760 --> 00:21:06.159
+so now how to first to design the
+
+473
+00:21:06.159 --> 00:21:07.120
+circuits
+
+474
+00:21:07.120 --> 00:21:09.760
+so in my circuit my two part this is a
+
+475
+00:21:09.760 --> 00:21:10.880
+one part
+
+476
+00:21:10.880 --> 00:21:14.400
+in this part we design some circuit
+
+477
+00:21:14.400 --> 00:21:18.480
+in the downside we designed some
+
+478
+00:21:18.480 --> 00:21:20.400
+so this is a pull-up and this is a
+
+479
+00:21:20.400 --> 00:21:22.159
+pull-down
+
+480
+00:21:22.159 --> 00:21:24.320
+so these two transistors is actually is
+
+481
+00:21:24.320 --> 00:21:26.880
+a pmos
+
+482
+00:21:26.880 --> 00:21:28.880
+and this two transistor is actually a
+
+483
+00:21:28.880 --> 00:21:30.880
+and
+
+484
+00:21:30.880 --> 00:21:32.559
+because this is a pull up this is a pull
+
+485
+00:21:32.559 --> 00:21:34.480
+down
+
+486
+00:21:34.480 --> 00:21:36.400
+the pull up network is connected to vdd
+
+487
+00:21:36.400 --> 00:21:40.159
+and the pull down is connected to ground
+
+488
+00:21:40.400 --> 00:21:43.280
+so so it is okay it is no problem you
+
+489
+00:21:43.280 --> 00:21:44.559
+know very well
+
+490
+00:21:44.559 --> 00:21:48.640
+but we concentrate on more
+
+491
+00:21:48.640 --> 00:21:50.559
+for architect what is what is
+
+492
+00:21:50.559 --> 00:21:51.919
+architecture
+
+493
+00:21:51.919 --> 00:21:55.600
+configuration here
+
+494
+00:21:55.600 --> 00:21:59.840
+so first we concentrate on the
+
+495
+00:21:59.919 --> 00:22:02.960
+pull down network so first we
+
+496
+00:22:02.960 --> 00:22:04.799
+concentrate on our
+
+497
+00:22:04.799 --> 00:22:09.039
+pull down so please remember the
+
+498
+00:22:09.039 --> 00:22:12.880
+formula what is what is our formula
+
+499
+00:22:12.880 --> 00:22:15.120
+so just you observe in the given boolean
+
+500
+00:22:15.120 --> 00:22:16.640
+expression
+
+501
+00:22:16.640 --> 00:22:18.799
+some dot is there or some parallel some
+
+502
+00:22:18.799 --> 00:22:20.960
+plus sign is there
+
+503
+00:22:20.960 --> 00:22:23.840
+okay so now i observe here carefully
+
+504
+00:22:23.840 --> 00:22:27.520
+this is a plus sign
+
+505
+00:22:27.520 --> 00:22:29.840
+in this boolean expression there is a
+
+506
+00:22:29.840 --> 00:22:32.480
+plus sign and no dot
+
+507
+00:22:32.480 --> 00:22:34.320
+so what is the rule here just you
+
+508
+00:22:34.320 --> 00:22:35.919
+observe carefully in case of
+
+509
+00:22:35.919 --> 00:22:39.520
+n mass the plus sign means parallel
+
+510
+00:22:39.520 --> 00:22:41.360
+connection
+
+511
+00:22:41.360 --> 00:22:45.120
+plus sign means parallel connection
+
+512
+00:22:45.120 --> 00:22:48.400
+so now how many number of transistors
+
+513
+00:22:48.400 --> 00:22:50.880
+how many then you observe number of
+
+514
+00:22:50.880 --> 00:22:52.159
+inputs input is a two
+
+515
+00:22:52.159 --> 00:22:55.440
+number of transistor is also 2
+
+516
+00:22:55.440 --> 00:22:58.720
+so it's clear so if
+
+517
+00:22:58.720 --> 00:23:00.720
+so here the rule adding to this is a
+
+518
+00:23:00.720 --> 00:23:02.159
+plus sign plus
+
+519
+00:23:02.159 --> 00:23:04.400
+is a parallel connection these two
+
+520
+00:23:04.400 --> 00:23:08.240
+transistors are connected in parallel
+
+521
+00:23:08.240 --> 00:23:09.679
+clear these two transistors are
+
+522
+00:23:09.679 --> 00:23:11.919
+collected in parallel so now my this
+
+523
+00:23:11.919 --> 00:23:13.600
+circuit is complete
+
+524
+00:23:13.600 --> 00:23:16.720
+my this lower side my network is
+
+525
+00:23:16.720 --> 00:23:17.440
+complete
+
+526
+00:23:17.440 --> 00:23:20.720
+there is no any issue
+
+527
+00:23:20.799 --> 00:23:22.960
+okay so now we go for the top side
+
+528
+00:23:22.960 --> 00:23:24.559
+design this side is the design some
+
+529
+00:23:24.559 --> 00:23:25.360
+circuit
+
+530
+00:23:25.360 --> 00:23:28.559
+on the upside
+
+531
+00:23:29.120 --> 00:23:32.640
+okay so this is the pull up network
+
+532
+00:23:32.640 --> 00:23:35.840
+so so so this is a pull up network so
+
+533
+00:23:35.840 --> 00:23:37.200
+pull-up network
+
+534
+00:23:37.200 --> 00:23:39.679
+is designed by pmos actually this is a
+
+535
+00:23:39.679 --> 00:23:40.320
+pmos
+
+536
+00:23:40.320 --> 00:23:43.760
+here this is a pmos is a bubble
+
+537
+00:23:43.760 --> 00:23:46.080
+bubble
+
+538
+00:23:46.880 --> 00:23:49.840
+so now we decide the configuration of
+
+539
+00:23:49.840 --> 00:23:51.279
+the pmos
+
+540
+00:23:51.279 --> 00:23:54.640
+what is the type maybe siri
+
+541
+00:23:54.640 --> 00:23:58.960
+so according to the rule
+
+542
+00:23:58.960 --> 00:24:01.600
+the pmos transistor the plus sign the
+
+543
+00:24:01.600 --> 00:24:02.159
+series
+
+544
+00:24:02.159 --> 00:24:05.039
+and the dot sign represent the parallel
+
+545
+00:24:05.039 --> 00:24:06.320
+connector
+
+546
+00:24:06.320 --> 00:24:08.240
+that's that is a rule already this is a
+
+547
+00:24:08.240 --> 00:24:09.919
+rule already there
+
+548
+00:24:09.919 --> 00:24:11.919
+so now we go for the boolean expression
+
+549
+00:24:11.919 --> 00:24:13.440
+this is the plus sign
+
+550
+00:24:13.440 --> 00:24:15.039
+so what is the plus sign plus is a
+
+551
+00:24:15.039 --> 00:24:17.279
+series
+
+552
+00:24:17.279 --> 00:24:20.640
+so that means these two transistors
+
+553
+00:24:20.640 --> 00:24:23.760
+these two transistors
+
+554
+00:24:26.000 --> 00:24:29.120
+okay so these two transistors
+
+555
+00:24:29.120 --> 00:24:32.320
+are connected in series because this is
+
+556
+00:24:32.320 --> 00:24:32.559
+a
+
+557
+00:24:32.559 --> 00:24:37.440
+pmos the rule is plus sign denote this
+
+558
+00:24:37.440 --> 00:24:38.880
+so that's why these two transistors are
+
+559
+00:24:38.880 --> 00:24:41.840
+connected in series
+
+560
+00:24:41.919 --> 00:24:45.120
+so now my designing part is complete
+
+561
+00:24:45.120 --> 00:24:49.039
+the question complete so
+
+562
+00:24:49.039 --> 00:24:52.159
+that is the one now we verify my circuit
+
+563
+00:24:52.159 --> 00:24:52.480
+is
+
+564
+00:24:52.480 --> 00:24:55.600
+actually uh working on the correct way
+
+565
+00:24:55.600 --> 00:24:56.240
+or not
+
+566
+00:24:56.240 --> 00:25:01.279
+by all the logics whatever the logics
+
+567
+00:25:01.279 --> 00:25:04.559
+of nor logic are correct or not so that
+
+568
+00:25:04.559 --> 00:25:05.760
+is very simple
+
+569
+00:25:05.760 --> 00:25:07.760
+take one case suppose that my input is 1
+
+570
+00:25:07.760 --> 00:25:10.000
+1
+
+571
+00:25:10.799 --> 00:25:12.799
+now we check what is the output here
+
+572
+00:25:12.799 --> 00:25:15.919
+this is a known output y
+
+573
+00:25:15.919 --> 00:25:18.159
+okay so now we fix this is one this one
+
+574
+00:25:18.159 --> 00:25:21.200
+this is one this is one
+
+575
+00:25:22.240 --> 00:25:29.840
+clear so
+
+576
+00:25:30.960 --> 00:25:35.120
+so if a and b both input is one
+
+577
+00:25:35.120 --> 00:25:38.960
+if a and b both input is one
+
+578
+00:25:39.520 --> 00:25:43.840
+then you are you just
+
+579
+00:25:44.080 --> 00:25:46.240
+conclude that what is the behavior of
+
+580
+00:25:46.240 --> 00:25:48.480
+the what is the switch what this is on
+
+581
+00:25:48.480 --> 00:25:51.279
+or this is off
+
+582
+00:25:53.840 --> 00:25:57.360
+so suppose that ah this is one
+
+583
+00:25:57.360 --> 00:26:01.039
+so that means this is off
+
+584
+00:26:01.200 --> 00:26:04.640
+this transistor is off and this is also
+
+585
+00:26:04.640 --> 00:26:06.880
+off
+
+586
+00:26:06.960 --> 00:26:10.000
+and nmos is on and this is
+
+587
+00:26:10.000 --> 00:26:13.039
+als this is on
+
+588
+00:26:13.840 --> 00:26:15.840
+so so the meaning is if these two
+
+589
+00:26:15.840 --> 00:26:17.120
+transistor is on
+
+590
+00:26:17.120 --> 00:26:19.679
+at this time these two transistor is off
+
+591
+00:26:19.679 --> 00:26:22.720
+since this is open circuit
+
+592
+00:26:22.720 --> 00:26:25.760
+this is open circuit so here no
+
+593
+00:26:25.760 --> 00:26:27.600
+connection is available this connection
+
+594
+00:26:27.600 --> 00:26:30.000
+is actually not available
+
+595
+00:26:30.000 --> 00:26:33.279
+this is open circuit but here
+
+596
+00:26:33.279 --> 00:26:35.200
+if you observe the carefully in the
+
+597
+00:26:35.200 --> 00:26:37.120
+downside
+
+598
+00:26:37.120 --> 00:26:40.159
+if you care observing this is this is on
+
+599
+00:26:40.159 --> 00:26:42.720
+also on so now this connection is
+
+600
+00:26:42.720 --> 00:26:45.600
+stabilized here
+
+601
+00:26:45.679 --> 00:26:48.640
+that means all the output is go to the
+
+602
+00:26:48.640 --> 00:26:51.440
+ground level
+
+603
+00:26:51.679 --> 00:26:53.600
+this lower potential is available here
+
+604
+00:26:53.600 --> 00:26:55.919
+this side if you talk about the
+
+605
+00:26:55.919 --> 00:26:57.679
+uh here connection this is a ground
+
+606
+00:26:57.679 --> 00:27:00.080
+connection
+
+607
+00:27:00.080 --> 00:27:03.440
+in this case your output is always zero
+
+608
+00:27:03.440 --> 00:27:07.840
+so now this is a zero
+
+609
+00:27:08.880 --> 00:27:10.799
+okay so that is one thing one one
+
+610
+00:27:10.799 --> 00:27:13.440
+combination i take in one one
+
+611
+00:27:13.440 --> 00:27:16.559
+so now we take some other combination
+
+612
+00:27:16.559 --> 00:27:18.799
+like zero zero if we take both input is
+
+613
+00:27:18.799 --> 00:27:19.470
+zero 0
+
+614
+00:27:19.470 --> 00:27:20.880
+[Music]
+
+615
+00:27:20.880 --> 00:27:23.520
+so accordingly we have to check what is
+
+616
+00:27:23.520 --> 00:27:24.799
+my
+
+617
+00:27:24.799 --> 00:27:28.080
+what is the node output voltage so if it
+
+618
+00:27:28.080 --> 00:27:31.760
+is 0 this is 0 this is 0 this is
+
+619
+00:27:31.760 --> 00:27:34.240
+so anyone please tell me it is a p mass
+
+620
+00:27:34.240 --> 00:27:35.279
+behavior if the k
+
+621
+00:27:35.279 --> 00:27:38.399
+gate input is zero
+
+622
+00:27:39.039 --> 00:27:42.159
+okay i think you understand my question
+
+623
+00:27:42.159 --> 00:27:44.720
+in case of p mass if the gate input is
+
+624
+00:27:44.720 --> 00:27:45.919
+zero
+
+625
+00:27:45.919 --> 00:27:49.039
+what is the behavior of the pmos it is
+
+626
+00:27:49.039 --> 00:27:51.840
+on or off
+
+627
+00:27:52.320 --> 00:27:57.360
+okay so this is on this is also on
+
+628
+00:27:57.679 --> 00:28:00.080
+but this time this is all this this is
+
+629
+00:28:00.080 --> 00:28:01.520
+off
+
+630
+00:28:01.520 --> 00:28:04.559
+and this is also off
+
+631
+00:28:04.799 --> 00:28:07.520
+so now if i in so what is the meaning
+
+632
+00:28:07.520 --> 00:28:09.360
+here if you observe that carefully this
+
+633
+00:28:09.360 --> 00:28:11.120
+side transition is on
+
+634
+00:28:11.120 --> 00:28:16.159
+this connection is available here
+
+635
+00:28:16.159 --> 00:28:19.760
+because this is on this is also on
+
+636
+00:28:19.760 --> 00:28:22.480
+so now in this case this is a d means
+
+637
+00:28:22.480 --> 00:28:24.559
+higher voltage like one volt
+
+638
+00:28:24.559 --> 00:28:31.840
+like logic one vdd means the logic one
+
+639
+00:28:33.679 --> 00:28:38.080
+okay so now if suppose that
+
+640
+00:28:38.159 --> 00:28:43.039
+uh okay so the vdd is connected here
+
+641
+00:28:43.039 --> 00:28:45.039
+so my logic is one in the output node
+
+642
+00:28:45.039 --> 00:28:46.480
+this is a large this
+
+643
+00:28:46.480 --> 00:28:49.760
+output always one so so this is a
+
+644
+00:28:49.760 --> 00:28:50.720
+functionality my
+
+645
+00:28:50.720 --> 00:28:52.880
+my functionality of the two table is
+
+646
+00:28:52.880 --> 00:28:54.880
+correctly verified in in the given
+
+647
+00:28:54.880 --> 00:28:58.640
+in the given logic circuits so that is a
+
+648
+00:28:58.640 --> 00:29:01.200
+nor logic
+
+649
+00:29:01.840 --> 00:29:04.240
+okay so that is a fundamental thing we
+
+650
+00:29:04.240 --> 00:29:05.279
+discuss
+
+651
+00:29:05.279 --> 00:29:10.000
+now and logic and you're not logic
+
+652
+00:29:10.000 --> 00:29:12.480
+now we go for some something complex
+
+653
+00:29:12.480 --> 00:29:13.279
+circuit design
+
+654
+00:29:13.279 --> 00:29:15.120
+if if the boolean expression is very
+
+655
+00:29:15.120 --> 00:29:18.080
+very complex
+
+656
+00:29:18.159 --> 00:29:19.840
+if the boolean expression is very
+
+657
+00:29:19.840 --> 00:29:23.120
+complex then
+
+658
+00:29:24.559 --> 00:29:27.919
+then what is architecture okay
+
+659
+00:29:27.919 --> 00:29:30.000
+the suppose that i go for this circuit
+
+660
+00:29:30.000 --> 00:29:31.279
+designing
+
+661
+00:29:31.279 --> 00:29:35.840
+a bar a b plus c whole bar
+
+662
+00:29:35.919 --> 00:29:39.360
+this is a complex so now we take this
+
+663
+00:29:39.360 --> 00:29:41.679
+example
+
+664
+00:29:41.679 --> 00:29:43.840
+so first we just decide how many inputs
+
+665
+00:29:43.840 --> 00:29:44.799
+uh first
+
+666
+00:29:44.799 --> 00:29:46.559
+observe carefully how many inputs in
+
+667
+00:29:46.559 --> 00:29:48.640
+this boolean expression
+
+668
+00:29:48.640 --> 00:29:51.520
+there's only three inputs a b and c so
+
+669
+00:29:51.520 --> 00:29:53.679
+in this pull-up network
+
+670
+00:29:53.679 --> 00:29:55.600
+three transistors are required and in
+
+671
+00:29:55.600 --> 00:29:57.200
+case of pull down
+
+672
+00:29:57.200 --> 00:30:00.480
+you also require three transistors so to
+
+673
+00:30:00.480 --> 00:30:03.760
+sixth register you required to design
+
+674
+00:30:03.760 --> 00:30:05.200
+this
+
+675
+00:30:05.200 --> 00:30:10.320
+logic circuit that is a b plus c
+
+676
+00:30:10.399 --> 00:30:13.840
+okay so our concept is
+
+677
+00:30:13.840 --> 00:30:16.720
+if we go for the pull down network this
+
+678
+00:30:16.720 --> 00:30:18.320
+is a pull down
+
+679
+00:30:18.320 --> 00:30:22.240
+pull down is designed by the nmos
+
+680
+00:30:22.240 --> 00:30:25.840
+okay so that is clear now we decide the
+
+681
+00:30:25.840 --> 00:30:28.399
+combat well decide the configuration may
+
+682
+00:30:28.399 --> 00:30:29.360
+be series on
+
+683
+00:30:29.360 --> 00:30:32.559
+parallel okay so now we go for the
+
+684
+00:30:32.559 --> 00:30:35.360
+this so do you write the arrangement of
+
+685
+00:30:35.360 --> 00:30:38.240
+the transistors
+
+686
+00:30:38.240 --> 00:30:39.840
+so now what is the rule just to observe
+
+687
+00:30:39.840 --> 00:30:41.360
+carefully
+
+688
+00:30:41.360 --> 00:30:44.240
+plus parallel dot means series so this
+
+689
+00:30:44.240 --> 00:30:47.520
+is a dot a dot b
+
+690
+00:30:47.520 --> 00:30:50.720
+that means this a dot b is
+
+691
+00:30:50.720 --> 00:30:53.440
+series connection so that means these
+
+692
+00:30:53.440 --> 00:30:56.960
+two transistors are in series
+
+693
+00:30:59.039 --> 00:31:00.799
+okay but now the expression is not
+
+694
+00:31:00.799 --> 00:31:02.799
+complete plus c's are
+
+695
+00:31:02.799 --> 00:31:06.240
+also given plus c is also given in the
+
+696
+00:31:06.240 --> 00:31:09.120
+boolean expression
+
+697
+00:31:11.600 --> 00:31:15.039
+so so now
+
+698
+00:31:16.399 --> 00:31:18.480
+if we observe carefully this is y
+
+699
+00:31:18.480 --> 00:31:19.760
+suppose that this is
+
+700
+00:31:19.760 --> 00:31:23.200
+x plus c
+
+701
+00:31:23.200 --> 00:31:26.320
+what is x axis a dot b
+
+702
+00:31:26.320 --> 00:31:29.200
+so x plus c what is a plus sign here
+
+703
+00:31:29.200 --> 00:31:30.159
+plus
+
+704
+00:31:30.159 --> 00:31:33.120
+so plus means parallel correction so x
+
+705
+00:31:33.120 --> 00:31:35.679
+you have already designed here
+
+706
+00:31:35.679 --> 00:31:37.279
+now you put one transistor in the
+
+707
+00:31:37.279 --> 00:31:39.679
+parallel mode
+
+708
+00:31:39.679 --> 00:31:43.200
+this is a parallel mode connection
+
+709
+00:31:43.360 --> 00:31:46.640
+so if it is
+
+710
+00:31:46.640 --> 00:31:49.600
+if you complete this circuit then your
+
+711
+00:31:49.600 --> 00:31:50.640
+pull-down network
+
+712
+00:31:50.640 --> 00:31:54.640
+complete okay so so
+
+713
+00:31:54.640 --> 00:31:57.120
+so that is the way to design the
+
+714
+00:31:57.120 --> 00:32:01.360
+pull-down network okay so now we are
+
+715
+00:32:01.360 --> 00:32:02.960
+also complete the pull-up network
+
+716
+00:32:02.960 --> 00:32:04.960
+otherwise my circuit architecture is not
+
+717
+00:32:04.960 --> 00:32:06.240
+complete
+
+718
+00:32:06.240 --> 00:32:09.200
+so we concentrate on this side this side
+
+719
+00:32:09.200 --> 00:32:12.320
+this side this is a pull-up network
+
+720
+00:32:12.320 --> 00:32:14.480
+so first we observe the boolean
+
+721
+00:32:14.480 --> 00:32:16.080
+expression what is my boolean expression
+
+722
+00:32:16.080 --> 00:32:18.000
+this one
+
+723
+00:32:18.000 --> 00:32:19.919
+so again i write this expression then
+
+724
+00:32:19.919 --> 00:32:22.159
+you have a clear picture a dot b
+
+725
+00:32:22.159 --> 00:32:25.840
+plus c whole bar
+
+726
+00:32:25.840 --> 00:32:27.600
+okay so do you do not consider whole
+
+727
+00:32:27.600 --> 00:32:28.880
+bunch is automatically
+
+728
+00:32:28.880 --> 00:32:33.440
+no problem okay so now here first is a
+
+729
+00:32:33.440 --> 00:32:35.440
+dot b
+
+730
+00:32:35.440 --> 00:32:38.399
+first is a dot b
+
+731
+00:32:39.679 --> 00:32:43.279
+so represent a dot b dot means here
+
+732
+00:32:43.279 --> 00:32:44.640
+just to observe careful dot means
+
+733
+00:32:44.640 --> 00:32:46.720
+parallel connection
+
+734
+00:32:46.720 --> 00:32:48.720
+so two transistors you can connect in
+
+735
+00:32:48.720 --> 00:32:51.120
+parallel
+
+736
+00:32:51.360 --> 00:32:53.360
+but this is a parallel connection dot b
+
+737
+00:32:53.360 --> 00:32:55.679
+dot represents the parallel
+
+738
+00:32:55.679 --> 00:32:57.200
+so two tangents are connected in
+
+739
+00:32:57.200 --> 00:32:59.120
+parallel and this
+
+740
+00:32:59.120 --> 00:33:01.840
+plus c
+
+741
+00:33:02.240 --> 00:33:05.039
+what is the meaning in the plus c to the
+
+742
+00:33:05.039 --> 00:33:07.679
+plus sign you present the series
+
+743
+00:33:07.679 --> 00:33:10.799
+the plus sign represents the series that
+
+744
+00:33:10.799 --> 00:33:12.960
+means
+
+745
+00:33:12.960 --> 00:33:16.640
+okay suppose that this is x plus c
+
+746
+00:33:16.640 --> 00:33:20.000
+so x you have already designed this is a
+
+747
+00:33:20.000 --> 00:33:21.760
+this is a parallel connection you have
+
+748
+00:33:21.760 --> 00:33:25.840
+already completed
+
+749
+00:33:27.279 --> 00:33:31.919
+okay now here plus sign is there
+
+750
+00:33:32.080 --> 00:33:34.320
+what is the meaning of plus plus is a
+
+751
+00:33:34.320 --> 00:33:36.000
+series
+
+752
+00:33:36.000 --> 00:33:38.799
+so that means you connect one transistor
+
+753
+00:33:38.799 --> 00:33:41.519
+in a series manner
+
+754
+00:33:41.519 --> 00:33:43.360
+you connect this transistor in a series
+
+755
+00:33:43.360 --> 00:33:45.679
+manner
+
+756
+00:33:45.679 --> 00:33:49.360
+so now this circuit is complete this
+
+757
+00:33:49.360 --> 00:33:50.480
+pull down
+
+758
+00:33:50.480 --> 00:33:53.840
+pull up network is also complete
+
+759
+00:33:54.720 --> 00:33:56.640
+okay so so that is output you take
+
+760
+00:33:56.640 --> 00:33:59.360
+output here
+
+761
+00:33:59.600 --> 00:34:03.039
+okay so there is no any other issue
+
+762
+00:34:03.039 --> 00:34:05.120
+so now we take one more example then you
+
+763
+00:34:05.120 --> 00:34:06.799
+have a clear picture
+
+764
+00:34:06.799 --> 00:34:10.239
+in your mind okay so now this time my
+
+765
+00:34:10.239 --> 00:34:12.159
+expression is y is equal to
+
+766
+00:34:12.159 --> 00:34:15.599
+a plus b c
+
+767
+00:34:15.599 --> 00:34:18.879
+plus d whole bar
+
+768
+00:34:19.839 --> 00:34:22.879
+plus d whole bar
+
+769
+00:34:24.000 --> 00:34:26.320
+okay now this time two plus sign and one
+
+770
+00:34:26.320 --> 00:34:28.000
+dot sign this is a plus sign this is a
+
+771
+00:34:28.000 --> 00:34:29.760
+plus sign here and here one dot sign
+
+772
+00:34:29.760 --> 00:34:33.679
+p dot c this is the one dot sign
+
+773
+00:34:33.679 --> 00:34:37.199
+okay so first we
+
+774
+00:34:37.199 --> 00:34:40.399
+observe carefully concentrate on pull up
+
+775
+00:34:40.399 --> 00:34:41.280
+pull down network
+
+776
+00:34:41.280 --> 00:34:44.720
+so pull down network is this
+
+777
+00:34:44.960 --> 00:34:48.879
+okay so first we observe the dot sign bc
+
+778
+00:34:48.879 --> 00:34:53.760
+b means dot sign is there not c
+
+779
+00:34:53.760 --> 00:34:58.320
+okay so the dot means series
+
+780
+00:34:58.720 --> 00:35:01.520
+dot means it so now you take two
+
+781
+00:35:01.520 --> 00:35:04.079
+transistor in a series
+
+782
+00:35:04.079 --> 00:35:07.359
+okay vc is complete
+
+783
+00:35:07.359 --> 00:35:09.280
+so again here some expression is there
+
+784
+00:35:09.280 --> 00:35:12.160
+bc plus d
+
+785
+00:35:12.160 --> 00:35:14.240
+so one more transistor you connect but
+
+786
+00:35:14.240 --> 00:35:17.839
+plus sign represents the parallel
+
+787
+00:35:17.920 --> 00:35:20.640
+plus sign represent the parallel but
+
+788
+00:35:20.640 --> 00:35:22.160
+here you connect the transistor in
+
+789
+00:35:22.160 --> 00:35:24.560
+parallel
+
+790
+00:35:25.920 --> 00:35:28.400
+okay but expression is not plus a is
+
+791
+00:35:28.400 --> 00:35:30.000
+also there in in your boolean
+
+792
+00:35:30.000 --> 00:35:33.359
+expression so plus again represent the
+
+793
+00:35:33.359 --> 00:35:35.200
+parallel
+
+794
+00:35:35.200 --> 00:35:38.960
+so now you connect one more transistor
+
+795
+00:35:42.560 --> 00:35:45.839
+so so this is a complete and complete
+
+796
+00:35:45.839 --> 00:35:48.640
+design for this for this boolean
+
+797
+00:35:48.640 --> 00:35:50.800
+expression
+
+798
+00:35:50.800 --> 00:35:53.520
+so the opposite behavior here if you put
+
+799
+00:35:53.520 --> 00:35:54.880
+the series
+
+800
+00:35:54.880 --> 00:35:58.000
+then in the pull-up network the parallel
+
+801
+00:35:58.000 --> 00:36:02.240
+connection if you put here series
+
+802
+00:36:02.240 --> 00:36:05.920
+then here you put parallel connection
+
+803
+00:36:05.920 --> 00:36:09.200
+so now we check suppose that here it is
+
+804
+00:36:09.200 --> 00:36:10.240
+series
+
+805
+00:36:10.240 --> 00:36:13.839
+so this is the parallel bc is a parallel
+
+806
+00:36:14.880 --> 00:36:18.160
+and similarly if it is parallel now this
+
+807
+00:36:18.160 --> 00:36:20.240
+is a series
+
+808
+00:36:20.240 --> 00:36:22.240
+and this is also parallel now this is
+
+809
+00:36:22.240 --> 00:36:23.839
+also series in case of
+
+810
+00:36:23.839 --> 00:36:26.560
+opposite behavior in case pull up
+
+811
+00:36:26.560 --> 00:36:29.040
+network
+
+812
+00:36:30.720 --> 00:36:33.760
+okay so this is a complete way
+
+813
+00:36:33.760 --> 00:36:36.960
+you have to design any type of circuits
+
+814
+00:36:36.960 --> 00:36:40.240
+any type of digital but your
+
+815
+00:36:40.240 --> 00:36:42.960
+primary requirement necessary condition
+
+816
+00:36:42.960 --> 00:36:44.640
+is
+
+817
+00:36:44.640 --> 00:36:46.480
+boolean expression if it is available
+
+818
+00:36:46.480 --> 00:36:48.320
+boolean expression
+
+819
+00:36:48.320 --> 00:36:50.640
+then you decide the number of dimensions
+
+820
+00:36:50.640 --> 00:36:53.040
+how many transistors
+
+821
+00:36:53.040 --> 00:36:56.240
+and you have to decide the pull-up
+
+822
+00:36:56.240 --> 00:36:57.520
+network
+
+823
+00:36:57.520 --> 00:37:00.240
+configuration and similarly the
+
+824
+00:37:00.240 --> 00:37:03.040
+configuration of pull-down net
+
+825
+00:37:03.040 --> 00:37:05.599
+and then you combined the pull-up and
+
+826
+00:37:05.599 --> 00:37:06.960
+pull down
+
+827
+00:37:06.960 --> 00:37:10.560
+in a single wire
+
+828
+00:37:10.560 --> 00:37:12.079
+that this is the wire if you observe
+
+829
+00:37:12.079 --> 00:37:14.079
+carefully if you
+
+830
+00:37:14.079 --> 00:37:16.160
+and that means there's a pull up network
+
+831
+00:37:16.160 --> 00:37:17.119
+it's a pull down
+
+832
+00:37:17.119 --> 00:37:20.000
+so now you wire connected here for
+
+833
+00:37:20.000 --> 00:37:22.960
+combining purpose you combine the two
+
+834
+00:37:22.960 --> 00:37:25.200
+two device pull up and pull down in a in
+
+835
+00:37:25.200 --> 00:37:27.200
+in a single
+
+836
+00:37:27.200 --> 00:37:30.000
+single um single architecture this is a
+
+837
+00:37:30.000 --> 00:37:32.640
+single arc
+
+838
+00:37:32.720 --> 00:37:34.320
+so for the connection is if the
+
+839
+00:37:34.320 --> 00:37:36.560
+connection is common
+
+840
+00:37:36.560 --> 00:37:41.440
+that is your output that is your output
+
+841
+00:37:41.440 --> 00:37:44.000
+okay so here if you have carefully all
+
+842
+00:37:44.000 --> 00:37:45.920
+the concept
+
+843
+00:37:45.920 --> 00:37:49.280
+but you remember this one your series
+
+844
+00:37:49.280 --> 00:37:51.040
+and parallel connection may be something
+
+845
+00:37:51.040 --> 00:37:52.079
+change
+
+846
+00:37:52.079 --> 00:37:56.079
+table is not verified or functional
+
+847
+00:37:56.079 --> 00:37:58.320
+is functionality is not verified and
+
+848
+00:37:58.320 --> 00:38:01.520
+your circuit may be wrong
+
+849
+00:38:02.839 --> 00:38:05.839
+so
+
+850
+00:38:07.599 --> 00:38:10.640
+so i think it is clear if any think any
+
+851
+00:38:10.640 --> 00:38:11.280
+problems
+
+852
+00:38:11.280 --> 00:38:14.720
+in this configuration of the static cmos
+
+853
+00:38:14.720 --> 00:38:16.400
+circuit design
+
+854
+00:38:16.400 --> 00:38:20.160
+you ask anything so i given something
+
+855
+00:38:20.160 --> 00:38:22.560
+that i given some very complex
+
+856
+00:38:22.560 --> 00:38:25.680
+boolean expression then
+
+857
+00:38:25.680 --> 00:38:27.839
+you do not worry about but because that
+
+858
+00:38:27.839 --> 00:38:28.720
+you just use
+
+859
+00:38:28.720 --> 00:38:30.079
+the concept whatever what are the
+
+860
+00:38:30.079 --> 00:38:32.160
+concept i discuss here
+
+861
+00:38:32.160 --> 00:38:34.480
+according to the concept you go for the
+
+862
+00:38:34.480 --> 00:38:36.960
+any complex circuit design
+
+863
+00:38:36.960 --> 00:38:40.240
+may be your n number of inputs
+
+864
+00:38:40.240 --> 00:38:43.839
+it is possible so and for the designing
+
+865
+00:38:43.839 --> 00:38:46.400
+point point of
+
+866
+00:38:46.400 --> 00:38:48.640
+designing point of view this cmos
+
+867
+00:38:48.640 --> 00:38:49.599
+circuit
+
+868
+00:38:49.599 --> 00:38:53.680
+effectively to go for the high speed
+
+869
+00:38:53.680 --> 00:38:56.720
+computation circuit
+
+870
+00:38:56.720 --> 00:38:58.839
+all the c circuits are high speed
+
+871
+00:38:58.839 --> 00:39:00.000
+computation
+
+872
+00:39:00.000 --> 00:39:02.880
+and the static we talk about the static
+
+873
+00:39:02.880 --> 00:39:04.160
+power
+
+874
+00:39:04.160 --> 00:39:06.880
+static power is the suppose that static
+
+875
+00:39:06.880 --> 00:39:07.359
+power
+
+876
+00:39:07.359 --> 00:39:10.960
+means this know any path
+
+877
+00:39:10.960 --> 00:39:14.880
+in no in any time it is not possible
+
+878
+00:39:14.880 --> 00:39:17.200
+your connection is people from bdt to
+
+879
+00:39:17.200 --> 00:39:19.040
+ground
+
+880
+00:39:19.040 --> 00:39:21.760
+it is not possible because sometimes
+
+881
+00:39:21.760 --> 00:39:22.240
+your
+
+882
+00:39:22.240 --> 00:39:28.480
+this pmos is on your nmos is off
+
+883
+00:39:28.480 --> 00:39:32.480
+okay sometimes your pmos is
+
+884
+00:39:32.480 --> 00:39:35.839
+off and nmos is on that means
+
+885
+00:39:35.839 --> 00:39:38.880
+this to voltage are not connected at any
+
+886
+00:39:38.880 --> 00:39:40.000
+time
+
+887
+00:39:40.000 --> 00:39:42.160
+so your static power dissipation is
+
+888
+00:39:42.160 --> 00:39:43.839
+almost
+
+889
+00:39:43.839 --> 00:39:47.520
+almost zero
+
+890
+00:39:49.200 --> 00:39:52.480
+okay so
+
+891
+00:39:54.079 --> 00:39:57.520
+this is the one way that's why cmos
+
+892
+00:39:57.520 --> 00:39:58.640
+technology is a lower
+
+893
+00:39:58.640 --> 00:40:00.560
+it's a high speed computation and low
+
+894
+00:40:00.560 --> 00:40:04.960
+power dissipation of the circuits
+
+895
+00:40:06.240 --> 00:40:10.400
+so today is what is an and gate
+
+896
+00:40:10.400 --> 00:40:13.920
+and what is uh our what is an angular
+
+897
+00:40:13.920 --> 00:40:15.520
+what is a nor logic
+
+898
+00:40:15.520 --> 00:40:18.160
+and what is the some complex complex
+
+899
+00:40:18.160 --> 00:40:19.839
+boolean expressions how to design
+
+900
+00:40:19.839 --> 00:40:22.880
+in case of cmos level
+
+901
+00:40:22.880 --> 00:40:27.839
+so uh okay
+
+902
+00:40:28.720 --> 00:40:31.520
+this time go here so this is a way to
+
+903
+00:40:31.520 --> 00:40:35.280
+design any type of boolean expression
+
+904
+00:40:35.280 --> 00:40:38.720
+in case of cmos circuit design
+
+905
+00:40:38.720 --> 00:40:43.200
+may be your nmos based on the
+
+906
+00:40:43.200 --> 00:40:50.000
+this conference will now be recorded
+

@@ -1,0 +1,746 @@
+WEBVTT
+
+1
+00:00:02.389 --> 00:00:05.730
+hello friends today in this second
+
+2
+00:00:05.730 --> 00:00:08.970
+tutorial we are going to see that how to
+
+3
+00:00:08.970 --> 00:00:11.880
+design a half adder circuit or a full
+
+4
+00:00:11.880 --> 00:00:15.660
+adder circuit using CMOS VLSI design in
+
+5
+00:00:15.660 --> 00:00:18.240
+previous tutorial I have already gone
+
+6
+00:00:18.240 --> 00:00:21.330
+through that to design some basic logic
+
+7
+00:00:21.330 --> 00:00:23.039
+gates what are the step by step
+
+8
+00:00:23.039 --> 00:00:25.350
+procedure circuit here in this
+
+9
+00:00:25.350 --> 00:00:29.310
+particular case we will see that what
+
+10
+00:00:29.310 --> 00:00:30.929
+are the steps need to be followed in
+
+11
+00:00:30.929 --> 00:00:33.510
+order to design a half adder circuit so
+
+12
+00:00:33.510 --> 00:00:35.219
+similarly we have to go step by step
+
+13
+00:00:35.219 --> 00:00:37.829
+videos if I go with step by step
+
+14
+00:00:37.829 --> 00:00:40.200
+contingent of the half adder circuit so
+
+15
+00:00:40.200 --> 00:00:44.820
+far step well we need to understand the
+
+16
+00:00:44.820 --> 00:00:46.829
+truth table of this particular gate as
+
+17
+00:00:46.829 --> 00:00:49.770
+it is a half adder circuit if you draw a
+
+18
+00:00:49.770 --> 00:00:52.410
+half adder circuit we must understand
+
+19
+00:00:52.410 --> 00:00:55.199
+that this particular block must have
+
+20
+00:00:55.199 --> 00:00:58.260
+minimum two or more than two inputs data
+
+21
+00:00:58.260 --> 00:01:01.440
+inputs here it is may be a and B and
+
+22
+00:01:01.440 --> 00:01:04.290
+similarly the output should be of sum
+
+23
+00:01:04.290 --> 00:01:10.170
+and carry here if we assume this
+
+24
+00:01:10.170 --> 00:01:14.340
+particular block then we have to write
+
+25
+00:01:14.340 --> 00:01:16.770
+down the truth table of a half adder
+
+26
+00:01:16.770 --> 00:01:21.299
+circuit so what is the half adder
+
+27
+00:01:21.299 --> 00:01:23.729
+circuit truth table if you write down
+
+28
+00:01:23.729 --> 00:01:27.180
+the inputs first and output here it is
+
+29
+00:01:27.180 --> 00:01:31.710
+in sum and carry for two variables
+
+30
+00:01:31.710 --> 00:01:33.630
+how many combination will come for
+
+31
+00:01:33.630 --> 00:01:36.240
+combinations so I am writing the four
+
+32
+00:01:36.240 --> 00:01:41.280
+combinations first yes so for zero zero
+
+33
+00:01:41.280 --> 00:01:45.270
+sum will be 0 carry 0 for 0 1 someone
+
+34
+00:01:45.270 --> 00:01:50.939
+carry 0 1 0 someone carry 0 & 4 1 1 what
+
+35
+00:01:50.939 --> 00:01:53.340
+will happen some will be 0 and carries
+
+36
+00:01:53.340 --> 00:01:56.280
+one very simple this we have already
+
+37
+00:01:56.280 --> 00:01:58.770
+gone through in digital electronics what
+
+38
+00:01:58.770 --> 00:02:02.430
+is new in VLSI design is we have to
+
+39
+00:02:02.430 --> 00:02:05.549
+check there are certain steps of VLSI
+
+40
+00:02:05.549 --> 00:02:07.979
+technology by means of which we will
+
+41
+00:02:07.979 --> 00:02:11.060
+design a pull-up Network
+
+42
+00:02:11.060 --> 00:02:15.530
+and they pull down Network pull up
+
+43
+00:02:15.530 --> 00:02:19.130
+network consisting of n was sorry
+
+44
+00:02:19.130 --> 00:02:20.810
+pull up network will be consisting of
+
+45
+00:02:20.810 --> 00:02:23.090
+PMO's and pull down network will be
+
+46
+00:02:23.090 --> 00:02:25.670
+consisting of n verses full of network
+
+47
+00:02:25.670 --> 00:02:27.950
+must be connected with VDD pull down
+
+48
+00:02:27.950 --> 00:02:30.190
+Network much we connected with ground
+
+49
+00:02:30.190 --> 00:02:35.480
+there should be single output and as it
+
+50
+00:02:35.480 --> 00:02:38.480
+is a CMOS is there to automatically what
+
+51
+00:02:38.480 --> 00:02:40.640
+is happening automatic inversion is
+
+52
+00:02:40.640 --> 00:02:44.709
+therefore a CMOS so from the truth table
+
+53
+00:02:44.709 --> 00:02:48.739
+we must write down the sum first so sum
+
+54
+00:02:48.739 --> 00:02:52.610
+will be we have to see where the ones is
+
+55
+00:02:52.610 --> 00:02:56.989
+coming so in case number 2 where a 0 and
+
+56
+00:02:56.989 --> 00:03:03.890
+B is 1 sum is 1 so a 1 B plus another 1
+
+57
+00:03:03.890 --> 00:03:07.280
+is when a is 1 that is a and B is low
+
+58
+00:03:07.280 --> 00:03:10.100
+that is B bar so this is how we can
+
+59
+00:03:10.100 --> 00:03:12.650
+obtain some and similarly we can obtain
+
+60
+00:03:12.650 --> 00:03:16.430
+carry also how only one single case when
+
+61
+00:03:16.430 --> 00:03:19.130
+one is appearing so please find out
+
+62
+00:03:19.130 --> 00:03:22.280
+which cases when both the a and B both
+
+63
+00:03:22.280 --> 00:03:26.840
+are high that means a and B no other
+
+64
+00:03:26.840 --> 00:03:29.570
+options are there where the we will get
+
+65
+00:03:29.570 --> 00:03:31.790
+another high so this is the value of sum
+
+66
+00:03:31.790 --> 00:03:33.290
+and carry from the truth table we have
+
+67
+00:03:33.290 --> 00:03:37.700
+found so the 6 and second step is we
+
+68
+00:03:37.700 --> 00:03:42.340
+have to take the compliment of it so if
+
+69
+00:03:42.340 --> 00:03:51.170
+we take the compliment of output that is
+
+70
+00:03:51.170 --> 00:04:00.440
+some what will happen so why what here
+
+71
+00:04:00.440 --> 00:04:03.500
+if we apply some it is as Y so Y bar
+
+72
+00:04:03.500 --> 00:04:09.590
+will be a power B plus a B bar that's
+
+73
+00:04:09.590 --> 00:04:15.380
+whole bar so now this will be of a bar b
+
+74
+00:04:15.380 --> 00:04:20.690
+bar plus maybe if we follow the basic
+
+75
+00:04:20.690 --> 00:04:23.180
+rule and basic postulates of digital
+
+76
+00:04:23.180 --> 00:04:24.040
+electronics
+
+77
+00:04:24.040 --> 00:04:29.350
+okay and similarly for Kerry also so let
+
+78
+00:04:29.350 --> 00:04:33.520
+me first do the some but so here we are
+
+79
+00:04:33.520 --> 00:04:36.910
+obtaining this expression where a dot B
+
+80
+00:04:36.910 --> 00:04:41.770
+so end operation so what we can see is
+
+81
+00:04:41.770 --> 00:04:44.830
+that in end operation the moment we are
+
+82
+00:04:44.830 --> 00:04:46.780
+discussing we must understand what is
+
+83
+00:04:46.780 --> 00:04:48.820
+what was there in P most image should be
+
+84
+00:04:48.820 --> 00:04:53.140
+connected in parallel here so you wrote
+
+85
+00:04:53.140 --> 00:05:04.510
+it first see I am drawing Toki mas is a
+
+86
+00:05:04.510 --> 00:05:07.480
+bar and B bar so I don't hear the two
+
+87
+00:05:07.480 --> 00:05:08.080
+output
+
+88
+00:05:08.080 --> 00:05:10.330
+sorry input Ava and B bar both are in
+
+89
+00:05:10.330 --> 00:05:14.230
+parallel C parallel now class operation
+
+90
+00:05:14.230 --> 00:05:18.180
+class main series connection so plus
+
+91
+00:05:18.180 --> 00:05:22.660
+here it is and then a and B so a and B
+
+92
+00:05:22.660 --> 00:05:26.560
+again for P Mo's both should be both
+
+93
+00:05:26.560 --> 00:05:38.410
+should be parallel a be for this Plus
+
+94
+00:05:38.410 --> 00:05:42.100
+this line is there so this is the pool
+
+95
+00:05:42.100 --> 00:05:43.900
+of network which is connected to
+
+96
+00:05:43.900 --> 00:05:47.590
+infinity fine similarly in pulldown
+
+97
+00:05:47.590 --> 00:05:49.270
+network also you have to design this
+
+98
+00:05:49.270 --> 00:05:51.850
+pulldown network also what is that it is
+
+99
+00:05:51.850 --> 00:05:55.600
+consisting of n Mo's so a while B but so
+
+100
+00:05:55.600 --> 00:06:01.170
+even if I mean it should be in series so
+
+101
+00:06:01.170 --> 00:06:04.590
+like this way
+
+102
+00:06:09.110 --> 00:06:13.230
+he won river and again class is there
+
+103
+00:06:13.230 --> 00:06:21.480
+that means this line then a dot B a dot
+
+104
+00:06:21.480 --> 00:06:23.970
+B means N 1 should be end operation N 1
+
+105
+00:06:23.970 --> 00:06:26.790
+should be in series so we are again
+
+106
+00:06:26.790 --> 00:06:33.000
+going with a B but both are in parallel
+
+107
+00:06:33.000 --> 00:06:34.740
+why because this class is there to
+
+108
+00:06:34.740 --> 00:06:36.389
+automatically put should be in final why
+
+109
+00:06:36.389 --> 00:06:38.820
+because in pull-up network it was in
+
+110
+00:06:38.820 --> 00:06:41.220
+series the two product here the two
+
+111
+00:06:41.220 --> 00:06:43.200
+products should be in parallel satisfied
+
+112
+00:06:43.200 --> 00:06:46.919
+and from here we will get the sum that
+
+113
+00:06:46.919 --> 00:06:50.130
+is output so this is not you need to
+
+114
+00:06:50.130 --> 00:06:54.030
+draw the sum okay some is done then we
+
+115
+00:06:54.030 --> 00:06:59.280
+will draw the K okay forgetting what we
+
+116
+00:06:59.280 --> 00:07:09.570
+will do is here as it is carry is a dot
+
+117
+00:07:09.570 --> 00:07:14.660
+B so we must take the inverted output
+
+118
+00:07:14.660 --> 00:07:18.030
+what is that if we assume X is a scary
+
+119
+00:07:18.030 --> 00:07:25.700
+so a dot B bar okay so if we apply here
+
+120
+00:07:25.700 --> 00:07:29.430
+the same thing a dot B bar that means it
+
+121
+00:07:29.430 --> 00:07:31.500
+can be drawn as or it can be written as
+
+122
+00:07:31.500 --> 00:07:36.990
+a 1 plus B bar so again as it is a bar
+
+123
+00:07:36.990 --> 00:07:41.610
+plus we were that means what will happen
+
+124
+00:07:41.610 --> 00:07:43.919
+is in pulldown network it should be
+
+125
+00:07:43.919 --> 00:07:48.450
+parallel pulldown network I am drawing
+
+126
+00:07:48.450 --> 00:07:51.419
+first here in this particular case so
+
+127
+00:07:51.419 --> 00:07:59.120
+here Y bar plus D word
+
+128
+00:07:59.240 --> 00:08:03.470
+money it should be in parallel sorry if
+
+129
+00:08:03.470 --> 00:08:17.120
+I plus B 1 for pull-up network which was
+
+130
+00:08:17.120 --> 00:08:25.639
+been series pull up that were consisting
+
+131
+00:08:25.639 --> 00:08:28.130
+of AP masses and then you connect the
+
+132
+00:08:28.130 --> 00:08:29.810
+pull-up network to VDD and pulldown
+
+133
+00:08:29.810 --> 00:08:32.299
+network to ground and from here you can
+
+134
+00:08:32.299 --> 00:08:36.380
+obtain the inverted carry so this is how
+
+135
+00:08:36.380 --> 00:08:40.729
+you need to design the sum and carry for
+
+136
+00:08:40.729 --> 00:08:43.700
+a half adder circuit so if you can show
+
+137
+00:08:43.700 --> 00:08:48.140
+this thing it is absolutely ok and now
+
+138
+00:08:48.140 --> 00:08:50.959
+we need to call through that whether all
+
+139
+00:08:50.959 --> 00:08:53.779
+the cases are performing correctly or
+
+140
+00:08:53.779 --> 00:08:54.200
+not
+
+141
+00:08:54.200 --> 00:08:57.100
+so there are 4 cases are there for 2
+
+142
+00:08:57.100 --> 00:09:00.140
+variables there are 4 combination I will
+
+143
+00:09:00.140 --> 00:09:03.920
+show you here one single combination
+
+144
+00:09:03.920 --> 00:09:06.410
+okay so that's one single combination
+
+145
+00:09:06.410 --> 00:09:09.079
+here we will see that is nothing but say
+
+146
+00:09:09.079 --> 00:09:13.520
+suppose anyone say surface case to this
+
+147
+00:09:13.520 --> 00:09:18.589
+one say suppose for some so as here we
+
+148
+00:09:18.589 --> 00:09:22.459
+are not putting travelers on a 0 and B 1
+
+149
+00:09:22.459 --> 00:09:27.140
+so if I put here we will put a 0 right
+
+150
+00:09:27.140 --> 00:09:34.520
+here a 0 sorry by using this pencil I am
+
+151
+00:09:34.520 --> 00:09:38.089
+going to show see here a 0 and whatever
+
+152
+00:09:38.089 --> 00:09:42.529
+is there 0 you do this a path to
+
+153
+00:09:42.529 --> 00:09:44.410
+automatically this is 1 this is 1
+
+154
+00:09:44.410 --> 00:09:49.360
+similarly B is 1 right so B is 1 and B
+
+155
+00:09:49.360 --> 00:09:51.410
+part is 0 and 0
+
+156
+00:09:51.410 --> 00:09:54.740
+so due to bubble here what will appear
+
+157
+00:09:54.740 --> 00:09:57.800
+here 0 value due to bubble here it is 1
+
+158
+00:09:57.800 --> 00:10:00.440
+here as it is 0 but due to bubble it is
+
+159
+00:10:00.440 --> 00:10:04.790
+1 and here you see it is 0 but here all
+
+160
+00:10:04.790 --> 00:10:06.760
+the things will be appearing same as
+
+161
+00:10:06.760 --> 00:10:10.220
+they are no bubble is there so what will
+
+162
+00:10:10.220 --> 00:10:11.160
+happen
+
+163
+00:10:11.160 --> 00:10:14.639
+zero mix that particularly much off
+
+164
+00:10:14.639 --> 00:10:17.639
+so this is off state is gone energy
+
+165
+00:10:17.639 --> 00:10:21.420
+dissolves and also it is off and zero is
+
+166
+00:10:21.420 --> 00:10:30.959
+off so by this what we can see that as
+
+167
+00:10:30.959 --> 00:10:35.430
+it is off and this is also off circuit
+
+168
+00:10:35.430 --> 00:10:39.329
+this is off and this is also off so the
+
+169
+00:10:39.329 --> 00:10:42.360
+Sun is no way connected to ground no
+
+170
+00:10:42.360 --> 00:10:43.829
+connection is there between some and
+
+171
+00:10:43.829 --> 00:10:48.629
+ground but as this is off but this is on
+
+172
+00:10:48.629 --> 00:10:52.620
+and due to this also this is all so the
+
+173
+00:10:52.620 --> 00:10:54.930
+some that is the output it may be
+
+174
+00:10:54.930 --> 00:10:59.790
+connected through this way to maybe that
+
+175
+00:10:59.790 --> 00:11:02.209
+is the some may be connected to vdd
+
+176
+00:11:02.209 --> 00:11:05.100
+through this particular finish and this
+
+177
+00:11:05.100 --> 00:11:08.189
+particular beam was so what is the value
+
+178
+00:11:08.189 --> 00:11:10.649
+that is VDD is logic high this will
+
+179
+00:11:10.649 --> 00:11:13.680
+appear here in some so let me see what
+
+180
+00:11:13.680 --> 00:11:16.319
+is the value is there one can also it is
+
+181
+00:11:16.319 --> 00:11:18.630
+appearing one so this is how in all
+
+182
+00:11:18.630 --> 00:11:23.240
+cases you need to make understand that
+
+183
+00:11:23.240 --> 00:11:26.579
+how all the cases are to be verified
+
+184
+00:11:26.579 --> 00:11:30.630
+using CMOS VLSI design this is the
+
+185
+00:11:30.630 --> 00:11:34.550
+concept of a verified logic design of
+
+186
+00:11:34.550 --> 00:11:39.769
+half adder circuit thank you
+

@@ -1,0 +1,1142 @@
+WEBVTT
+
+1
+00:00:00.120 --> 00:00:11.360
+in this video session number one static
+
+2
+00:00:11.360 --> 00:00:27.269
+CMOS circuit design dynamic CMOS circuit
+
+3
+00:00:27.269 --> 00:00:33.469
+design and number three
+
+4
+00:00:33.469 --> 00:00:45.539
+Euler's rule for physical design so we
+
+5
+00:00:45.539 --> 00:00:53.070
+will start from static CMOS circuit
+
+6
+00:00:53.070 --> 00:00:58.320
+design so let's have a problem that is y
+
+7
+00:00:58.320 --> 00:01:04.500
+is equal to a B plus C D plus E whole
+
+8
+00:01:04.500 --> 00:01:08.159
+bar for designing the static CMOS
+
+9
+00:01:08.159 --> 00:01:11.880
+circuit design here is the equation for
+
+10
+00:01:11.880 --> 00:01:14.250
+which we are going to apply the static
+
+11
+00:01:14.250 --> 00:01:18.659
+CMOS design okay so we will start sub
+
+12
+00:01:18.659 --> 00:01:21.180
+separately I may each time a new T that
+
+13
+00:01:21.180 --> 00:01:25.409
+is to rule with the P Mo's or and mass
+
+14
+00:01:25.409 --> 00:01:32.490
+Kelly for P Mo's and n Mo's Primus key
+
+15
+00:01:32.490 --> 00:01:38.119
+case may be multiplied hoga or + and
+
+16
+00:01:38.119 --> 00:01:44.540
+multiplied and his plus 4 n Mo's
+
+17
+00:01:44.540 --> 00:01:47.380
+burski case mayhem look parallel singing
+
+18
+00:01:47.380 --> 00:01:51.560
+and multiply he kiss me we'll go with
+
+19
+00:01:51.560 --> 00:01:55.520
+series we mostly utility that is
+
+20
+00:01:55.520 --> 00:02:01.450
+opposite and it will be dot for parallel
+
+21
+00:02:01.450 --> 00:02:08.919
+and plus for series okay this thing the
+
+22
+00:02:08.919 --> 00:02:12.410
+you can remember is it like for and moss
+
+23
+00:02:12.410 --> 00:02:16.370
+be 4 plus same as P for parallel and odd
+
+24
+00:02:16.370 --> 00:02:18.080
+for series and P Mo's will be opposite
+
+25
+00:02:18.080 --> 00:02:22.360
+to the and moss okay so here it is like
+
+26
+00:02:22.360 --> 00:02:26.330
+for static CMOS circuit design a and B
+
+27
+00:02:26.330 --> 00:02:28.910
+are in parallel sorry in multiplication
+
+28
+00:02:28.910 --> 00:02:32.990
+so we will design like to two things v
+
+29
+00:02:32.990 --> 00:02:39.730
+TD and the second line is that is ground
+
+30
+00:02:39.730 --> 00:02:42.739
+so so very Hedo lines truck and VDD and
+
+31
+00:02:42.739 --> 00:02:44.930
+ground so forth
+
+32
+00:02:44.930 --> 00:02:47.270
+we will first drop what and Moscow
+
+33
+00:02:47.270 --> 00:02:53.620
+equation is a B plus C D plus e so here
+
+34
+00:02:53.620 --> 00:02:58.360
+it is a B that is a into B into B means
+
+35
+00:02:58.360 --> 00:03:00.950
+for an mas it is in series so we will
+
+36
+00:03:00.950 --> 00:03:08.510
+take a more circuit this a in
+
+37
+00:03:08.510 --> 00:03:14.840
+multiplication it will go with series so
+
+38
+00:03:14.840 --> 00:03:22.580
+here it is B okay so now a B a B for an
+
+39
+00:03:22.580 --> 00:03:25.160
+mas it is in series now addition there
+
+40
+00:03:25.160 --> 00:03:28.280
+is in parallel so C and this whole
+
+41
+00:03:28.280 --> 00:03:30.739
+section this whole section will be in
+
+42
+00:03:30.739 --> 00:03:35.049
+parallel so we will start from here C
+
+43
+00:03:35.049 --> 00:03:42.320
+that is here it is C and now it is again
+
+44
+00:03:42.320 --> 00:03:45.410
+multiplication that is C and T plus a
+
+45
+00:03:45.410 --> 00:03:49.940
+are n series so C and D plus C's are in
+
+46
+00:03:49.940 --> 00:03:54.350
+series but D plus E are getting added so
+
+47
+00:03:54.350 --> 00:03:57.800
+it will three will be in parallel
+
+48
+00:03:57.800 --> 00:04:05.720
+this this and this here it is d and here
+
+49
+00:04:05.720 --> 00:04:11.440
+it is e now connect all these like this
+
+50
+00:04:11.440 --> 00:04:15.920
+and take it round so this section is for
+
+51
+00:04:15.920 --> 00:04:23.060
+and Moss okay now we will draw for
+
+52
+00:04:23.060 --> 00:04:27.980
+promotion you start it from here but we
+
+53
+00:04:27.980 --> 00:04:30.680
+must a dot B a dot B are in parallel so
+
+54
+00:04:30.680 --> 00:04:39.470
+they will go like this this is a and it
+
+55
+00:04:39.470 --> 00:04:45.980
+is P to P Mo's so now it is getting
+
+56
+00:04:45.980 --> 00:04:49.220
+added with C's added means again in
+
+57
+00:04:49.220 --> 00:04:55.700
+parallel so they are multi prime in
+
+58
+00:04:55.700 --> 00:04:58.820
+parallel not adding sorry for addition
+
+59
+00:04:58.820 --> 00:05:02.510
+it is in series so in addition again
+
+60
+00:05:02.510 --> 00:05:05.090
+like this and now CC is in
+
+61
+00:05:05.090 --> 00:05:09.230
+multiplication and T plus C so C will be
+
+62
+00:05:09.230 --> 00:05:16.040
+in C will be in parallel for P Mo's like
+
+63
+00:05:16.040 --> 00:05:19.460
+this C and D plus C that is ready and
+
+64
+00:05:19.460 --> 00:05:21.020
+they are getting added so will be taken
+
+65
+00:05:21.020 --> 00:05:25.100
+in series so it will be like B and it is
+
+66
+00:05:25.100 --> 00:05:29.810
+e here it is T and here it is with
+
+67
+00:05:29.810 --> 00:05:33.290
+purple because it is Primos now we will
+
+68
+00:05:33.290 --> 00:05:39.890
+connect like this this circuit is for P
+
+69
+00:05:39.890 --> 00:05:44.710
+MOS it is the point from here we will
+
+70
+00:05:44.710 --> 00:05:49.850
+output Y here we have the whole static
+
+71
+00:05:49.850 --> 00:05:54.110
+CMOS circuit for this given equation now
+
+72
+00:05:54.110 --> 00:05:57.169
+for we will discuss dynamic for dynamic
+
+73
+00:05:57.169 --> 00:06:00.230
+section we will clear assume the P Mo's
+
+74
+00:06:00.230 --> 00:06:04.160
+as X this whole circuit is taken as X
+
+75
+00:06:04.160 --> 00:06:08.570
+and n MOS the whole circuits taken is Z
+
+76
+00:06:08.570 --> 00:06:20.740
+so dynamic with it go with dynamic CMOS
+
+77
+00:06:20.740 --> 00:06:24.530
+circuit design so what is the difference
+
+78
+00:06:24.530 --> 00:06:26.090
+first of all what is the difference
+
+79
+00:06:26.090 --> 00:06:35.060
+between static and dynamic in static we
+
+80
+00:06:35.060 --> 00:06:40.490
+do not have a clock but in dynamic we
+
+81
+00:06:40.490 --> 00:06:46.760
+have a clock signal so we have to do
+
+82
+00:06:46.760 --> 00:06:50.270
+nothing just like same the problem was y
+
+83
+00:06:50.270 --> 00:06:55.730
+is equal to a B plus C into D plus E and
+
+84
+00:06:55.730 --> 00:07:01.250
+whole bar so here it is VDD and again at
+
+85
+00:07:01.250 --> 00:07:07.040
+this point we be to Co with ground now
+
+86
+00:07:07.040 --> 00:07:11.630
+the same we had working with dynamic so
+
+87
+00:07:11.630 --> 00:07:14.270
+we will have to pay clock signals also
+
+88
+00:07:14.270 --> 00:07:17.920
+so for Primos we will take a pea most
+
+89
+00:07:17.920 --> 00:07:22.820
+hill and for n we will take and signal
+
+90
+00:07:22.820 --> 00:07:28.460
+hill this both a short and a clock
+
+91
+00:07:28.460 --> 00:07:30.380
+signal is given it is five o'clock
+
+92
+00:07:30.380 --> 00:07:32.080
+signal
+
+93
+00:07:32.080 --> 00:07:37.300
+okay now the whole that whole section I
+
+94
+00:07:37.300 --> 00:07:42.500
+can static fit drawn here this section
+
+95
+00:07:42.500 --> 00:07:46.700
+for P must be taken as X so home loan
+
+96
+00:07:46.700 --> 00:07:52.190
+only half 3 is root over X and here it
+
+97
+00:07:52.190 --> 00:08:00.860
+is said and this is for Y output exams
+
+98
+00:08:00.860 --> 00:08:05.170
+may appear a circuit drawn of Anna marks
+
+99
+00:08:05.200 --> 00:08:08.300
+so finally we have the dynamic this
+
+100
+00:08:08.300 --> 00:08:12.940
+whole section is dynamic
+
+101
+00:08:15.120 --> 00:08:22.560
+CMOS circuit for this particular problem
+
+102
+00:08:22.740 --> 00:08:26.560
+now we will go with third section that
+
+103
+00:08:26.560 --> 00:08:36.089
+is EU l euler's rule for physic curl
+
+104
+00:08:36.089 --> 00:08:41.770
+circuit design sorry physical design now
+
+105
+00:08:41.770 --> 00:08:47.860
+for Euler's drew the first contra with
+
+106
+00:08:47.860 --> 00:08:51.880
+static CMOS circuit now you know helium
+
+107
+00:08:51.880 --> 00:08:54.100
+calculate and this is the beauty things
+
+108
+00:08:54.100 --> 00:08:57.120
+we will start with this X at this point
+
+109
+00:08:57.120 --> 00:09:03.910
+okay you point at this point as you can
+
+110
+00:09:03.910 --> 00:09:08.339
+see we will draw a point that is VDD
+
+111
+00:09:08.339 --> 00:09:12.520
+and look I can engage her node this is
+
+112
+00:09:12.520 --> 00:09:20.160
+node 1 this is node 2 this is node 3 to
+
+113
+00:09:20.790 --> 00:09:26.260
+node is 3 this is 4 this is 5 and this
+
+114
+00:09:26.260 --> 00:09:27.329
+node is 6
+
+115
+00:09:27.329 --> 00:09:35.640
+okay now GMI repeatediy at node 1
+
+116
+00:09:36.490 --> 00:09:41.050
+we party there is this is for B it is
+
+117
+00:09:41.050 --> 00:09:46.649
+like B now for C we will go like this
+
+118
+00:09:46.649 --> 00:09:51.190
+because he is going through this now D
+
+119
+00:09:51.190 --> 00:09:58.060
+and E D and E so tasty and for e it is D
+
+120
+00:09:58.060 --> 00:10:00.700
+and it is e this is the node a this is
+
+121
+00:10:00.700 --> 00:10:07.770
+no sorry 1 2 it is 3 they treated it is
+
+122
+00:10:07.770 --> 00:10:17.830
+for just notice for it is and sorry P
+
+123
+00:10:17.830 --> 00:10:23.680
+Mo's we will draw another one that is
+
+124
+00:10:23.680 --> 00:10:31.600
+this is the node 3 and it is going
+
+125
+00:10:31.600 --> 00:10:37.720
+through like this a it is a it is B B's
+
+126
+00:10:37.720 --> 00:10:42.250
+like this now here it is C so C it is
+
+127
+00:10:42.250 --> 00:10:49.630
+like this C and T and E is B here it is
+
+128
+00:10:49.630 --> 00:10:54.270
+P and here it is e it is T it is
+
+129
+00:10:54.270 --> 00:10:56.560
+connected like this and this one is
+
+130
+00:10:56.560 --> 00:11:12.839
+grounded so he diagrams penology hum a
+
+131
+00:11:12.839 --> 00:11:16.480
+shortest distance is section C means
+
+132
+00:11:16.480 --> 00:11:19.390
+hello Jason has a start when I do this
+
+133
+00:11:19.390 --> 00:11:21.700
+part is to this
+
+134
+00:11:21.700 --> 00:11:24.940
+sorry part one part this is up to decide
+
+135
+00:11:24.940 --> 00:11:28.660
+decide connect this part is code is
+
+136
+00:11:28.660 --> 00:11:32.860
+kappahd same day like Laguna is point
+
+137
+00:11:32.860 --> 00:11:36.360
+three start here on Expedia sect and si
+
+138
+00:11:36.360 --> 00:11:42.520
+from a b d e and z and remember it but
+
+139
+00:11:42.520 --> 00:11:44.460
+doable repeat energy
+
+140
+00:11:44.460 --> 00:11:49.440
+so I'm gonna start here from a humbug it
+
+141
+00:11:49.440 --> 00:11:59.520
+is a b b c d e and then is AC up see
+
+142
+00:11:59.520 --> 00:12:05.089
+McGehee Fatima is what it is and must be
+
+143
+00:12:05.089 --> 00:12:09.510
+try can I keep at a spiritual dragon so
+
+144
+00:12:09.510 --> 00:12:18.240
+I'm gonna get up from a A to B B to B D
+
+145
+00:12:18.240 --> 00:12:23.430
+to E and E to C so as you can see you
+
+146
+00:12:23.430 --> 00:12:28.380
+look DC e Petaling so busy if it area or
+
+147
+00:12:28.380 --> 00:12:33.240
+ski bottom Ecbatana that is e CC Tommy
+
+148
+00:12:33.240 --> 00:12:35.940
+he could appear can apply so on Luke is
+
+149
+00:12:35.940 --> 00:12:39.360
+a part Canadian hemlock chilling gear
+
+150
+00:12:39.360 --> 00:12:42.390
+I'm luminescent app definitely has to
+
+151
+00:12:42.390 --> 00:12:49.560
+start again dd p starting at be reading
+
+152
+00:12:49.560 --> 00:12:57.240
+a low BP be say a this is C and C severe
+
+153
+00:12:57.240 --> 00:13:03.350
+a so I see a key but C and C severe e
+
+154
+00:13:03.350 --> 00:13:09.000
+now only but spent like like HL taking
+
+155
+00:13:09.000 --> 00:13:19.290
+so it is very 3d this point D be a see
+
+156
+00:13:19.290 --> 00:13:22.380
+and here it is e so you can see John
+
+157
+00:13:22.380 --> 00:13:22.920
+Logan
+
+158
+00:13:22.920 --> 00:13:26.610
+yeah well apart is faith imply grant to
+
+159
+00:13:26.610 --> 00:13:29.520
+go be part repeat me alright so this is
+
+160
+00:13:29.520 --> 00:13:41.459
+the right I love spot okay now in part
+
+161
+00:13:41.459 --> 00:13:45.350
+skill a Soviet man
+
+162
+00:13:47.100 --> 00:13:52.620
+the problem was Y is equals to B plus C
+
+163
+00:13:52.620 --> 00:14:00.330
+into D plus B okay so and the path we
+
+164
+00:14:00.330 --> 00:14:08.070
+decided is D be AC and E now the same
+
+165
+00:14:08.070 --> 00:14:10.590
+thing as we join a static and dynamic
+
+166
+00:14:10.590 --> 00:14:18.510
+that is VD D and here it is ground now
+
+167
+00:14:18.510 --> 00:14:22.310
+we are drawing the stick diagram very
+
+168
+00:14:22.550 --> 00:14:30.900
+same so here it is for P Mo's and it is
+
+169
+00:14:30.900 --> 00:14:37.830
+for and moss okay now this is the path
+
+170
+00:14:37.830 --> 00:14:52.050
+so we will go like this it is d be a C
+
+171
+00:14:52.050 --> 00:14:59.160
+and E now we have to draw the stick
+
+172
+00:14:59.160 --> 00:15:04.100
+diagram for this section okay
+
+173
+00:15:04.250 --> 00:15:09.180
+let's again take the statics circuit as
+
+174
+00:15:09.180 --> 00:15:12.660
+you can see here it is source of the p
+
+175
+00:15:12.660 --> 00:15:19.920
+MOS a drain source drain source drain it
+
+176
+00:15:19.920 --> 00:15:24.930
+is again source drain source drain now
+
+177
+00:15:24.930 --> 00:15:29.310
+for n MOS it is drain drain source drain
+
+178
+00:15:29.310 --> 00:15:34.790
+source source drain drain source and so
+
+179
+00:15:34.790 --> 00:15:39.570
+okay we're trying for a P MOSFET is this
+
+180
+00:15:39.570 --> 00:15:44.360
+section so we will see the transistor D
+
+181
+00:15:44.360 --> 00:15:49.640
+so for transistor D so we have s and T
+
+182
+00:15:49.640 --> 00:15:54.210
+so we have to see D and P transistor
+
+183
+00:15:54.210 --> 00:15:57.780
+that is this this transistor T and B as
+
+184
+00:15:57.780 --> 00:16:00.080
+you can see the D and s
+
+185
+00:16:00.080 --> 00:16:03.110
+our same Junction so we will take the
+
+186
+00:16:03.110 --> 00:16:06.529
+train I can see drain of the be that is
+
+187
+00:16:06.529 --> 00:16:08.630
+train of the B is connected with the
+
+188
+00:16:08.630 --> 00:16:11.720
+souls of the T so here it is now it is
+
+189
+00:16:11.720 --> 00:16:14.330
+the train and it is the source this is a
+
+190
+00:16:14.330 --> 00:16:19.130
+and B a and B the source sources of the
+
+191
+00:16:19.130 --> 00:16:22.190
+a and B are on same side so it is source
+
+192
+00:16:22.190 --> 00:16:25.520
+and it is train now a and C as you can
+
+193
+00:16:25.520 --> 00:16:30.140
+say a and C train of a and source of T
+
+194
+00:16:30.140 --> 00:16:31.160
+see sorry
+
+195
+00:16:31.160 --> 00:16:37.279
+so drain of a source of C okay now C and
+
+196
+00:16:37.279 --> 00:16:42.290
+E C drain of C and source of the sorry
+
+197
+00:16:42.290 --> 00:16:47.330
+train of e so train of C and drain of ER
+
+198
+00:16:47.330 --> 00:16:51.680
+in on seems it is source here it is now
+
+199
+00:16:51.680 --> 00:16:54.550
+we will do the short circuits further
+
+200
+00:16:54.550 --> 00:16:59.920
+for these junctions it is as you can see
+
+201
+00:16:59.920 --> 00:17:05.000
+here it is the a and B are short a and B
+
+202
+00:17:05.000 --> 00:17:08.329
+sorry for a source this point is
+
+203
+00:17:08.329 --> 00:17:10.550
+connected with VDD as you can see the
+
+204
+00:17:10.550 --> 00:17:14.300
+source of a and source of B not given
+
+205
+00:17:14.300 --> 00:17:16.819
+with which it is so source of a and
+
+206
+00:17:16.819 --> 00:17:21.589
+source of B are given with VDD now a and
+
+207
+00:17:21.589 --> 00:17:25.280
+B the Train of a and drain of B are
+
+208
+00:17:25.280 --> 00:17:32.330
+short so drain of a and drain Jordan of
+
+209
+00:17:32.330 --> 00:17:38.210
+P and drain of a are short now again you
+
+210
+00:17:38.210 --> 00:17:44.480
+can see the source of D the source of D
+
+211
+00:17:44.480 --> 00:17:49.340
+and source of C source of this source of
+
+212
+00:17:49.340 --> 00:17:54.110
+C source of D and so soft C are also
+
+213
+00:17:54.110 --> 00:17:57.290
+short circuit so this Junction is
+
+214
+00:17:57.290 --> 00:18:00.980
+completed here after that we will move
+
+215
+00:18:00.980 --> 00:18:05.420
+to this junction D and E we will see D
+
+216
+00:18:05.420 --> 00:18:10.550
+and E here it is d it is e so the drain
+
+217
+00:18:10.550 --> 00:18:13.670
+of Dean there is this point drain of D
+
+218
+00:18:13.670 --> 00:18:17.770
+and source of e there is source of e
+
+219
+00:18:17.770 --> 00:18:19.760
+these are again
+
+220
+00:18:19.760 --> 00:18:24.590
+well shorted now again this point C and
+
+221
+00:18:24.590 --> 00:18:29.330
+E C and E drain these are already
+
+222
+00:18:29.330 --> 00:18:35.180
+shorted okay now we will take the output
+
+223
+00:18:35.180 --> 00:18:39.800
+this is from this point drain of C and
+
+224
+00:18:39.800 --> 00:18:41.780
+drain of e that is strain of citrine of
+
+225
+00:18:41.780 --> 00:18:45.020
+e this section we will do it like this
+
+226
+00:18:45.020 --> 00:18:49.600
+and here it is y now we will draw for
+
+227
+00:18:49.600 --> 00:18:56.500
+work further and moss so I move and Moss
+
+228
+00:18:56.500 --> 00:19:00.770
+we are seeing this circuit now similarly
+
+229
+00:19:00.770 --> 00:19:03.320
+this is the drain this is a drain of a
+
+230
+00:19:03.320 --> 00:19:08.510
+and C will go with a and C the train and
+
+231
+00:19:08.510 --> 00:19:11.720
+drain of a and C are common so a the
+
+232
+00:19:11.720 --> 00:19:16.100
+drain the drain of a and C okay so here
+
+233
+00:19:16.100 --> 00:19:19.220
+it is so series source now we will move
+
+234
+00:19:19.220 --> 00:19:25.100
+with this train of source of a will go
+
+235
+00:19:25.100 --> 00:19:32.870
+with this side so D and E B and E now so
+
+236
+00:19:32.870 --> 00:19:35.720
+we will work with DB these two are
+
+237
+00:19:35.720 --> 00:19:41.480
+together so d the source of D is
+
+238
+00:19:41.480 --> 00:19:48.320
+connected with source of e B and D P and
+
+239
+00:19:48.320 --> 00:19:50.840
+D so yes source of B is connected with
+
+240
+00:19:50.840 --> 00:19:54.470
+source of be the source of this
+
+241
+00:19:54.470 --> 00:19:56.570
+connected resource of B so here it is
+
+242
+00:19:56.570 --> 00:20:01.610
+train in strain now C and E C and E the
+
+243
+00:20:01.610 --> 00:20:04.040
+source of C is connected with train of a
+
+244
+00:20:04.040 --> 00:20:08.030
+source of C is connected with drain of e
+
+245
+00:20:08.030 --> 00:20:13.760
+so here it is T and here it is s now
+
+246
+00:20:13.760 --> 00:20:17.000
+again the short circuits first of all we
+
+247
+00:20:17.000 --> 00:20:19.220
+will take the output there is a train of
+
+248
+00:20:19.220 --> 00:20:21.340
+a and drain of see a train of a and
+
+249
+00:20:21.340 --> 00:20:23.350
+train of see here
+
+250
+00:20:23.350 --> 00:20:28.179
+taken as the output is taken from this
+
+251
+00:20:28.179 --> 00:20:31.780
+point okay now again from ground to
+
+252
+00:20:31.780 --> 00:20:35.200
+ground there is D and E the sources of D
+
+253
+00:20:35.200 --> 00:20:41.710
+and E the source of T source of B D and
+
+254
+00:20:41.710 --> 00:20:45.880
+E source of D P - to ground source of
+
+255
+00:20:45.880 --> 00:20:50.110
+this here it is also ground okay now
+
+256
+00:20:50.110 --> 00:20:57.100
+this point B and a a and B are short C
+
+257
+00:20:57.100 --> 00:21:01.870
+and D C and T these I have to win these
+
+258
+00:21:01.870 --> 00:21:04.809
+are apart so these are also have to be
+
+259
+00:21:04.809 --> 00:21:10.000
+shorted so the drain of C that is drain
+
+260
+00:21:10.000 --> 00:21:14.110
+of see this section and train of a that
+
+261
+00:21:14.110 --> 00:21:18.669
+is drain off here it is don't know if if
+
+262
+00:21:18.669 --> 00:21:22.840
+these are also short okay so I see a CR
+
+263
+00:21:22.840 --> 00:21:26.669
+together C and D are far C and D so
+
+264
+00:21:26.669 --> 00:21:33.570
+drain source of C and drain off the
+
+265
+00:21:33.570 --> 00:21:41.080
+drain of D yeah you can see it is also
+
+266
+00:21:41.080 --> 00:21:43.659
+connected D is connected with E the
+
+267
+00:21:43.659 --> 00:21:47.760
+drain of C D and this is also shorter
+
+268
+00:21:47.760 --> 00:21:55.890
+yeah okay so it is the stick diagram
+
+269
+00:22:00.150 --> 00:22:04.270
+rule root cooperating so add up this
+
+270
+00:22:04.270 --> 00:22:08.590
+actor EMI pass a complicated equation ax
+
+271
+00:22:08.590 --> 00:22:14.789
+with a b c d e with v transistors okay
+
+272
+00:22:14.789 --> 00:22:19.000
+so for trying state diagram for this
+
+273
+00:22:19.000 --> 00:22:21.669
+equation I'm directing now acceptance so
+
+274
+00:22:21.669 --> 00:22:22.770
+kinky
+
+275
+00:22:22.770 --> 00:22:25.210
+how do direct questions now section you
+
+276
+00:22:25.210 --> 00:22:28.090
+see Y is equals to a dot B is Cillian
+
+277
+00:22:28.090 --> 00:22:30.610
+looks T diagram directness extended the
+
+278
+00:22:30.610 --> 00:22:32.860
+main except to be realistic diagram
+
+279
+00:22:32.860 --> 00:22:36.460
+magneto hum normally pin a sector but
+
+280
+00:22:36.460 --> 00:22:38.629
+transition start over that is variable
+
+281
+00:22:38.629 --> 00:22:40.909
+shadow that tend to stick diagram bring
+
+282
+00:22:40.909 --> 00:22:45.740
+Euler's rule car use of 10 you will use
+
+283
+00:22:45.740 --> 00:22:54.679
+this rule for physical design so that's
+
+284
+00:22:54.679 --> 00:22:59.330
+four that's all for today thank you very
+
+285
+00:22:59.330 --> 00:23:01.690
+much
+

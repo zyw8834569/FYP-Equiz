@@ -1,0 +1,1570 @@
+WEBVTT
+
+1
+00:00:01.270 --> 00:00:08.660
+[Music]
+
+2
+00:00:08.660 --> 00:00:11.190
+welcome to the next session on learn
+
+3
+00:00:11.190 --> 00:00:13.799
+before you saw in the first part of the
+
+4
+00:00:13.799 --> 00:00:16.379
+video we understood about the general
+
+5
+00:00:16.379 --> 00:00:19.170
+structure of dynamic CMOS design and its
+
+6
+00:00:19.170 --> 00:00:22.410
+basic working principle in this video we
+
+7
+00:00:22.410 --> 00:00:24.570
+will understand how to implement the
+
+8
+00:00:24.570 --> 00:00:26.880
+function f equal to a plus B dot C the
+
+9
+00:00:26.880 --> 00:00:30.869
+whole bar using dynamic CMOS design to
+
+10
+00:00:30.869 --> 00:00:32.610
+implement the given function using
+
+11
+00:00:32.610 --> 00:00:35.399
+dynamic CMOS design first let us
+
+12
+00:00:35.399 --> 00:00:37.320
+recollect the general structure of
+
+13
+00:00:37.320 --> 00:00:40.469
+dynamic CMOS design and then we'll
+
+14
+00:00:40.469 --> 00:00:43.230
+proceed for the given logic so initially
+
+15
+00:00:43.230 --> 00:00:48.899
+we had the pre-charge transistor which
+
+16
+00:00:48.899 --> 00:00:52.500
+was denoted by e em suffix P it is going
+
+17
+00:00:52.500 --> 00:00:56.760
+to be a P MOS transistor and then we had
+
+18
+00:00:56.760 --> 00:01:01.170
+an evaluation transistor which was
+
+19
+00:01:01.170 --> 00:01:05.369
+denoted as M suffix key and this would
+
+20
+00:01:05.369 --> 00:01:09.479
+be a n MOS transistor and then we will
+
+21
+00:01:09.479 --> 00:01:13.320
+have in between this pre-charge and
+
+22
+00:01:13.320 --> 00:01:17.700
+evaluation phase we will have a PD and
+
+23
+00:01:17.700 --> 00:01:21.000
+logic and this will be again implemented
+
+24
+00:01:21.000 --> 00:01:23.759
+using and the other important point is
+
+25
+00:01:23.759 --> 00:01:26.130
+in a dynamic logic all the signal values
+
+26
+00:01:26.130 --> 00:01:29.670
+are going to be stored in a capacitor so
+
+27
+00:01:29.670 --> 00:01:34.070
+we will have an output capacitance
+
+28
+00:01:36.920 --> 00:01:40.350
+capacitor which is denoted by C it is a
+
+29
+00:01:40.350 --> 00:01:42.990
+load capacitor and this dynamic logic
+
+30
+00:01:42.990 --> 00:01:45.060
+operates in two phases one is pre-charge
+
+31
+00:01:45.060 --> 00:01:47.490
+phase and evaluation phase so for that
+
+32
+00:01:47.490 --> 00:01:49.320
+these two phases are going to be
+
+33
+00:01:49.320 --> 00:01:52.020
+controlled by the clock signal which is
+
+34
+00:01:52.020 --> 00:01:56.159
+denoted by CL K so these are the
+
+35
+00:01:56.159 --> 00:01:59.399
+prerequisite for understanding the
+
+36
+00:01:59.399 --> 00:02:02.189
+dynamic CMOS design to implement the PD
+
+37
+00:02:02.189 --> 00:02:06.570
+logic for F equal to a plus B dot C the
+
+38
+00:02:06.570 --> 00:02:10.709
+whole bar for dynamic CMOS design also
+
+39
+00:02:10.709 --> 00:02:12.209
+we are going to implement only the
+
+40
+00:02:12.209 --> 00:02:13.599
+pulldown logic
+
+41
+00:02:13.599 --> 00:02:15.579
+so we are not bothered about the pull-up
+
+42
+00:02:15.579 --> 00:02:18.579
+network so if you are going to do the
+
+43
+00:02:18.579 --> 00:02:20.409
+pull-up network when Li we love to go
+
+44
+00:02:20.409 --> 00:02:22.359
+for applying de Morgan's law and all
+
+45
+00:02:22.359 --> 00:02:25.200
+other stuffs so here we will be doing
+
+46
+00:02:25.200 --> 00:02:28.900
+just the calculation of FL where FN is
+
+47
+00:02:28.900 --> 00:02:31.540
+up time by recollecting the static CMOS
+
+48
+00:02:31.540 --> 00:02:34.239
+design principle Aaron will just take a
+
+49
+00:02:34.239 --> 00:02:36.579
+complement of the given function so that
+
+50
+00:02:36.579 --> 00:02:38.370
+we can get the N Mo's pulldown network
+
+51
+00:02:38.370 --> 00:02:40.930
+so this expression is going to denote
+
+52
+00:02:40.930 --> 00:02:47.379
+you the pulldown network now
+
+53
+00:02:47.379 --> 00:02:49.389
+implementing this pulldown logic we have
+
+54
+00:02:49.389 --> 00:02:53.379
+two rules this is plus which is going to
+
+55
+00:02:53.379 --> 00:02:56.560
+denote as some will be in terms of
+
+56
+00:02:56.560 --> 00:02:58.719
+parallel connection of transistors and
+
+57
+00:02:58.719 --> 00:03:01.180
+this dot is representing the
+
+58
+00:03:01.180 --> 00:03:03.750
+multiplication so if it is
+
+59
+00:03:03.750 --> 00:03:06.909
+multiplication then the transistors will
+
+60
+00:03:06.909 --> 00:03:10.540
+be connected in terms of series so now
+
+61
+00:03:10.540 --> 00:03:12.969
+we will proceed so it is going to be a
+
+62
+00:03:12.969 --> 00:03:15.310
+all are going to be n Mo's transistors
+
+63
+00:03:15.310 --> 00:03:20.919
+so it is a B dot C so B dot C is going
+
+64
+00:03:20.919 --> 00:03:31.479
+to be anyway in series since we have a
+
+65
+00:03:31.479 --> 00:03:33.609
+plus B dot C we are going to connect it
+
+66
+00:03:33.609 --> 00:03:37.209
+in parallel so let us extend this line
+
+67
+00:03:37.209 --> 00:03:40.870
+also to connect in parallel and now we
+
+68
+00:03:40.870 --> 00:03:44.470
+will have a pre-charge transistor under
+
+69
+00:03:44.470 --> 00:03:46.659
+evaluation transistor so that we love to
+
+70
+00:03:46.659 --> 00:03:51.579
+set up so here we will have pre charge
+
+71
+00:03:51.579 --> 00:03:55.109
+transistor which is denoted in terms of
+
+72
+00:03:55.109 --> 00:03:59.769
+P Mo's and we have an evaluation
+
+73
+00:03:59.769 --> 00:04:04.599
+transistor which is denoted by Y n wash
+
+74
+00:04:04.599 --> 00:04:08.680
+so n MOS will be grounded and the p MOS
+
+75
+00:04:08.680 --> 00:04:12.459
+source will be connected to VDD and the
+
+76
+00:04:12.459 --> 00:04:16.539
+output will be taken at this point which
+
+77
+00:04:16.539 --> 00:04:20.440
+is going to be F equal to a plus B dot C
+
+78
+00:04:20.440 --> 00:04:25.029
+the whole bar and we love to connect it
+
+79
+00:04:25.029 --> 00:04:27.539
+to use ik
+
+80
+00:04:28.220 --> 00:04:31.740
+this'll be your see it because it is a
+
+81
+00:04:31.740 --> 00:04:34.200
+dynamic CMOS design all the outputs are
+
+82
+00:04:34.200 --> 00:04:36.750
+going to be stored in this output
+
+83
+00:04:36.750 --> 00:04:39.600
+capacitance CL now let us check whether
+
+84
+00:04:39.600 --> 00:04:41.820
+the implemented dynamic CMOS design
+
+85
+00:04:41.820 --> 00:04:44.639
+works perfectly for F equal to a plus B
+
+86
+00:04:44.639 --> 00:04:47.040
+dot C the whole bar with some specific
+
+87
+00:04:47.040 --> 00:04:49.860
+values for the first case let us
+
+88
+00:04:49.860 --> 00:04:56.760
+consider a equal to zero B equal to zero
+
+89
+00:04:56.760 --> 00:05:02.850
+and C equal to zero so if a B and C are
+
+90
+00:05:02.850 --> 00:05:06.450
+0 and let us also assume that clock is
+
+91
+00:05:06.450 --> 00:05:13.080
+equal to 0 if clock is equal to 0 then P
+
+92
+00:05:13.080 --> 00:05:15.780
+Mo's transistor will turn on
+
+93
+00:05:15.780 --> 00:05:18.540
+therefore the pre-charge transistor is
+
+94
+00:05:18.540 --> 00:05:23.130
+on and since clock is zero my evaluation
+
+95
+00:05:23.130 --> 00:05:27.630
+transistor will be in off condition as
+
+96
+00:05:27.630 --> 00:05:31.320
+the Prima's recharge transistor is on it
+
+97
+00:05:31.320 --> 00:05:33.810
+pulls the output node 2 equals the
+
+98
+00:05:33.810 --> 00:05:36.600
+output node to VDD and this VDD is
+
+99
+00:05:36.600 --> 00:05:39.000
+completely stored in this load capacitor
+
+100
+00:05:39.000 --> 00:05:42.600
+C so therefore now CL will be pre
+
+101
+00:05:42.600 --> 00:05:46.650
+charged to VDD in this stage the N Mo's
+
+102
+00:05:46.650 --> 00:05:48.539
+transistor that the evaluation
+
+103
+00:05:48.539 --> 00:05:50.490
+transistor is completely in off
+
+104
+00:05:50.490 --> 00:05:52.830
+condition so that the pulldown path is
+
+105
+00:05:52.830 --> 00:05:55.500
+completely disabled and here also we can
+
+106
+00:05:55.500 --> 00:05:59.280
+say that a 0 B is 0 and C is 0 so if all
+
+107
+00:05:59.280 --> 00:06:01.280
+these things are 0 it is going to remain
+
+108
+00:06:01.280 --> 00:06:04.410
+disabled and for clock zero definitely
+
+109
+00:06:04.410 --> 00:06:06.060
+we cannot come here for the evaluation
+
+110
+00:06:06.060 --> 00:06:08.820
+phase evaluation phase will take turn on
+
+111
+00:06:08.820 --> 00:06:11.460
+one he when the clock is 1 so therefore
+
+112
+00:06:11.460 --> 00:06:13.440
+at this stage we cannot substitute and
+
+113
+00:06:13.440 --> 00:06:15.960
+find out what is the output F equal to
+
+114
+00:06:15.960 --> 00:06:19.650
+either it is going to be 1 or 0 in the
+
+115
+00:06:19.650 --> 00:06:23.450
+pre-charge fish now let's look it well 2
+
+116
+00:06:23.450 --> 00:06:27.330
+1 so therefore my evaluation transistor
+
+117
+00:06:27.330 --> 00:06:30.240
+n Mo's will turn on and P MOS which is
+
+118
+00:06:30.240 --> 00:06:32.039
+the pre-charge transistor will not turn
+
+119
+00:06:32.039 --> 00:06:33.660
+on for a high input so therefore that
+
+120
+00:06:33.660 --> 00:06:36.960
+will remind us in off condition so this
+
+121
+00:06:36.960 --> 00:06:39.009
+is an off condition now let us
+
+122
+00:06:39.009 --> 00:06:42.159
+find out what are the values for a B and
+
+123
+00:06:42.159 --> 00:06:44.699
+C all these are going to remain as 0
+
+124
+00:06:44.699 --> 00:06:48.039
+again all these are three enemas pass
+
+125
+00:06:48.039 --> 00:06:49.990
+transistors these three n MOS pass
+
+126
+00:06:49.990 --> 00:06:51.999
+transistors will turn on one leaf or up
+
+127
+00:06:51.999 --> 00:06:54.699
+high input since zero is a low end but
+
+128
+00:06:54.699 --> 00:06:56.259
+all these three and mass pass
+
+129
+00:06:56.259 --> 00:06:58.719
+transistors will remain in off condition
+
+130
+00:06:58.719 --> 00:07:01.719
+so therefore the evaluation path has not
+
+131
+00:07:01.719 --> 00:07:04.059
+enabled evaluation transistor has not
+
+132
+00:07:04.059 --> 00:07:06.369
+enabled this calculation so by
+
+133
+00:07:06.369 --> 00:07:08.259
+calculating this you will not will not
+
+134
+00:07:08.259 --> 00:07:10.809
+be able to attain any results because
+
+135
+00:07:10.809 --> 00:07:12.339
+all these transistors are an off
+
+136
+00:07:12.339 --> 00:07:16.449
+condition therefore my VC L will retain
+
+137
+00:07:16.449 --> 00:07:20.349
+its already stored pre-charged value to
+
+138
+00:07:20.349 --> 00:07:23.949
+VDD if we substitute the values for a b
+
+139
+00:07:23.949 --> 00:07:27.550
+and c also we can see that it is going
+
+140
+00:07:27.550 --> 00:07:29.649
+to be whole bar so obviously if all
+
+141
+00:07:29.649 --> 00:07:31.749
+these things are going to be 0 the
+
+142
+00:07:31.749 --> 00:07:33.969
+complement of 0 will remain us 1 so the
+
+143
+00:07:33.969 --> 00:07:37.479
+equivalent of 1 is almost the VDD higher
+
+144
+00:07:37.479 --> 00:07:40.059
+supply voltage now we will cross it for
+
+145
+00:07:40.059 --> 00:07:42.969
+the second case where in here we are
+
+146
+00:07:42.969 --> 00:07:45.580
+going to consider different values where
+
+147
+00:07:45.580 --> 00:07:49.870
+a is going to be 0 B will remind us 1
+
+148
+00:07:49.870 --> 00:07:55.449
+and C will be equal to 0 now again
+
+149
+00:07:55.449 --> 00:07:59.800
+considering clock equal to 0 what will
+
+150
+00:07:59.800 --> 00:08:05.289
+happen my VC L will be in VDD it will
+
+151
+00:08:05.289 --> 00:08:11.499
+have a pre charged value at this stage
+
+152
+00:08:11.499 --> 00:08:13.899
+the evaluation transistor eme will
+
+153
+00:08:13.899 --> 00:08:17.860
+remain off so there for evaluation and
+
+154
+00:08:17.860 --> 00:08:19.689
+the substitution of all these values
+
+155
+00:08:19.689 --> 00:08:21.999
+cannot be done and the output
+
+156
+00:08:21.999 --> 00:08:23.979
+capacitance will store the pre charge to
+
+157
+00:08:23.979 --> 00:08:26.860
+value VDD now substituting clock equal
+
+158
+00:08:26.860 --> 00:08:30.969
+to 1 it will enter into the evaluation
+
+159
+00:08:30.969 --> 00:08:33.849
+phase so now we can substitute the
+
+160
+00:08:33.849 --> 00:08:40.059
+inputs equal to 0 here B is 1 and C is 0
+
+161
+00:08:40.059 --> 00:08:42.698
+we can see here this n must pass
+
+162
+00:08:42.698 --> 00:08:45.130
+transistor will be in off condition
+
+163
+00:08:45.130 --> 00:08:47.680
+because it is not going to turn on for
+
+164
+00:08:47.680 --> 00:08:50.139
+low input and here clock is 1 so
+
+165
+00:08:50.139 --> 00:08:51.730
+therefore this will be this
+
+166
+00:08:51.730 --> 00:08:54.610
+we'll be in on condition this is zero so
+
+167
+00:08:54.610 --> 00:08:56.230
+therefore this PMO's transistor will be
+
+168
+00:08:56.230 --> 00:08:59.769
+in off and here this n Mo's transistor
+
+169
+00:08:59.769 --> 00:09:02.350
+will also have again in off condition
+
+170
+00:09:02.350 --> 00:09:05.199
+this one this is one so therefore this
+
+171
+00:09:05.199 --> 00:09:07.810
+will be in on condition now look at here
+
+172
+00:09:07.810 --> 00:09:11.740
+the connection is in parallel this fan
+
+173
+00:09:11.740 --> 00:09:14.769
+either Y and B dot C are in parallel so
+
+174
+00:09:14.769 --> 00:09:17.980
+therefore even if any one path is on we
+
+175
+00:09:17.980 --> 00:09:19.570
+can say that the output can be
+
+176
+00:09:19.570 --> 00:09:22.750
+discharged to grow but here we can see
+
+177
+00:09:22.750 --> 00:09:25.600
+that B and C are seriously connected
+
+178
+00:09:25.600 --> 00:09:27.220
+since they are seriously connected both
+
+179
+00:09:27.220 --> 00:09:29.529
+has to be in on condition but here we
+
+180
+00:09:29.529 --> 00:09:32.290
+can see that it is one is an on and the
+
+181
+00:09:32.290 --> 00:09:34.180
+other one is in off condition so
+
+182
+00:09:34.180 --> 00:09:36.370
+therefore this series path is also
+
+183
+00:09:36.370 --> 00:09:39.519
+disabled this path is also disabled so
+
+184
+00:09:39.519 --> 00:09:41.170
+even though we have substituted the
+
+185
+00:09:41.170 --> 00:09:43.389
+inputs and the club evaluation
+
+186
+00:09:43.389 --> 00:09:46.350
+transistor is also one we cannot attain
+
+187
+00:09:46.350 --> 00:09:50.740
+CL to zero because only if all these
+
+188
+00:09:50.740 --> 00:09:52.959
+paths if this path is aren't only if
+
+189
+00:09:52.959 --> 00:09:55.329
+this PD and logic is on this
+
+190
+00:09:55.329 --> 00:09:57.490
+Emme transistor will try to pull down
+
+191
+00:09:57.490 --> 00:10:00.760
+the output to zero but here this PD and
+
+192
+00:10:00.760 --> 00:10:03.220
+logic is completely disabled here so
+
+193
+00:10:03.220 --> 00:10:08.459
+this PD in path is disabled we cannot
+
+194
+00:10:08.459 --> 00:10:11.529
+evaluate so the evaluation goes wrong
+
+195
+00:10:11.529 --> 00:10:14.620
+since they are in off condition and here
+
+196
+00:10:14.620 --> 00:10:16.480
+one transistor is an off condition so
+
+197
+00:10:16.480 --> 00:10:18.819
+therefore this series path also doesn't
+
+198
+00:10:18.819 --> 00:10:20.500
+work so the effort is completely
+
+199
+00:10:20.500 --> 00:10:25.990
+disabled then the VC L will try to store
+
+200
+00:10:25.990 --> 00:10:29.350
+the pre-charged previously stored the
+
+201
+00:10:29.350 --> 00:10:32.260
+value VDD so now we can even substitute
+
+202
+00:10:32.260 --> 00:10:36.519
+the values for and see the logical
+
+203
+00:10:36.519 --> 00:10:44.889
+expression output so 0 plus 1 dot 0 so
+
+204
+00:10:44.889 --> 00:10:48.040
+that is also going to be 1 so f is equal
+
+205
+00:10:48.040 --> 00:10:52.959
+to 1 which is equal and to VDD higher
+
+206
+00:10:52.959 --> 00:10:55.810
+value so here also we can say that the
+
+207
+00:10:55.810 --> 00:10:58.240
+implementation is completely correct for
+
+208
+00:10:58.240 --> 00:11:01.269
+the given logic now let us see one more
+
+209
+00:11:01.269 --> 00:11:03.670
+case inputs with a
+
+210
+00:11:03.670 --> 00:11:06.580
+and see with different values such that
+
+211
+00:11:06.580 --> 00:11:08.980
+the input values are going to create a
+
+212
+00:11:08.980 --> 00:11:11.560
+low resistance path between the output
+
+213
+00:11:11.560 --> 00:11:15.010
+and the ground value so it has to pull
+
+214
+00:11:15.010 --> 00:11:17.710
+down the pre-charge the value to ground
+
+215
+00:11:17.710 --> 00:11:19.870
+so such values we are going to take it
+
+216
+00:11:19.870 --> 00:11:22.690
+for our consideration so here I am going
+
+217
+00:11:22.690 --> 00:11:28.180
+to consider for case three so one such
+
+218
+00:11:28.180 --> 00:11:32.170
+combination is a equal to 1 and B equal
+
+219
+00:11:32.170 --> 00:11:36.430
+to 0 and my C will remind to 1 so this
+
+220
+00:11:36.430 --> 00:11:37.510
+is the case that we are going to
+
+221
+00:11:37.510 --> 00:11:40.480
+consider now again we will substitute as
+
+222
+00:11:40.480 --> 00:11:43.770
+usual clock will be 0 initially and
+
+223
+00:11:43.770 --> 00:11:47.140
+therefore my MP transistor will be in on
+
+224
+00:11:47.140 --> 00:11:47.920
+condition
+
+225
+00:11:47.920 --> 00:11:50.620
+Emme will remain evaluation transistor
+
+226
+00:11:50.620 --> 00:11:52.480
+will remain an off condition so complete
+
+227
+00:11:52.480 --> 00:11:55.510
+the PD n path will be disabled the n MOS
+
+228
+00:11:55.510 --> 00:11:57.760
+transistor at the bottom will ensure
+
+229
+00:11:57.760 --> 00:12:00.280
+that no static power is consumed at this
+
+230
+00:12:00.280 --> 00:12:02.080
+pre-charge 2 period so that is the
+
+231
+00:12:02.080 --> 00:12:04.660
+biggest advantage the inputs to the gate
+
+232
+00:12:04.660 --> 00:12:06.970
+can therefore make at least only one
+
+233
+00:12:06.970 --> 00:12:09.580
+transition during evaluation so once the
+
+234
+00:12:09.580 --> 00:12:12.250
+clock is 0 this evaluation phase will
+
+235
+00:12:12.250 --> 00:12:15.490
+not work so therefore my vc l will be
+
+236
+00:12:15.490 --> 00:12:18.400
+again pre charge to be ready so this
+
+237
+00:12:18.400 --> 00:12:21.760
+value will have come here okay so this
+
+238
+00:12:21.760 --> 00:12:24.310
+is nothing but pre charge to value VDD
+
+239
+00:12:24.310 --> 00:12:28.450
+now we will go for the next case where
+
+240
+00:12:28.450 --> 00:12:31.480
+we will consider clock equal to 1 now
+
+241
+00:12:31.480 --> 00:12:33.490
+the evaluation transistor is an on
+
+242
+00:12:33.490 --> 00:12:35.470
+condition now let us substitute the
+
+243
+00:12:35.470 --> 00:12:38.710
+values for a B and C so here at this
+
+244
+00:12:38.710 --> 00:12:41.290
+stage clock is 1 so therefore this PMO's
+
+245
+00:12:41.290 --> 00:12:44.470
+transistor will be in off clock is 1 in
+
+246
+00:12:44.470 --> 00:12:48.610
+my evaluation transistor goes on yes one
+
+247
+00:12:48.610 --> 00:12:50.680
+so that for this n Mo's will turn on for
+
+248
+00:12:50.680 --> 00:12:54.130
+high input B is 0 this will be in rough
+
+249
+00:12:54.130 --> 00:12:58.060
+condition and C is 1 this will be in on
+
+250
+00:12:58.060 --> 00:13:01.690
+condition now here we can see that first
+
+251
+00:13:01.690 --> 00:13:04.000
+let us look into the series connection
+
+252
+00:13:04.000 --> 00:13:06.190
+this series connection we can see that
+
+253
+00:13:06.190 --> 00:13:08.620
+this is an off condition this is an on
+
+254
+00:13:08.620 --> 00:13:10.600
+condition for series connection both the
+
+255
+00:13:10.600 --> 00:13:13.000
+transistors has to be in on condition so
+
+256
+00:13:13.000 --> 00:13:15.480
+here one is off and the other
+
+257
+00:13:15.480 --> 00:13:17.850
+on so therefore this path doesn't work
+
+258
+00:13:17.850 --> 00:13:20.820
+but here we can look at this a this
+
+259
+00:13:20.820 --> 00:13:23.100
+transistor isn't on so therefore this
+
+260
+00:13:23.100 --> 00:13:26.310
+path is on here we can see that ei and B
+
+261
+00:13:26.310 --> 00:13:28.650
+dot C are parallel to each other so for
+
+262
+00:13:28.650 --> 00:13:31.290
+parallel connection even if any one path
+
+263
+00:13:31.290 --> 00:13:34.350
+is enabled so that is enough for us so
+
+264
+00:13:34.350 --> 00:13:37.970
+here this a path is enabled so therefore
+
+265
+00:13:37.970 --> 00:13:40.710
+we can see the connection like this
+
+266
+00:13:40.710 --> 00:13:44.250
+now the pre-charged a value which is VD
+
+267
+00:13:44.250 --> 00:13:49.320
+D will be pulled down to zero so
+
+268
+00:13:49.320 --> 00:13:51.090
+therefore the low resistance path is
+
+269
+00:13:51.090 --> 00:13:54.720
+existing between this out on the ground
+
+270
+00:13:54.720 --> 00:13:56.340
+so therefore the evaluation transistor
+
+271
+00:13:56.340 --> 00:13:59.370
+is trying to bring down the output value
+
+272
+00:13:59.370 --> 00:14:02.430
+previously stored value to zero so now
+
+273
+00:14:02.430 --> 00:14:04.560
+the output here that will be stored here
+
+274
+00:14:04.560 --> 00:14:08.700
+will be zero so now F is f should be
+
+275
+00:14:08.700 --> 00:14:11.490
+zero now let us substitute the values
+
+276
+00:14:11.490 --> 00:14:14.340
+for F equal to a plus B dot C the whole
+
+277
+00:14:14.340 --> 00:14:18.090
+bar and check whether we are obtaining F
+
+278
+00:14:18.090 --> 00:14:20.940
+equal to zero so VC L will be equal to
+
+279
+00:14:20.940 --> 00:14:25.500
+zero here so it does 1 plus 1 dot 0 is 0
+
+280
+00:14:25.500 --> 00:14:29.430
+so complement of 1 will be 0 therefore
+
+281
+00:14:29.430 --> 00:14:32.220
+we have obtained the correct value so
+
+282
+00:14:32.220 --> 00:14:34.530
+with this we can conclude that the
+
+283
+00:14:34.530 --> 00:14:37.140
+design we have implemented is correct
+
+284
+00:14:37.140 --> 00:14:39.870
+for the given logic F equal to a plus B
+
+285
+00:14:39.870 --> 00:14:42.000
+dot C the whole bar so this is how we
+
+286
+00:14:42.000 --> 00:14:44.130
+can confirm whether we have implemented
+
+287
+00:14:44.130 --> 00:14:46.740
+the logic correctly so this applies for
+
+288
+00:14:46.740 --> 00:14:49.590
+any logic even we can solve and apply
+
+289
+00:14:49.590 --> 00:14:51.750
+for static CMOS design and check whether
+
+290
+00:14:51.750 --> 00:14:54.600
+we have applied or implemented the logic
+
+291
+00:14:54.600 --> 00:14:57.450
+correctly now the main objective is to
+
+292
+00:14:57.450 --> 00:14:59.100
+calculate the number of transistors
+
+293
+00:14:59.100 --> 00:15:01.650
+required for implementing the given
+
+294
+00:15:01.650 --> 00:15:05.340
+logic using dynamic CMOS design so if we
+
+295
+00:15:05.340 --> 00:15:06.630
+are calculating the number of
+
+296
+00:15:06.630 --> 00:15:09.000
+transistors required then we can see
+
+297
+00:15:09.000 --> 00:15:16.730
+that the total number of transistors
+
+298
+00:15:17.430 --> 00:15:21.250
+require yes for implementing the
+
+299
+00:15:21.250 --> 00:15:24.130
+pull-down logic we require three
+
+300
+00:15:24.130 --> 00:15:28.750
+transistors so therefore three less two
+
+301
+00:15:28.750 --> 00:15:32.200
+transistors one is for the pre-charge
+
+302
+00:15:32.200 --> 00:15:34.230
+transistor and the other one is your
+
+303
+00:15:34.230 --> 00:15:39.310
+evaluation transistor so always it is in
+
+304
+00:15:39.310 --> 00:15:45.850
+general for dynamic CMOS design for
+
+305
+00:15:45.850 --> 00:15:48.550
+implementing a logic in dynamic CMOS
+
+306
+00:15:48.550 --> 00:15:50.890
+design the number of transistors
+
+307
+00:15:50.890 --> 00:15:54.430
+required will be yen less to amount of
+
+308
+00:15:54.430 --> 00:15:57.040
+transistors so here in this case for
+
+309
+00:15:57.040 --> 00:15:58.660
+this particular expression we require
+
+310
+00:15:58.660 --> 00:16:02.860
+five transistors whereas in static CMOS
+
+311
+00:16:02.860 --> 00:16:08.470
+design we require two in amount of
+
+312
+00:16:08.470 --> 00:16:13.060
+transistors which was six transistors we
+
+313
+00:16:13.060 --> 00:16:16.570
+require for implementing F equal to ei
+
+314
+00:16:16.570 --> 00:16:20.800
+plus B dot C de kolbar so here by using
+
+315
+00:16:20.800 --> 00:16:23.260
+dynamic CMOS design we have reduced
+
+316
+00:16:23.260 --> 00:16:25.060
+actually the number of transistors
+
+317
+00:16:25.060 --> 00:16:27.790
+required for implementing the given
+
+318
+00:16:27.790 --> 00:16:30.550
+logic hence to summarize the properties
+
+319
+00:16:30.550 --> 00:16:34.780
+of dynamic CMOS design we know that the
+
+320
+00:16:34.780 --> 00:16:37.000
+PD logic is similar to that of the
+
+321
+00:16:37.000 --> 00:16:40.780
+static CMOS implementation so the n MOS
+
+322
+00:16:40.780 --> 00:16:43.480
+pedia network is going to be similar to
+
+323
+00:16:43.480 --> 00:16:46.420
+the static CMOS pdn implementation so
+
+324
+00:16:46.420 --> 00:16:47.890
+there is no change in that
+
+325
+00:16:47.890 --> 00:16:51.010
+but we change in the p MOS network the
+
+326
+00:16:51.010 --> 00:16:52.780
+pull-up network is not completely
+
+327
+00:16:52.780 --> 00:16:55.030
+implemented instead of that pull-up
+
+328
+00:16:55.030 --> 00:16:58.030
+network we have two extra transistors so
+
+329
+00:16:58.030 --> 00:17:00.640
+therefore we require n plus two so if
+
+330
+00:17:00.640 --> 00:17:03.280
+the given logic is a three input logic
+
+331
+00:17:03.280 --> 00:17:05.380
+then we require n amount of transistor
+
+332
+00:17:05.380 --> 00:17:08.349
+less to log transistors where these two
+
+333
+00:17:08.349 --> 00:17:10.619
+transistors are required for
+
+334
+00:17:10.619 --> 00:17:13.030
+implementing the pre-charge phase and
+
+335
+00:17:13.030 --> 00:17:15.730
+the evaluation phase of the dynamic CMOS
+
+336
+00:17:15.730 --> 00:17:17.920
+design so that is the biggest advantage
+
+337
+00:17:17.920 --> 00:17:21.849
+of dynamic CMOS design only because of
+
+338
+00:17:21.849 --> 00:17:24.699
+that the inputs to the gate are able to
+
+339
+00:17:24.699 --> 00:17:27.760
+make only one transition during the
+
+340
+00:17:27.760 --> 00:17:29.800
+evaluation phase and therefore the
+
+341
+00:17:29.800 --> 00:17:30.460
+number of
+
+342
+00:17:30.460 --> 00:17:33.190
+stress required will be always less when
+
+343
+00:17:33.190 --> 00:17:35.770
+compared to the static CMOS design also
+
+344
+00:17:35.770 --> 00:17:37.750
+we can see that there is no static
+
+345
+00:17:37.750 --> 00:17:40.300
+current path between VDD so here we had
+
+346
+00:17:40.300 --> 00:17:43.840
+our VDD and then we had our pre-charge
+
+347
+00:17:43.840 --> 00:17:47.110
+transistor and then we had the pulldown
+
+348
+00:17:47.110 --> 00:17:50.800
+logic so from here both the drains will
+
+349
+00:17:50.800 --> 00:17:52.900
+be connected and output will be taken
+
+350
+00:17:52.900 --> 00:17:55.720
+here and the output is stored in CL and
+
+351
+00:17:55.720 --> 00:17:59.230
+then we had the evaluation transistor
+
+352
+00:17:59.230 --> 00:18:02.110
+and then there is a graph so here this
+
+353
+00:18:02.110 --> 00:18:05.530
+is the dynamic CMOS design so here we
+
+354
+00:18:05.530 --> 00:18:07.570
+don't have any straight connection
+
+355
+00:18:07.570 --> 00:18:10.690
+between this VDD and ground because both
+
+356
+00:18:10.690 --> 00:18:12.700
+these pre charge and evaluation
+
+357
+00:18:12.700 --> 00:18:14.320
+transistors they are controlled by the
+
+358
+00:18:14.320 --> 00:18:18.730
+clock signal if clock is zero this every
+
+359
+00:18:18.730 --> 00:18:21.310
+Church face will turn off and the output
+
+360
+00:18:21.310 --> 00:18:24.820
+path will exist between VDD and out and
+
+361
+00:18:24.820 --> 00:18:28.360
+if clock is equal to 1 the output path
+
+362
+00:18:28.360 --> 00:18:30.490
+will exist this face will be cut off and
+
+363
+00:18:30.490 --> 00:18:32.200
+the output path will exist finely
+
+364
+00:18:32.200 --> 00:18:35.710
+between output and grow so either you
+
+365
+00:18:35.710 --> 00:18:37.810
+will have connection between VDD to
+
+366
+00:18:37.810 --> 00:18:40.450
+output or you will have connection
+
+367
+00:18:40.450 --> 00:18:43.390
+between ground to output but no straight
+
+368
+00:18:43.390 --> 00:18:46.060
+connection will happen between VDD and
+
+369
+00:18:46.060 --> 00:18:48.760
+ground so therefore we call this as no
+
+370
+00:18:48.760 --> 00:18:52.750
+static current path existence between
+
+371
+00:18:52.750 --> 00:18:55.630
+VDD and ground also because of less
+
+372
+00:18:55.630 --> 00:18:57.670
+number of transistors required the
+
+373
+00:18:57.670 --> 00:19:00.250
+switching speeds will be very faster so
+
+374
+00:19:00.250 --> 00:19:03.220
+this kind of dynamic CMOS design can be
+
+375
+00:19:03.220 --> 00:19:06.040
+very much helpful in high-speed CMOS
+
+376
+00:19:06.040 --> 00:19:08.890
+circuits one major problem in the design
+
+377
+00:19:08.890 --> 00:19:11.980
+of dynamic circuits is in the direct
+
+378
+00:19:11.980 --> 00:19:15.490
+cascading of dynamic circuits the
+
+379
+00:19:15.490 --> 00:19:20.050
+cascading of dynamic gates fails and the
+
+380
+00:19:20.050 --> 00:19:23.470
+cascaded circuit does not work due to
+
+381
+00:19:23.470 --> 00:19:26.650
+local glitch issues glitch usually
+
+382
+00:19:26.650 --> 00:19:29.110
+refers to a sudden malfunction or a
+
+383
+00:19:29.110 --> 00:19:32.620
+Fault in the circuit hence Domino logic
+
+384
+00:19:32.620 --> 00:19:35.230
+is the proper solution to the cascading
+
+385
+00:19:35.230 --> 00:19:38.020
+problem in dynamic CMOS design to
+
+386
+00:19:38.020 --> 00:19:40.570
+understand that cascading problem in
+
+387
+00:19:40.570 --> 00:19:41.170
+dynamo
+
+388
+00:19:41.170 --> 00:19:44.320
+Seema's design and the need for Domino
+
+389
+00:19:44.320 --> 00:19:46.450
+logic will be explained in the next
+
+390
+00:19:46.450 --> 00:19:49.630
+video session until then stay safe thank
+
+391
+00:19:49.630 --> 00:19:51.760
+you all for watching the video through
+
+392
+00:19:51.760 --> 00:19:55.560
+electronics inside channel
+

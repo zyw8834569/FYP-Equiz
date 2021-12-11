@@ -1,0 +1,366 @@
+WEBVTT
+
+1
+00:00:00.060 --> 00:00:03.560
+in this video I'm going to explain about
+
+2
+00:00:03.560 --> 00:00:06.299
+design and simulation of bi CMOS
+
+3
+00:00:06.299 --> 00:00:09.059
+inverter using Tanner radio version 2019
+
+4
+00:00:09.059 --> 00:00:11.280
+point to this is schematic
+
+5
+00:00:11.280 --> 00:00:15.780
+representation of bi CMOS inverter here
+
+6
+00:00:15.780 --> 00:00:20.970
+the bi CMOS is not convincing to MOS
+
+7
+00:00:20.970 --> 00:00:23.880
+transistor on P MOS on the N Mo's
+
+8
+00:00:23.880 --> 00:00:28.429
+transistor and to NPN transistor used
+
+9
+00:00:28.429 --> 00:00:31.740
+the operation is just similar to the
+
+10
+00:00:31.740 --> 00:00:34.820
+normal inverter so if you are giving
+
+11
+00:00:34.820 --> 00:00:37.890
+input is zero when you input the a to
+
+12
+00:00:37.890 --> 00:00:40.469
+zero means we'll be getting output will
+
+13
+00:00:40.469 --> 00:00:47.550
+be 1 Q will be 1 sometimes if you are
+
+14
+00:00:47.550 --> 00:00:49.200
+giving in place one means will be
+
+15
+00:00:49.200 --> 00:00:50.969
+getting off will be zero
+
+16
+00:00:50.969 --> 00:00:54.059
+the operation is simple if at least if I
+
+17
+00:00:54.059 --> 00:00:58.469
+in place a zero now the P n Mo's will be
+
+18
+00:00:58.469 --> 00:01:01.199
+off condition the P Mo's the situation
+
+19
+00:01:01.199 --> 00:01:05.188
+on condition so VD will be passed here
+
+20
+00:01:05.188 --> 00:01:08.939
+so now we'll get some base by us so now
+
+21
+00:01:08.939 --> 00:01:11.430
+the transistor this transistor will be
+
+22
+00:01:11.430 --> 00:01:13.890
+in the on condition Q 1 will be in the
+
+23
+00:01:13.890 --> 00:01:19.200
+on condition so now some current the
+
+24
+00:01:19.200 --> 00:01:21.840
+emitter current will be produce more
+
+25
+00:01:21.840 --> 00:01:25.500
+able to control will be produce now this
+
+26
+00:01:25.500 --> 00:01:29.400
+VDD is passed here so we will be getting
+
+27
+00:01:29.400 --> 00:01:32.729
+output Q less one if you are giving a
+
+28
+00:01:32.729 --> 00:01:36.780
+equal to zero same time this n Mo's will
+
+29
+00:01:36.780 --> 00:01:40.890
+be off condition this transistor will be
+
+30
+00:01:40.890 --> 00:01:43.890
+in the off condition so when if you are
+
+31
+00:01:43.890 --> 00:01:46.680
+giving a is equal to 1 this p MOS
+
+32
+00:01:46.680 --> 00:01:50.490
+transformed in off state now this n Mo's
+
+33
+00:01:50.490 --> 00:01:53.189
+will be in the on condition so now the
+
+34
+00:01:53.189 --> 00:01:58.229
+input signal past here the transistor q2
+
+35
+00:01:58.229 --> 00:02:01.740
+will be on so output will be directly
+
+36
+00:02:01.740 --> 00:02:05.450
+connected to ground so we are getting 0
+
+37
+00:02:05.450 --> 00:02:09.699
+so this is operation of bi CMOS inverter
+
+38
+00:02:09.699 --> 00:02:11.490
+and this is schematic representation
+
+39
+00:02:11.490 --> 00:02:15.489
+model Dorothy yes I did
+
+40
+00:02:15.489 --> 00:02:18.730
+using the Tanner so next can see the
+
+41
+00:02:18.730 --> 00:02:21.160
+output output of this bi CMOS inverter
+
+42
+00:02:21.160 --> 00:02:24.550
+we can get like this what we are giving
+
+43
+00:02:24.550 --> 00:02:27.640
+one will waiting zero zero means one so
+
+44
+00:02:27.640 --> 00:02:29.950
+this is output the procedure for how to
+
+45
+00:02:29.950 --> 00:02:33.190
+draw thee by CMOS is not reusing yes
+
+46
+00:02:33.190 --> 00:02:46.950
+edit the flick is edit go to file new
+
+47
+00:02:46.950 --> 00:02:57.420
+new library browse create a fold up my
+
+48
+00:02:57.580 --> 00:02:59.280
+[Music]
+
+49
+00:02:59.280 --> 00:03:09.690
+bi CMOS and click OK
+
+50
+00:03:10.950 --> 00:03:19.870
+if I click Add like movie browse go to
+
+51
+00:03:19.870 --> 00:03:24.310
+the photogenic 250mm selected files then
+
+52
+00:03:24.310 --> 00:03:27.760
+they can just go to genome devices and
+
+53
+00:03:27.760 --> 00:03:32.500
+click OK and then right click add
+
+54
+00:03:32.500 --> 00:03:42.310
+library browse go to folder standard
+
+55
+00:03:42.310 --> 00:03:47.549
+libraries select the file MAAC click ok
+
+56
+00:03:47.549 --> 00:03:54.239
+then right click add library browse
+
+57
+00:03:54.450 --> 00:03:58.019
+select the folder spice and whisker plot
+
+58
+00:03:58.019 --> 00:03:59.519
+okay
+
+59
+00:03:59.519 --> 00:04:09.639
+right click add library browse select
+
+60
+00:04:09.639 --> 00:04:12.700
+select the folder spice undisclosed
+
+61
+00:04:12.700 --> 00:04:17.048
+sources that click OK click OK go to
+
+62
+00:04:17.048 --> 00:04:22.980
+sell new we click OK
+
+63
+00:04:22.980 --> 00:04:28.470
+to draw a design first and take one
+
+64
+00:04:28.470 --> 00:04:36.150
+people's to compete most then take any
+
+65
+00:04:36.150 --> 00:04:45.360
+animals then we need to NPN transistor
+
+66
+00:04:45.360 --> 00:04:47.790
+here this NPRM does got 10 we have to
+
+67
+00:04:47.790 --> 00:04:49.970
+take
+
+68
+00:05:03.840 --> 00:05:07.440
+then press home button foot to the
+
+69
+00:05:07.440 --> 00:05:08.100
+screen
+
+70
+00:05:08.100 --> 00:05:21.260
+take the BAI up now please connected to
+
+71
+00:05:21.440 --> 00:05:25.350
+base of the transistor here this
+
+72
+00:05:25.350 --> 00:05:33.290
+connected to vdd the drawing these two
+
+73
+00:05:34.669 --> 00:05:37.910
+like this
+
+74
+00:05:39.180 --> 00:05:42.339
+[Music]
+
+75
+00:05:51.300 --> 00:06:02.150
+crying this gate these are output
+
+76
+00:06:04.159 --> 00:06:22.740
+connect the output port here to spice
+
+77
+00:06:22.740 --> 00:06:29.599
+sauce and we pulse
+
+78
+00:06:43.950 --> 00:06:56.150
+the Nereus II take this ground
+
+79
+00:07:04.660 --> 00:07:07.870
+you need
+
+80
+00:07:33.790 --> 00:07:41.490
+select the spice sauce ready see
+
+81
+00:07:42.120 --> 00:07:55.000
+instance then select spice plot select
+
+82
+00:07:55.000 --> 00:08:05.410
+or taste print for you pretend out there
+
+83
+00:08:05.410 --> 00:08:11.590
+try to like this then go to simulation
+
+84
+00:08:11.590 --> 00:08:17.850
+setup select transient analysis you 400
+
+85
+00:08:18.660 --> 00:08:21.510
+then tantrum
+
+86
+00:08:21.510 --> 00:08:34.890
+add the library browse TT
+
+87
+00:08:39.510 --> 00:08:45.919
+and click ok then plus and simulation
+
+88
+00:09:03.100 --> 00:09:07.750
+so this is output often bi CMOS in water
+
+89
+00:09:07.750 --> 00:09:12.100
+if it is one in is one out will be 0 1 0
+
+90
+00:09:12.100 --> 00:09:16.230
+1 1 0 0 1
+
+91
+00:09:16.230 --> 00:09:19.710
+thank you for watching
+

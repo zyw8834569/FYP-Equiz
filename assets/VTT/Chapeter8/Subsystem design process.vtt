@@ -1,0 +1,1062 @@
+WEBVTT
+
+1
+00:00:00.060 --> 00:00:01.620
+now I'm going to explain a subsystem
+
+2
+00:00:01.620 --> 00:00:07.080
+design process this topic deals with the
+
+3
+00:00:07.080 --> 00:00:09.030
+design of a digital system using
+
+4
+00:00:09.030 --> 00:00:15.630
+top-down approach here as you know that
+
+5
+00:00:15.630 --> 00:00:19.369
+whenever you want to design a computer
+
+6
+00:00:19.369 --> 00:00:22.470
+first you have to design different sub
+
+7
+00:00:22.470 --> 00:00:25.400
+blocks such as the input output units
+
+8
+00:00:25.400 --> 00:00:30.179
+memory you need arithmetic unit logic
+
+9
+00:00:30.179 --> 00:00:34.070
+unit controlling it like that
+
+10
+00:00:34.070 --> 00:00:37.350
+here you are going to apply top-down
+
+11
+00:00:37.350 --> 00:00:44.430
+approach to design a subsystem here by
+
+12
+00:00:44.430 --> 00:00:46.890
+designing a subsystem if you have to
+
+13
+00:00:46.890 --> 00:00:55.440
+consider following points that is no
+
+14
+00:00:55.440 --> 00:00:58.800
+unity cost higher reliability associate
+
+15
+00:00:58.800 --> 00:01:01.980
+subsystem the actor subsystem should
+
+16
+00:01:01.980 --> 00:01:06.720
+dissipate low-power lower weight and
+
+17
+00:01:06.720 --> 00:01:12.020
+lower value your expectation is
+
+18
+00:01:12.020 --> 00:01:16.009
+subsystem for for better performance
+
+19
+00:01:16.009 --> 00:01:20.299
+enhanced repeatability possibility of
+
+20
+00:01:20.299 --> 00:01:24.770
+reduce design in development build I
+
+21
+00:01:24.770 --> 00:01:27.829
+hope getting my point
+
+22
+00:01:27.829 --> 00:01:33.900
+subsystem designing and designing a
+
+23
+00:01:33.900 --> 00:01:35.990
+subsystem you have to consider these all
+
+24
+00:01:35.990 --> 00:01:40.170
+considerations that is no unity cost and
+
+25
+00:01:40.170 --> 00:01:43.110
+higher reliability low power dissipation
+
+26
+00:01:43.110 --> 00:01:48.030
+lower weight and lower value better for
+
+27
+00:01:48.030 --> 00:01:50.220
+false enhanced repeatability and
+
+28
+00:01:50.220 --> 00:01:52.170
+possibility of a reduced design and
+
+29
+00:01:52.170 --> 00:01:53.960
+development period greater should be
+
+30
+00:01:53.960 --> 00:02:01.340
+reduced right now here some problem
+
+31
+00:02:01.340 --> 00:02:06.620
+while designing a subsystem first one is
+
+32
+00:02:06.620 --> 00:02:11.610
+designing a complex system in this is
+
+33
+00:02:11.610 --> 00:02:14.370
+very important in reasonable time with
+
+34
+00:02:14.370 --> 00:02:18.209
+the reasonable effort that is one
+
+35
+00:02:18.209 --> 00:02:20.220
+problem that is how to design a complex
+
+36
+00:02:20.220 --> 00:02:23.150
+system it a reasonable time with a
+
+37
+00:02:23.150 --> 00:02:26.430
+reasonable effort usable time with a
+
+38
+00:02:26.430 --> 00:02:31.190
+reasonable effort a second problem is
+
+39
+00:02:31.190 --> 00:02:34.260
+selection of nature of architecture
+
+40
+00:02:34.260 --> 00:02:37.650
+which one is best suited suitable to
+
+41
+00:02:37.650 --> 00:02:41.880
+take the full advantage of VLSI and the
+
+42
+00:02:41.880 --> 00:02:45.050
+technology okay so second problem is
+
+43
+00:02:45.050 --> 00:02:47.250
+architecture choosing architecture
+
+44
+00:02:47.250 --> 00:02:51.680
+nature of architecture third one is
+
+45
+00:02:51.680 --> 00:02:55.010
+testability of large complex systems
+
+46
+00:02:55.010 --> 00:03:00.030
+once implemented on silicon ok testing
+
+47
+00:03:00.030 --> 00:03:06.030
+is a very difficult task in case of a
+
+48
+00:03:06.030 --> 00:03:09.890
+complex system ok this is third problem
+
+49
+00:03:09.890 --> 00:03:12.630
+that is testability of large complex
+
+50
+00:03:12.630 --> 00:03:16.440
+system once implemented on a silicon
+
+51
+00:03:16.440 --> 00:03:23.040
+okay so for this problem below mentioned
+
+52
+00:03:23.040 --> 00:03:25.459
+some solution with respect to problem
+
+53
+00:03:25.459 --> 00:03:33.900
+193 that is you have to follow top-down
+
+54
+00:03:33.900 --> 00:03:41.040
+design approach with the CAD tools such
+
+55
+00:03:41.040 --> 00:03:45.470
+as a universe you are using currents
+
+56
+00:03:45.470 --> 00:03:51.120
+that is also cattles second one to
+
+57
+00:03:51.120 --> 00:03:54.360
+overcome that problem partitioning the
+
+58
+00:03:54.360 --> 00:03:57.390
+system sensibly dividing a system into
+
+59
+00:03:57.390 --> 00:04:01.019
+subsystem sensibly you can overcome that
+
+60
+00:04:01.019 --> 00:04:02.269
+problem
+
+61
+00:04:02.269 --> 00:04:05.430
+third one is aiming for simple
+
+62
+00:04:05.430 --> 00:04:07.380
+interconnection interconnection should
+
+63
+00:04:07.380 --> 00:04:13.650
+be very simple in design hi
+
+64
+00:04:13.650 --> 00:04:16.529
+hilarity within the subsystem hi
+
+65
+00:04:16.529 --> 00:04:18.509
+regularity did subsystem that is also
+
+66
+00:04:18.509 --> 00:04:20.519
+very important regularities very
+
+67
+00:04:20.519 --> 00:04:26.100
+important as you know you learned in
+
+68
+00:04:26.100 --> 00:04:30.030
+even earlier semester implementation of
+
+69
+00:04:30.030 --> 00:04:32.160
+a half adder or full adder by using NAND
+
+70
+00:04:32.160 --> 00:04:35.430
+gate Woodley okay so NAND gate by using
+
+71
+00:04:35.430 --> 00:04:38.210
+NAND gate so that one indicates that
+
+72
+00:04:38.210 --> 00:04:41.220
+implementation of adder by using NAND
+
+73
+00:04:41.220 --> 00:04:46.710
+gate only that is a regularity okay you
+
+74
+00:04:46.710 --> 00:04:48.990
+have to prefer higher regularity within
+
+75
+00:04:48.990 --> 00:04:52.130
+the subsystem to overcome the problems
+
+76
+00:04:52.130 --> 00:05:01.680
+mentioned above then generate and verify
+
+77
+00:05:01.680 --> 00:05:04.400
+each section of the design once you
+
+78
+00:05:04.400 --> 00:05:08.550
+design a subsystem next what you to do
+
+79
+00:05:08.550 --> 00:05:11.970
+verify each section of a design if it is
+
+80
+00:05:11.970 --> 00:05:14.820
+working fine then go with the
+
+81
+00:05:14.820 --> 00:05:22.710
+integration okay next one divert the
+
+82
+00:05:22.710 --> 00:05:26.070
+design portion of a total chip area to
+
+83
+00:05:26.070 --> 00:05:29.370
+test and dialectic sorry diagnostic
+
+84
+00:05:29.370 --> 00:05:33.979
+facility so there should be a testing
+
+85
+00:05:33.979 --> 00:05:39.659
+facility should be included you might be
+
+86
+00:05:39.659 --> 00:05:40.310
+heard
+
+87
+00:05:40.310 --> 00:05:44.460
+dist that is built in self-test in some
+
+88
+00:05:44.460 --> 00:05:47.210
+chip included as a separate block
+
+89
+00:05:47.210 --> 00:05:50.849
+instead of doing a manual testing manual
+
+90
+00:05:50.849 --> 00:05:56.120
+testing is fine with the simple circuits
+
+91
+00:05:56.120 --> 00:05:59.820
+you are going to check are you able to
+
+92
+00:05:59.820 --> 00:06:02.220
+verify by applying a different bit
+
+93
+00:06:02.220 --> 00:06:04.889
+patterns observing the output in case of
+
+94
+00:06:04.889 --> 00:06:08.520
+where if I take an example full adder
+
+95
+00:06:08.520 --> 00:06:10.590
+okay here you are going to apply three
+
+96
+00:06:10.590 --> 00:06:13.320
+inputs observing some and carry okay so
+
+97
+00:06:13.320 --> 00:06:15.270
+full adder consistory input you a
+
+98
+00:06:15.270 --> 00:06:17.479
+possibility of a test pattern should be
+
+99
+00:06:17.479 --> 00:06:22.830
+eight combination but if it is large
+
+100
+00:06:22.830 --> 00:06:23.420
+number of
+
+101
+00:06:23.420 --> 00:06:25.160
+put some more number of inputs in that
+
+102
+00:06:25.160 --> 00:06:28.520
+case if you have to go with the beast
+
+103
+00:06:28.520 --> 00:06:35.230
+and few more techniques ok so last point
+
+104
+00:06:35.230 --> 00:06:38.060
+select the architecture that allows the
+
+105
+00:06:38.060 --> 00:06:41.060
+design objective and high regulating the
+
+106
+00:06:41.060 --> 00:06:43.670
+higher regulative realization ok you
+
+107
+00:06:43.670 --> 00:06:46.330
+have to select a proper architecture
+
+108
+00:06:46.330 --> 00:06:49.670
+that allows the design a lower design
+
+109
+00:06:49.670 --> 00:06:54.800
+objective mind higher regulating higher
+
+110
+00:06:54.800 --> 00:06:58.280
+regularity realization ok he was
+
+111
+00:06:58.280 --> 00:07:01.610
+explaining you regularity ok this is
+
+112
+00:07:01.610 --> 00:07:03.680
+very important regularity high regular
+
+113
+00:07:03.680 --> 00:07:07.970
+teen realization ok and selecting
+
+114
+00:07:07.970 --> 00:07:12.560
+architecture is also very important okay
+
+115
+00:07:12.560 --> 00:07:18.950
+now we'll explain you institution of a
+
+116
+00:07:18.950 --> 00:07:24.380
+design process the design process that
+
+117
+00:07:24.380 --> 00:07:29.410
+is first one is concept of hierarchy as
+
+118
+00:07:29.410 --> 00:07:33.020
+I was explaining you top down approach
+
+119
+00:07:33.020 --> 00:07:35.450
+here structure design begins with the
+
+120
+00:07:35.450 --> 00:07:40.880
+concept of hierarchy if system is more
+
+121
+00:07:40.880 --> 00:07:44.600
+complex but you have to do divide any
+
+122
+00:07:44.600 --> 00:07:48.980
+complex function into less sub sorry
+
+123
+00:07:48.980 --> 00:07:53.210
+less complex of functions when you
+
+124
+00:07:53.210 --> 00:07:55.940
+observe the system you may feel complex
+
+125
+00:07:55.940 --> 00:07:58.310
+circuit when you divide that one as a
+
+126
+00:07:58.310 --> 00:08:01.420
+input or put in memory you need then
+
+127
+00:08:01.420 --> 00:08:05.720
+earth meticulous you can it ok so you
+
+128
+00:08:05.720 --> 00:08:09.200
+may feel less complex ok so that's why
+
+129
+00:08:09.200 --> 00:08:11.980
+what you have to do divide any complex
+
+130
+00:08:11.980 --> 00:08:15.350
+function into a less complex sub
+
+131
+00:08:15.350 --> 00:08:19.580
+functions that is up to lips and
+
+132
+00:08:19.580 --> 00:08:24.100
+whatever whatever I told full adder ok
+
+133
+00:08:24.100 --> 00:08:27.950
+so here the process
+
+134
+00:08:27.950 --> 00:08:30.260
+Third Point is process this process
+
+135
+00:08:30.260 --> 00:08:33.950
+whatever I was explaining you okay this
+
+136
+00:08:33.950 --> 00:08:36.380
+process you were to say is a top-down
+
+137
+00:08:36.380 --> 00:08:42.160
+design approach top-down design approach
+
+138
+00:08:43.059 --> 00:08:49.690
+here system complexity can be decreased
+
+139
+00:08:49.690 --> 00:08:56.150
+okay by dividing into sub blocks or some
+
+140
+00:08:56.150 --> 00:09:01.610
+block functions as the system complexity
+
+141
+00:09:01.610 --> 00:09:04.970
+increases its are occurrences changes as
+
+142
+00:09:04.970 --> 00:09:06.920
+the different factors become irrelevant
+
+143
+00:09:06.920 --> 00:09:10.430
+to its creation system as accounts as
+
+144
+00:09:10.430 --> 00:09:12.290
+system complexity increases your
+
+145
+00:09:12.290 --> 00:09:16.460
+circulation changes as different factors
+
+146
+00:09:16.460 --> 00:09:20.890
+become relevant to its creation okay
+
+147
+00:09:20.890 --> 00:09:27.700
+next one important thing is coupling
+
+148
+00:09:27.700 --> 00:09:30.980
+okay this coupling can be used to
+
+149
+00:09:30.980 --> 00:09:34.550
+measure how much sub model interacts how
+
+150
+00:09:34.550 --> 00:09:38.650
+much submarine interacts once you design
+
+151
+00:09:38.650 --> 00:09:45.220
+subsystems okay next step is coupling
+
+152
+00:09:45.220 --> 00:09:47.480
+okay which one measures how much
+
+153
+00:09:47.480 --> 00:09:51.260
+sub-model interacts okay well once you
+
+154
+00:09:51.260 --> 00:09:53.960
+design a thematic we need and logic we
+
+155
+00:09:53.960 --> 00:09:58.570
+need control unit you need to couple
+
+156
+00:09:58.570 --> 00:10:01.300
+okay you need to couple with the memory
+
+157
+00:10:01.300 --> 00:10:04.190
+okay so this one measures how much
+
+158
+00:10:04.190 --> 00:10:13.640
+sub-model interacts right I'd one more
+
+159
+00:10:13.640 --> 00:10:17.690
+important thing is component interacting
+
+160
+00:10:17.690 --> 00:10:20.750
+with the high frequency we physically
+
+161
+00:10:20.750 --> 00:10:26.480
+proximate one may pay severe penalty for
+
+162
+00:10:26.480 --> 00:10:30.500
+long and high bandwidth integral long
+
+163
+00:10:30.500 --> 00:10:35.720
+and high bandwidth interconnects next
+
+164
+00:10:35.720 --> 00:10:36.740
+point
+
+165
+00:10:36.740 --> 00:10:43.680
+concurrency it should be exploited it is
+
+166
+00:10:43.680 --> 00:10:45.810
+desirable that all the gates on the chip
+
+167
+00:10:45.810 --> 00:10:51.720
+do useful work most of the time most of
+
+168
+00:10:51.720 --> 00:10:55.620
+the time useful work done by these gates
+
+169
+00:10:55.620 --> 00:11:01.160
+on a chip that is concurrency should be
+
+170
+00:11:01.160 --> 00:11:11.540
+exploited one more important point that
+
+171
+00:11:11.540 --> 00:11:18.630
+is adoption to new process within a
+
+172
+00:11:18.630 --> 00:11:20.910
+short time okay
+
+173
+00:11:20.910 --> 00:11:24.710
+why because technology is changing very
+
+174
+00:11:24.710 --> 00:11:32.430
+fast so adoption of a new process must
+
+175
+00:11:32.430 --> 00:11:37.970
+occur within a short time in Roldan days
+
+176
+00:11:37.970 --> 00:11:41.400
+micrometer technology nowadays nanometer
+
+177
+00:11:41.400 --> 00:11:46.140
+technology in your laboratory can use
+
+178
+00:11:46.140 --> 00:11:48.360
+180 nanometer technology 90 nanometer
+
+179
+00:11:48.360 --> 00:11:50.279
+technology as well as a fortify
+
+180
+00:11:50.279 --> 00:11:53.670
+nanometer technology okay so here our
+
+181
+00:11:53.670 --> 00:11:59.190
+duction - new process must rocker in a
+
+182
+00:11:59.190 --> 00:12:07.160
+short time that is very important now
+
+183
+00:12:08.540 --> 00:12:17.100
+here representing a design by several
+
+184
+00:12:17.100 --> 00:12:20.790
+approaches are possible as you studied
+
+185
+00:12:20.790 --> 00:12:24.650
+in module 2 and module 1 conventional
+
+186
+00:12:24.650 --> 00:12:30.510
+circuit symbols in case of MOSFET logic
+
+187
+00:12:30.510 --> 00:12:34.920
+symbols stick diagram both mixture of
+
+188
+00:12:34.920 --> 00:12:37.339
+logic symbol and stick diagram that is
+
+189
+00:12:37.339 --> 00:12:40.950
+convenient at a stage we are going to
+
+190
+00:12:40.950 --> 00:12:43.190
+use
+
+191
+00:12:43.200 --> 00:12:45.510
+mixture of a simple sign strict diagrams
+
+192
+00:12:45.510 --> 00:12:51.680
+eye mask layouts while learning
+
+193
+00:12:51.680 --> 00:12:54.540
+fabrication process you might be going
+
+194
+00:12:54.540 --> 00:12:58.680
+through a past layouts architectural
+
+195
+00:12:58.680 --> 00:13:00.990
+block diagram and floor plan this is
+
+196
+00:13:00.990 --> 00:13:10.160
+very important okay so here designing
+
+197
+00:13:10.160 --> 00:13:17.910
+approaches as listed here conventional
+
+198
+00:13:17.910 --> 00:13:19.980
+circuit symbols logic symbol strict
+
+199
+00:13:19.980 --> 00:13:22.080
+diagram mature of logic symbol centric
+
+200
+00:13:22.080 --> 00:13:24.540
+diagram then masks layouts architectural
+
+201
+00:13:24.540 --> 00:13:31.070
+block diagram in flow planning fine now
+
+202
+00:13:33.320 --> 00:13:40.010
+general arrangement of a 4-bit processor
+
+203
+00:13:42.170 --> 00:13:46.490
+is this one a digital processor
+
+204
+00:13:46.490 --> 00:13:50.940
+structure you are going to say this one
+
+205
+00:13:50.940 --> 00:13:54.360
+is a data path also it is a element
+
+206
+00:13:54.360 --> 00:14:03.170
+register this one consisted buses it is
+
+207
+00:14:03.170 --> 00:14:09.150
+control bus address bus data bus some
+
+208
+00:14:09.150 --> 00:14:12.570
+buses are unidirectional some verses on
+
+209
+00:14:12.570 --> 00:14:17.910
+by direction also so here different sub
+
+210
+00:14:17.910 --> 00:14:21.740
+blocks connected to these verses
+
+211
+00:14:23.240 --> 00:14:27.750
+different blocks are a memory which one
+
+212
+00:14:27.750 --> 00:14:34.080
+is used to store the data temporarily
+
+213
+00:14:34.080 --> 00:14:37.770
+are permanently and second block that is
+
+214
+00:14:37.770 --> 00:14:42.770
+ALU and registers which one performs
+
+215
+00:14:42.770 --> 00:14:46.590
+earth metal Issac function
+
+216
+00:14:46.590 --> 00:14:48.000
+functions such as the addition and
+
+217
+00:14:48.000 --> 00:14:50.390
+subtraction similar logic function X are
+
+218
+00:14:50.390 --> 00:14:54.810
+known and okay resistors also used in
+
+219
+00:14:54.810 --> 00:14:57.410
+this block to store the data temporarily
+
+220
+00:14:57.410 --> 00:15:04.410
+it will be permanently here control unit
+
+221
+00:15:04.410 --> 00:15:08.670
+over all activities controlled by this
+
+222
+00:15:08.670 --> 00:15:11.670
+control unit it may be memory read
+
+223
+00:15:11.670 --> 00:15:14.870
+memory right I will read I write
+
+224
+00:15:14.870 --> 00:15:19.560
+accessing of a information can be done
+
+225
+00:15:19.560 --> 00:15:25.920
+by using this block right similarly last
+
+226
+00:15:25.920 --> 00:15:30.830
+block that is input output block
+
+227
+00:15:31.160 --> 00:15:34.110
+inputting the data sending the data to
+
+228
+00:15:34.110 --> 00:15:39.990
+extreme world if you take example with
+
+229
+00:15:39.990 --> 00:15:41.730
+respect to a computer keyboard is input
+
+230
+00:15:41.730 --> 00:15:45.060
+device Moses input device okay you are
+
+231
+00:15:45.060 --> 00:15:47.670
+going to you can put the data through a
+
+232
+00:15:47.670 --> 00:15:51.510
+keyboard through a mouse similarly
+
+233
+00:15:51.510 --> 00:15:55.020
+output device that is sending a data to
+
+234
+00:15:55.020 --> 00:15:57.480
+external world whenever you are
+
+235
+00:15:57.480 --> 00:16:00.360
+observing the screen that is monitor
+
+236
+00:16:00.360 --> 00:16:07.260
+itself is a external device right so
+
+237
+00:16:07.260 --> 00:16:09.990
+this is what general management of work
+
+238
+00:16:09.990 --> 00:16:12.960
+it our committee process sir so you know
+
+239
+00:16:12.960 --> 00:16:15.300
+already processor for bit equity
+
+240
+00:16:15.300 --> 00:16:18.420
+processor which one performs a with
+
+241
+00:16:18.420 --> 00:16:20.880
+respect to work with operation it may be
+
+242
+00:16:20.880 --> 00:16:23.150
+addition subtraction multiplication
+
+243
+00:16:23.150 --> 00:16:27.540
+division or logical operation with
+
+244
+00:16:27.540 --> 00:16:30.090
+respect what 4-bit that's why this one
+
+245
+00:16:30.090 --> 00:16:32.520
+is denoted answer for quit arithmetic
+
+246
+00:16:32.520 --> 00:16:42.540
+processor okay here a second block that
+
+247
+00:16:42.540 --> 00:16:50.100
+is a data path okay so a data path for
+
+248
+00:16:50.100 --> 00:16:50.650
+this date
+
+249
+00:16:50.650 --> 00:16:53.920
+but input is data in and output is data
+
+250
+00:16:53.920 --> 00:16:58.840
+out in terminal operation carried with
+
+251
+00:16:58.840 --> 00:17:01.150
+respect to a control signal Missy Cerf
+
+252
+00:17:01.150 --> 00:17:06.069
+Mehta kind logical and shipped operation
+
+253
+00:17:06.069 --> 00:17:08.560
+and temporary storage of operands also
+
+254
+00:17:08.560 --> 00:17:13.890
+then within this block we did this block
+
+255
+00:17:13.890 --> 00:17:19.180
+and data path maybe using a bus it may
+
+256
+00:17:19.180 --> 00:17:21.609
+be a Y Direction also same bus can be
+
+257
+00:17:21.609 --> 00:17:24.630
+used to input the data symbols can be
+
+258
+00:17:24.630 --> 00:17:32.730
+used to send the data shown here right
+
+259
+00:17:32.730 --> 00:17:36.250
+so here vertical line indicates a
+
+260
+00:17:36.250 --> 00:17:39.460
+control signal horizontal line indicates
+
+261
+00:17:39.460 --> 00:17:42.640
+the data okay
+
+262
+00:17:42.640 --> 00:17:44.170
+vertical line indicates the control
+
+263
+00:17:44.170 --> 00:17:48.240
+signal horizontal line indicator data
+
+264
+00:17:48.240 --> 00:17:51.910
+passing into passing note up this data
+
+265
+00:17:51.910 --> 00:18:02.850
+path now this is a subunits
+

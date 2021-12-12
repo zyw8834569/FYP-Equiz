@@ -1,0 +1,798 @@
+WEBVTT
+
+1
+00:00:01.560 --> 00:00:04.859
+[Music]
+
+2
+00:00:16.170 --> 00:00:19.489
+[Music]
+
+3
+00:00:23.029 --> 00:00:37.320
+advantage of using programmable logic
+
+4
+00:00:37.320 --> 00:00:45.059
+device phoenician of programmable logic
+
+5
+00:00:45.059 --> 00:00:49.559
+device is the LD shot for programmable
+
+6
+00:00:49.559 --> 00:00:53.549
+logic device a generic term for an
+
+7
+00:00:53.549 --> 00:00:56.699
+integrated script that can be programmed
+
+8
+00:00:56.699 --> 00:01:00.780
+in a laboratory to perform complex
+
+9
+00:01:00.780 --> 00:01:04.890
+functions the PLT consists of arrays of
+
+10
+00:01:04.890 --> 00:01:12.720
+N or gets a system designer implements a
+
+11
+00:01:12.720 --> 00:01:15.920
+logic design with a device programming
+
+12
+00:01:15.920 --> 00:01:20.009
+death blows fuse on the PLD to control
+
+13
+00:01:20.009 --> 00:01:25.890
+gate operation a PLD has an undefined
+
+14
+00:01:25.890 --> 00:01:29.750
+function at the time of manufacture
+
+15
+00:01:29.750 --> 00:01:33.329
+before the PLD can be used in a sector
+
+16
+00:01:33.329 --> 00:01:36.259
+it must be programmed that is
+
+17
+00:01:36.259 --> 00:01:41.179
+reconfigure the LD p-- types can
+
+18
+00:01:41.179 --> 00:01:43.920
+classified into the following groups
+
+19
+00:01:43.920 --> 00:01:49.140
+number one is P R or MS is programmable
+
+20
+00:01:49.140 --> 00:01:54.749
+read-only memory of these these prompts
+
+21
+00:01:54.749 --> 00:01:59.100
+can offer high speed and low cost for
+
+22
+00:01:59.100 --> 00:02:10.470
+relatively small number two is PLA s is
+
+23
+00:02:10.470 --> 00:02:14.069
+programmable logic array this can offer
+
+24
+00:02:14.069 --> 00:02:17.040
+flexible features for more complex
+
+25
+00:02:17.040 --> 00:02:19.610
+design
+
+26
+00:02:20.239 --> 00:02:24.719
+number three is PA l OG ALS is
+
+27
+00:02:24.719 --> 00:02:27.930
+programmable array logic or generic
+
+28
+00:02:27.930 --> 00:02:32.370
+array logic is awful good flexibility
+
+29
+00:02:32.370 --> 00:02:37.230
+and a faster and less expensive than PLA
+
+30
+00:02:37.230 --> 00:02:47.010
+is the advantages of using PL d compared
+
+31
+00:02:47.010 --> 00:02:51.959
+to standard IC and custom IC is cost of
+
+32
+00:02:51.959 --> 00:02:55.319
+production because to produce the must
+
+33
+00:02:55.319 --> 00:02:59.010
+use in the process photolithography and
+
+34
+00:02:59.010 --> 00:03:03.989
+the cost of the designs PLD producing
+
+35
+00:03:03.989 --> 00:03:08.220
+design which chip do not need any mass
+
+36
+00:03:08.220 --> 00:03:18.060
+as ICS which is one or two months need
+
+37
+00:03:18.060 --> 00:03:21.599
+to continue cells available on silicon
+
+38
+00:03:21.599 --> 00:03:27.000
+surface and why design designers have to
+
+39
+00:03:27.000 --> 00:03:31.319
+be continued between sell cheap labor
+
+40
+00:03:31.319 --> 00:03:37.319
+costs lbm need design all must must
+
+41
+00:03:37.319 --> 00:03:41.120
+generate and processing costs are high
+
+42
+00:03:41.120 --> 00:03:46.729
+to is first design time the general
+
+43
+00:03:46.729 --> 00:03:51.209
+characteristic of obld the circuits in a
+
+44
+00:03:51.209 --> 00:03:54.479
+fix logic device a permanent they
+
+45
+00:03:54.479 --> 00:03:58.129
+perform one function or set of functions
+
+46
+00:03:58.129 --> 00:04:02.400
+once manufacture they cannot be changed
+
+47
+00:04:02.400 --> 00:04:05.310
+next the design can be quickly
+
+48
+00:04:05.310 --> 00:04:09.870
+programmed into a device and immediately
+
+49
+00:04:09.870 --> 00:04:16.228
+test in a life next no need for a common
+
+50
+00:04:16.228 --> 00:04:20.820
+masked layer is design and very quickly
+
+51
+00:04:20.820 --> 00:04:26.280
+in the design then is a lag block of
+
+52
+00:04:26.280 --> 00:04:29.700
+internal connections that can be in the
+
+53
+00:04:29.700 --> 00:04:33.790
+program and the code
+
+54
+00:04:33.790 --> 00:04:39.290
+and with a I use a device that consists
+
+55
+00:04:39.290 --> 00:04:43.190
+of micrometric cells and the last one is
+
+56
+00:04:43.190 --> 00:05:24.790
+PLD is the input and I'll get a chirp
+
+57
+00:05:28.280 --> 00:05:33.670
+this figure shows floorplan and level
+
+58
+00:05:35.050 --> 00:05:37.880
+this is the block diagram of
+
+59
+00:05:37.880 --> 00:05:44.920
+architecture PLT bigger below shows
+
+60
+00:05:44.920 --> 00:05:47.960
+architecture diagram of Brown which is
+
+61
+00:05:47.960 --> 00:05:51.290
+programmable our plan followed by a fix
+
+62
+00:05:51.290 --> 00:05:58.580
+and plan this architectural diagram of
+
+63
+00:05:58.580 --> 00:06:01.910
+Eden it contains two levels of logic and
+
+64
+00:06:01.910 --> 00:06:04.190
+eggplant and an outline where both
+
+65
+00:06:04.190 --> 00:06:07.450
+levels are Jennifer
+
+66
+00:06:10.639 --> 00:06:13.129
+it's architecture diagram of P and
+
+67
+00:06:13.129 --> 00:06:15.349
+programmable and planned followed by a
+
+68
+00:06:15.349 --> 00:06:18.949
+fixed or boom assalamualaikum
+
+69
+00:06:18.949 --> 00:06:21.800
+warahmatullahi wabarakatuh my name is
+
+70
+00:06:21.800 --> 00:06:24.439
+Errol estimating Desna today I will
+
+71
+00:06:24.439 --> 00:06:26.900
+explain about the methods of returning
+
+72
+00:06:26.900 --> 00:06:30.500
+the PMD which is the method of the midi
+
+73
+00:06:30.500 --> 00:06:35.650
+and language offer the moon methods of
+
+74
+00:06:35.650 --> 00:06:41.419
+programming the PLB there are three
+
+75
+00:06:41.419 --> 00:06:44.650
+methods of programming the PLD a
+
+76
+00:06:44.650 --> 00:06:47.719
+brilliant expression technique most of
+
+77
+00:06:47.719 --> 00:06:50.120
+the logic can be described using n and
+
+78
+00:06:50.120 --> 00:06:53.990
+yet or on ket P Algy will convert the
+
+79
+00:06:53.990 --> 00:06:56.900
+product of the number of operation and
+
+80
+00:06:56.900 --> 00:06:59.840
+carry out optimization for device or a
+
+81
+00:06:59.840 --> 00:07:02.689
+chip program then transfer the real
+
+82
+00:07:02.689 --> 00:07:06.050
+logic five attend into the programmable
+
+83
+00:07:06.050 --> 00:07:11.990
+device simple expression of anger is ma
+
+84
+00:07:11.990 --> 00:07:17.979
+reply be an object is a plus B secondly
+
+85
+00:07:17.979 --> 00:07:22.069
+truth table technique input and output
+
+86
+00:07:22.069 --> 00:07:24.800
+relation of PLD can be obtained by
+
+87
+00:07:24.800 --> 00:07:27.319
+reading the truth table and generate an
+
+88
+00:07:27.319 --> 00:07:31.719
+equivalent project configuration
+
+89
+00:07:31.719 --> 00:07:34.849
+schematic editor technique draw the
+
+90
+00:07:34.849 --> 00:07:37.819
+schematic design of a logic device PLD
+
+91
+00:07:37.819 --> 00:07:50.330
+April types of design language there are
+
+92
+00:07:50.330 --> 00:07:53.500
+two types of design language firstly
+
+93
+00:07:53.500 --> 00:07:56.810
+high-level language
+
+94
+00:07:56.810 --> 00:07:59.980
+see you PL you can use for
+
+95
+00:07:59.980 --> 00:08:05.210
+low-complexity device HDL and VHDL a
+
+96
+00:08:05.210 --> 00:08:08.030
+popular higher level description
+
+97
+00:08:08.030 --> 00:08:11.960
+language for more complex device and PL
+
+98
+00:08:11.960 --> 00:08:15.590
+the language can be programmer in a
+
+99
+00:08:15.590 --> 00:08:18.850
+laboratory to perform complex function
+
+100
+00:08:18.850 --> 00:08:22.820
+can leave low-level language a simple
+
+101
+00:08:22.820 --> 00:08:26.720
+language chair is a very strong
+
+102
+00:08:26.720 --> 00:08:29.360
+correspondence between the program
+
+103
+00:08:29.360 --> 00:08:34.810
+statement and the architecture mission
+
+104
+00:08:39.400 --> 00:08:42.789
+[Music]
+
+105
+00:08:42.789 --> 00:08:47.030
+memory and this topic is include of
+
+106
+00:08:47.030 --> 00:08:51.720
+simmer and CTO method and give you and
+
+107
+00:08:51.720 --> 00:08:54.220
+[Music]
+
+108
+00:08:54.220 --> 00:09:01.250
+method of storing memory in vld Pinkert
+
+109
+00:09:01.250 --> 00:09:04.310
+evidence injection was transistor or
+
+110
+00:09:04.310 --> 00:09:07.670
+known as famous so this is the physical
+
+111
+00:09:07.670 --> 00:09:11.080
+structure of a MOS transistor
+
+112
+00:09:11.080 --> 00:09:16.190
+polysilicon royal metal sauce brain in
+
+113
+00:09:16.190 --> 00:09:23.630
+its P substrate a famous transistor it
+
+114
+00:09:23.630 --> 00:09:26.150
+operates in two condition which is
+
+115
+00:09:26.150 --> 00:09:28.850
+charged condition in this church
+
+116
+00:09:28.850 --> 00:09:31.940
+condition each condition when a high
+
+117
+00:09:31.940 --> 00:09:34.040
+voltage is applied between the source
+
+118
+00:09:34.040 --> 00:09:36.830
+and the drain some church will be
+
+119
+00:09:36.830 --> 00:09:39.290
+induced in a second gate causing the
+
+120
+00:09:39.290 --> 00:09:41.089
+transistor has a channel that is
+
+121
+00:09:41.089 --> 00:09:44.410
+conductive for the discharge condition
+
+122
+00:09:44.410 --> 00:09:48.260
+Ephraim can be erased by exposure to the
+
+123
+00:09:48.260 --> 00:09:50.960
+UV light and distant of son into a
+
+124
+00:09:50.960 --> 00:09:53.630
+conductor which causes the charge stored
+
+125
+00:09:53.630 --> 00:09:55.580
+in the bottom of the gate to become
+
+126
+00:09:55.580 --> 00:09:58.300
+fatigued from use a floating gate
+
+127
+00:09:58.300 --> 00:10:01.100
+Avalanche injection most famous
+
+128
+00:10:01.100 --> 00:10:04.760
+transistor cell to storage applying a
+
+129
+00:10:04.760 --> 00:10:07.190
+special programming voltage VPP
+
+130
+00:10:07.190 --> 00:10:09.230
+caused a high electric field
+
+131
+00:10:09.230 --> 00:10:11.540
+to be developed in the channel region of
+
+132
+00:10:11.540 --> 00:10:14.660
+this transistor this in turn caused
+
+133
+00:10:14.660 --> 00:10:17.950
+electron to jump the silicon dioxide
+
+134
+00:10:17.950 --> 00:10:21.080
+barrier between the channel region and
+
+135
+00:10:21.080 --> 00:10:23.960
+the floating game during programming the
+
+136
+00:10:23.960 --> 00:10:27.440
+salad K is given a positive virus which
+
+137
+00:10:27.440 --> 00:10:29.570
+help attract this electron to the
+
+138
+00:10:29.570 --> 00:10:31.420
+floating get in the truck
+
+139
+00:10:31.420 --> 00:10:34.070
+because the floating gate is run by
+
+140
+00:10:34.070 --> 00:10:36.970
+silicon dioxide an excellent ice
+
+141
+00:10:36.970 --> 00:10:40.850
+insulator the injected charge is
+
+142
+00:10:40.850 --> 00:10:43.880
+effectiveness weapon the storage period
+
+143
+00:10:43.880 --> 00:10:47.480
+is project by Intel to exceed 20 years
+
+144
+00:10:47.480 --> 00:10:51.380
+Sam with red charged constituent system
+
+145
+00:10:51.380 --> 00:10:54.560
+to be biased on where else does tell
+
+146
+00:10:54.560 --> 00:10:57.440
+with a tripod charge Arabella's off
+
+147
+00:10:57.440 --> 00:10:58.430
+blank
+
+148
+00:10:58.430 --> 00:11:01.820
+ephram's have no trap charge and each
+
+149
+00:11:01.820 --> 00:11:05.150
+cells toward a logic one the Ephram
+
+150
+00:11:05.150 --> 00:11:08.060
+electron electron under floating gate
+
+151
+00:11:08.060 --> 00:11:11.750
+absorbed photon from ultraviolet light
+
+152
+00:11:11.750 --> 00:11:14.690
+source and acquire enough energy to
+
+153
+00:11:14.690 --> 00:11:17.840
+reverse the programming process and get
+
+154
+00:11:17.840 --> 00:11:21.620
+them to the substrate next is and
+
+155
+00:11:21.620 --> 00:11:24.800
+Pythias metal and diffuse and only
+
+156
+00:11:24.800 --> 00:11:28.220
+diffused entropies usually it is open
+
+157
+00:11:28.220 --> 00:11:31.310
+circle and it is the category of man but
+
+158
+00:11:31.310 --> 00:11:34.400
+volatile which is permanent and it has
+
+159
+00:11:34.400 --> 00:11:37.910
+two rows of poly division and diffuse
+
+160
+00:11:37.910 --> 00:11:42.680
+and metal to metal and diffuse and this
+
+161
+00:11:42.680 --> 00:11:45.620
+is the structure of entities it is
+
+162
+00:11:45.620 --> 00:11:49.640
+conscious of metal to metal one in the
+
+163
+00:11:49.640 --> 00:11:54.260
+fuse substrate polysilicon diffusion and
+
+164
+00:11:54.260 --> 00:12:00.040
+diffuse dielectric and filled oxide
+
+165
+00:12:02.370 --> 00:12:06.090
+mental entities and individuals is the
+
+166
+00:12:06.090 --> 00:12:08.100
+upper side of Philadelphia
+
+167
+00:12:08.100 --> 00:12:11.279
+it is an open faith until a programming
+
+168
+00:12:11.279 --> 00:12:14.100
+cotton is falls through it by playing
+
+169
+00:12:14.100 --> 00:12:17.480
+the height programming voltage across an
+
+170
+00:12:17.480 --> 00:12:21.210
+oxide nitric oxide on and off like in
+
+171
+00:12:21.210 --> 00:12:23.160
+the trick which is sandwich of veal
+
+172
+00:12:23.160 --> 00:12:27.240
+block the flow of current from from
+
+173
+00:12:27.240 --> 00:12:30.720
+polysilicon layer towards division layer
+
+174
+00:12:30.720 --> 00:12:34.740
+the diametric will be melt won't receive
+
+175
+00:12:34.740 --> 00:12:37.410
+the programming current and permanently
+
+176
+00:12:37.410 --> 00:12:42.600
+create an electrically conductive and in
+
+177
+00:12:42.600 --> 00:12:46.670
+this mental interviews it consists of
+
+178
+00:12:46.670 --> 00:12:50.930
+poly silicon e or an all-day electric
+
+179
+00:12:50.930 --> 00:12:55.220
+field oxide and was deficient
+
+180
+00:12:55.220 --> 00:12:57.860
+[Music]
+
+181
+00:12:57.860 --> 00:13:01.620
+it's probably feels and videos a metal
+
+182
+00:13:01.620 --> 00:13:05.010
+to metal end to end and it feels is form
+
+183
+00:13:05.010 --> 00:13:08.850
+using or grant in the end to M entities
+
+184
+00:13:08.850 --> 00:13:12.650
+is used as a programmable device in an
+
+185
+00:13:12.650 --> 00:13:15.810
+FPGA where it plays between to
+
+186
+00:13:15.810 --> 00:13:18.990
+interconnect metal layer of the smash
+
+187
+00:13:18.990 --> 00:13:22.410
+process the resulting programming is an
+
+188
+00:13:22.410 --> 00:13:26.490
+alloy of amorphous silicon and very low
+
+189
+00:13:26.490 --> 00:13:30.300
+metal that forms a low resistance back
+
+190
+00:13:30.300 --> 00:13:32.670
+between the logic circuit which is
+
+191
+00:13:32.670 --> 00:13:36.300
+tungsten detaining a titanium and silica
+
+192
+00:13:36.300 --> 00:13:40.410
+the m2m device may need any program to
+
+193
+00:13:40.410 --> 00:13:41.250
+interconnect
+
+194
+00:13:41.250 --> 00:13:44.480
+logic circuit in this body because
+
+195
+00:13:44.480 --> 00:13:48.589
+interviews it consists of metal one
+
+196
+00:13:48.589 --> 00:13:53.600
+dielectric oxide and method
+
+197
+00:13:55.240 --> 00:13:57.639
+that's all from us thank you for
+
+198
+00:13:57.639 --> 00:13:59.999
+watching
+
+199
+00:14:02.440 --> 00:14:05.599
+[Music]
+

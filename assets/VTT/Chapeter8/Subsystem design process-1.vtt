@@ -1,0 +1,710 @@
+WEBVTT
+
+1
+00:00:00.560 --> 00:00:03.629
+this is a block diagram that is a
+
+2
+00:00:03.629 --> 00:00:06.029
+subunit signed basica interconnection of
+
+3
+00:00:06.029 --> 00:00:13.139
+a data path this first block it is
+
+4
+00:00:13.139 --> 00:00:17.010
+input/output port here inputting the
+
+5
+00:00:17.010 --> 00:00:22.170
+data that one will be sent to a shift
+
+6
+00:00:22.170 --> 00:00:28.650
+resistor similarly the last Trump's last
+
+7
+00:00:28.650 --> 00:00:32.250
+shift resistor it can be input once
+
+8
+00:00:32.250 --> 00:00:35.690
+again to an input/output port okay so
+
+9
+00:00:35.690 --> 00:00:38.160
+Direction control can be done by using
+
+10
+00:00:38.160 --> 00:00:43.469
+the control signals second one is 4-bit
+
+11
+00:00:43.469 --> 00:00:50.700
+register here you are going to contains
+
+12
+00:00:50.700 --> 00:00:53.100
+a memory element for bit memory element
+
+13
+00:00:53.100 --> 00:00:55.410
+that is a resistor which one holds the
+
+14
+00:00:55.410 --> 00:00:59.730
+data temporarily okay the content will
+
+15
+00:00:59.730 --> 00:01:03.809
+be shifted to 4-bit ALU so 4-bit
+
+16
+00:01:03.809 --> 00:01:06.510
+resistors may be a number of resistors
+
+17
+00:01:06.510 --> 00:01:11.420
+that will be sent to a ALU
+
+18
+00:01:11.420 --> 00:01:16.080
+where ALU performs a arithmetic
+
+19
+00:01:16.080 --> 00:01:19.189
+operation as well as a logical operation
+
+20
+00:01:19.189 --> 00:01:27.140
+based on control signal applied to Lu
+
+21
+00:01:27.140 --> 00:01:33.140
+whatever result that one will be shifted
+
+22
+00:01:33.140 --> 00:01:36.450
+to a next block that is
+
+23
+00:01:36.450 --> 00:01:40.500
+end-around shifter that one will be used
+
+24
+00:01:40.500 --> 00:01:43.140
+to shift to a memory unit are once again
+
+25
+00:01:43.140 --> 00:01:47.729
+to output device also so this is simple
+
+26
+00:01:47.729 --> 00:01:50.640
+subunits angles basic interconnection
+
+27
+00:01:50.640 --> 00:01:57.810
+the data path okay next one here you are
+
+28
+00:01:57.810 --> 00:02:01.229
+going to learn different per circuit
+
+29
+00:02:01.229 --> 00:02:04.110
+that is one bus architecture two bus
+
+30
+00:02:04.110 --> 00:02:08.008
+architecture three bus architecture then
+
+31
+00:02:08.008 --> 00:02:09.419
+you are going to decide which one will
+
+32
+00:02:09.419 --> 00:02:13.739
+be best suited for the design okay
+
+33
+00:02:13.739 --> 00:02:17.870
+so here in this one bus architecture
+
+34
+00:02:17.870 --> 00:02:21.319
+only one one bus is used to communicate
+
+35
+00:02:21.319 --> 00:02:26.750
+different sub blocks the first of read
+
+36
+00:02:26.750 --> 00:02:28.790
+from the register
+
+37
+00:02:28.790 --> 00:02:36.840
+- ALU operandi stored there then second
+
+38
+00:02:36.840 --> 00:02:40.170
+operand once again from the register to
+
+39
+00:02:40.170 --> 00:02:47.519
+ALU in a loop lock these two operands
+
+40
+00:02:47.519 --> 00:02:51.810
+are added uniforms addition of the
+
+41
+00:02:51.810 --> 00:02:57.360
+content of registers operand addition
+
+42
+00:02:57.360 --> 00:03:04.110
+then produce the result stored in ALU
+
+43
+00:03:04.110 --> 00:03:09.390
+also and it may be passed to shift or
+
+44
+00:03:09.390 --> 00:03:14.640
+else I stored in register once again the
+
+45
+00:03:14.640 --> 00:03:18.630
+result will be stored into register once
+
+46
+00:03:18.630 --> 00:03:24.900
+again fine so the sequence is I hope all
+
+47
+00:03:24.900 --> 00:03:27.420
+of you understood first operand should
+
+48
+00:03:27.420 --> 00:03:31.620
+be sent from the register to ALU again
+
+49
+00:03:31.620 --> 00:03:34.319
+ALU supposed to wait for one more
+
+50
+00:03:34.319 --> 00:03:38.370
+operate once it receives the second
+
+51
+00:03:38.370 --> 00:03:41.010
+operand then performs the addition our
+
+52
+00:03:41.010 --> 00:03:43.079
+arithmetic operations are logical
+
+53
+00:03:43.079 --> 00:03:46.889
+operations then the result will be
+
+54
+00:03:46.889 --> 00:03:51.030
+stored then that result will be sent to
+
+55
+00:03:51.030 --> 00:03:56.340
+shifter shifter is used to shift the
+
+56
+00:03:56.340 --> 00:04:00.389
+content back to a resistor ship the
+
+57
+00:04:00.389 --> 00:04:04.319
+content back to our registers okay so
+
+58
+00:04:04.319 --> 00:04:09.169
+this one takes up more time to perform
+
+59
+00:04:09.169 --> 00:04:10.520
+operation
+
+60
+00:04:10.520 --> 00:04:12.980
+rotation or you can say automatically
+
+61
+00:04:12.980 --> 00:04:15.920
+logic operation so if one bus
+
+62
+00:04:15.920 --> 00:04:21.130
+architecture requires more time
+
+63
+00:04:21.130 --> 00:04:25.760
+next we'll go with the second sorry
+
+64
+00:04:25.760 --> 00:04:32.150
+two bus architecture here you are going
+
+65
+00:04:32.150 --> 00:04:36.160
+to use two bus that is bus a and bus be
+
+66
+00:04:36.160 --> 00:04:40.640
+right by saying must be again three
+
+67
+00:04:40.640 --> 00:04:45.490
+blocks that is registers ALU shifter
+
+68
+00:04:45.490 --> 00:04:52.880
+here the register two operands a and B
+
+69
+00:04:52.880 --> 00:04:56.690
+are sent from the register it is shown
+
+70
+00:04:56.690 --> 00:05:00.890
+in this one a and B sent from the
+
+71
+00:05:00.890 --> 00:05:07.100
+register to ALU then le performs
+
+72
+00:05:07.100 --> 00:05:12.980
+operation the result s is stored in a
+
+73
+00:05:12.980 --> 00:05:16.870
+loom as well as that result is passed to
+
+74
+00:05:16.870 --> 00:05:24.970
+shifter okay then that result will be
+
+75
+00:05:24.970 --> 00:05:29.840
+shifted by using this shifter to a once
+
+76
+00:05:29.840 --> 00:05:35.750
+again a register right so when you
+
+77
+00:05:35.750 --> 00:05:41.690
+observe this one compared to a one bus
+
+78
+00:05:41.690 --> 00:05:42.380
+architecture
+
+79
+00:05:42.380 --> 00:05:46.340
+two bus architecture computes a little
+
+80
+00:05:46.340 --> 00:05:48.640
+bit faster than one bus architecture
+
+81
+00:05:48.640 --> 00:05:52.810
+why because two operates simultaneously
+
+82
+00:05:52.810 --> 00:05:57.410
+input to ALU so no need to wait for the
+
+83
+00:05:57.410 --> 00:05:59.450
+another operand it gets a previous one
+
+84
+00:05:59.450 --> 00:06:01.820
+hence the operation is much faster
+
+85
+00:06:01.820 --> 00:06:05.690
+compared to one bus architecture okay
+
+86
+00:06:05.690 --> 00:06:10.390
+let us we'll go through one more
+
+87
+00:06:10.390 --> 00:06:13.460
+architecture that is three bus
+
+88
+00:06:13.460 --> 00:06:20.599
+architecture here three versus
+
+89
+00:06:20.599 --> 00:06:26.009
+this one is one the second verse and
+
+90
+00:06:26.009 --> 00:06:32.699
+this one is third of us here the
+
+91
+00:06:32.699 --> 00:06:36.509
+resistors - operand a and we are sent
+
+92
+00:06:36.509 --> 00:06:40.770
+from the registers operated upon in this
+
+93
+00:06:40.770 --> 00:06:47.969
+a and B fine and result will be stored
+
+94
+00:06:47.969 --> 00:06:56.339
+and shifted result to a shifter then
+
+95
+00:06:56.339 --> 00:07:00.809
+shifter in turn content will be shifted
+
+96
+00:07:00.809 --> 00:07:06.180
+to register compared to to bus
+
+97
+00:07:06.180 --> 00:07:09.240
+architecture this is faster
+
+98
+00:07:09.240 --> 00:07:13.559
+okay here computation is faster this is
+
+99
+00:07:13.559 --> 00:07:17.759
+what three bus architecture and here two
+
+100
+00:07:17.759 --> 00:07:19.319
+operand a and B are sent from the
+
+101
+00:07:19.319 --> 00:07:23.039
+registers operated upon and shifted the
+
+102
+00:07:23.039 --> 00:07:25.589
+result has turned to another register
+
+103
+00:07:25.589 --> 00:07:30.439
+all in this is very important all in
+
+104
+00:07:30.439 --> 00:07:39.709
+same block all in same clock okay now
+
+105
+00:07:39.709 --> 00:07:43.740
+this is tentative floor plan for the
+
+106
+00:07:43.740 --> 00:07:51.800
+4-bit data path here area required for
+
+107
+00:07:51.800 --> 00:07:59.869
+input/output device 4-bit register ALU
+
+108
+00:07:59.869 --> 00:08:05.089
+forward shifter and verse 1 and was true
+
+109
+00:08:05.089 --> 00:08:09.029
+ok so this is a tentative floor plan for
+
+110
+00:08:09.029 --> 00:08:14.369
+the 4-bit data path here a vertical line
+
+111
+00:08:14.369 --> 00:08:19.409
+indicates control signals horizontal
+
+112
+00:08:19.409 --> 00:08:30.289
+line indicates data I power VDD ok
+
+113
+00:08:30.289 --> 00:08:33.789
+it may be global as well as local
+
+114
+00:08:33.789 --> 00:08:38.208
+distribution right so this is what
+
+115
+00:08:38.208 --> 00:08:40.339
+tentative flow fine more thing or bid
+
+116
+00:08:40.339 --> 00:08:48.860
+data path now while designing a
+
+117
+00:08:48.860 --> 00:08:53.630
+subsystem you would need to consider the
+
+118
+00:08:53.630 --> 00:08:56.350
+following are you need to follow the
+
+119
+00:08:56.350 --> 00:08:59.420
+points listed below as you learned
+
+120
+00:08:59.420 --> 00:09:05.029
+already in module 2 there is same thing
+
+121
+00:09:05.029 --> 00:09:11.899
+repeated here first thing is metal can
+
+122
+00:09:11.899 --> 00:09:15.160
+cross the poly silicon or diffusion
+
+123
+00:09:15.160 --> 00:09:17.509
+metal can cross the polysilicon or
+
+124
+00:09:17.509 --> 00:09:26.690
+depletion poly crossing diffusion for
+
+125
+00:09:26.690 --> 00:09:28.940
+the transistor whenever a poly crossing
+
+126
+00:09:28.940 --> 00:09:30.589
+the diffusion formation of transistor
+
+127
+00:09:30.589 --> 00:09:34.149
+takes place as you learned in module 2
+
+128
+00:09:34.149 --> 00:09:38.180
+whenever line with solid line touches on
+
+129
+00:09:38.180 --> 00:09:40.310
+the same level and interconnection is
+
+130
+00:09:40.310 --> 00:09:42.380
+found if you take a diffusion or
+
+131
+00:09:42.380 --> 00:09:44.449
+diffusion there is a formation of
+
+132
+00:09:44.449 --> 00:09:46.250
+interconnection polysilicon over nopales
+
+133
+00:09:46.250 --> 00:09:47.800
+in the confirmation of interaction
+
+134
+00:09:47.800 --> 00:09:50.660
+interconnection metal over a metal there
+
+135
+00:09:50.660 --> 00:09:55.240
+is interconnection okay so keep in mind
+
+136
+00:09:55.240 --> 00:10:01.180
+same level an interconnection is formed
+
+137
+00:10:02.829 --> 00:10:06.050
+one more important point simple contact
+
+138
+00:10:06.050 --> 00:10:09.110
+can be used to join diffusion or a poly
+
+139
+00:10:09.110 --> 00:10:13.730
+to metal simple contact as you learned
+
+140
+00:10:13.730 --> 00:10:17.000
+already buried contact butting contacts
+
+141
+00:10:17.000 --> 00:10:20.319
+can be used to join divisional poly
+
+142
+00:10:20.319 --> 00:10:23.720
+where it contact ID but in contact can
+
+143
+00:10:23.720 --> 00:10:29.389
+be used to join the diffusion in pole in
+
+144
+00:10:29.389 --> 00:10:31.519
+some process you are going to use metal
+
+145
+00:10:31.519 --> 00:10:35.800
+to metal to also you are going to use
+
+146
+00:10:35.800 --> 00:10:40.630
+metal one also you're using
+
+147
+00:10:42.000 --> 00:10:48.690
+here metal one that is first and second
+
+148
+00:10:48.690 --> 00:10:51.300
+metal layers are joined using wire I was
+
+149
+00:10:51.300 --> 00:10:53.790
+explaining you whenever you want to join
+
+150
+00:10:53.790 --> 00:10:55.410
+metal one and metal to you are going to
+
+151
+00:10:55.410 --> 00:10:58.620
+say as a wire rest of all you are going
+
+152
+00:10:58.620 --> 00:11:04.310
+to say as a contact cut okay
+
+153
+00:11:05.090 --> 00:11:11.760
+each layer has a particular electrical
+
+154
+00:11:11.760 --> 00:11:13.800
+property which must be taken into
+
+155
+00:11:13.800 --> 00:11:17.550
+account okay electrical property of a
+
+156
+00:11:17.550 --> 00:11:20.340
+different layer will be different if you
+
+157
+00:11:20.340 --> 00:11:22.620
+take a electro property for diffusion is
+
+158
+00:11:22.620 --> 00:11:25.050
+a different electrical property for
+
+159
+00:11:25.050 --> 00:11:27.030
+metal is a different electrical property
+
+160
+00:11:27.030 --> 00:11:31.440
+over polysilicon is different you have
+
+161
+00:11:31.440 --> 00:11:37.760
+to consider that one also in case of
+
+162
+00:11:37.760 --> 00:11:43.830
+CMOS layout okay PID n diffusion wires
+
+163
+00:11:43.830 --> 00:11:51.060
+must not join directly each other I was
+
+164
+00:11:51.060 --> 00:11:54.990
+explaining you diffusion P diffusion
+
+165
+00:11:54.990 --> 00:11:58.350
+never crosses the demarcation line in
+
+166
+00:11:58.350 --> 00:12:02.670
+case of C was design I was explaining
+
+167
+00:12:02.670 --> 00:12:06.960
+you diffusion never crosses the
+
+168
+00:12:06.960 --> 00:12:09.270
+demarcation so in that case you have to
+
+169
+00:12:09.270 --> 00:12:13.830
+use metal or a polysilicon to join can
+
+170
+00:12:13.830 --> 00:12:17.460
+depletion will be diffusion okay nor
+
+171
+00:12:17.460 --> 00:12:20.910
+they may cross either people or n well
+
+172
+00:12:20.910 --> 00:12:25.020
+poetry simply you studied in case of a
+
+173
+00:12:25.020 --> 00:12:27.180
+while drawing a stick diagram I'd layout
+
+174
+00:12:27.180 --> 00:12:28.800
+you study do the same thing here also
+
+175
+00:12:28.800 --> 00:12:33.810
+restate the same points okay so this all
+
+176
+00:12:33.810 --> 00:12:37.100
+point should be considered by designing
+
+177
+00:12:37.100 --> 00:12:42.830
+subsystem okay let us
+

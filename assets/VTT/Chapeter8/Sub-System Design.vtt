@@ -1,0 +1,558 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:03.270
+so we are going to start with the second
+
+2
+00:00:03.270 --> 00:00:06.990
+chapter of module three and that name of
+
+3
+00:00:06.990 --> 00:00:08.189
+the chapter this subsystem design
+
+4
+00:00:08.189 --> 00:00:12.000
+processes so in this chapter what we are
+
+5
+00:00:12.000 --> 00:00:13.710
+going to learn from this chapter is that
+
+6
+00:00:13.710 --> 00:00:16.590
+what our designer wants so this chapter
+
+7
+00:00:16.590 --> 00:00:19.289
+is basically the start of the designing
+
+8
+00:00:19.289 --> 00:00:23.369
+processes in Walled how and what is the
+
+9
+00:00:23.369 --> 00:00:26.430
+thought process to our designer okay we
+
+10
+00:00:26.430 --> 00:00:28.439
+are after getting the specifications in
+
+11
+00:00:28.439 --> 00:00:31.529
+the of the design that is system okay so
+
+12
+00:00:31.529 --> 00:00:34.829
+you need to understand that from now on
+
+13
+00:00:34.829 --> 00:00:37.829
+whatever it may be the design it will be
+
+14
+00:00:37.829 --> 00:00:41.219
+termed as a system it will be termed as
+
+15
+00:00:41.219 --> 00:00:45.510
+a system so before we even start
+
+16
+00:00:45.510 --> 00:00:48.120
+designing we need to think like
+
+17
+00:00:48.120 --> 00:00:51.059
+designers okay so there are certain
+
+18
+00:00:51.059 --> 00:00:53.430
+criterias that the designers followed
+
+19
+00:00:53.430 --> 00:00:55.620
+before even the start of the design so
+
+20
+00:00:55.620 --> 00:00:58.320
+before even touching their tools alright
+
+21
+00:00:58.320 --> 00:01:01.230
+or connecting their MOSFETs they first
+
+22
+00:01:01.230 --> 00:01:05.489
+of all think what has to be done if this
+
+23
+00:01:05.489 --> 00:01:07.890
+is the specification let's suppose the
+
+24
+00:01:07.890 --> 00:01:09.900
+client has given the specification of
+
+25
+00:01:09.900 --> 00:01:15.030
+this black box one so before even and
+
+26
+00:01:15.030 --> 00:01:16.890
+some specifications that client will be
+
+27
+00:01:16.890 --> 00:01:22.530
+mentioning that I need these specs okay
+
+28
+00:01:22.530 --> 00:01:25.500
+so before even blindly following that
+
+29
+00:01:25.500 --> 00:01:27.390
+specification and making this black box
+
+30
+00:01:27.390 --> 00:01:30.540
+one the designer has to think okay how
+
+31
+00:01:30.540 --> 00:01:33.720
+come this black box one or this design
+
+32
+00:01:33.720 --> 00:01:36.720
+that is the system so any design as I
+
+33
+00:01:36.720 --> 00:01:38.340
+have already said any design that will
+
+34
+00:01:38.340 --> 00:01:40.560
+be given whether it's a full adder or a
+
+35
+00:01:40.560 --> 00:01:46.770
+processor or complete design is going to
+
+36
+00:01:46.770 --> 00:01:50.970
+be termed as a system is going to be
+
+37
+00:01:50.970 --> 00:01:55.049
+termed as a system so before even after
+
+38
+00:01:55.049 --> 00:01:56.939
+getting these two things that okay the
+
+39
+00:01:56.939 --> 00:01:58.710
+name of the design and the
+
+40
+00:01:58.710 --> 00:02:00.600
+specifications now in processors also
+
+41
+00:02:00.600 --> 00:02:04.200
+you need to be mentioning what kind of a
+
+42
+00:02:04.200 --> 00:02:06.509
+processor you want depending on the
+
+43
+00:02:06.509 --> 00:02:08.310
+criteria whether you are going to make
+
+44
+00:02:08.310 --> 00:02:11.129
+it into a laptop or a mobile or a
+
+45
+00:02:11.129 --> 00:02:13.260
+smartphone whatever it is you
+
+46
+00:02:13.260 --> 00:02:15.689
+need to mention it according accordingly
+
+47
+00:02:15.689 --> 00:02:18.540
+or they will be giving you the design
+
+48
+00:02:18.540 --> 00:02:19.680
+all right
+
+49
+00:02:19.680 --> 00:02:22.010
+so though that will be the required
+
+50
+00:02:22.010 --> 00:02:24.209
+specifications are designed without any
+
+51
+00:02:24.209 --> 00:02:28.849
+specification is not going to happen so
+
+52
+00:02:28.849 --> 00:02:31.440
+even after getting the specification a
+
+53
+00:02:31.440 --> 00:02:33.750
+designer cannot simply blindly go into
+
+54
+00:02:33.750 --> 00:02:36.420
+this okay so first of all we are going
+
+55
+00:02:36.420 --> 00:02:37.739
+to learn about some general
+
+56
+00:02:37.739 --> 00:02:41.970
+considerations okay so after we have
+
+57
+00:02:41.970 --> 00:02:44.519
+covered general considerations then we
+
+58
+00:02:44.519 --> 00:02:46.440
+will be moving forward with the design
+
+59
+00:02:46.440 --> 00:02:50.579
+of a arithmetic processor okay then in
+
+60
+00:02:50.579 --> 00:02:52.950
+the processor what is the next way of a
+
+61
+00:02:52.950 --> 00:02:55.829
+big thing that is the ALU and in Lu what
+
+62
+00:02:55.829 --> 00:02:57.420
+is going to be the next design like that
+
+63
+00:02:57.420 --> 00:02:58.230
+okay
+
+64
+00:02:58.230 --> 00:03:01.680
+so basically in this chapter we are
+
+65
+00:03:01.680 --> 00:03:04.620
+going step by step so first of all we
+
+66
+00:03:04.620 --> 00:03:08.480
+will be dealing with some general
+
+67
+00:03:08.480 --> 00:03:13.799
+considerations then we will look into
+
+68
+00:03:13.799 --> 00:03:19.230
+the design of 4-bit microprocessor then
+
+69
+00:03:19.230 --> 00:03:21.299
+from there we will be looking inside a
+
+70
+00:03:21.299 --> 00:03:25.139
+4-bit ALU then from there we will be
+
+71
+00:03:25.139 --> 00:03:31.620
+looking into a 4-bit shifter so after
+
+72
+00:03:31.620 --> 00:03:37.169
+understanding some concepts of how to
+
+73
+00:03:37.169 --> 00:03:39.599
+start a design we will look inside the
+
+74
+00:03:39.599 --> 00:03:41.569
+process another processor is our system
+
+75
+00:03:41.569 --> 00:03:46.470
+okay this is my final design in order to
+
+76
+00:03:46.470 --> 00:03:48.209
+make this processor you need to have
+
+77
+00:03:48.209 --> 00:03:49.949
+many other components as I have already
+
+78
+00:03:49.949 --> 00:03:52.470
+discussed this point several times
+
+79
+00:03:52.470 --> 00:03:54.060
+on the board the flow chart that I have
+
+80
+00:03:54.060 --> 00:03:56.909
+discussed every time that if the design
+
+81
+00:03:56.909 --> 00:03:58.829
+given is a processor I need to know what
+
+82
+00:03:58.829 --> 00:04:02.849
+are the components inside of that if the
+
+83
+00:04:02.849 --> 00:04:04.919
+component names I know then inside that
+
+84
+00:04:04.919 --> 00:04:07.199
+component water the sub components are
+
+85
+00:04:07.199 --> 00:04:10.650
+there so inside the cell you again there
+
+86
+00:04:10.650 --> 00:04:17.180
+will be one shifter so this is my system
+
+87
+00:04:18.190 --> 00:04:20.560
+this is my system this is my final
+
+88
+00:04:20.560 --> 00:04:24.130
+design in order to get this final design
+
+89
+00:04:24.130 --> 00:04:29.020
+I have to go buy this so basically this
+
+90
+00:04:29.020 --> 00:04:31.570
+is the sub component of the component of
+
+91
+00:04:31.570 --> 00:04:36.430
+my system and this becomes my sub system
+
+92
+00:04:36.430 --> 00:04:39.070
+so finally in this chapter what are we
+
+93
+00:04:39.070 --> 00:04:40.660
+directly designing we are designing a
+
+94
+00:04:40.660 --> 00:04:43.540
+4-bit shifter if this is the case that
+
+95
+00:04:43.540 --> 00:04:46.180
+is why the name of the chapter is given
+
+96
+00:04:46.180 --> 00:04:49.470
+as subsystem design processes at not
+
+97
+00:04:49.470 --> 00:04:53.560
+simply system getting the point all
+
+98
+00:04:53.560 --> 00:04:57.010
+right so let us start with the general
+
+99
+00:04:57.010 --> 00:04:59.320
+considerations now before we even look
+
+100
+00:04:59.320 --> 00:05:02.440
+into the general considerations for a
+
+101
+00:05:02.440 --> 00:05:05.980
+designer we need to know three basic
+
+102
+00:05:05.980 --> 00:05:08.650
+terms related to design we need to know
+
+103
+00:05:08.650 --> 00:05:13.180
+three basic terms related to design okay
+
+104
+00:05:13.180 --> 00:05:18.010
+the three related terms are the
+
+105
+00:05:18.010 --> 00:05:22.320
+regularity okay so we'll start with
+
+106
+00:05:22.320 --> 00:05:26.170
+regularity so what is this concept this
+
+107
+00:05:26.170 --> 00:05:28.810
+reckoned irregularity concepts concept
+
+108
+00:05:28.810 --> 00:05:33.130
+dictates that the design has to be that
+
+109
+00:05:33.130 --> 00:05:42.330
+the design has to be hierarchical
+
+110
+00:05:45.430 --> 00:05:49.850
+okay it has to be hierarchical what do
+
+111
+00:05:49.850 --> 00:05:50.840
+you understand by the hierarchy
+
+112
+00:05:50.840 --> 00:05:54.620
+hierarchy that is if this is my black
+
+113
+00:05:54.620 --> 00:05:58.160
+box one okay if this is my black box one
+
+114
+00:05:58.160 --> 00:06:04.940
+it is made up of x and y so in order to
+
+115
+00:06:04.940 --> 00:06:07.730
+complete the black box one first I will
+
+116
+00:06:07.730 --> 00:06:14.540
+design X second I will design Y third I
+
+117
+00:06:14.540 --> 00:06:23.570
+will interconnect x and y to get black
+
+118
+00:06:23.570 --> 00:06:30.800
+box one so this is my hierarchy okay so
+
+119
+00:06:30.800 --> 00:06:36.220
+it has to be hierarchical that means a
+
+120
+00:06:36.460 --> 00:06:52.270
+larger system can be broken down into
+
+121
+00:06:53.290 --> 00:07:04.730
+simple and similar blocks okay simple
+
+122
+00:07:04.730 --> 00:07:09.080
+and similar blocks larger system can be
+
+123
+00:07:09.080 --> 00:07:11.810
+broken down into simple and similar
+
+124
+00:07:11.810 --> 00:07:14.000
+block blocks when I am writing broken
+
+125
+00:07:14.000 --> 00:07:16.720
+that doesn't mean you will break it open
+
+126
+00:07:16.720 --> 00:07:20.960
+here the term broken means it can be the
+
+127
+00:07:20.960 --> 00:07:25.570
+larger system should comprise or
+
+128
+00:07:25.570 --> 00:07:30.290
+composed of simple and similar blocks
+
+129
+00:07:30.290 --> 00:07:33.560
+same compose or comprise therefore I
+
+130
+00:07:33.560 --> 00:07:35.450
+have written broken broken doesn't mean
+
+131
+00:07:35.450 --> 00:07:37.340
+you will break it open okay it doesn't
+
+132
+00:07:37.340 --> 00:07:38.090
+work like that
+
+133
+00:07:38.090 --> 00:07:41.600
+so in regular here what example that are
+
+134
+00:07:41.600 --> 00:07:43.360
+given that there are two separate blocks
+
+135
+00:07:43.360 --> 00:07:46.490
+two separate blocks okay x and y now
+
+136
+00:07:46.490 --> 00:07:51.380
+while I'm designing X obviously X will
+
+137
+00:07:51.380 --> 00:07:55.990
+be made up of certain other components
+
+138
+00:07:55.990 --> 00:07:58.110
+inside of X
+
+139
+00:07:58.110 --> 00:08:01.970
+right so
+

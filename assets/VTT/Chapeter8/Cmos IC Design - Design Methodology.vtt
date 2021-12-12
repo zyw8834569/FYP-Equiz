@@ -1,0 +1,182 @@
+WEBVTT
+
+1
+00:00:00.089 --> 00:00:04.410
+good morning I am Amir Onodera and my
+
+2
+00:00:04.410 --> 00:00:07.790
+fellow work met freedom and we will
+
+3
+00:00:07.790 --> 00:00:10.610
+repress anything about CMOS integrated
+
+4
+00:00:10.610 --> 00:00:12.890
+circuit design
+
+5
+00:00:12.890 --> 00:00:17.970
+first question 1 draw a static CMOS
+
+6
+00:00:17.970 --> 00:00:20.730
+logic circuit and static diagram for the
+
+7
+00:00:20.730 --> 00:00:24.839
+following logic function first we do the
+
+8
+00:00:24.839 --> 00:00:27.449
+pull-up network equation and pull down
+
+9
+00:00:27.449 --> 00:00:31.409
+Network equation in pool if it plus it
+
+10
+00:00:31.409 --> 00:00:35.400
+become x and vice versa in PD n we have
+
+11
+00:00:35.400 --> 00:00:39.420
+to invert the equation if it x it will
+
+12
+00:00:39.420 --> 00:00:42.660
+be serious occurred whereas if it in
+
+13
+00:00:42.660 --> 00:00:45.690
+addition it will be parallel circuit
+
+14
+00:00:45.690 --> 00:00:48.810
+this is a static diagram for the
+
+15
+00:00:48.810 --> 00:00:54.060
+following logic function now you will be
+
+16
+00:00:54.060 --> 00:00:55.950
+seeing about question 2 by using the
+
+17
+00:00:55.950 --> 00:00:58.500
+question is by using pull-up network PU
+
+18
+00:00:58.500 --> 00:01:00.420
+and and pulldown network PD and
+
+19
+00:01:00.420 --> 00:01:03.300
+construct static CMOS circuit based on
+
+20
+00:01:03.300 --> 00:01:05.489
+the boolean equation we are having two
+
+21
+00:01:05.489 --> 00:01:10.140
+equation that is z1 a bar b bar plus a B
+
+22
+00:01:10.140 --> 00:01:17.909
+bar and z2 FB plus AC the first for the
+
+23
+00:01:17.909 --> 00:01:19.619
+first equation will be seeing about that
+
+24
+00:01:19.619 --> 00:01:26.549
+one a a B ma and a be first in the polar
+
+25
+00:01:26.549 --> 00:01:29.609
+equation will be we will be dividing the
+
+26
+00:01:29.609 --> 00:01:32.579
+we will be separating the multiplication
+
+27
+00:01:32.579 --> 00:01:33.960
+to addition and addition to the
+
+28
+00:01:33.960 --> 00:01:35.880
+multiplication as we seen over here and
+
+29
+00:01:35.880 --> 00:01:39.270
+the PD n is test about it's just
+
+30
+00:01:39.270 --> 00:01:42.840
+inverting about the equation and we
+
+31
+00:01:42.840 --> 00:01:44.569
+could see this will be the equation of
+
+32
+00:01:44.569 --> 00:01:47.549
+product of the it will be the result of
+
+33
+00:01:47.549 --> 00:01:49.950
+the equation and same goes to z/2
+
+34
+00:01:49.950 --> 00:01:53.630
+the equation will be like
+
+35
+00:01:54.180 --> 00:01:58.090
+and this will be the static CMOS diagram
+
+36
+00:01:58.090 --> 00:02:01.030
+which will be there and when there is an
+
+37
+00:02:01.030 --> 00:02:03.670
+addition it will be a parallel and when
+
+38
+00:02:03.670 --> 00:02:06.660
+the when there is a series it will be
+
+39
+00:02:06.660 --> 00:02:09.070
+when it is a multiplication it will be
+
+40
+00:02:09.070 --> 00:02:11.320
+serious as to be seen here the Pima
+
+41
+00:02:11.320 --> 00:02:13.630
+circuit have a bar and B bar because of
+
+42
+00:02:13.630 --> 00:02:16.390
+the equation same goes the PD and E bar
+
+43
+00:02:16.390 --> 00:02:19.300
+and B bar this will be the normal
+
+44
+00:02:19.300 --> 00:02:21.940
+circuit diagram and that's all from us
+
+45
+00:02:21.940 --> 00:02:24.540
+thank you
+

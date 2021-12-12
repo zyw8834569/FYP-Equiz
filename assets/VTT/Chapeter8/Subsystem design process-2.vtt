@@ -1,0 +1,546 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.589
+we'll be diffusion okay nor they may
+
+2
+00:00:04.589 --> 00:00:07.519
+cross either people or n will boldly
+
+3
+00:00:07.519 --> 00:00:11.550
+simply you studied in case of a while
+
+4
+00:00:11.550 --> 00:00:13.080
+drawing a strict diagram and laying out
+
+5
+00:00:13.080 --> 00:00:14.759
+you studied in the same thing here also
+
+6
+00:00:14.759 --> 00:00:19.740
+restate the same points okay so this all
+
+7
+00:00:19.740 --> 00:00:23.060
+point should be considered by designing
+
+8
+00:00:23.060 --> 00:00:32.340
+subsystem okay let us take it is a
+
+9
+00:00:32.340 --> 00:00:37.350
+designer 4-bit shifter okay
+
+10
+00:00:37.350 --> 00:00:47.190
+so general purpose the N bit shifter is
+
+11
+00:00:47.190 --> 00:00:51.050
+used or will capable of shifting up to a
+
+12
+00:00:51.050 --> 00:00:55.670
+data incoming data by n minus 1 places
+
+13
+00:00:55.670 --> 00:00:58.680
+in right shift are left shift direction
+
+14
+00:00:58.680 --> 00:01:01.199
+that is if I take a 4-bit shift register
+
+15
+00:01:01.199 --> 00:01:05.970
+it can shift up to 3 bit left are 3 bit
+
+16
+00:01:05.970 --> 00:01:17.340
+right okay so shifting is carried on and
+
+17
+00:01:17.340 --> 00:01:20.159
+around bases end around one end to
+
+18
+00:01:20.159 --> 00:01:23.369
+another end and their own bases that is
+
+19
+00:01:23.369 --> 00:01:27.360
+any bit shifted out at one end after the
+
+20
+00:01:27.360 --> 00:01:31.140
+tower will be shifted at the other end
+
+21
+00:01:31.140 --> 00:01:37.729
+of the word okay that is the end around
+
+22
+00:01:37.729 --> 00:01:47.040
+bases and around bases here one bit
+
+23
+00:01:47.040 --> 00:01:49.770
+shift right is equivalent to three bit
+
+24
+00:01:49.770 --> 00:01:55.680
+shift left in your microprocessor or a
+
+25
+00:01:55.680 --> 00:01:59.270
+microcontroller subject you use
+
+26
+00:01:59.270 --> 00:02:04.100
+instructions correct here one bit shift
+
+27
+00:02:04.100 --> 00:02:05.990
+right is equivalent to three bit shift
+
+28
+00:02:05.990 --> 00:02:09.590
+left are two bit shift right is equal to
+
+29
+00:02:09.590 --> 00:02:14.900
+two bit shift left okay so in forbid
+
+30
+00:02:14.900 --> 00:02:19.010
+shifter you can firm ok shift operation
+
+31
+00:02:19.010 --> 00:02:21.560
+it is zero shift one bit shift - bit
+
+32
+00:02:21.560 --> 00:02:26.420
+shift are three it shift right
+
+33
+00:02:26.420 --> 00:02:29.480
+- good shift left equal to 2 which shift
+
+34
+00:02:29.480 --> 00:02:32.569
+right one bit shift right is equivalent
+
+35
+00:02:32.569 --> 00:02:39.019
+to 3 which shift left right so this
+
+36
+00:02:39.019 --> 00:02:51.890
+shifter must have 4 line input and 4
+
+37
+00:02:51.890 --> 00:02:58.819
+output lines for a shifted data input
+
+38
+00:02:58.819 --> 00:03:01.959
+can be transferred to output line using
+
+39
+00:03:01.959 --> 00:03:08.269
+shift to 0 shift 1 you are using 0 1 2 3
+
+40
+00:03:08.269 --> 00:03:15.709
+bits using shift from 0 1 2 3 bits data
+
+41
+00:03:15.709 --> 00:03:19.549
+flow direction as for the design in
+
+42
+00:03:19.549 --> 00:03:22.910
+horizontal and control signal flow
+
+43
+00:03:22.910 --> 00:03:25.400
+Direction vertical so this one is
+
+44
+00:03:25.400 --> 00:03:31.100
+control flow okay and this one is data
+
+45
+00:03:31.100 --> 00:03:39.069
+flow okay when designing a subsystem now
+
+46
+00:03:39.430 --> 00:03:42.430
+here
+
+47
+00:03:44.800 --> 00:03:47.470
+troz for cross bar switch this is this
+
+48
+00:03:47.470 --> 00:03:53.190
+one is a fortress for cross bar switch
+
+49
+00:03:53.460 --> 00:04:00.580
+simple MOS transistor is connected when
+
+50
+00:04:00.580 --> 00:04:05.110
+you observe this one source of the
+
+51
+00:04:05.110 --> 00:04:08.520
+master in stir connected to input lines
+
+52
+00:04:08.520 --> 00:04:12.880
+and drain of the master is connected to
+
+53
+00:04:12.880 --> 00:04:19.269
+output lines here this is in zero in one
+
+54
+00:04:19.269 --> 00:04:22.230
+you do in three
+
+55
+00:04:22.230 --> 00:04:27.430
+similarly out to zero out one out of two
+
+56
+00:04:27.430 --> 00:04:31.450
+and out three connected to drain of
+
+57
+00:04:31.450 --> 00:04:35.440
+transistors mass transfer is nothing but
+
+58
+00:04:35.440 --> 00:04:36.930
+a switch okay
+
+59
+00:04:36.930 --> 00:04:43.030
+whenever you apply one to a gate
+
+60
+00:04:43.030 --> 00:04:48.580
+terminal master shall become on okay
+
+61
+00:04:48.580 --> 00:04:52.000
+access a closed switch when you apply a
+
+62
+00:04:52.000 --> 00:04:58.420
+0 to a gate of MOS transistor access a
+
+63
+00:04:58.420 --> 00:05:03.310
+open switch right if you take in this
+
+64
+00:05:03.310 --> 00:05:09.040
+example when I make switch 0 0 and I
+
+65
+00:05:09.040 --> 00:05:17.050
+make switch which one this one 0 0 as a
+
+66
+00:05:17.050 --> 00:05:24.940
+1 as a 1 whatever input that is in 0 if
+
+67
+00:05:24.940 --> 00:05:32.040
+it is 1 that one will be out 0 as a 1
+
+68
+00:05:32.040 --> 00:05:34.260
+getting my point
+
+69
+00:05:34.260 --> 00:05:39.550
+whenever switch is 0 0 is 1 this MOS
+
+70
+00:05:39.550 --> 00:05:41.890
+transistor this one is will be is in arm
+
+71
+00:05:41.890 --> 00:05:45.910
+straight so if in in 0 is 1 same thing
+
+72
+00:05:45.910 --> 00:05:51.940
+will be out as Eero okay similarly if I
+
+73
+00:05:51.940 --> 00:05:54.969
+take this
+
+74
+00:05:54.969 --> 00:06:01.599
+register if I make switch 1 1 as a 1
+
+75
+00:06:01.599 --> 00:06:04.269
+then device will be what straight on
+
+76
+00:06:04.269 --> 00:06:07.299
+straight this which is in on straight if
+
+77
+00:06:07.299 --> 00:06:12.249
+I apply in 1 as a 0 in 1 as a 0
+
+78
+00:06:12.249 --> 00:06:16.959
+okay then out 1 is also 0 why because
+
+79
+00:06:16.959 --> 00:06:21.279
+this in 1 is 0 that will be flowed okay
+
+80
+00:06:21.279 --> 00:06:24.789
+you are going to get out one has a 0
+
+81
+00:06:24.789 --> 00:06:32.829
+like that this 4 cross 4 cross bar
+
+82
+00:06:32.829 --> 00:06:40.839
+switch functions okay if you make all
+
+83
+00:06:40.839 --> 00:06:44.429
+the transistor 1 what will be the result
+
+84
+00:06:44.429 --> 00:06:47.169
+there may be chances of shortening
+
+85
+00:06:47.169 --> 00:06:51.999
+correct why because all inputs connected
+
+86
+00:06:51.999 --> 00:06:55.659
+to all the outputs there will be chances
+
+87
+00:06:55.659 --> 00:06:58.179
+of shortening why because this is on all
+
+88
+00:06:58.179 --> 00:07:01.209
+transistors in on straight that one
+
+89
+00:07:01.209 --> 00:07:04.869
+become glorious okay so here it needs a
+
+90
+00:07:04.869 --> 00:07:08.649
+16 control signals it increases the
+
+91
+00:07:08.649 --> 00:07:12.179
+complexity to overcome this difficulty
+
+92
+00:07:12.179 --> 00:07:17.409
+okay what you have to do you have to go
+
+93
+00:07:17.409 --> 00:07:27.459
+on joining like this file shorty switch
+
+94
+00:07:27.459 --> 00:07:33.819
+is 0 0 2 switch 1 1 then switch to 2
+
+95
+00:07:33.819 --> 00:07:38.889
+then switch 3 3 similarly if you join
+
+96
+00:07:38.889 --> 00:07:43.479
+like this okay this will be joined like
+
+97
+00:07:43.479 --> 00:07:49.299
+this this will be joined like this ok
+
+98
+00:07:49.299 --> 00:07:54.610
+you can go through next circular Graham
+
+99
+00:07:54.610 --> 00:08:00.009
+yeah this is 4 plus 4 barrel chapter in
+
+100
+00:08:00.009 --> 00:08:02.049
+previous case it needs a 16 control
+
+101
+00:08:02.049 --> 00:08:05.529
+signals here it requires only 4 control
+
+102
+00:08:05.529 --> 00:08:08.710
+signals so this is a barrel ship
+
+103
+00:08:08.710 --> 00:08:15.970
+okay when you apply zero to this one
+
+104
+00:08:15.970 --> 00:08:18.729
+which one this is zero here if you apply
+
+105
+00:08:18.729 --> 00:08:24.460
+a 0 here ok whatever input same thing
+
+106
+00:08:24.460 --> 00:08:29.410
+will be the output getting my point here
+
+107
+00:08:29.410 --> 00:08:36.599
+when you apply zero here ship to zero
+
+108
+00:08:36.599 --> 00:08:42.700
+this one become zero shift whatever in
+
+109
+00:08:42.700 --> 00:08:45.400
+zero equal to out to zero in one equal
+
+110
+00:08:45.400 --> 00:08:49.200
+to out 1 e 2 equal two outer two ended
+
+111
+00:08:49.200 --> 00:08:53.589
+in 3 equal to out 3 there is no shift ok
+
+112
+00:08:53.589 --> 00:09:02.339
+that is shift to 0 similarly if I apply
+
+113
+00:09:02.339 --> 00:09:08.470
+shift 1 okay here this one shift 1 equal
+
+114
+00:09:08.470 --> 00:09:13.089
+to 1 shift 1 equal to what 1 in that
+
+115
+00:09:13.089 --> 00:09:20.980
+case there is a one bit shift operation
+
+116
+00:09:20.980 --> 00:09:28.230
+occurs so one bit shift whatever or
+
+117
+00:09:28.230 --> 00:09:33.520
+input 0 mode to output one input one
+
+118
+00:09:33.520 --> 00:09:39.640
+more to output to input 2 3 more to core
+
+119
+00:09:39.640 --> 00:09:50.700
+put 3 into 2 3 more to output 0 ok here
+
+120
+00:09:50.700 --> 00:09:53.800
+one bit shift takes place when you make
+
+121
+00:09:53.800 --> 00:09:58.870
+a shift 1 as a 1 ok similarly when you
+
+122
+00:09:58.870 --> 00:10:04.930
+make shift 2 as a 1 and remaining on a 0
+
+123
+00:10:04.930 --> 00:10:08.890
+in that case in that case 2 bit shift
+
+124
+00:10:08.890 --> 00:10:14.500
+operation takes place similarly if you
+
+125
+00:10:14.500 --> 00:10:19.390
+make shift 3 as a 1 remaining on a 0
+
+126
+00:10:19.390 --> 00:10:20.819
+there is a
+
+127
+00:10:20.819 --> 00:10:25.319
+a bit shift takes place okay so this is
+
+128
+00:10:25.319 --> 00:10:30.209
+what fortress for barrel shifter right
+
+129
+00:10:30.209 --> 00:10:35.939
+so the as I was explaining you switch
+
+130
+00:10:35.939 --> 00:10:39.720
+gears are covered in a group into four
+
+131
+00:10:39.720 --> 00:10:42.509
+groups here four groups are four formed
+
+132
+00:10:42.509 --> 00:10:44.759
+with corresponding to shift to zero
+
+133
+00:10:44.759 --> 00:10:48.119
+shift one shift to shift three this
+
+134
+00:10:48.119 --> 00:10:49.609
+attachment you want to say is what
+
+135
+00:10:49.609 --> 00:10:53.309
+barrel shifter fine now
+
+136
+00:10:53.309 --> 00:11:01.249
+I hope all of you understood this one
+

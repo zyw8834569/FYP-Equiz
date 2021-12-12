@@ -1,0 +1,1982 @@
+WEBVTT
+
+1
+00:00:10.480 --> 00:00:12.080
+okay good morning students
+
+2
+00:00:12.080 --> 00:00:14.880
+uh today we will discuss another topic
+
+3
+00:00:14.880 --> 00:00:15.120
+of
+
+4
+00:00:15.120 --> 00:00:18.400
+vlsi system design in previous class we
+
+5
+00:00:18.400 --> 00:00:19.199
+discussed
+
+6
+00:00:19.199 --> 00:00:21.600
+we discussed about the first topic of
+
+7
+00:00:21.600 --> 00:00:24.320
+our vlsi system design vlsi
+
+8
+00:00:24.320 --> 00:00:29.519
+cmos subsystem design that is
+
+9
+00:00:29.519 --> 00:00:32.800
+vlsi system design that is uh
+
+10
+00:00:32.800 --> 00:00:35.760
+basic theory of cmos uh along with uh
+
+11
+00:00:35.760 --> 00:00:37.600
+some data path operators
+
+12
+00:00:37.600 --> 00:00:40.480
+this topic uh we covered in our previous
+
+13
+00:00:40.480 --> 00:00:41.440
+lecture
+
+14
+00:00:41.440 --> 00:00:44.160
+now in this lecture we will discuss now
+
+15
+00:00:44.160 --> 00:00:45.920
+in this lecture we will discuss
+
+16
+00:00:45.920 --> 00:00:47.680
+the second topic now in this lecture we
+
+17
+00:00:47.680 --> 00:00:49.280
+will discuss the second topic
+
+18
+00:00:49.280 --> 00:00:51.920
+of this unit that is parity that is
+
+19
+00:00:51.920 --> 00:00:54.160
+parity generator
+
+20
+00:00:54.160 --> 00:00:57.199
+that is parity generator circuit so
+
+21
+00:00:57.199 --> 00:00:59.359
+before starting this topic first we have
+
+22
+00:00:59.359 --> 00:01:01.039
+to understand the what is the mean of
+
+23
+00:01:01.039 --> 00:01:02.960
+parity generator what is the mean of
+
+24
+00:01:02.960 --> 00:01:04.319
+parity generator
+
+25
+00:01:04.319 --> 00:01:06.159
+uh we can easily understand this topic
+
+26
+00:01:06.159 --> 00:01:07.360
+by using this
+
+27
+00:01:07.360 --> 00:01:10.400
+theoretical portion that um parity
+
+28
+00:01:10.400 --> 00:01:12.080
+generator parity generator is a
+
+29
+00:01:12.080 --> 00:01:14.080
+sequential circuit parity generator is a
+
+30
+00:01:14.080 --> 00:01:15.520
+parity generator is a combination
+
+31
+00:01:15.520 --> 00:01:17.200
+circuit that is used to
+
+32
+00:01:17.200 --> 00:01:19.600
+uh use to check the parity that is
+
+33
+00:01:19.600 --> 00:01:20.640
+transmitted
+
+34
+00:01:20.640 --> 00:01:23.280
+from the transmitter end okay now what
+
+35
+00:01:23.280 --> 00:01:26.000
+is the parity what is the mean of parity
+
+36
+00:01:26.000 --> 00:01:28.640
+parity is nothing parity is nothing but
+
+37
+00:01:28.640 --> 00:01:29.840
+uh some extra
+
+38
+00:01:29.840 --> 00:01:32.320
+parity is nothing but some extra bit
+
+39
+00:01:32.320 --> 00:01:33.040
+okay
+
+40
+00:01:33.040 --> 00:01:36.320
+parity is nothing parity is nothing but
+
+41
+00:01:36.320 --> 00:01:38.960
+some extra bit parity is nothing but
+
+42
+00:01:38.960 --> 00:01:40.400
+some extra bit
+
+43
+00:01:40.400 --> 00:01:43.680
+that is attached with the message signal
+
+44
+00:01:43.680 --> 00:01:46.079
+that is attached with the message signal
+
+45
+00:01:46.079 --> 00:01:47.040
+and transmitted
+
+46
+00:01:47.040 --> 00:01:49.600
+towards the receiver when receiver
+
+47
+00:01:49.600 --> 00:01:51.360
+getting the data when receiver getting
+
+48
+00:01:51.360 --> 00:01:52.640
+the data stream
+
+49
+00:01:52.640 --> 00:01:55.600
+so at that time first uh he checked the
+
+50
+00:01:55.600 --> 00:01:56.560
+first to check the
+
+51
+00:01:56.560 --> 00:01:59.200
+uh parity bit and accordingly it knows
+
+52
+00:01:59.200 --> 00:01:59.759
+the
+
+53
+00:01:59.759 --> 00:02:02.079
+uh knows the condition of message that
+
+54
+00:02:02.079 --> 00:02:03.119
+it is uh
+
+55
+00:02:03.119 --> 00:02:05.680
+that um that the number of one in the
+
+56
+00:02:05.680 --> 00:02:06.399
+data is
+
+57
+00:02:06.399 --> 00:02:09.520
+uh even cut in in the even
+
+58
+00:02:09.520 --> 00:02:11.440
+in the even number or it is in the odd
+
+59
+00:02:11.440 --> 00:02:12.560
+number
+
+60
+00:02:12.560 --> 00:02:15.520
+okay so first we see the theory of
+
+61
+00:02:15.520 --> 00:02:16.879
+parity generator
+
+62
+00:02:16.879 --> 00:02:19.760
+parity generator is a very useful tool
+
+63
+00:02:19.760 --> 00:02:21.280
+in the information processing
+
+64
+00:02:21.280 --> 00:02:24.239
+in the digital computer to indicate to
+
+65
+00:02:24.239 --> 00:02:24.959
+indicate
+
+66
+00:02:24.959 --> 00:02:27.840
+any presence of error in the bit
+
+67
+00:02:27.840 --> 00:02:28.879
+information
+
+68
+00:02:28.879 --> 00:02:31.519
+we already didn't discuss this topic it
+
+69
+00:02:31.519 --> 00:02:32.080
+is
+
+70
+00:02:32.080 --> 00:02:35.360
+mainly used to represent it is used to
+
+71
+00:02:35.360 --> 00:02:36.800
+represent
+
+72
+00:02:36.800 --> 00:02:40.959
+the the the even and odd condition of
+
+73
+00:02:40.959 --> 00:02:44.000
+data to the receiver okay second point
+
+74
+00:02:44.000 --> 00:02:44.800
+is that
+
+75
+00:02:44.800 --> 00:02:47.040
+external noise and loss of signal
+
+76
+00:02:47.040 --> 00:02:49.040
+strength second point is that
+
+77
+00:02:49.040 --> 00:02:51.440
+external noise and loss of signal
+
+78
+00:02:51.440 --> 00:02:53.200
+strength causes loss of data bit
+
+79
+00:02:53.200 --> 00:02:54.160
+information
+
+80
+00:02:54.160 --> 00:02:56.959
+while transporting data from one device
+
+81
+00:02:56.959 --> 00:02:57.920
+to other device
+
+82
+00:02:57.920 --> 00:02:59.840
+locating inside the computer are
+
+83
+00:02:59.840 --> 00:03:02.080
+externally okay this one is the second
+
+84
+00:03:02.080 --> 00:03:03.040
+point
+
+85
+00:03:03.040 --> 00:03:05.760
+the third point is that the third point
+
+86
+00:03:05.760 --> 00:03:06.319
+is that
+
+87
+00:03:06.319 --> 00:03:08.640
+to indicate any error to indicate any
+
+88
+00:03:08.640 --> 00:03:10.959
+error an extra bit is included with the
+
+89
+00:03:10.959 --> 00:03:13.440
+message according to the total number of
+
+90
+00:03:13.440 --> 00:03:16.720
+ones in the set of data which is
+
+91
+00:03:16.720 --> 00:03:19.599
+called parity we already discussed this
+
+92
+00:03:19.599 --> 00:03:20.400
+term parity
+
+93
+00:03:20.400 --> 00:03:22.640
+is nothing but some extra bit that is
+
+94
+00:03:22.640 --> 00:03:24.640
+attached with the message signal
+
+95
+00:03:24.640 --> 00:03:26.400
+that is attached with the message signal
+
+96
+00:03:26.400 --> 00:03:27.920
+to represent the some
+
+97
+00:03:27.920 --> 00:03:30.000
+to represent the some necessary
+
+98
+00:03:30.000 --> 00:03:31.120
+information
+
+99
+00:03:31.120 --> 00:03:34.159
+to the receiver side parity is of two
+
+100
+00:03:34.159 --> 00:03:36.000
+types parity is of two type
+
+101
+00:03:36.000 --> 00:03:38.159
+what are these two type one is one
+
+102
+00:03:38.159 --> 00:03:40.080
+parity is known as even parity one
+
+103
+00:03:40.080 --> 00:03:42.159
+parity is known as even parity
+
+104
+00:03:42.159 --> 00:03:44.159
+and another parity is known as odd
+
+105
+00:03:44.159 --> 00:03:46.239
+parity one parity is known as even
+
+106
+00:03:46.239 --> 00:03:48.560
+parity and another parity is known as
+
+107
+00:03:48.560 --> 00:03:49.840
+odd parity
+
+108
+00:03:49.840 --> 00:03:52.879
+okay when number of one in the even
+
+109
+00:03:52.879 --> 00:03:55.599
+when the number of one is even so when
+
+110
+00:03:55.599 --> 00:03:56.720
+the number of one
+
+111
+00:03:56.720 --> 00:03:59.519
+is even and we are using the even parity
+
+112
+00:03:59.519 --> 00:04:00.080
+check so
+
+113
+00:04:00.080 --> 00:04:02.080
+at that time the value of even parity
+
+114
+00:04:02.080 --> 00:04:03.120
+will be zero
+
+115
+00:04:03.120 --> 00:04:05.920
+okay if we are if you are if you are
+
+116
+00:04:05.920 --> 00:04:07.519
+checking if you are checking
+
+117
+00:04:07.519 --> 00:04:09.920
+yeah the odd parity if you are checking
+
+118
+00:04:09.920 --> 00:04:11.519
+it by using odd parity
+
+119
+00:04:11.519 --> 00:04:13.599
+so in the odd parity case if the number
+
+120
+00:04:13.599 --> 00:04:15.040
+of one is odd
+
+121
+00:04:15.040 --> 00:04:17.839
+at that time its value will be zero okay
+
+122
+00:04:17.839 --> 00:04:19.440
+you can understand by using this
+
+123
+00:04:19.440 --> 00:04:20.399
+sentence
+
+124
+00:04:20.399 --> 00:04:22.639
+even uh if the number of bit is if the
+
+125
+00:04:22.639 --> 00:04:23.840
+number of one is even
+
+126
+00:04:23.840 --> 00:04:27.360
+so in parity in in even parity case it
+
+127
+00:04:27.360 --> 00:04:29.280
+the bit will be zero in the odd
+
+128
+00:04:29.280 --> 00:04:31.280
+character in the odd parity case if the
+
+129
+00:04:31.280 --> 00:04:31.840
+number of
+
+130
+00:04:31.840 --> 00:04:35.280
+one is one so in the parity bit will be
+
+131
+00:04:35.280 --> 00:04:37.040
+the zero
+
+132
+00:04:37.040 --> 00:04:39.600
+okay so this one is the this one is the
+
+133
+00:04:39.600 --> 00:04:40.160
+total
+
+134
+00:04:40.160 --> 00:04:42.160
+this one is the total information about
+
+135
+00:04:42.160 --> 00:04:45.759
+the parity parity generator circuit
+
+136
+00:04:45.759 --> 00:04:48.400
+okay so this one is the truth table this
+
+137
+00:04:48.400 --> 00:04:50.080
+one is the truth table by using this
+
+138
+00:04:50.080 --> 00:04:50.560
+root
+
+139
+00:04:50.560 --> 00:04:52.800
+by using this truth table you can easily
+
+140
+00:04:52.800 --> 00:04:54.639
+understand what is the mean of parity
+
+141
+00:04:54.639 --> 00:04:56.320
+what is the mean of you can easily
+
+142
+00:04:56.320 --> 00:04:58.560
+understand what is the mean of parity
+
+143
+00:04:58.560 --> 00:05:01.039
+okay suppose i am considering i am
+
+144
+00:05:01.039 --> 00:05:03.199
+considering the message is of 4 bit
+
+145
+00:05:03.199 --> 00:05:05.759
+i am considering the message is of 4 bit
+
+146
+00:05:05.759 --> 00:05:07.759
+4 bit means the message is of
+
+147
+00:05:07.759 --> 00:05:11.520
+d 0 d 1 d 2 and d3 messages of 4-bit
+
+148
+00:05:11.520 --> 00:05:13.520
+if the message is of 4-bit if the
+
+149
+00:05:13.520 --> 00:05:15.759
+message is of 4-bit so because of this
+
+150
+00:05:15.759 --> 00:05:16.400
+4-bit
+
+151
+00:05:16.400 --> 00:05:19.199
+the possible combinations will be the 16
+
+152
+00:05:19.199 --> 00:05:21.039
+because 2 raised to power 4 will be the
+
+153
+00:05:21.039 --> 00:05:21.840
+possible
+
+154
+00:05:21.840 --> 00:05:25.199
+combinations okay so uh by using this
+
+155
+00:05:25.199 --> 00:05:27.199
+4-bit we can generate 16
+
+156
+00:05:27.199 --> 00:05:28.639
+we can generate 16 different
+
+157
+00:05:28.639 --> 00:05:30.400
+combinations of message
+
+158
+00:05:30.400 --> 00:05:33.039
+okay so accordingly if we if we if we
+
+159
+00:05:33.039 --> 00:05:35.120
+want to add some extra parity bit with
+
+160
+00:05:35.120 --> 00:05:35.840
+this
+
+161
+00:05:35.840 --> 00:05:38.639
+with this message signal so we use a
+
+162
+00:05:38.639 --> 00:05:40.080
+parity generator circuit
+
+163
+00:05:40.080 --> 00:05:42.800
+so parity generator circuit uh was first
+
+164
+00:05:42.800 --> 00:05:44.320
+parity generator circuit form
+
+165
+00:05:44.320 --> 00:05:47.919
+uh form parity bit and uh after making
+
+166
+00:05:47.919 --> 00:05:49.360
+the parity bit it
+
+167
+00:05:49.360 --> 00:05:52.320
+attached the mac uh it it attach the
+
+168
+00:05:52.320 --> 00:05:54.320
+parity bit with this message signal
+
+169
+00:05:54.320 --> 00:05:57.360
+okay so after after uh attaching the
+
+170
+00:05:57.360 --> 00:05:58.000
+message
+
+171
+00:05:58.000 --> 00:05:59.919
+after attaching the parity bit with the
+
+172
+00:05:59.919 --> 00:06:01.680
+message signal the
+
+173
+00:06:01.680 --> 00:06:04.160
+the code word will be will be of five
+
+174
+00:06:04.160 --> 00:06:04.720
+bit
+
+175
+00:06:04.720 --> 00:06:06.960
+because in this 5 bit 4 bit is of
+
+176
+00:06:06.960 --> 00:06:07.840
+message and
+
+177
+00:06:07.840 --> 00:06:11.280
+one extra bit is of parity bit okay
+
+178
+00:06:11.280 --> 00:06:14.160
+suppose the suppose the suppose the
+
+179
+00:06:14.160 --> 00:06:15.680
+transmitter use the
+
+180
+00:06:15.680 --> 00:06:17.759
+suppose the transmitter use even parity
+
+181
+00:06:17.759 --> 00:06:18.720
+generator circuit
+
+182
+00:06:18.720 --> 00:06:20.560
+suppose the transmitter use the even
+
+183
+00:06:20.560 --> 00:06:22.080
+parity generator circuit
+
+184
+00:06:22.080 --> 00:06:24.479
+at that time it find out the number of
+
+185
+00:06:24.479 --> 00:06:26.080
+one in the message signal
+
+186
+00:06:26.080 --> 00:06:28.000
+if it if the number of one in the
+
+187
+00:06:28.000 --> 00:06:29.680
+message signal is in
+
+188
+00:06:29.680 --> 00:06:32.800
+odd is in even number so the parity bit
+
+189
+00:06:32.800 --> 00:06:33.840
+will be zero
+
+190
+00:06:33.840 --> 00:06:36.240
+if the number of one in the message
+
+191
+00:06:36.240 --> 00:06:38.000
+signal is in the odd number so the
+
+192
+00:06:38.000 --> 00:06:39.600
+parity bit will be the one
+
+193
+00:06:39.600 --> 00:06:42.000
+if then only you can check by you can
+
+194
+00:06:42.000 --> 00:06:42.960
+judge it by
+
+195
+00:06:42.960 --> 00:06:45.840
+checking the uh number of month it is in
+
+196
+00:06:45.840 --> 00:06:47.919
+odd condition or it is in even condition
+
+197
+00:06:47.919 --> 00:06:48.800
+so
+
+198
+00:06:48.800 --> 00:06:50.560
+so here in first method the number of
+
+199
+00:06:50.560 --> 00:06:52.960
+one is zero zero is an even number
+
+200
+00:06:52.960 --> 00:06:55.120
+that's why in even parity case the
+
+201
+00:06:55.120 --> 00:06:57.039
+parity bit will be the zero
+
+202
+00:06:57.039 --> 00:06:59.520
+in the second in the second message here
+
+203
+00:06:59.520 --> 00:07:00.560
+the number of one
+
+204
+00:07:00.560 --> 00:07:03.520
+is one and that is odd that's why the in
+
+205
+00:07:03.520 --> 00:07:04.639
+even parity case
+
+206
+00:07:04.639 --> 00:07:06.960
+the parity bit will be the one suppose i
+
+207
+00:07:06.960 --> 00:07:08.639
+am considering this message suppose i am
+
+208
+00:07:08.639 --> 00:07:10.240
+considering this message here you can
+
+209
+00:07:10.240 --> 00:07:11.039
+see
+
+210
+00:07:11.039 --> 00:07:13.680
+here you can see here the number of one
+
+211
+00:07:13.680 --> 00:07:14.240
+will be
+
+212
+00:07:14.240 --> 00:07:16.560
+here the number of one is three and
+
+213
+00:07:16.560 --> 00:07:17.680
+three is the odd number
+
+214
+00:07:17.680 --> 00:07:19.919
+and to represent the odd number by using
+
+215
+00:07:19.919 --> 00:07:20.800
+even parity
+
+216
+00:07:20.800 --> 00:07:24.000
+we use this one bit okay you can
+
+217
+00:07:24.000 --> 00:07:25.360
+understand by using uh
+
+218
+00:07:25.360 --> 00:07:28.400
+by using this table and uh same as
+
+219
+00:07:28.400 --> 00:07:30.319
+in the odd parity case in odd parity
+
+220
+00:07:30.319 --> 00:07:32.479
+case if the number of one is odd so it
+
+221
+00:07:32.479 --> 00:07:34.240
+is represented as zero if the number of
+
+222
+00:07:34.240 --> 00:07:36.400
+one is even so it is represented by one
+
+223
+00:07:36.400 --> 00:07:38.720
+it is just opposite to the even parity
+
+224
+00:07:38.720 --> 00:07:39.919
+keys okay
+
+225
+00:07:39.919 --> 00:07:43.039
+so uh we can say that if we find out if
+
+226
+00:07:43.039 --> 00:07:45.199
+we find out if we find out the even
+
+227
+00:07:45.199 --> 00:07:47.199
+parity if we find out the even parity
+
+228
+00:07:47.199 --> 00:07:48.000
+that is
+
+229
+00:07:48.000 --> 00:07:50.720
+if we find out the even parity that is
+
+230
+00:07:50.720 --> 00:07:53.039
+if we find out the even parity that is 0
+
+231
+00:07:53.039 --> 00:07:56.160
+1 that is 0 1 0 1 1
+
+232
+00:07:56.160 --> 00:07:59.039
+0 so after getting the even parity if we
+
+233
+00:07:59.039 --> 00:08:00.400
+are taking the complement then
+
+234
+00:08:00.400 --> 00:08:03.520
+we can easily get the odd parity okay if
+
+235
+00:08:03.520 --> 00:08:05.520
+we get the even parity so by taking the
+
+236
+00:08:05.520 --> 00:08:06.560
+complement we will
+
+237
+00:08:06.560 --> 00:08:10.000
+directly get the odd parity so uh if
+
+238
+00:08:10.000 --> 00:08:12.080
+if you want to represent it by using the
+
+239
+00:08:12.080 --> 00:08:13.199
+gate level so
+
+240
+00:08:13.199 --> 00:08:14.720
+for making for making this
+
+241
+00:08:14.720 --> 00:08:16.479
+representation integrate level
+
+242
+00:08:16.479 --> 00:08:18.960
+first we have to first we have to find
+
+243
+00:08:18.960 --> 00:08:20.560
+out its boolean expression
+
+244
+00:08:20.560 --> 00:08:23.919
+so for for finding this for finding this
+
+245
+00:08:23.919 --> 00:08:26.080
+calculation for finding this result
+
+246
+00:08:26.080 --> 00:08:28.479
+we can we can if we can take the xor
+
+247
+00:08:28.479 --> 00:08:30.400
+operation of these weights we can take
+
+248
+00:08:30.400 --> 00:08:32.719
+the xor operation of message bit because
+
+249
+00:08:32.719 --> 00:08:34.958
+xor having a property xor gate is having
+
+250
+00:08:34.958 --> 00:08:36.080
+a property that
+
+251
+00:08:36.080 --> 00:08:39.440
+if if there are no if the number of one
+
+252
+00:08:39.440 --> 00:08:40.559
+if the number of one
+
+253
+00:08:40.559 --> 00:08:43.679
+is if the number of one is if the number
+
+254
+00:08:43.679 --> 00:08:45.680
+of bits if the number of if the
+
+255
+00:08:45.680 --> 00:08:48.000
+if the if the bits are same if the bits
+
+256
+00:08:48.000 --> 00:08:48.959
+are same so that
+
+257
+00:08:48.959 --> 00:08:51.920
+in the case of xor gate the output will
+
+258
+00:08:51.920 --> 00:08:52.399
+be the
+
+259
+00:08:52.399 --> 00:08:55.120
+zero and if the bits are different so in
+
+260
+00:08:55.120 --> 00:08:55.920
+the case of
+
+261
+00:08:55.920 --> 00:08:58.800
+xor the output is one so by using this
+
+262
+00:08:58.800 --> 00:09:00.640
+property by using this coincidence
+
+263
+00:09:00.640 --> 00:09:01.279
+property
+
+264
+00:09:01.279 --> 00:09:03.200
+by using this coincidence what is the
+
+265
+00:09:03.200 --> 00:09:05.519
+mean of coincidence coincidence means
+
+266
+00:09:05.519 --> 00:09:07.279
+the bits are different only when the
+
+267
+00:09:07.279 --> 00:09:08.959
+bits are different so we will get the
+
+268
+00:09:08.959 --> 00:09:10.880
+output in the case of xor gate
+
+269
+00:09:10.880 --> 00:09:14.080
+so uh here um for for finding this type
+
+270
+00:09:14.080 --> 00:09:16.160
+of parity bit we will use this xor
+
+271
+00:09:16.160 --> 00:09:16.800
+property
+
+272
+00:09:16.800 --> 00:09:19.040
+okay so this above expression so this
+
+273
+00:09:19.040 --> 00:09:20.080
+above expression
+
+274
+00:09:20.080 --> 00:09:22.320
+so this other expression this one so
+
+275
+00:09:22.320 --> 00:09:24.320
+this above expression represent
+
+276
+00:09:24.320 --> 00:09:26.720
+the output equation output equation to
+
+277
+00:09:26.720 --> 00:09:27.680
+find out the
+
+278
+00:09:27.680 --> 00:09:29.360
+even parity this even parity is
+
+279
+00:09:29.360 --> 00:09:32.320
+represented by using this pe symbol
+
+280
+00:09:32.320 --> 00:09:36.000
+okay so p e equal to d3 xor d2 x or d1
+
+281
+00:09:36.000 --> 00:09:39.040
+xor d0 same as p naught and we know that
+
+282
+00:09:39.040 --> 00:09:40.480
+p naught is nothing but
+
+283
+00:09:40.480 --> 00:09:42.720
+just a complement version of even parity
+
+284
+00:09:42.720 --> 00:09:43.920
+okay so we can
+
+285
+00:09:43.920 --> 00:09:46.240
+is we can easily we can easily represent
+
+286
+00:09:46.240 --> 00:09:47.279
+the value of
+
+287
+00:09:47.279 --> 00:09:49.360
+p naught by taking the complement of
+
+288
+00:09:49.360 --> 00:09:50.320
+this p
+
+289
+00:09:50.320 --> 00:09:52.480
+so we can say p naught is nothing but a
+
+290
+00:09:52.480 --> 00:09:53.440
+complement of v
+
+291
+00:09:53.440 --> 00:09:55.519
+and what is the value of p p equals to d
+
+292
+00:09:55.519 --> 00:09:57.279
+3 x d 2 x or d
+
+293
+00:09:57.279 --> 00:10:00.399
+1 x d 0 so p not equal to
+
+294
+00:10:00.399 --> 00:10:03.680
+d 3 x or d 2 equal to d 1 x d and
+
+295
+00:10:03.680 --> 00:10:06.160
+at last we can take its complement for
+
+296
+00:10:06.160 --> 00:10:07.360
+finding the value of
+
+297
+00:10:07.360 --> 00:10:11.040
+order parity okay so uh
+
+298
+00:10:11.040 --> 00:10:13.519
+how can we make how can we make it's uh
+
+299
+00:10:13.519 --> 00:10:15.120
+how can we make it's a gate level
+
+300
+00:10:15.120 --> 00:10:15.839
+structure
+
+301
+00:10:15.839 --> 00:10:18.079
+this one is the this this one is the
+
+302
+00:10:18.079 --> 00:10:20.000
+it's this one it's the
+
+303
+00:10:20.000 --> 00:10:21.920
+gate level this one is the gate level
+
+304
+00:10:21.920 --> 00:10:23.519
+structure this one is the gate level
+
+305
+00:10:23.519 --> 00:10:24.560
+structure of
+
+306
+00:10:24.560 --> 00:10:27.200
+parity generator circuit this one is the
+
+307
+00:10:27.200 --> 00:10:29.360
+gate level structure of parity generator
+
+308
+00:10:29.360 --> 00:10:29.920
+circuit
+
+309
+00:10:29.920 --> 00:10:32.000
+here you can see that here we consider
+
+310
+00:10:32.000 --> 00:10:34.000
+some xor gate here we can take
+
+311
+00:10:34.000 --> 00:10:36.320
+here we have considered some xor gate
+
+312
+00:10:36.320 --> 00:10:37.440
+for finding
+
+313
+00:10:37.440 --> 00:10:40.079
+the even parity because even parity pe
+
+314
+00:10:40.079 --> 00:10:40.880
+equals the
+
+315
+00:10:40.880 --> 00:10:43.040
+pe is the according operation of orbit
+
+316
+00:10:43.040 --> 00:10:44.839
+so that's why we have considered the
+
+317
+00:10:44.839 --> 00:10:48.480
+exotic okay we can also we can also make
+
+318
+00:10:48.480 --> 00:10:50.240
+this similar operation we can also make
+
+319
+00:10:50.240 --> 00:10:51.839
+this similar operation by taking some
+
+320
+00:10:51.839 --> 00:10:53.360
+other bit
+
+321
+00:10:53.360 --> 00:10:56.240
+okay because uh because by using nor and
+
+322
+00:10:56.240 --> 00:10:56.640
+no
+
+323
+00:10:56.640 --> 00:10:58.959
+by using nor and nand gate we can we can
+
+324
+00:10:58.959 --> 00:11:00.480
+make in any type of get
+
+325
+00:11:00.480 --> 00:11:02.480
+gate that's why nand gate and nor gate
+
+326
+00:11:02.480 --> 00:11:03.920
+are known as universal gate
+
+327
+00:11:03.920 --> 00:11:06.000
+so we can implement this xor gate by
+
+328
+00:11:06.000 --> 00:11:08.079
+using any type of gate by any type of
+
+329
+00:11:08.079 --> 00:11:09.920
+implementation according to designer
+
+330
+00:11:09.920 --> 00:11:11.120
+requirement
+
+331
+00:11:11.120 --> 00:11:14.160
+okay this one is the so okay so this one
+
+332
+00:11:14.160 --> 00:11:15.360
+is the representation of
+
+333
+00:11:15.360 --> 00:11:18.880
+uh of even parity generator and this one
+
+334
+00:11:18.880 --> 00:11:19.839
+is the this
+
+335
+00:11:19.839 --> 00:11:20.959
+this one is the gate level
+
+336
+00:11:20.959 --> 00:11:23.680
+representation to generate the
+
+337
+00:11:23.680 --> 00:11:25.760
+odd parity generator generator or a
+
+338
+00:11:25.760 --> 00:11:27.600
+generation of odd parity
+
+339
+00:11:27.600 --> 00:11:28.880
+generator circuit this one is the
+
+340
+00:11:28.880 --> 00:11:31.519
+representation of odd parity generator
+
+341
+00:11:31.519 --> 00:11:32.959
+circuit
+
+342
+00:11:32.959 --> 00:11:35.519
+okay uh here you can see by expression
+
+343
+00:11:35.519 --> 00:11:36.480
+it is clear that
+
+344
+00:11:36.480 --> 00:11:38.399
+if you are taking the complement of even
+
+345
+00:11:38.399 --> 00:11:40.160
+parity then we will get the
+
+346
+00:11:40.160 --> 00:11:42.959
+odd parity okay so sim this simulate
+
+347
+00:11:42.959 --> 00:11:44.320
+concept is applied in
+
+348
+00:11:44.320 --> 00:11:46.959
+uh this gate level design also if we are
+
+349
+00:11:46.959 --> 00:11:47.839
+taking if you
+
+350
+00:11:47.839 --> 00:11:50.320
+if we take if we take the complement of
+
+351
+00:11:50.320 --> 00:11:52.399
+the output if you take the complement of
+
+352
+00:11:52.399 --> 00:11:54.240
+output then we will get the opportunity
+
+353
+00:11:54.240 --> 00:11:56.880
+of parity so for taking the complement
+
+354
+00:11:56.880 --> 00:11:57.200
+of
+
+355
+00:11:57.200 --> 00:11:59.440
+this output we will take uh we will take
+
+356
+00:11:59.440 --> 00:12:01.279
+a not gate here we will consider and not
+
+357
+00:12:01.279 --> 00:12:02.000
+get here
+
+358
+00:12:02.000 --> 00:12:03.920
+this not get provide the does not get
+
+359
+00:12:03.920 --> 00:12:05.760
+provide the complement of this pe
+
+360
+00:12:05.760 --> 00:12:07.279
+and we will get the odd parity in the
+
+361
+00:12:07.279 --> 00:12:09.360
+output side
+
+362
+00:12:09.360 --> 00:12:11.600
+okay so this one is all about so this
+
+363
+00:12:11.600 --> 00:12:13.600
+one is all about the theoretical portion
+
+364
+00:12:13.600 --> 00:12:15.519
+so this one is all about the theoretical
+
+365
+00:12:15.519 --> 00:12:18.800
+portion of parity generator okay you can
+
+366
+00:12:18.800 --> 00:12:20.480
+you can note down the theoretical
+
+367
+00:12:20.480 --> 00:12:22.000
+portion you can note down the
+
+368
+00:12:22.000 --> 00:12:23.200
+theoretical portion
+
+369
+00:12:23.200 --> 00:12:25.360
+that is mentioned here you can note down
+
+370
+00:12:25.360 --> 00:12:27.279
+the this theoretical portion that is
+
+371
+00:12:27.279 --> 00:12:29.360
+mentioned here
+
+372
+00:12:29.360 --> 00:12:31.600
+and in your in your textbook new
+
+373
+00:12:31.600 --> 00:12:33.360
+investment the theoretical
+
+374
+00:12:33.360 --> 00:12:36.639
+representation is given as this one is
+
+375
+00:12:36.639 --> 00:12:38.160
+the this one is the equation
+
+376
+00:12:38.160 --> 00:12:39.839
+this one is the equation this one is the
+
+377
+00:12:39.839 --> 00:12:41.680
+equation of parity generator this one is
+
+378
+00:12:41.680 --> 00:12:43.680
+the equation of parity generator
+
+379
+00:12:43.680 --> 00:12:45.839
+parity parity equals to a naught x or a
+
+380
+00:12:45.839 --> 00:12:47.680
+one x or a two x or a three
+
+381
+00:12:47.680 --> 00:12:50.480
+and so on okay this parity generator
+
+382
+00:12:50.480 --> 00:12:52.800
+this parity generator can be of 16 bit
+
+383
+00:12:52.800 --> 00:12:53.519
+can be of
+
+384
+00:12:53.519 --> 00:12:55.440
+32 bits according to requirement
+
+385
+00:12:55.440 --> 00:12:57.519
+according to the length of bitstream
+
+386
+00:12:57.519 --> 00:12:59.920
+okay so this one is the this one is the
+
+387
+00:12:59.920 --> 00:13:01.760
+theoretical portion that is represented
+
+388
+00:13:01.760 --> 00:13:02.959
+in your textbook
+
+389
+00:13:02.959 --> 00:13:04.720
+and the diagram and the circuit diagram
+
+390
+00:13:04.720 --> 00:13:06.000
+or the gate level structure
+
+391
+00:13:06.000 --> 00:13:08.399
+for this parity generator is represented
+
+392
+00:13:08.399 --> 00:13:09.200
+here
+
+393
+00:13:09.200 --> 00:13:11.760
+circuit level representation is
+
+394
+00:13:11.760 --> 00:13:12.959
+represented
+
+395
+00:13:12.959 --> 00:13:16.079
+it is represented here this one is the
+
+396
+00:13:16.079 --> 00:13:17.920
+this one is the gate level structure
+
+397
+00:13:17.920 --> 00:13:18.880
+this one is the
+
+398
+00:13:18.880 --> 00:13:20.560
+this one is the gate level structure
+
+399
+00:13:20.560 --> 00:13:22.160
+this one is the gate level design this
+
+400
+00:13:22.160 --> 00:13:23.839
+one is the gate level design
+
+401
+00:13:23.839 --> 00:13:27.279
+of a parity generator circuit
+
+402
+00:13:27.279 --> 00:13:30.000
+and the second one the second one is the
+
+403
+00:13:30.000 --> 00:13:30.959
+second one
+
+404
+00:13:30.959 --> 00:13:33.200
+the second representation is also the
+
+405
+00:13:33.200 --> 00:13:34.639
+second representation is
+
+406
+00:13:34.639 --> 00:13:37.440
+also a parity generator circuit but it
+
+407
+00:13:37.440 --> 00:13:37.920
+is in
+
+408
+00:13:37.920 --> 00:13:41.199
+some other logic this logic this logic
+
+409
+00:13:41.199 --> 00:13:43.839
+is known as this logic is known as
+
+410
+00:13:43.839 --> 00:13:45.040
+dynamic version
+
+411
+00:13:45.040 --> 00:13:47.440
+this logic is known as dynamic version
+
+412
+00:13:47.440 --> 00:13:49.519
+this logic is known as dynamic version
+
+413
+00:13:49.519 --> 00:13:49.760
+of
+
+414
+00:13:49.760 --> 00:13:52.000
+xor gate this logic is known as dynamic
+
+415
+00:13:52.000 --> 00:13:53.279
+version of exactly
+
+416
+00:13:53.279 --> 00:13:56.079
+here each exorgate here all exhaust are
+
+417
+00:13:56.079 --> 00:13:57.279
+here all xor gate
+
+418
+00:13:57.279 --> 00:13:59.920
+is mentioned by using here all exor
+
+419
+00:13:59.920 --> 00:14:00.399
+gates
+
+420
+00:14:00.399 --> 00:14:03.440
+are mentioned by using um these similar
+
+421
+00:14:03.440 --> 00:14:05.760
+this fasten the one combination this
+
+422
+00:14:05.760 --> 00:14:07.519
+simple combination here this simple
+
+423
+00:14:07.519 --> 00:14:08.160
+combination
+
+424
+00:14:08.160 --> 00:14:11.680
+is made up is make a xor gate so here
+
+425
+00:14:11.680 --> 00:14:14.320
+this combination is make a xor gate okay
+
+426
+00:14:14.320 --> 00:14:16.160
+this combination is make some uh
+
+427
+00:14:16.160 --> 00:14:17.920
+another x or get this combination is
+
+428
+00:14:17.920 --> 00:14:19.279
+make some another and
+
+429
+00:14:19.279 --> 00:14:22.560
+uh xor gate okay so this overall so this
+
+430
+00:14:22.560 --> 00:14:24.320
+overall expression so this
+
+431
+00:14:24.320 --> 00:14:26.720
+overall expression should so this
+
+432
+00:14:26.720 --> 00:14:29.519
+overall expression
+
+433
+00:14:29.519 --> 00:14:32.720
+is responsible responsible
+
+434
+00:14:32.720 --> 00:14:36.160
+to find out a xor b
+
+435
+00:14:36.160 --> 00:14:39.440
+xor a xor b xor
+
+436
+00:14:39.440 --> 00:14:43.399
+c xor d
+
+437
+00:14:43.399 --> 00:14:46.399
+cxordy
+
+438
+00:14:46.560 --> 00:14:49.040
+okay so this dynamic representation so
+
+439
+00:14:49.040 --> 00:14:50.639
+this dynamic representation is
+
+440
+00:14:50.639 --> 00:14:52.160
+responsible to get this
+
+441
+00:14:52.160 --> 00:14:55.519
+for input i think it is clear to all of
+
+442
+00:14:55.519 --> 00:14:57.600
+you i think this topic is clear
+
+443
+00:14:57.600 --> 00:15:01.120
+to all of you okay
+
+444
+00:15:01.120 --> 00:15:03.600
+now if you want to make if you want to
+
+445
+00:15:03.600 --> 00:15:04.639
+make a static input
+
+446
+00:15:04.639 --> 00:15:06.720
+structure a static structure this one
+
+447
+00:15:06.720 --> 00:15:07.760
+this
+
+448
+00:15:07.760 --> 00:15:11.839
+diagram is also also a representation of
+
+449
+00:15:11.839 --> 00:15:13.279
+a x or b x or c
+
+450
+00:15:13.279 --> 00:15:15.360
+x or d this one is the also
+
+451
+00:15:15.360 --> 00:15:17.360
+representation of a x or b x or c
+
+452
+00:15:17.360 --> 00:15:19.920
+x or d this this diagram this
+
+453
+00:15:19.920 --> 00:15:21.360
+representation is known as
+
+454
+00:15:21.360 --> 00:15:24.000
+static four input xor this diagram is
+
+455
+00:15:24.000 --> 00:15:24.720
+also known as
+
+456
+00:15:24.720 --> 00:15:27.920
+static for input xor kit okay static
+
+457
+00:15:27.920 --> 00:15:29.120
+four input xor gate
+
+458
+00:15:29.120 --> 00:15:32.079
+how how we can get how we can get this
+
+459
+00:15:32.079 --> 00:15:32.800
+uh
+
+460
+00:15:32.800 --> 00:15:35.040
+diagram we already know that we already
+
+461
+00:15:35.040 --> 00:15:36.800
+know that we already know that what is
+
+462
+00:15:36.800 --> 00:15:38.800
+the expansion what is the expansion of
+
+463
+00:15:38.800 --> 00:15:41.120
+ax or b what is the expansion of what is
+
+464
+00:15:41.120 --> 00:15:42.880
+the expansion of ax
+
+465
+00:15:42.880 --> 00:15:46.240
+or b if if if we express
+
+466
+00:15:46.240 --> 00:15:49.040
+if we if you expand this a x or b a x or
+
+467
+00:15:49.040 --> 00:15:49.600
+b means
+
+468
+00:15:49.600 --> 00:15:53.040
+a x or b means a b bar a x or b means a
+
+469
+00:15:53.040 --> 00:15:53.680
+b bar
+
+470
+00:15:53.680 --> 00:15:58.800
+plus a bar b a b bar plus a bar b
+
+471
+00:15:58.800 --> 00:16:02.079
+x or b means a x or b plus a x
+
+472
+00:16:02.079 --> 00:16:05.279
+or b uh plus a b x or same as c
+
+473
+00:16:05.279 --> 00:16:08.480
+x or d means c x or d plus c d x
+
+474
+00:16:08.480 --> 00:16:11.600
+and at last when we when we when we take
+
+475
+00:16:11.600 --> 00:16:14.639
+the xor of this and the xor of c x or d
+
+476
+00:16:14.639 --> 00:16:16.880
+then we will get we will get a boolean
+
+477
+00:16:16.880 --> 00:16:18.000
+we will get some
+
+478
+00:16:18.000 --> 00:16:20.240
+sop form equation we will get some uh
+
+479
+00:16:20.240 --> 00:16:21.600
+different terms
+
+480
+00:16:21.600 --> 00:16:25.040
+and these are these different terms
+
+481
+00:16:25.040 --> 00:16:27.839
+we will get these different term we will
+
+482
+00:16:27.839 --> 00:16:29.519
+get when we expand this
+
+483
+00:16:29.519 --> 00:16:33.199
+simple static circuit okay so this one
+
+484
+00:16:33.199 --> 00:16:35.120
+so this one is all about so this one is
+
+485
+00:16:35.120 --> 00:16:36.000
+all about
+
+486
+00:16:36.000 --> 00:16:38.160
+the representation of parity generator
+
+487
+00:16:38.160 --> 00:16:39.839
+circuit
+
+488
+00:16:39.839 --> 00:16:43.040
+so i i hope you all understand this
+
+489
+00:16:43.040 --> 00:16:45.839
+topic of parity generator
+
+490
+00:16:45.839 --> 00:16:49.199
+so thank you so much in next topic
+
+491
+00:16:49.199 --> 00:16:52.959
+in next lecture uh
+
+492
+00:16:53.040 --> 00:16:56.240
+we will study some uh other topic so
+
+493
+00:16:56.240 --> 00:16:58.880
+we can we can take zero one detector or
+
+494
+00:16:58.880 --> 00:17:01.199
+complete a topic in our next lecture
+
+495
+00:17:01.199 --> 00:17:05.839
+okay okay thank you so much
+

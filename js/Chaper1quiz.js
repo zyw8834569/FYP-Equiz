@@ -69,62 +69,62 @@ const proceed = document.getElementById('proceed')
 let shuffledQuestions, currentQuestionIndex
 const questions = [
     {
-        question: 'In CMOS fabrication, nMOS and pMOS are integrated in same substrate?',
+        question: 'Operational amplifiers use Digital ICs?',
         answers: [
             { text: 'True', correct: true },
             { text: 'False', correct: false }
         ],
-        explanation: 'Explantion: In CMOS fabrication, nMOS and pMOS are integrated in the same chip substrate. n-type and p-type devices are formed in the same structure.'
+        explanation: 'Explanation: In Digital IC,Normally Digital IC use Operational amplifier .'
     },
     {
-        question: 'The arrow on the symbol of MOSFET indicates?',
+        question: 'The SiO2 layer in an IC acts as?',
         answers: [
-            { text: 'that it is a N-channel MOSFET', correct: false },
-            { text: 'the direction of electrons', correct: true },
-            { text: ' the direction of conventional current flow', correct: false },
-            { text: 'that it is a P-channel MOSFET', correct: false },
+            { text: 'A resistor', correct: false },
+            { text: 'An insulating layer', correct: true },
+            { text: 'Mechanical output', correct: false },
+            { text: 'None of the above', correct: false },
         ],
-        explanation: 'Explantion: The arrow is to indicate the direction of electrons (opposite to the direction of conventional current flow).'
+        explanation: 'Explanation: An insulating layer is made by SiO2.'
     },
     {
-        question: 'Neglecting Channel Length Modulation, if the transconductance of a MOSFET increases, the output impedance of the follower stage?',
+        question: '............... is most difficult to fabricate in an IC',
         answers: [
-            { text: 'increase', correct: false },
-            { text: 'decrease', correct: true },
-            { text: 'increase linearly', correct: false },
-            { text: 'decrease non-linearly', correct: false }
+            { text: 'FET', correct: false },
+            { text: 'Capacitor', correct: true },
+            { text: 'Diode', correct: false },
+            { text: 'Transistor', correct: false }
         ],
-        explanation: 'Explantion: The output impedance of a follower stage is (1/gm || Rd). If the transconductance increases, the output impedance will decrease, as can be seen from the formulae.'
+        explanation: 'Explanation: Capacitor is a key component in IC fabrication.'
     },
     {
-        question: 'If p-transistor is conducting and has small voltage between source and drain, then the it is said to work in',
+        question: 'Which of the following is the disadvantage of an integrated circuit?',
         answers: [
-            { text: 'linear region', correct: false },
-            { text: 'saturation region', correct: false },
-            { text: 'non saturation resistive region', correct: true },
-            { text: 'cut-off region', correct: false },
+            { text: 'Low power requirement', correct: false },
+            { text: 'ICs are considered to use minimum number of external connections', correct: false },
+            { text: 'Parameter within the IC cannot be modified', correct: true },
+            { text: 'All of the above', correct: false },
         ],
-        explanation: 'Explantion: If p-transistor is conducting and has small voltage between source and drain, then it is said to be in unsaturated resistive region.'
+        explanation: 'Explanation: Because IC chip is quite sensitive component.'
     },
     {
-        question: 'An n-channel MOSFET operating with VOV=0.5V exhibits a linear resistance = 1 kΩ when VDS is very small. What is the value of the device transconductance parameter kn?',
+        question: '. ........... is the different version of IC 741C',
         answers: [
-            { text: '2 mA/V^2', correct: true },
-            { text: '20 mA/V^2', correct: false },
-            { text: '0.2 A/V^2', correct: false },
-            { text: '2 A/V^2', correct: false }
+            { text: '741SC', correct: true },
+            { text: '741S', correct: false },
+            { text: '741E', correct: false },
+            { text: '741A', correct: false }
         ],
-        explanation: 'Explantion: Use the standard mathematical expression to determine the value of kn. '
+        explanation: 'Explanation: This is the latest technology. '
     },
     {
-        question: 'For MOSFET is to be used as a switch then it must operate in',
+        question: 'Which kind of integrated circuit is suitable for small quantity custom circuits?',
         answers: [
-            { text: 'Cut-off region', correct: false },
-            { text: 'Triode region', correct: false },
-            { text: 'Saturation region', correct: false },
-            { text: ' Both cut-off and triode region can be used', correct: true }
+            { text: 'Linear IC', correct: false },
+            { text: 'Digital IC', correct: false },
+            { text: 'Monolithic IC', correct: false },
+            { text: 'Hybrid IC', correct: true }
         ],
-        explanation: 'Explantion: In both regions it can perform the task of a switch. '
+        explanation: 'Explanation: Because this Hybrid IC is smallest . '
     },
 ]
 

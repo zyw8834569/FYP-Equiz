@@ -1,107 +1,107 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-    font-family: Gotham Rounded;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded;
 }
 :root {
-    --hue-neutral: 229;
-    --hue-wrong: 0;
-    --hue-correct: 129;
+  --hue-neutral: 200;
+  --hue-wrong: 0;
+  --hue-correct: 129;
 }
-body{
-      --hue:var(--hue-neutral);
-      padding: 0;
-      margin: 0;
-      display: flex;
-      width:100vw;
-      height: 100vh;
-      justify-content: center;
-      align-items: center;
-      background-color: hsl(var(--hue),57%, 36%, 0.69);
-
+body {
+  --hue: var(--hue-neutral);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(var(--hue), 57%, 36%, 0.69);
 }
-body.correct{
-      --hue:var(--hue-correct);
-  }
-body.wrong{
-    --hue:var(--hue-wrong);
+body.correct {
+  --hue: var(--hue-correct);
 }
-.container{
-    width: 900px;
-    max-width: 80%;
-    background-color: white;
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 0 0 10px 2px;
+body.wrong {
+  --hue: var(--hue-wrong);
+}
+.container {
+  width: 900px;
+  max-width: 80%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
 }
 #heading {
   font-size: 2em;
-  font-family:'ZCOOL XiaoWei', serif;
+  font-family: "ZCOOL XiaoWei", serif;
 }
-#explanation{
+#explanation {
   font-size: 1em;
-  font-family: 'Oswald', sans-serif;
-  font-weight:bold;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
   margin-bottom: 15px;
 }
-.btn{
+.btn {
   font-size: 1.5em;
 }
-.btn-grid{
-    display: grid;
-    grid-template-columns: repeat(2,auto);
-    gap: 10px;
-    margin: 20px 0;
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: 20px 0;
 }
-.btn{
-    --hue:var(--hue-neutral);
-    border:1px solid hsl(var(--hue),100%,30%);
-    background-color: hsl(var(--hue),100%,50%);
-    border-radius: 5px;
-    padding: 5px 10px;
-    color: white;
-    outline: none;
-    transition: all .2s ease-in-out;
+.btn {
+  --hue: var(--hue-neutral);
+  border: 1px solid hsl(var(--hue), 100%, 30%);
+  background-color: hsl(var(--hue), 100%, 50%);
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+  transition: all 0.2s ease-in-out;
 }
-.btn:hover{
-    border-color:black ;
-    transform: scale(1.05);
+.btn:hover {
+  border-color: black;
+  transform: scale(1.05);
 }
 
-.btn.wrong{
-    --hue: var(--hue-wrong);
+.btn.wrong {
+  --hue: var(--hue-wrong);
 }
-.btn.correct{
+.btn.correct {
   --hue: var(--hue-correct);
 }
-.start, .next {
- 
-    font-weight: bold;
-    padding: 10px 20px;
+.start,
+.next {
+  font-weight: bold;
+  padding: 10px 20px;
 }
-  .controls-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.controls-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-  .hide {
-    display: none;
+.hide {
+  display: none;
 }
-.modal{
+.modal {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
-  background:rgb(0,0,0,0.4);
+  background: rgb(0, 0, 0, 0.4);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   visibility: visible;
   z-index: 3;
-  
 }
 
-.modal-content{
+.modal-content {
   width: 50%;
   height: 50%;
   background-color: white;
@@ -109,100 +109,96 @@ body.wrong{
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-
 }
-.modal-title{
+.modal-title {
   align-items: center;
   justify-content: center;
-  margin:0,auto,0,auto;
+  margin: 0, auto, 0, auto;
 }
-.modal-title h2{
+.modal-title h2 {
   font-size: 1em;
   margin-left: 15px;
   margin-right: 15px;
 }
-.modal-name{
+.modal-name {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   width: 80%;
 }
-.modal-matriculation{
+.modal-matriculation {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   width: 80%;
 }
-.modal-name > label{
+.modal-name > label {
   flex: 0.3;
 
   margin-left: 10px;
   margin-right: 10px;
 }
-.modal-name > input{
-    flex: 0.7;
-    width: 70%;
-    margin-right: 10px;
-    color: rgb(38, 50, 56);
-    font-weight: 700;
-    letter-spacing: 1px;
-    background: rgba(136, 126, 126, 0.04);
-    border: none;
-    border-radius: 5px;
-    box-sizing: border-box;
-    border: 2px solid rgba(0, 0, 0, 0.02);
-    margin-left: 10px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+.modal-name > input {
+  flex: 0.7;
+  width: 70%;
+  margin-right: 10px;
+  color: rgb(38, 50, 56);
+  font-weight: 700;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
 }
 
-.modal-matriculation> label{
+.modal-matriculation > label {
   flex: 0.3;
   margin-left: 10px;
   margin-right: 10px;
 }
-.modal-matriculation> input{
-    flex: 0.7;
-    margin-right: 10px;
-    width: 70%;
-    color: rgb(38, 50, 56);
-    font-weight: 700;
-    letter-spacing: 1px;
-    background: rgba(136, 126, 126, 0.04);
-    border: none;
-    border-radius: 5px;
-    box-sizing: border-box;
-    border: 2px solid rgba(0, 0, 0, 0.02);
-    margin-left: 10px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+.modal-matriculation > input {
+  flex: 0.7;
+  margin-right: 10px;
+  width: 70%;
+  color: rgb(38, 50, 56);
+  font-weight: 700;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
 }
-#submit{
-
-    border-radius: 5em;
-    color: #fff;
-    background: gray;
-    border: 0;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1em;
-    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
-    transition: 0.5s ease-in-out;
+#submit {
+  border-radius: 5em;
+  color: #fff;
+  background: gray;
+  border: 0;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+  transition: 0.5s ease-in-out;
 }
 
-
-#submit:hover{
+#submit:hover {
   transform: scale(1.2);
 }
-

@@ -310,6 +310,7 @@ function submitResult() {
         console.log(`${result.updatedCells} cells updated.`);
     });
 
+    alert("Your Quiz has been successfully submitted!,Go back to home page");
 }
 
-alert("Your Quiz has been successfully submitted!,Go back to home page");
+

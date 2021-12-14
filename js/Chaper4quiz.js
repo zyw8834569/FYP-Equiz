@@ -69,32 +69,34 @@ const proceed = document.getElementById('proceed')
 let shuffledQuestions, currentQuestionIndex
 const questions = [
     {
-        question: 'In CMOS fabrication, nMOS and pMOS are integrated in same substrate?',
+        question: 'What is Non ideal I-V effects?',
         answers: [
-            { text: 'True', correct: true },
-            { text: 'False', correct: false }
+            { text: 'I-V effects is a theory', correct: false },
+            { text: 'I-V effects is a question', correct: false },
+            { text: 'The I-V characteristics designed for deep-submicron processes', correct: true },
+            { text: 'I-V effects is a Calculation', correct: false }
         ],
-        explanation: 'Explantion: In CMOS fabrication, nMOS and pMOS are integrated in the same chip substrate. n-type and p-type devices are formed in the same structure.'
+        explanation: 'Explanation: The I-V characteristics designed so far neglect many effects that are important in modern deep-submicron processes.'
     },
     {
-        question: 'The arrow on the symbol of MOSFET indicates?',
+        question: 'NON-IDEAL I-V EFFECTS stand for ?',
         answers: [
-            { text: 'that it is a N-channel MOSFET', correct: false },
-            { text: 'the direction of electrons', correct: true },
-            { text: ' the direction of conventional current flow', correct: false },
-            { text: 'that it is a P-channel MOSFET', correct: false },
+            { text: 'I-V characteristics designed', correct: false },
+            { text: 'deep-submicron', correct: false },
+            { text: 'modern processes', correct: false },
+            { text: 'The I-V characteristics designed so far neglect many effects', correct: true },
         ],
-        explanation: 'Explantion: The arrow is to indicate the direction of electrons (opposite to the direction of conventional current flow).'
+        explanation: 'Explanation: The I-V characteristics designed so far neglect many effects that are important in modern deep-submicron processes.'
     },
     {
-        question: 'Neglecting Channel Length Modulation, if the transconductance of a MOSFET increases, the output impedance of the follower stage?',
+        question: 'What is CMOS technology ?',
         answers: [
-            { text: 'increase', correct: false },
-            { text: 'decrease', correct: true },
-            { text: 'increase linearly', correct: false },
-            { text: 'decrease non-linearly', correct: false }
+            { text: 'superimposing several layers of conducting', correct: false },
+            { text: 'diffusion,polysilicon,insulating layers', correct: false },
+            { text: 'n-type transistor (n MOS) and a p-type transistor (p MOS)', correct: false },
+            { text: 'All of above', correct: true }
         ],
-        explanation: 'Explantion: The output impedance of a follower stage is (1/gm || Rd). If the transconductance increases, the output impedance will decrease, as can be seen from the formulae.'
+        explanation: 'Explanation: An MOS (Metal-Oxide-Silicon) structure is created by superimposing several layers of conducting, insulating, and transistor forming materials.'
     },
     {
         question: 'If p-transistor is conducting and has small voltage between source and drain, then the it is said to work in',
@@ -104,7 +106,7 @@ const questions = [
             { text: 'non saturation resistive region', correct: true },
             { text: 'cut-off region', correct: false },
         ],
-        explanation: 'Explantion: If p-transistor is conducting and has small voltage between source and drain, then it is said to be in unsaturated resistive region.'
+        explanation: 'Explanation: If p-transistor is conducting and has small voltage between source and drain, then it is said to be in unsaturated resistive region.'
     },
     {
         question: 'An n-channel MOSFET operating with VOV=0.5V exhibits a linear resistance = 1 kΩ when VDS is very small. What is the value of the device transconductance parameter kn?',
@@ -114,7 +116,7 @@ const questions = [
             { text: '0.2 A/V^2', correct: false },
             { text: '2 A/V^2', correct: false }
         ],
-        explanation: 'Explantion: Use the standard mathematical expression to determine the value of kn. '
+        explanation: 'Explanation: Use the standard mathematical expression to determine the value of kn. '
     },
     {
         question: 'For MOSFET is to be used as a switch then it must operate in',
@@ -124,7 +126,7 @@ const questions = [
             { text: 'Saturation region', correct: false },
             { text: ' Both cut-off and triode region can be used', correct: true }
         ],
-        explanation: 'Explantion: In both regions it can perform the task of a switch. '
+        explanation: 'Explanation: In both regions it can perform the task of a switch. '
     },
 ]
 
@@ -285,7 +287,7 @@ function appendPre(message) {
 
 
 
-const test = 'Chapter1';
+const test = 'Chapter4';
 const date = new Date().toLocaleString();
 
 

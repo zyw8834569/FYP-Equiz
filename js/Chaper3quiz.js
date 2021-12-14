@@ -69,62 +69,64 @@ const proceed = document.getElementById('proceed')
 let shuffledQuestions, currentQuestionIndex
 const questions = [
     {
-        question: 'In CMOS fabrication, nMOS and pMOS are integrated in same substrate?',
+        question: ' If three resistors, R1=50.0 kOhm, R2=50.0 kOhm and R3=25.0 kOhm, are placed in parallel, what resistor (Re) could be used to represent an equivalent resistance?',
         answers: [
-            { text: 'True', correct: true },
-            { text: 'False', correct: false }
+            { text: '25.0 kOhm', correct: true },
+            { text: '41.7 kOhm', correct: false },
+            { text: '125.0 kOhm', correct: false },
+            { text: '12.5 kOhm', correct: false },
         ],
-        explanation: 'Explantion: In CMOS fabrication, nMOS and pMOS are integrated in the same chip substrate. n-type and p-type devices are formed in the same structure.'
+        explanation: 'Explanation: Knowing that resistors in parallel all contain the same voltage,1/Re = 1/R1 + 1/R2 + 1/R3 + 1/R4 + 1/R5 + ...'
     },
     {
-        question: 'The arrow on the symbol of MOSFET indicates?',
+        question: 'What law is used when evaluating a circuit using the Node Voltage method?',
         answers: [
-            { text: 'that it is a N-channel MOSFET', correct: false },
-            { text: 'the direction of electrons', correct: true },
-            { text: ' the direction of conventional current flow', correct: false },
-            { text: 'that it is a P-channel MOSFET', correct: false },
+            { text: 'Volta\'s Law', correct: false },
+            { text: 'Law of Superposition', correct: false },
+            { text: 'Kirchhoff\'s Current Law', correct: true },
+            { text: 'Kirchhoff\'s Voltage Law', correct: false },
         ],
-        explanation: 'Explantion: The arrow is to indicate the direction of electrons (opposite to the direction of conventional current flow).'
+        explanation: 'Explanation: The Node Voltage method is a technique used in solving linear circuits by using Ohm\'s law and Kirchoff\'s current law. '
     },
     {
-        question: 'Neglecting Channel Length Modulation, if the transconductance of a MOSFET increases, the output impedance of the follower stage?',
+        question: 'What is the method of analyzing a circuit containing multiple independent sources by activating one source at a time?',
         answers: [
-            { text: 'increase', correct: false },
-            { text: 'decrease', correct: true },
-            { text: 'increase linearly', correct: false },
-            { text: 'decrease non-linearly', correct: false }
+            { text: 'Thevenin Equivalence', correct: false },
+            { text: 'Source Transformation', correct: false },
+            { text: 'Norton Equivalence', correct: false },
+            { text: 'Superposition', correct: true }
         ],
-        explanation: 'Explantion: The output impedance of a follower stage is (1/gm || Rd). If the transconductance increases, the output impedance will decrease, as can be seen from the formulae.'
+        explanation: 'Explanation: The principle of superposition is a method that allows a person to activate each source one at a time and sum the resulting voltages.'
     },
     {
-        question: 'If p-transistor is conducting and has small voltage between source and drain, then the it is said to work in',
+        question: 'If three resistors, R1=50.0 kOhm, R2=50.0 kOhm and R3=25.0 kOhm, are placed in series, what resistor (Re) could be used to represent an equivalent resistance?',
         answers: [
-            { text: 'linear region', correct: false },
-            { text: 'saturation region', correct: false },
-            { text: 'non saturation resistive region', correct: true },
-            { text: 'cut-off region', correct: false },
+            { text: '25.0 kOhm', correct: false },
+            { text: '41.7 kOhm', correct: false },
+            { text: '125.0 kOhm', correct: true },
+            { text: '12.5 kOhm', correct: false },
         ],
-        explanation: 'Explantion: If p-transistor is conducting and has small voltage between source and drain, then it is said to be in unsaturated resistive region.'
+        explanation: 'Explanation: Knowing that resistors in series all contain the same current,Re = R1 + R2 + R3 + R4 + R5 + ...'
     },
     {
-        question: 'An n-channel MOSFET operating with VOV=0.5V exhibits a linear resistance = 1 kΩ when VDS is very small. What is the value of the device transconductance parameter kn?',
+        question: 'Made from a variety of materials, such as carbon, this inhibits the flow of current.',
         answers: [
-            { text: '2 mA/V^2', correct: true },
-            { text: '20 mA/V^2', correct: false },
-            { text: '0.2 A/V^2', correct: false },
-            { text: '2 A/V^2', correct: false }
+            { text: 'choke', correct: false },
+            { text: 'inductor', correct: false },
+            { text: 'resistor', correct: true },
+            { text: 'capacitor', correct: false }
         ],
-        explanation: 'Explantion: Use the standard mathematical expression to determine the value of kn. '
+        explanation: 'Explanation: The device is so named because it resists (or inhibits) the flow of current. '
     },
     {
-        question: 'For MOSFET is to be used as a switch then it must operate in',
+        question: 'This consists of an electromagnet, which is used to open or close a contact(s). It is used in switching that requires isolation or high power.',
         answers: [
-            { text: 'Cut-off region', correct: false },
-            { text: 'Triode region', correct: false },
-            { text: 'Saturation region', correct: false },
-            { text: ' Both cut-off and triode region can be used', correct: true }
+            { text: 'rheostat', correct: false },
+            { text: 'inductor', correct: false },
+            { text: 'transistor', correct: false },
+            { text: 'relay', correct: true }
         ],
-        explanation: 'Explantion: In both regions it can perform the task of a switch. '
+        explanation: 'Explanation: Relays were used for logic circuits in some of the earliest computers. They were later replaced by modern semiconductors. '
     },
 ]
 
@@ -285,7 +287,7 @@ function appendPre(message) {
 
 
 
-const test = 'Chapter1';
+const test = 'Chapter3';
 const date = new Date().toLocaleString();
 
 

@@ -74,7 +74,7 @@ const questions = [
             { text: 'True', correct: true },
             { text: 'False', correct: false }
         ],
-        explanation: 'Explantion: In CMOS fabrication, nMOS and pMOS are integrated in the same chip substrate. n-type and p-type devices are formed in the same structure.'
+        explanation: 'Explanation: In CMOS fabrication, nMOS and pMOS are integrated in the same chip substrate. n-type and p-type devices are formed in the same structure.'
     },
     {
         question: 'The arrow on the symbol of MOSFET indicates?',
@@ -84,7 +84,7 @@ const questions = [
             { text: ' the direction of conventional current flow', correct: false },
             { text: 'that it is a P-channel MOSFET', correct: false },
         ],
-        explanation: 'Explantion: The arrow is to indicate the direction of electrons (opposite to the direction of conventional current flow).'
+        explanation: 'Explanation: The arrow is to indicate the direction of electrons (opposite to the direction of conventional current flow).'
     },
     {
         question: 'Neglecting Channel Length Modulation, if the transconductance of a MOSFET increases, the output impedance of the follower stage?',
@@ -94,7 +94,7 @@ const questions = [
             { text: 'increase linearly', correct: false },
             { text: 'decrease non-linearly', correct: false }
         ],
-        explanation: 'Explantion: The output impedance of a follower stage is (1/gm || Rd). If the transconductance increases, the output impedance will decrease, as can be seen from the formulae.'
+        explanation: 'Explanation: The output impedance of a follower stage is (1/gm || Rd). If the transconductance increases, the output impedance will decrease, as can be seen from the formulae.'
     },
     {
         question: 'If p-transistor is conducting and has small voltage between source and drain, then the it is said to work in',
@@ -104,7 +104,7 @@ const questions = [
             { text: 'non saturation resistive region', correct: true },
             { text: 'cut-off region', correct: false },
         ],
-        explanation: 'Explantion: If p-transistor is conducting and has small voltage between source and drain, then it is said to be in unsaturated resistive region.'
+        explanation: 'Explanation: If p-transistor is conducting and has small voltage between source and drain, then it is said to be in unsaturated resistive region.'
     },
     {
         question: 'An n-channel MOSFET operating with VOV=0.5V exhibits a linear resistance = 1 kΩ when VDS is very small. What is the value of the device transconductance parameter kn?',
@@ -114,7 +114,7 @@ const questions = [
             { text: '0.2 A/V^2', correct: false },
             { text: '2 A/V^2', correct: false }
         ],
-        explanation: 'Explantion: Use the standard mathematical expression to determine the value of kn. '
+        explanation: 'Explanation: Use the standard mathematical expression to determine the value of kn. '
     },
     {
         question: 'For MOSFET is to be used as a switch then it must operate in',
@@ -124,7 +124,7 @@ const questions = [
             { text: 'Saturation region', correct: false },
             { text: ' Both cut-off and triode region can be used', correct: true }
         ],
-        explanation: 'Explantion: In both regions it can perform the task of a switch. '
+        explanation: 'Explanation: In both regions it can perform the task of a switch. '
     },
 ]
 
@@ -285,7 +285,7 @@ function appendPre(message) {
 
 
 
-const test = 'Chapter1';
+const test = 'Chapter7';
 const date = new Date().toLocaleString();
 
 

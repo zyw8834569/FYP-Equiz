@@ -69,62 +69,64 @@ const proceed = document.getElementById('proceed')
 let shuffledQuestions, currentQuestionIndex
 const questions = [
     {
-        question: 'In CMOS fabrication, nMOS and pMOS are integrated in same substrate?',
+        question: 'Which of the following prefixes represents 10 raised to the power of -15?',
         answers: [
-            { text: 'True', correct: true },
-            { text: 'False', correct: false }
+            { text: 'deci(d)', correct: false },
+            { text: 'atto(a)', correct: false },
+            { text: 'femto(f)', correct: false },
+            { text: 'pico(p)', correct: true },
         ],
-        explanation: 'Explantion: In CMOS fabrication, nMOS and pMOS are integrated in the same chip substrate. n-type and p-type devices are formed in the same structure.'
+        explanation: 'Explanation: n electrical circuit analysis, the circuit components of voltages, currents, resistances, conductances, etc. are very small.'
     },
     {
-        question: 'The arrow on the symbol of MOSFET indicates?',
+        question: 'Which of the following is a representation of an electric charge?',
         answers: [
-            { text: 'that it is a N-channel MOSFET', correct: false },
-            { text: 'the direction of electrons', correct: true },
-            { text: ' the direction of conventional current flow', correct: false },
-            { text: 'that it is a P-channel MOSFET', correct: false },
+            { text: '2 amperes(A)', correct: false },
+            { text: '60 watts(W)', correct: false },
+            { text: '10 volts(V)', correct: false },
+            { text: '3000 microcoulombs(C)', correct: true },
         ],
-        explanation: 'Explantion: The arrow is to indicate the direction of electrons (opposite to the direction of conventional current flow).'
+        explanation: 'Explanation: The relationship of an electronic charge to voltage, current and power can be represented by Answers Equation.'
     },
     {
-        question: 'Neglecting Channel Length Modulation, if the transconductance of a MOSFET increases, the output impedance of the follower stage?',
+        question: 'Which one of the following is an active element?',
         answers: [
-            { text: 'increase', correct: false },
-            { text: 'decrease', correct: true },
-            { text: 'increase linearly', correct: false },
-            { text: 'decrease non-linearly', correct: false }
+            { text: '10 V power supply', correct: true },
+            { text: '25 pF capacitor', correct: false },
+            { text: '15 kOhm resistor', correct: false },
+            { text: '10 mH inductor', correct: false }
         ],
-        explanation: 'Explantion: The output impedance of a follower stage is (1/gm || Rd). If the transconductance increases, the output impedance will decrease, as can be seen from the formulae.'
+        explanation: 'Explanation: Active elements are electronic devices that can create energy.Passive elements are electronic devices that cannot create energy.'
     },
     {
-        question: 'If p-transistor is conducting and has small voltage between source and drain, then the it is said to work in',
+        question: 'Which one of the following could be used to represent the units of conductance(G)',
         answers: [
-            { text: 'linear region', correct: false },
-            { text: 'saturation region', correct: false },
-            { text: 'non saturation resistive region', correct: true },
-            { text: 'cut-off region', correct: false },
+            { text: 'Mho', correct: false },
+            { text: 'Inverted Greek letter Omega', correct: false },
+            { text: 'Siemens', correct: false },
+            { text: 'All of these', correct: true },
         ],
-        explanation: 'Explantion: If p-transistor is conducting and has small voltage between source and drain, then it is said to be in unsaturated resistive region.'
+        explanation: 'Explanation: Conductance(G) is the inverse of resistance(R): G = 1/R.'
     },
     {
-        question: 'An n-channel MOSFET operating with VOV=0.5V exhibits a linear resistance = 1 kΩ when VDS is very small. What is the value of the device transconductance parameter kn?',
+        question: 'What law is described by the following equation: Voltage(v) = Current(i) x Resistance(R).',
         answers: [
-            { text: '2 mA/V^2', correct: true },
-            { text: '20 mA/V^2', correct: false },
-            { text: '0.2 A/V^2', correct: false },
-            { text: '2 A/V^2', correct: false }
+            { text: 'Ohm\'s Law', correct: true },
+            { text: 'Kirchhoff\'s Current Law', correct: false },
+            { text: 'Kirchhoff\'s Voltage Law', correct: false },
+            { text: 'Law of Superposition', correct: false }
         ],
-        explanation: 'Explantion: Use the standard mathematical expression to determine the value of kn. '
+        explanation: 'Explanation: This law states that the potential difference (v) across an ideal conductor is proportional to the current (i) through it.'
     },
     {
-        question: 'For MOSFET is to be used as a switch then it must operate in',
+        question: 'Which one of the following equations could be used to calculate the power absorbed by a resistor?',
         answers: [
-            { text: 'Cut-off region', correct: false },
-            { text: 'Triode region', correct: false },
-            { text: 'Saturation region', correct: false },
-            { text: ' Both cut-off and triode region can be used', correct: true }
+            { text: 'Power(p) = Current squared(i²) x Resistance(R)', correct: false },
+            { text: 'Power(p) = Voltage(v) x Current(i)', correct: false },
+            { text: 'All of these', correct: true },
+            { text: 'Power(p) = Voltage squared(v²) / Resistance(R)', correct: false }
         ],
-        explanation: 'Explantion: In both regions it can perform the task of a switch. '
+        explanation: 'Explanation: p = dw/dt = dw/dq(v) x dq/dt(i). By using variations of Ohm law (v=iR and i=v/R), the other two equations can also be formed. '
     },
 ]
 
@@ -285,7 +287,7 @@ function appendPre(message) {
 
 
 
-const test = 'Chapter1';
+const test = 'Chapter2';
 const date = new Date().toLocaleString();
 
 

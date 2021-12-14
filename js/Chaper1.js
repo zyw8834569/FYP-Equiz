@@ -187,5 +187,5 @@ function showAlert() {
   })
 }
 
-
+alert("Your Quiz has been successfully submitted!,Go back to home page");
 

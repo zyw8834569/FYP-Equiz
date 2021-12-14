@@ -309,7 +309,7 @@ function submitResult() {
         var result = response.result;
         console.log(`${result.updatedCells} cells updated.`);
     });
-
+    alert("Your Quiz has been successfully submitted!,Go back to home page");
 }
 
 

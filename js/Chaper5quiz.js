@@ -69,62 +69,64 @@ const proceed = document.getElementById('proceed')
 let shuffledQuestions, currentQuestionIndex
 const questions = [
     {
-        question: 'In CMOS fabrication, nMOS and pMOS are integrated in same substrate?',
+        question: 'What is static CMOS?',
         answers: [
-            { text: 'True', correct: true },
-            { text: 'False', correct: false }
+            { text: 'Logic circuit', correct: false },
+            { text: 'It always being connected to either VCC', correct: false },
+            { text: 'it always being connected to either VCC or GND', correct: false },
+            { text: 'logic circuit design technique whereby the output is always strongly driven', correct: true },
         ],
-        explanation: 'Explanation: In CMOS fabrication, nMOS and pMOS are integrated in the same chip substrate. n-type and p-type devices are formed in the same structure.'
+        explanation: 'Explanation: due to it always being connected to either VCC or GND (except when switching).'
     },
     {
-        question: 'The arrow on the symbol of MOSFET indicates?',
+        question: 'What is Dynamic CMOS?',
         answers: [
-            { text: 'that it is a N-channel MOSFET', correct: false },
-            { text: 'the direction of electrons', correct: true },
-            { text: ' the direction of conventional current flow', correct: false },
-            { text: 'that it is a P-channel MOSFET', correct: false },
+            { text: 'Logic circuit', correct: false },
+            { text: 'It always being connected to either VCC', correct: false },
+            { text: 'It always being connected to either VCC or GND', correct: false },
+            { text: 'Relies on the temporary storage of signal using various load capacitances', correct: true },
         ],
-        explanation: 'Explanation: The arrow is to indicate the direction of electrons (opposite to the direction of conventional current flow).'
+        explanation: 'Explanation: Dynamic CMOS logic circuits are mostly used in VLSI chips. It provides highest performance compared to different logic families like TTL, ECL.'
     },
     {
-        question: 'Neglecting Channel Length Modulation, if the transconductance of a MOSFET increases, the output impedance of the follower stage?',
+        question: 'A static CMOS circuit is composed of two networks?',
         answers: [
-            { text: 'increase', correct: false },
-            { text: 'decrease', correct: true },
-            { text: 'increase linearly', correct: false },
-            { text: 'decrease non-linearly', correct: false }
+            { text: 'pull-up network (PUN)', correct: false },
+            { text: 'pull-down network (PDN)', correct: false },
+            { text: 'pull-down network (PDN) & pull-up network (PUN)', correct: true },
+            { text: 'Not in the list', correct: false }
         ],
-        explanation: 'Explanation: The output impedance of a follower stage is (1/gm || Rd). If the transconductance increases, the output impedance will decrease, as can be seen from the formulae.'
+        explanation: 'Explanation: (PUN) is set of PMOS transistors connected between Vcc and the output line.(PDN) is set of NMOS transistors connected between GND and the output line'
     },
     {
-        question: 'If p-transistor is conducting and has small voltage between source and drain, then the it is said to work in',
+        question: 'What makes dynamic CMOS circuits faster than static CMOS circuit?',
         answers: [
-            { text: 'linear region', correct: false },
-            { text: 'saturation region', correct: false },
-            { text: 'non saturation resistive region', correct: true },
-            { text: 'cut-off region', correct: false },
+            { text: 'load per fan-in', correct: true },
+            { text: 'Capacitance', correct: false },
+            { text: 'Resistor', correct: false },
+            { text: 'Diode', correct: false },
         ],
-        explanation: 'Explanation: If p-transistor is conducting and has small voltage between source and drain, then it is said to be in unsaturated resistive region.'
+        explanation: 'Explanation: load per fan-in, the load capacitance for the circuit is substantially lower than for static CMOS.'
     },
     {
-        question: 'An n-channel MOSFET operating with VOV=0.5V exhibits a linear resistance = 1 kΩ when VDS is very small. What is the value of the device transconductance parameter kn?',
+        question: 'Which is used in dynamic CMOS logic?',
         answers: [
-            { text: '2 mA/V^2', correct: true },
-            { text: '20 mA/V^2', correct: false },
-            { text: '0.2 A/V^2', correct: false },
-            { text: '2 A/V^2', correct: false }
+            { text: 'four phase clock', correct: true },
+            { text: 'one phase clock', correct: false },
+            { text: 'two phase clock', correct: false },
+            { text: 'three phase clock', correct: false }
         ],
-        explanation: 'Explanation: Use the standard mathematical expression to determine the value of kn. '
+        explanation: 'Explanation: In dynamic CMOS logic, four phase clock is used in which actual signals are used to derive the clocks. '
     },
     {
-        question: 'For MOSFET is to be used as a switch then it must operate in',
+        question: 'What are the advantages of dynamic CMOS circuits compared to static CMOS circuits?',
         answers: [
-            { text: 'Cut-off region', correct: false },
-            { text: 'Triode region', correct: false },
-            { text: 'Saturation region', correct: false },
-            { text: ' Both cut-off and triode region can be used', correct: true }
+            { text: 'transistors required here are less (N+2)', correct: false },
+            { text: 'a ratio less circuit as in case of Static', correct: false },
+            { text: 'static power loss is very less in a dynamic logic circuit', correct: false },
+            { text: 'All of above', correct: true }
         ],
-        explanation: 'Explanation: In both regions it can perform the task of a switch. '
+        explanation: 'Explanation: Static CMOS circuits use complementary nMOS pulldown and pMOS pullup networks to implement logic gates or logic functions in integrated circuits.'
     },
 ]
 

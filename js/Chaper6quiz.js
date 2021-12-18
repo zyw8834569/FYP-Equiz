@@ -69,63 +69,45 @@ const proceed = document.getElementById('proceed')
 let shuffledQuestions, currentQuestionIndex
 const questions = [
     {
-        question: 'In CMOS fabrication, nMOS and pMOS are integrated in same substrate?',
+        question: 'VLSI Design - Sequential MOS Logic Circuits?',
         answers: [
-            { text: 'True', correct: true },
-            { text: 'False', correct: false }
+            { text: 'Combinational Circuits', correct: false },
+            { text: 'Sequential Circuits', correct: false },
+            { text: 'All of above', correct: true }
         ],
-        explanation: 'Explanation: In CMOS fabrication, nMOS and pMOS are integrated in the same chip substrate. n-type and p-type devices are formed in the same structure.'
+        explanation: 'Explanation: Logic circuits are divided into two categories (a) Combinational Circuits, and (b) Sequential Circuits.'
     },
     {
-        question: 'The arrow on the symbol of MOSFET indicates?',
+        question: 'What are sequential circuits?',
         answers: [
-            { text: 'that it is a N-channel MOSFET', correct: false },
-            { text: 'the direction of electrons', correct: true },
-            { text: ' the direction of conventional current flow', correct: false },
-            { text: 'that it is a P-channel MOSFET', correct: false },
+            { text: 'special type of circuit', correct: false },
+            { text: 'a series of inputs and outputs', correct: false },
+            { text: 'sequential circuits depend on both the combination of present inputs', correct: false },
+            { text: 'All of above', correct: true }
         ],
-        explanation: 'Explanation: The arrow is to indicate the direction of electrons (opposite to the direction of conventional current flow).'
+        explanation: 'Explanation: The outputs of the sequential circuits depend on both the combination of present inputs and previous outputs. The previous output is treated as the present state.'
     },
     {
-        question: 'Neglecting Channel Length Modulation, if the transconductance of a MOSFET increases, the output impedance of the follower stage?',
+        question: 'What is sequential circuit with example?',
         answers: [
-            { text: 'increase', correct: false },
-            { text: 'decrease', correct: true },
-            { text: 'increase linearly', correct: false },
-            { text: 'decrease non-linearly', correct: false }
+            { text: 'combinational logic circuits', correct: false },
+            { text: 'sequential logic circuits', correct: false },
+            { text: 'clocks', correct: false },
+            { text: 'flip-flop, register, counter, clocks', correct: true }
         ],
-        explanation: 'Explanation: The output impedance of a follower stage is (1/gm || Rd). If the transconductance increases, the output impedance will decrease, as can be seen from the formulae.'
+        explanation: 'Explanation: Combinational circuits produce outputs immediately when their input changes. Sequential circuits require clocks to control their changes of state.'
     },
     {
-        question: 'If p-transistor is conducting and has small voltage between source and drain, then the it is said to work in',
+        question: 'What is sequential circuit and its types?',
         answers: [
-            { text: 'linear region', correct: false },
-            { text: 'saturation region', correct: false },
-            { text: 'non saturation resistive region', correct: true },
-            { text: 'cut-off region', correct: false },
+            { text: 'All of above', correct: true },
+            { text: 'synchronous', correct: false },
+            { text: 'asynchronous', correct: false },
+            { text: 'synchronous & asynchronous', correct: false }
         ],
         explanation: 'Explanation: If p-transistor is conducting and has small voltage between source and drain, then it is said to be in unsaturated resistive region.'
     },
-    {
-        question: 'An n-channel MOSFET operating with VOV=0.5V exhibits a linear resistance = 1 kΩ when VDS is very small. What is the value of the device transconductance parameter kn?',
-        answers: [
-            { text: '2 mA/V^2', correct: true },
-            { text: '20 mA/V^2', correct: false },
-            { text: '0.2 A/V^2', correct: false },
-            { text: '2 A/V^2', correct: false }
-        ],
-        explanation: 'Explanation: Use the standard mathematical expression to determine the value of kn. '
-    },
-    {
-        question: 'For MOSFET is to be used as a switch then it must operate in',
-        answers: [
-            { text: 'Cut-off region', correct: false },
-            { text: 'Triode region', correct: false },
-            { text: 'Saturation region', correct: false },
-            { text: ' Both cut-off and triode region can be used', correct: true }
-        ],
-        explanation: 'Explanation: In both regions it can perform the task of a switch. '
-    },
+
 ]
 
 function start() {

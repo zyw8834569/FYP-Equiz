@@ -74,7 +74,7 @@ const questions = [
             { text: 'Logic circuit', correct: false },
             { text: 'It always being connected to either VCC', correct: false },
             { text: 'it always being connected to either VCC or GND', correct: false },
-            { text: 'logic circuit design technique whereby the output is always strongly driven', correct: true },
+            { text: 'logic circuit design technique whereby the output is always strongly driven', correct: true }
         ],
         explanation: 'Explanation: due to it always being connected to either VCC or GND (except when switching).'
     },
@@ -84,7 +84,7 @@ const questions = [
             { text: 'Logic circuit', correct: false },
             { text: 'It always being connected to either VCC', correct: false },
             { text: 'It always being connected to either VCC or GND', correct: false },
-            { text: 'Relies on the temporary storage of signal using various load capacitances', correct: true },
+            { text: 'Relies on the temporary storage of signal using various load capacitances', correct: true }
         ],
         explanation: 'Explanation: Dynamic CMOS logic circuits are mostly used in VLSI chips. It provides highest performance compared to different logic families like TTL, ECL.'
     },
@@ -104,7 +104,7 @@ const questions = [
             { text: 'load per fan-in', correct: true },
             { text: 'Capacitance', correct: false },
             { text: 'Resistor', correct: false },
-            { text: 'Diode', correct: false },
+            { text: 'Diode', correct: false }
         ],
         explanation: 'Explanation: load per fan-in, the load capacitance for the circuit is substantially lower than for static CMOS.'
     },

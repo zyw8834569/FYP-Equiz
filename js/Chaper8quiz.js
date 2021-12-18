@@ -69,63 +69,54 @@ const proceed = document.getElementById('proceed')
 let shuffledQuestions, currentQuestionIndex
 const questions = [
     {
-        question: 'In CMOS fabrication, nMOS and pMOS are integrated in same substrate?',
+        question: 'What is sub system design?',
         answers: [
-            { text: 'True', correct: true },
-            { text: 'False', correct: false }
+            { text: 'A model element which has the semantics of a package', correct: true },
+            { text: 'It is just a densigned technique', correct: false }
         ],
-        explanation: 'Explanation: In CMOS fabrication, nMOS and pMOS are integrated in the same chip substrate. n-type and p-type devices are formed in the same structure.'
+        explanation: 'Explanation: A subsystem realizes one or more interfaces, which define the behavior it can perform.'
     },
     {
-        question: 'The arrow on the symbol of MOSFET indicates?',
+        question: 'What is subsystem in system analysis and design?',
         answers: [
-            { text: 'that it is a N-channel MOSFET', correct: false },
-            { text: 'the direction of electrons', correct: true },
-            { text: ' the direction of conventional current flow', correct: false },
-            { text: 'that it is a P-channel MOSFET', correct: false },
+            { text: 'System can contain several subsystems', correct: false },
+            { text: 'a single, predefined operating environment through', correct: true },
+            { text: 'Subsystems manage resources', correct: false },
+            { text: 'system jobs, run within subsystems', correct: false },
         ],
-        explanation: 'Explanation: The arrow is to indicate the direction of electrons (opposite to the direction of conventional current flow).'
+        explanation: 'Explanation: A subsystem is a single, predefined operating environment through which the system coordinates the work flow and resource use.'
     },
     {
-        question: 'Neglecting Channel Length Modulation, if the transconductance of a MOSFET increases, the output impedance of the follower stage?',
+        question: 'What are the subsystem involved?',
         answers: [
-            { text: 'increase', correct: false },
-            { text: 'decrease', correct: true },
-            { text: 'increase linearly', correct: false },
-            { text: 'decrease non-linearly', correct: false }
+            { text: 'land', correct: false },
+            { text: 'Everything', correct: true },
+            { text: 'living things', correct: false },
+            { text: 'water', correct: false }
         ],
-        explanation: 'Explanation: The output impedance of a follower stage is (1/gm || Rd). If the transconductance increases, the output impedance will decrease, as can be seen from the formulae.'
+        explanation: 'Explanation: Everything in Earth system can be placed into one of four major subsystems.'
     },
     {
-        question: 'If p-transistor is conducting and has small voltage between source and drain, then the it is said to work in',
+        question: 'What are the different types of design methodologies?',
         answers: [
-            { text: 'linear region', correct: false },
-            { text: 'saturation region', correct: false },
-            { text: 'non saturation resistive region', correct: true },
-            { text: 'cut-off region', correct: false },
+            { text: 'Instructional System Design', correct: false },
+            { text: 'Design Thinking', correct: false },
+            { text: 'All of above', correct: true },
+            { text: 'Agile Design', correct: false },
         ],
-        explanation: 'Explanation: If p-transistor is conducting and has small voltage between source and drain, then it is said to be in unsaturated resistive region.'
+        explanation: 'Explanation: It includes definitions, visual models, primary focus and goals, values, main steps, and further readings.'
     },
     {
-        question: 'An n-channel MOSFET operating with VOV=0.5V exhibits a linear resistance = 1 kΩ when VDS is very small. What is the value of the device transconductance parameter kn?',
+        question: 'How do you create a design methodology?',
         answers: [
-            { text: '2 mA/V^2', correct: true },
-            { text: '20 mA/V^2', correct: false },
-            { text: '0.2 A/V^2', correct: false },
-            { text: '2 A/V^2', correct: false }
+            { text: 'All of above', correct: true },
+            { text: 'Describe your methods of data', correct: false },
+            { text: 'Explain your methodological approach', correct: false },
+            { text: 'Describe your methods of analysis', correct: false }
         ],
-        explanation: 'Explanation: Use the standard mathematical expression to determine the value of kn. '
+        explanation: 'Explanation: The methodology or methods section explains what you did and how you did it, allowing readers to evaluate the reliability and validity of your research.'
     },
-    {
-        question: 'For MOSFET is to be used as a switch then it must operate in',
-        answers: [
-            { text: 'Cut-off region', correct: false },
-            { text: 'Triode region', correct: false },
-            { text: 'Saturation region', correct: false },
-            { text: ' Both cut-off and triode region can be used', correct: true }
-        ],
-        explanation: 'Explanation: In both regions it can perform the task of a switch. '
-    },
+
 ]
 
 function start() {

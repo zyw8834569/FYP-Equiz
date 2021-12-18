@@ -69,63 +69,56 @@ const proceed = document.getElementById('proceed')
 let shuffledQuestions, currentQuestionIndex
 const questions = [
     {
-        question: 'In CMOS fabrication, nMOS and pMOS are integrated in same substrate?',
+        question: 'What are CMOS design rules?',
         answers: [
-            { text: 'True', correct: true },
-            { text: 'False', correct: false }
+            { text: 'The physical mask layout of any circuit to be manufactured', correct: false },
+            { text: 'Design rules which determine the dimensions of a minimumsize transistor', correct: false },
+            { text: 'determine the separation between the nMOS and the pMOS transistor', correct: false },
+            { text: 'All of above', correct: true }
         ],
-        explanation: 'Explanation: In CMOS fabrication, nMOS and pMOS are integrated in the same chip substrate. n-type and p-type devices are formed in the same structure.'
+        explanation: 'Explanation: Cmos design rules are need to depend on the circuit design and NMOS and CMOS'
     },
     {
-        question: 'The arrow on the symbol of MOSFET indicates?',
+        question: 'What does CMOS stand for engineering?',
         answers: [
-            { text: 'that it is a N-channel MOSFET', correct: false },
-            { text: 'the direction of electrons', correct: true },
-            { text: ' the direction of conventional current flow', correct: false },
-            { text: 'that it is a P-channel MOSFET', correct: false },
+            { text: 'metal oxide semiconductor', correct: false },
+            { text: 'Complementary metal oxide semiconductor', correct: true },
+            { text: 'complementary symmetry metal', correct: false },
+            { text: 'oxide semiconductor field', correct: false }
         ],
-        explanation: 'Explanation: The arrow is to indicate the direction of electrons (opposite to the direction of conventional current flow).'
+        explanation: 'Explanation: fabrication process that uses complementary and symmetrical pairs of p-type and n-type MOSFETs.'
     },
     {
-        question: 'Neglecting Channel Length Modulation, if the transconductance of a MOSFET increases, the output impedance of the follower stage?',
+        question: 'What is static CMOS design?',
         answers: [
-            { text: 'increase', correct: false },
-            { text: 'decrease', correct: true },
-            { text: 'increase linearly', correct: false },
-            { text: 'decrease non-linearly', correct: false }
+            { text: 'a logic circuit design technique', correct: true },
+            { text: 'output is always strongly driven', correct: false },
+            { text: 'connected to either VCC or GND', correct: false },
+            { text: 'Dynamic CMOS which relies on the temporary storage', correct: false }
         ],
-        explanation: 'Explanation: The output impedance of a follower stage is (1/gm || Rd). If the transconductance increases, the output impedance will decrease, as can be seen from the formulae.'
+        explanation: 'Explanation: Static CMOS is a logic circuit design technique whereby the output is always strongly driven due to it always being connected to either VCC or GND (except when switching).'
     },
     {
-        question: 'If p-transistor is conducting and has small voltage between source and drain, then the it is said to work in',
+        question: 'Where do we use VLSI?',
         answers: [
-            { text: 'linear region', correct: false },
-            { text: 'saturation region', correct: false },
-            { text: 'non saturation resistive region', correct: true },
-            { text: 'cut-off region', correct: false },
+            { text: 'CMOS', correct: false },
+            { text: 'PMOS', correct: false },
+            { text: 'Everywhere', correct: true },
+            { text: 'Microprocessors', correct: false }
         ],
-        explanation: 'Explanation: If p-transistor is conducting and has small voltage between source and drain, then it is said to be in unsaturated resistive region.'
+        explanation: 'Explanation: VLSI circuits are used everywhere, real applications include microprocessors in a personal computer or workstation, chips in a graphic card.'
     },
     {
-        question: 'An n-channel MOSFET operating with VOV=0.5V exhibits a linear resistance = 1 kΩ when VDS is very small. What is the value of the device transconductance parameter kn?',
+        question: 'What is the relation between IC and VLSI design?',
         answers: [
-            { text: '2 mA/V^2', correct: true },
-            { text: '20 mA/V^2', correct: false },
-            { text: '0.2 A/V^2', correct: false },
-            { text: '2 A/V^2', correct: false }
+            { text: 'the process of creating an integrated circuit (IC)', correct: true },
+            { text: 'Similar relation', correct: false },
+            { text: 'No relation', correct: false },
+            { text: 'No Correct answer', correct: false }
         ],
-        explanation: 'Explanation: Use the standard mathematical expression to determine the value of kn. '
+        explanation: 'Explanation: VLSI is the process of creating an integrated circuit (IC) by combining thousands of transistors into a single chip.'
     },
-    {
-        question: 'For MOSFET is to be used as a switch then it must operate in',
-        answers: [
-            { text: 'Cut-off region', correct: false },
-            { text: 'Triode region', correct: false },
-            { text: 'Saturation region', correct: false },
-            { text: ' Both cut-off and triode region can be used', correct: true }
-        ],
-        explanation: 'Explanation: In both regions it can perform the task of a switch. '
-    },
+
 ]
 
 function start() {

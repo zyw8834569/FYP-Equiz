@@ -84,7 +84,7 @@ const questions = [
             { text: 'I-V characteristics designed', correct: false },
             { text: 'deep-submicron', correct: false },
             { text: 'modern processes', correct: false },
-            { text: 'The I-V characteristics designed so far neglect many effects', correct: true },
+            { text: 'The I-V characteristics designed so far neglect many effects', correct: true }
         ],
         explanation: 'Explanation: The I-V characteristics designed so far neglect many effects that are important in modern deep-submicron processes.'
     },
@@ -104,7 +104,7 @@ const questions = [
             { text: 'linear region', correct: false },
             { text: 'saturation region', correct: false },
             { text: 'non saturation resistive region', correct: true },
-            { text: 'cut-off region', correct: false },
+            { text: 'cut-off region', correct: false }
         ],
         explanation: 'Explanation: If p-transistor is conducting and has small voltage between source and drain, then it is said to be in unsaturated resistive region.'
     },

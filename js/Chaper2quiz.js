@@ -74,7 +74,7 @@ const questions = [
             { text: 'deci(d)', correct: false },
             { text: 'atto(a)', correct: false },
             { text: 'femto(f)', correct: false },
-            { text: 'pico(p)', correct: true },
+            { text: 'pico(p)', correct: true }
         ],
         explanation: 'Explanation: n electrical circuit analysis, the circuit components of voltages, currents, resistances, conductances, etc. are very small.'
     },
@@ -84,7 +84,7 @@ const questions = [
             { text: '2 amperes(A)', correct: false },
             { text: '60 watts(W)', correct: false },
             { text: '10 volts(V)', correct: false },
-            { text: '3000 microcoulombs(C)', correct: true },
+            { text: '3000 microcoulombs(C)', correct: true }
         ],
         explanation: 'Explanation: The relationship of an electronic charge to voltage, current and power can be represented by Answers Equation.'
     },
@@ -104,7 +104,7 @@ const questions = [
             { text: 'Mho', correct: false },
             { text: 'Inverted Greek letter Omega', correct: false },
             { text: 'Siemens', correct: false },
-            { text: 'All of these', correct: true },
+            { text: 'All of these', correct: true }
         ],
         explanation: 'Explanation: Conductance(G) is the inverse of resistance(R): G = 1/R.'
     },

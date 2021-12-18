@@ -74,7 +74,7 @@ const questions = [
             { text: '25.0 kOhm', correct: true },
             { text: '41.7 kOhm', correct: false },
             { text: '125.0 kOhm', correct: false },
-            { text: '12.5 kOhm', correct: false },
+            { text: '12.5 kOhm', correct: false }
         ],
         explanation: 'Explanation: Knowing that resistors in parallel all contain the same voltage,1/Re = 1/R1 + 1/R2 + 1/R3 + 1/R4 + 1/R5 + ...'
     },
@@ -84,7 +84,7 @@ const questions = [
             { text: 'Volta\'s Law', correct: false },
             { text: 'Law of Superposition', correct: false },
             { text: 'Kirchhoff\'s Current Law', correct: true },
-            { text: 'Kirchhoff\'s Voltage Law', correct: false },
+            { text: 'Kirchhoff\'s Voltage Law', correct: false }
         ],
         explanation: 'Explanation: The Node Voltage method is a technique used in solving linear circuits by using Ohm\'s law and Kirchoff\'s current law. '
     },
@@ -104,7 +104,7 @@ const questions = [
             { text: '25.0 kOhm', correct: false },
             { text: '41.7 kOhm', correct: false },
             { text: '125.0 kOhm', correct: true },
-            { text: '12.5 kOhm', correct: false },
+            { text: '12.5 kOhm', correct: false }
         ],
         explanation: 'Explanation: Knowing that resistors in series all contain the same current,Re = R1 + R2 + R3 + R4 + R5 + ...'
     },

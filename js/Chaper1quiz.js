@@ -82,7 +82,7 @@ const questions = [
             { text: 'A resistor', correct: false },
             { text: 'An insulating layer', correct: true },
             { text: 'Mechanical output', correct: false },
-            { text: 'None of the above', correct: false },
+            { text: 'None of the above', correct: false }
         ],
         explanation: 'Explanation: An insulating layer is made by SiO2.'
     },
@@ -102,7 +102,7 @@ const questions = [
             { text: 'Low power requirement', correct: false },
             { text: 'ICs are considered to use minimum number of external connections', correct: false },
             { text: 'Parameter within the IC cannot be modified', correct: true },
-            { text: 'All of the above', correct: false },
+            { text: 'All of the above', correct: false }
         ],
         explanation: 'Explanation: Because IC chip is quite sensitive component.'
     },
